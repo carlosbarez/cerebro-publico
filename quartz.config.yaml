@@ -1,0 +1,313 @@
+# yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
+configuration:
+  pageTitle: Cerebro financiero
+  pageTitleSuffix: ""
+  enableSPA: true
+  enablePopovers: true
+  # Objeto vacio = ningun proveedor de analitica. Quartz lo lee como `cfg.analytics?.provider`, asi
+  # que sin `provider` no emite ni un script de terceros. No es pereza: es que el sitio publica
+  # notas de inversion y no tiene por que contar quien las lee.
+  analytics: {}
+  locale: es-ES
+  baseUrl: cerebro-publico.vercel.app
+  ignorePatterns:
+    - private
+    - templates
+    - .obsidian
+  theme:
+    # `local` significa: Quartz no baja nada de Google Fonts y los @font-face los escribimos
+    # nosotros en custom.scss. Medido en quartz/plugins/emitters/componentResources.ts:283 —
+    # con `local` el emisor no toca la red.
+    fontOrigin: local
+    cdnCaching: false
+    typography:
+      header: Saira Condensed
+      body: Spectral
+      code: Courier Prime
+    # LOS HEX NO SE ELIGEN AQUI: salen uno a uno de web/ui/tokens.css, que es el origen unico del
+    # mundo Catodo y cuyos pares texto/fondo estan verificados a AA por tests/test_ui_contraste.py.
+    # El mapeo a los nueve huecos de Quartz:
+    #   light      <- --fondo      (el fondo de la pagina)
+    #   lightgray  <- --fantasma   (los bordes; es literalmente el token de "borde tenue")
+    #   gray       <- --hueso-3    (texto apagado, aristas del grafo)
+    #   darkgray   <- --hueso-2    (cuerpo de texto)
+    #   dark       <- --hueso      (titulares e iconos)
+    #   secondary  <- --catodo     (enlaces)
+    #   tertiary   <- --bronce     (hover y visitados)
+    #   highlight  <- --rejilla    (fondo de enlace interno y de codigo)
+    #   textHighlight <- --fantasma
+    # OJO con `tertiary`: --bronce sobre --fondo da 3.0:1, no 4.5:1. Es correcto porque Quartz solo
+    # lo usa en hover y en nodos visitados del grafo, nunca en texto que haya que leer. Si algun dia
+    # se usa para texto, ese es el momento de cambiarlo, no antes.
+    colors:
+      lightMode:
+        light: "#F1EBDD"
+        lightgray: "rgba(33, 29, 23, .17)"
+        gray: "#6B6252"
+        darkgray: "#5A5142"
+        dark: "#211D17"
+        secondary: "#B34A12"
+        tertiary: "#8A6D34"
+        highlight: "rgba(138, 109, 52, .16)"
+        textHighlight: "rgba(33, 29, 23, .17)"
+      darkMode:
+        light: "#0B0F16"
+        lightgray: "rgba(237, 230, 214, .17)"
+        gray: "#8A8070"
+        darkgray: "#A79C88"
+        dark: "#EDE6D6"
+        secondary: "#FF8A3D"
+        tertiary: "#8A6D34"
+        highlight: "rgba(138, 109, 52, .14)"
+        textHighlight: "rgba(237, 230, 214, .17)"
+
+plugins:
+  - source: "@quartz-community/created-modified-date"
+    enabled: true
+    options:
+      defaultDateType: modified
+      priority:
+        - frontmatter
+        - git
+        - filesystem
+    order: 10
+  - source: "@quartz-community/syntax-highlighting"
+    enabled: true
+    options:
+      theme:
+        light: github-light
+        dark: github-dark
+      keepBackground: false
+    order: 20
+  - source: "@quartz-community/obsidian-flavored-markdown"
+    enabled: true
+    options:
+      enableInHtmlEmbed: false
+      enableCheckbox: true
+    order: 30
+  - source: "@quartz-community/github-flavored-markdown"
+    enabled: true
+    order: 40
+  - source: "@quartz-community/table-of-contents"
+    enabled: true
+    order: 50
+    layout:
+      position: right
+      priority: 30
+  - source: "@quartz-community/crawl-links"
+    enabled: true
+    options:
+      markdownLinkResolution: shortest
+    order: 60
+  - source: "@quartz-community/description"
+    enabled: true
+    order: 70
+  - source: "@quartz-community/latex"
+    enabled: true
+    options:
+      renderEngine: katex
+    order: 80
+  - source: "@quartz-community/citations"
+    enabled: false
+    order: 85
+  - source: "@quartz-community/hard-line-breaks"
+    enabled: false
+    order: 90
+  - source: "@quartz-community/ox-hugo"
+    enabled: false
+    order: 91
+  - source: "@quartz-community/roam"
+    enabled: false
+    order: 92
+  # DESACTIVADO a proposito (medido el 2026-08-25). Este plugin NO lee
+  # `configuration.theme`: tiene sus propias opciones de fuente y su propio `fontOrigin`,
+  # cuyo enum es googleFonts|selfHosted —ni siquiera acepta el `local` del tema—. Con
+  # `enabled: true` y sin opciones cae en sus defaults y pide a Google las tres tipografias
+  # POR DEFECTO de Quartz, que no son las nuestras: un tercero mirando quien lee las notas,
+  # a cambio de nada. `selfHosted` tampoco sirve: enlaza /static/fonts/quartz-fonts.css, un
+  # fichero que solo existe si el plugin baja las fuentes de Google y las procesa el mismo.
+  # No se pierde nada apagandolo: base.scss ya aplica var(--bodyFont) y var(--headerFont)
+  # (lineas 22 y 405), que salen de `theme.typography`, y los @font-face los pone custom.scss.
+  - source: "@quartz-community/quartz-fonts"
+    enabled: false
+  - source: "@quartz-themes/core"
+    enabled: false
+    options:
+      theme: tokyo-night
+      mode: both
+  - source: "@quartz-community/remove-draft"
+    enabled: true
+  - source: "@quartz-community/explicit-publish"
+    enabled: false
+  - source: "@quartz-community/alias-redirects"
+    enabled: true
+  - source: "@quartz-community/content-index"
+    enabled: true
+    options:
+      enableSiteMap: true
+      enableRSS: true
+  - source: "@quartz-community/favicon"
+    enabled: true
+  - source: "@quartz-community/og-image"
+    enabled: true
+  - source: "@quartz-community/cname"
+    enabled: true
+  - source: "@quartz-community/canvas-page"
+    enabled: true
+  - source: "@quartz-community/content-page"
+    enabled: true
+  - source: "@quartz-community/folder-page"
+    enabled: true
+  - source: "@quartz-community/tag-page"
+    enabled: true
+  - source: "@quartz-community/explorer"
+    enabled: true
+    layout:
+      position: left
+      priority: 50
+  - source: "@quartz-community/graph"
+    enabled: true
+    layout:
+      position: right
+      priority: 10
+  - source: "@quartz-community/search"
+    enabled: true
+    layout:
+      position: left
+      priority: 20
+      group: toolbar
+      groupOptions:
+        grow: true
+  - source: "@quartz-community/backlinks"
+    enabled: true
+    layout:
+      position: right
+      priority: 50
+  - source: "@quartz-community/article-title"
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 10
+  - source: "@quartz-community/content-meta"
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 20
+  - source: "@quartz-community/tag-list"
+    enabled: false
+    layout:
+      position: beforeBody
+      priority: 30
+  - source: "@quartz-community/page-title"
+    enabled: true
+    layout:
+      position: left
+      priority: 10
+  - source: "@quartz-community/darkmode"
+    enabled: true
+    layout:
+      position: left
+      priority: 30
+      group: toolbar
+  - source: "@quartz-community/reader-mode"
+    enabled: true
+    layout:
+      position: left
+      priority: 35
+      group: toolbar
+  - source: "@quartz-community/breadcrumbs"
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 5
+      condition: not-index
+  - source: "@quartz-community/comments"
+    enabled: false
+    options:
+      provider: giscus
+      options: {}
+    layout:
+      position: afterBody
+      priority: 10
+  - source: "@quartz-community/footer"
+    enabled: true
+    options:
+      links:
+        Aviso legal: /aviso-legal
+    layout:
+      position: footer
+      priority: 50
+  - source: "@quartz-community/recent-notes"
+    enabled: false
+  - source: "@quartz-community/spacer"
+    enabled: true
+    options: {}
+    order: 25
+    layout:
+      position: left
+      priority: 25
+      display: mobile-only
+  - source: "@quartz-community/bases-page"
+    enabled: true
+    options: {}
+    order: 50
+  - source: "@quartz-community/note-properties"
+    enabled: true
+    options:
+      includeAll: false
+      includedProperties:
+        - description
+        - tags
+        - aliases
+      excludedProperties: []
+      hidePropertiesView: false
+      delimiters: ---
+      language: yaml
+    order: 5
+    layout:
+      position: beforeBody
+      priority: 15
+      display: all
+  - source: "@quartz-community/unlisted-pages"
+    enabled: true
+    options: {}
+    order: 45
+  - source: "@quartz-community/encrypted-pages"
+    enabled: true
+    options:
+      iterations: 600000
+      passwordField: password
+      unlistWhenEncrypted: false
+      outputPath: static/encryptedContentIndex.json
+    order: 900
+  - source: "@quartz-community/stacked-pages"
+    enabled: false
+    layout:
+      position: afterBody
+      priority: 50
+      display: all
+layout:
+  groups:
+    toolbar:
+      priority: 35
+      direction: row
+      gap: 0.5rem
+  byPageType:
+    "404":
+      positions:
+        beforeBody: []
+        left: []
+        right: []
+    content: {}
+    folder:
+      exclude:
+        - reader-mode
+      positions:
+        right: []
+    tag:
+      exclude:
+        - reader-mode
+      positions:
+        right: []
+    canvas: {}
+    bases: {}

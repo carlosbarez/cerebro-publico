@@ -1,0 +1,338 @@
+---
+title: "Merck & Co., Inc. (MRK)"
+tipo: analisis-accion
+tags: [empresa, farma, eeuu]
+fecha: 2026-08-15
+fuentes: []
+---
+
+<!-- Migrado desde cache ponytail: MRK.md · generado por agente autonome (sesion ponytail 2026-08-15) -->
+
+# Merck & Co., Inc. (MRK)
+
+> Fecha de corte: 2026-08-15 · Moneda: dólar estadounidense (USD)
+> Sector: Farmacéutico (Drug Manufacturers – General) · País/Región: Estados Unidos · Bolsa: NYSE (componente del Dow Jones, S&P 100 y S&P 500)
+
+---
+
+## 1. Ficha rápida
+
+| Campo | Valor |
+|---|---|
+| Ticker / Bolsa | MRK / NYSE (EE. UU.) |
+| Sector / Industria | Salud / Farmacéutica (fabricante de medicamentos) |
+| País / Región | Estados Unidos (opera como MSD fuera de EE. UU. y Canadá) |
+| Moneda de reporte | USD |
+| Capitalización bursátil | ≈ US$335,1 mil millones (14 ago 2026, Yahoo Finance) |
+| Precio | US$135,84 (cierre NYSE 14 ago 2026, Yahoo Finance; after-hours $135,80) |
+| Rango 52 semanas | US$77,58 – US$135,97 (a 14 ago 2026, Yahoo Finance) |
+| PER (TTM, GAAP) | ≈ 108,7x (14 ago 2026, Yahoo Finance). Distorsionado por cargos extraordinarios de 2026 — ver sección 5 |
+| PER adelantado (no-GAAP) | ≈ 15,7x según stockanalysis.com (14 ago 2026) [NO VERIFICADO — depende de la estimación de BPA usado; ver nota en §6] |
+| Rendimiento por dividendo | ≈ 2,5%–2,6% (dividendo anualizado US$3,40; 14 ago 2026) |
+| CEO | Robert M. Davis (chairman, presidente y CEO) |
+| CFO | Caroline Litchfield |
+| Sede | Rahway, Nueva Jersey, EE. UU. |
+| Empleados | ≈ 73.000 (Yahoo Finance) / ≈ 75.000 (Wikipedia, 2025) |
+| Ejercicio fiscal | Enero–diciembre (cierre 31 dic) |
+| Beta (5 años, mensual) | 0,21 (Yahoo Finance) |
+
+*Nota de veracidad: los precios y múltiplos son instantáneas al 14 ago 2026 y cambian cada sesión. Toda cifra de mercado debe re-verificarse antes de una decisión.*
+
+---
+
+## 2. Descripción de la empresa
+
+### 2.1 Qué es
+
+Merck & Co., Inc. es una farmacéutica estadounidense fundada en 1891 en Nueva York como filial de la casa alemana Merck (Darmstadt), expropiada por el Gobierno de EE. UU. durante la Primera Guerra Mundial (1917) y recomprada en subasta en 1919 por la familia Merck junto con [[goldman-sachs|Goldman Sachs]] y Lehman Brothers. Desde entonces es una compañía independiente, aunque mantiene una disputa de marca histórica con su antigua matriz alemana ([[merck-kgaa|Merck KGaA]], que opera como EMD en EE. UU.). Fuera de EE. UU. y Canadá opera bajo el nombre Merck Sharp & Dohme (MSD).
+
+En 1953 se fusionó con Sharp & Dohme (llevando a Merck a ser el mayor fabricante farmacéutico estadounidense de su época). Entre sus hitos científicos destacan la estreptomicina (1943, con la Universidad Rutgers), las vacunas de sarampión/paperas/rubéola (Maurice Hilleman, años 60-70), la lovastatina, la ivermectina (premio Nobel a sus desarrolladores) y, en la era moderna, la inmunoterapia Keytruda (pembrolizumab, aprobada por la FDA en 2014). En 2009 absorbió Schering-Plough (~US$41 mil millones). En 2021 escindió Organon (mujer y biosimilares) y compró Acceleron Pharma (Winrevair). Desde 2022-2026 ha acelerado adquisiciones de biotecnología (ver §7).
+
+### 2.2 Qué vende y a quién
+
+Sus ingresos provienen principalmente de:
+- **Oncología**: Keytruda (pembrolizumab), el fármaco recetado más vendido del mundo, y su versión subcutánea Keytruda QLEX; además Welireg, combinaciones con Lenvima (Eisai) y con Lynparza ([[astrazeneca|AstraZeneca]]), y el ADC sac-TMT (co-desarrollado con Kelun-Biotech).
+- **Vacunas**: Gardasil/Gardasil 9 (VPH), vacunas de sarampión-paperas-rubéola-varicela (M-M-R II, ProQuad, Varivax), vacunas neumocócicas (Vaxneuvance, Capvaxive), RotaTeq y el anticuerpo monoclonal RSV Enflonsia (clesrovimab, lanzado para lactantes).
+- **Salud animal**: productos ganaderos y de animales de compañía (Bravecto, etc.), bajo la unidad Merck Animal Health (compite con Zoetis, Elanco, Boehringer Ingelheim).
+- **Otras áreas humanas**: cardiometabólico (Januvia/Janumet en diabetes —con competencia genérica inminente en 2026—, Winrevair para hipertensión arterial pulmonar, LIPFENDRA, el primer PCSK9 oral aprobado), VIH (nuevo régimen oral de dos fármacos Edvinzo), hospitalaria (Bridion), cardiovascular/neurología, y colaboraciones (Daiichi Sankyo para ADCs, AstraZeneca, Gilead para islatravir+lenacapavir, Moderna, LaNova).
+
+Vende a hospitales, médicos, farmacias, gobiernos (inmunización) y distribuidores, con cobertura global; EE. UU. es su mercado principal.
+
+---
+
+## 3. Modelo de negocio
+
+### 3.1 Segmentos de ingresos (ejercicio fiscal 2025, salvo indicación)
+
+Datos de ingresos por producto principal (millones USD, FY2025; fuente: stockanalysis.com / S&P Global Market Intelligence; elaboración con datos agregados de la empresa):
+
+| Producto / familia | Ventas FY2025 | Ventas TTM (jun 2026) | % aprox. FY2025 |
+|---|---|---|---|
+| Keytruda + Keytruda QLEX (oncología) | 31.681 | 32.919 | ~49% |
+| Gardasil/Gardasil 9 (vacuna VPH) | 5.233 | 5.018 | ~8% |
+| Salud animal (total) | 6.354 | 6.686 | ~10% |
+| Januvia/Janumet (diabetes) | 2.544 | 2.128 | ~4% |
+| M-M-R II/ProQuad/Varivax (vacunas) | 2.451 | 2.433 | ~4% |
+| Bridion (hospitalaria) | 1.841 | 1.907 | ~3% |
+| Winrevair (HAP) | 1.443 | 1.940 | ~2% |
+| Lynparza (alianza con AstraZeneca) | 1.450 | 1.474 | ~2% |
+| Lenvima (alianza con Eisai) | 1.053 | 1.069 | ~2% |
+| Otros productos | 515 | 320 | ~1% |
+| **Total ingresos** | **65.011** | **66.569** | **100%** |
+
+La concentración en Keytruda es la característica central del modelo: representó ~46% de los ingresos de 2024 (US$29,5 mil millones) según el 10-K citado por Wikipedia, y ~49% en 2025 según los datos de producto. Wikipedia, citando el 10-K, señala que en 2024 Keytruda era el 46% de los ingresos, Gardasil el 13% y la salud animal el 9%. **Nota: los porcentajes por segmento son estimaciones derivadas de datos de ventas por producto; los segmentos oficiales de reporte (Human Health, Animal Health) pueden diferir.**
+
+### 3.2 Cómo gana dinero
+
+- **Precios e innovación**: medicamentos y vacunas patentados con poder de fijación de precios en mercados con reembolso, mitigado en EE. UU. por la reforma de precios (Inflation Reduction Act / Medicare) y la "most-favored-nation" (MFN) invocada por la administración estadounidense.
+- **Canales**: ventas institucionales (hospitales, ONG de vacunación, Gobiernos tipo UNICEF/CDC), farmacia y especialidad, distribución mayorista.
+- **Alianzas de riesgo compartido**: royalties de colaboraciones (Lynparza con AstraZeneca, Lenvima con Eisai, ADCs con Daiichi Sankyo, sac-TMT con Kelun-Biotech; ISL/LEN con Gilead).
+- **Enfoque en etapas tempranas del cáncer**: expansión de Keytruda a adyuvancia/neoadyuvancia (13 indicaciones de estadio temprano), lo que alarga el ciclo de vida y suaviza el "acantilado de patentes".
+
+### 3.3 Ventajas competitivas / foso
+
+- **Keytruda**: estándar de cuidado en inmuno-oncología con decenas de indicaciones aprobadas; el desplazamiento por biosimilares a partir de 2028 suele ser gradual ("más una colina que un precipicio", en palabras del CEO Rob Davis; Reuters 4 ago 2026).
+- **Pipeline ancho**: >20 productos nuevos con una oportunidad comercial declarada por la compañía de >US$70 mil millones hacia mediados de la década de 2030 (mencionado en la llamada de resultados Q2 2026).
+- **Vacunas**: plataforma de fabricación de vacunas pediátricas (líder mundial en sarampión/paperas/rubéola) y Gardasil, con competencia limitada en VPH de 9 valencias.
+- **I+D y escala**: laboratorios propios (Merck Research Laboratories), gasto elevado en I+D y capacidad de "business development" para reponer el pipeline (compras de Terns, Cidara, EyeBio, etc.).
+- **Salud animal**: negocio de margen alto y defensivo (Antelliq, Allflex) que diversifica el riesgo de patentes humanas.
+
+---
+
+## 4. Panorama de mercado y competencia
+
+### 4.1 Tamaño de mercado y posición
+
+El mercado farmacéutico mundial (humano y animal) es de cientos de miles de millones de dólares. Merck es una de las mayores farmacéuticas del mundo por ingresos: Wikipedia la sitúa en el 5º puesto de compañías biomédicas por ingresos, 65ª en el Fortune 500 y 76ª en Forbes Global 2000. Es líder absoluta en inmuno-oncología por ventas de Keytruda.
+
+### 4.2 Competidores principales (comparativa bursátil a 14 ago 2026, Yahoo Finance)
+
+| Compañía | Ticker | Precio (USD) | Cap. bursátil (USD) |
+|---|---|---|---|
+| Merck & Co. | MRK | 135,84 | ~335 mil M |
+| [[eli-lilly|Eli Lilly]] | LLY | 1.180,16 | ~1,05 billones |
+| Johnson & Johnson | JNJ | 260,35 | ~627 mil M |
+| AbbVie | ABBV | 249,46 | ~441 mil M |
+| AstraZeneca | AZN | 156,45 | ~243 mil M |
+| Amgen | AMGN | 415,21 | ~224 mil M |
+| Pfizer | PFE | 26,79 | ~153 mil M |
+| Bristol Myers Squibb | BMY | 63,83 | ~130 mil M |
+| Gilead | GILD | 138,36 | ~172 mil M |
+| [[novo-nordisk|Novo Nordisk]] | NVO | 45,89 | ~201 mil M |
+| GSK | GSK | 49,52 | ~99 mil M |
+
+*La comparación entre farmacéuticas es imperfecta por los distintos perfiles terapéuticos; sirve para situar a Merck en el grupo de megacaps de salud.*
+
+### 4.3 Competencia por franquicia (análisis del agente)
+
+- **Keytruda (PD-1)**: competidores directos son Opdivo (Bristol Myers), Imfinzi (AstraZeneca) y los PD-1 chinos (solo relevantes en China). El desafío a futuro son los biosimilares de pembrolizumab a partir de 2028 y los nuevos agentes de combinación (PD-1/VEGF como el LM-299 licenciado de LaNova, y ADCs).
+- **ADCs (sac-TMT)**: compite con Dato-DXd (Daiichi/AstraZeneca) y Trodelvy (Gilead) en Trop-2, y con Enhertu (Daiichi/AstraZeneca) en otras dianas.
+- **Gardasil**: compite con Cervarix (GSK, retirado de la mayoría de mercados; GSK no tiene vacuna VPH de 9 valencias aprobada en EE. UU.), lo que deja a Merck con posición dominante global en VPH.
+- **LIPFENDRA (PCSK9 oral)**: compite con los PCSK9 inyectables (Repatha de Amgen, Praluent de [[regeneron-pharmaceuticals|Regeneron]]/Sanofi) y con candidatos orales de [[novartis|Novartis]] y Amgen aún en desarrollo [NO VERIFICADO — fase de desarrollo sujeta a cambios].
+- **Winrevair**: líder emergente en hipertensión arterial pulmonar, compite con terapias de United Therapeutics, J&J y Bayer.
+- **Salud animal**: compite con Zoetis, Elanco y Boehringer Ingelheim.
+- **Vacunas pediátricas MMR**: competencia limitada (GSK participa en algunos mercados), pero la demanda en EE. UU. ha caído por el descenso de la vacunación infantil (ver §7).
+
+---
+
+## 5. Análisis financiero
+
+> Datos financieros en millones USD, ejercicio fiscal enero–diciembre. Fuente principal: stockanalysis.com (S&P Global Market Intelligence, actualizado tras resultados Q2 2026 publicados el 4 ago 2026). Los resultados 2026 están fuertemente afectados por cargos de adquisición (Terns: US$5,7 mil millones; Cidara: US$9,0 mil millones) que distorsionan el BPA GAAP.
+
+### 5.1 Ingresos y márgenes
+
+| Concepto | FY2021 | FY2022 | FY2023 | FY2024 | FY2025 | TTM jun-26 |
+|---|---|---|---|---|---|---|
+| Ingresos | 48.704 | 59.283 | 60.115 | 64.168 | 65.011 | 66.569 |
+| Crecimiento de ingresos | +17,3% | +21,7% | +1,4% | +6,7% | +1,3% | +4,6% |
+| Beneficio bruto | 35.238 | 42.077 | 44.200 | 49.470 | 50.196 | 50.526 |
+| Ingreso operativo | 13.893 | 20.490 | 15.974 | 24.889 | 24.467 | 23.483 |
+| Beneficio neto | 13.049 | 14.519 | 365 | 17.117 | 18.254 | 3.173 |
+| BPA diluido (USD) | 5,14 | 5,71 | 0,14 | 6,74 | 7,28 | 1,27 |
+| Margen bruto | 72,4% | 71,0% | 73,5% | 77,1% | 77,2% | 75,9% |
+| Margen operativo | 28,5% | 34,6% | 26,6% | 38,8% | 37,6% | 35,3% |
+| Margen neto | 26,8% | 24,5% | 0,6% | 26,7% | 28,1% | 4,8% |
+
+*Notas:* FY2023 el beneficio neto colapsó (US$365 millones) principalmente por cargos de adquisición/impuestos; FY2024 y FY2025 se normalizan. El margen neto TTM (4,8%) está deprimido por el cargo no deducible de Terns en Q2 2026 (el tipo impositivo efectivo de ese trimestre fue 160,3%, según la llamada de resultados).
+
+**Último trimestre (Q2 2026, resultados del 4 ago 2026, Reuters/CNBC):**
+- Ingresos: US$16,61 mil millones, +5% interanual (consenso LSEG: US$16,36 mil millones).
+- Resultado GAAP: pérdida neta de US$1,34 mil millones (US$0,54/acción) frente a beneficio de US$4,43 mil millones (US$1,76/acción) en Q2 2025, por el cargo de US$5,7 mil millones de Terns.
+- BPA ajustado no-GAAP: pérdida de US$0,13 (incluye cargo de US$2,31/acción por Terns), mejor que la pérdida esperada de US$0,27.
+- Margen bruto no-GAAP Q2: 81,1% (-1,1 p.p., por mayores reservas de inventario).
+- Ventas clave: Keytruda US$8,37 mil millones (+5%, incl. US$463 millones de Keytruda QLEX subcutáneo); Gardasil US$1,17 mil millones (+3%); MMR/varicela US$592 millones (-3%); salud animal US$1,78 mil millones (+8%); Winrevair US$588 millones (+75%); Capvaxive US$184 millones (+40%); Welireg US$271 millones (+67%); Ohtuvayre US$204 millones.
+
+### 5.2 Balance
+
+| Concepto | FY2024 | FY2025 | Actual (jun 2026) |
+|---|---|---|---|
+| Caja e inversiones | 13.689 | 14.565 | 7.141 |
+| Deuda total | 38.270 | 50.534 | 53.911 |
+| Deuda neta (caja − deuda) | −24.581 | −35.969 | −46.770 |
+| Deuda neta por acción (USD) | −9,67 | −14,35 | −18,85 |
+
+- Activos totales 2025: ≈ US$136,9 mil millones; patrimonio total 2025: ≈ US$52,6 mil millones (Wikipedia, citando el 10-K).
+- Deuda/patrimonio (mrq): 128,4% (Yahoo Finance). La deuda creció notablemente por la actividad de adquisiciones (EyeBio, Terns, Cidara, etc.).
+- La compañía afirma mantener una calificación crediticia "investment-grade" fuerte y capacidad de seguir haciendo adquisiciones (llamada Q2 2026).
+
+*Nota: los ratios de solvencia (Deuda/EBITDA, cobertura de intereses) no se han verificado con una fuente primaria a la fecha de corte [NO VERIFICADO].*
+
+### 5.3 Cash flow y rentabilidad
+
+| Concepto | FY2021 | FY2022 | FY2023 | FY2024 | FY2025 | TTM jun-26 |
+|---|---|---|---|---|---|---|
+| Flujo de caja operativo | 14.109 | 19.095 | 13.006 | 21.468 | 16.472 | 19.967 |
+| Capex | 4.448 | 4.388 | 3.863 | 3.372 | 4.112 | 3.904 |
+| FCF | 9.661 | 14.707 | 9.143 | 18.096 | 12.360 | 16.063 |
+| Margen FCF | 19,8% | 24,8% | 15,2% | 28,2% | 19,0% | 24,1% |
+
+- ROE (TTM): 6,96% (Yahoo Finance) — deprimido por los cargos de 2026.
+- ROA (TTM): 11,87% (Yahoo Finance).
+- FCF palancado (TTM): ≈ US$15,17 mil millones (Yahoo Finance).
+- *Nota:* el ROE/ROIC a 5 años es muy superior al TTM actual por los cargos de adquisición [NO VERIFICADO — no disponemos de la serie histórica completa del ROIC].
+
+### 5.4 Perfil de dividendos y recompras
+
+- Dividendo anual por acción (FY): 2,60 (2021) → 2,76 (2022) → 2,92 (2023) → 3,08 (2024) → 3,24 (2025) → **3,40 (anualizado, 2026)**. Crecimiento anual del ~5-6% (stockanalysis.com).
+- Rendimiento actual: ≈2,5%–2,6% (precio 14 ago 2026).
+- Fecha ex-dividendo próxima: 15 sep 2026; el 4º trimestre 2026 se anunció el 29 jul 2026 (Business Wire).
+- Política: la dirección reafirma "compromiso con el dividendo con objetivo de aumentarlo con el tiempo" (Q2 2026).
+- Recompras: ≈ US$3 mil millones previstos para 2026 (comunicado por el CFO en Q2 2026).
+- Payout aproximado sobre BPA no-GAAP normalizado: ~40% [NO VERIFICADO — cálculo del agente sobre cifras no-GAAP].
+
+---
+
+## 6. Valoración
+
+### 6.1 Múltiplos actuales vs históricos (a 14 ago 2026)
+
+| Múltiplo | Valor actual | Notas |
+|---|---|---|
+| PER (TTM, GAAP) | ~104,7–108,7x | Distorsionado por cargos de 2026 (Terns/Cidara) |
+| PER adelantado (no-GAAP) | ~15,7x (stockanalysis.com) | Depende de la base de BPA (2027 estimado); tratar con cautela [NO VERIFICADO] |
+| P/S (TTM) | ~4,9x | En línea con su historia reciente |
+| P/B (mrq) | ~7,7x | Alto pero típico en farma |
+| EV/EBITDA (TTM) | ~25,7x (Yahoo) | Elevado por EBITDA deprimido |
+| P/FCF | ~20,8x | stockanalysis.com |
+
+Múltiplos históricos (stockanalysis.com): PER de fin de ejercicio 14,3x (2025), 14,7x (2024), 756,9x (2023, distorsionado), 19,4x (2022), 14,8x (2021). P/S entre ~4,0x y ~5,0x en 2021–2025.
+
+### 6.2 Comparación con sector
+
+- Precio/ventas ~4,9x está en el rango medio-alto de las grandes farma comparables, por encima de Pfizer/GSK/BMS (entre ~2x y ~4x) y por debajo de Lilly (>10x) y J&J/AbbVie/AZN en el rango medio [comparación aproximada del agente basada en datos públicos de Yahoo Finance].
+- El PER adelantado de ~15,7x (si se confirma la base no-GAAP 2027) lo sitúa en la parte media del sector, reflejando el riesgo del "cliff" de Keytruda.
+
+### 6.3 Interpretación del agente (análisis del agente)
+
+La valoración por múltiplos GAAP actuales es engañosa: el PER TTM de ~106x es un artefacto de los cargos de adquisición no deducibles. Sobre beneficios no-GAAP normalizados (≈US$8,5–9 por acción estimado para 2027), la acción cotiza a un PER adelantado razonable (~15–16x), coherente con una farma de calidad que atraviesa una transición de patentes. La subida de la acción en 2026 (+29% YTD, +64% en 12 meses) ya descuenta en parte el éxito del pipeline y de Keytruda QLEX; los objetivos de precio de los analistas (media ~US$136,85–137,73; rango 105–155) apenas superan la cotización, sugiriendo que el consenso la ve cercana a su valor justo a corto plazo. La valoración no está barata, pero tampoco es excesiva si el pipeline (LIPFENDRA, sac-TMT, tulisokibart, Winrevair, HIV) cumple el escenario de >US$70 mil millones de oportunidad declarado por la compañía.
+
+---
+
+## 7. Noticias recientes y catalizadores
+
+### 7.1 Hechos relevantes de los últimos 12 meses (con fechas)
+
+- **Ene 2026**: Merck adquirió Cidara Therapeutics (cargo de US$9,0 mil millones; refuerza el programa de antiviral antigripal MK-1406). La compra se refleja en la guía de EPS 2026 (Reuters/CNBC, 4 ago 2026).
+- **Ene 2026**: el Wall Street Journal informó de conversaciones para adquirir Revolution Medicines por ~US$30 mil millones (Wikipedia). **No confirmado por Merck a fecha de corte [NO VERIFICADO — si el acuerdo no se ha cerrado, puede haber quedado sin efecto].**
+- **Mar 2026**: Merck anunció el acuerdo para comprar Terns Pharmaceuticals (completado en Q2 2026), aportando MK-4208, un candidato potencialmente "best-in-class" para leucemia mieloide crónica (comunicado de Q2 2026).
+- **Jul 2026**: aprobación por la FDA de **LIPFENDRA (enlicitide)**, el primer y único inhibidor oral de PCSK9 aprobado para reducir el LDL-C en adultos con hipercolesterolemia (vía "National Priority Review Voucher"; aprobado con dieta y ejercicio; hasta 60% de reducción de LDL sobre estatina según CORALreef Lipids). Revisión regulatoria en curso en UE y China (comunicado de Q2 2026).
+- **Jul 2026**: lanzamiento de **Edvinzo** (doravirina + islatravir, régimen oral diario de dos fármacos) para VIH suprimido virológicamente; primer retorno relevante de Merck al campo del VIH.
+- **Jul 2026 (AIDS 2026)**: resultados fase III ISLAND 1 y 2 de **islatravir + lenacapavir (con Gilead)**, apoyando el primer régimen oral una vez por semana para VIH; ISL+ULO (interno) avanza a fase III; alimatravir (PrEP oral mensual) en fase III con lectura prevista para 2027.
+- **Jul 2026**: la FDA aceptó una sBLA para **Enflonsia (clesrovimab)** en RSV para niños <2 años en segunda temporada de alto riesgo (Business Wire, 5 ago 2026).
+- **Jun 2026**: **tulisokibart** (anti-TL1A) cumplió el objetivo primario en fase III de inducción en colitis ulcerosa (ATLAS-UC) — primer anti-TL1A con dato positivo en fase III; falló en esclerosis sistémica con enfermedad pulmonar intersticial (SSc-ILD); fase II positivo en hidradenitis supurativa.
+- **Jun 2026 (ASCO)**: datos favorables de durabilidad de Keytruda; primer dato positivo de fase III del programa **sac-TMT (TroFuse-005)** en cáncer de endometrio avanzado/recurrente (supervivencia global y libre de progresión vs quimioterapia); se usará el "National Priority Review Voucher" para su solicitud.
+- **Jun/jul 2026**: aprobaciones FDA de **Keytruda + Padcev** perioperatorio en cáncer de vejiga músculo-invasivo (KEYNOTE-B15; primera y única pauta IO+ADC que prolonga supervivencia) y de **Keytruda + Welireg** adyuvante en carcinoma de células renales claras (LITESPARK-022; primera aprobación de Welireg en estadio temprano; 13 indicaciones tempranas de Keytruda).
+- **Jun 2026**: aprobación de Health Canada de Keytruda+Padcev en MIBC.
+- **4 ago 2026**: resultados Q2 2026 — ingresos US$16,61 mil millones (+5%), pérdida GAAP por cargo de Terns, subida de la guía de ingresos 2026 a US$66,3–67,3 mil millones y recorte de la guía de BPA ajustado a US$2,66–2,76 por los cargos de Terns/Cidara. El CEO insiste en que la pérdida de exclusividad de Keytruda será "más una colina que un precipicio".
+- **11 ago 2026**: orden ejecutiva del presidente Trump proponiendo dividir la vacuna MMR en tres inyecciones separadas; expertos la rechazan por falta de base científica (CNBC). Afecta al mercado de vacunas infantiles en el que Merck es líder; el CDC registra >2.500 casos de sarampión en 2026 en EE. UU.
+- **14 ago 2026**: colaboración con Sarah Cannon Research Institute para ampliar acceso a ensayos de oncología (Business Wire).
+- **Jul 2026**: colaboración con Wellcome (Hilleman Laboratories) para fabricar vacuna experimental contra la fiebre hemorrágica de Bundibugyo (ébola) (Reuters, 30 jul 2026).
+
+### 7.2 Catalizadores a futuro (análisis del agente)
+
+- **21 sep 2026**: fecha PDUFA para actualización de etiqueta de Winrevair basada en el fase III HYPERION.
+- **2H 2026**: segunda lectura de ATLAS-UC (tulisokibart en colitis ulcerosa); datos fase II en HS; datos fase III PRUNELLA de remigromig (MK-3000, agonista WNT) en edema macular diabético.
+- **2H 2026**: posibles aprobaciones de Welireg+Lenvima en carcinoma renal avanzado y de I-DXd (con Daiichi Sankyo) en cáncer de pulmón microcítico en estadio extenso.
+- **26 oct 2026**: Investor Event en ESMO (Madrid) con actualización de la cartera oncológica.
+- **2027**: lectura de los fase III de alimatravir (PrEP oral mensual); avance de ISL+ULO a fase III.
+- **2029**: potencial aprobación del antiviral antigripal MK-1406 (una dosis por temporada).
+- **Hito Q4 2026**: recepción de un pago de hito por un acuerdo de out-licensing (comentado por el CFO en Q2 2026).
+- **Vigilancia**: seguimiento de la penetración de Keytruda QLEX (objetivo interno: 30-40% de adopción en EE. UU. a finales de 2027) y del ritmo de llegada de biosimilares de pembrolizumab a partir de 2028.
+
+---
+
+## 8. Riesgos
+
+### 8.1 Riesgos específicos de la empresa
+
+- **Concentración en Keytruda (~50% de ingresos)**: la pérdida de exclusividad a partir de 2028 expone el fármaco a biosimilares más baratos (Reuters, 4 ago 2026). El CEO argumenta que será una "colina" (descenso suave y rápida vuelta al crecimiento) por la transición a Keytruda QLEX subcutáneo, cuyas formulaciones gozan de protección adicional. Si la adopción de QLEX o el lanzamiento de los nuevos productos (LIPFENDRA, sac-TMT, Winrevair) decepcionan, el perfil de ingresos 2028-2032 sufriría.
+- **Competencia genérica/biosimilar inminente en 2026**: Januvia/Janumet (diabetes) pierden exclusividad este año (CNBC, 4 ago 2026), con caída ya visible de ventas.
+- **Fallo de ensayos clínicos**: el pipeline es amplio pero inmaduro; el caso tulisokibart/SSc-ILD muestra que no todos los ensayos salen bien.
+- **Carga de deuda y capex de adquisiciones**: la deuda total pasó de ~US$38 mil millones (2024) a ~US$54 mil millones (jun 2026) por las compras; cargos de I+D de US$14,7 mil millones ya registrados en 2026 por Terns y Cidara reducen el BPA reportado.
+- **Riesgos de litigio**: historial de demandas (Vioxx, Fosamax, Medicaid) reflejado en Wikipedia; cualquier caso material nuevo afectaría la percepción.
+
+### 8.2 Riesgos sectoriales / macro
+
+- **Reforma de precios en EE. UU.** (Inflation Reduction Act): negociación de precios de Medicare de algunos fármacos, incluida la futura presión sobre Keytruda; y la política de "most-favored-nation" (MFN) aplicada por la administración a los precios de fármacos, que Merck tiene en cuenta (por ejemplo, compromiso de poner LIPFENDRA en "TrumpRx", mencionado en Q2 2026).
+- **Caída de la vacunación infantil en EE. UU.**: la demanda de vacunas MMR/varicela ha descendido (CNBC, Reuters); el intento de dividir la vacuna MMR podría erosionar el negocio de vacunas pediátricas de Merck.
+- **Presión sobre precios en mercados internacionales** y volatilidad del tipo de cambio (Merck usa cobertura de ingresos).
+- **Competencia intensa en inmuno-oncología y ADCs** (BMS, AstraZeneca, Gilead, Daiichi, Lilly).
+
+### 8.3 Riesgos regulatorios / geopolíticos
+
+- **Biosimilares y patentes**: litigios de patentes sobre pembrolizumab (QLEX) y cronogramas de entrada de biosimilares son clave; el 10-K (Item 1A) enumera los factores de riesgo detallados.
+- **Dependencia de aprobaciones de la FDA** y de autoridades de la UE/China; retrasos regulatorios (por ejemplo, el MK-1406 de la gripe, previsto para 2029) mueven la línea de crecimiento.
+- **Geopolítica**: la cartera de ADCs depende de socios en China (Kelun-Biotech) y de Daiichi Sankyo (Japón); tensiones comerciales o políticas de "onshoring" de fabricación pueden alterar la cadena de suministro (la FDA de la administración actual enfatiza el "onshoring" — mencionado en Q2 2026).
+- **Cambio político**: nuevas políticas sanitarias (orden MMR, reformas de precios) y fiscal (tipo impositivo) pueden afectar ingresos y márgenes.
+
+---
+
+## 9. Perspectiva del agente
+
+### Resumen ejecutivo
+
+Merck es una farmacéutica de primera línea con la franquicia oncológica más valiosa del mundo (Keytruda, ~US$33 mil millones TTM) y un negocio defensivo de vacunas y salud animal. 2026 es un año de transición: los cargos de adquisición (Terns, Cidara) hunden el BPA reportado, pero la guía de ingresos sube y los nuevos productos crecen con fuerza (Winrevair +75%, Welireg +67%, Capvaxive +40%, Keytruda QLEX US$463 millones solo en Q2).
+
+### Tesis a favor
+
+1. **Pipeline con de-riesgo acelerado**: LIPFENDRA (primer PCSK9 oral) aprobado en julio 2026; sac-TMT con primer dato positivo de fase III (endometrio); tulisokibart positivo en CU; ISL/LEN listo para ser el primer régimen oral semanal de VIH; Winrevair creciendo rápido. La dirección cita >US$70 mil millones de oportunidad comercial en 20+ productos.
+2. **Keytruda QLEX** como escudo del "cliff" de 2028: versión subcutánea con propia exclusividad, adoptándose ya en doble dígito en EE. UU. con objetivo 30-40% a finales de 2027.
+3. **Valoración razonable sobre no-GAAP normalizado** (~15-16x adelantado) y dividendo creciente (~2,5%) con recompras (~US$3 mil millones en 2026).
+4. Diversificación creciente más allá del humano (salud animal ~10% de ingresos).
+
+### Tesis en contra
+
+1. **Concentración extrema en Keytruda**: sin QLEX y nuevos lanzamientos, el pico de ventas (~US$33 mil millones) empezará a erosionarse desde 2028 con los biosimilares.
+2. **Margen de error reducido**: la valoración ya refleja gran parte del éxito esperado; los objetivos de consenso (~US$137) apenas superan la cotización.
+3. **Guía de EPS 2026 deprimida** (US$2,66-2,76) y deuda en aumento (~US$54 mil millones) por la oleada de compras; la dependencia de acuerdos (Kelun, Daiichi, Gilead) añade riesgo de ejecución.
+4. **Entorno regulatorio/fiscal y de vacunación adverso** en EE. UU. (MFN, reforma de precios, caída de la vacunación infantil).
+
+### Sesgo del agente (análisis del agente)
+
+**Neutral-positivo (cauteloso).** A corto plazo la acción parece razonablemente valorada (consenso a la par con la cotización); el atractivo es de medio/largo plazo: si el pipeline de >US$70 mil millones se materializa y QLEX amortigua la caída de 2028, Merck puede crecer a través de la pérdida de exclusividad. El riesgo principal es de ejecución (aprobaciones, adopción de QLEX) y el timing de los biosimilares. No es una compra evidente a estos precios, pero la tesis defensiva (dividendo creciente, salud animal, vacunas) sostiene el suelo. Este párrafo es opinión, no recomendación de inversión.
+
+---
+
+## 10. Fuentes
+
+Consultadas entre el 14 y el 15 de agosto de 2026:
+
+- Yahoo Finance — ficha MRK (precio, capitalización, PER, dividendo, rango 52 semanas, beta, estadísticas): https://finance.yahoo.com/quote/MRK/
+- Yahoo Finance — estadísticas clave MRK (PER, EV/EBITDA, ROE, deuda, FCF): https://finance.yahoo.com/quote/MRK/key-statistics/
+- stockanalysis.com — visión general MRK: https://stockanalysis.com/stocks/mrk/
+- stockanalysis.com — estados financieros (ingresos, segmentos, balance, cash flow, márgenes, dividendos, valoración): https://stockanalysis.com/stocks/mrk/financials/
+- stockanalysis.com — transcripción de la llamada de resultados Q2 2026 (4 ago 2026): https://stockanalysis.com/stocks/mrk/transcripts/553138-q2-2026/
+- Reuters — "Merck posts better-than-expected second-quarter results on Keytruda strength" (4 ago 2026): https://www.reuters.com/legal/litigation/merck-posts-better-than-expected-second-quarter-results-keytruda-strength-2026-08-04/
+- CNBC — "Merck hikes revenue outlook as new drug sales grow, but cuts profit guidance due to deal charges" (4 ago 2026): https://www.cnbc.com/2026/08/04/merck-mrk-earnings-q2-2026.html
+- CNBC — "Trump wants to split the MMR vaccine" (11 ago 2026): https://www.cnbc.com/2026/08/11/mmr-vaccine-trump-wants-to-split-childhood-shot-up.html
+- Business Wire — "U.S. FDA Accepts sBLA for ENFLONSIA (clesrovimab)" (5 ago 2026): https://www.businesswire.com/news/home/20260805331090/en/U.S.-FDA-Accepts-sBLA-for-ENFLONSIA%E2%84%A2-clesrovimab-cfor-to-Update-its-Respiratory-Syncytial-Virus-RSV-Lower-Respiratory-Tract-Disease-Indication-to-Include-Children-Under-Two-Years-at-Increased-Risk-for-Severe-RSV-for-Their-Second-Season/
+- Business Wire — "Sarah Cannon Research Institute and Merck Collaborate" (14 ago 2026): https://www.businesswire.com/news/home/20260813702734/en/Sarah-Cannon-Research-Institute-and-Merck-Collaborate-to-Expand-Access-to-Oncology-Clinical-Trials/
+- Reuters — "Merck, Wellcome partner with global health group to make Ebola vaccine" (30 jul 2026): https://www.reuters.com/business/healthcare-pharmaceuticals/merck-wellcome-partner-with-global-health-group-make-ebola-vaccine-clinical-2026-07-30/
+- Wikipedia — "Merck & Co." (historia, datos del 10-K 2025, estructura, adquisiciones): https://en.wikipedia.org/wiki/Merck_%26_Co.
+- Merck (sitio corporativo / Investors): https://www.merck.com (la URL directa de investors respondió 404 en la consulta; los comunicados oficiales se citan vía Business Wire)
+- Mercado (comparativas de competidores): fichas de PFE, AZN, ABBV, JNJ, BMY, AMGN, LLY, NVO, GILD, GSK en Yahoo Finance (14 ago 2026)
+
+---
+
+*Página generada por agente autónomo. Fecha de corte: 2026-08-15.*
+*Verificar cifras de mercado en la fuente citada antes de decisiones de inversión.*

@@ -1,0 +1,88 @@
+---
+title: "Retornos esperados: el yield manda, el retrovisor engaña"
+tipo: concepto
+tags: [retornos-esperados, yield, extrapolacion, macro, aqr, ciclo]
+fecha: 2026-07-10
+fuentes: ["[[aqr-insights]]"]
+---
+
+# Retornos esperados: el yield manda, el retrovisor engaña
+
+El cluster central de [[aqr-insights]] (serie *Understanding Return Expectations*, Ilmanen/AQR) y la
+formalización empírica de medio cerebro: **cómo se forman las expectativas de retorno y cuáles predicen de
+verdad**.
+
+## Objetivas vs. subjetivas (la distinción clave)
+
+- **Expectativas objetivas**: se infieren de precios y yields de mercado (earnings yield, dividend yield, la
+  [[prima-de-riesgo-y-beta|ERP implícita]]). **Tienen poder predictivo** a múltiples años: *yield inicial bajo
+  = retornos futuros bajos*. Es la matemática del [[flujo-de-caja-descontado|DCF]] aplicada al índice.
+- **Expectativas subjetivas**: las de las encuestas — inversores individuales y analistas **extrapolan los
+  últimos 3-10 años** (retrovisor). Sistemáticamente al revés: máximo optimismo en los picos (2000, 2021),
+  máximo miedo en los suelos (2009). Es [[mr-market]] medido con datos, y la base empírica del péndulo de
+  [[ciclos-de-mercado]] y del "Higgledy Piggledy" de [[estimacion-del-crecimiento]].
+
+Corolario demoledor: las estimaciones basadas en **crecimiento de beneficios pasado o previsto** *"han sido,
+si acaso, dañinas"* para predecir retornos. El crecimiento ya está en el precio; el yield de entrada, no.
+
+## Aplicaciones directas (alimentan [[checklist-macro-y-ciclo]])
+
+- **EE.UU. hoy**: el yield inicial es históricamente bajo y una parte creciente del retorno reciente vino de
+  **expansión de múltiplo** (no sostenible) → expectativas objetivas bajas. La descomposición del retorno en
+  "múltiplo vs. beneficio" es exactamente el marco de [[fases-del-ciclo-bursatil]]: la expansión domina la fase
+  Hope, y quien la extrapola compra en Optimism. Coincide con la cautela de Smith y
+  matiza el "no está caro" de Ackman ([[psh-2025]] argumenta vía crecimiento de BPA; AQR respondería que ese
+  argumento es justo el que históricamente falla).
+- **EE.UU. vs. resto del mundo**: valoraciones relativas en extremos; la sobreponderación de EE.UU. por su
+  historia reciente es el error de retrovisor por excelencia. Receta AQR: **small caps internacionales y
+  emergentes** ("Go Small or Go Home") — conecta con la tesis nativa de EM de [[mark-mobius]] y con la apuesta
+  de Asia de [[francisco-garcia-parames]], aunque llegan por caminos distintos (estadística de valoración vs.
+  conocimiento de terreno).
+- **Bonos**: el yield del Treasury se descompone en **inflación esperada + tipo real + prima de plazo**; a
+  diferencia de la bolsa, en tipos las expectativas **revierten a la media** (no se extrapolan) — con el matiz
+  de [[mean-aversion-de-la-renta-fija]] (ver Tensiones abajo).
+- **"Hold the Dip"**: comprar la caída pierde contra comprar-y-mantener (va contra el momentum). El "comprar
+  el miedo" de Buffett/Ackman no es *dip-buying* mecánico: es análisis de valor + horizonte + selección —
+  sin eso, la mecánica sola resta.
+- **Diversificadores**: se *sienten* como lastre (la bolsa sube la mayoría del tiempo) aunque mejoren el
+  resultado a largo plazo — el coste conductual que conecta con [[tracking-error-y-riesgo-de-carrera]].
+
+## Síntesis para el cerebro
+
+La regla operativa que une a AQR con Graham/Marks/Smith: **compra yield (valoración), no historia reciente**.
+Cuando tu expectativa de retorno viene de "lo que ha hecho estos años", estás mirando el retrovisor; cuando
+viene del precio que pagas por los flujos, estás mirando la carretera. Ver [[margen-de-seguridad]],
+[[precio-vs-cotizacion]] y [[eficiencia-de-mercado]].
+
+## Tensiones
+
+- **AQR (el yield predice) vs. Siegel (~7% real casi constante a largo plazo).** Si el retorno real de la bolsa
+  es casi una constante histórica, la valoración de entrada importa menos de lo que esta página sostiene; si
+  depende del régimen (Oppenheimer: de −9% a +16% según el super-ciclo), el yield inicial es casi todo. La
+  versión larga del debate, con el matiz de que el horizonte de una vida cabe en un solo régimen, está en
+  [[retornos-a-largo-plazo-siegel-vs-oppenheimer]] y en [[super-ciclos-y-regimenes-estructurales]].
+- **"En tipos las expectativas revierten" vs. Siegel (el bono no revierte como la acción).**
+  [[mean-aversion-de-la-renta-fija]] advierte que el bono carece del mecanismo de reversión de la acción
+  (nadie "recompra" un cupón barato): la reversión del *yield* de mercado no garantiza la reversión del
+  *retorno* del bonista que compró en el pico de precio. Matiz relevante para el cuadrante de renta fija de la
+  cartera ([[renta-fija-y-tipos]]).
+- **"Comprar yield, no historia" vs. el momentum (la historia SÍ predice a corto plazo).** AQR misma documenta
+  en otro cluster que la tendencia es el factor técnico con más evidencia ([[analisis-tecnico-y-tendencia]]), y
+  aquí reconoce que "Hold the Dip" pierde *por ir contra el momentum*. La tensión se resuelve por horizontes:
+  el retrovisor funciona meses (momentum), el yield manda años (valor) — pero exige sostener dos verdades
+  aparentemente opuestas del mismo autor.
+
+## Tensiones
+
+- **Yield inicial vs. ciclo de deuda.** La lógica de los retornos esperados dice que el precio de entrada manda; el ciclo de deuda de [[ray-dalio]] añade que la fase del sistema puede desplazar los retornos por encima o por debajo de lo que el yield parece sugerir. La tensión es real porque el mercado puede ser barato y seguir siendo un mal lugar para estar si el sistema se está desarmando.
+- **Retornos esperados vs. calidad de beneficios.** Un múltiplo barato puede esconder un beneficio no fiable; esa es la razón de conectar esta página con [[contabilidad-y-calidad-de-beneficios]] y con [[margen-de-seguridad]].
+- **Retornos esperados vs. momentum.** AQR y el corpus de valoración prefieren el yield de entrada; el factor [[factor-momentum]] demuestra que el retrovisor corto puede dominar en mercados muy calientes. Aquí el cerebro no los resuelve, los mantiene en tensión por horizonte.
+
+## Ver también
+
+- [[jeremy-grantham]] — la reversión de márgenes y valoraciones altas -> retornos futuros pobres (GMO 7-year forecasts)
+- [[retornos-a-largo-plazo-siegel-vs-oppenheimer]] — el debate madre: ¿constante histórica o dependiente del régimen?
+
+- [[checklist-macro-y-ciclo]] · [[ciclos-de-mercado]] · [[prima-de-riesgo-y-beta]] · [[estimacion-del-crecimiento]]
+- [[cliff-asness]] · [[mr-market]] · [[ilusion-de-los-activos-privados]] · [[fases-del-ciclo-bursatil]] · [[mark-mobius]] ·
+  [[contabilidad-y-calidad-de-beneficios]] · [[margen-de-seguridad]] · [[factor-momentum]] · [[ray-dalio]]

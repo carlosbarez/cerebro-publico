@@ -1,0 +1,312 @@
+---
+title: "Duke Energy Corporation (DUK)"
+tipo: analisis-accion
+tags: [empresa, utilities, eeuu]
+fecha: 2026-08-15
+fuentes: []
+---
+
+<!-- Migrado desde cache ponytail: DUK.md · generado por agente autonome (sesion ponytail 2026-08-15) -->
+
+# Duke Energy Corporation (DUK)
+
+> Fecha de corte: 2026-08-15 · Moneda: USD
+> Sector: Utilities (Eléctricas reguladas) · País/Región: EE. UU. (Sureste y Midwest) · Bolsa: NYSE
+
+---
+
+## 1. Ficha rápida
+
+| Campo | Valor |
+|---|---|
+| Ticker / Bolsa | DUK / NYSE (componente S&P 500, S&P 100 y Dow Jones Utility Average) |
+| Sector / Industria | Utilities · Electric Utilities–Regulated |
+| País / Región | Estados Unidos (electricidad: Carolina del Norte, Carolina del Sur, Florida, Indiana, Ohio y Kentucky; gas: NC, SC, OH y KY) |
+| Moneda de reporte | USD (año fiscal enero–diciembre) |
+| Capitalización bursátil | ~US$ 96,6 mil M (al 14 ago 2026, Yahoo Finance, intraday) / US$ 94,5 mil M (al 10 ago 2026, Yahoo Statistics) |
+| Precio | US$ 123,92 cierre (14 ago 2026, NYSE, Yahoo Finance); after-hours US$ 124,15 |
+| Rango 52 semanas | US$ 113,90 – 134,49 (al 14 ago 2026, Yahoo Finance) |
+| PER | 18,78 (TTM, al 14 ago 2026, Yahoo Finance); trailing 18,25 y forward 18,08 (al 10 ago 2026, Yahoo Statistics) |
+| Rendimiento por dividendo | 3,49–3,50 % (dividendo anualizado US$ 4,34; al 14 ago 2026, Yahoo Finance/StockAnalysis) |
+| CEO | Harry K. Sideris (Presidente y CEO) |
+| Chairman | Theodore F. Craver (independiente, según Reuters) |
+| CFO | Brian D. Savoy (EVP y CFO) |
+| Sede | Duke Energy Plaza, Charlotte, Carolina del Norte, EE. UU. |
+| Empleados | ~26.441 (Yahoo/StockAnalysis); la empresa declara ~26.400 (IR) |
+
+**Datos de mercado (fecha/fuente):** precio, capitalización, PER, rango 52 semanas y yield corresponden al 14 ago 2026 (Yahoo Finance / StockAnalysis, datos real-time con retraso); las medidas de valoración detalladas de Yahoo Statistics tienen fecha de corte al 10 ago 2026.
+
+---
+
+## 2. Descripción de la empresa
+
+Duke Energy es una *utility holding company* estadounidense con sede en Charlotte (NC), una de las mayores empresas energéticas de EE. UU. (Fortune 150; según Wikipedia fue la 141.ª mayor empresa de EE. UU. en 2024). Sirve a **8,7 millones de clientes de electricidad** en 6 estados (Carolina del Norte, Carolina del Sur, Florida, Indiana, Ohio y Kentucky) y a **1,6 millones de clientes de gas natural** en 4 estados (NC, SC, OH y KY), con **55.700 MW** de capacidad de generación propia (IR, 2026). Sus filiales eléctricas (Duke Energy Carolinas, Duke Energy Progress, Duke Energy Florida, Duke Energy Indiana, Duke Energy Ohio/Kentucky) y de gas (Piedmont Natural Gas, Duke Energy Ohio/Kentucky Gas) operan como *utilities* reguladas verticalmente integradas.
+
+**Historia breve relevante:**
+
+- **Orígenes (1900-1924):** nace de la Catawba Power Company y la Southern Power Company (1905), financiadas por James B. Duke; reorganizadas como Duke Power en 1924. Gran parte de la historia temprana es hidroeléctrica en la cuenca del Catawba (Wikipedia).
+- **1997:** fusión de Duke Power con PanEnergy (gas natural) da origen a Duke Energy Corporation (Wikipedia).
+- **2006:** adquiere Cinergy (Ohio/Indiana/Kentucky); en 2007 separa su negocio de gas en la spin-off Spectra Energy (Wikipedia).
+- **2012:** fusión con Progress Energy (expansión en Carolina del Sur y Florida), manteniendo sede en Charlotte (Wikipedia).
+- **2016:** compra de Piedmont Natural Gas por US$ 4,9 mil M, que la convierte en una de las mayores distribuidoras de gas del sureste; a continuación vende sus negocios internacionales en América Latina (Wikipedia).
+- **2023:** vende su negocio de renovables comerciales *unregulated* (utility-scale) a Brookfield Renewable Partners por ~US$ 2,8 mil M (completada oct 2023), quedando casi 100 % enfocada en el negocio regulado (Wikipedia/PRNewswire).
+- **2026:** 100.º año consecutivo pagando dividendo trimestral (IR, página de Dividend History).
+
+---
+
+## 3. Modelo de negocio
+
+### 3.1 Segmentos de ingresos
+
+Duke reporta tres segmentos: **Electric Utilities and Infrastructure (EU&I)**, **Gas Utilities and Infrastructure (GU&I)** y **Other** (residual, actividades no reguladas). Según datos de StockAnalysis (S&P Global Market Intelligence), últimos 12 meses (TTM) al 30 jun 2026 y ejercicio fiscal 2025:
+
+| Segmento | Ingresos TTM (US$ M) | % aprox. TTM | Ingresos FY2025 (US$ M) | % FY2025 |
+|---|---|---|---|---|
+| Electric Utilities & Infrastructure (EU&I) | 30.225 | ~91 % | 29.357 | ~91 % |
+| Gas Utilities & Infrastructure (GU&I) | 3.152 | ~9,5 % | 3.003 | ~9,3 % |
+| Other (residual) | marginal | <1 % | marginal | <1 % |
+| **Total** | **33.250** | 100 % | **32.237** | 100 % |
+
+*Nota: el mix es consistente con el informe Argus Research (2026): el negocio eléctrico regulado representa ~90 % de los ingresos. El segmento "Other" (operaciones no reguladas residuales) es marginal; su cifra exacta no fue desglosada en las fuentes consultadas [NO VERIFICADO].*
+
+### 3.2 Cómo gana dinero
+
+- **Monopolio regulado por territorio:** las filiales eléctricas operan como *utilities* verticalmente integradas con exclusividad territorial (generación, transmisión, distribución y venta minorista), con tarifas aprobadas por las comisiones estatales (North Carolina UC, South Carolina PSC, Florida PSC, Indiana URC, PUCO de Ohio, Kentucky PSC). El retorno proviene del ROE permitido sobre la base de activos de tarifa (*rate base*): cada dólar de inversión aprobado se recupera con margen regulado a lo largo de la vida útil del activo.
+- **Recuperación de costes de combustible:** el coste del gas, carbón y compras de energía se recupera vía cláusulas de ajuste automático (*fuel recovery*), lo que limita la exposición al precio de los combustibles.
+- **Gas natural regulado:** distribución tarifada vía Piedmont Natural Gas y las filiales de Ohio/Kentucky, más inversiones en gasoductos y almacenamiento.
+- **Clientes:** base mixta residencial, comercial e industrial; según Argus, aproximadamente un tercio de los GWh vendidos corresponde a clientes comerciales y un tercio de los ingresos 2025 provino de Duke Energy Carolinas.
+- **Generación mayorista regulada:** venta al por mayor a municipios y cooperativas eléctricas, integrada en el marco regulado de los estados que sirve.
+
+### 3.3 Ventajas competitivas / foso
+
+- **Monopolio territorial regulado:** barreras de entrada casi absolutas en un servicio esencial e inelástico; la competencia en su área de servicio es inexistente en la práctica.
+- **Base de clientes cautiva y estable (~8,7 M eléctricos):** ingresos recurrentes predecibles y bajo riesgo de crédito.
+- **Flota nuclear regulada relevante:** 6 estaciones nucleares (Catawba, McGuire, Oconee, Shearon Harris, Robinson y Brunswick, 11 reactores según Wikipedia) en las Carolinas; ~35 % de la generación 2025 es nuclear (Argus), una ventaja de energía limpia y firme muy valorada en la era de la demanda 24/7 de centros de datos.
+- **Escala:** 55.700 MW de capacidad y presencia en 6 estados diluyen el riesgo regulatorio geográfico y dan poder de compra y de acceso a capital.
+- **Estabilidad del dividendo:** 100 años consecutivos pagando dividendo trimestral (IR, 2026) y más de 50 años consecutivos de incrementos (ver §5.4), señal de cash flow regulado muy predecible.
+
+---
+
+## 4. Panorama de mercado y competencia
+
+### 4.1 Tamaño y dinámica del mercado
+
+El sector eléctrico regulado de EE. UU. atraviesa un punto de inflexión: tras décadas de demanda plana, el crecimiento vuelve impulsado por centros de datos/IA, electrificación y reindustrialización, sobre todo en el sureste. Para Duke esto es un cambio de era:
+
+- **Demanda de centros de datos/IA en su territorio:** las Carolinas son un polo de *data centers*. Morningstar señaló en ago 2026 que **las necesidades de capital de Duke crecen a medida que se acelera el desarrollo de centros de datos** ("Duke's Capital Needs Increasing As Data Center Development Accelerates", 8 ago 2026), y el CEO confirmó en Q2 2026 que "las cargas grandes y la inversión en infraestructura" son motores del beneficio (transcript Q2 2026).
+- **Financiación del crecimiento:** Duke anunció un programa de emisión de **~US$ 10 mil M de equity** para sostener su estrategia de crecimiento (Yahoo Scout, ago 2026), del que el primer tramo — **35 millones de *equity units* a US$ 50 = US$ 1,75 mil M** — se colocó el 10-11 ago 2026 (PRNewswire).
+- **Consolidación sectorial:** NextEra anunció en mayo de 2026 la compra de Dominion Energy por ~US$ 66,8 mil M (Reuters, 12 may 2026), la mayor operación del sector, que redefine el mapa competitivo.
+
+### 4.2 Competidores principales (capitalización al 14 ago 2026, Yahoo Finance)
+
+| Empresa | Ticker | Cap. bursátil (US$ M) | Notas |
+|---|---|---|---|
+| [[nextera-energy|NextEra Energy]] | NEE | ~179.800 | Mayor eléctrica del país; fuerte en renovables; anunció compra de Dominion (may 2026) |
+| [[southern-company|Southern Company]] | SO | ~106.800 | Sureste, ~9 M de clientes, nuclear Vogtle |
+| Duke Energy | DUK | ~96.600 | Esta ficha |
+| American Electric Power | AEP | ~68.400 | Midwest y Texas |
+| Dominion Energy | D | ~60.500 | Objetivo de adquisición de NextEra |
+| Entergy | ETR | ~50.300 | Luisiana/Mississippi/Arkansas |
+| Exelon | EXC | ~47.200 | Midwest/Pennsylvania |
+| ConEd | ED | ~40.200 | Nueva York |
+| Edison Intl | EIX | ~27.500 | California |
+| Eversource | ES | ~27.200 | Nueva Inglaterra |
+
+*PER de pares no verificados en esta revisión; comparación cualitativa solo.*
+
+### 4.3 Posición relativa
+
+Duke compite en el mismo "comercio de IA" que Southern y NextEra: utilities del sureste con regulación favorable a cargas grandes y crecimiento de demanda. Frente a Southern, Duke es comparable en escala (~8,7 M vs ~9 M de clientes eléctricos). Su diferencial es la flota nuclear regulada de las Carolinas (~35 % de la generación), que la posiciona bien para la demanda firme 24/7 de los centros de datos, pero con un mix de generación que aún depende ~18 % del carbón (Argus), más atrasada en transición que Southern (~19 % nuclear, ~14 % renovables). Respecto a NextEra, Duke es más conservadora (sin negocio renovable no regulado desde 2023) y depende casi por completo del retorno regulado.
+
+---
+
+## 5. Análisis financiero
+
+*Fuentes para esta sección: Reuters/LSEG (cuentas anuales), StockAnalysis (S&P Global Market Intelligence, datos TTM al 30 jun 2026), Yahoo Finance (TTM), comunicado de resultados Q2 2026 de Duke (4 ago 2026) y Wikipedia (10-K). Donde dos fuentes difieren (p. ej. por base contable "ingresos de explotación" vs "ingresos totales"), se indican ambas.*
+
+### 5.1 Ingresos y márgenes
+
+**Ingresos totales (S&P Global MI / StockAnalysis, US$ M):** 2021: 24.201 · 2022: 28.319 · 2023: 28.602 · 2024: 29.934 · 2025: 31.790 (+6,2 % interanual) · TTM (jun 2026): 32.803.
+**Ingresos (LSEG/Reuters, US$ M):** 2023: 29.060 · 2024: 30.357 · 2025: 32.237.
+
+*La diferencia entre LSEG y S&P en 2023-2025 (≈US$ 0,4-1,4 mil M) se explica por la base de medición (ingresos operativos vs totales).*
+
+**Resultado neto (S&P/StockAnalysis, US$ M):** 2021: 3.799 · 2022: 2.444 · 2023: 2.729 · 2024: 4.410 · 2025: 4.906 · TTM (jun 2026): 5.183. (LSEG muestra cifras algo distintas para 2023-2024 —2.520 y 5.284— por partidas no recurrentes.)
+
+**Beneficio por acción (diluido, S&P/StockAnalysis):** 2021: 4,94 · 2022: 3,17 · 2023: 3,54 · 2024: 5,71 · 2025: 6,31 · TTM: 6,66.
+
+**Márgenes (S&P/StockAnalysis):**
+
+| Indicador | TTM (jun 2026) | FY2025 | FY2024 |
+|---|---|---|---|
+| Margen pre-tax | 18,9 % | 18,0 % | 17,4 % |
+| Margen neto | 15,8 % | 15,4 % | 14,7 % |
+| Margen FCF | −13,0 % | −5,3 % | +0,2 % |
+
+**Último trimestre (Q2 2026, comunicado del 4 ago 2026):**
+- Resultado ajustado: US$ 1,43/acción vs US$ 1,31 esperado por el consenso (**+9 % sobre estimaciones**); beneficio GAAP no desglosado en el resumen consultado [NO VERIFICADO].
+- Ingresos Q2 2026: US$ 7,592 mil M vs US$ 7,68 mil M de consenso (ligeramente por debajo).
+- Motores citados por la dirección: mayor demanda eléctrica y recuperación de inversiones de infraestructura en la base tarifaria, que compensaron el aumento de gastos (Reuters).
+- **Guía 2026 reiterada:** EPS ajustado **US$ 6,55–6,80** (consenso US$ 6,70); crecimiento de EPS ajustado a largo plazo del **5–7 % hasta 2030** sobre el punto medio de 2025 (US$ 6,30), con "confianza en ganar en la mitad superior del rango a partir de 2026" (transcript Q2 2026, vía TheFly/StockAnalysis).
+
+### 5.2 Balance (deuda, efectivo, solvencia)
+
+| Concepto | TTM (jun 2026) | FY2025 | FY2024 | FY2023 |
+|---|---|---|---|---|
+| Activos totales (US$ M, LSEG) | — | 195.736 | 186.343 | 176.893 |
+| Pasivos totales (US$ M, LSEG) | — | 143.894 | 136.216 | 127.781 |
+| Deuda total (US$ M, LSEG) | — | 89.836 | 84.273 | 79.540 |
+| Deuda total (US$ M, S&P) | 92.206 | 91.107 | 85.438 | 80.645 |
+| Caja e inversiones (US$ M, S&P) | 673 | 245 | 314 | 253 |
+| Deuda neta (US$ M, S&P) | 91.533 | 90.862 | 85.124 | 80.392 |
+| Deuda/Equity (Yahoo, mrq) | 162 % | — | — | — |
+
+- **Patrimonio neto:** ~US$ 51,8 mil M (2025, activos − pasivos, LSEG), creciente por retención de resultados, pero la deuda crece más rápido.
+- **Apalancamiento alto y creciente:** la deuda total pasó de ~US$ 79,5 mil M (2023) a ~US$ 89,8-92,2 mil M (jun 2026), impulsada por el programa de capex y el crecimiento del rate base. Deuda/equity ~162 % es típico del sector regulado, aunque en el rango superior y con tendencia ascendente.
+- **Financiación:** el 10-11 ago 2026 Duke colocó **35 millones de *equity units* a US$ 50 (US$ 1,75 mil M)** dentro de un programa de ~US$ 10 mil M de equity anunciado para sostener el capex (PRNewswire/TheFly). Uso combinado de deuda y equity; la deuda total sigue a la baja como % de la estructura solo si las emisiones de capital acompañan.
+- **Ratings de crédito:** no verificados en esta revisión. [NO VERIFICADO]
+
+### 5.3 Cash flow y rentabilidad
+
+**Flujos (US$ M, S&P/StockAnalysis):**
+
+| Concepto | TTM (jun 2026) | FY2025 | FY2024 | FY2023 |
+|---|---|---|---|---|
+| CFO | 11.562 | 12.330 | 12.328 | 9.878 |
+| Capex | −15.836 | −14.024 | −12.280 | −12.604 |
+| FCF | **−4.274** | **−1.694** | +48 | −2.726 |
+
+- **FCF estructuralmente negativo** en los ejercicios de capex intensivo: el capex (~US$ 14-16 mil M/año) supera al CFO (~US$ 12 mil M/año) y el hueco se está ampliando (TTM −US$ 4,3 mil M; FCF apalancado TTM −US$ 4,5 mil M según Yahoo). **Es el hecho financiero central a vigilar:** el crecimiento y el dividendo se financian con deuda y emisiones de capital, no con cash flow libre; la cobertura del dividendo depende del CFO y del acceso continuado a financiación.
+- **Rentabilidad (Yahoo, TTM):** ROE 9,9 %; ROA 2,8 %; margen neto 16,0 %. ROE en línea con el sector regulado; ROA bajo, característico de activos intensivos.
+
+### 5.4 Perfil de dividendos y recompras
+
+- **Dividendo trimestral:** US$ 1,085/acción (ex-date 14 ago 2026, pago 16 sep 2026; subida del ~1,9 % frente a los US$ 1,065 anteriores). Dividendo anualizado: **US$ 4,34**; yield **3,49–3,50 %** (al 14 ago 2026).
+- **Historial:** **100 años consecutivos pagando dividendo trimestral** (página oficial de Dividend History de Duke: "This is the 100th consecutive year that Duke Energy has paid a quarterly cash dividend"). Más de **50 años consecutivos de incrementos** (la cifra exacta que la empresa declara —54 años consecutivos al cierre de 2025— no fue verificada directamente en una fuente consultada en esta revisión [NO VERIFICADO]; la serie de dividendos de IR consultada muestra subidas anuales ininterrumpidas en todo el período 2006-2026, ~1,9-2 % anual).
+- **Serie por ejercicio (S&P/StockAnalysis, US$):** 2021: 3,90 · 2022: 3,98 · 2023: 4,06 · 2024: 4,14 · 2025: 4,22 · actual anualizado: 4,34.
+- **Payout:** ~65 % del EPS TTM (StockAnalysis). Moderado para el sector; combinado con FCF negativo, el dividendo se paga de CFO, no de FCF.
+- **Recompras:** no material (buyback yield −0,39 %); el accionista se ve diluido por las emisiones de equity (~US$ 10 mil M planeados). La retribución al accionista es solo dividendo creciente, pero de crecimiento bajo (~2 % anual).
+
+---
+
+## 6. Valoración
+
+**Múltiplos actuales (al 10-14 ago 2026):**
+
+| Múltiplo | Valor | Fuente/fecha |
+|---|---|---|
+| PER (trailing) | 18,25-18,78 | Yahoo, 10-14 ago 2026 |
+| PER (forward) | ~18,1 | Yahoo, 10 ago 2026 |
+| P/B (mrq) | 1,76 | Yahoo, 10 ago 2026 |
+| P/S (ttm) | 2,84 | Yahoo, 10 ago 2026 |
+| EV/EBITDA (ttm) | 10,6 | Yahoo, 10 ago 2026 |
+| EV/Revenue | 5,6 | Yahoo, 10 ago 2026 |
+| EV | US$ 187,0 mil M | Yahoo, 10 ago 2026 |
+| PEG (5Y esperado) | 2,41 | Yahoo, 10 ago 2026 |
+| Yield | 3,49-3,50 % | 14 ago 2026 |
+
+**Comparación con historial propio (S&P/StockAnalysis, PER cierre de ejercicio):** FY2021: 21,2 · FY2022: 32,5 · FY2023: 27,4 · FY2024: 18,9 · FY2025: 18,6 · actual: ~18,7. El PER actual está por debajo de la media del período 2021-2023 y en línea con 2024-2025; la acción cotiza ~8 % por debajo del máximo de 52 semanas (134,49).
+
+**Consenso de analistas:** "Buy" (23 analistas, StockAnalysis); precio objetivo medio **US$ 137,74** (+11 % vs cierre actual); rango 129,00-147,00 (Yahoo). BMO mantiene "Outperform" con objetivo recortado a US$ 132 (5 ago 2026); Mizuho subió a US$ 136 (5 ago 2026); Barclays mantiene "Overweight" con objetivo a US$ 132 (5 ago 2026).
+
+**Interpretación del agente [análisis del agente]:** a ~18,7x PER, ~18,1x forward y 1,8x P/B, Duke cotiza en línea con su propio historial reciente (2024-2025) y sin la prima que muestran peers con mayor exposición a renovables/IA (Southern ~22x). Esa valoración razonable incorpora (1) un crecimiento de EPS guiado del 5-7 % anual hasta 2030, (2) el catalizador de centros de datos en las Carolinas y (3) el dividendo estable con 100 años de historia. Contrapartida: FCF negativo y ampliándose, deuda total ~US$ 92 mil M, dilución por el programa de equity de US$ 10 mil M y un yield (3,5 %) por debajo de la media histórica de la acción (~4 %). Valoración **razonable, no barata**: el retorno total esperado (yield ~3,5 % + crecimiento EPS ~5-7 %) sería de un dígito medio-alto en el escenario base sin errores de ejecución ni sorpresas regulatorias.
+
+---
+
+## 7. Noticias recientes y catalizadores
+
+**Hechos de los últimos 12 meses (con fechas):**
+
+- **14 ago 2026 — Tormentas severas en Ohio/Kentucky:** más de 360.000 hogares y negocios sin electricidad en el Midwest en un día; Duke restauró ~223.000 cortes en el Gran Cincinnati (Reuters/PowerOutage.us, 6-14 ago 2026; PRNewswire).
+- **11 ago 2026 — Emisión de *equity units*:** colocación de 35 millones de unidades a US$ 50 (US$ 1,75 mil M), dentro del programa de ~US$ 10 mil M de equity para el crecimiento (PRNewswire/TheFly).
+- **6 ago 2026 — Acuerdo en Carolina del Norte:** Duke Energy Progress alcanza un acuerdo con el *Public Staff* de NC y otras partes interesadas para una ruta de menor coste al crecimiento de la demanda, con una contribución adicional de US$ 10 M para clientes vulnerables (PRNewswire).
+- **5 ago 2026 — Resultados Q2 2026:** EPS ajustado US$ 1,43 vs US$ 1,31 esperado; ingresos US$ 7,592 mil M (ligeramente bajo consenso); guía 2026 reiterada (US$ 6,55-6,80) y crecimiento del 5-7 % hasta 2030 (TheFly/StockAnalysis, 4 ago 2026).
+- **1 jun 2026 — Fin del lease offshore wind en Carolina del Norte:** Duke acuerda con el Departamento del Interior de EE. UU. terminar su contrato en Carolina Long Bay, en línea con el giro de la administración Trump contra la eólica marina (Reuters).
+- **20 may 2026 — Nuclear y hyperscalers:** Duke confirmó conversaciones con *hyperscalers* sobre construir nueva generación nuclear si las tecnológicas asumen parte del riesgo financiero de los reactores (Reuters).
+- **12 may 2026 — Consolidación sectorial:** NextEra anunció la compra de Dominion por ~US$ 66,8 mil M, referencia de valoración para las grandes utilities (Reuters).
+- **2025 (ejercicio):** ingresos 2025 de US$ 31,79 mil M (+6,2 %) y beneficio neto US$ 4,91 mil M (+11,3 %); la empresa declaró un "mix de combustible" 2025 de ~18 % carbón, ~43 % gas natural, ~35 % nuclear y ~3 % renovables (informe Argus, 2026).
+- **30 abr 2026 — Q1 2026:** beneficio por encima de estimaciones apoyado en la demanda eléctrica (Reuters; detalle no verificado en el resumen consultado) [NO VERIFICADO en detalle].
+
+**Catalizadores a futuro:**
+
+- **Carga de centros de datos/IA** en las Carolinas: conversión del pipeline de *data centers* en contratos y aprobaciones regulatorias de interconexión; Morningstar (8 ago 2026) señala que las necesidades de capital de Duke crecen con la aceleración de este desarrollo.
+- **Expansión nuclear:** potenciales acuerdos con hyperscalers que compartan el riesgo de nueva generación nuclear (Reuters, 20 may 2026); la flota existente de 6 estaciones es un activo estratégico para demanda firme 24/7.
+- **Crecimiento del rate base regulado:** ejecución del capex (~US$ 14-16 mil M/año) y su incorporación a la base tarifaria en NC, SC, FL, IN, OH y KY.
+- **Resultados:** próximo informe trimestral estimado para el 5 nov 2026 (Yahoo Finance).
+
+---
+
+## 8. Riesgos
+
+### 8.1 Específicos de la empresa
+
+- **FCF estructuralmente negativo y creciente:** capex (~US$ 14-16 mil M/año) supera ampliamente al CFO (~US$ 12 mil M/año); FCF TTM de −US$ 4,3 mil M (apalancado −US$ 4,5 mil M). Dependencia crítica de los mercados de deuda y equity para financiar el plan; el programa de US$ 10 mil M de equity implica dilución.
+- **Apalancamiento alto:** deuda total ~US$ 90-92 mil M y deuda/equity ~162 %. Cada subida de tipos encarece el servicio de deuda (Q2 citó "mayor gasto por intereses" como lastre del beneficio).
+- **Dilución:** emisiones de *equity units* (ago 2026) y previsión de ~US$ 10 mil M de equity total; ~13 % de dilución potencial sobre las ~780 M de acciones en circulación si se ejecuta al precio actual.
+- **Riesgo regulatorio de recuperación de costes:** si las comisiones estatales limitan el ROE permitido, descargan inversiones o retrasan la incorporación al rate base, el plan de beneficios y el dividendo se resienten. Frentes activos en NC (acuerdo de ago 2026), SC y FL.
+- **Cenizas de carbón (coal ash):** costes de cierre y limpieza de los antiguos estanques de ceniza; la empresa estima los costes totales en US$ 8-9 mil M y en 2021 absorbió US$ 1,1 mil M en el acuerdo de Carolina del Norte (Wikipedia/PRNewswire). Precedente: derrame del río Dan River (2014) con multas de US$ 102 M.
+- **Eventos climáticos y de red:** tormentas severas (agosto 2026 en Ohio/Kentucky, ~360.000 cortes), huracanes en Florida/Sureste y olas de calor récord generan costes de restauración y presión tarifaria; apagones rotatorios del 24 dic 2022 (primera vez en la historia de la compañía) y ataque a subestaciones en Moore County, NC (dic 2022) muestran fragilidades de red y de [[ciberseguridad|ciberseguridad]].
+
+### 8.2 Sectoriales / macro
+
+- **Tipos de interés:** las utilities son el "bond proxy" por excelencia; deuda alta + tipos elevados (rango 4-5 % en 2026) encarecen el modelo y compiten con el yield del propio dividendo.
+- **Ciclo de demanda de IA:** si el boom de capex de centros de datos se modera, la justificación del capex récord y del programa de equity se debilita y los activos de generación/transmisión nuevos quedarían infrautilizados.
+- **Precios de combustibles:** aunque la recuperación de combustible vía tarifas protege el margen, la volatilidad del gas (43 % del mix de generación) afecta al cash flow de clientes y a la dinámica de tarifas.
+- **Competencia de generación distribuida y eficiencia:** menor crecimiento de la demanda minorista tradicional en algunos territorios.
+
+### 8.3 Regulatorios / geopolíticos / ESG
+
+- **Transición energética y normativa climática:** mix 2025 con ~18 % carbón; compromiso de eliminarlo para 2050 (net-zero 2050). Normativas de emisiones (Clean Air Act), residuos de ceniza y posible aceleración de la descarbonización pueden implicar costes adicionales o activos varados.
+- **Carga regulatoria de la demanda de IA:** debate político sobre quién paga la red (clientes residenciales vs centros de datos), que en otros estados del sureste (Georgia) ya provocó reacciones electorales y presión regulatoria.
+- **ESG/reputacional:** exclusión histórica del fondo soberano noruego por riesgos ambientales (2016); historial de litigios ambientales (Clean Air Act 2007 y 2009, cenizas de carbón 2014-2015, acuerdos por ~US$ 400 M en total según Wikipedia). Riesgo para inversores con mandatos ESG.
+- **Geopolítica/energía:** volatilidad de precios del gas por conflictos (p. ej. tensiones en el Estrecho de Ormuz en ago 2026); cambios de política energética federal (p. ej. fin del lease eólico marino en NC, jun 2026) que alteran el plan de inversión.
+- **Ciberseguridad y terrorismo:** riesgo sobre infraestructura crítica, materializado con el ataque a subestaciones de Moore County (2022).
+
+---
+
+## 9. Perspectiva del agente
+
+**Resumen ejecutivo [análisis del agente].**
+
+Duke Energy es una de las mayores *utilities* reguladas de EE. UU. (~8,7 M de clientes eléctricos, 55.700 MW, 100 años pagando dividendo y más de 50 años de subidas). El negocio es casi 100 % regulado y muy predecible: ingresos ~US$ 32-33 mil M, margen neto ~15-16 %, y un catalizador dominante — la demanda de centros de datos/IA en las Carolinas — que justifica el capex récord (~US$ 14-16 mil M/año) y un programa de financiación de ~US$ 10 mil M de equity. La flota nuclear de 6 estaciones es su ventaja diferencial para la demanda firme 24/7.
+
+**Tesis a favor:**
+1. Crecimiento de demanda estructural (IA/datacenters) con territorio regulado favorable y flota nuclear para carga firme.
+2. Negocio regulado casi puro con cash flow estable y guía de EPS del 5-7 % hasta 2030 reiterada en Q2 2026.
+3. Historial de dividendos excepcional (100 años de pagos, 50+ años de subidas, payout ~65 %).
+4. Valoración razonable (~18,7x) frente a peers con prima (~22x Southern); la acción cotiza ~8 % bajo su máximo de 52 semanas.
+
+**Tesis en contra:**
+1. FCF negativo y ampliándose (−US$ 4,3 mil M TTM) con deuda total ~US$ 92 mil M: el crecimiento se financia con deuda y dilución (~US$ 10 mil M de equity = ~13 % de las acciones), que roban parte del beneficio por acción.
+2. Yield del 3,5 % por debajo de la media histórica (~4 %): poca recompensa por esperar si el crecimiento no se materializa.
+3. Riesgo regulatorio (rate cases en NC/SC/FL) y el debate político sobre quién paga la red ante la demanda de IA.
+4. Riesgo de ciclo: si el capex de centros de datos se modera, la inversión de ~US$ 15 mil M/año pierde su retorno justificado.
+
+**Sesgo del agente [análisis del agente]:** **Neutral / Constructivo con prudencia.** Duke es un "core holding" defensivo de calidad con un catalizador real (IA) aún no plenamente descontado y una valoración razonable. El retorno total esperado (yield ~3,5 % + crecimiento EPS 5-7 %) de un dígito medio-alto es atractivo solo si se cumple la guía sin errores de ejecución ni sorpresas regulatorias; el dividendo (100 años, payout ~65 %) no parece en riesgo a corto plazo. El punto de entrada más atractivo estaría en la mitad baja del rango 52 semanas (~US$ 114-120), y el principal indicador a vigilar es la evolución del FCF y del coste de la deuda a medida que se ejecuta el plan de US$ 10 mil M de equity.
+
+---
+
+## 10. Fuentes
+
+Consultadas el 15 de agosto de 2026:
+
+- **Yahoo Finance — Ficha DUK** (precio, cap. bursátil, PER, rango 52 semanas, yield, beta, empleados, noticias, comparables, informes Argus/Morningstar): https://finance.yahoo.com/quote/DUK/
+- **Yahoo Finance — Statistics DUK** (EV, P/B, P/S, EV/EBITDA, ROE/ROA, FCF, deuda/equity; corte 10 ago 2026): https://finance.yahoo.com/quote/DUK/key-statistics/
+- **Reuters — Perfil de Duke (DUK.N)** (cuentas anuales LSEG 2023-2025, balance, directivos; noticias de 20 may, 1 jun, 4 ago y 12 may 2026): https://www.reuters.com/markets/companies/DUK.N/
+- **StockAnalysis — DUK overview y financials** (S&P Global Market Intelligence; datos TTM al 30 jun 2026 y FY2021-2025, segmentos, margenes, balance, cash flow): https://stockanalysis.com/stocks/duk/ y https://stockanalysis.com/stocks/duk/financials/
+- **StockAnalysis — DUK dividend history** (S&P Global MI; serie de dividendos, payout, "Growth Years", shareholder yield): https://stockanalysis.com/stocks/duk/dividend/
+- **StockAnalysis — Noticias y resultados Q2 2026 de DUK** (PRNewswire del 4 ago 2026, equity units del 10-11 ago 2026, tormentas, TheFly, transcript Q2 2026): https://stockanalysis.com/stocks/duk/
+- **Duke Energy IR — Corporate Overview** (8,7 M clientes eléctricos, 1,6 M de gas, 55.700 MW, ~26.400 empleados): https://investors.duke-energy.com/
+- **Duke Energy IR — Dividend History** (100.º año consecutivo de dividendo; serie trimestral 2006-2026): https://investors.duke-energy.com/stock-info/dividend-history/default.aspx
+- **Wikipedia — "Duke Energy"** (historia 1900-2023, subsidiarias, fusión Progress 2012, Piedmont 2016, venta a Brookfield 2023, finanzas 2005-2023, generación, controversias: cenizas de carbón, apagones dic 2022, exclusión fondo noruego): https://en.wikipedia.org/wiki/Duke_Energy
+- **PRNewswire — comunicados de Duke Energy** (resultados Q2 2026, 4 ago 2026; equity units, 10-11 ago 2026; acuerdo NC Public Staff, 6 ago 2026; restauración tras tormentas, 11-14 ago 2026) [acceso vía StockAnalysis News]
+- **Argus Research — informe sobre Duke Energy** (2026, vía Yahoo Finance Research: mix de combustible 2025 ~18 % carbón/43 % gas/35 % nuclear/3 % renovables, 8,7 M de clientes, ~90 % ingresos regulados, 5,5 GW [sic, ver nota]): https://finance.yahoo.com/research/stock-forecast/DUK?symbols=DUK
+- **Morningstar — "Duke's Capital Needs Increasing As Data Center Development Accelerates"** (8 ago 2026, vía Yahoo Finance Research): https://finance.yahoo.com/research/stock-forecast/DUK?symbols=DUK
+- **Reuters — "Storms leave more than 360,000 US Midwest homes and businesses without power"** (6 ago 2026): https://www.reuters.com/
+
+*Nota de transparencia: la página IR corporativa (duke-energy.com) devolvió error 403 en la consulta; se usó el portal IR investors.duke-energy.com (fuente primaria) para los datos corporativos y de dividendos. La cifra de "5,5 GW" de capacidad del informe Argus se considera un error de redacción (la capacidad real reportada por el emisor es 55.700 MW); la cifra de años consecutivos de subidas de dividendo (54 al cierre de 2025) es una declaración de la compañía que no fue verificada directamente en una fuente consultada. Donde LSEG y S&P Global MI difieren, se indica la base de cada uno.*
+
+---
+
+*Página generada por agente autónomo. Fecha de corte: 2026-08-15.*
+*Verificar cifras de mercado en la fuente citada antes de decisiones de inversión.*

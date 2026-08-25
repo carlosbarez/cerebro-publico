@@ -1,0 +1,101 @@
+---
+title: "Republic Services (RSG) — Estados Unidos, USD"
+tipo: empresa
+tags: [empresa, gestion-de-residuos, estados-unidos]
+fecha: 2026-08-25
+agente: carlos-barez
+ticker: RSG
+moneda: USD
+precio_referencia: 223.08
+fecha_precio: 2026-08-24
+valor_estimado: 209
+gatillo_entrada: 185
+veredicto: VIGILAR
+revisar_el: 2026-11-23
+fuentes: "[\"https://query1.finance.yahoo.com/v8/finance/chart/RSG\", \"https://www.sec.gov/Archives/edgar/data/1060391/000106039126000273/exhibit991q22026.htm\", \"https://www.sec.gov/Archives/edgar/data/1060391/000106039126000275/rsg-20260630.htm\", \"https://stockanalysis.com/stocks/rsg/financials/\", \"https://stockanalysis.com/stocks/rsg/statistics/\", \"https://stockanalysis.com/stocks/wm/statistics/\", \"https://www.wastedive.com/news/republic-services-q2-2026-results-improved-commodity-prices-polymer-center-performance/\", \"https://www.wastedive.com/news/teamsters-workers-authorize-strike-at-republic-services-arizona-landfill/\", \"https://www.wastedive.com/news/republic-services-acquire-robinson-waste-utah-ftc/\", \"https://www.theglobeandmail.com/investing/markets/stocks/RSG-N/pressreleases/3733646/barclays-remains-a-hold-on-republic-services-rsg/\", \"https://www.theglobeandmail.com/investing/markets/stocks/RSG-N/pressreleases/3291451/republic-services-rsg-gets-a-buy-from-wells-fargo/\"]"
+---
+
+# Republic Services (RSG) — Estados Unidos, USD
+
+## 1. Negocio
+
+Republic recoge la basura y la entierra, y cobra por ambas con contratos que suben el precio cada año. Segunda gestora de residuos de EE. UU. (NYSE: RSG, ~$68B al 24-ago-2026): recolección residencial/comercial/industrial, transferencia, vertidos gestion de residuos, reciclaje y, desde la compra de US Ecology (2022), residuos peligrosos (segmento Environmental Solutions, $473M en Q2'26). ~42.000 empleados; flota electrificándose (250 EV en jun-26 → 300 a cierre de año).
+
+En simple: cuotas de recogida + tasas de vertido, ingresos recurrentes. La palanca es el **core price** (+5,3% sobre ingresos totales en Q2'26; +6,4% sobre negocio relacionado) por encima de la inflación de costes; el volumen restó -1,6% porque priorizan precio sobre clientes malos. La basura aparece sí o sí.
+
+## 2. Industria — gestion de residuos *(página pendiente de crear)*
+
+Oligopolio de cuatro ([[waste-management|WM]], RSG, Waste Connections, GFL) sobre un activo irrepetible: los vertidos Subtitle D nuevos son casi imposibles de permitir, así que la capacidad existente es una licencia monopólica local. Economía: densidad de ruta, contratos municipales plurianuales, reprecios anual en mercado abierto. KPIs: core price vs inflación, volumen orgánico, margen EBITDA (~32% en RSG, referencia), ROIC. Valoración que dicta: múltiplos FCF/EBITDA sobre compounder defensivo — una década pagando ~15x EV/EBITDA y 25-32x beneficios. Trampa: parece utility pero tiene ciclo escondido (construcción/industrial, commodities del reciclaje a $136/t vs $149/t hace un año) y riesgo regulatorio creciente (PFAS).
+
+## 3. Moat — [[foso-economico]]
+
+Tipo: **activo irreplicable + escala local + regulación como barrera**. Nadie construirá una red nacional de vertidos permitidos ni en 2036; el coste de reemplazo del sistema (vertidos, transferencias, rutas, flota) es astronómico y solo tiene comprador racional entre los otros tres gigantes. Poder de precios demostrado: core price >6% en 2025-26 con volumen negativo deliberado — eso es moat funcionando, no suerte. ¿Aguanta 10 años? Sí. ¿Quién lo destruiría? (a) regulación que abarate permisos nuevos; (b) valorización/química que reduzca tonelaje enterrado décadas; (c) reglas PFAS mal diseñadas que conviertan sus vertidos en pasivo retroactivo — exactamente donde su activo puede volverse pasivo.
+
+## 4. Financieros — calidad del beneficio
+
+| | FY2021 | FY2022 | FY2023 | FY2024 | FY2025 | TTM jun-26 |
+|---|---|---|---|---|---|---|
+| Ingresos ($M) | 11.295 | 13.511 | 14.965 | 16.032 | 16.591 | 16.891 |
+| Margen operativo | 18,7% | 17,9% | 18,8% | 20,1% | 20,0% | 20,0% |
+| Beneficio neto ($M) | 1.290 | 1.488 | 1.731 | 2.043 | 2.139 | 2.186 |
+| EPS ($) | 4,04 | 4,69 | 5,47 | 6,49 | 6,85 | 7,06 |
+| FCF ($M) | 1.470 | 1.736 | 1.987 | 2.081 | 2.409 | 2.653 |
+
+(stockanalysis.com sobre presentaciones SEC)
+
+- Chequeo aritmético: EPS TTM $7,06 × 306,2M acciones = $2.162M ≈ ingresos × margen neto (16.891 × 12,94% = $2.186M); desviación 1,1% < 2% → OK.
+- Calidad alta: conversión FCF/beneficio ~121% (D&A no monetaria enorme), OCF subiendo 10 años, acciones bajando (-1,3% YoY), tipo efectivo ~10% H1'26 gracias a créditos fiscales renovables ($78M H1).
+- ROIC 11,1% vs WACC ~6-7%: spread positivo pero modesto.
+- Deuda neta $14,2B (net debt/EBITDA guía ~2,5x; intereses cubiertos 5,7x): asumible pero estructuralmente permanente. Goodwill $17,2B (>50% del activo): décadas de M&A.
+- Nota: pérdidas contables de JVs (RNG de gas de vertido, carrying value $305M; Blue Polymers con Ravago, $95M) de $110M H1'26 — no monetarias, vigilables.
+
+## 5. Directiva y capital allocation
+
+CEO Jon Vander Ark: precio sobre volumen, M&A bolt-on sistemático ($860M H1'26, pipeline ~$1,2B anual), sostenibilidad (~$1B/año: tercer polymer center abre 2027, 2 proyectos RNG completados en Q2'26, flota EV). Recompras acelerando ($482M FY24 → $870M FY25 → $1.470M TTM) y dividendo +7% a $0,67/trimestre (~29% del FCF). Lectura crítica: recomprar a 31x PE no es barato, pero la alternativa (M&A a múltiplos privados altos) tampoco; el histórico grande es US Ecology (2022), pagó completo aunque ES mejora margen desde entonces. Disciplina verificable: salen de contratos residenciales malos aunque baje el volumen.
+
+## 6. Valoración por escenarios
+
+Método: DCF de FCF (negocio estable) anclado a guía 2026 (FCF aj. $2.540–2.575M, EBITDA aj. $5.525–5.550M, EPS aj. $7,23–7,28 — elevada el 6-ago-26), WACC 7%; sanity-check con múltiplos históricos.
+
+| Escenario | Prob | Supuesto clave | Valor/acción |
+|---|---|---|---|
+| Pesimista | 25% | Recesión: volumen -2%, core price ~3,5%, commodities débiles | ~$122 |
+| Base | 50% | Precio>inflación, ES mejora, polymer centers + ahorro AI ($100M) maduran | ~$214 |
+| Optimista | 25% | Ciclo industrial gira, volumen positivo, commodities fuertes | ~$286 |
+
+→ **Valor intrínseco ponderado: ~$209/acción** (rango $185–240 según discount rate: WACC 6,5% → base $254; 8% → $160; la valoración es sensible a tipos: pagas por estabilidad).
+→ Precio verificado: **$223,08** (cierre 24-ago-2026, Yahoo Finance). **Margen de seguridad: −6%.**
+→ Cross-check: 30,7x EPS guiado y 26,7x FCF guiado vs media sector ~24-27x PE. Wells Fargo Buy PT $234, Barclays Hold PT $240 — la calle algo por encima; yo no.
+
+## 7. Riesgos y red flags
+
+- **Volumen negativo estructural** (-1,6%; residencial -4,3%): funciona mientras aguante el pricing; si se rompe la disciplina sectorial, el margen del 32% está amenazado.
+- **Commodities de reciclaje**: cada ~$10/t mueve decenas de millones de beneficio — volatilidad disimulada en un "defensivo".
+- **Labor**: Teamsters autorizaron huelga en Buckeye (AZ) en jul-26 con fondos reforzados; mano de obra >50% del opex.
+- **PFAS/regulatorio**: propuestas sobre PFAS en lixiviados (NY); responsabilidad retroactiva sobre vertidos sería EL riesgo de cola — su moat convertido en pasivo.
+- Red flag menor: pérdidas equity-method crecientes ($110M H1'26) — vigilar que las apuestas verdes no sean agujeros.
+
+## 8. Contraste con postura previa
+
+No existe ficha ni posición previa de RSG en vault o cartera: tesis inicial escrita a ciegas, sin anclaje. Veredicto registrado tal cual salió del proceso.
+
+## 9. Veredicto: VIGILAR
+
+Empresa excelente, precio exigente. No es cara por capricho: es el premium defensivo de siempre, pero exijo margen de seguridad y hoy es −6%. Condiciones para COMPRAR: (a) precio ≤ **$185** (≈11% de descuento sobre el centro ponderado, ~4,9% FCF yield s/2027E, ~24x EPS 2027E) o (b) dos trimestres seguidos de volumen orgánico positivo con margen EBITDA ≥31%.
+
+## 10. Qué INVALIDaría esta tesis
+
+- Core price <3,5% dos trimestres seguidos → pérdida del poder de precios que sostiene todo el caso.
+- Margen EBITDA ajustado <30% en cualquier trimestre de 2027.
+- Net debt/EBITDA >3,5x por M&A sin ROIC demostrado.
+- Regla PFAS/CERCLA con responsabilidad retroactiva material (>~$500M) sobre vertidos no peligrosos.
+- Huelga nacional Teamsters o pérdida de contratos municipales emblemáticos.
+
+## 11. Predicciones falsables (para "Para el CIO")
+
+- P1: ingresos FY2026 ≥ $17.150M (guía elevada). Umbral: $17.150M · Fecha: 2027-02-28 · Prob: 85%.
+- P2: adj EPS FY2026 ≥ $7,23 (rango guía $7,23-7,28). Umbral: $7,23 · Fecha: 2027-02-28 · Prob: 80%.
+- P3: volumen total negativo en Q3'26 (-2,5% a -0,5%). Fecha: informe oct-2026 · Prob: 65%.
+- P4: cotización supera $250 antes del 30-jun-2027. Umbral: $250 · Fecha: 2027-06-30 · Prob: 35%.
+
+*Precio y datos de mercado verificados el 2026-08-25 (cierre del 24-ago). Sonda del Escuadrón Fundamental; el veredicto propone, Carlos decide.*

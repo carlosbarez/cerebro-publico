@@ -1,0 +1,335 @@
+---
+title: "Itaú Unibanco Holding S.A. (ITUB / ITUB4)"
+tipo: analisis-accion
+tags: [empresa, banca, brasil, latam]
+fecha: 2026-08-15
+fuentes: []
+---
+
+<!-- Generado por el skill analisis-acciones (ponytail) · sesión 2026-08-15 -->
+
+# Itaú Unibanco Holding S.A. (ITUB / ITUB4)
+
+> Fecha de corte: 2026-08-15 · Moneda: Real brasileño (BRL R$); reporta en BRL bajo IFRS/Bacen y publica 20-F ante la SEC en USD
+> Sector: Banca y servicios financieros · País/Región: Brasil (São Paulo), con operaciones en 18 países · Bolsa: B3 (ITUB3 ordinaria e ITUB4 preferencial) y NYSE (ITUB, ADR nivel III; 1 ADR = 1 acción preferencial)
+
+---
+
+## 1. Ficha rápida
+
+| Campo | Valor |
+|---|---|
+| Ticker / Bolsa | NYSE: ITUB (ADR) · B3: ITUB4 (preferencial) e ITUB3 (ordinaria) · Índices: Ibovespa, S&P Latin America 40, Dow Jones Sustainability Index (única entidad financiera latinoamericana del DJSI) |
+| Sector / Industria | Banca universal / Servicios financieros (Banks – Regional en clasificación de agregadores) |
+| País / Región | Brasil (São Paulo); presencia en 18 países de América (Chile, Colombia, Panamá, Paraguay, Uruguay, EE. UU.), Europa (Luxemburgo, Portugal, Suiza, Reino Unido, España, Francia) y Asia (China, Hong Kong, Japón, Emiratos Árabes) |
+| Moneda de reporte | BRL (real brasileño); ejercicio fiscal = año natural (cierre 31-dic) |
+| Capitalización bursátil | ~US$81,6 mil M (companiesmarketcap/Nasdaq, 14-ago-2026); US$85,25 mil M (StockAnalysis, 14-ago-2026). En BRL: R$439,55 mil M (StockAnalysis B3, 14-ago-2026). Máx. 52 semanas: US$9,60 |
+| Precio | ADR: US$7,40 (cierre 14-ago-2026; after-hours US$7,43) · ITUB4: R$39,00 (14-ago-2026) |
+| Rango 52 semanas | ADR: US$6,39 – US$9,60 · ITUB4: R$34,85 – R$49,67 (StockAnalysis, 14-ago-2026) |
+| PER (TTM) | 9,43 (ADR, StockAnalysis, 14-ago-2026) · 9,12 (ITUB4, StockAnalysis) · Forward: 8,29 |
+| P/B | 1,94 (TTM, StockAnalysis, 14-ago-2026); P/B tangible 2,31 |
+| Rendimiento por dividendo | 7,20% (USD, StockAnalysis) · 7,71% (BRL, dividendos R$2,96/acción) · Dividendos mensuales + distribuciones trimestrales (JCP) |
+| CEO | Milton Maluhy Filho (presidente ejecutivo desde abril 2021) |
+| Chairman | Pedro Moreira Salles |
+| CFO | Gabriel Amado de Moura (confirmado como CFO en resultados Q1 2026 y call Q2 2026) |
+| Sede | São Paulo, Brasil |
+| Empleados | ~92.470–93.554 (StockAnalysis, 2026); ~91.500 (31-mar-2026, presentación Q1 2026) |
+| Fundación | Orígenes 1924 (Banco Central de Crédito → Banco Itaú); holding actual nace de la fusión Banco Itaú + Unibanco (4-nov-2008) |
+| Accionista de control | Itaúsa (holding brasileño, cotiza en B3) |
+| Beta (5Y, mensual) | 0,16 (StockAnalysis, 14-ago-2026) |
+
+---
+
+## 2. Descripción de la empresa
+
+Itaú Unibanco es el mayor banco de Brasil y de América Latina por activos y por capitalización bursátil (el único banco latinoamericano entre los ~40 mayores del mundo por capitalización; #317 del mundo según companiesmarketcap, ago-2026). Es un banco universal: banca minorista masiva, banca mayorista y de inversión (Itaú BBA), wealth y private banking, gestión de activos, seguros, pensiones y tarjetas, con el mayor banco privado del mercado hipotecario brasileño y la franquicia corporativa más profunda de la región.
+
+**Historia breve**
+- **1924**: fundación del Banco Central de Crédito en São Paulo, raíz de Banco Itaú (el banco se presenta con "101 años de historia" en su presentación Q1 2026).
+- **2006**: compra de los activos de BankBoston en Brasil, Chile y Uruguay.
+- **4-nov-2008**: fusión de Banco Itaú y Unibanco → Banco Itaú Unibanco, el mayor grupo financiero del hemisferio sur en su momento (activos combinados R$575 mil M, ~18% de la red bancaria brasileña, 14,5 millones de titulares de cuentas, ~19% del crédito y 21% de los depósitos/fondos del sistema).
+- **2016**: fusión con CorpBanca (Chile) y absorción de Helm Bank (Colombia/Panamá) → expansión internacional; la operación chilena se consolida como la mayor plataforma del grupo fuera de Brasil (rebautizada Banco Itaú Chile en 2023).
+- **2023 (ago-nov)**: venta de Banco Itaú Argentina a Banco Macro (cerrada el 3-nov-2023, US$50 millones, impacto no recurrente de -R$1.212 millones) — salida ordenada del mercado argentino en plena crisis macro.
+- **2023 (dic)**: acuerdo para vender el negocio minorista de Colombia a Banco de Bogotá; cierre el 31-jul-2026 (ver sección 7).
+- **2024-2026**: ciclo de re-rating bursátil (la capitalización pasó de US$45,6 mil M en dic-2024 a ~US$82 mil M en ago-2026), con ROE recurrente por encima del 24%.
+
+**Qué vende y a quién**
+- **Personas y familias**: cuentas, tarjetas de crédito y débito, préstamos personales, nómina (payroll), hipotecas, financiación de vehículos, inversiones, seguros, previdencia y consorcios; segmentos de cuentas Retail, Uniclass, Personnalité y very small/small companies.
+- **Pymes y microempresas**: crédito, cobranzas, gestión financiera; en 2025 lanzó **Itaú Emps**, banco digital enfocado en micro y pequeñas empresas.
+- **Grandes empresas, gobiernos e instituciones**: Itaú BBA (banca de inversión, DCM, M&A, trade finance, tesorería, derivados), incluidas operaciones en el exterior (Itau BBA International en Reino Unido/Portugal, con sucursal en Luxemburgo y plataformas en Madrid y París).
+- **Alto patrimonio (Private Banking)**: el mayor gestor de patrimonios de Latinoamérica; gestión de activos (Itaú Asset) con ~R$1,3 billones en AUM [NO VERIFICADO el AUM exacto a la fecha de corte; cifra de referencia de prensa].
+- **Adquirientes y pagos**: Rede (adquirencia, fundida con Getnet en 2024), Hiper y Credicard (tarjetas), iti (billetera digital), OCA (Uruguay).
+
+**Filiales y presencia internacional (a dic-2025, según Form 20-F/6-K)**
+- **Chile** (Banco Itaú Chile): 130 sucursales, 134 cajeros, 4.670 empleados — la mayor operación fuera de Brasil; resultado de la fusión Itaú-CorpBanca.
+- **Colombia** (Banco Itaú Colombia, bajo Itaú Chile): 60 sucursales, 116 cajeros, 1.899 empleados (incl. Panamá) a dic-2025; tras el cierre de la venta del retail (31-jul-2026) queda enfocada en banca corporativa, tesorería y filiales especializadas (Itaú Comisionista de Bolsa, Itaú Fiduciaria, Itaú Panamá).
+- **Paraguay**: 29 sucursales, 276 cajeros, 1.354 empleados.
+- **Uruguay**: 21 sucursales, 65 cajeros, 1.277 empleados + OCA (mayor emisora de tarjetas del país, 29 puntos de servicio); segundo mayor banco privado de Uruguay por préstamos en pesos (29,6% de cuota a dic-2025).
+- **Argentina y Perú**: oficinas de representación tras la venta de las operaciones locales; clientes corporativos y de wealth atendidos desde el exterior.
+- **México**: presencia limitada a una oficina de investigación de acciones (equity research) según el Form 20-F 2025 — **no hay operación bancaria minorista ni mayorista verificada en México a la fecha de corte** (ver sección 7 para matices históricos).
+- Además: oficinas en Nueva York, Miami, Nasáu, Shanghái, Tokio, Dubái, Ginebra/Zúrich, Londres, entre otras.
+
+---
+
+## 3. Modelo de negocio
+
+### 3.1 Segmentos de ingresos
+
+Itaú reporta tres segmentos: Retail Business, Wholesale Business y Activities with the Market + Corporation. Ingresos operativos por segmento (R$ millones; fuente: Form 20-F 2025 y agregador StockAnalysis/Fiscal.ai):
+
+| Segmento | FY2021 | FY2022 | FY2023 | FY2024 | FY2025 | % aprox. FY2025* |
+|---|---|---|---|---|---|---|
+| Retail Business | 75.443 | 90.509 | 96.595 | 101.057 | 112.204 | ~61% |
+| Wholesale Business | 38.228 | 49.229 | 54.631 | 58.014 | 62.620 | ~34% |
+| Market + Corporation | 11.930 | 2.983 | 5.572 | 9.887 | 9.569 | ~5% |
+
+*Porcentaje del agente sobre la suma de los tres segmentos en FY2025 (R$184.393 M). La suma de segmentos no equivale al ingreso neto consolidado contable (R$138.947 M en FY2025 según StockAnalysis) por eliminaciones inter-segmento y diferencias de definición; la serie es indicativa de la mezcla.
+
+**Dato clave**: el beneficio neto del segmento Wholesale fue R$23.006 M en FY2025 (+10,0% vs R$20.913 M en FY2024), con un crecimiento del margen de intereses del 9,7% impulsado por el margen de pasivos (Form 20-F 2025). El retail aporta la mayor parte del volumen; la mezcla de ingresos ha ido desplazándose hacia líneas "más sostenibles" (el banco redujo deliberadamente los ingresos por cuentas corrientes de personas a medida que reconfigura paquetes de cuentas orientados al valor del cliente).
+
+### 3.2 Cómo gana dinero
+
+- **Margen financiero con clientes (client NII)**: principal fuente de resultado. R$32,6 mil M en Q2 2026 (+3,3% trimestral, +5,1% interanual). Incluye margen de activos (crédito), margen de pasivos (depósitos y cuentas) y working capital (R$3,9 mil M en Q2 2026).
+- **Margen financiero con el mercado (market NII)**: tesorería, derivados y resultado de la gestión de capital propio; R$900 millones en Q2 2026 (volátil, sujeto a los mercados y al coste del hedge del ratio de capital). Guía 2026: entre R$2,5 y R$5,5 mil M.
+- **Comisiones, fees y seguros**: gestión de activos (R$2,0 mil M en Q2 2026, +7,3% interanual), asesoría y broker (R$1,3 mil M, +32,5% interanual, dominada por transacciones de renta fija), seguros y previdencia (R$3,1 mil M, +8,7% interanual), tarjetas, consorcios y bancassurance. Esta línea ha sido el punto débil de 2026: la guía de crecimiento se recortó del +5–9% al +2–5%.
+- **Margen neto de interés ajustado por riesgo (risk-adjusted NIM)**: 6,2% consolidado y 6,7% en Brasil en Q2 2026 (+10 pb trimestral) — métrica clave de gestión; el banco prefiere crecer con spreads ajustados por riesgo que maximizar margen bruto a costa de morosidad ("generar un margen altísimo y devolverlo en coste de crédito no es [[asignacion-de-capital|asignación de capital]] sensata", Maluhy, call Q2 2026).
+- **Crédito con garantía y productos dirigidos**: hipotecas (R$152,2 mil M, +13,3% interanual, superando por primera vez a la cartera de tarjetas de ~R$150,4 mil M), payroll público y privado (R$81,3 mil M; el payroll privado creció 14,3% trimestral y ~90% interanual — MarketBeat; la transcripción del call registra "9,1%" por aparente error de transcripción), y préstamos con programas gubernamentales (SME con aval: originaciones +47,3% en Q2 2026).
+
+### 3.3 Ventajas competitivas / foso
+
+- **Franquicia de financiación (funding)**: base de depósitos enorme y estable con red física + digital; financia las hipotecas con fondeo propio y competitivo (estructura diferenciada que le da el mayor banco privado del mercado hipotecario con 55% de cuota entre bancos privados y R$36 mil M originados en 12 meses — call Q2 2026).
+- **Escala y red**: >4.000 sucursales en Brasil (Wikipedia) y 240 sucursales + 17 digitales en LatAm excl. Brasil; ~90 mil empleados; la mayor franquicia corporativa regional (Itaú BBA líder en DCM: #1 en volumen originado y distribuido en Brasil según ANBIMA 2025; #1 en M&A por número; Euromoney lo nombró "mejor banco de inversión de DCM de América Latina 2026").
+- **Calidad de activos**: NPL 90 días 1,9% (estable), coste de crédito 2,7% del portfolio (estable desde Q1 2025); portfolio de tarjetas "des-riesgado" con morosidad ~la mitad de la media del sistema.
+- **Rentabilidad y eficiencia**: ROE consolidado 24,3% (Q2 2026) y ratio de eficiencia 37,4% consolidado / 35,5% Brasil, en mejora; costes controlados (gasto no financiero +3,1% interanual, por debajo de inflación).
+- **Estructura de gobierno estable**: control de Itaúsa con historial de gestión conservadora y generación de capital orgánica; único banco latinoamericano del Dow Jones Sustainability Index; marca más valiosa de Sudamérica (Brand Finance Global 500 2026).
+- **Riesgo sistémico mitigado por escala**: D-SIB brasileño (banco de importancia sistémica bajo el régimen del Bacen), con CET1 12,3% (Q2 2026).
+
+---
+
+## 4. Panorama de mercado y competencia
+
+### 4.1 Tamaño y contexto
+
+- Brasil es el mayor mercado bancario de América Latina. El sistema está dominado por grandes incumbentes con barreras de entrada altas (fondeo, red, capital) y por la presión competitiva de los neobancos.
+- Entorno macro a la fecha de corte: tipos de interés aún restrictivos (Selic elevada), endeudamiento de hogares y empresas en aumento, y expansión del crédito en el sistema — el CEO advierte que exige "cautela y disciplina en el crédito" (call Q1 y Q2 2026). Un ciclo de recortes de tipos sería favorable a la economía pero un viento en contra para el margen de pasivos del banco, que se beneficia de tipos altos [análisis del agente].
+- La banca brasileña vivió un repunte bursátil en 2025 (la capitalización de Itaú en USD +71,7% en 2025; la de [[bradesco|Bradesco]] +88,8%; la de Santander Brasil +62,4%), seguida de una fase de consolidación en 2026.
+
+### 4.2 Competidores principales
+
+Capitalizaciones de mercado aproximadas (ago-2026, companiesmarketcap; y contexto Statista dic-2024):
+
+| Entidad | Cap. bursátil (ago-2026) | Notas |
+|---|---|---|
+| **Itaú Unibanco** | ~US$81,6–85,3 mil M | Mayor banco de LatAm por capitalización y activos. Este análisis |
+| Nu Holdings (Nubank) | ~US$73,6 mil M | Neobanco, el competidor digital más valorado; en 2024 superó a los bancos tradicionales brasileños por capitalización según Statista |
+| Banco Santander Brasil | ~US$43,2 mil M | #2-3 tradicional del sector privado brasileño |
+| Banco Bradesco | ~US$34,2 mil M | #3-4 tradicional; reestructurando su transformación digital |
+| Banco do Brasil | ~US$20,0 mil M | Banco público, mayor por activos de Brasil; cotiza en B3 |
+| BBVA | ~US$158,4 mil M (consolidado España) | Competidor regional en wholesale/wealth en varios mercados; sin banca minorista en Brasil |
+| Caixa Econômica Federal | no cotiza | Banco público, líder en hipotecas e inclusión; compite con Itaú en retail |
+
+**Comparación clave [análisis del agente]**: Itaú compite en Brasil contra Bradesco, Santander Brasil y los bancos públicos (Banco do Brasil, Caixa) por escala y depósitos; contra BTG Pactual y Nubank por el crecimiento de clientes de mayor valor y por los clientes digitales de menor fricción. Nubank tiene una capitalización cercana a la de Itaú (~US$74 mil M vs ~US$82 mil M) con un ROE muy inferior y una cartera mucho más pequeña — el mercado paga prima de crecimiento al neobanco y descuenta a la franquicia incumbente [análisis del agente]. En banca corporativa/inversión, Itaú BBA es líder regional (DCM #1 de LatAm según Euromoney 2026), por delante de BTG Pactual y de las casas globales.
+
+### 4.3 Posición relativa
+
+- **#1 de Brasil y de América Latina** por activos (R$3,227 billones a jun-2026) y por capitalización bursátil entre bancos tradicionales; el holding es además el mayor banco privado del mercado hipotecario brasileño (55% de cuota entre bancos privados) y el líder de DCM en la región.
+- La suma de capitalizaciones de los cuatro mayores bancos tradicionales brasileños (Itaú + Santander Brasil + Bradesco + Banco do Brasil ≈ US$178 mil M) casi duplica la capitalización de Nubank, lo que ilustra la posición dominante de los incumbentes a pesar de la presión digital.
+
+---
+
+## 5. Análisis financiero
+
+> Cifras en R$ millones salvo indicación. Fuentes: series de agregadores (StockAnalysis/S&P Global Market Intelligence y Fiscal.ai) y reportes del emisor (Form 20-F 2025, press releases Q1 2026 y Q2 2026, transcripción del call Q2 2026). Advertencia metodológica: para un banco, "deuda total" de los agregadores incluye instrumentos de financiación del balance (no es comparable a la deuda de una empresa industrial), y "FCF" no es métrica de valoración útil (crece el balance crediticio).
+
+### 5.1 Ingresos y márgenes (últimos ejercicios + trimestres)
+
+**Serie anual (consolidado, R$ millones, StockAnalysis/S&P):**
+
+| Métrica | FY2021 | FY2022 | FY2023 | FY2024 | FY2025 | TTM (jun-26) |
+|---|---|---|---|---|---|---|
+| Ingresos | 111.995 | 114.542 | 124.526 | 135.739 | 138.947 | 143.714 |
+| Crecimiento ingresos | +50,9% | +2,3% | +8,7% | +9,0% | +2,4% | +6,6% |
+| Beneficio neto | 26.760 | 29.207 | 33.105 | 41.085 | 44.857 | 46.828 |
+| EPS (R$) | 2,40 | 2,61 | 2,96 | 3,68 | 4,01 | 4,20 |
+| Margen neto | 23,9% | 25,5% | 26,6% | 30,3% | 32,3% | 32,6% |
+
+Notas: (a) el crecimiento FY2021 está distorsionado por efectos de perímetro/definición del agregador; (b) el margen neto sobre "ingresos" del agregador no es comparable al ROA de un banco; (c) la serie oficial de referencia: ingreso neto recurrente managerial de R$44,9 mil M en FY2025 (Wikipedia cita US$8,8 mil M de beneficio neto 2025) y R$33,2 mil M de ingresos en USD 2025 (conversión aproximada).
+
+**Últimos trimestres (reportes oficiales del emisor):**
+
+| Métrica | Q1 2026 | Q2 2026 | Variación interanual Q2 2026 |
+|---|---|---|---|
+| Resultado managerial recurrente (R$ mil M) | 12,282 | 12,4 | +7,8% |
+| ROE recurrente | 24,8% | 24,3% consolidado / 25,7% Brasil | — |
+| ROE ajustado a CET1 11,5% | — | 25,1% consolidado / 26,7% Brasil | — |
+| Cartera de crédito (R$ mil M) | 1.482,7 | 1.522 | +9,6% |
+| Margen financiero con clientes (R$ mil M) | — | 32,6 | +5,1% |
+| NIM ajustado por riesgo | — | 6,2% consolidado / 6,7% Brasil | +10 pb trimestral |
+| NPL 90 días | 1,9% | 1,9% | estable |
+| Coste de crédito | — | 2,7% del portfolio | estable |
+| Gasto no financiero (R$ mil M) | 16,2 (+4,8%) | 16,7 (+3,1%) | — |
+| Ratio de eficiencia | 34,9% Brasil (mejor Q1 histórico) | 37,4% consolidado / 35,5% Brasil | — |
+| CET1 | 12,0% | 12,3% | +30 pb trimestral |
+| Activos totales (R$ mil M) | ~3.200 | 3.227 | +11,3% |
+
+### 5.2 Balance (deuda, efectivo, solvencia)
+
+- **Activos totales**: R$3,227 billones (30-jun-2026, +11,3% interanual; call Q2 2026). El Form 20-F 2025 cifra los activos en ~R$3,2 billones a dic-2025.
+- **Cartera de crédito**: R$1.522 mil M (Q2 2026). Mix: grandes empresas R$474,9 mil M (+10% interanual), SMEs R$307,4 mil M (+11,6%), hipotecas R$152,2 mil M (+13,3%), tarjetas ~R$150,4 mil M, payroll R$81,3 mil M (+11,7%). La salida de Colombia (jul-2026) retira ~R$10 mil M de la cartera.
+- **Solvencia**: CET1 12,3% (Q2 2026, +30 pb), AT1 ~1,5% reportado (1,7% real, limitado por regulación), capital de nivel total sólido. Generación de capital: +0,8 pp por retención de resultados, -0,3 pp por provisiones de dividendos/JCP y -0,1 pp por RWA.
+- **Fondeo**: ~R$1,5 billones de financiación estable disponible (ASF) y ~R$1,2 billones de requerimiento estable (RSF) a dic-2025 (20-F). Depósitos son la principal fuente de financiación; estructura de fondeo de bajo coste relativo que sustenta el NIM.
+- **Sobre CASA**: Itaú **no publica una métrica CASA** al estilo de la banca india (proporción de depósitos a la vista y de ahorro sobre depósitos). La información de mix de depósitos por tipo no se pudo verificar en fuentes primarias a la fecha de corte [NO VERIFICADO]. La dirección sí informa del "margen de pasivos" (liability margin) como palanca de resultados.
+- **Serie de agregador (R$ millones)**: efectivo e inversiones R$484.165 (jun-2026) · "deuda total" R$1.115.894 · "caja neta" -R$631.729 (definición no comparable a una empresa industrial; advertencia metodológica).
+
+### 5.3 Cash flow y rentabilidad
+
+- **ROE recurrente**: 24,3% consolidado / 25,7% Brasil (Q2 2026); 24,8% en Q1 2026. ROE ajustado a CET1 11,5%: 25,1%/26,7%. Es un ROE muy alto para la banca global y sostenido en el tiempo.
+- **ROA**: 1,58% (TTM, StockAnalysis, 14-ago-2026).
+- **Cash flow**: el "FCF" de los agregadores (R$42,9 mil M TTM jun-2026) no es significativo para valorar un banco: el flujo de caja operativo es volátil por el crecimiento del balance y las inversiones en títulos. Lo relevante: generación orgánica de capital (0,8 pp/CET1 trimestre), coste de crédito estable (2,7%) y eficiencia en mejora (37,4% → objetivo de seguir bajando).
+- **Eficiencia**: ratio consolidado 37,4% (Q2 2026), Brasil 35,5%; el gasto crece +3,1% interanual, por debajo de inflación, con inversión tecnológica (cloud, IA) creciente.
+
+### 5.4 Perfil de dividendos y recompras
+
+- **Dividendos**: Itaú distribuye **mensualmente** dividendos/anticipos y JCP (intereses sobre capital), además de distribuciones trimestrales. Dividendo por acción (R$, StockAnalysis): R$0,562 (FY2021) · R$0,754 (FY2022) · R$2,193 (FY2023) · R$2,629 (FY2024) · R$2,955 (FY2025). Yield actual ~7,2% (USD) / ~7,7% (BRL).
+- **Payout**: ~66% (TTM, StockAnalysis). El banco mantiene una política de distribución generosa (dividendos + JCP) y a la vez genera capital orgánicamente; la dirección anticipa "la discusión tradicional sobre distribuciones adicionales" a inicios de 2027 (call Q2 2026). Ex-div más reciente (ADR): 4-ago-2026; próximos ex-div mensuales (B3) el 1-sep-2026.
+- **Recompras**: no hay programa de recompra relevante; la reducción de acciones (-0,34% interanual, StockAnalysis) es marginal. Buyback yield 0,34%.
+- Nota fiscal brasileña: parte de las distribuciones se instrumentan como JCP, deducibles a efectos fiscales para la emisora (detalle relevante para comparar yield con bancos de otros países) [análisis del agente].
+
+---
+
+## 6. Valoración
+
+**Múltiplos actuales (precio al 14-ago-2026 salvo indicación):**
+
+| Múltiplo | Valor | Nota |
+|---|---|---|
+| PER (TTM) | 9,43 (ADR) · 9,12 (B3) | |
+| PER forward | 8,29 | |
+| P/B | 1,94 (P/B tangible 2,31) | |
+| P/S (TTM) | 3,07 | Definición de ingresos del agregador |
+| Yield dividendo | 7,20% (USD) · 7,71% (BRL) | Dividendos mensuales + JCP |
+| P/FCF | 10,37 | No significativo para banca |
+| Earnings yield | 10,60% | |
+| Beta | 0,16 | |
+
+**Histórico (PE a cierre de ejercicio, StockAnalysis):** FY2022 7,86 · FY2023 9,29 · FY2024 6,86 · FY2025 9,28 · Actual ~9,4. El PER actual está en el extremo alto de su propio rango reciente: la acción re-rató con fuerza en 2025 (+71,7% de capitalización en USD; +88,8% Bradesco, +62,4% Santander Brasil — el repunte fue sectorial). El precio cotiza ~23% por debajo del máximo de 52 semanas (US$9,60) y por debajo de sus medias de 50/200 días (US$8,06-8,07), con RSI ~30 (zona de sobreventa técnica, no una métrica fundamental) [dato de mercado].
+
+**Comparación con el sector:** frente a sus pares globales, Itaú cotiza con un **descuento notable por PER** (JPMorgan ~15x, [[bank-of-america|Bank of America]] ~15x, Santander ~9-10x) pero con un **P/B de 1,94 justificado por un ROE del 24%** (para un ROE de 24% y un coste de capital ~12-13%, un P/B de ~1,9-2,0 es coherente; el descuento por PER se explica por los tipos reales altos de Brasil y la prima de riesgo soberano). Frente a Nubank (~US$74 mil M de capitalización, ROE muy inferior), Itaú cotiza con un PER de ~9x vs un PER mucho más alto del neobanco [análisis del agente].
+
+**Objetivos de analistas:** consenso Buy/Strong Buy (8 analistas, precio objetivo medio US$8,84, +19,5% sobre el cierre del 14-ago-2026; 13 analistas en B3, objetivo medio R$48,08, +23,3%). JPMorgan subió su objetivo a US$10 desde US$9 (Overweight) en jul-2026.
+
+**Interpretación del agente** [análisis del agente]: valoración **razonable, sin claro [[margen-de-seguridad|margen de seguridad]] a corto plazo y dependiente del ciclo brasileño**. A PER ~9,4x y P/B ~1,9x, el mercado ya descuenta un banco de altísimo ROE con riesgo-país brasileño. El caso alcista: si Brasil entra en ciclo de recortes de tipos sin deterioro crediticio, los múltiplos de la banca podrían expandirse hacia el rango alto de su historia y el dividendo del ~7% sostiene la rentabilidad total. El caso bajista: el propio ciclo de recortes comprime el margen de pasivos (principal motor del NII), la morosidad SME sube (guía +10 pb a ~2,1%) y la competencia de Nubank/fintech presiona comisiones — de hecho la guía de fees ya se recortó. En otras palabras: la valoración no está cara, pero la mejora de múltiplos dependerá de que la macro brasileña coopere y de que el coste de crédito se mantenga bajo.
+
+---
+
+## 7. Noticias recientes y catalizadores
+
+### Hechos de los últimos 12 meses (con fecha)
+
+- **5-ago-2026 — Resultados Q2 2026** (publicados el 5-ago; call el 5 y transcripción el 12-ago): resultado managerial recurrente R$12,4 mil M (+7,8% interanual, +1% trimestral); ROE consolidado 24,3% (Brasil 25,7%); cartera R$1,522 billón (+9,6%); CET1 12,3% (+30 pb); NIM ajustado por riesgo 6,2% (Brasil 6,7%); hipotecas superan por primera vez a las tarjetas (R$152,2 mil M vs R$150,4 mil M); coste de crédito estable 2,7%; eficiencia 37,4% consolidado. **Recorte de guía**: comisiones/fees/seguros pasan de +5–9% a +2–5% por la moderación de la actividad económica. El banco anuncia la adquisición de **Solana Capital** (gestora independiente de renta variable) para su plataforma Multimesas (Motley Fool, MarketBeat, transcripción oficial).
+- **31-jul-2026 — Cierre de la venta del retail de Colombia a Banco de Bogotá**: transferencia a valor en libros de ~R$9,7 mil M de cartera (neta de provisiones) y R$7,2 mil M de depósitos; valor neto ~R$2,5 mil M; sin impacto material en capital regulador. ~267.000 clientes y ~COP 6,45 billones de préstamos al consumo e hipotecas transferidos; impacto extraordinario estimado de ~COP 561,7 mil M. Itaú Colombia se reenfoca en banca corporativa y tesorería, con objetivo de retorno en línea con el coste de capital a finales de 2028 (GlobeNewswire/Itaú Chile, 6-K del 3-ago-2026, Estadão).
+- **11-ago-2026**: Itaú se asocia con OpenAssets para probar bonos y fondos tokenizados en un piloto de ANBIMA (CoinDesk).
+- **jul-2026**: Euromoney nombra a Itaú Unibanco "mejor banco de inversión de DCM de América Latina 2026".
+- **abril-2026**: contrata a Murilo Kuhl (ex-Morgan Stanley) como jefe de deuda global internacional de Itaú BBA (Bloomberg, 10-abr-2026).
+- **30-abr-2026**: Itaú presenta su Form 20-F 2025 ante la SEC y la CVM (PRNewswire).
+- **5/6-may-2026 — Q1 2026**: resultado recurrente R$12,28 mil M (+10,4% interanual), ROE 24,8%; cartera R$1,483 billón (+9,0% excl. FX); NPL 90 días 1,9%; hipotecas +11,2%; payroll privado +63% interanual; eficiencia Brasil 34,9% (mejor Q1 histórico); CET1 12,0%; market cap ~US$96 mil M (30-abr-2026). Lanzamiento de **Itaú Emps** (banco digital para micro y pequeñas empresas).
+- **4-feb-2026 — Guía 2026**: crecimiento de cartera total 5,5–9,5% (Brasil 6,5–10,5%), margen financiero con clientes +5–9%, margen con el mercado R$2,5–5,5 mil M, coste de crédito R$38,5–43,5 mil M, comisiones/fees/seguros +5–9% (luego recortada), gastos +1,5–5,5%, tipo efectivo 29,5–32,5% (PRNewswire).
+- **29-dic-2025**: split/emisión de acciones 1,03:1 (bonificação) que ajusta las series históricas de precio y EPS (StockAnalysis).
+- **dic-2025**: anuncio del acuerdo para vender el retail de Colombia (cerrado jul-2026, ver arriba).
+- **2025 (año completo)**: beneficio neto R$44,86 mil M (+9,2%), ingresos R$138,95 mil M (+2,4%); capitalización en USD +71,7% en el año.
+
+### Catalizadores a futuro
+
+- **Ciclo de tipos en Brasil**: un ciclo de recortes de la Selic es el principal catalizador macro — reduce el coste de crédito y mejora la demanda, pero comprime el margen de pasivos; el banco mitiga con coberturas de largo plazo (el "pass-through" no es automático, según el CFO).
+- **Capital y dividendos**: generación orgánica de capital alta; la dirección anticipa "discusión tradicional sobre distribuciones adicionales" a inicios de 2027 — potencial de dividendos extraordinarios/JCP.
+- **Crecimiento de crédito con garantía**: hipotecas (55% de cuota entre privados) y payroll privado como motores estructurales; el CEO espera que el crecimiento de cartera siga por encima del punto medio de la guía, aunque modere.
+- **Reestructuración internacional**: el reenfoque corporativo de Colombia (objetivo: retorno en línea con coste de capital a 2028), la plataforma chilena y la consolidación en Uruguay/Paraguay.
+- **Digitalización y pagos**: Itaú Emps, tokenización (piloto ANBIMA con OpenAssets), cierre de la brecha de NPS con los líderes digitales (18 puntos, según el CEO), IA aplicada a eficiencia y ahorro de costes.
+- **Valoración**: precio ~23% por debajo del máximo de 52 semanas con consenso Buy; re-rating adicional si Brasil despeja riesgos fiscales y la morosidad no sube.
+
+---
+
+## 8. Riesgos
+
+### Específicos de la empresa
+
+- **Dependencia del margen de pasivos**: el NII con clientes ha crecido apoyado en el margen de pasivos, favorecido por tipos altos; un ciclo de recortes de la Selic sin crecimiento compensatorio de volúmenes comprimiría el margen.
+- **Guía de fees recortada**: las comisiones/seguros se revisaron a +2–5% para 2026 por moderación de actividad y de ingresos de tarjetas; si la economía frena más, el "bottom line" implícito podría resentirse a pesar del colchón fiscal (tipo efectivo en el extremo bajo).
+- **Morosidad SME y consumo**: NPL SME en 2,0% y subiendo ~10 pb hacia 2,1% (efecto mecánico por vencimiento de periodos de gracia de programas gubernamentales); la morosidad de personas a 15-90 días ~3,0%; endeudamiento de hogares alto.
+- **Resultados de tesorería (market NII)**: volátiles y sujetos a mercados; el coste del hedge del ratio de capital (capital index hedge) reduce el margen con el mercado en entornos de volatilidad.
+- **Ejecución de la reestructuración internacional**: la venta del retail colombiano tiene impacto extraordinario de ~COP 561,7 mil M y exige demostrar retornos en línea con el coste de capital a 2028.
+
+### Sectoriales / macro
+
+- **Competencia digital**: Nubank (capitalización ~US$74 mil M, cerca de la de Itaú) y fintechs presionan comisiones, tarjetas y cuentas; el propio CEO reconoce que la brecha de NPS con los líderes digitales se cerró tras años de inversión — el duopolio digital-tradicional es el escenario central.
+- **Ciclo de crédito brasileño**: expansión crediticia amplia con tipos restrictivos; el riesgo es que la calidad de activos del sistema se deteriore en bloque (los programas gubernamentales enmascaran parte de la morosidad SME).
+- **Fiscalidad y entorno**: discusión fiscal brasileña, tipo de cambio y prima de riesgo soberano afectan la conversión de resultados (ADR en USD) y el apetito global por emergentes.
+
+### Regulatorios / geopolíticos
+
+- **Regulación bancaria brasileña (Bacen)**: requisitos de capital (el banco opera con CET1 12,3% vs un mínimo confortable propio de 11,5%), normas de provisiones (enfoque de pérdida esperada), y el nuevo marco de crédito dirigido (recursos obligatorios hipotecarios).
+- **Riesgo soberano y geopolítico**: Brasil concentra ~95% del resultado del grupo; shocks globales (tasas de EE. UU., petróleo, tensión geopolítica) golpean los mercados locales y el margen con el mercado.
+- **Legal/controversias**: el grupo ha enfrentado en el pasado sanciones y litigios regulatorios típicos de la banca brasileña [sin casos materiales pendientes identificados en las fuentes consultadas a la fecha de corte].
+
+---
+
+## 9. Perspectiva del agente
+
+**Resumen**: Itaú Unibanco es la franquicia bancaria de referencia de América Latina: ROE del 24,3% (Q2 2026), NPL 90 días de 1,9%, coste de crédito estable del 2,7%, ratio de eficiencia en mejora (37,4%), CET1 12,3% y un dividendo del ~7% mensual. La acción cotiza a PER ~9,4x / P/B ~1,9x, tras un re-rating del +72% en capitalización en 2025 que la dejó ~23% por debajo de su máximo de 52 semanas. El negocio está bien gestionado y con crecimiento disciplinado (cartera +9,6%), pero el entorno brasileño (tipos restrictivos, endeudamiento alto) y la competencia de Nubank son los dos grandes interrogantes.
+
+**Tesis a favor**:
+- Calidad de activos excepcional para la región y gestión disciplinada del capital (ROE 24% con CET1 12,3% y generación orgánica de +0,8 pp/trimestre).
+- Motor de crecimiento con garantía: hipotecas (líder privado, 55% de cuota) y payroll privado; des-riesgo deliberado del consumo no garantizado.
+- Yield del ~7% con payout ~66% y posible distribuciones adicionales a inicios de 2027; PER forward 8,3x descuenta ya el ciclo.
+- Foso de fondeo y franquicia corporativa (Itaú BBA #1 de DCM en LatAm) difícil de replicar.
+
+**Tesis en contra**:
+- El beneficio depende de tipos altos (margen de pasivos): un ciclo de recortes puede comprimir el NII mientras los volúmenes no compensan.
+- La guía de fees ya se recortó a +2–5%; la presión competitiva de Nubank y fintechs sobre comisiones y tarjetas es estructural.
+- El riesgo de crédito está por verificar en la parte alta del ciclo (SME NPL subiendo, endeudamiento de hogares elevado).
+- Prima de riesgo brasileña: el descuento por PER vs bancos globales refleja soberano, tipo de cambio y política — no solo micro.
+
+**Sesgo del agente** [análisis del agente]: **Neutral-positivo con prudencia**. A PER ~9,4x y P/B ~1,9x con ROE 24%, la valoración es razonable pero ya no barata respecto de su propia historia reciente; el riesgo de la tesis es macro (tipos) y competitivo (Nubank), no de gestión. Un inversor de largo plazo debería vigilar: (1) evolución trimestral del NIM y del margen de pasivos ante el ciclo de tipos, (2) la trayectoria del NPL SME (~2,1%) y del coste de crédito, (3) si las comisiones recuperan el rango bajo de la guía, (4) la decisión de distribuciones adicionales a inicios de 2027 y (5) la comparativa de cuota y valoración frente a Nubank. Página de empresa afín para comparativa: [[hdfc-bank]] (banco de mercado emergente con franquicia de depósitos); pendientes de creación sugeridos: [[nubank]], [[banco-bradesco]], [[banco-santander-brasil]]. No hay posición en esta acción [declaración de neutralidad].
+
+---
+
+## 10. Fuentes
+
+*(URLs consultadas/verificadas el 15-ago-2026. Los datos de mercado pueden estar retrasados o corresponder al cierre del 14-ago-2026.)*
+
+1. StockAnalysis — ITUB (NYSE) resumen, estadísticas, financieros y dividendos (datos S&P Global Market Intelligence/CBOE/Fiscal.ai): https://stockanalysis.com/stocks/itub/ · https://stockanalysis.com/stocks/itub/statistics/ · https://stockanalysis.com/stocks/itub/financials/ · https://stockanalysis.com/stocks/itub/dividend/
+2. StockAnalysis — ITUB4 (B3, Brasil): https://stockanalysis.com/quote/bvmf/ITUB4/
+3. Wikipedia — Itaú Unibanco (historia, cifras 2025 citadas al informe IFRS del emisor): https://en.wikipedia.org/wiki/Itaú_Unibanco
+4. The Motley Fool — "Itaú Unibanco (ITUB) Q2 2026 Earnings Call Transcript" (12-ago-2026): https://www.fool.com/earnings/call-transcripts/2026/08/12/itau-unibanco-itub-q2-2026-earnings-call-transcript/
+5. MarketBeat — "Itau Unibanco Q2 Earnings Call Highlights" (8-ago-2026): https://www.marketbeat.com/instant-alerts/itau-unibanco-q2-earnings-call-highlights-2026-08-08/
+6. Itaú Unibanco (SEC EDGAR) — Press release Q1 2026: "Itaú Unibanco reports profit of R$12.3 billion and ROE of 24.8% in the first quarter of 2026" (5-may-2026): https://www.sec.gov/Archives/edgar/data/1132597/000113259726000153/pressreleaseontheresults.htm
+7. Itaú Unibanco (SEC EDGAR) — presentación consolidada Q1 2026: https://www.sec.gov/Archives/edgar/data/1132597/000113259726000149/comunicadoconsolidadoeng.htm
+8. Itaú Unibanco — Form 20-F/6-K 2025 (segmentos, presencia internacional, Wholesale net income) vía Stock Titan: https://www.stocktitan.net/sec-filings/ITUB/6-k-itau-unibanco-holding-s-a-current-report-foreign-issuer-12564ae61b09.html
+9. PRNewswire — "ITAÚ UNIBANCO - Material Fact: Guidance 2026" (4-feb-2026): https://www.prnewswire.com/news-releases/itau-unibanco---material-fact-guidance-2026-302679576.html
+10. PRNewswire — "Itaú Unibanco Holding files 2025 Form 20-F with the SEC and the CVM" (30-abr-2026): https://www.prnewswire.com/news-releases/itau-unibanco-holding-files-2025-form-20-f-with-the-sec-and-the-cvm-302758779.html
+11. GlobeNewswire/Banco Itaú Chile — "Itaú Successfully Completes the Transfer of Its Retail Banking Business in Colombia…" (31-jul-2026): https://www.globenewswire.com/news-release/2026/07/31/3337101/0/en/Itaú-Successfully-Completes-the-Transfer-of-Its-Retail-Banking-Business-in-Colombia-and-Strengthens-Its-Focus-on-Corporate-Banking.html
+12. Estadão — "Itaú vende operação de pessoas físicas na Colômbia e no Panamá para Banco de Bogotá por R$ 2,5 bi" (3-ago-2026): https://www.estadao.com.br/economia/negocios/itau-vende-operacao-pessoas-fisicas-colombia-panama-banco-bogota/
+13. Itaú Unibanco (SEC EDGAR) — Announcement to the Market: Completion of the Itaú Colombia transaction (6-K, 31-jul-2026): https://br.advfn.com/noticias/EDGAR2/2026/artigo/99036020
+14. Reuters — "Brazilian bank Itau to sell Argentine business to Banco Macro" (24-ago-2023): https://www.reuters.com/article/world/americas/brazilian-bank-itau-to-sell-argentine-business-to-banco-macro-idUSL1N3A50US/
+15. Itaú Unibanco (SEC EDGAR) — Announcement: closing of sale of Banco Itaú Argentina to Banco Macro (3-nov-2023): https://www.sec.gov/Archives/edgar/data/1132597/000129281423004444/ex99-1.htm
+16. PRNewswire — "Itaú Unibanco - Material Fact: Sale of Banco Itaú Argentina" (24-ago-2023): https://www.prnewswire.com/news-releases/itau-unibanco---material-fact-sale-of-banco-itau-argentina-301909126.html
+17. Valor Econômico — "Itaú vende operação na Argentina para Banco Macro por R$ 250 milhões" (24-ago-2023): https://valor.globo.com/financas/noticia/2023/08/24/ita-vende-operao-na-argentina-para-banco-macro-por-r-250-milhes.ghtml
+18. CompaniesMarketCap — Itaú Unibanco, Nu Holdings, Banco Bradesco, Banco Santander Brasil, Banco do Brasil (capitalizaciones, ago-2026): https://companiesmarketcap.com/itau-unibanco/marketcap/ · https://companiesmarketcap.com/nu-holdings/marketcap/ · https://companiesmarketcap.com/banco-bradesco/marketcap/ · https://companiesmarketcap.com/banco-santander-brasil/marketcap/ · https://companiesmarketcap.com/banco-do-brasil/marketcap/
+19. Euromoney — "Latin America's best investment bank for DCM 2026: Itaú Unibanco" (17-jul-2026): https://www.euromoney.com/article/4vns39ouxe2o8kcs48s0sw0g8/investment-banking/latin-americas-best-investment-bank-for-dcm-2026-itau-unibanco/
+20. CoinDesk — "Brazil's largest lender Itaú is stepping deeper into the tokenization" (11-ago-2026): https://www.coindesk.com/business/2026/08/11/brazil-s-largest-lender-itau-is-stepping-deeper-into-the-tokenization
+21. Bloomberg — "Itaú BBA contrata ex-Morgan Stanley como chefe de dívida global" (10-abr-2026): https://www.bloomberg.com/news/articles/2026-04-10/itau-bba-contrata-ex-morgan-stanley-como-chefe-de-divida-global
+22. TheFly — "Itau Unibanco price target raised to $10 from $9 at JPMorgan" (jul-2026): https://www.tipranks.com/news/the-fly/itau-unibanco-price-target-raised-to-10-from-9-at-jpmorgan-thefly-news
+23. Statista — "Largest banks in Latin America by market capitalization" (referencia dic-2024): https://www.statista.com/statistics/1373591/latin-america-leading-banks-by-market-cap/
+24. Itaú Unibanco — Investor Relations (relaciones con inversores; acceso directo bloqueado por 403 en la fecha de corte, usado como referencia institucional): https://www.itau.com.br/relacoes-com-investidores
+
+**Notas metodológicas**: (a) las cifras de mercado llevan fecha 14-15-ago-2026 (cierre del ADR el 14-ago-2026) salvo indicación; (b) el banco reporta en BRL; las conversiones a USD de resultados usan las del propio emisor/agregadores y son aproximadas; (c) se marcó [NO VERIFICADO] todo dato no contrastado en fuentes primarias a la fecha de corte; (d) para banca, "deuda total"/"FCF" de los agregadores no son métricas comparables a las de una empresa industrial; (e) 1 ADR = 1 acción preferencial ITUB4; las series de EPS/dividendo del agregador mezclan las clases ITUB3/ITUB4 (ajustadas por el split 1,03:1 de dic-2025); (f) las cifras del Q2 2026 provienen de la transcripción del call (Motley Fool) y del resumen de MarketBeat; la transcripción del call registra un crecimiento del payroll privado de "9,1%" interanual que MarketBeat cifra en "90,1%" (se adopta la cifra de MarketBeat con la discrepancia anotada).
+
+---
+
+*Página generada por agente autónomo. Fecha de corte: 2026-08-15.*
+*Verificar cifras de mercado en la fuente citada antes de decisiones de inversión.*
+
+## Ver también
+
+<!-- red densa 2026-08-25 -->
+- [[sonda-2026-08-14-itau-unibanco|sonda 2026-08-14]]

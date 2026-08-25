@@ -1,3 +1,44 @@
 @use "./variables.scss" as *;
+// tokens.scss lo COPIA publica.py desde web/ui/tokens.css, sin editar. No lo toques aqui: si esta
+// hoja y la del puesto de mando divergen, dejan de ser un solo mundo visual. Si el build se queja de
+// que no existe, es que `publica.py` no ha corrido todavia — corre el publicador, no crees el
+// fichero a mano.
+@use "./tokens.scss";
 
-// put your custom CSS here!
+// Las tres tipografias del mundo Catodo, autohospedadas. `fontOrigin: local` en quartz.config.yaml
+// significa exactamente esto: Quartz no baja nada y el @font-face lo ponemos nosotros. Las rutas son
+// /static/tipos/ porque quartz/static/** se emite a <salida>/static/**.
+@font-face { font-family: "Spectral"; src: url("/static/tipos/spectral-400.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Spectral"; src: url("/static/tipos/spectral-400-italic.woff2") format("woff2"); font-style: italic; font-display: swap; }
+@font-face { font-family: "Spectral"; src: url("/static/tipos/spectral-600.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Courier Prime"; src: url("/static/tipos/courier-prime-400.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Courier Prime"; src: url("/static/tipos/courier-prime-700.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Saira Condensed"; src: url("/static/tipos/saira-condensed-400.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Saira Condensed"; src: url("/static/tipos/saira-condensed-600.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+
+// La rejilla de fondo del taller. Va en un pseudoelemento fijo y no en `background` del body para
+// que no se desplace al hacer scroll ni tape nada: `z-index: -1` y `pointer-events: none`.
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    repeating-linear-gradient(60deg, transparent 0 23px, var(--rejilla) 23px 24px),
+    repeating-linear-gradient(-60deg, transparent 0 23px, var(--rejilla) 23px 24px);
+}
+
+// Los titulares en condensada. Quartz ya aplica la tipografia del YAML, pero el interletrado del
+// mundo Catodo no sale de ahi.
+h1, h2, h3, h4, .page-title { letter-spacing: .02em; }
+
+blockquote { border-left: 2px solid var(--bronce); }
+
+// La marca que el filtro deja donde retiro una cifra privada, y el pie del aviso. Que se vea es el
+// punto: toda degradacion deja rastro visible.
+.pie-aviso, footer {
+  color: var(--gray);
+  font-family: var(--headerFont);
+  font-size: .85rem;
+}

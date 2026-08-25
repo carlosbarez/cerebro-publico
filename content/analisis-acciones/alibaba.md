@@ -1,0 +1,310 @@
+---
+title: "Alibaba Group Holding Ltd (BABA / 9988.HK)"
+tipo: analisis-accion
+tags: [empresa, e-commerce, china, asia]
+fecha: 2026-08-15
+fuentes: []
+---
+
+# Alibaba Group Holding Ltd (BABA / 9988.HK)
+
+> Fecha de corte: 2026-08-15 · Moneda de reporte: CNY (renminbi); cotiza en USD (NYSE) y HKD/RMB (HKEX)
+> Sector: Comercio electrónico / Internet Retail (Consumo cíclico) · País/Región: China (constituida en Islas Caimán) · Bolsa principal: NYSE (BABA); cotización en HKEX (9988, contador HKD; 89988, contador RMB)
+
+---
+
+## 1. Ficha rápida
+
+| Campo | Valor |
+|---|---|
+| Ticker / Bolsa | BABA / NYSE (EE. UU.); 9988.HK (contador HKD) y 89988 (contador RMB) en HKEX. 1 ADS = 8 acciones ordinarias |
+| Sector / Industria | Comercio electrónico (Internet Retail, Consumo cíclico); tecnológica con foco "AI + Cloud" y consumo |
+| País / Región | China (sede: Hangzhou, Zhejiang; constituida en las Islas Caimán) |
+| Moneda de reporte | CNY; ejercicio fiscal = año que termina el 31 de marzo (FY26 = abr 2025–mar 2026) |
+| Capitalización bursátil | ~US$282.420 millones (StockAnalysis, 15 ago 2026); ~US$296.757 millones intraday (Yahoo Finance, 14 ago 2026); ~US$308.930 millones (Yahoo statistics, 11 ago 2026). La diferencia refleja recuento de ADS distinto según fuente (~2,28–2,40 mil millones de ADS) |
+| Precio | US$123,81 (cierre 14 ago 2026, NYSE); US$123,90 en after-hours (14 ago 2026) |
+| Rango 52 semanas | US$91,99 – 192,67 (14 ago 2026, Yahoo Finance) |
+| PER (TTM, GAAP) | 18,99 (Yahoo, 14 ago 2026); 19,41 (StockAnalysis, 15 ago); 20,29 (Yahoo statistics, 11 ago) |
+| PER forward | 18,86 (StockAnalysis, 15 ago 2026); 21,05 (Yahoo statistics, 11 ago 2026) |
+| EPS (TTM, GAAP) | US$6,38 por ADS (Yahoo, 14 ago 2026). EPS no-GAAP FY26: US$3,89 por ADS (comunicado Alibaba) |
+| Rendimiento por dividendo | 0,86% (dividendo anual FY26 de US$1,05 por ADS, ~US$2.500 millones; Yahoo/StockAnalysis, 14–15 ago 2026) |
+| CEO | Eddie Wu (desde 2023) |
+| Chairman | Joseph Tsai (desde 2023) |
+| President | J. Michael Evans |
+| CFO | Toby Xu |
+| Sede | No. 969 West Wen Yi Road, Yuhang District, Hangzhou, Zhejiang, China y George Town, Islas Caimán |
+| Empleados | 131.462 (perfil Yahoo Finance, 2026); 124.320 (FY2025, 20-F vía Wikipedia) |
+| Próximos resultados | 20 ago 2026 (trimestre junio 2026 / Q1 FY27, antes de la apertura; Yahoo Finance / Stock Titan) |
+
+---
+
+## 2. Descripción de la empresa
+
+Alibaba Group es la mayor empresa china de comercio electrónico y una de las mayores del mundo por volumen bruto de mercancía (GMV), con negocios que abarcan marketplace B2B/B2C/C2C, comercio internacional, comercio rápido (quick commerce), logística, servicios locales, entretenimiento y, cada vez con más peso, cloud computing e inteligencia artificial. Se autodefine hoy como una compañía de tecnología centrada en "AI + Cloud" y consumo (perfil Yahoo Finance, 20-F).
+
+Historia breve (Wikipedia, Reuters, comunicados):
+
+- **Fundación**: creada el **28 de junio de 1999** por **Jack Ma** y 17 socios en Hangzhou como un marketplace B2B (Alibaba.com). En 1999 recibió inversión de [[goldman-sachs|Goldman Sachs]], SoftBank e Investor AB. En 2002 alcanzó rentabilidad.
+- **Taobao (2003)**: lanzado para defender el mercado doméstico frente a la entrada de eBay; lo superó hacia 2007. En 2004 se creó **Alipay**, el sistema de pagos por depósito en garantía (escrow) que sostiene la confianza del marketplace; en 2011 se escindió y rebautizó como Ant Financial (hoy **Ant Group**).
+- **Tmall**: plataforma B2C de marcas lanzada en 2008; junto con Taobao domina el comercio electrónico de China.
+- **Alibaba Cloud**: lanzada en 2009; mayor proveedor de cloud de China. En 2018 el gobierno chino la designó "campeona nacional de IA".
+- **IPO**: el 19 de septiembre de 2014 salió a bolsa en el NYSE a US$68, captando **US$25.000 millones** — la mayor OPI de la historia hasta entonces, con valoración de ~US$231.000 millones. En noviembre de 2019 realizó una **cotización secundaria en Hong Kong** (US$12.900 millones); en **agosto de 2024 convirtió la cotización de Hong Kong en cotización primaria** (habilitando su inclusión en el Stock Connect), para reducir la dependencia del mercado estadounidense.
+- **1+6+N (2023)**: reestructuración en seis unidades con gobiernos corporativos propios (Cloud Intelligence Group, Taobao y Tmall Group, Cainiao, Local Services, AIDC, Digital Media and Entertainment). La escisión de Cainiao se suspendió: en marzo de 2024 Alibaba **retiró la solicitud de OPI de Cainiao y compró las participaciones minoritarias** (hasta US$3.750 millones), consolidando ~100% de propiedad.
+- **Liderazgo**: Jack Ma dejó la presidencia en septiembre de 2019 (Daniel Zhang le sucedió). En **septiembre de 2023** asumieron **Joseph Tsai** (chairman) y **Eddie Wu** (CEO), en plena reestructuración.
+- **"All-in AI" (2025)**: en paralelo al resultado del Q4 FY25 (mayo 2025) la compañía anunció un giro estratégico hacia IA y cloud, priorizando inversión en infraestructura frente al margen a corto plazo.
+- Hitos regulatorios/geopolíticos: multa antitrust de **RMB 18.228 millones (~US$2.800 millones)** en abril de 2021; bloqueo de la OPI de Ant Group en noviembre de 2020; en **junio de 2026 EE. UU. la añadió a la lista de "empresas militares chinas"** (1260H), contra lo que Alibaba presentó demanda.
+
+Qué vende y a quién (20-F/comunicados, resumido): plataformas digitales de consumo (Taobao, Tmall), comercio rápido (Taobao Instant Commerce/Ele.me), mayoristas (1688, Alibaba.com), comercio internacional (AliExpress, Trendyol, Lazada, Daraz, Miravia), cloud e IA (Alibaba Cloud, modelos Qwen), logística (Cainiao), servicios locales (Amap), entretenimiento (Youku, Damai) y salud (Alibaba Health). Clientes: consumidores de China (~54% de los ingresos consolidados provienen del grupo de e-commerce chino en FY26), marcas y merchants, empresas que compran cloud, y consumidores/empresas en el extranjero vía AIDC.
+
+Datos de referencia: considerada "empresa campeona nacional" por el gobierno chino; componente del Hang Seng Index. Los mayores accionistas históricos incluyen SoftBank (~11,9% en 2024, vendiendo progresivamente desde 2023), Vanguard (~13,4%), BlackRock (~3,0%) y Norges Bank (~2,0%) (Wikipedia, principios de 2024).
+
+---
+
+## 3. Modelo de negocio
+
+### 3.1 Estructura de segmentos (reporting actual desde el trimestre de junio 2025)
+
+Desde el Q1 FY26 (jun 2025) Alibaba simplificó su reporting a cuatro segmentos, integrando Taobao/Tmall, Ele.me y Fliggy en el grupo de e-commerce chino y moviendo Cainiao, Amap y el grupo de medios (rebautizado Hujing Digital Media and Entertainment) a "All others" (comunicado Q4 FY26).
+
+| Segmento | Ingresos FY26 (RMB mm) | % del total | Δ interanual | Ingresos Q4 FY26 (RMB mm) | Δ Q4 |
+|---|---|---|---|---|---|
+| Alibaba China E-commerce Group | 554.217 | 54,1% | +9% | 122.220 | +6% |
+| Alibaba International Digital Commerce (AIDC) | 144.170 | 14,1% | +9% | 35.429 | +6% |
+| Cloud Intelligence Group | 158.132 | 15,4% | +34% | 41.626 | +38% |
+| All others (Cainiao, Amap, Freshippo, Alibaba Health, medios, Qwen app) | 254.367 | 24,8% | -25% | 65.459 | -21% |
+| Unallocated | 2.340 | — | — | 641 | — |
+| Eliminaciones intersegmento | -89.556 | — | — | -21.995 | — |
+| **Total consolidado** | **1.023.670** | **100%** | **+3%** | **243.380** | **+3%** |
+
+Notas (comunicado Q4 FY26): el descenso de "All others" se debe sobre todo a la venta de Sun Art e Intime (consumada en 2025) y a la menor facturación de Cainiao, parcialmente compensada por Freshippo y Amap. Excluyendo Sun Art e Intime, los ingresos consolidados del FY26 habrían crecido **+11%** interanual.
+
+Dentro del grupo de e-commerce chino, el desglose FY26 es: **customer management revenue (CMR, publicidad y comisiones)** RMB 343.867 millones (+5%), **venta directa/logística** RMB 105.518 millones (+2%), **quick commerce** RMB 78.520 millones (+47%, neto de subsidios) y **mayorista** RMB 26.312 millones (+8%). El CMR es la línea de mayor calidad del grupo: en el Q4 FY26 creció solo +1% contable, pero +8% "like-for-like" al excluir el impacto contra-revenue del nuevo programa de desarrollo de merchants.
+
+### 3.2 Cómo gana dinero
+
+- **Publicidad y comisiones (CMR)**: el corazón del modelo. Taobao (C2C) y Tmall (B2C) monetizan a merchants vía tarifas, comisiones y sobre todo publicidad (algoritmos de ranking). En el FY26 el CMR supuso ~33,6% de los ingresos consolidados y es la palanca principal de margen del grupo de e-commerce chino (margen adjusted EBITA del segmento: 19,4% en FY26).
+- **Comercio rápido (quick commerce)**: Taobao Instant Commerce y Ele.me (entrega de comida y on-demand). Sigue a escala y sin rentabilidad consolidada: quemó inversión en FY26 (junto con adquisición de usuarios del app Qwen y el cloud, explica la caída del EBITA), aunque la dirección reporta mejora trimestral de la economía unitaria y del ticket medio.
+- **Venta directa (1P)**: Tmall Supermarket, Tmall Global y otras categorías (gross, con inventario en balance); parte de la oferta y del "All others" (Freshippo).
+- **Cloud e IA (Cloud Intelligence Group)**: infraestructura (IaaS), plataforma (PaaS) y **Model-as-a-Service (MaaS)** — alquiler de modelos Qwen y agentes. En el Q4 FY26 el crecimiento de ingresos externos se aceleró al **40%** interanual y los **productos relacionados con IA representaron el 30%** de esa facturación; la facturación de productos IA alcanzó **RMB 8.971 millones** en el trimestre (11.º trimestre consecutivo de crecimiento de tres dígitos, ~run-rate de US$5.200 millones anuales). Márgenes del segmento: adjusted EBITA de 9,0% en FY26 y 9,1% en el Q4 FY26 (+57% interanual en el trimestre).
+- **Internacional (AIDC)**: AliExpress (B2C transfronterizo, incluyendo su modelo *Choice*), Trendyol (Turquía), Lazada (Sudeste Asiático), Daraz (Sur de Asia), Alibaba.com y 1688 (B2B). Fue estructuralmente perdedor; en el Q4 FY26 **redujo la pérdida adjusted EBITA a RMB 138 millones** (desde -3.574 millones un año antes), acercándose al break-even. En el FY26 vendió el negocio de servicios locales de Trendyol (ganancia de disposición).
+- **Logística (Cainiao)**: red de entrega y cadena de suministro, hoy consolidada al 100% dentro de "All others"; complementa el servicio de Taobao/Tmall y AliExpress.
+
+### 3.3 Ventajas competitivas / foso
+
+- **Escala del ecosistema doméstico**: Taobao/Tmall es la mayor plataforma de consumo digital de China; los usuarios de mayor gasto (**88VIP superó los 62 millones** de miembros, creciendo a doble dígito, Q4 FY26) anclan el gasto y la retención.
+- **Datos de consumo y publicidad**: el stack de datos de compra, búsqueda y pago alimenta el algoritmo de monetización publicitaria — un foso de datos difícil de replicar.
+- **Cloud + modelos propios**: Alibaba Cloud es el líder del cloud en China y Qwen es la familia de modelos abiertos más adoptada a nivel global (licencias Apache 2.0); la integración de chips propios (T-Head/Zhenwu, con más de 100.000 PPU desplegados y 30+ fabricantes de automoción), modelos y cloud forman un stack vertical que compite con Huawei, Tencent y ByteDance.
+- **Logística integrada (Cainiao)**: red propia de almacenes y entrega que soporta la promesa de velocidad (incluido el quick commerce), difícil de replicar por rivales puramente de plataforma.
+- **Balance y capacidad de retorno al accionista**: históricamente gran caja neta (aunque reducida por capex IA), dividendo anual y un programa de recompra con autorización remanente de ~US$19.100 millones al 30 sep 2025 (vigente hasta marzo 2027).
+- **Socio estratégico de Apple**: alianza para llevar IA de Qwen a Apple Intelligence en China (ver sección 7) — un respaldo de adopción global con monetización potencial.
+
+---
+
+## 4. Panorama de mercado y competencia
+
+- **Mercado**: el comercio electrónico de China es el mayor del mundo, pero ha pasado de crecimiento de doble dígito a un crecimiento bajo de un dígito con una feroz competencia por el "valor" (precio bajo). El e-commerce chino está, además, en plena transición hacia compras "con IA" (agentes de compra) y hacia el quick commerce.
+- **Competidores en e-commerce doméstico** (datos de mercado, 14–15 ago 2026, StockAnalysis/Yahoo):
+  - **JD.com (JD, 9618.HK)**: US$29,06; capitalización ~US$39.200 millones; PER ~19,5. Modelo de venta directa 1P + logística propia; competidor directo en calidad/autenticidad y en la guerra del food delivery (JD Food Delivery vs Ele.me/Meituan).
+  - **PDD Holdings (PDD)**: US$84,79; capitalización ~US$120.700 millones; PER ~9,1. [[pinduoduo|Pinduoduo]] (valor extremo) y Temu (internacional); presión deflacionaria sobre la monetización de todo el sector.
+  - **ByteDance (Douyin)**: e-commerce por vídeo/live-streaming (privada) — el rival más disruptivo en adquisición de nuevos consumidores y en comercio social.
+  - **Meituan (3690.HK)**: líder del delivery y servicios locales en China (~HK$538.000 millones de capitalización, 14 ago 2026); rival directo de Ele.me/Taobao Instant Commerce.
+  - **Tencent (700.HK)**: no compite frontalmente en e-commerce, pero su ecosistema WeChat es el mayor embudo de tráfico; competidor en IA (modelo Hunyuan) y en cloud (Tencent Cloud).
+- **Competidores en cloud e IA**:
+  - En China: **Huawei Cloud** (segundo mayor), Tencent Cloud, Baidu (Ernie) — más la creciente entrada de **datacenters estatales** (Morningstar señaló en julio 2026 que la construcción estatal de capacidad podría restar ingresos al cloud privado). Internacionalmente: AWS, [[microsoft|Microsoft]] Azure y Google Cloud compiten por los clientes globales de Alibaba Cloud.
+  - En modelos: DeepSeek, ByteDance (Doubao), Tencent (Hunyuan), Baidu (Ernie) y, en abierto, las familias abiertas de Meta (Llama) y Mistral. Qwen compite como la familia abierta líder por descargas/adopción (evidencia cualitativa; cifras de cuota [NO VERIFICADO]).
+- **Guerra de precios y subsistencias**: entre 2023 y 2026 el sector compitió agresivamente en precio. La novedad de 2025–2026 es el gasto masivo en IA: Alibaba, Tencent y ByteDance están quemando margen y caja en infraestructura (chips, datacenters), lo que ha desplazado el foco del "precio bajo" al "carrera de IA".
+- **Posición relativa [análisis del agente]**: Alibaba conserva el liderazgo de cuota en e-commerce de consumo de China y en cloud doméstico, pero su cuota de e-commerce se erosiona lentamente frente a PDD y Douyin, y su monetización publicitaria (CMR) crece menos que en la era de doble dígito. Su apuesta diferencial es convertirse en el "núcleo de IA" de China (modelos + cloud + chips), un terreno en el que no compite con JD (que hace IA para su propia cadena) sino con Tencent, ByteDance y Huawei, además de con los gigantes globales en el mercado internacional.
+
+---
+
+## 5. Análisis financiero
+
+### 5.1 Ingresos y márgenes (últimos ejercicios; millones de CNY; fuente: StockAnalysis/S&P Global y comunicados de Alibaba)
+
+| Año fiscal (abr–mar) | Ingresos | Δ interanual | Income from ops. | Margen op. | Net income atribuible | EPS diluido/ADS (CNY) |
+|---|---|---|---|---|---|---|
+| FY2022 | 853.062 | +19% | 96.497 | 11,3% | 61.959 | 22,74 |
+| FY2023 | 868.687 | +1,8% | 106.120 | 12,2% | 72.509 | 27,46 |
+| FY2024 | 941.168 | +8,3% | 138.718 | 14,7% | 79.741 | 31,24 |
+| FY2025 | 996.347 | +5,9% | ~140.920 (20-F/Wikipedia) | ~14,1% | 129.470 | 53,59 |
+| FY2026 | 1.023.670 | +2,7% (+11% like-for-like) | 50.150 | 4,9% | 105.904 | 44,00 |
+
+Lectura del agente sobre los márgenes: el margen operativo del FY2026 colapsó (de ~14% a ~5%) por la **inversión en IA, quick commerce y experiencia de usuario** —no por un deterioro del negocio subyacente—, además de un aumento del deterioro (impairment) de fondo de comercio. El FY2025 estuvo inflado por partidas no recurrentes (ganancias netas de inversiones, incluidas disposiciones). El **adjusted EBITA no-GAAP** (la medida que la dirección usa como beneficio operativo normalizado) cayó **-56% en FY26 a RMB 76.416 millones** y **-84% en el Q4 FY26 a RMB 5.102 millones**, pero el **adjusted EBITA de Cloud subió +57%** en el trimestre.
+
+Últimos trimestres (comunicados; millones de CNY):
+
+| Trimestre | Ingresos | Δ interanual | Income (loss) from ops. | Non-GAAP net income | FCF | Fecha del comunicado |
+|---|---|---|---|---|---|---|
+| Q4 FY25 (mar 2025) | 236.454 | +6% | +28.465 | 29.847 | +3.743 | 15 may 2025 |
+| Q1 FY26 (jun 2025) | n.d. (cifras no contrastadas en esta página) | n.d. | — | — | — | 29 ago 2025 |
+| Q2 FY26 (sep 2025) | n.d. (ingresos +7% interanual, según comunicación de la dirección; cifra exacta no contrastada aquí) | n.d. | — | — | — | 25 nov 2025 |
+| Q3 FY26 (dic 2025) | n.d. (ingresos por debajo de expectativas; beneficio neto -66% interanual, CNBC) | — | — | — | — | 19 mar 2026 |
+| Q4 FY26 (mar 2026) | 243.380 | +3% (+11% l.f.l.) | **-848** (primera pérdida operativa trimestral) | 86 | **-17.300** | 13 may 2026 |
+
+Nota de calidad [análisis del agente]: el "net income" GAAP del Q4 FY26 (+96% interanual a RMB 23.502 millones) es engañoso — la subida se debe a ganancias mark-to-market de inversiones y a las pérdidas por venta de Sun Art/Intime del año anterior, mientras que el **beneficio no-GAAP se desplomó ~100% (RMB 86 millones)** por el gasto en IA. Cualquier análisis de valoración debe partir del no-GAAP o del adjusted EBITA, no del GAAP.
+
+### 5.2 Balance (deuda, efectivo, solvencia)
+
+- **Efectivo y activos líquidos**: RMB 520.824 millones (**US$75.504 millones**) al 31 mar 2026, frente a RMB 597.132 millones al 31 mar 2025 — caída de ~US$11.100 millones en el año (StockAnalysis lo mide más estrecho: "cash & investments" de RMB 316.820 millones en FY26).
+- **Deuda total**: RMB 281.722 millones en FY26 (vs 248.110 en FY25, StockAnalysis), impulsada por la **emisión de bonos convertibles y canjeables** en FY26 (proceeds netos de ~RMB 31.953 millones, comunicado) para financiar recompras/inversión.
+- **Posición neta**: pasó de **efectivo neto de RMB 179.326 millones (FY25) a RMB 35.098 millones (FY26)** — una caída del 80%, la más rápida de su historia, por FCF negativo, dividendos (RMB 33.732 millones pagados) y adquisiciones de minoritarios. Aún positiva, pero el colchón se está quemando a gran velocidad.
+- **Ratios de solvencia**: deuda/equity del 25,0% y cobertura de intereses de 6,4× (Yahoo statistics, 11 ago 2026); current ratio 1,28 (StockAnalysis, 15 ago 2026). Activos totales de RMB 1,804 billones y patrimonio de RMB 1,009 billones en FY2025 (Wikipedia/20-F).
+- Valor contable por ADS: US$66,22 (StockAnalysis, 15 ago 2026).
+
+### 5.3 Cash flow y rentabilidad (FCF, ROE, ROIC)
+
+| Año fiscal | OCF (RMB mm) | CapEx (RMB mm) | FCF (RMB mm) | Margen FCF |
+|---|---|---|---|---|
+| FY2022 | 142.759 | 53.309 | 89.450 | 10,5% |
+| FY2023 | 199.752 | 34.330 | 165.422 | 19,0% |
+| FY2024 | 182.593 | 32.087 | 150.506 | 16,0% |
+| FY2025 | 163.509 | 85.972 | 73.870 | 7,4% |
+| FY2026 | 76.213 | 126.063 | **-46.609** | -4,6% |
+
+- **Primer FCF anual negativo de la historia** en FY26 (-RMB 46.609 millones, ~-US$6.757 millones), con el capex más que triplicándose desde FY2024 (construcción de infraestructura cloud/IA). Yahoo statistics confirma el FCF TTM negativo (~-US$44.070 millones en CNY).
+- **Rentabilidad (TTM GAAP, StockAnalysis, 15 ago 2026)**: ROE 9,22%, ROA 2,12%, ROIC 4,54%. Niveles bajos que reflejan la fase de inversión masiva; el ROE de la era 2023–2025 era sustancialmente superior [referencia histórica].
+- Margen bruto estable (~39,8% en FY26), lo que indica que la compresión de beneficio es de gasto, no de estructura de costes de producto.
+
+### 5.4 Perfil de dividendos y recompras
+
+- **Dividendo**: anual en efectivo. FY2026: **US$1,05 por ADS (US$0,13125 por acción ordinaria)**, ~**US$2.500 millones** en total; ex-fecha 11 jun 2026, pago ~6–13 jul 2026. Yield actual 0,86% (bajo para el sector, coherente con la fase de reinversión). Payout ~16% del beneficio GAAP.
+- **Recompras**: programa agresivo desde 2024. En el **FY2025 recompró 1.197 millones de acciones ordinarias (150 millones de ADS) por US$11.900 millones**; en el trimestre sep 2025, US$241 millones; autorización remanente de **US$19.100 millones al 30 sep 2025 (programa vigente hasta marzo 2027)**. En junio–julio 2026 ejecutó recompras en NYSE bajo un mandato general del 10% aprobado en la AGM de sep 2025 (hasta ~1.907 millones de acciones). Shares outstanding en descenso (~-0,4% interanual, StockAnalysis). Shareholder yield total estimado ~1,3% (dividendo 0,86% + buyback yield 0,43%).
+
+---
+
+## 6. Valoración
+
+Múltiplos actuales (15 ago 2026, salvo indicación):
+
+| Métrica | Valor | Fuente/fecha |
+|---|---|---|
+| Capitalización | US$282.420 millones | StockAnalysis, 15 ago |
+| Precio | US$123,81 | Yahoo, cierre 14 ago |
+| PER (GAAP TTM) | 18,99–20,29 | Yahoo 14 ago / Yahoo stats 11 ago |
+| PER forward | 18,86–21,05 | StockAnalysis / Yahoo stats |
+| PER no-GAAP (sobre EPS no-GAAP FY26 US$3,89) | ~31,8 [análisis del agente] | Cálculo sobre comunicado |
+| P/B | 1,87–2,02 | StockAnalysis / Yahoo stats |
+| EV/EBITDA | 11,03 (Yahoo) – 17,37 (StockAnalysis) | Depende de la definición de EBITDA; el TTM está deprimido por el gasto IA |
+| PEG (5 años) | 0,55–0,57 | Yahoo / StockAnalysis |
+| P/S | 1,90–2,10 | StockAnalysis / Yahoo |
+| Precio objetivo consenso | US$189,60 (+53% vs actual); rango US$92,45–242,64 | StockAnalysis, 40 analistas, consenso "Strong Buy" |
+| Beta (5Y) | 0,51 | Yahoo |
+
+Comparación con sector: frente a Amazon (P/S ~2,8–3 y PER muy superior) y PDD (PER ~9), Alibaba cotiza con un PER GAAP similar a JD (~19–20) pero con un descuento histórico enorme frente a sus propios múltiplos de la era 2020–2021 (cuando superaba 25–30×) y frente a su P/B de ~2 frente a la "suma de partes" [análisis del agente].
+
+Interpretación del agente [análisis del agente]:
+
+- **Si se mira el GAAP TTM, la acción parece razonable (~19×)**; pero el beneficio GAAP está hinchado por ganancias de inversión, y el **beneficio no-GAAP (US$3,89/ADS) arroja un PER de ~32×**, muy caro para un negocio cuyo beneficio normalizado está colapsando por la inversión en IA.
+- La tesis alcista se apoya en **derechos a futuro, no en el presente**: consenso espera recuperación del EPS (PER forward ~19–21 y PEG <0,6 con crecimiento esperado del 45% a 3 años), aceleración de Cloud (+40% externo en Q4 FY26, objetivo de **US$100.000 millones de ingresos IA+Cloud anuales en ~5 años**, Bloomberg/SCMP), monetización vía Apple, y ~US$19.000 millones de recompra pendientes que reducen el recuento.
+- Valoración "justa" razonable [análisis del agente]: con la información disponible no puede sostenerse una horquilla precisa — depende críticamente de cuánto margen y FCF devuelva Cloud cuando la capacidad (chips/datacenters) se deprecie. El precio objetivo medio del consenso (US$189,60) asume una recuperación de márgenes que el mercado aún no descuenta; el rango bajo del consenso (US$92,45) marca el riesgo de que la inversión IA no se convierta en rentabilidad.
+
+---
+
+## 7. Noticias recientes y catalizadores
+
+Hechos relevantes de los últimos ~12 meses (con fechas):
+
+- **24 nov 2025 (Q2 FY26, trimestre sep 2025)**: resultados con ingresos +7% y mensaje de apuesta total por IA.
+- **Nov 2025**: el Financial Times informó de un memorando de seguridad nacional de EE. UU. que acusa a Alibaba de facilitar capacidades al Ejército de Liberación Popular chino contra EE. UU.; Alibaba lo negó.
+- **19 mar 2026 (Q3 FY26, trimestre dic 2025)**: ingresos por debajo de las estimaciones y **beneficio neto -66% interanual** (CNBC); el mercado lo leyó como coste de la estrategia IA.
+- **Abr 2026**: lanzó un modelo de IA para desarrollo de juegos y generación de vídeo (compitiendo con Tencent); refuerza la familia de modelos multimodales (HappyOyster, HappyHorse).
+- **13 may 2026 (Q4 FY26 y FY2026)**: **primera pérdida operativa trimestral** (-RMB 848 millones) y beneficio no-GAAP ~cero, pero **Cloud +38% (40% externo)** y productos IA con run-rate de ~US$5.200 millones; la acción subió en el día (Yahoo Finance) porque el mercado premió la aceleración del cloud pese al beneficio.
+- **May 2026**: dirección afirma que **superará su plan de gasto en IA** y que el margen es "secundario" (Reuters/Bloomberg); **objetivo de ~US$100.000 millones de ingresos IA+Cloud en cinco años** (Bloomberg/SCMP).
+- **3–18 jun 2026**: EE. UU. añade a Alibaba a la lista de "empresas militares chinas"; Alibaba **presentó demanda** contra el gobierno de EE. UU. para salir de la lista (Wikipedia). Poco efecto aparente en el precio tras el anuncio inicial.
+- **Jul 2026**: Morningstar recortó su valoración razonable ~7% al considerar que los **datacenters estatales** pueden restar ingresos al cloud privado; Argus reiteró "HOLD" por compresión de margen por gasto IA.
+- **8 ago 2026**: Apple publica una guía para que los **usuarios de Mac en China conecten Qwen de Alibaba a Siri** (Reuters).
+- **14 ago 2026**: Reuters (exclusiva): **Apple ha entrenado su propio modelo de IA específico para China con el apoyo de Alibaba** — el primer modelo propio de Apple aprobado para operar en China; Qwen se incorpora a la versión china de Apple Intelligence; coexiste con tecnología de Baidu. La acción subió ~1,4% el 14 ago.
+- **20 ago 2026 (próximo catalizador confirmado)**: resultados del trimestre de junio (Q1 FY27), antes de la apertura del mercado.
+
+Catalizadores a futuro:
+
+- **Resultados Q1 FY27 (20 ago 2026)**: primer test del plan de capex 2026 y de la aceleración del cloud.
+- **Monetización de la alianza Apple/Qwen** y expansión internacional de Qwen (licenciamiento/open-source: la prensa especula con un giro hacia modelos "de código abierto estilo Llama" que amplíen adopción — titulares como "Alibaba undervalued after Qwen licensing shift", Simply Wall St., 13 ago 2026; detalles [NO VERIFICADO]).
+- **Recuperación del FCF**: cuándo la infraestructura cloud empiece a generar caja libre (frente al FCF negativo actual).
+- **Recompras** (US$19.000 millones remanentes) como soporte estructural al precio.
+- **Resolución de la disputa con el gobierno de EE. UU.** (lista militar) y evolución del contexto geopolítico.
+- **Quick commerce**: camino a break-even del negocio de entrega (Ele.me/Taobao Instant Commerce) frente a Meituan y JD Food Delivery.
+
+---
+
+## 8. Riesgos
+
+Riesgos específicos de la empresa:
+
+- **FCF negativo y compresión de margen por gasto IA**: primer FCF anual negativo de su historia y EBITDA -84% en el Q4 FY26. Si la inversión en cloud/IA no se traduce en rentabilidad, el beneficio no-GAAP seguirá deprimido y el PER no-GAAP (~32×) no se justifica.
+- **Calidad del beneficio GAAP**: parte del net income depende de ganancias mark-to-market de inversiones (volátiles), no de la operación.
+- **Erosión en e-commerce doméstico**: cuota de Taobao/Tmall frente a PDD y Douyin; CMR con crecimiento bajo de un dígito (contable).
+- **Dependencia de China**: ~70% de los ingresos provienen del negocio doméstico (e-commerce + cloud local); débil confianza del consumidor chino lastra el consumo.
+
+Riesgos sectoriales / macro:
+
+- **Carrera de capex en IA**: todos los gigantes chinos (y globales) están construyendo capacidad; el riesgo de sobrecapacidad/datacenters estatales es real (Morningstar) y puede abaratar la infraestructura cloud.
+- **Guerra de precios recurrente** en e-commerce y delivery (subsidios) que destruye márgenes sectoriales.
+- **Macro China**: deflación, crisis inmobiliaria, desempleo juvenil y gasto cauteloso.
+
+Riesgos regulatorios / geopolíticos:
+
+- **EE. UU.–China**: inclusión en la lista de "empresas militares chinas" (jun 2026, con demanda pendiente), prohibición en Texas (ene 2026), memorando del Financial Times (nov 2025) y riesgo de sanciones adicionales o de desinversión forzosa. El riesgo de delisting por auditoría se redujo tras el acuerdo PCAOB de 2022.
+- **Regulación china**: precedente de la multa antitrust de RMB 18.228 millones (2021) y el bloqueo de la OPI de Ant Group (2020); el gobierno la trata como "campeón nacional" pero también como instrumento de política industrial (cumplimiento de IA, soberanía de datos, vigilancia).
+- **Estructura VIE y gobierno corporativo**: vehículo de propósito especial en Caimán con estatus legal incierto ante cambios regulatorios chinos; presencia de comité del Partido en la empresa.
+- **SoftBank / accionistas de referencia**: la venta gradual de SoftBank y el rol público de Jack Ma añaden ruido accionarial.
+
+---
+
+## 9. Perspectiva del agente
+
+Resumen ejecutivo [análisis del agente]:
+
+Alibaba está en una **transición de modelo de negocio** sin precedentes en su historia: pasa de ser la máquina de caja del e-commerce chino a apostar todo por ser el proveedor de "AI + Cloud" de China. El precio cuenta esa historia a medias: la acción cayó ~36% desde su máximo de 52 semanas (US$192,67) por el miedo al gasto en IA y al riesgo geopolítico, y cotiza a ~US$282.000 millones de capitalización, con un consenso de analistas muy alcista (precio objetivo medio US$189,60).
+
+Tesis a favor:
+
+- Cloud acelerando (+40% externo en el Q4 FY26) con productos IA a run-rate de US$5.200 millones y 30% de la facturación; objetivo de US$100.000 millones de ingresos IA+Cloud en cinco años.
+- Qwen como familia abierta líder + alianza estratégica con Apple (modelo propio de Apple entrenado con soporte de Alibaba y Qwen en Apple Intelligence China) — acceso a adopción y monetización que ningún otro cloud chino tiene.
+- Compra masiva de acciones (US$19.000 millones remanentes) + dividendo; balance aún con efectivo neto positivo.
+- Valoración baja en términos de suma de partes si el negocio de consumo se estabiliza y el cloud monetiza.
+
+Tesis en contra:
+
+- FCF negativo, primera pérdida operativa trimestral y beneficio no-GAAP ~cero: la compañía está quemando el colchón de caja que durante años fue su foso financiero.
+- El PER no-GAAP (~32×) implica que el mercado paga por un futuro incierto; si la sobrecapacidad cloud (incluidos datacenters estatales) comprime precios, la tesis alcista se debilita.
+- Riesgo geopolítico EE. UU.–China estructural y creciente (lista militar, disputas comerciales) que puede penalizar la acción independientemente de los fundamentales.
+- E-commerce doméstico sin crecimiento real del CMR contable y con competencia feroz (PDD, Douyin, JD).
+
+Sesgo del agente: **constructivo a medio-largo plazo con la tesis "núcleo de IA de China", pero con prudencia sobre la calidad del beneficio actual**. El desequilibrio clave es temporal: los resultados de 1–2 trimestres serán feos (margen y FCF), mientras el mercado descuenta la recuperación. El catalizador más próximo y verificable es el resultado del **20 ago 2026** (Q1 FY27): si Cloud mantiene >35% de crecimiento y el capex muestra signos de estabilización, la tesis gana; si el cloud se desacelera o el capex supera aún más el plan, el rango bajo del consenso (US$92) vuelve a ser plausible. Para un inversor de largo plazo con tolerancia al ruido geopolítico chino, la combinación de recompra + opcionalidad IA + valoración de suma de partes justifica seguimiento; la decisión de compra debe esperar señales de que el gasto IA se está convirtiendo en FCF. El límite ético del wiki: esto es análisis y propuesta; la decisión y ejecución corresponden a Carlos.
+
+---
+
+## 10. Fuentes
+
+URLs consultadas (fecha de acceso: 15 ago 2026):
+
+- Yahoo Finance — ficha BABA (precio, capitalización, PER, rango 52s, noticias, estadísticas): https://finance.yahoo.com/quote/BABA/
+- StockAnalysis — BABA financials y statistics (series FY22–FY26, segmentos, balance, ratios): https://stockanalysis.com/stocks/baba/financials/ y https://stockanalysis.com/stocks/baba/statistics/
+- Alibaba Group — comunicado de resultados Q4 FY26 y FY2026 ("Alibaba Group Announces March Quarter 2026 and Fiscal Year 2026 Results", 13 may 2026), íntegro vía Barchart (Business Wire): https://www.barchart.com/story/news/1897344/alibaba-group-announces-march-quarter-2026-and-fiscal-year-2026-results
+- Business Wire (fuente del comunicado): https://secure.businesswire.com/news/home/20260512841182/en/ (acceso 403 directo; contenido verificado vía Barchart y resúmenes de Nasdaq/lelezard/Quartr)
+- Reuters — "Apple trains its own AI model for China market with Alibaba's support, sources say" (14 ago 2026): https://www.reuters.com/business/retail-consumer/apple-trains-its-own-ai-model-china-market-with-alibabas-support-sources-say-2026-08-14/
+- Reuters — "Apple says Mac users in China can connect to Alibaba's Qwen AI service" (8 ago 2026): https://www.reuters.com/business/retail-consumer/apple-says-mac-users-china-can-connect-alibabas-qwen-ai-service-2026-08-08/
+- CNBC — "Alibaba revenue misses estimates in December quarter as net income drops 66%" (19 mar 2026, vía Google News/headline)
+- CNBC — "Alibaba jumps as it strikes bullish tone on AI investments, even as profit plunges" (may 2026, vía Google News/headline)
+- Bloomberg — "Alibaba Targets $100 Billion of AI Revenue in Five Years" (may 2026, vía Google News/headline)
+- Reuters — "Alibaba's AI spending to exceed goals on signs of payoff, says margin 'secondary'" (may 2026, vía Google News/headline)
+- South China Morning Post — "Alibaba targets US$100b in annual cloud, AI revenue despite results miss" (may 2026, vía Google News/headline)
+- Wikipedia — "Alibaba Group" (historia, 20-F FY25, gobernanza, cronología regulatoria): https://en.wikipedia.org/wiki/Alibaba_Group
+- Alibaba IR — Share Repurchase Update al 30 sep 2025 (remanente US$19.100 millones, programa hasta mar 2027): https://home.alibabagroup.com/document-1910550772471300096
+- Alibaba IR — Share Repurchase Update FY2025 (US$11.900 millones recompras): https://www.alibabagroup.com/en-US/document-1844231602549293056
+- MarketScreener — mandato de recompra del 10% aprobado en AGM sep 2025, inicio 22 jun 2026: https://www.marketscreener.com/news/alibaba-group-holding-limited-announces-an-equity-buyback-for-1-907-598-428-shares-representing-10-ce7f5edadf8df122
+- Quartr — resumen Q4 FY2026 BABA (13 may 2026): https://quartr.com/events/alibaba-group-holding-limited-baba-q4-2026_337h6twa
+- CIW News — "Alibaba's AI cloud hits US$5B run rate as operating earnings collapse" (20 may 2026): https://www.ciw.news/p/alibaba-cloud-q1-2026
+- GuruFocus — noticias de recompra BABA (jun–jul 2026): https://www.gurufocus.com/news/8932890/ y https://www.gurufocus.com/news/8944771/
+
+Notas de veracidad: los datos de la sección 5.1 (los trimestres Q1/Q2 FY26 se dejan como "n.d." al no haber contrastado sus cifras exactas) provienen del comunicado oficial de Alibaba (vía Barchart) y de StockAnalysis/S&P Global. Las cifras de mercado (precio, capitalización, PER, dividendos) llevan fecha y fuente. Los eventos del FY2026 (mar 2025–mar 2026) y de 2026 están contrastados con Reuters, CNBC, Bloomberg, SCMP y Wikipedia. Los datos de segmentos del FY26 y Q4 FY26 (ingresos y adjusted EBITA) están tomados directamente del comunicado. Las cifras sin fuente primaria verificable están etiquetadas [NO VERIFICADO].
+
+---
+*Página generada por agente autónomo. Fecha de corte: 2026-08-15.*
+*Verificar cifras de mercado en la fuente citada antes de decisiones de inversión.*
+
+## Ver también
+
+<!-- red densa 2026-08-25 -->
+- [[sonda-2026-08-14-alibaba|sonda 2026-08-14]]

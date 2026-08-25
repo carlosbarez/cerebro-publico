@@ -1,0 +1,49 @@
+/* tokens.css — origen unico de color, tipografia, tiempo y medida del mundo Catodo.
+   Lo enlaza el puesto de mando (web/ui/index.html) y lo enlazara el tema de Quartz del sitio
+   publico: un solo mundo visual, pintado una vez.
+   Los hex estan verificados por tests/test_ui_contraste.py — no cambies uno sin correrlo. */
+
+:root {
+  /* piel taller (por defecto) */
+  --fondo: #0B0F16;
+  --panel: #0E1420;
+  --hueso: #EDE6D6;
+  --hueso-2: #A79C88;
+  --hueso-3: #8A8070;
+  --catodo: #FF8A3D;
+  --catodo-tinta: #1A0E04;
+  --bronce: #8A6D34;
+  --aviso: #E05A45;
+  --fantasma: rgba(237, 230, 214, .17);
+  --rejilla: rgba(138, 109, 52, .14);
+  --halo: 0 0 6px rgba(255, 138, 61, .55), 0 0 22px rgba(255, 138, 61, .22);
+  /* tipografia */
+  --condensada: "Saira Condensed", "Arial Narrow", sans-serif;
+  --prosa: "Spectral", Georgia, serif;
+  --datos: "Courier Prime", "Courier New", monospace;
+  /* tiempo */
+  --t-golpe: 120ms;
+  --t-decae: 400ms;
+  --t-seccion: 180ms;
+  --t-piel: 600ms;
+  --t-fila: 260ms;
+  /* medida */
+  --ancho-rail: 220px;
+  --ancho-instrumentos: 300px;
+  --alto-entrada: 96px;
+}
+
+:root[data-tema="dia"] {
+  --fondo: #F1EBDD;
+  --panel: #FAF6EC;
+  --hueso: #211D17;
+  --hueso-2: #5A5142;
+  --hueso-3: #6B6252;
+  --catodo: #B34A12;
+  --catodo-tinta: #FFFFFF;
+  --bronce: #8A6D34;
+  --aviso: #9E2B22;
+  --fantasma: rgba(33, 29, 23, .17);
+  --rejilla: rgba(138, 109, 52, .16);
+  --halo: 0 0 6px rgba(179, 74, 18, .32), 0 0 14px rgba(179, 74, 18, .12);
+}

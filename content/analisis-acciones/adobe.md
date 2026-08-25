@@ -1,0 +1,333 @@
+---
+title: "Adobe Inc. (ADBE)"
+tipo: analisis-accion
+tags: [empresa, software, eeuu]
+fecha: 2026-08-15
+fuentes: []
+---
+
+<!-- Migrado desde cache ponytail: ADBE.md · generado por agente autonome (sesion ponytail 2026-08-15) -->
+
+# Adobe Inc. (ADBE)
+
+> Fecha de corte: 2026-08-15 · Moneda: USD
+> Sector: Tecnología (Software - Aplicación) · País/Región: EE.UU. (San José, CA) · Bolsa: Nasdaq (NasdaqGS)
+
+---
+
+## 1. Ficha rápida
+
+| Campo | Valor |
+|---|---|
+| Ticker / Bolsa | ADBE / Nasdaq (Nasdaq-100, S&P 100, S&P 500) |
+| Sector / Industria | Tecnología / Software de aplicación, software creativo, gestión de documentos y marketing digital (SaaS) |
+| País / Región | EE.UU. |
+| Moneda de reporte | USD |
+| Capitalización bursátil | ~104,95 mil M USD (cierre 14 ago 2026, stockanalysis.com / Yahoo Finance) |
+| Precio | 264,02 USD (cierre 14 ago 2026, Nasdaq); 263,70 en after-hours |
+| Rango 52 semanas | 190,12 – 370,86 USD (al 14 ago 2026, Yahoo Finance) |
+| PER (TTM) | ~15,1–15,5x (al 14 ago 2026, Yahoo Finance / stockanalysis.com) |
+| PER adelantado | ~10,0–10,4x (al 14 ago 2026) |
+| Rendimiento por dividendo | No paga dividendo (suspendido desde 2005; última fecha ex-div 24 mar 2005) |
+| CEO | Shantanu Narayen (Chairman y CEO; en transición a Chairman tras ~18 años, 2026) |
+| CFO | Steven Day (interino, desde el 15 jun 2026; el anterior CFO Dan Durn dejó el cargo) |
+| Sede | 345 Park Avenue, San José, California (EE.UU.) |
+| Empleados | 31.360 (a nov 2025, Yahoo Finance / Wikipedia) |
+| Año fiscal | Termina el viernes más cercano al 30 de noviembre (FY2025 = 29 nov 2024 – 28 nov 2025) |
+| Próximos resultados | Q3 FY26: 10 sep 2026 (tras cierre) |
+
+> Nota de veracidad: todos los datos de mercado de esta tabla corresponden al cierre del 14 ago 2026 según Yahoo Finance y stockanalysis.com (fuente S&P Global Market Intelligence / LSEG), salvo indicación en contrario. Consúltense las fuentes citadas antes de tomar decisiones de inversión.
+
+---
+
+## 2. Descripción de la empresa
+
+Adobe Inc. (antes Adobe Systems Incorporated) es una empresa estadounidense de software fundada en diciembre de 1982 en Mountain View (California) por John Warnock y Charles Geschke, exinvestigadores de Xerox PARC. Su primer producto fue el lenguaje de descripción de páginas **PostScript** (1982-1985), que con la adopción de Apple (LaserWriter) impulsó la revolución de la autoedición. Desde entonces, Adobe se convirtió en la empresa dominante del **software creativo profesional** y en una de las grandes del software empresarial.
+
+La compañía cambió su nombre a Adobe Inc. en octubre de 2018. Hoy se organiza en torno a dos grandes plataformas en la nube:
+
+- **Adobe Creative Cloud**: suscripción a las herramientas de creación (Photoshop, Illustrator, InDesign, Premiere Pro, After Effects, Lightroom, entre otras), más Adobe Stock, Express y el generador de IA **Firefly**.
+- **Adobe Experience Cloud**: plataforma de marketing digital y gestión de la experiencia de cliente (Adobe Experience Platform, Analytics, Campaign, Commerce/Magento, Marketo, etc.), orientada a empresas.
+
+También es el creador del formato **PDF** (1993, estándar ISO desde 2008) y de **Acrobat/Document Cloud**, y mantiene un pequeño segmento de productos legados (Publishing & Advertising).
+
+Cifras de identidad:
+- Fundación: dic 1982; IPO: ago 1986 en Nasdaq (componente desde entonces de los principales índices de EE.UU.).
+- Productos insignia: PostScript, Photoshop (adquirido a los hermanos Knoll en 1995), PDF/Acrobat, Illustrator, InDesign, Premiere Pro, After Effects, Firefly.
+- Hitos corporativos: adquisición de Aldus (1994), Macromedia (2005, 3,4 mil M USD — Flash, Dreamweaver, ColdFusion), Omniture (2009, 1,8 mil M USD — origen de la rama de marketing), Magento (2018, 1,68 mil M), Marketo (2018, 4,75 mil M), Workfront (2020, 1,5 mil M), Frame.io (2021, 1,275 mil M).
+- **Figma (2022-2023)**: anunciada en sep 2022 como su mayor operación (20 mil M USD), se canceló en dic 2023 por bloqueo regulatorio en EE.UU./UE; Adobe pagó ~1 mil M USD de penalización de rescisión.
+- **Transición al SaaS**: en 2013 abandonó las licencias perpetuas de Creative Suite y pasó Creative Cloud a **suscripción obligatoria**, un giro de modelo pionero que transformó sus finanzas (ingresos recurrentes, márgenes muy altos).
+
+En 2026 la compañía atraviesa una transición importante: **el CEO Shantanu Narayen pasa a Presidente (chair)** tras ~18 años al frente, el **CFO Dan Durn dejó el cargo el 15 jun 2026** (con Steven Day como CFO interino), y la empresa impulsa un giro "freemium + IA" con usuarios gratuitos masivos y monetización vía **Firefly** e [[ia-generativa|IA generativa]] (fuentes: Reuters, 24/7 Wall St. vía Yahoo Finance).
+
+Hechos clave de Adobe (newsroom oficial, 2026):
+- "99 % de las empresas Fortune 100 usan la IA de Adobe".
+- "Más de 1 billón de experiencias digitales impulsadas al año por Adobe Experience Platform".
+- "20.000 clientes empresariales de Adobe en el mundo".
+
+---
+
+## 3. Modelo de negocio
+
+### 3.1 Segmentos de ingresos
+
+Adobe reporta **tres segmentos**: Digital Media, Digital Experience y Publishing & Advertising. Cifras del ejercicio fiscal 2025 (finalizado el 28 nov 2025) y del TTM a may 2026 (fuente: stockanalysis.com, datos S&P Global / Fiscal.ai; millones USD):
+
+| Segmento | TTM may'26 | FY2025 | FY2024 | % FY2025 | Crec. FY25 Y/Y |
+|---|---|---|---|---|---|
+| Digital Media | 18,80 mil M (subs. 18.480 + productos/serv.) [NO VERIFICADO: desglose exacto TTM] | 17.650 | 15.860 | ~74,2 % | ~11,3 % |
+| — Creative Cloud (dentro de DM) | — | — | 12.680 | — | — |
+| — Document Cloud (dentro de DM) | — | — | 3.180 | — | — |
+| Digital Experience | ~6.290 (subs. 5.810 + servicios) | 5.860 | 5.370 | ~24,7 % | ~9,1 % |
+| Publishing & Advertising | ~426 | 256 | 275 | ~1,1 % | ~-6,9 % |
+| Producto (licencias/otras) | 321 | 325 | 386 | ~1,4 % | ~-15,8 % |
+| Servicios y otros | 483 | 540 | 598 | ~2,3 % | ~-9,7 % |
+| **Total ingresos** | **25.198** | **23.769** | **21.505** | **100 %** | **+10,5 %** |
+
+Notas:
+- Los porcentajes sobre FY2025 son aproximaciones del agente. Digital Media es el motor de la compañía (~3/4 del total); dentro de él, Creative Cloud (Photoshop, Illustrator, Premiere, etc.) es la mayor fuente de ingresos y Document Cloud (Acrobat/PDF) la de mayor margen incremental. [NO VERIFICADO: el desglose TTM de segmentos de Fiscal.ai no se ha podido contrastar contra el 10-Q de Q2 FY26; los datos FY2024 de Creative/Document Cloud proceden de Fiscal.ai.]
+- El segmento **Digital Experience** es la segunda pata del negocio (Experience Cloud: Adobe Experience Platform, Analytics, Campaign, Commerce/Magento, Marketo).
+
+### 3.2 Cómo gana dinero
+
+- **Suscripciones SaaS**: la inmensa mayoría de los ingresos (~97 % del total son suscripciones en TTM may'26: 24.390 M de 25.198 M). Contratos recurrentes mensuales/anuales por usuario (individual, equipo y empresa).
+- **Pricing**: por plan y producto. Creative Cloud con planes individuales, por aplicación, de estudiantes, para equipos y empresas; Document Cloud/Acrobat; Experience Cloud con contratos empresariales multi-ano y unidades de consumo/ARR. Firefly se vende con sistema de **créditos** mensuales.
+- **Modelo freemium (nuevo, 2025-2026)**: Adobe aceleró planes gratuitos (Creative Cloud freemium, Firefly) para captar usuarios en masa y monetizarlos después; en Q2 FY26 la base de usuarios activos mensuales (MAU) creativos freemium superó los **90 millones**. Este giro impulsa usuarios, pero diluye el ARR a corto plazo (Morningstar, jul 2026).
+- **Canales**: venta directa en adobe.com, app stores de Apple/Google, distribuidores, retailers, integradores de sistemas, fabricantes de hardware (OEM) y una red de socios de canal.
+- **Clientes**: creativos profesionales, estudios, agencias, estudiantes y consumidores (Creative Cloud); equipos de marketing, comercio, TI y C-suite empresarial (Experience Cloud); y ~20.000 clientes enterprise según Adobe.
+
+### 3.3 Ventajas competitivas / foso
+
+1. **Cuasi-monopolio del software creativo profesional**: Photoshop, Illustrator y el ecosistema Creative Cloud son el estándar de facto en diseño, fotografía, vídeo y preimpresión; estándares de formato (PDF, PostScript, DNG) refuerzan la posición.
+2. **Ingresos recurrentes y márgenes de élite**: margen bruto ~89 %, margen operativo ~37 %, margen FCF ~41 %; modelo 100 % suscripción con alta retención.
+3. **Efecto de red y ecosistema**: formatos propietarios (PSD, AI, PDF), integración entre apps, Adobe Stock, Behance y la base de millones de creativos formados en sus herramientas generan costes de cambio elevadísimos.
+4. **Datos propietarios y "IA comercialmente segura"**: Firefly se entrenó inicialmente con datos licenciados/Adobe Stock/dominio público (reivindicación luego cuestionada al revelarse entrenamiento con imágenes de Midjourney — Wikipedia). La integración de IA en el flujo de trabajo profesional (no solo generación) es la defensa frente a rivales generalistas.
+5. **Doble mercado (creatividad + empresa)**: la combinación Creative Cloud (lado creativo) + Experience Cloud (lado de marketing/datos) crea una cadena de valor "creación → distribución → medición" difícil de replicar.
+
+---
+
+## 4. Panorama de mercado y competencia
+
+### 4.1 Tamaño de mercado y cuota
+
+- Adobe es **líder histórico del software creativo profesional** (dominio cercano al monopolio en diseño/software creativo, según análisis citados en prensa en el contexto del caso Figma). [NO VERIFICADO: no se ha podido contrastar una cifra exacta de cuota en fuente abierta en esta sesión.]
+- En **Digital Experience / gestión de experiencia de cliente (CXM)**, Adobe figura como uno de los líderes globales (junto a [[salesforce|Salesforce]]), con presencia en analítica, marketing, comercio y personalización.
+- Tamaño de mercado estimado [NO VERIFICADO]: el mercado de software creativo + documentos + experiencia de cliente asciende a decenas de miles de millones USD anuales combinados (estimaciones de industria de IDC/Gartner citadas en prensa), pero no se ha verificado una cifra concreta en esta sesión.
+- Indicadores de escala de la propia Adobe: ~20.000 clientes enterprise, 99 % del Fortune 100 usando su IA, y >1 billón de experiencias anuales en AEP (newsroom de Adobe).
+
+### 4.2 Competidores principales
+
+| Competidor | Ámbito / comparativa |
+|---|---|
+| **Canva** | La amenaza más directa en diseño de bajo coste/freemium (plantillas, ~200 M+ usuarios estimados); presiona a Adobe en diseño "prosumer" y empuja el giro freemium. [NO VERIFICADO: cifra exacta de usuarios de Canva] |
+| **Figma** (NYSE: FIG) | Diseño de interfaz/producto colaborativo (el intento de compra de Adobe por 20 mil M fracasó en 2023); compite en el terreno que Adobe cubre parcialmente con XD/Illustrator. |
+| **Affinity (Canva), Procreate, DaVinci Resolve, CapCut, Blender** | Alternativas más baratas o gratuitas por categoría (ilustración, pintura, vídeo, edición), creciente competencia en precio. |
+| **Startups de IA generativa** | **Midjourney, OpenAI (DALL-E/GPT Image/Sora), Google (Imagen/Veo/Gemini), Stable Diffusion, Runway** etc.: compiten en generación de imagen/vídeo y amenazan la disrupción del flujo de trabajo creativo (el mercado castiga a ADBE por este riesgo). |
+| **[[microsoft|Microsoft]] (Microsoft 365 Copilot, Designer/Clipchamp)** | Amenaza de IA-productividad en el paquete de Office; Copilot cuenta con ~30 millones de seats de pago (dato 2026, 24/7 Wall St.); también compite en documentos (Word/OneDrive vs Acrobat/PDF). |
+| **Google (Docs, Gemini/Imagen)** | Competencia en documentos y en IA generativa; aunque también es socio (integra modelos Gemini/Veo/Imagen en Firefly). |
+| **Salesforce (CRM), HubSpot, [[shopify|Shopify]], SAP, Oracle, [[servicenow|ServiceNow]]** | Competidores de Digital Experience (marketing, comercio, analítica, experiencia de cliente). Salesforce es el rival más directo en CXM. |
+| **Documento: Nitro, Foxit, DocuSign, Dropbox** | Alternativas de menor coste para gestión de documentos y firma electrónica. |
+
+### 4.3 Posición relativa
+
+- **Creatividad**: dominio profesional sin parangón, pero con el frente abierto en el segmento prosumer/freemium (Canva) y en IA generativa (startups). Su defensa es la integración de IA en el flujo profesional completo + "seguridad comercial" de Firefly.
+- **Documentos**: posición dominante en PDF (estándar de facto), con competencia de bajo coste en conversión/firma.
+- **Digital Experience**: top-2/3 mundial en CXM, disputando con Salesforce; menor crecimiento que la competencia de datos/IA de nueva generación (riesgo señalado por Reuters Breakingviews: plataformas de datos como Databricks "invaden" el moat del software de aplicaciones).
+
+### 4.4 Nota sobre el ecosistema de IA (socios y rivales a la vez)
+
+- Adobe compite y coopera simultáneamente con los grandes de la IA: integra modelos de **Google (Gemini, Veo, Imagen)** y **OpenAI / ElevenLabs** en Firefly, y mantiene una alianza con **HUMAIN** para modelos de IA generativa propios. Esta estrategia "multimodelo" reduce el riesgo de depender de un único proveedor, pero también delata que Adobe no controla la frontera de la IA generalista (Wikipedia/Firefly; perfil de Yahoo Finance).
+- El debate clave del mercado no es si Adobe tiene IA, sino si **podrá monetizarla sin canibalizar su ARR de suscripción tradicional** — la misma pregunta que pesa sobre Salesforce y Microsoft en el segmento de aplicaciones (Reuters Breakingviews, jul 2026).
+
+---
+
+## 5. Análisis financiero
+
+> Salvo indicación, cifras anuales en millones USD, ejercicio fiscal finalizado el último viernes de noviembre. Fuentes: stockanalysis.com (S&P Global Market Intelligence / Fiscal.ai) y Reuters/LSEG, consultadas el 15 ago 2026.
+
+### 5.1 Ingresos y márgenes (últimos 5 ejercicios + TTM)
+
+| Concepto | TTM (may'26) | FY2025 | FY2024 | FY2023 | FY2022 | FY2021 |
+|---|---|---|---|---|---|---|
+| Ingresos | 25.198 | 23.769 | 21.505 | 19.409 | 17.606 | 15.785 |
+| Crecimiento Y/Y | +11,5 % | +10,5 % | +10,8 % | +10,2 % | +11,5 % | +22,7 % |
+| Beneficio bruto | 22.528 | 21.218 | 19.147 | 17.055 | 15.441 | 13.920 |
+| Ingreso operativo | 9.252 | 8.706 | 7.819 | 6.650 | 6.098 | 5.802 |
+| Ingreso neto | 7.229 | 7.130 | 5.560 | 5.428 | 4.756 | 4.822 |
+| BPA diluido (USD) | 17,48 | 16,70 | 12,36 | 11,82 | 10,10 | 10,02 |
+| Margen bruto | 89,4 % | 89,3 % | 89,0 % | 87,9 % | 87,7 % | 88,2 % |
+| Margen operativo | 36,7 % | 36,6 % | 36,4 % | 34,3 % | 34,6 % | 36,8 % |
+| Margen neto | 28,7 % | 30,0 % | 25,9 % | 28,0 % | 27,0 % | 30,5 % |
+
+**Último trimestre (Q2 FY26, finalizado ~29 may 2026, comunicado 11 jun 2026)** — fuente: comunicado de Adobe (PDF IR) y prensa financiera (24/7 Wall St. vía Yahoo Finance):
+- Ingresos récord de **6,62 mil M USD, +13 % Y/Y** (aceleración frente al ~10-11 % de años previos).
+- **EPS no-GAAP de 5,96 USD** (+18 % Y/Y); el BPA GAAP se vio lastrado por un **deterioro de fondo de comercio (goodwill impairment) de ~70 M USD**.
+- **Guía FY26 elevada**: ingresos de 26,50–26,60 mil M USD y EPS no-GAAP de 24,35–24,45 USD; racha de **5 trimestres consecutivos batiendo expectativas de EPS**.
+- **ARR de IA ("AI-first ARR") triplicado Y/Y hasta superar los 500 M USD**; ARR de Firefly +50 % trimestral; MAU creativos freemium >90 M.
+
+### 5.1b KPIs de negocio (ARR, RPO, clientes)
+
+| Indicador | TTM may'26 | FY2025 | FY2024 | Fuente |
+|---|---|---|---|---|
+| ARR total de Adobe (tasa de cambio actual) | 27,10 mil M USD | 25,66 mil M USD | 22,61 mil M USD | Fiscal.ai / stockanalysis.com |
+| ARR Digital Media | ~20,7 mil M (estimado) [NO VERIFICADO] | 19,20 mil M USD | 17,22 mil M USD | Fiscal.ai / stockanalysis.com |
+| ARR Creative Cloud | — | — | 13,74 mil M USD | Fiscal.ai / stockanalysis.com |
+| ARR Document Cloud | — | — | 3,48 mil M USD | Fiscal.ai / stockanalysis.com |
+| Ingresos por suscripción Digital Experience | 5,81 mil M USD | 5,41 mil M USD | 4,86 mil M USD | Fiscal.ai / stockanalysis.com |
+| RPO (obligaciones de rendimiento remanentes) | 22,27 mil M USD | 22,52 mil M USD | 19,96 mil M USD | Fiscal.ai / stockanalysis.com |
+| % de RPO a reconocer en 12 meses (NTM) | 67 % | 65 % | 67 % | Fiscal.ai / stockanalysis.com |
+| "AI-first ARR" | >500 M USD (Q2 FY26, triplicado Y/Y) | — | — | Comunicado Q2 FY26 (prensa) |
+| MAU creativos freemium | >90 M | — | — | Comunicado Q2 FY26 (prensa) |
+
+Notas:
+- El **ARR total** (27,1 mil M USD) y el **RPO** (22,3 mil M USD) miden el carácter recurrente del negocio; la relación RPO-NTM del ~67 % indica que ~2/3 de los ingresos futuros contratados se reconocerán en el próximo año.
+- La métrica "AI-first ARR" es nueva y no comparable con la serie histórica; Adobe la usa para evidenciar que la IA ya genera ingresos directos, no solo mejoras de producto.
+- [NO VERIFICADO]: el ARR de Digital Media TTM (estimado ~20,7 mil M USD) se deduce del ARR total menos el resto de segmentos; no se ha podido contrastar el dato TTM publicado por Fiscal.ai contra el 10-Q de Q2 FY26.
+
+### 5.2 Balance (deuda, efectivo, solvencia)
+
+- Efectivo e inversiones: **5.626 M USD** (may'26) frente a 6.597 M en FY2025 (descenso por recompras/M&A).
+- Deuda total: **7.077 M USD** (may'26); FY2025: 6.656 M. Posición neta de caja: **-1.451 M USD (deuda neta)** al may'26 (FY2025: -59 M). Es decir, Adobe pasó a deuda neta ligeramente negativa por primera vez en la serie.
+- Activos totales FY2025: 29.496 M USD; patrimonio neto: ~11.620 M USD (Reuters/LSEG). Deuda/Patrimonio: **0,61**; Deuda/EBITDA: **0,72**; cobertura de intereses: **~35x** (muy sólida).
+- Ratios de solvencia: current ratio 0,75 y quick ratio 0,63 (bajos, típicos de software con ingresos cobrados por adelantado); Altman Z-Score **8,35** (riesgo de quiebra insignificante), Piotroski F-Score 7/9.
+
+### 5.3 Cash flow y rentabilidad (FCF, ROE, ROIC)
+
+- Flujo de caja operativo (TTM): **10.481 M USD**; CapEx mínimo (-201 M); **FCF de 10.280 M USD** (margen FCF ~40,8 %). Serie anual de FCF: 6.882 (FY21) → 7.396 (FY22) → 6.942 (FY23) → 7.873 (FY24) → 9.852 (FY25) → 10.280 (TTM).
+- ROE (TTM): **62,95 %**; ROIC: **60,74 %**; ROA: 19,93 %. Rentabilidades extraordinarias sostenidas.
+- FCF por acción: ~25,86 USD; rendimiento FCF (FCF yield): **~9,8 %** — máximo histórico para ADBE.
+
+### 5.4 Perfil de dividendos y recompras
+
+- **No paga dividendo** desde 2005 (suspendió su pequeño dividendo para reinvertir; hoy todo el retorno al accionista se canaliza por recompra).
+- **Recompra agresiva**: las acciones en circulación se redujeron ~5,8 % en los últimos 12 meses (397,5 M de acciones al ago 2026); el "shareholder yield" (buyback yield) es ~5,8 %. En los últimos años Adobe ha devuelto miles de millones anuales vía recompra.
+
+---
+
+## 6. Valoración
+
+### 6.1 Múltiplos actuales (al 14 ago 2026, precio 264,02 USD)
+
+| Múltiplo | Valor | Nota |
+|---|---|---|
+| PER (TTM) | ~15,1–15,5x | Yahoo Finance y stockanalysis.com coinciden (~15,1-15,5x) |
+| PER adelantado | ~10,0–10,4x | Sobre EPS no-GAAP estimado FY26 (~24,41 USD) |
+| PEG (5a esperado) | ~0,66–0,74 | Bajo 1 |
+| Precio/Ventas (TTM) | ~4,2x | |
+| Precio/Valor contable | ~9,4x | Valor contable bajo (~28,87 USD/acción) por recompra masiva |
+| EV/EBITDA | ~11,0x | |
+| EV/FCF | ~10,4x | |
+| FCF yield / Earnings yield | ~9,8 % / ~6,9 % | |
+
+### 6.2 Múltiplos históricos
+
+- La valoración de ADBE se ha **comprimido con dureza**: PER de cierre de ejercicio: 60,8x (FY21) → 33,4x (FY22) → 51,4x (FY23) → 40,9x (FY24) → 18,8x (FY25) → ~15,5x actual. Es decir, el PER actual es una fracción del histórico (rango 15x-61x).
+- El precio cayó de ~350 USD a comienzos de 2026 a un mínimo de ~206 USD en junio de 2026 (-41 % desde máximos de 52 semanas de 370,86), para rebotar ~22 % en el último mes hasta ~264 USD.
+
+### 6.3 Comparación con sector y analistas
+
+- **Consenso de analistas**: "Hold" (40 analistas); objetivo medio **269,61 USD** (+2 % sobre el precio); rango 190–380 USD. Recomendaciones: 8 Strong Buy, 4 Buy, 23 Hold, 1 Sell, 4 Strong Sell (ago 2026).
+- Referencias recientes de casas de bolsa: [[morgan-stanley|Morgan Stanley]] degradó a Underweight el 21 jul 2026 (PT 365→240); BofA inició con Sell y PT 190 el 7 jul 2026 (argumenta presión estructural de la IA sobre la monetización); CLSA inició Buy con PT 300 (20 jul 2026); HSBC subió a Buy con PT 308 (2 jul 2026); Piper Sandler mantiene Hold con PT 240 (26 jun 2026).
+- Comparación sectorial: ADBE cotiza a PER forward ~10x, muy por debajo de Microsoft (~28x), y genera ~3x los ingresos de Autodesk a múltiplo inferior (24/7 Wall St.). Frente a su propio histórico y frente a la mayoría de los grandes del software, la valoración es baja.
+
+### 6.4 Interpretación del agente
+
+[análisis del agente] Con PER forward ~10x, PEG ~0,7 y FCF yield ~10 %, ADBE cotiza a la valoración más barata de su historia moderna. El mercado está descontando un escenario de disrupción severa por IA generativa y de debilitamiento del foso creativo. La valoración es **atractiva desde el punto de vista cuantitativo (barata respecto a histórico y sector)**, pero el descuento puede ser racional si se materializa el riesgo de canibalización freemium, el estancamiento de ARR o una transición de liderazgo fallida. El mercado está claramente dividido (BofA Sell vs CLSA Buy), lo que refleja incertidumbre genuina sobre la monetización de la IA. En el rango 190-270 USD el precio está "pagando" por el peor caso plausible; el "mejor caso" (monetización de >90 M de MAU freemium + Firefly + IA-first ARR creciendo) justificaría bastante más.
+
+---
+
+## 7. Noticias recientes y catalizadores
+
+### 7.1 Hechos relevantes de los últimos 12 meses (con fechas)
+
+- **11 jun 2026 — Q2 FY26 récord**: ingresos de 6,62 mil M USD (+13 %), EPS no-GAAP 5,96 USD, guía FY26 elevada (26,50–26,60 mil M USD; EPS no-GAAP 24,35–24,45). El ARR de IA ("AI-first ARR") triplicó a >500 M USD; ARR de Firefly +50 % QoQ; MAU creativos freemium >90 M (comunicado de Adobe; prensa).
+- **15 jun 2026 — Salida del CFO Dan Durn**; Steven Day asume como CFO interino (Reuters/perfil LSEG). Añade incertidumbre de ejecución en pleno giro estratégico.
+- **2026 — Transición del CEO**: Shantanu Narayen pasa a Presidente (chair) tras 18 años como CEO; la empresa busca sucesor. Es uno de los principales catalizadores/riesgos del valor (24/7 Wall St., ago 2026).
+- **Mar 2026 — Acuerdo de 75 M USD con el DOJ**: Adobe acepta pagar 75 millones de dólares para resolver la demanda (presentada por DOJ/FTC en jun 2024) por ocultar tarifas de cancelación en sus suscripciones (Reuters, 13 mar 2026; The Verge). La empresa también acordó reformas en sus procesos de cancelación.
+- **Jul 2026 — Movimientos de analistas**: BofA inicia Sell (PT 190, 7 jul); CLSA inicia Buy (PT 300, 20 jul); Morgan Stanley degrada a Underweight (PT 365→240, 21 jul).
+- **2026 — Adquisición de Semrush**: Adobe anunció la compra de la plataforma de visibilidad/marketing de contenidos Semrush, que aportaría ~480 M USD de ARR e integra a Adobe en los flujos de visibilidad de marca (24/7 Wall St.). [NO VERIFICADO: importe y condiciones del acuerdo no confirmados en fuente primaria en esta sesión.]
+- **Oct 2025 — Adobe MAX**: lanzamiento de Firefly Image Model 5, Generate Soundtrack, Generate Speech y Firefly Video Editor; alianzas con Google (modelos Gemini/Veo/Imagen) y OpenAI/ElevenLabs en Firefly (Wikipedia/Firefly).
+- **2025-2026 — Estrategia de IA**: alianza estratégica con **HUMAIN** para el desarrollo de modelos de IA generativa y aplicaciones impulsadas por IA (perfil de Yahoo Finance); aceleración del modelo freemium/AI-first.
+- **2026 — Contexto de mercado**: la acción entró el año ~350 USD, cayó a ~206 USD en junio 2026 (mínimo de 52 semanas 190,12) por miedo a la disrupción por IA y la transición de liderazgo, y rebotó ~22 % en el mes previo al corte (14 ago 2026).
+
+### 7.2 Catalizadores a futuro
+
+- **Monetización de la base freemium**: convertir a los >90 M de MAU creativos gratuitos en suscriptores de pago (plan premium y créditos de Firefly).
+- **Crecimiento del "AI-first ARR"**: si sigue triplicando, revalidará la tesis de que la IA es un nuevo motor de ingresos y no solo una amenaza.
+- **Nombramiento del nuevo CEO**: un sucesor con credibilidad en IA podrá revalorizar la acción; un proceso largo o fallido la lastra (riesgo apuntado hasta 2027).
+- **Ciclo de productos**: nuevas versiones de Firefly (vídeo, audio), integraciones con Google/OpenAI, y el próximo Adobe MAX (oct 2026) como escaparate de hoja de ruta de IA.
+- **Integración de Semrush** y posible M&A adicional en datos/IA.
+- **Resultados Q3 FY26 (10 sep 2026)**: primer test de si la canibalización freemium aparece en los ingresos por suscripción (señal clave señalada por Morningstar).
+
+---
+
+## 8. Riesgos
+
+### 8.1 Riesgos específicos de la empresa
+
+- **Disrupción por IA generativa**: Midjourney, OpenAI (Sora/GPT Image), Google (Veo/Imagen/Gemini), Stable Diffusion y Canva pueden desintermediar la creación de contenido profesional, presionando precios y la posición de Photoshop/Premiere. Es el riesgo central del valor (tesis bajista de BofA).
+- **Canibalización freemium**: el giro a planes gratuitos diluye el ARR y la conversión a corto plazo; si no se convierte en monetización, la empresa puede crecer en usuarios sin crecer en ingresos (Morningstar, jul 2026).
+- **Transición de liderazgo**: salida del CFO y búsqueda de CEO generan riesgo de ejecución e incertidumbre estratégica (interino en finanzas).
+- **"Value trap"**: con PER bajo pero crecimiento ~10-13 %, si el crecimiento no acelera la valoración barata puede ser engañosa.
+- **Litigios y regulatorio**: tras el acuerdo de 75 M USD con el DOJ (mar 2026) por tarifas de cancelación, permanece el escrutinio de la FTC sobre prácticas de suscripción; riesgo de nuevas demandas o multas.
+- **Concentración de ingresos geográfica**: EE.UU. representa la mayoría de los ingresos (Américas ~59-62 % del total en FY2025; ~14,1 mil M de 23,8 mil M), con exposición a ciclos de contratación corporativa.
+
+### 8.2 Riesgos sectoriales / macro
+
+- **Ciclo enterprise**: los presupuestos de marketing y tecnología son cíclicos; un entorno macro débil (tasas altas, recortes de gasto publicitario/marketing) golpea directamente a Digital Experience y a la conversión de suscripciones.
+- **Competencia de precios**: Canva y alternativas low-cost comprimen el segmento prosumer; el software de diseño es cada vez más barato o gratuito.
+- **Intensidad de capex de IA**: el coste de entrenar/inferir modelos generativos a escala puede erosionar los márgenes operativos récord si Adobe apuesta por modelos propios en vez de socios.
+
+### 8.3 Riesgos regulatorios / geopolíticos
+
+- **Regulación de la IA** (EU AI Act, iniciativas en EE.UU.): obligaciones de transparencia, copyright y contenido sintético pueden encarecer o limitar productos de IA generativa.
+- **Litigios de copyright por IA**: la revelación de que Firefly se entrenó con imágenes de competidores (Midjourney) cuestiona la reivindicación de "IA comercialmente segura" y abre exposición legal (Wikipedia/Yahoo, 2026).
+- **Geopolítica y aranceles**: tensiones comerciales y exportaciones tecnológicas pueden afectar a ingresos internacionales y a la cadena de suministro de cloud.
+- **Riesgo fiscal**: cambios en la tributación internacional de ingresos por software/SaaS.
+
+---
+
+## 9. Perspectiva del agente
+
+**Resumen ejecutivo.** Adobe es una de las franquicias de software más valiosas de la historia (dominio creativo + estándar PDF + presencia en marketing digital), con márgenes de élite (bruto ~89 %, FCF ~41 %), ~10 mil M USD de FCF anual y un balance saneado. Tras la burbuja de valoración de 2021-2024, la acción se ha desplomado de ~350 a ~206 USD en el primer semestre de 2026 por el miedo a que la IA generativa destruya su foso, y ahora cotiza a PER forward ~10x, el nivel más barato de su historia moderna.
+
+**Tesis a favor (bull).**
+- Valoración históricamente baja (PER forward ~10x, FCF yield ~10 %, PEG ~0,7) sin precedentes para ADBE, con crecimiento de ingresos que además se aceleró a +13 % en Q2 FY26.
+- La IA puede ser un **motor de ingresos y no solo una amenaza**: AI-first ARR triplicado a >500 M USD, Firefly ARR +50 % QoQ, base freemium de >90 M de MAU por monetizar, e integraciones con Google/OpenAI que amplían el alcance.
+- Foso intacto en el núcleo profesional: Photoshop/Premiere/Illustrator siguen siendo el estándar; el valor del flujo de trabajo integrado (crear→distribuir→medir con Experience Cloud) es difícil de replicar.
+- Mecánica de capital: ~5,8 % de reducción anual de acciones, sin dividendos pero con recompra agresiva; neto de caja casi neutro.
+
+**Tesis en contra (bear).**
+- La IA generativa puede **desintermediar la creación de contenido** y convertir herramientas profesionales caras en commodity (tesis de BofA, PT 190).
+- El giro freemium **diluye el ARR a corto plazo** y no hay todavía evidencia concluyente de conversión a pago (Morningstar).
+- **Transición de liderazgo** (CEO buscándose, CFO interino) y riesgo de ejecución en pleno cambio de modelo.
+- Crecimiento estructuralmente más lento (~10-13 %) que el de las plataformas de datos/IA que "invaden" el moat del software de aplicaciones (Reuters Breakingviews).
+- El consenso de analistas es solo "Hold" y el objetivo medio (269,61 USD) coincide con el precio: el mercado no descuenta catalizador claro.
+
+**Sesgo del agente** [análisis del agente]: **constructivo / neutral-positivo**. La relación riesgo-recompensa es favorable en el rango actual (~264 USD): el precio ya descuenta gran parte del escenario adverso (caída de ~29 % desde máximos, PER forward ~10x), y hay catalizadores asimétricos al alza (monetización freemium, nuevo CEO, AI-first ARR). La paciencia es clave: los catalizadores son de 12-24 meses y dependen de la ejecución en monetización de IA. Una entrada por debajo del rango 250-260 USD mejoraría significativamente la asimetría; el objetivo medio de los analistas (269,61 USD) y el modelo de 24/7 Wall St. (306 USD) ofrecen un marco de referencia conservador. Recomiendo monitorear Q3 FY26 (10 sep 2026) como primer test de la canibalización freemium.
+
+---
+
+## 10. Fuentes
+
+Consultadas el 15 ago 2026 (fecha de corte 2026-08-15):
+
+1. Yahoo Finance — Cotización ADBE (resumen, estadísticas, rango 52 semanas, PER, noticias, perfil). https://finance.yahoo.com/quote/ADBE/
+2. stockanalysis.com — ADBE Financials (ingresos, márgenes, balance, cash flow, valoración, ratios, TTM). https://stockanalysis.com/stocks/adbe/financials/
+3. stockanalysis.com — ADBE Business Metrics & Revenue Breakdown (segmentos, ARR, geografía, RPO). https://stockanalysis.com/stocks/adbe/financials/metrics/
+4. stockanalysis.com — ADBE Statistics (shares, ratios, ROE/ROIC, short interest, dividendo). https://stockanalysis.com/stocks/adbe/statistics/
+5. stockanalysis.com — ADBE Forecast (consenso analistas, objetivos, estimaciones FY26). https://stockanalysis.com/stocks/adbe/forecast/
+6. Reuters — Perfil de empresa ADBE.O (información corporativa, liderazgo, datos financieros FY2025, LSEG). https://www.reuters.com/markets/companies/ADBE.O/
+7. Adobe Newsroom — "Adobe Reports Record Q2 Results" (11 jun 2026) y hechos de la empresa. https://news.adobe.com/press-releases y https://news.adobe.com/news/2026/06/adobe-q2fy26-financial-results (comunicado en PDF: https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/11606202/a5543arefgt.pdf)
+8. Adobe Investor Relations. https://www.adobe.com/investor-relations.html
+9. Wikipedia — Adobe Inc. (inglés): historia, finanzas FY2025, caso FTC/DOJ, sección AI Competition. https://en.wikipedia.org/wiki/Adobe_Inc.
+10. Wikipedia — Adobe Firefly: capacidades, versiones (Image 4, Image 5, vídeo/audio), integraciones y entrenamiento. https://en.wikipedia.org/wiki/Adobe_Firefly
+11. 24/7 Wall St. (vía Yahoo Finance) — "Adobe Stock Eyes Rebound. Is This a Golden AI Opportunity?" (14 ago 2026): datos Q2 FY26, AI-first ARR, CFO, transición CEO, Semrush, comparación con MSFT/ADSK. https://finance.yahoo.com/markets/stocks/articles/adobe-stock-eyes-rebound-golden-173019570.html
+12. Reuters — "Adobe to pay $75 million to resolve US lawsuit over subscription cancellation fees" (13 mar 2026). https://www.reuters.com/world/adobe-pay-75-million-resolve-us-lawsuit-over-fees-subscription-cancellations-2026-03-13/
+13. The Verge — "Adobe will pay $75 million to settle US cancellation fee lawsuit" (mar 2026). https://www.theverge.com/tech/894555/adobe-75-million-doj-settlement-subscriptions
+
+> Nota de fiabilidad: los datos de mercado (precio, capitalización, PER, múltiplos) y los datos financieros consolidados (ingresos, márgenes, balance, FCF) proceden de fuentes cuantitativas secundarias consistentes entre sí (Yahoo Finance, stockanalysis.com/S&P Global, Reuters/LSEG). Los datos de Q2 FY26 (6,62 mil M USD, EPS no-GAAP 5,96, AI-first ARR >500 M, guía elevada) proceden del comunicado oficial de Adobe citado en prensa y en su newsroom; el PDF del comunicado no pudo abrirse en esta sesión (timeout), por lo que dichas cifras se consideran verificadas por vía indirecta (múltiples fuentes consistentes). Toda cifra no contrastada se ha marcado [NO VERIFICADO].
+
+---
+*Página generada por agente autónomo. Fecha de corte: 2026-08-15.*
+*Verificar cifras de mercado en la fuente citada antes de decisiones de inversión.*
