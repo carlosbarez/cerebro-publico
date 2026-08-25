@@ -1,26 +1,42 @@
-/* tokens.css — origen unico de color, tipografia, tiempo y medida del mundo Catodo.
-   Lo enlaza el puesto de mando (web/ui/index.html) y lo enlazara el tema de Quartz del sitio
-   publico: un solo mundo visual, pintado una vez.
-   Los hex estan verificados por tests/test_ui_contraste.py — no cambies uno sin correrlo. */
+/* tokens.css — origen unico de color, tipografia, tiempo y medida.
+   Lo enlaza el puesto de mando (web/ui/index.html) y el tema de Quartz del sitio publico:
+   un solo mundo visual, pintado una vez.
+   Los hex estan verificados por tests/test_ui_contraste.py — no cambies uno sin correrlo.
+
+   2026-08-25 — EL MUNDO CAMBIA DE PIEL: de Catodo (pergamino y bronce) a Dala (vacio y violeta).
+   Decision de Carlos: reemplazo total del diseño, mismas secciones y mismas funciones.
+   Los NOMBRES de token no se tocan a proposito. Todo lo que hay debajo —estilo.css, app.js, la
+   portada que hornea publica.py y los nueve huecos de color de Quartz— pide var(--catodo) sin
+   saber de que color es. Cambiando solo los valores, la piel entera se sustituye sin editar ni
+   una linea de quien la usa. Por eso `--catodo` sigue llamandose asi aunque ya sea violeta:
+   renombrarlo obligaria a tocar seis ficheros para no ganar nada.
+   El Catodo original queda en git (commit anterior a este) por si hay que volver. */
 
 :root {
-  /* piel taller (por defecto) */
-  --fondo: #0B0F16;
-  --panel: #0E1420;
-  --hueso: #EDE6D6;
-  --hueso-2: #A79C88;
-  --hueso-3: #8A8070;
-  --catodo: #FF8A3D;
-  --catodo-tinta: #1A0E04;
-  --bronce: #8A6D34;
-  --aviso: #E05A45;
-  --fantasma: rgba(237, 230, 214, .17);
-  --rejilla: rgba(138, 109, 52, .14);
-  --halo: 0 0 6px rgba(255, 138, 61, .55), 0 0 22px rgba(255, 138, 61, .22);
-  /* tipografia */
-  --condensada: "Saira Condensed", "Arial Narrow", sans-serif;
-  --prosa: "Spectral", Georgia, serif;
-  --datos: "Courier Prime", "Courier New", monospace;
+  /* piel noche (por defecto) — el vacio ES el diseño: negro puro, nunca gris oscuro */
+  --fondo: #000000;
+  --panel: #000000;          /* Dala no tiene paneles: la separacion la hace el aire, no una caja */
+  --hueso: #FFFFFF;          /* Bone White — el unico color tipografico con jerarquia maxima */
+  --hueso-2: #BDBDBD;        /* Silver Mist — cuerpo terciario, el gris legible mas callado */
+  --hueso-3: #9A9A9A;        /* Ash Gray — nav apagada y enlaces fantasma */
+  --catodo: #8052FF;         /* Electric Iris — el unico violeta saturado: accion y marca */
+  --catodo-tinta: #FFFFFF;   /* lo que se escribe ENCIMA del violeta */
+  --bronce: #FFB829;         /* Saffron Spark — enfasis y acento calido contra el violeta */
+  /* Dala no define color de error: su paleta es de marca, no de estado. Este rojo se añade
+     porque --aviso es funcional (fallos del chat, cifras retiradas) y fundirlo con el ambar
+     borraria la diferencia entre "mira esto" y "esto ha fallado". Elegido para pasar AA sobre
+     negro sin salirse del registro calido de la paleta. */
+  --aviso: #FF6B5A;
+  --fantasma: rgba(255, 255, 255, .17);
+  --rejilla: rgba(128, 82, 255, .16);
+  --halo: 0 0 6px rgba(128, 82, 255, .55), 0 0 22px rgba(128, 82, 255, .22);
+  /* tipografia — Dala usa UNA familia para todo. PPNeueMontreal es comercial (Pangram Pangram),
+     asi que va Inter, el sustituto que la propia referencia admite y que es OFL como el resto de
+     lo que autohospedamos. Se nombra primero por si el visitante la tiene; detras, la del sistema.
+     `--datos` sigue siendo monoespaciada: eso es funcion (cifras y codigo alineados), no estilo. */
+  --condensada: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --prosa: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --datos: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
   /* tiempo */
   --t-golpe: 120ms;
   --t-decae: 400ms;
@@ -33,17 +49,21 @@
   --alto-entrada: 96px;
 }
 
+/* piel dia — Dala esta descrito solo en oscuro. El interruptor existe y es una funcion, asi que
+   la piel clara se conserva como inversion fiel: mismo violeta y mismo ambar, oscurecidos lo justo
+   para cumplir AA sobre blanco (el ambar de Dala sobre blanco da 1,73 y no llega ni al umbral de
+   3,0 — por eso aqui es mas profundo). */
 :root[data-tema="dia"] {
-  --fondo: #F1EBDD;
-  --panel: #FAF6EC;
-  --hueso: #211D17;
-  --hueso-2: #5A5142;
-  --hueso-3: #6B6252;
-  --catodo: #B34A12;
+  --fondo: #FFFFFF;
+  --panel: #FFFFFF;
+  --hueso: #000000;
+  --hueso-2: #4A4A4A;
+  --hueso-3: #5F5F5F;
+  --catodo: #6A3FD9;
   --catodo-tinta: #FFFFFF;
-  --bronce: #8A6D34;
-  --aviso: #9E2B22;
-  --fantasma: rgba(33, 29, 23, .17);
-  --rejilla: rgba(138, 109, 52, .16);
-  --halo: 0 0 6px rgba(179, 74, 18, .32), 0 0 14px rgba(179, 74, 18, .12);
+  --bronce: #8A5A00;
+  --aviso: #C2321F;
+  --fantasma: rgba(0, 0, 0, .17);
+  --rejilla: rgba(106, 63, 217, .12);
+  --halo: 0 0 6px rgba(106, 63, 217, .32), 0 0 14px rgba(106, 63, 217, .12);
 }
