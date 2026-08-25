@@ -16,24 +16,47 @@
 @font-face { font-family: "Saira Condensed"; src: url("/static/tipos/saira-condensed-400.woff2") format("woff2"); font-weight: 400; font-display: swap; }
 @font-face { font-family: "Saira Condensed"; src: url("/static/tipos/saira-condensed-600.woff2") format("woff2"); font-weight: 600; font-display: swap; }
 
-// La rejilla de fondo del taller. Va en un pseudoelemento fijo y no en `background` del body para
-// que no se desplace al hacer scroll ni tape nada: `z-index: -1` y `pointer-events: none`.
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  pointer-events: none;
-  background:
-    repeating-linear-gradient(60deg, transparent 0 23px, var(--rejilla) 23px 24px),
-    repeating-linear-gradient(-60deg, transparent 0 23px, var(--rejilla) 23px 24px);
+// LA REJILLA DE FONDO SE RETIRA (2026-08-25, paso a Dala). Habia un pseudoelemento fijo con dos
+// gradientes cruzados que dibujaba el enrejado del taller. Dala es explicito: "el vacio ES el
+// diseño", nada de texturas ni paneles sobre el negro. Se borra en vez de comentarse porque un
+// fondo a medio apagar es peor que ninguno. Vive en el commit anterior si hay que volver.
+
+// TIPOGRAFIA DALA. La regla que gobierna todo esto: la jerarquia sale de la ESCALA y del
+// interletrado, NUNCA del peso. Por eso los titulares van a 400 —no a 600 ni a 700— y lo que los
+// hace mandar es el tamaño y un tracking negativo agresivo. Catodo hacia lo contrario (+.02em);
+// aqui se invierte el signo, no se ajusta el numero.
+h1, h2, h3, h4, h5, h6, .article-title {
+  font-weight: 400;
+  font-feature-settings: "ss01" on;
 }
+h1, .article-title             { font-size: 3rem;    line-height: 1.1; letter-spacing: -.035em; }
 
-// Los titulares en condensada. Quartz ya aplica la tipografia del YAML, pero el interletrado del
-// mundo Catodo no sale de ahi.
-h1, h2, h3, h4, .page-title { letter-spacing: .02em; }
+// La marca del rail es un h2 con clase .page-title. NO entra en la escala de display: alli el h2
+// de 2,25rem la parte en dos lineas y se come el explorador. Se le fija su propio tamaño.
+.page-title { font-size: 1.5rem; line-height: 1.15; letter-spacing: -.02em; font-weight: 400; }
 
-blockquote { border-left: 2px solid var(--bronce); }
+// Las etiquetas del bloque de propiedades caen en columnas estrechas y el navegador parte las
+// palabras por la mitad ("#emp resa"). Que no las parta: que se ponga a lo ancho.
+.property-value, .tags, .tag-link { word-break: normal; overflow-wrap: anywhere; hyphens: none; }
+h2                             { font-size: 2.25rem;  line-height: 1.2; letter-spacing: -.03em; }
+h3                             { font-size: 1.6875rem; line-height: 1.25; letter-spacing: -.02em; }
+h4                             { font-size: 1.5rem;   line-height: 1.25; letter-spacing: -.02em; }
+
+// El cuerpo a peso 200 es la firma de Dala, y la parte discutible de traerla aqui: esta pensada
+// para una landing de siete pantallas, no para 2.300 paginas de analisis largo. Se implementa fiel
+// porque asi se pidio (reemplazo total). Si al leerlo cansa, el numero a mover es este y solo este.
+body, p, li { font-weight: 200; }
+p, li { font-size: 1.125rem; line-height: 1.5; }
+strong, b { font-weight: 400; }
+
+// Dala no usa bordes ni divisores en ningun sitio. La cita se marca con aire y con el ambar de
+// enfasis, que es para lo que ese color existe en la paleta.
+blockquote {
+  border-left: none;
+  padding-left: 1.5rem;
+  color: var(--tertiary);
+  font-style: normal;
+}
 
 // La marca que el filtro deja donde retiro una cifra privada, y el pie del aviso. Que se vea es el
 // punto: toda degradacion deja rastro visible.
@@ -100,3 +123,32 @@ blockquote { border-left: 2px solid var(--bronce); }
   margin: 0;
 }
 .dato-estado { grid-column: 1 / -1; }
+
+// EL HEROE DE LA PORTADA. Dos columnas asimetricas: el titular manda por escala y el cerebro de
+// particulas ocupa la otra mitad. El lienzo lo pinta static/constelacion.js.
+// `aria-hidden` en el canvas es deliberado: es decoracion, y un lector de pantalla no gana nada
+// anunciando un lienzo vacio.
+.heroe {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 60px;
+  margin: 0 0 96px;
+}
+.heroe-etiqueta {
+  font-size: 14px; font-weight: 600; letter-spacing: .35px; text-transform: uppercase;
+  color: var(--tertiary); margin: 0 0 18px;
+}
+.heroe-titulo {
+  font-size: clamp(2.4rem, 5.2vw, 4.875rem);
+  line-height: 1.1; letter-spacing: -.04em; font-weight: 400; margin: 0 0 24px;
+}
+.heroe-cuerpo { font-size: 18px; font-weight: 200; line-height: 1.5; max-width: 480px; margin: 0; }
+.heroe-lienzo { width: 100%; aspect-ratio: 1; display: block; }
+
+// En movil la constelacion pasa debajo y encoge: a una columna, un lienzo cuadrado a ancho completo
+// empujaria el texto fuera de la primera pantalla.
+@media (max-width: 800px) {
+  .heroe { grid-template-columns: 1fr; gap: 30px; }
+  .heroe-lienzo { aspect-ratio: 16 / 10; }
+}

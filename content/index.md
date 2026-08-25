@@ -5,6 +5,17 @@ tags: [indice]
 fecha: 2026-08-14
 ---
 
+<section class="heroe">
+  <div class="heroe-texto">
+    <p class="heroe-etiqueta">Cerebro financiero</p>
+    <h1 class="heroe-titulo">El análisis de Carlos, con el método a la vista.</h1>
+    <p class="heroe-cuerpo">Empresas, conceptos e industrias, con las predicciones y su marcador —
+    los aciertos y los fallos. Escrito por un equipo de agentes y curado por una persona.</p>
+  </div>
+  <canvas id="constelacion" class="heroe-lienzo" aria-hidden="true"></canvas>
+</section>
+<script src="/static/constelacion.js"></script>
+
 <section id="datos-vivos" class="datos-vivos" data-supabase-url="https://bkuwcahxfmmksfuqkrdi.supabase.co" data-supabase-clave="sb_publishable_z7-pP-IVzGmY41gdCnPJGw_VIMIjbbQ">
 <article class="dato-vivo" id="dato-pulso">
 <h2 class="dato-nombre">El pulso</h2>

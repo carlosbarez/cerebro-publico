@@ -21,45 +21,51 @@ configuration:
     fontOrigin: local
     cdnCaching: false
     typography:
-      header: Saira Condensed
-      body: Spectral
+      # Dala usa UNA familia para todo. PPNeueMontreal es comercial (Pangram Pangram), asi que
+      # va Inter, el sustituto que la propia referencia admite. theme.ts:193 emite
+      # `--bodyFont: "Inter", <pila del sistema>`, de modo que si el visitante no la tiene cae en
+      # la suya y NO se pide nada a la red. `code` sigue en Courier Prime: una monoespaciada para
+      # cifras y codigo es funcion, no estilo, y ya esta autohospedada.
+      header: Inter
+      body: Inter
       code: Courier Prime
-    # LOS HEX NO SE ELIGEN AQUI: salen uno a uno de web/ui/tokens.css, que es el origen unico del
-    # mundo Catodo y cuyos pares texto/fondo estan verificados a AA por tests/test_ui_contraste.py.
-    # El mapeo a los nueve huecos de Quartz:
+    # LOS HEX NO SE ELIGEN AQUI: salen uno a uno de web/ui/tokens.css, que es el origen unico y
+    # cuyos pares texto/fondo estan verificados a AA por tests/test_ui_contraste.py.
+    # 2026-08-25: la piel pasa de Catodo (pergamino) a Dala (vacio y violeta). Reemplazo total,
+    # decision de Carlos. El mapeo a los nueve huecos de Quartz no cambia, solo los valores:
     #   light      <- --fondo      (el fondo de la pagina)
-    #   lightgray  <- --fantasma   (los bordes; es literalmente el token de "borde tenue")
+    #   lightgray  <- --fantasma   (los bordes)
     #   gray       <- --hueso-3    (texto apagado, aristas del grafo)
     #   darkgray   <- --hueso-2    (cuerpo de texto)
     #   dark       <- --hueso      (titulares e iconos)
-    #   secondary  <- --catodo     (enlaces)
-    #   tertiary   <- --bronce     (hover y visitados)
+    #   secondary  <- --catodo     (enlaces; hoy Electric Iris #8052FF)
+    #   tertiary   <- --bronce     (hover y visitados; hoy Saffron Spark)
     #   highlight  <- --rejilla    (fondo de enlace interno y de codigo)
     #   textHighlight <- --fantasma
-    # OJO con `tertiary`: --bronce sobre --fondo da 3.0:1, no 4.5:1. Es correcto porque Quartz solo
-    # lo usa en hover y en nodos visitados del grafo, nunca en texto que haya que leer. Si algun dia
-    # se usa para texto, ese es el momento de cambiarlo, no antes.
+    # `lightMode` de Quartz = piel "dia" de tokens.css; `darkMode` = piel por defecto (noche).
+    # El ambar de Dala sobre blanco da 1,73:1 y no llega ni a 3,0 — por eso la piel dia lleva un
+    # ambar mas profundo (#8A5A00). Medido, no elegido a ojo.
     colors:
       lightMode:
-        light: "#F1EBDD"
-        lightgray: "rgba(33, 29, 23, .17)"
-        gray: "#6B6252"
-        darkgray: "#5A5142"
-        dark: "#211D17"
-        secondary: "#B34A12"
-        tertiary: "#8A6D34"
-        highlight: "rgba(138, 109, 52, .16)"
-        textHighlight: "rgba(33, 29, 23, .17)"
+        light: "#FFFFFF"
+        lightgray: "rgba(0, 0, 0, .17)"
+        gray: "#5F5F5F"
+        darkgray: "#4A4A4A"
+        dark: "#000000"
+        secondary: "#6A3FD9"
+        tertiary: "#8A5A00"
+        highlight: "rgba(106, 63, 217, .12)"
+        textHighlight: "rgba(0, 0, 0, .17)"
       darkMode:
-        light: "#0B0F16"
-        lightgray: "rgba(237, 230, 214, .17)"
-        gray: "#8A8070"
-        darkgray: "#A79C88"
-        dark: "#EDE6D6"
-        secondary: "#FF8A3D"
-        tertiary: "#8A6D34"
-        highlight: "rgba(138, 109, 52, .14)"
-        textHighlight: "rgba(237, 230, 214, .17)"
+        light: "#000000"
+        lightgray: "rgba(255, 255, 255, .17)"
+        gray: "#9A9A9A"
+        darkgray: "#BDBDBD"
+        dark: "#FFFFFF"
+        secondary: "#8052FF"
+        tertiary: "#FFB829"
+        highlight: "rgba(128, 82, 255, .16)"
+        textHighlight: "rgba(255, 255, 255, .17)"
 
 plugins:
   - source: "@quartz-community/created-modified-date"
