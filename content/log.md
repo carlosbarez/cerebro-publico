@@ -3,6 +3,19 @@ title: "Registro"
 ---
 # Registro
 
+## [2026-08-25] web | el sitio público ya está en GitHub (push hecho)
+- `carlosbarez/cerebro-publico` creado por Carlos y rama `v5` empujada (1.861 commits, rama por defecto
+  puesta en `v5`). Tres tropiezos: el clon era **shallow** y GitHub rechazaba el pack
+  (`index-pack failed` → `git fetch --unshallow`); el token OAuth de `gh` **no tiene scope `workflow`**
+  y la historia de Quartz traía `.github/workflows/` (→ `git filter-branch` lo quitó de la historia,
+  sin tocar lo demás); y el push de `publica.py --sitio` fallaba por credenciales HTTPS
+  (→ `credential.helper='!gh auth git-credential'`).
+- Pendiente en Carlos: conectar Vercel (framework «Other», build `npx quartz build`, salida `public`).
+- Supabase (mismo día, más tarde): tablas creadas por Carlos; hizo falta además `grant select/insert/
+  update ... to service_role` y `grant select ... to anon` — las claves nuevas (`sb_secret_`/`sb_publishable_`)
+  no heredan los permisos por defecto. Volcado OK: marcador 27, pulso 1, cartera 36 (HTTP 201).
+  Verificado: la clave pública **no escribe** (401) y lee (200).
+
 ## [2026-08-25] web | el sitio público se construye entero en local (fase 2b)
 - Plan nuevo `docs/superpowers/plans/2026-08-25-web-sitio-publico-fase-2b-plan.md`: las tareas 5-6 del
   plan de la mañana estaban escritas contra **Quartz v4** y lo que se clona hoy es **v5.0.0** (config en
@@ -1398,3 +1411,84 @@ ENCARGO 001 fase 2: lote de 19 páginas degradadas corrido por `prime-agent` —
 pendiente), 2 TIMEOUT (dark-side, nomura) y 2 SIN_CRUDO (carteras-13f, manuales-de-valoración). El patrón
 de la muestra se sostiene: los FALLA son citas reales traducidas, no inventadas. Falta el dictamen de
 Carlos antes de tocar ninguna página del wiki.
+## [2026-08-25] industrias | flota CKO v2: 4 análisis sectoriales nuevos
+`industria-defensa-europea` (backlogs verificados Rheinmetall/BAE/Thales/Saab/MBDA, OTAN La Haya
+3,5+1,5, fuga ~50% fuera UE), `industria-semiconductores-ciclo-ia` (capex Big Four $745mm guía,
+poder migrado a memoria/HBM, checklist de giro), `industria-banca-europea` (reversión BCE jun-2026
+verificada, pass-through España 8%, Basilea IV/CRR3) y `industria-farma-glp1` (cliff semaglutida por
+olas, PTE '344 protege EEUU/Europa hasta dic-2031). Escrito por subagente `sectores-analista`
+(fan-in flota CKO); cifras con fuente inline y ≥2 contrastes en datos clave.
+## [2026-08-25] industrias | flota CKO v2: 5 panoramas de commodities
+oro ($5.597 récord ene → $4.588 spot, bancos centrales Q2 récord 288,9t), petroleo-y-gas (Brent
+$89-92 con Ormuz semibloqueado por guerra EEUU-Iran, windfall $495B sin capex), cobre (LME $14.215,
+IA como comprador marginal ~500kt, TC/RC negativos), uranio (long-term $94-97 máx 18 años,
+renuclearización PPA Microsoft/Google) y litio (RMB 143k tras restart Jianxiawo, contraste elástico
+vs cobre). Escrito por subagente `commodities-analista` (fan-in flota CKO).
+## [2026-08-25] sintesis | flota CKO v2: fotografía macro del ciclo 2026
+`macro-estado-del-ciclo-2026` (EEUU T2 +1,5%, NFP jul -23k, eje Ormuz→Brent 92→energía CPI +14,7%
+→Fed hawkish), `macro-politica-monetaria-fed-bce-2026` (Fed 3,50-3,75% todo el año, QT terminado
+dic-2025 con RMPs de bills, BCE +25pb jun, divergencia triple) y `macro-indicadores-anticipados-2026`
+(panel de 17 indicadores: expansión tardía, no recesión; riesgo concentrado en capex IA).
+Escrito por subagente `macro-analista` (fan-in flota CKO).
+## [2026-08-25] conceptos | flota CKO v2: didáctica de valoración, sesgos y ciclo
+Nuevas: `valoracion-dcf-paso-a-paso` (TV=78,8% del EV en el ejemplo ilustrativo, sensibilidad WACC×g),
+`sesgos-y-psicologia-del-inversor` (Mind the Gap 2026: brecha 1,2pp/año; caso Cisco 2000 verificado)
+y `expansion-y-compresion-de-multiples` (CAPE 41,84 a 24-ago, HY OAS 2,70% FRED). Ampliadas con nota
+firmada: `multiplos-de-valoracion` (trampas por industria) y `ciclos-de-mercado` (ciclo del crédito
+contra memos originales de Oaktree; CAPE [Por verificar] resuelto a 41,84 sin reescribir lo previo).
+Escrito por subagente `didacta-conceptos` (fan-in flota CKO).
+## [2026-08-25] inversores | flota CKO v2: cosecha de cartas 2025-2026
+Cuatro páginas extendidas con nota firmada (fuente primaria leída íntegra): howard-marks (memos IA
+dic-2025/feb-2026: la deuda es lo nuevo del ciclo, $5tn capex, ingresos circulares), warren-buffett
+(primera carta de Abel como CEO; caja >$370B; BHE como peaje regulado del capex IA), terry-smith
+(+0,8% vs +12,8%; Novo -3pp con autocrítica; compra Wolters Kluwer como víctima IA) y david-einhorn
+(todo el alfa del libro macro; cortos MicroStrategy). Diagnóstico convergente Buffett+Marks+Abel sobre
+el financiamiento del capex IA. Escrito por subagente `cartas-inversor` (fan-in flota CKO).
+## [2026-08-25] actualidad | flota CKO v2: pulso del lunes
+`pulso-2026-08-25-mercados`: pánico de bono largo global (30y EEUU 5,34% máx desde 2007, Bund 10y
+3,245% máx desde 2011) con buybacks duplicados del Tesoro (Bessent); yields+oro+Brent al alza a la vez
+(prima de término/dominancia fiscal). Tabla verificada: SPX 7.674, Ibex 20.098→20.200, oro 4.661 (+5,1%),
+Brent 93,93 tras «Operación Economic Outcast». `pulso-2026-08-25-resultados-y-calendario`: consumidor
+bifurcado (Walmart vs Target con reembolsos arancelarios 994mm en P&L), NVIDIA mié 26 (guía Q3 ≥103mm),
+Jackson Hole 27-29 con keynote Warsh vie 28 + PCE. [DUDA] documentada contra nota dominical de Elena.
+Escrito por subagente `pulso-hoy` (fan-in flota CKO).
+## [2026-08-25] sintesis + referencia | flota CKO v2: España macro/bolsa y fiscalidad
+`espana-bolsa-y-macro-2026` (Ibex récord >20.000 con PER 13x pero banca >40% del índice: barato por
+concentración, no oportunidad generalizada; yield trampa desarmado con colchón <60pb),
+`espana-oportunidades-y-riesgos-2026` (watchlist Viscofan/Ebro/Amper/Aena-Ferrovial-ACS; demografía y
+energía importada como riesgos) y `fiscalidad-inversor-espana-2026` (CORRECCIÓN verificada AEAT:
+tramos 19/21/23/27/30 desde Ley 7/2024; fondos traspasables vs ETFs sin diferimiento; SL patrimonial
+tipo efectivo 1,25% con matices [DUDA]). Escrito por subagente `espana-local` (fan-in flota CKO).
+## [2026-08-25] empresas | flota CKO v2: tres tesis nuevas (MSCI, Rheinmetall, Aena)
+Valoración a ciegas antes de postura previa, veredictos PROPUESTA con gatillo. MSCI: calidad con EPS
+crecido por palanca (patrimonio -$2,69B) → VIGILAR $450. Rheinmetall: récords operativos pero OFCF
+-€1.616M y deuda neta -€2,7B (backlog ≠ FCF) → VIGILAR €800. Aena: única con MoS positivo (+13%,
+payout 80% hasta 2031) condicionada al DORA III antes del 30-sep → COMPRAR escalonado €25.
+Escrito por subagente `cazador-empresas` (fan-in flota CKO).
+## [2026-08-25] sintesis | flota CKO v2: tríada geopolítica del inversor
+`geopolitica-eeuu-china-y-taiwan-2026` (aranceles IEEPA tumbados por el Supremo, tregua KL expira
+10-nov, Nvidia fuera de China ~95% cuota), `geopolitica-guerras-y-energia-2026` (Ormuz cerrado de
+facto: chokepoint actuarial del war-risk 0,25%→7-10%, gas UE en invierno con 57,1% storage) y
+`geopolitica-desdolarizacion-y-oro` (sanciones como motor estructural del oro: bancos centrales
+~1.000t/año y metal ya sobre Treasuries en reservas; BRICS = raíles, no divisa). Escrito por subagente
+`analista-geopolitico`; su sesión murió tras escribir sin poder responder — recuperado al fan-in.
+Nota de proceso: el rematador lanzado para la pág. 3 fue cancelado sin escribir (trabajo duplicado
+evitado; la página original llegó a disco a las 15:30).
+## [2026-08-25] referencia | flota CKO v2: capa de DATO de gestoras value y ETFs núcleo
+Siete fichas de dato: Horos (+120% Value Internacional, 400M€), Magallanes (Iberian +213% desde 2015;
+cúpula renovada feb-2026), Azvalor (Internacional +12,6%/anual desde origen, 3.491M€; aviso de cambio
+de política 2025), Bestinver (Bestinfond 12,94%/anual; 8.320M€ gestora), Cobas (Internacional 822M€,
+derecho de separación), ETFs núcleo para español (IWDA/VEVE/MEUD — ¡Amundi domiciliado en Luxemburgo,
+no Irlanda!; razón fiscal irlandesa 15% vs 30%) y comparativa maestra (sector value = 3,22% nacional;
+coste compuesto ~16.000€/30 años sobre 10k). Escrito por subagente `gestoras-fondos`, cuya sesión se
+recuperó sola tras la interrupción y completó las 7; rematador redundante cancelado sin escribir.
+## [2026-08-25] cierre | flota CKO v2: operativo completado 10/10 dominios
+38 páginas durables nuevas/ampliadas en 10 dominios (macro, geopolítica, sectores, commodities,
+3 tesis de empresa, 4 cartas 2025-26 extendidas, 5 didácticas, España+fiscalidad, 7 fichas de dato,
+2 pulsos), auditadas: frontmatter+atribución OK, 32 wikilinks rotos = pendientes intencionales
+documentados, deuda [ESCALAR] de puentes msci/rheinmetall resuelta con notas firmadas. Incidente:
+la interrupción de sesión mató la flota v1 entera en plena investigación (cero pérdida neta: se
+relanzó); dos hijos murieron sin responder dejando trabajo completo en disco (geopolítico, gestoras)
+y fue recuperado al fan-in; dos rematadores redundantes cancelados sin escribir. Commits por dominio
+con trailer `Agente:`; pendiente para Carlos: dictamen sobre veredictos PROPUESTA (Aena COMPRAR
+condicionado al DORA III antes del 30-sep) y crear voz aeropuertos.

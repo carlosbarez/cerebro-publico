@@ -1,0 +1,94 @@
+filters:
+  and:
+    - file.inFolder("empresas")
+    - file.ext == "md"
+formulas:
+  recorrido: |
+    if(valor_estimado && precio_referencia,
+      ((valor_estimado / precio_referencia - 1) * 100).round(1), "")
+  a_gatillo: |
+    if(gatillo_entrada && precio_referencia,
+      ((gatillo_entrada / precio_referencia - 1) * 100).round(1), "")
+  visto: file.mtime.relative()
+properties:
+  file.name:
+    displayName: Empresa
+  ticker:
+    displayName: Ticker
+  veredicto:
+    displayName: Veredicto
+  precio_referencia:
+    displayName: Precio
+  valor_estimado:
+    displayName: Valor estimado
+  moneda:
+    displayName: Moneda
+  fecha_precio:
+    displayName: Fecha del precio
+  formula.recorrido:
+    displayName: "Recorrido %"
+  formula.a_gatillo:
+    displayName: "Al gatillo %"
+  formula.visto:
+    displayName: Actualizada
+views:
+  - type: table
+    name: Con valoración
+    filters:
+      and:
+        - '/^[0-9]+(\.[0-9]+)?$/.matches(valor_estimado.toString())'
+        - '/^[0-9]+(\.[0-9]+)?$/.matches(precio_referencia.toString())'
+    order:
+      - file.name
+      - ticker
+      - veredicto
+      - precio_referencia
+      - valor_estimado
+      - formula.recorrido
+      - formula.a_gatillo
+      - moneda
+      - fecha_precio
+    sort:
+      - property: formula.recorrido
+        direction: DESC
+    summaries:
+      formula.recorrido: Median
+      valor_estimado: Filled
+    columnSize:
+      file.name: 240
+  - type: board
+    name: Por veredicto
+    filters:
+      and:
+        - "!veredicto.isEmpty()"
+    groupBy:
+      property: veredicto
+      direction: ASC
+    order:
+      - ticker
+      - formula.recorrido
+      - moneda
+  - type: table
+    name: Sin valorar todavía
+    filters:
+      not:
+        - '/^[0-9]+(\.[0-9]+)?$/.matches(valor_estimado.toString())'
+    order:
+      - file.name
+      - ticker
+      - veredicto
+      - formula.visto
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: Todas
+    order:
+      - file.name
+      - ticker
+      - veredicto
+      - formula.recorrido
+      - formula.visto
+    sort:
+      - property: file.name
+        direction: ASC

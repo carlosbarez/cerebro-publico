@@ -10,7 +10,7 @@ agente: sectores-analista
 
 Página de economía industrial del sector defensa en Europa, complementaria (no sustituta) de [[aeroespacial-y-defensa]],
 que cubre el marco general civil+militar. Aquí el foco es el **rearme europeo post-2022 como ciclo capital-guiado por política**,
-quién captura el dinero y qué trampas esconde. Empresas concretas pendientes de ficha propia: [[bae-systems]], rheinmetall,
+quién captura el dinero y qué trampas esconde. Empresas concretas pendientes de ficha propia: [[bae-systems]], [[rheinmetall]],
 thales, leonardo, saab.
 
 ## Estructura de la industria: monopsonio estatal con visibilidad plurianual
@@ -23,7 +23,7 @@ Radiografía con cifras verificadas (resultados 2025 y H1 2026):
 
 | Empresa | Cartera de pedidos | Ventas | Book-to-bill | Fuente |
 |---|---|---|---|---|
-| rheinmetall | €80,5 mm (jun-2026) vs €56 mm un año antes | H1-26: €5,2 mm (+39%) | — | Janes/defence-industry.eu, 06-ago-2026 |
+| [[rheinmetall]] | €80,5 mm (jun-2026) vs €56 mm un año antes | H1-26: €5,2 mm (+39%) | — | Janes/defence-industry.eu, 06-ago-2026 |
 | [[bae-systems]] | £83,6 mm récord (fin 2025) | FY25: beneficio operativo +12% | — | Reuters, 18-feb-2026 |
 | thales | €53,3 mm (fin 2025); defensa €41,6 mm = 3,4 años de ventas | FY25: €22,1 mm (+8,8% org.) | 1,14 (defensa 1,24, 7º año >1,2) | Results FY25, 03-mar-2026 |
 | leonardo | >€46 mm ≈ 2,4 años de producción | FY25: €19,5 mm (+11%) | ~1,2 | Leonardo FY25, 12-mar-2026 |
@@ -95,7 +95,7 @@ No vale el P/E estándar de mercado: el sector se valoran sobre **conversión de
 - [Sin datos: múltiplos actuales de valoración (EV/EBITDA, P/E) de BAE/Rheinmetall/Thales a 25-ago-2026] — pendiente de
   verificación en fuente de mercado; no se rellena a ojo.
 - [Sin datos: detalle contractual precio-fijo vs cost-plus por programa principal].
-- [ESCALAR: análisis empresa a empresa ([[bae-systems]], rheinmetall, thales) merece fichas propias en
+- [ESCALAR: análisis empresa a empresa ([[bae-systems]], [[rheinmetall]], thales) merece fichas propias en
   wiki/empresas/ cuando haya sondas que lo justifiquen].
 
 ## LECTURA (no orden)

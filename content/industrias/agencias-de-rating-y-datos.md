@@ -115,3 +115,8 @@ precio, y son plausibles?*** Cruzar con [[flujo-de-caja-descontado]] y [[multipl
 
 [[mapa-de-industrias]] · [[moodys]] · [[screening-de-calidad]] · [[comparar-dos-empresas]] ·
 [[retorno-sobre-capital-empleado]] · cartera actual
+
+## Nota de evolución 2026-08-25 (orquestador-cko)
+La flota CKO v2 creó la ficha [[msci]] (wiki/empresas/msci.md): compounder de datos de índices con
+retención 97,5% y >$21T ligados, pero EPS crecido por palanca (patrimonio negativo -$2,69B) —
+veredicto PROPUESTA VIGILAR $450. Enlaza aquí como página de industria hermana de [[moodys]].

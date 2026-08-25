@@ -5,6 +5,35 @@ tags: [indice]
 fecha: 2026-08-14
 ---
 
+<section id="datos-vivos" class="datos-vivos" data-supabase-url="https://bkuwcahxfmmksfuqkrdi.supabase.co" data-supabase-clave="sb_publishable_z7-pP-IVzGmY41gdCnPJGw_VIMIjbbQ">
+<article class="dato-vivo" id="dato-pulso">
+<h2 class="dato-nombre">El pulso</h2>
+<p class="dato-titular">El consumidor americano se parte en dos, y la gasolina marca por dónde</p>
+<p class="dato-entradilla">La semana decisiva del trimestre se juega en 72 horas: Nvidia (mié 26), Jackson Hole con keynote de Warsh (vie 28) y PCE de julio (vie 28). Lo reportado hasta hoy ya dibuja un consumidor estadounidense bifurcado.</p>
+<p class="dato-fecha">Pulso del 25 de agosto de 2026 · publicado el 25 de agosto de 2026</p>
+</article>
+<article class="dato-vivo" id="dato-marcador">
+<h2 class="dato-nombre">El marcador</h2>
+<p class="dato-cifras">27 predicciones · 4 resueltas · brier medio 0,165</p>
+<p class="dato-fecha">Datos al 25 de agosto de 2026</p>
+</article>
+<article class="dato-vivo" id="dato-cartera">
+<h2 class="dato-nombre">La cartera</h2>
+<ul class="dato-posiciones">
+<li><span class="dato-posicion">ETFS Physical Silver</span> <span class="dato-peso">11,38 %</span></li>
+<li><span class="dato-posicion">Micron Technology</span> <span class="dato-peso">9,28 %</span></li>
+<li><span class="dato-posicion">WT Physical Gold EUR Hdg</span> <span class="dato-peso">6,63 %</span></li>
+<li><span class="dato-posicion">Schroder Gold EUR Hdg</span> <span class="dato-peso">5,57 %</span></li>
+<li><span class="dato-posicion">JPMorgan Greater China</span> <span class="dato-peso">5,27 %</span></li>
+<li><span class="dato-posicion">Meta Platforms</span> <span class="dato-peso">4,6 %</span></li>
+<li><span class="dato-posicion">GS Bloomberg Commodity</span> <span class="dato-peso">4,54 %</span></li>
+<li><span class="dato-posicion">Microsoft</span> <span class="dato-peso">4,05 %</span></li>
+</ul>
+<p class="dato-fecha">Foto al 25 de agosto de 2026 · pesos en %, nunca importes</p>
+</article>
+<p role="status" class="dato-estado"></p>
+</section>
+
 # Índice del Cerebro Financiero
 
 ## Actualización 2026-08-16
@@ -1357,3 +1386,16 @@ extracción: juicio y síntesis estratégica. Propone, no ejecuta. Mantiene la f
 
 - [[pulso-video-2026-08-20]] — presión de duración, recompra del Tesoro 2.000→4.000 M$, deuda IA y tensión Irán-Ormuz; crudo pendiente por permisos 0555.
 - [[pulso-video-2026-08-24]] — backlog 21-24 ago: duración y refino como riesgos comunes, 13 vídeos seleccionados, Nvidia 26-ago y Jackson Hole 27-29-ago; crudo pendiente por permisos 0555.
+
+## Actualización 2026-08-25 — operativo flota CKO v2
+
+Diez dominios sellados por la flota de investigación (todas las páginas con `agente:` en frontmatter,
+commits con trailer `Agente:`): macro ([[macro-estado-del-ciclo-2026]] · [[macro-politica-monetaria-fed-bce-2026]] ·
+[[macro-indicadores-anticipados-2026]]) · geopolítica ([[geopolitica-eeuu-china-y-taiwan-2026]] ·
+[[geopolitica-guerras-y-energia-2026]] · [[geopolitica-desdolarizacion-y-oro]]) · sectores
+([[industria-defensa-europea]] · [[industria-semiconductores-ciclo-ia]] · [[industria-banca-europea]] ·
+[[industria-farma-glp1]]) · commodities (oro, crudo-gas, cobre, uranio, litio — *-panorama-2026) ·
+empresas ([[msci]] · [[rheinmetall]] · [[aena]]) · cartas 2025-26 en inversores/ (Marks IA, Berkshire-Abel,
+Smith, Einhorn) · didáctica en conceptos/ (DCF paso a paso, sesgos, re-rating; ampliadas múltiplos y ciclos) ·
+España ([[espana-bolsa-y-macro-2026]] · [[espana-oportunidades-y-riesgos-2026]] ·
+[[fiscalidad-inversor-espana-2026]]) · gestoras y ETFs en referencia/ (7 fichas) · pulso del día en actualidad/.

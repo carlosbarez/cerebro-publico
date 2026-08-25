@@ -106,6 +106,15 @@ export function pageResources(
     contentType: "external",
   })
 
+  // El refresco en vivo de la portada (quartz/static/datos-vivos.js). Script clasico: se ejecuta
+  // antes que el postscript (module), asi que su listener del evento "nav" ya esta registrado
+  // cuando el router SPA dispara el "nav" inicial. Solo actua si la pagina tiene #datos-vivos.
+  resources.js.push({
+    src: joinSegments(baseDir, "static", "datos-vivos.js"),
+    loadTime: "afterDOMReady",
+    contentType: "external",
+  })
+
   return resources
 }
 

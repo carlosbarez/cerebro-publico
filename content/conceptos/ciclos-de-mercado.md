@@ -118,3 +118,64 @@ enlace a la fuente pública (multpl.com/Shiller data) — no contrastada contra 
 - [[riesgo-real-vs-volatilidad]] · [[bill-ackman]] · [[jamie-dimon]] · [[horos-am]]
 - [[misterpuertas-metodo]] — su lectura diaria de sentimiento/euforia y las "señales de venta por optimismo extremo": el péndulo aplicado a la sesión del día
 - [[jeremy-grantham]] · [[james-montier]] — la voz bajista de GMO: las burbujas no se ven venir (optimismo + incentivo alcista de Wall Street); reversión de márgenes/valoraciones
+
+
+## Nota de evolución 2026-08-25 (didacta-conceptos)
+
+Esta página ya tenía el péndulo psicológico de Marks y sus puentes (Dalio, Dimon, Horos). Añado la pieza que
+faltaba: **el ciclo del CRÉDITO**, que el propio Marks considera el más volátil y de mayor impacto, más un
+tablero de termómetros operativos con lecturas verificadas hoy.
+
+### El ciclo del crédito: la ventana que se abre de par en par y se cierra de golpe
+
+Verificado hoy contra los memos originales de Oaktree (PDF fuente): en "The Happy Medium" (21-07-2004) y
+desarrollado en "Open and Shut" (12-2010), Marks formula la ley del crédito: *"the capital market oscillates
+between wide open and slammed shut"* — el mercado de capital oscila entre abierto de par en par y cerrado a
+calzón cálido. La secuencia mecánica completa del memo 2010:
+
+prosperidad → los proveedores de capital prosperan y amplían base → como no hay malas noticias, el riesgo *parece*
+haber menguado → cae la aversión al riesgo → compiten bajando tipos exigidos, relajando estándares y covenants →
+financian proyectos que NO deberían financiarse (aquí se crea el combustible) → llegan las pérdidas → los
+prestamistas se retraen → suben tipos exigidos y restricciones → nadie refinancia → defaults y quiebras →
+contracción → en el fondo solo se financia al mejor candidato (o a nadie), y ahí empiezan las gangas que atraen
+capital de nuevo.
+
+Frases clave verificadas en los memos: *"Prosperity brings expanded lending, which leads to unwise lending,
+which produces large losses, which makes lenders stop lending, which ends prosperity"* (Happy Medium, 2004); y
+las **«siete peores palabras del mundo»: «demasiado dinero persiguiendo demasiados pocos negocios»** — título de
+su memo de septiembre de 2018 (citado en la charla de CFA Institute, 10-01-2019), donde llama a esta fase la
+*carrera al fondo* (*race to the bottom*).
+
+Segundo orden que conecta con todo el cerebro: el crédito fácil NO solo abarata la deuda — valida proyectos
+marginales (capex especulativo, [[ciclo-de-capex]]), sostiene valoraciones de palancados
+([[aversion-al-apalancamiento]]) y crea la ilusión de liquidez perpetua. Cuando la ventana cierra, fallan primero
+los que dependían de refinanciarse, y sus ventas forzosas marcan los precios de todos — incluidos los sanos. Por
+eso las mayores gangas nacen meses DESPUÉS del cierre de la ventana ([[malinversion-y-zombificacion-empresarial]]).
+
+### Tablero de temperatura del ciclo (lecturas verificadas 25-08-2026)
+
+| Termómetro | Lectura | Fuente | Qué indica |
+|----|----|----|----|
+| Spread high yield EE.UU. (ICE BofA OAS) | **2,70%** (dato 21-08-2026) | FRED, serie BAMLH0A0HYM2 | Cerca de mínimos históricos → crédito barato y abundante: ventana ABIERTA |
+| Spread BBB | **1,00%** (dato 21-08-2026) | FRED, serie BAMLC0A4CBBB | Igual lectura en investment grade |
+| CAPE Shiller | **41,84** (dato 24-08-2026) | multpl.com | Zona extrema; máximo histórico de la serie: 44,19 (dic-1999) |
+
+Lectura conjunta: valoraciones agregadas extremas + spreads mínimos = fase de ventana abierta y complacencia —
+exactamente el tramo del péndulo donde el riesgo REAL es máximo aunque se sienta mínimo
+([[riesgo-real-vs-volatilidad]]). No es señal de venta ni predicción: es calibración de expectativas y de tamaño
+de posición ([[checklist-macro-y-ciclo]], [[horizonte-largo-plazo]]).
+
+Nota de contraste con la nota del 26-07-2026 de arriba: aquella cifra de CAPE 41,12 quedó marcada `[Por verificar]`
+por llegar vía comunicador sin enlace. Hoy la fuente pública directa (multpl.com/Shiller) da 41,84 a 24-08-2026:
+confirma la magnitud (~41-42, zona récord) aunque por fechas distintas no verifica el número puntual de julio.
+
+### Checklist rápido de posición en el ciclo (para grep futuro)
+
+Ventana del crédito abierta: volúmenes récord de emisión high yield · subida de emisiones CCC y covenant-lite ·
+dividend recaps y LBO agresivos · IPOs fáciles · spreads HY < 3% · «esta vez es distinto» en los medios.
+Ventana cerrada: mercado de emisiones parado · refinanciaciones fallidas · spreads > 8% · quiebras de nombres
+conocidos · pánico en encuestas de gestores · nadie quiere oír hablar de la bolsa. Las señales cualitativas
+cotidianas viven en [[misterpuertas-metodo]]; el marco completo del ciclo crediticio, en [[howard-marks]]
+(*Mastering the Market Cycle*, 2018, cap. del ciclo crediticio). Material didáctico relacionado creado hoy:
+[[sesgos-y-psicologia-del-inversor]] (el motor psicológico del péndulo) y
+[[expansion-y-compresion-de-multiples]] (cómo el péndulo mueve los ratings).

@@ -42,3 +42,61 @@ blockquote { border-left: 2px solid var(--bronce); }
   font-family: var(--headerFont);
   font-size: .85rem;
 }
+
+// La portada con datos vivos (publica.py hornea el snapshot; static/datos-vivos.js refresca).
+// Misma convencion que el resto de la hoja: --secondary/--tertiary/--lightgray/--gray son los
+// tokens Catodo (--catodo/--bronce/--fantasma/--hueso-3) MAPEADOS en el YAML, y conmutan solos
+// con la piel; --rejilla y las familias salen directas de tokens.scss. Ningun hex aqui.
+.datos-vivos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+.dato-vivo {
+  border: 1px solid var(--lightgray);
+  border-top: 2px solid var(--tertiary);
+  padding: .9rem 1rem;
+}
+.dato-nombre {
+  font-family: var(--condensada);
+  color: var(--secondary);
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-size: 1.05rem;
+  margin: 0 0 .4rem;
+}
+.dato-titular { font-weight: 600; margin: 0 0 .3rem; }
+.dato-entradilla, .dato-cifras { margin: 0 0 .5rem; }
+// La entradilla del pulso es un parrafo de analisis entero, no un teaser de portada: sin tope, la
+// tarjeta de «El pulso» crece cinco veces mas que las otras dos y descuadra la rejilla — medido en
+// el sitio construido el 2026-08-25. Se recorta en CSS y NO en el texto a proposito: asi el limite
+// vive en un solo sitio y vale igual para el snapshot horneado y para el dato refrescado en vivo,
+// sin repetir la cifra en publica.py y en datos-vivos.js. El texto completo sigue en el DOM.
+.dato-entradilla {
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.dato-posiciones {
+  list-style: none;
+  margin: 0 0 .5rem;
+  padding: 0;
+  font-family: var(--datos);
+  font-size: .9rem;
+}
+.dato-posiciones li {
+  display: flex;
+  justify-content: space-between;
+  gap: .6rem;
+  padding: .15rem 0;
+  border-bottom: 1px solid var(--rejilla);
+}
+.dato-fecha, .dato-estado {
+  font-family: var(--condensada);
+  font-size: .82rem;
+  color: var(--gray);
+  margin: 0;
+}
+.dato-estado { grid-column: 1 / -1; }

@@ -84,3 +84,35 @@ cotizada **Greenlight Capital Re (GLRE, NASDAQ)**. Se hizo famoso por el **short
 - [[ciclo-de-deuda-y-desapalancamiento]] · [[materias-primas-y-ciclo-de-commodities]]
 - [[precio-vs-cotizacion]] · [[interes-compuesto]] · [[horizonte-largo-plazo]]
 - [[greenlight-cartas]] — fuente procesada
+
+## Nota de evolución 2026-08-25 (cartas-inversor)
+
+**Carta Q4-2025 de Greenlight Capital (publicada ~20-ene-2026).** Fuente: texto de la carta reproducido íntegro en
+[hedgefundalpha.com](https://hedgefundalpha.com/investor-letters/david-einhorn-greenlight-capital-q4-2025-letter/)
+(leído hoy; el PDF original va adjunto al pie de esa página). Cifras verificadas contra ese texto.
+
+### Resultados 2025 y de dónde vino el retorno
+
+- Greenlight **+9,0% neto en 2025 vs +17,9% del S&P 500** (Q4: +8,5% vs +2,7%). Desde inception (may-1996): **3.406% acumulado / 12,7% anualizado** vs 1.693% / 10,2% del S&P; $6.100 M generados netos.
+- Dato central del año: **todo el retorno y todo el alfa (+14,5%) salió del libro MACRO**, no del long-short: *"For 2025, we made all our return and alpha in the macro portfolio... Macro investing continued to shine, even as the long-short portfolio lagged."* Ganancias citadas en cortos de MicroStrategy. Exposición media: **89% long / 50% short**.
+- Segundo orden: si hasta el Einhorn clásico —comprar baratos absolutos, cortar sobrevalorados— obtiene TODO su alfa del macro, es otra confirmación (junto a Smith) de que la dispersión del mercado la están mandando los flujos pasivos y las variables macro/políticas, no los fundamentales stock-a-stock → [[eficiencia-de-mercado]] · [[checklist-macro-y-ciclo]].
+
+### Riesgo político: la cita que define su tesis de fondo
+
+- *"When we hear President Trump say things like, 'I, as President of the United States, am calling for a one year cap on Credit Card Interest Rates of 10%', and 'We [the government] should take stakes in companies when people need something', perhaps concerns about socialism should extend beyond the five boroughs. We wonder if in a few years there will be a trivia game called, 'Who said it: Trump or Mamdani?'"*
+- Implicancia: el intervencionismo ya no tiene signo político — techos de tipos de interés al crédito al consumo y participaciones estatales en empresas son riesgo regulatorio transversal (bancos de consumo, farma con precios negociados). Para cartera: primar negocios con precio/margen fuera del alcance del regulador o con demanda inelástica → [[riesgo-real-vs-volatilidad]].
+
+### Aciertos y entradas nuevas (verificados)
+
+- **Fluor/NuScale stub (FLR/SMR)**: SMR nuclear *"essentially went parabolic"* y luego cayó con fuerza mientras FLR vendía la participación para recomprar sus propias acciones — *"SMR's very speculative valuation"*. Corrobora desde la energía nuclear lo que Marks ve desde el crédito y Smith desde el equity: las valoraciones «de la carrera» (IA, potencia) se están desinflando por el lado más especulativo → [[mineria-industrial-y-energia]] · [[ciclos-de-mercado]].
+- **Teva**: transición a farma de marca funcionando (*Austedo* con precio pactado con CMS desde 2027); el mercado solo re-rating cuando cedió el viento regulatorio. Patrón reutilizable en farma genérica/branded → [[salud-y-farma]].
+- **Nuevos largos pequeños en Q4**: Deckers ($85,49 medio → $103,67 fin de trimestre; caja neta ~9% de capitalización, recompras), Global Payments (reentrada a $77,85; sinergias Worldpay; objetivo $5.000 M FCF en 2028 ≈ 25% de la capitalización pro-forma), Warner Bros. Discovery (entrada $22,66 tras puja de Paramount Skydance a $23,50; contra-puja de Netflix de $27,75 por streaming+estudio; subida de PSKY a $30; salida esperada en low-to-mid $30s). Mayores largos a cierre: Brighthouse, Core Natural Resources, Fluor, Green Brick, Solvay.
+- El patrón común de las entradas: catalizador identificable (puja, desinversión, recompra) + valoración absolutamente barata — value con EVENTO, no value estático.
+
+### Qué implica para nuestra cartera (lectura propia, propuesta)
+
+1. **El alfa migró al macro en 2025**: para un portafolio long-only como el nuestro, la lectura práctica es controlar la exposición a los factores que mandaron el año (flujos pasivos, política fiscal/regulatoria, tipos) antes que buscar alfa stock-a-stock en el tramo afectado → [[asignacion-de-activos]].
+2. **Riesgo populista bidireccional**: techos a intereses del crédito y stakes estatales son colas que casi nadie tiene modeladas; vigilar cualquier posición sensible a precios regulados (banca de consumo, utilities, farma) → [[riesgo-real-vs-volatilidad]].
+3. **Desinflado especulativo en potencia/nuclear** (caso SMR): útil como termómetro del apetito por activos «de la segunda derivada de la IA»; si sigue, el contagio llegará a neoclouds e infraestructura apalancada → [[financiacion-estructurada-del-capex-de-ia]].
+
+Lecturas: [[greenlight-cartas]] · [[howard-marks]] · [[terry-smith]]

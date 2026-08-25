@@ -310,4 +310,11 @@ layout:
       positions:
         right: []
     canvas: {}
-    bases: {}
+    # Las bases son tablas anchas: el rail derecho (grafo) les come columnas y el board sale
+    # cortado. Se le quita a ESTE tipo de pagina, no al resto — medido el 2026-08-25 con
+    # empresas.base, cuyo board de 3 columnas no cabia.
+    bases:
+      exclude:
+        - reader-mode
+      positions:
+        right: []

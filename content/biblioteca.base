@@ -1,0 +1,68 @@
+filters:
+  and:
+    - file.ext == "md"
+formulas:
+  visto: file.mtime.relative()
+  seccion: |
+    if(file.folder.isEmpty(), "raiz", file.folder)
+properties:
+  file.name:
+    displayName: Página
+  tipo:
+    displayName: Tipo
+  formula.seccion:
+    displayName: Sección
+  formula.visto:
+    displayName: Actualizada
+views:
+  - type: board
+    name: Por tipo
+    filters:
+      not:
+        - file.inFolder("actualidad")
+    groupBy:
+      property: tipo
+      direction: ASC
+    order:
+      - file.name
+      - formula.seccion
+  - type: table
+    name: Todo el fondo
+    filters:
+      not:
+        - file.inFolder("actualidad")
+    groupBy:
+      property: tipo
+      direction: ASC
+    order:
+      - file.name
+      - tipo
+      - formula.seccion
+      - formula.visto
+    sort:
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 300
+  - type: list
+    name: Lo último
+    order:
+      - file.name
+      - tipo
+      - formula.visto
+    sort:
+      - property: file.mtime
+        direction: DESC
+    limit: 40
+  - type: table
+    name: Actualidad
+    filters:
+      and:
+        - file.inFolder("actualidad")
+    order:
+      - file.name
+      - formula.visto
+    sort:
+      - property: file.mtime
+        direction: DESC
+    limit: 60

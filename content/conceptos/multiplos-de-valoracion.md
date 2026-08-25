@@ -107,3 +107,46 @@ es el paso 4: "comparables" que no lo son.
 
 - [[flujo-de-caja-descontado]] · [[coste-de-capital-wacc]] · [[retorno-sobre-capital-empleado]]
 - [[valor-intrinseco]] · [[negocio-maravilloso-vs-precio-maravilloso]] · [[margen-de-seguridad]] · [[manuales-de-valoracion]]
+
+
+## Nota de evolución 2026-08-25 (didacta-conceptos)
+
+Añado aquí lo que faltaba a esta página: **qué múltiplo engaña en QUÉ industria**, con ejemplos numéricos
+ilustrativos propios (pizarra, no cotizaciones). El material didáctico completo derivado vive en
+[[valoracion-dcf-paso-a-paso]] y en la nueva página complementaria [[expansion-y-compresion-de-multiples]].
+
+**Trampas del múltiplo según la industria:**
+
+- **Cíclicas** (semis, químicas, energía, navieras — ver [[semiconductores-de-memoria]],
+  [[materias-primas-y-ciclo-de-commodities]], [[ciclo-de-capex]]): el PER es mínimo justo en la CIMA del ciclo,
+  porque el denominador (beneficio) está inflado. Ejemplo ilustrativo: beneficio normalizado 100 M€, beneficio de
+  pico 150 M€; si el mercado paga 900 M€, el PER aparente es 6× («baratísima») pero sobre beneficio normalizado
+  es 9× — y el riesgo real es comprar el pico de beneficios como si fuera norma. La regla correcta: valorar sobre
+  beneficio medio de ciclo ([[valoracion-ciclicas-y-beneficios-negativos]]).
+- **Intensivas en capital** (utilities, telecoms, aerolíneas): EV/EBITDA las maquilla, porque trata la depreciación
+  como gasto irreal cuando el capex de reposición ES el negocio. El mismo Buffett documentado arriba (BNSF):
+  donde D&A < capex real, el EBITDA sobrevalora de forma sistemática. Preferir flujo de caja tras capex de
+  mantenimiento ([[valor-intrinseco]]).
+- **Financieras** (bancos, aseguradoras): el EV está mal definido (su financiación ES parte del negocio) y el
+  EBITDA carece de sentido; el par natural es **P/TBV frente a ROE sostenible** y dividendos
+  ([[valoracion-de-empresas-financieras]], [[float-de-seguros]]). Un banco «barato» por PER suele estarlo porque
+  su balance es peor, no su cotización.
+- **REIT e inmobiliario**: el EPS castiga por depreciación contable de activos que no se consumen; el estándar
+  sectorial son los FFO/AFFO (beneficio ajustando esa depreciación). Usar PER clásico excluye al sector entero
+  por artefacto contable.
+- **Tecnología con remuneración en acciones** (*stock-based compensation*): un P/FCF «barato» puede ocultar
+  dilución enorme: el SBC no es salida de caja pero sí transferencia de propiedad de los accionistas existentes.
+  Ajustar el flujo por SBC o vigilar el nº de acciones diluidas ([[contabilidad-y-calidad-de-beneficios]]).
+- **Retail y hostelería post-IFRS 16**: los alquileres capitalizados salieron del EBITDA (pasaron a amortización
+  e intereses), inflando el EBITDA publicado y rompiendo series históricas de comparables; usar EBITDAR o
+  normalizar antes de cruzar con periodos pre-2020.
+- **Asset-light con intangibles gastos** (farma, marcas, software): el P/B es casi inútil — décadas de I+D y
+  marca nunca entraron en el balance, así que el denominador está artificialmente pequeño
+  ([[capitalizacion-de-id-y-activos-intangibles]]); P/B alto aquí no dice «cara» sino «contabilidad antigua».
+
+Resumen operativo en una línea: **primero elegir el múltiplo que captura el driver económico del sector, luego
+normalizar el denominador por el ciclo y por la contabilidad, y solo entonces comparar** — el orden inverso es
+la trampa 4 de Damodaran documentada arriba. Cruce con psicología: el múltiplo «barato» de una cíclica en pico de
+beneficio es simultáneamente un error de análisis Y una trampa conductual (anclaje al PER bajo visible), ver
+[[sesgos-y-psicologia-del-inversor]]; y su variación temporal es objeto propio de estudio en
+[[expansion-y-compresion-de-multiples]]. Lectura: [[ciclos-de-mercado]], [[valoracion-dcf-paso-a-paso]].

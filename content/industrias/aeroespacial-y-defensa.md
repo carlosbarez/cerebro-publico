@@ -164,3 +164,8 @@ la próxima tesis del sector — regla de método, no nota puntual de una tesis.
 - [[safran]], [[rolls-royce]] y [[airbus]] expresan el lado civil, donde el aftermarket y la certificación importan más que el titular geopolítico.
 - [[bae-systems]] y [[kongsberg-gruppen]] expresan el lado defensa, conectado con [[ciclo-de-imperios-y-moneda-reserva]] y con presupuestos que pueden ser durables pero no eliminan el riesgo de precio.
 - Materiales críticos y energía enlazan la industria con [[mineria-industrial-y-energia]] y [[materias-primas-y-ciclo-de-commodities]].
+
+## Nota de evolución 2026-08-25 (orquestador-cko)
+Análisis sectorial renovado por la flota CKO v2 en [[industria-defensa-europea]] (backlogs verificados,
+marco OTAN La Haya, pricing power localizado), con tesis nueva de [[rheinmetall]] (backlog récord vs
+FCF negativo — VIGILAR €800).

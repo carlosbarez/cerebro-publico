@@ -173,3 +173,36 @@ reescribe la sección "3. Do nothing" de arriba, seguirá vigente hasta confirma
 - [[circulo-de-competencia]] · [[activismo-accionarial]] · [[precio-vs-cotizacion]]
 - [[investing-for-growth-smith]] — su libro de ensayos 2010-2020 (las "diez reglas de oro", "return-free
   risk" contra los bonos, crítica a ETF/recompras/fees); refuerzo profundo de esta voz
+
+## Nota de evolución 2026-08-25 (cartas-inversor)
+
+**Carta anual 2025 de Fundsmith (16ª, publicada en enero-2026) — fuente primaria leída íntegra hoy:**
+[fundsmith.co.uk — 2025 FEF Annual Letter (PDF)](https://www.fundsmith.co.uk/media/4hcfd1pg/2025-fef-annual-letter-web.pdf).
+Esta nota sustituye como fuente a la nota de 2026-07-14 que iba «vía pulso — no fuente primaria»: ahora hay texto original verificado.
+
+### El año en cifras verificadas
+
+- T Class Accumulation **+0,8% en 2025 vs +12,8% del MSCI World** en libras: tercer año difícil consecutivo de *underperformance* relativo. Desde inception (1-nov-2010) sigue siendo el **3º mejor fondo de 155** del sector IA Global, con +322 p.p. sobre la media del sector y Sortino 0,75 vs 0,48 del índice (~56% más de retorno por unidad de volatilidad a la baja).
+- Rotación mínima: dealing voluntario del **0,008%** del valor medio del fondo; vendió 2 (Brown-Forman, PepsiCo), compró 4 (Zoetis, EssilorLuxottica, Intuit, Wolters Kluwer); 29 posiciones; OCF 1,04% / TCI 1,06%. La cartera como «empresa» (*look-through*): ROCE 31%, margen bruto 62%, conversión de caja 94%, cobertura de intereses 29x — vs S&P 500: 17%/45%/18%/89%.
+
+### Sus tres causas del retraso (y por qué son una tesis macro disfrazada)
+
+1. **Concentración extrema del índice**: las top-10 eran el **39% del S&P 500** a cierre de 2025 y aportaron el **50% de su retorno total en USD**. Su referencia histórica: la última vez con semejante concentración fue **1930**, y el S&P no recuperó su máximo de 1930 hasta **1954**: *"When bubbles burst they can cause many lost years or even decades."* Segundo orden: no es una opinión sobre si la IA es real; es un dato de ESTRUCTURA del índice — quien compra un indexado global hoy tiene ~1/5 de su cartera implícita en diez nombres.
+2. **El pasivo es momentum**: con >50% de los activos de fondos de EE.UU. en indexados desde 2023, *"Far from being passive in any normally accepted sense of the word, this makes them a momentum strategy"*; cita a Bogle: *"John Bogle was right."* Ejemplo extremo: Tesla a PER 327 es la 9ª empresa del S&P — no tenerla «es peligroso» solo porque los flujos entren sin mirar calidad ni precio. La máquina de flujos amplifica al alza… y funcionará igual de mecánica a la baja.
+3. **La falacia del coste de capital**: empresas e inversores actúan como si el coste del capital fuera el recíproco del PER (PER 50 → capital al 2%): *"This is utter nonsense."* El coste de equity ronda el retorno secular de las acciones estadounidenses (~9%). Caso manual: Vodafone pagó Mannesmann en 2000 con acciones sobrevaloradas (su acción: máximo de 570p entonces, 99p hoy). Aplicación directa a la carrera de capex en IA: *"Perhaps the executives running some of the leading AI companies have a clear view of the future... But if not, we can expect Sir John Templeton's adage to be proven to be right once again."* Es el mismo mecanismo que denuncia [[howard-marks]] desde el crédito, aquí visto desde el equity: valoración inflada → coste percibido cero → sobreinversión → destrucción.
+
+### Lo que hace (no lo que dice)
+
+- **No se pliega ni compra índice ni momentum**: *"We are not going to do either"*, y avisa para quienes sí: los buenos momentum investors venden cuando cae; no se convencen de que *"because they have bought Nvidia shares when they are going up, they know what is going to happen with AI or GPUs."*
+- **Autocrítica Novo Nordisk** (mayor detractor, −3,0 p.p.): *"Novo Nordisk managed to reaffirm my belief that you should never say 'Things can't get any worse'. The company has parlayed a market leading position in what is probably the most exciting drug development for about three decades into a secondary position and has failed to prevent illegal generic competition in its core US market."* Y revisa su propio mantra: la lista de negocios *"which could be run by an idiot is much more limited than we thought"* — la calidad directiva pesa más de lo que su método asumía; ante mala gestión, vender funciona mejor que el engagement. A PER 13 dice que el precio *"appears to be expecting very little"*.
+- **El látigo narrativo de la IA**: Wolters Kluwer entra en cartera porque el mercado lo da por víctima de la disrupción IA — *"seems about as true as the now discredited view that Adobe and Intuit were AI beneficiaries"* — con PER <19x, crecimiento ~5% y ROIC 18%. Reconstruye posición en Intuit (la vendió tras la compra de Mailchimp a ~3x su precio justo). Lectura de segundo orden: el mismo hype que etiquetó software como beneficiario de la IA ahora lo castiga como víctima; en ambos casos el SENTIMIENTO se movió más que los fundamentales → oportunidad para el pensamiento de segundo nivel.
+- Coherencia temática GLP-1: vende PepsiCo/Brown-Forman («en la mira» de los fármacos de pérdida de peso) mientras posee Novo.
+
+### Qué implica para nuestra cartera (lectura propia, propuesta)
+
+1. **Distinguir retorno por negocio vs retorno por flujo pasivo**: antes de añadir cualquier Mag7, preguntar cuánto del retorno viene de flujos indexados que comprarán igual haya o no valor. Si esos flujos se invierten, la caída será igual de indiscriminada — argumento para tamaños moderados aunque el negocio sea excelente → [[gestion-de-posiciones]] · [[eficiencia-de-mercado]].
+2. **La pareja Marks+Smith cierra el círculo del capex IA**: Smith (equity): coste de capital mal percibido → sobreinversión. Marks (crédito): la deuda entra donde antes solo entraba equity. Buffett/Abel (energía): solo financiamos si el riesgo lo paga el cliente. Tres fuentes independientes, un mismo diagnóstico: el riesgo del ciclo IA ya no está en la tecnología sino en el FINANCIAMIENTO → [[financiacion-estructurada-del-capex-de-ia]] · [[coste-de-capital-wacc]] · [[aversion-al-apalancamiento]].
+3. **Comprar el castigo narrativo, no el hype**: la operación Wolters Kluwer/Intuit es el patrón replicable: fundamental intacto + PER castigado por un relato IA sin contrastar. Candidato a screening propio de «víctimas de IA sin daño demostrado» → [[pensamiento-de-segundo-nivel]] · [[screening-de-calidad]].
+4. **La lección Novo aplica a nuestro método**: foso contable ≠ foso real si la gestión ejecuta mal; añadir el juicio directivo explícito al checklist antes de dar por bueno un [[foso-economico]] → [[checklist-macro-y-ciclo]].
+
+Lecturas: [[foso-economico]] · [[financiacion-estructurada-del-capex-de-ia]] · [[howard-marks]]
