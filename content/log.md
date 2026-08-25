@@ -3,6 +3,19 @@ title: "Registro"
 ---
 # Registro
 
+## [2026-08-25] web | el sitio público se construye entero en local (fase 2b)
+- Plan nuevo `docs/superpowers/plans/2026-08-25-web-sitio-publico-fase-2b-plan.md`: las tareas 5-6 del
+  plan de la mañana estaban escritas contra **Quartz v4** y lo que se clona hoy es **v5.0.0** (config en
+  YAML, sin `quartz.layout.ts`). Tareas A y B ejecutadas por `opencode-go/deepseek-v4-flash`, que paró
+  en el build sin tapar el fallo. Correcciones y tarea C, en hilo principal.
+- **2.422 páginas HTML** con la piel Cátodo, 7 tipografías autohospedadas y **0 peticiones a Google
+  Fonts** — el plugin `quartz-fonts` no lee `configuration.theme` y las pedía pese a `fontOrigin: local`.
+- `filtro.py`: 14 páginas traían frontmatter que Obsidian tolera y YAML rechaza; Quartz abortaba el build
+  entero. `_yaml_seguro()` entrecomilla en la salida (el vault sigue igual — pendiente aparte).
+- `publica.py`: el aviso legal lo escribe el publicador. A mano en `content/` moría en cada pasada.
+- Supabase: proyecto vivo y las dos claves autentican (`SUPABASE_SECRET_KEY`/`_PUBLISHABLE_KEY`, nombres
+  nuevos de 2025); **faltan las tres tablas**. Bloqueado en Carlos, junto con el repo público y Vercel.
+
 ## [2026-08-25] conocimiento | rotación empresas+industrias, 2 escalados (Sofía Navarro, CKO)
 - Misión (0 scouts): del pool de 74 sondas-empresa 08-14, Carlos Bárez tocó hoy 5 fichas con coincidencia
   exacta de nombre (mastercard, visa, walmart, costco, mercadolibre) y 0/5 usaron su sonda — 2º flag del
