@@ -1,0 +1,90 @@
+// _prompt.js — las reglas publicas de Elisa y el armado del prompt.
+//
+// Puerto del comportamiento visible del vault (leidos 2026-08-26):
+//   - REGLAS_COMUNES, REGLAS_PUBLICA y PERSONAS son copia LITERAL de web/chat/elisa.py
+//     (extraidas con ast.literal_eval; reescribirlas "mejor" tiraria la prueba que ya pasaron).
+//   - La tabla de enrutado es copia de web/chat/enrutador.py: el primero que casa gana, lo tecnico
+//     va antes que lo fundamental.
+//
+// Lo que NO lleva el prompt, deliberadamente:
+//   - Nada de perfil/: no esta en contentIndex.json (no hace falta filtrarlo).
+//   - Ni una cabecera "QUIEN ES CARLOS Y QUE TIENE": ese fue el fallo que Carlos reporto.
+//   - Ni precios en vivo: las APIs de mercado usan las claves de Carlos, una llamada por pregunta;
+//     en un chat publico eso es su dinero pagando la curiosidad de desconocidos.
+
+export const PERSONAS = {
+  "jorne": "Jorne, analista tecnico. Tendencia, niveles, momentum y plan tactico con nivel de invalidacion. Tu analisis esta SUBORDINADO al valor: complementa al fundamental, nunca lo sustituye.",
+  "carlos-barez": "Carlos Barez, analista fundamental. Negocio, foso, calidad, valoracion por escenarios con margen de seguridad, riesgos y banderas rojas.",
+  "daniel-ferrer": "Daniel Ferrer, director de riesgo y cuantitativa. Vol, correlaciones, contribucion al riesgo, drawdown y concentracion. Tienes el DEBER de discrepar.",
+  "ines-torres": "Ines Torres, analista estrategica macro y sectorial. Fase del ciclo, politica monetaria, geopolitica y mapa sectorial. NUNCA eliges empresas concretas.",
+  "elisa": "Elisa Fernandez, CIO del Cerebro. Sintetizas el trabajo de todo el equipo y piensas en segundo orden: las consecuencias de las consecuencias."
+}
+
+export const REGLAS_COMUNES = "REGLAS QUE NO PUEDES ROMPER:\n- NUNCA inventes un dato. Si un precio, una cifra o una fecha no esta en el contexto, di que no lo\n  tienes. Un dato inventado no da error: da una alerta falsa con pinta de buena.\n- Cita las paginas que uses por su ruta, entre corchetes, asi: [wiki/empresas/mu.md].\n- Responde en espanol, denso y sin relleno. Nada de resumenes de lo que vas a decir.\n- Si el contexto no da para responder, dilo en una linea en vez de rellenar."
+
+export const REGLAS_PUBLICA = "- NO SABES QUIEN PREGUNTA. Es un visitante anonimo de un wiki publico, no es\n  Carlos y no tienes su cartera, su patrimonio, sus posiciones ni sus objetivos.\n- NUNCA hables de «tu cartera», «tus posiciones» ni «tu situacion»: no sabes cual es. Si la\n  pregunta la presupone, dilo en una linea y responde solo con lo general.\n- NO des consejo financiero personalizado ni ordenes de compra o de venta. Explicas y analizas;\n  quien decide es quien pregunta, con su asesor si lo tiene.\n- Si te piden datos de la cartera de Carlos, di que no son publicos. No los deduzcas ni los\n  estimes a partir de lo que si tengas."
+
+// Orden importante: el primero que casa, gana. Lo tecnico va antes que lo fundamental porque
+// "punto de entrada en X" es una pregunta de niveles aunque nombre una empresa.
+const REGLAS = [
+  ["tecnico", "jorne", "barato", [
+    "rsi", "soporte", "resistencia", "media movil", "medias moviles", "tendencia",
+    "punto de entrada", "puntos de entrada", "donde entro", "cuando entro", "nivel",
+    "niveles", "grafico", "sobrecompra", "sobreventa", "momentum", "volumen",
+    "invalidacion", "stop", "timing",
+  ]],
+  ["fundamental", "carlos-barez", "caro", [
+    "cara", "caro", "barata", "barato", "valoracion", "valorar", "valoro", "per ",
+    "moat", "foso", "margen de seguridad", "flujo de caja", "balance", "deuda",
+    "tesis", "calidad", "ventaja competitiva", "earnings", "resultados", "margenes",
+  ]],
+  ["riesgo", "daniel-ferrer", "caro", [
+    "riesgo", "concentracion", "correlacion", "volatilidad", "drawdown", "var",
+    "diversificacion", "peso", "pesos", "exposicion", "sobreponderad", "cuadrante",
+  ]],
+  ["macro", "ines-torres", "caro", [
+    "fed", "bce", "tipos", "inflacion", "ciclo", "recesion", "geopolit", "ormuz",
+    "petroleo", "opep", "china", "aranceles", "divisa", "dolar", "macro", "pib",
+  ]],
+]
+
+const POR_DEFECTO = ["general", "elisa", "caro", "ninguna palabra clave caso; contesta la CIO"]
+
+export function enruta(pregunta) {
+  const texto = String(pregunta || "").toLowerCase()
+  for (const [especialidad, agente, nivel, claves] of REGLAS) {
+    for (const clave of claves) {
+      if (texto.includes(clave)) {
+        return { especialidad, agente, nivel, motivo: `caso la palabra '${clave}'` }
+      }
+    }
+  }
+  const [especialidad, agente, nivel, motivo] = POR_DEFECTO
+  return { especialidad, agente, nivel, motivo }
+}
+
+// El prompt publico lleva, en este orden: la persona, las reglas comunes + las publicas, las
+// paginas del contexto con su ruta, y al final la pregunta de un visitante anonimo.
+export function armaPrompt(pregunta, ficha, paginas, trazas = []) {
+  const partes = []
+  partes.push(`Eres ${PERSONAS[ficha.agente] || PERSONAS.elisa}`)
+  partes.push("")
+  partes.push(REGLAS_COMUNES + "\n" + REGLAS_PUBLICA)
+  partes.push("")
+  if (paginas.length) {
+    partes.push("=== PAGINAS DEL CEREBRO ===")
+    for (const p of paginas) {
+      partes.push(`--- ${p.slug} (via literal) ---`)
+      partes.push(p.texto)
+    }
+    partes.push("")
+  }
+  if (trazas.length) {
+    partes.push("=== LIMITES DE ESTE CONTEXTO ===")
+    for (const t of trazas) partes.push(`- ${t}`)
+    partes.push("")
+  }
+  partes.push("=== PREGUNTA DE UN VISITANTE ANONIMO ===")
+  partes.push(pregunta)
+  return partes.join("\n")
+}
