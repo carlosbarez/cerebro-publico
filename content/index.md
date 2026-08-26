@@ -5,28 +5,38 @@ tags: [indice]
 fecha: 2026-08-14
 ---
 
-<section class="heroe">
-  <div class="heroe-texto">
-    <p class="heroe-etiqueta">Cerebro financiero</p>
+<section class="heroe" id="chat">
+  <div class="heroe-claim">
+    <p class="heroe-etiqueta">Pregunta · circula · responde con fuentes</p>
     <h1 class="heroe-titulo">El análisis de Carlos, con el método a la vista.</h1>
+  </div>
+  <!-- LA PIEZA. El hueco lo llena /static/cerebro-inline.js: primero cerebro.png (el render de
+       museo) y, si no está, cerebro.svg incrustado —vectorial, con los impulsos recorriendo los
+       surcos—. Sustituye al canvas de partículas de Dala: constelacion.js y grafo.json siguen en
+       el repo pero ya no se piden aquí. -->
+  <figure class="heroe-pieza">
+    <div id="cerebro"></div>
+    <figcaption class="heroe-firma">Cinco mentes · una cartera · cero ruido</figcaption>
+  </figure>
+  <div class="heroe-lado">
     <p class="heroe-cuerpo">Empresas, conceptos e industrias, con las predicciones y su marcador —
     los aciertos y los fallos. Escrito por un equipo de agentes y curado por una persona.</p>
+    <a class="heroe-accion" href="#&#237;ndice-del-cerebro-financiero">Entrar por el &iacute;ndice</a>
   </div>
-  <canvas id="constelacion" class="heroe-lienzo" aria-hidden="true"></canvas>
 </section>
-<script src="/static/constelacion.js"></script>
+<script src="/static/cerebro-inline.js"></script>
 
 <section id="datos-vivos" class="datos-vivos" data-supabase-url="https://bkuwcahxfmmksfuqkrdi.supabase.co" data-supabase-clave="sb_publishable_z7-pP-IVzGmY41gdCnPJGw_VIMIjbbQ">
 <article class="dato-vivo" id="dato-pulso">
 <h2 class="dato-nombre">El pulso</h2>
 <p class="dato-titular">El consumidor americano se parte en dos, y la gasolina marca por dónde</p>
 <p class="dato-entradilla">La semana decisiva del trimestre se juega en 72 horas: Nvidia (mié 26), Jackson Hole con keynote de Warsh (vie 28) y PCE de julio (vie 28). Lo reportado hasta hoy ya dibuja un consumidor estadounidense bifurcado.</p>
-<p class="dato-fecha">Pulso del 25 de agosto de 2026 · publicado el 25 de agosto de 2026</p>
+<p class="dato-fecha">Pulso del 25 de agosto de 2026 · publicado el 26 de agosto de 2026</p>
 </article>
 <article class="dato-vivo" id="dato-marcador">
 <h2 class="dato-nombre">El marcador</h2>
 <p class="dato-cifras">27 predicciones · 4 resueltas · brier medio 0,165</p>
-<p class="dato-fecha">Datos al 25 de agosto de 2026</p>
+<p class="dato-fecha">Datos al 26 de agosto de 2026</p>
 </article>
 <article class="dato-vivo" id="dato-cartera">
 <h2 class="dato-nombre">La cartera</h2>
@@ -40,12 +50,38 @@ fecha: 2026-08-14
 <li><span class="dato-posicion">GS Bloomberg Commodity</span> <span class="dato-peso">4,54 %</span></li>
 <li><span class="dato-posicion">Microsoft</span> <span class="dato-peso">4,05 %</span></li>
 </ul>
-<p class="dato-fecha">Foto al 25 de agosto de 2026 · pesos en %, nunca importes</p>
+<p class="dato-fecha">Foto al 26 de agosto de 2026 · pesos en %, nunca importes</p>
 </article>
 <p role="status" class="dato-estado"></p>
 </section>
 
 # Índice del Cerebro Financiero
+
+## Actualización 2026-08-25
+
+- Expedición de la flota CKO (20 sondas en dos olas): nueva síntesis de cartas del trimestre
+  ([[consenso-y-desacuerdo-cartas-2026]]) y nueve inversores incorporados: [[joel-greenblatt]],
+  [[edward-thorp]], [[sir-john-templeton]], [[walter-schloss]], [[james-montier]], [[jeremy-grantham]],
+  [[lyn-alden]], [[michael-mauboussin]] y [[nick-train]].
+- Empresas nuevas: [[uber]], [[tesla-inc]], [[siemens-energy]], [[bbva]], [[amadeus]]; resultados Q2/H1-2026
+  verificados y añadidos como evolución a alphabet, microsoft, amazon, meta, berkshire, visa, nvidia,
+  asml, lvmh, novo-nordisk, schneider-electric, iberdrola, airbus, rolls-royce, hermes y sap.
+- Fondos y renta fija: [[fondos-panorama-2026-08]], [[fondos-value-y-dividendo-espana-2026-08]],
+  [[fondos-etf-y-flujos-globales-2026-08]], [[evidencia-spiva-activo-vs-pasivo-2026]],
+  [[bonos-curva-y-credito-2026-08]], [[alternativos-private-credit-tension-2026-08]],
+  [[alternativos-infra-y-reits-europa-2026]]. Dividendos: cuatro conceptos nuevos (desde
+  [[dividendos-sostenibilidad-payout-y-cobertura]]); fiscalidad española verificada contra el BOE.
+- Macro y tablero: [[macro-japon-fin-del-carry-trade]], [[macro-deuda-soberana-vigilantes-de-bonos]],
+  [[macro-india-vs-china-relevo-demografico]], [[macro-china-deflacion-inmobiliario]] y cuatro páginas
+  nuevas de geopolítica (Ormuz, Ucrania postguerra, minerales críticos, Ártico). Semana viva en
+  [[cronica-mercados-2026-w34]] y [[cronica-calendario-quincena-2026-w35-w36]].
+- Industrias: [[plata-panorama-2026]], [[carbon-termico-panorama-2026]], [[fertilizantes-panorama-2026]],
+  [[granos-agro-panorama-2026]], [[industria-ciberseguridad]], [[industria-espacio-y-satelites]],
+  [[industria-robotica-y-automatizacion]], [[navieras-y-logistica-global]].
+- Didáctico: [[como-leer-un-balance-paso-a-paso]], [[red-flags-contables-grandes-fraudes]],
+  [[universidad-damodaran-metodo-de-valoracion]], [[historia-de-las-burbujas-financieras]],
+  [[trend-following-y-gestion-alternativa]]. Fuentes nuevas: desde [[stratechery-ben-thompson]] y
+  [[value-school]] (14 catálogadas).
 
 ## Actualización 2026-08-16
 
@@ -512,7 +548,7 @@ No confundir con [[dashboard-cobertura]]: el catálogo dice qué **hay**; el das
 
 - analisis acciones/index — 104 fichas durables de análisis fundamental completo (una por empresa,
   cortadas a 2026-08-15), migradas y completadas desde una sesión abandonada. Capa exhaustiva; cruzar con
-  cartera actual y con la capa curada de [[index#Empresas|empresas]].
+  cartera actual y con la capa curada de [[index#empresas|empresas]].
 
 ## Análisis fundamental (rutina `cerebro-analista-fundamental`)
 
@@ -1410,3 +1446,4 @@ empresas ([[msci]] · [[rheinmetall]] · [[aena]]) · cartas 2025-26 en inversor
 Smith, Einhorn) · didáctica en conceptos/ (DCF paso a paso, sesgos, re-rating; ampliadas múltiplos y ciclos) ·
 España ([[espana-bolsa-y-macro-2026]] · [[espana-oportunidades-y-riesgos-2026]] ·
 [[fiscalidad-inversor-espana-2026]]) · gestoras y ETFs en referencia/ (7 fichas) · pulso del día en actualidad/.
+- [[pulso-video-2026-08-25]] — 15 vídeos: recompras del Tesoro, tensión petróleo/Ormuz, consumidor e IA; crudo pendiente por permisos 0555.

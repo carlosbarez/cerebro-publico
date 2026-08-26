@@ -31,41 +31,45 @@ configuration:
       code: Courier Prime
     # LOS HEX NO SE ELIGEN AQUI: salen uno a uno de web/ui/tokens.css, que es el origen unico y
     # cuyos pares texto/fondo estan verificados a AA por tests/test_ui_contraste.py.
-    # 2026-08-25: la piel pasa de Catodo (pergamino) a Dala (vacio y violeta). Reemplazo total,
-    # decision de Carlos. El mapeo a los nueve huecos de Quartz no cambia, solo los valores:
+    # 2026-08-26: la piel pasa de Dala (vacio y violeta) a BRASA, la de kimi-code, que es la que ya
+    # llevaba el puesto de mando. Reemplazo total, decision de Carlos. El mapeo a los nueve huecos de
+    # Quartz no cambia, solo los valores:
     #   light      <- --fondo      (el fondo de la pagina)
     #   lightgray  <- --fantasma   (los bordes)
     #   gray       <- --hueso-3    (texto apagado, aristas del grafo)
     #   darkgray   <- --hueso-2    (cuerpo de texto)
     #   dark       <- --hueso      (titulares e iconos)
-    #   secondary  <- --catodo     (enlaces; hoy Electric Iris #8052FF)
-    #   tertiary   <- --bronce     (hover y visitados; hoy Saffron Spark)
+    #   secondary  <- --catodo     (enlaces; hoy brasa #dc5000)
+    #   tertiary   <- --bronce     (hover y visitados; hoy madera #8a7a68)
     #   highlight  <- --rejilla    (fondo de enlace interno y de codigo)
     #   textHighlight <- --fantasma
-    # `lightMode` de Quartz = piel "dia" de tokens.css; `darkMode` = piel por defecto (noche).
-    # El ambar de Dala sobre blanco da 1,73:1 y no llega ni a 3,0 — por eso la piel dia lleva un
-    # ambar mas profundo (#8A5A00). Medido, no elegido a ojo.
+    # LOS DOS MODOS LLEVAN LOS MISMOS VALORES, y no es un descuido: Brasa es piel UNICA oscura
+    # —kimi-code retiro el tema dia, la Lampara y el Foco—, asi que tokens.css tiene una sola
+    # `:root` y aqui no hay una segunda paleta que copiar. Por eso el conmutador de tema se apaga
+    # mas abajo (`darkmode: enabled: false`): un boton que no cambia nada es peor que ningun boton.
+    # Medido sobre nogal #100904, todo AA: hueso 17,26:1 · hueso-2 11,56:1 · hueso-3 7,12:1 ·
+    # catodo 4,88:1 · bronce 4,76:1. Y la tinta nogal sobre la brasa del boton, 4,88:1.
     colors:
       lightMode:
-        light: "#FFFFFF"
-        lightgray: "rgba(0, 0, 0, .17)"
-        gray: "#5F5F5F"
-        darkgray: "#4A4A4A"
-        dark: "#000000"
-        secondary: "#6A3FD9"
-        tertiary: "#8A5A00"
-        highlight: "rgba(106, 63, 217, .12)"
-        textHighlight: "rgba(0, 0, 0, .17)"
+        light: "#100904"
+        lightgray: "rgba(255, 237, 215, .14)"
+        gray: "#a89987"
+        darkgray: "#d8c3a8"
+        dark: "#ffedd7"
+        secondary: "#dc5000"
+        tertiary: "#8a7a68"
+        highlight: "rgba(255, 237, 215, .05)"
+        textHighlight: "rgba(255, 237, 215, .14)"
       darkMode:
-        light: "#000000"
-        lightgray: "rgba(255, 255, 255, .17)"
-        gray: "#9A9A9A"
-        darkgray: "#BDBDBD"
-        dark: "#FFFFFF"
-        secondary: "#8052FF"
-        tertiary: "#FFB829"
-        highlight: "rgba(128, 82, 255, .16)"
-        textHighlight: "rgba(255, 255, 255, .17)"
+        light: "#100904"
+        lightgray: "rgba(255, 237, 215, .14)"
+        gray: "#a89987"
+        darkgray: "#d8c3a8"
+        dark: "#ffedd7"
+        secondary: "#dc5000"
+        tertiary: "#8a7a68"
+        highlight: "rgba(255, 237, 215, .05)"
+        textHighlight: "rgba(255, 237, 215, .14)"
 
 plugins:
   - source: "@quartz-community/created-modified-date"
@@ -209,8 +213,10 @@ plugins:
     layout:
       position: left
       priority: 10
+  # Piel unica oscura (Brasa): el conmutador cambiaba entre dos paletas identicas. Se apaga en vez
+  # de esconderse con CSS porque un boton invisible sigue estando en el orden de tabulacion.
   - source: "@quartz-community/darkmode"
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 30

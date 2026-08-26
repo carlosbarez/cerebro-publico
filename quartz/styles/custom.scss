@@ -5,9 +5,20 @@
 // fichero a mano.
 @use "./tokens.scss";
 
-// Las tres tipografias del mundo Catodo, autohospedadas. `fontOrigin: local` en quartz.config.yaml
-// significa exactamente esto: Quartz no baja nada y el @font-face lo ponemos nosotros. Las rutas son
-// /static/tipos/ porque quartz/static/** se emite a <salida>/static/**.
+// ═══════════════════════════════════════════════════════════════════════════════════════════════
+// MUNDO BRASA (2026-08-26). Lo de aqui abajo describia CATODO y luego DALA; se sustituye entero.
+// Brasa es la piel de kimi-code: oscuridad calida de museo, nogal #100904, crema #ffedd7 y una sola
+// brasa naranja que se gana su rareza. Este fichero es el port de web/ui/estilo.css al sitio
+// publico: mismas reglas, otro DOM. Las anteriores viven en el commit f91af54 si hay que volver.
+//
+// LA REGLA QUE GOBIERNA LA TIPOGRAFIA cambia de signo respecto a Dala: alli la jerarquia salia de la
+// escala con tracking NEGATIVO y peso 200; en Brasa los titulares van en versalitas a peso 500 con
+// line-height 0.9, y el cuerpo a 400. No es un ajuste de numeros: es otra voz.
+// ═══════════════════════════════════════════════════════════════════════════════════════════════
+
+// Las tipografias autohospedadas. `fontOrigin: local` en quartz.config.yaml significa exactamente
+// esto: Quartz no baja nada y el @font-face lo ponemos nosotros. Las rutas son /static/tipos/ porque
+// quartz/static/** se emite a <salida>/static/**.
 @font-face { font-family: "Spectral"; src: url("/static/tipos/spectral-400.woff2") format("woff2"); font-weight: 400; font-display: swap; }
 @font-face { font-family: "Spectral"; src: url("/static/tipos/spectral-400-italic.woff2") format("woff2"); font-style: italic; font-display: swap; }
 @font-face { font-family: "Spectral"; src: url("/static/tipos/spectral-600.woff2") format("woff2"); font-weight: 600; font-display: swap; }
@@ -16,96 +27,293 @@
 @font-face { font-family: "Saira Condensed"; src: url("/static/tipos/saira-condensed-400.woff2") format("woff2"); font-weight: 400; font-display: swap; }
 @font-face { font-family: "Saira Condensed"; src: url("/static/tipos/saira-condensed-600.woff2") format("woff2"); font-weight: 600; font-display: swap; }
 
-// LA REJILLA DE FONDO SE RETIRA (2026-08-25, paso a Dala). Habia un pseudoelemento fijo con dos
-// gradientes cruzados que dibujaba el enrejado del taller. Dala es explicito: "el vacio ES el
-// diseño", nada de texturas ni paneles sobre el negro. Se borra en vez de comentarse porque un
-// fondo a medio apagar es peor que ninguno. Vive en el commit anterior si hay que volver.
-
-// TIPOGRAFIA DALA. La regla que gobierna todo esto: la jerarquia sale de la ESCALA y del
-// interletrado, NUNCA del peso. Por eso los titulares van a 400 —no a 600 ni a 700— y lo que los
-// hace mandar es el tamaño y un tracking negativo agresivo. Catodo hacia lo contrario (+.02em);
-// aqui se invierte el signo, no se ajusta el numero.
-h1, h2, h3, h4, h5, h6, .article-title {
-  font-weight: 400;
-  font-feature-settings: "ss01" on;
+// ── LA BARRA BRASA ────────────────────────────────────────────────────────────────────────────
+// El marcado lo pone quartz/components/Body.tsx, que es el unico envoltorio comun a los tres frames.
+// Fija y transparente; gana fondo al hacer scroll — igual que en el puesto de mando, y por la misma
+// razon: sobre el heroe la barra debe desaparecer, sobre el texto debe separarse de el.
+.barra-brasa {
+  position: fixed;
+  z-index: 30;
+  top: 0; right: 0; left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  height: 64px;
+  padding: 0 24px;
+  background: transparent;
+  transition: background-color .18s ease;
+  backdrop-filter: blur(2px);
 }
-h1, .article-title             { font-size: 3rem;    line-height: 1.1; letter-spacing: -.035em; }
+// `scroll-timeline` no esta en todos los navegadores todavia y no merece un script solo para esto:
+// el fondo se pone siempre en cuanto la pagina NO es la portada, que es donde de verdad estorba.
+body:not([data-slug="index"]) .barra-brasa { background: color-mix(in srgb, var(--fondo) 92%, transparent); }
+.barra-casa {
+  color: var(--hueso);
+  font-family: var(--condensada);
+  font-size: .8125rem; font-weight: 500; line-height: 1;
+  letter-spacing: .18em; text-transform: uppercase; text-decoration: none;
+  &:hover { color: var(--hueso); opacity: .8; }
+}
+.barra-nav ul { display: flex; gap: 28px; padding: 0; margin: 0; list-style: none; }
+.barra-nav li { display: flex; }
+.barra-nav a {
+  display: flex; align-items: center;
+  min-height: 44px;                       // objetivo tactil: WCAG 2.2 target size
+  border-bottom: 1px dashed transparent;
+  color: var(--hueso-3);
+  font-family: var(--condensada);
+  font-size: .75rem; font-weight: 500; line-height: 1;
+  letter-spacing: .12em; text-transform: uppercase; text-decoration: none;
+  background-color: transparent;          // Quartz pinta fondo de resalte en todo enlace interno
+  transition: color .18s ease;
+  &:hover, &:focus-visible { color: var(--hueso); border-bottom-color: var(--bronce); background-color: transparent; }
+  &:focus-visible { outline: 2px solid var(--catodo); outline-offset: 3px; }
+}
+// La barra es fija, asi que tapa los primeros 64px de todo. Se los devolvemos al contenido.
+.page > #quartz-body { padding-top: 64px; }
+@media all and #{$mobile} {
+  // En movil las cuatro secciones no caben en una fila y la barra pasa a dos: deja de medir 64px, y
+  // con el `padding-top` de arriba clavado en 64 el contenido se metia DEBAJO —medido a 375px: la
+  // etiqueta del heroe salia pisada por los enlaces—. Se le da sitio a dos filas.
+  .barra-brasa { height: auto; min-height: 64px; flex-wrap: wrap; padding: 10px 18px; row-gap: 4px; }
+  // `flex-wrap: wrap` en la barra NO basta: `.barra-nav` es un item flex y su ancho minimo es el de
+  // su contenido, asi que se quedaba en la primera fila empujado fuera de la pantalla. Medido a
+  // 375px: el <nav> arrancaba en x=734 — las cuatro secciones existian en el DOM y no se veia
+  // ninguna. Se le manda ocupar fila entera y ahi ya envuelve.
+  .barra-nav { flex: 1 0 100%; min-width: 0; }
+  .barra-nav ul { flex-wrap: wrap; justify-content: flex-start; gap: 2px 18px; }
+  .page > #quartz-body { padding-top: 132px; }
+  // Y fondo SIEMPRE, tambien en la portada: en escritorio la barra flota sobre el vacio del heroe y
+  // la transparencia es el efecto; en movil el texto le pasa por debajo al hacer scroll y sin fondo
+  // se lee un renglon encima de otro.
+  .barra-brasa { background: color-mix(in srgb, var(--fondo) 94%, transparent); }
+}
 
-// La marca del rail es un h2 con clase .page-title. NO entra en la escala de display: alli el h2
-// de 2,25rem la parte en dos lineas y se come el explorador. Se le fija su propio tamaño.
-.page-title { font-size: 1.5rem; line-height: 1.15; letter-spacing: -.02em; font-weight: 400; }
+// ── LO ANCHO SE DESPLAZA DENTRO DE SU CAJA, NUNCA LA PAGINA ───────────────────────────────────
+// Medido a 375px: el documento media 1.172px de ancho y la barra fija se estiraba con el, dejando
+// «Biblioteca» fuera de pantalla. La culpa no era de la barra: eran bloques `.katex` de hasta 736px.
+// El plugin de LaTeX interpreta `$...$` como formula, y este es un wiki de inversion EN DOLARES —
+// «$79-83 → $88» se renderiza como matematicas y se lleva la maquetacion por delante. La causa de
+// fondo no se arregla aqui (esta anotada en wiki/pendientes.md: hay que escapar los `$` en
+// publica.py, que toca lo que dicen 506 paginas y es decision de Carlos). Lo que SI se arregla aqui
+// es que nada empuje el ancho del documento.
+.katex { display: inline-block; vertical-align: middle; }  // `overflow` no hace NADA en una caja inline
+.katex, .katex-display, pre, table { max-width: 100%; overflow-x: auto; }
+.katex-display { overflow-y: hidden; }
+// Red de seguridad para cualquier otra cosa ancha que aparezca manana. `clip` y no `hidden`: hidden
+// crea un contenedor de scroll y rompe los `position: sticky` de dentro; clip no.
+.page > #quartz-body { overflow-x: clip; }
+
+// ── TIPOGRAFIA BRASA ──────────────────────────────────────────────────────────────────────────
+// Titulares en versalitas condensadas a peso 500 y line-height 0.9. El tracking vuelve a 0: Dala lo
+// llevaba a -.035em y aqui lo que aprieta las letras es la propia condensada, no el interletrado.
+h1, h2, h3, h4, h5, h6, .article-title {
+  font-family: var(--condensada);
+  font-weight: 500;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  line-height: .95;
+}
+h1, .article-title { font-size: clamp(2rem, 4vw, 3.4rem); line-height: .9; }
+h2                 { font-size: 2rem; }
+h3                 { font-size: 1.5rem; letter-spacing: .04em; }
+h4, h5, h6         { font-size: 1.15rem; letter-spacing: .06em; }
+
+// La marca del rail es un h2 con clase .page-title. NO entra en la escala de display: alli el h2 la
+// parte en dos lineas y se come el explorador. Se le fija su propio tamaño.
+.page-title { font-size: 1.1rem; line-height: 1.15; letter-spacing: .12em; font-weight: 500; }
+
+// El cuerpo vuelve a peso 400 y a interlinea 1.7. El 200 de Dala era su firma y la parte discutible
+// de traerla: estaba pensado para una landing de siete pantallas, no para 1.098 paginas de analisis
+// largo. Brasa no lo pide, asi que se va.
+body, p, li { font-weight: 400; }
+p, li { font-size: 1.08rem; line-height: 1.7; }
+strong, b { font-weight: 600; }
 
 // Las etiquetas del bloque de propiedades caen en columnas estrechas y el navegador parte las
 // palabras por la mitad ("#emp resa"). Que no las parta: que se ponga a lo ancho.
 .property-value, .tags, .tag-link { word-break: normal; overflow-wrap: anywhere; hyphens: none; }
-h2                             { font-size: 2.25rem;  line-height: 1.2; letter-spacing: -.03em; }
-h3                             { font-size: 1.6875rem; line-height: 1.25; letter-spacing: -.02em; }
-h4                             { font-size: 1.5rem;   line-height: 1.25; letter-spacing: -.02em; }
 
-// El cuerpo a peso 200 es la firma de Dala, y la parte discutible de traerla aqui: esta pensada
-// para una landing de siete pantallas, no para 2.300 paginas de analisis largo. Se implementa fiel
-// porque asi se pidio (reemplazo total). Si al leerlo cansa, el numero a mover es este y solo este.
-body, p, li { font-weight: 200; }
-p, li { font-size: 1.125rem; line-height: 1.5; }
-strong, b { font-weight: 400; }
-
-// Dala no usa bordes ni divisores en ningun sitio. La cita se marca con aire y con el ambar de
-// enfasis, que es para lo que ese color existe en la paleta.
+// ── HAIRLINES DISCONTINUOS ────────────────────────────────────────────────────────────────────
+// La firma estructural de Brasa: donde hace falta una linea, es de madera y es de guiones. Nunca
+// solida — una raya solida sobre nogal pesa mas que el texto que separa.
+hr { border: 0; border-top: 1px dashed var(--bronce); margin: 28px 0; }
 blockquote {
-  border-left: none;
-  padding-left: 1.5rem;
-  color: var(--tertiary);
+  border-left: 1px dashed var(--bronce);
+  padding-left: 18px;
+  color: var(--hueso-2);
   font-style: normal;
 }
+table { border-collapse: collapse; }
+th {
+  color: var(--catodo);
+  font-family: var(--condensada);
+  font-size: .75rem; font-weight: 500; line-height: 1.3;
+  letter-spacing: .1em; text-transform: uppercase; text-align: left;
+}
+th, td { border-bottom: 1px dashed color-mix(in srgb, var(--bronce) 55%, transparent); vertical-align: top; }
 
 // La marca que el filtro deja donde retiro una cifra privada, y el pie del aviso. Que se vea es el
 // punto: toda degradacion deja rastro visible.
 .pie-aviso, footer {
-  color: var(--gray);
-  font-family: var(--headerFont);
+  color: var(--hueso-3);
+  font-family: var(--condensada);
   font-size: .85rem;
 }
 
-// La portada con datos vivos (publica.py hornea el snapshot; static/datos-vivos.js refresca).
-// Misma convencion que el resto de la hoja: --secondary/--tertiary/--lightgray/--gray son los
-// tokens Catodo (--catodo/--bronce/--fantasma/--hueso-3) MAPEADOS en el YAML, y conmutan solos
-// con la piel; --rejilla y las familias salen directas de tokens.scss. Ningun hex aqui.
-// 2026-08-25 (segunda pasada Dala): las tres tarjetas dejan de ser tarjetas. Tenian borde fino,
-// filete superior y relleno — es decir, exactamente los tres elementos que la referencia prohibe
-// ("no card containers with borders, shadows or background fills; elements float on black with
-// whitespace alone"). Lo que las separa ahora es el aire: 60px de calle entre columnas.
+// ── EL HEROE DE LA PORTADA ────────────────────────────────────────────────────────────────────
+// Tres zonas a un viewport, como en el puesto de mando: titular escultural a la izquierda, la pieza
+// al centro y el cuerpo conversacional a la derecha. Sustituye al heroe Dala de dos columnas con el
+// grafo de particulas; el canvas y constelacion.js salen del marcado (viven en git).
+.heroe {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 38vw) minmax(0, 1fr);
+  align-items: center;
+  gap: 18px;
+  min-height: calc(100vh - 64px - 64px);
+  margin: 0 0 96px;
+}
+// Sin esto una zona de texto largo no deja encoger su columna y desborda la rejilla entera.
+.heroe-claim, .heroe-pieza, .heroe-lado { min-width: 0; }
+// El heroe NO se sale de la columna con margenes negativos, como hacia el de Dala: en la portada la
+// rejilla entera pasa a una sola columna (mas abajo), asi que aqui ya hay pantalla de sobra. Las
+// tres zonas necesitan ~1.100px y la columna central de Quartz mide 790.
+.heroe-etiqueta {
+  color: var(--catodo);
+  font-family: var(--condensada);
+  font-size: .75rem; font-weight: 500; line-height: 1;
+  letter-spacing: .16em; text-transform: uppercase;
+  margin: 0 0 18px;
+}
+.heroe-titulo {
+  max-width: 12ch;
+  font-family: var(--condensada);
+  font-size: clamp(2.6rem, 5.4vw, 5.4rem);
+  font-weight: 500; line-height: .9; letter-spacing: 0;
+  text-transform: uppercase;
+  margin: 0;
+}
+.heroe-cuerpo {
+  max-width: 30ch;
+  color: var(--hueso);
+  font-family: var(--prosa);
+  font-size: clamp(1.15rem, 1.55vw, 1.8125rem);
+  font-weight: 400; line-height: 1.26;
+  margin: 0;
+}
+// El unico boton relleno del sitio. Brasa solo admite uno por vista, y este apunta al indice que
+// viene justo debajo: un ancla de la misma pagina, el unico destino que no puede dar 404.
+.heroe-accion {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 14px 28px;
+  border-radius: 36px;
+  background: var(--catodo);
+  color: var(--catodo-tinta);
+  font-family: var(--condensada);
+  font-size: .875rem; font-weight: 500;
+  letter-spacing: .16em; text-transform: uppercase;
+  text-decoration: none;
+  transition: opacity .18s ease;
+
+  &:hover { background: var(--catodo); color: var(--catodo-tinta); opacity: .85; }
+  // Quartz pinta un fondo de resalte en todo enlace interno; encima de la brasa la apagaria.
+  &.internal { background-color: var(--catodo); }
+}
+// LA PIEZA. El hueco donde /static/cerebro-inline.js incrusta cerebro.svg. Se incrusta y no se
+// enlaza porque dentro de un <img> el SVG no ejecuta ni sus animaciones ni :hover.
+.heroe-pieza { position: relative; margin: 0; text-align: center; }
+#cerebro {
+  display: block;
+  position: relative;
+  width: 100%; max-width: 520px; height: auto;
+  margin: 0 auto;
+  transform: perspective(900px) rotateX(var(--giro-x, 0deg)) rotateY(var(--giro-y, 0deg));
+  transition: transform 220ms ease-out;
+}
+#cerebro svg, #cerebro img { display: block; width: 100%; height: auto; }
+
+// ── LA PIEZA CUANDO ES IMAGEN ─────────────────────────────────────────────────────────────────
+// El vector se anima por dentro (los impulsos recorren los surcos). Una imagen no tiene dentro, asi
+// que su vida sale de la LUZ: respira en brasa y el foco la sigue con el raton. Son dos elementos
+// animados, no cinco — mas de dos en una misma vista distraen en vez de significar.
+// Nada de esto hace falta para entender la pagina: lo que la pieza dice, lo dice la firma de debajo
+// en palabras. El puntero solo lo adorna, que es la unica forma honesta de usar el hover.
+/* El aliento NO se hace con `filter: drop-shadow` animado, que es lo obvio y lo caro: obliga al
+   navegador a recalcular un desenfoque de 58px sobre 520x520 px en CADA fotograma, para siempre. El
+   halo es un elemento aparte con un degradado fijo, y lo que se anima es su `opacity` y su `scale`
+   —las dos unicas propiedades que la GPU compone sin volver a pintar—. Se ve igual y no cuesta nada. */
+#cerebro[data-pieza="imagen"]::before {
+  content: ""; position: absolute; inset: -14%; pointer-events: none; z-index: -1;
+  background: radial-gradient(circle at 50% 50%,
+              color-mix(in srgb, var(--catodo) 30%, transparent) 0%, transparent 62%);
+  animation: respira-luz 6s ease-in-out infinite;
+}
+@keyframes respira-luz {
+  0%, 100% { opacity: .45; transform: scale(.94); }
+  50%      { opacity: 1;   transform: scale(1.06); }
+}
+// El foco: una brasa suave bajo el cursor. `screen` sobre nogal solo puede aclarar, nunca ensuciar,
+// y con la pieza en reposo (--foco: 0) el pseudoelemento no pinta nada.
+#cerebro[data-pieza="imagen"]::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: radial-gradient(circle at var(--foco-x, 50%) var(--foco-y, 50%),
+              color-mix(in srgb, var(--catodo) 34%, transparent) 0%, transparent 46%);
+  mix-blend-mode: screen;
+  opacity: var(--foco, 0);
+  transition: opacity var(--t-decae) ease;
+}
+.heroe-firma {
+  margin-top: 10px;
+  color: var(--hueso-3);
+  font-family: var(--condensada);
+  font-size: .6875rem; font-weight: 500; line-height: 1.5;
+  letter-spacing: .14em; text-transform: uppercase;
+}
+@media (max-width: 999px) {
+  .heroe { grid-template-columns: 1fr; min-height: auto; gap: 30px; margin-bottom: 60px; }
+  .heroe-titulo { max-width: none; }
+  .heroe-cuerpo { max-width: 38ch; }
+  #cerebro { max-width: 340px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  #cerebro { transition: none; }
+  #cerebro[data-pieza="imagen"]::before { animation: none; opacity: .7; transform: none; }
+  #cerebro[data-pieza="imagen"]::after { display: none; }
+}
+
+// ── LA PORTADA CON DATOS VIVOS ────────────────────────────────────────────────────────────────
+// publica.py hornea el snapshot; static/datos-vivos.js lo refresca. Ningun hex aqui: --secondary y
+// compañia son los tokens MAPEADOS en el YAML, y --catodo/--bronce salen directos de tokens.scss.
+// Las tres columnas no son tarjetas: lo que las separa es el aire, no un borde.
 .datos-vivos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   gap: 48px 60px;
   margin: 0 0 96px;
 }
-// Se sale por la derecha lo mismo que el heroe, y por lo mismo: en los 630px de la columna caben dos
-// columnas de 285px y la tercera baja a una segunda fila, con la lista de la cartera tan estrecha que
-// «11,38 %» se partia en dos lineas. Con los 950px caben las tres.
-@media all and #{$desktop} {
-  body[data-slug="index"] .datos-vivos { margin-right: -$sidePanelWidth; }
-}
 .dato-vivo { border: none; padding: 0; }
-// La etiqueta pequeña en versalitas es ambar y no violeta. En Dala el violeta esta reservado al
-// boton de accion; usarlo tambien de rotulo lo gasta y deja de señalar nada.
+// El rotulo pequeño va en madera y no en brasa. La brasa esta reservada al boton de accion y a los
+// rotulos de tabla; gastarla tambien aqui la deja sin señalar nada.
 .dato-nombre {
-  color: var(--tertiary);
-  text-transform: uppercase;
-  letter-spacing: .35px;
-  font-size: .875rem;
-  font-weight: 600;
+  color: var(--bronce);
+  font-family: var(--condensada);
+  font-size: .8125rem; font-weight: 500;
+  letter-spacing: .18em; text-transform: uppercase;
   margin: 0 0 12px;
 }
-// Peso 400 y no 600: la jerarquia sale de la escala, nunca del peso. Esa es la regla que gobierna
-// toda la tipografia de esta hoja.
-.dato-titular { font-size: 1.5rem; line-height: 1.25; letter-spacing: -.02em; font-weight: 400; margin: 0 0 12px; }
+.dato-titular {
+  font-family: var(--condensada);
+  font-size: 1.35rem; font-weight: 500; line-height: 1.05;
+  letter-spacing: 0; text-transform: uppercase;
+  margin: 0 0 12px;
+}
 .dato-entradilla, .dato-cifras { margin: 0 0 .5rem; }
-// La entradilla del pulso es un parrafo de analisis entero, no un teaser de portada: sin tope, la
-// tarjeta de «El pulso» crece cinco veces mas que las otras dos y descuadra la rejilla — medido en
-// el sitio construido el 2026-08-25. Se recorta en CSS y NO en el texto a proposito: asi el limite
-// vive en un solo sitio y vale igual para el snapshot horneado y para el dato refrescado en vivo,
-// sin repetir la cifra en publica.py y en datos-vivos.js. El texto completo sigue en el DOM.
+// La entradilla del pulso es un parrafo de analisis entero, no un teaser: sin tope, la columna de
+// «El pulso» crece cinco veces mas que las otras dos y descuadra la rejilla. Se recorta en CSS y NO
+// en el texto a proposito: asi el limite vive en un solo sitio y vale igual para el snapshot
+// horneado y para el dato refrescado en vivo. El texto completo sigue en el DOM.
 .dato-entradilla {
   display: -webkit-box;
   -webkit-line-clamp: 6;
@@ -120,7 +328,7 @@ blockquote {
   font-size: .9rem;
 }
 // Sin filete: lo que alinea la columna de la derecha son las cifras tabulares, no una raya. Es
-// tambien lo correcto por otra razon que no es de estilo — con cifras de ancho variable la columna
+// tambien lo correcto por una razon que no es de estilo — con cifras de ancho variable la columna
 // baila al refrescarse el dato en vivo.
 .dato-posiciones li {
   display: flex;
@@ -132,126 +340,99 @@ blockquote {
 }
 // El peso no se parte nunca: sin esto, en columna estrecha el «%» se va solo a la linea siguiente y
 // la cifra deja de leerse como una cifra. Quien cede es el nombre, que si puede ocupar dos lineas.
-.dato-posiciones .dato-peso { white-space: nowrap; }
+.dato-posiciones .dato-peso { white-space: nowrap; color: var(--catodo); }
 .dato-posiciones .dato-posicion { min-width: 0; }
 .dato-fecha, .dato-estado {
   font-family: var(--condensada);
   font-size: .82rem;
-  color: var(--gray);
+  color: var(--hueso-3);
   margin: 0;
 }
 .dato-estado { grid-column: 1 / -1; }
 
-// EL HEROE DE LA PORTADA. Dos columnas asimetricas: el titular manda por escala y el vault —el
-// grafo real del wiki, nodo por pagina y arista por wikilink— ocupa la otra mitad con forma de
-// cerebro. El lienzo lo pinta static/constelacion.js leyendo static/grafo.json.
-// `aria-hidden` en el canvas es deliberado: es decoracion, y un lector de pantalla no gana nada
-// anunciando un lienzo vacio. Lo que el grafo dice en palabras lo dice el parrafo de al lado.
-.heroe {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1.08fr);
-  align-items: center;
-  gap: 60px;
-  margin: 0 0 96px;
-}
-
-// A SANGRE HACIA LA DERECHA, Y POR QUE SOLO HACIA LA DERECHA. Dala pone uno o dos elementos por
-// pantalla y el titular a 113px. La columna central de Quartz mide 630px: ahi ese titular no cabe
-// ni de lejos y el cerebro queda del tamaño de un sello. El heroe se sale de la columna por el
-// hueco que deja el rail derecho —oculto en la portada, tres lineas mas abajo— y ocupa 950px.
-// El numero es $sidePanelWidth, el mismo simbolo con el que base.scss construye el grid, no uno
-// copiado a ojo. Hacia la IZQUIERDA no se sale: ahi vive el explorador, y se probo — el titular se
-// metia por debajo de la navegacion y el lienzo tapaba el indice. Solo en escritorio: en tableta no
-// hay rail derecho del que salirse y en movil la rejilla ya esta apilada.
-@media all and #{$desktop} {
-  body[data-slug="index"] .heroe { margin-right: -$sidePanelWidth; }
-}
-.heroe-etiqueta {
-  font-size: 14px; font-weight: 600; letter-spacing: .35px; text-transform: uppercase;
-  color: var(--tertiary); margin: 0 0 18px;
-}
-// 7.0625rem = 113px, la escala `display` de la referencia. Peso 400 y tracking -.04em: en Dala un
-// titular manda por tamaño y por interletrado, nunca por negrita.
-.heroe-titulo {
-  font-size: clamp(2.6rem, 5.4vw, 7.0625rem);
-  line-height: 1.05; letter-spacing: -.04em; font-weight: 400; margin: 0 0 30px;
-}
-.heroe-cuerpo { font-size: 18px; font-weight: 200; line-height: 1.5; max-width: 480px; margin: 0; color: var(--dark); }
-
-// El unico boton relleno del sitio. Dala solo admite uno por vista, y este apunta al indice que
-// viene justo debajo: un ancla de la misma pagina, que es el unico destino que no puede dar 404.
-.heroe-accion {
-  display: inline-block;
-  margin-top: 30px;
-  padding: 14px 24px;
-  border-radius: 24px;
-  background: var(--catodo);
-  color: var(--catodo-tinta);
-  font-size: 14px; font-weight: 600; letter-spacing: .35px; text-transform: uppercase;
-  text-decoration: none;
-  transition: opacity .18s ease;
-
-  &:hover { background: var(--catodo); color: var(--catodo-tinta); opacity: .85; }
-  // Quartz pinta un fondo de resalte en todo enlace interno; encima del violeta lo apagaria.
-  &.internal { background-color: var(--catodo); }
-}
-.heroe-lienzo { width: 100%; aspect-ratio: 1; display: block; }
-
-// En movil la constelacion pasa debajo y encoge: a una columna, un lienzo cuadrado a ancho completo
-// empujaria el texto fuera de la primera pantalla.
-@media (max-width: 800px) {
-  .heroe { grid-template-columns: 1fr; gap: 30px; margin-bottom: 60px; }
-  .heroe-lienzo { aspect-ratio: 16 / 10; }
-}
-
 // ── LO QUE LA PORTADA DEJA DE ENSEÑAR ─────────────────────────────────────────────────────────
-// Todo esto se apaga SOLO en la portada, no en las 1.064 paginas restantes, donde si hace falta.
+// Todo esto se apaga SOLO en la portada, no en las 1.097 paginas restantes, donde si hace falta.
 body[data-slug="index"] {
-  // El titulo del articulo repetia «Indice del Cerebro Financiero» tres centimetros encima del
-  // titular del heroe. `display:none` tambien lo saca del arbol de accesibilidad, asi que la
-  // pagina se queda con un solo h1 expuesto —el del heroe— en vez de con dos.
+  // El titulo del articulo repetia el nombre de la nota tres centimetros encima del titular del
+  // heroe. `display:none` tambien lo saca del arbol de accesibilidad, asi que la pagina se queda
+  // con un solo h1 expuesto —el del heroe— en vez de con dos.
   .article-title { display: none; }
-  // Cabecera de propiedades, `tags: #indice` y «Se lee en 84 min»: metadatos de una nota de
-  // Obsidian colocados por delante de lo primero que ve un desconocido.
+  // Cabecera de propiedades y «Se lee en 84 min»: metadatos de una nota de Obsidian colocados por
+  // delante de lo primero que ve un desconocido.
   .note-properties, .content-meta { display: none; }
-  // EL RAIL DERECHO ENTERO. Sus tres piezas sobran justo aqui y solo aqui: la Vista Grafica era una
-  // masa de circulos grises solapados de 300px y ademas es el mismo grafo que ahora ocupa media
-  // portada a tamaño real; la Tabla de Contenidos duplica la pagina, que ES un indice; y los
-  // retroenlaces de la home no dicen nada. Ocultarlo es tambien lo que le deja sitio al heroe, que
-  // se sale por ese hueco. En las otras 1.064 paginas el rail sigue entero y el grafo local de cada
-  // una si tiene algo que decir.
-  .right { display: none; }
+  // LOS DOS RAILES. El derecho estorba igual que antes (grafo, indice del indice, retroenlaces
+  // mudos). El IZQUIERDO se apaga aqui y solo aqui porque en Brasa la navegacion de la portada es
+  // la barra de arriba: el explorador al lado del heroe partia la primera pantalla en dos. En las
+  // otras 1.097 paginas sigue entero — quitarlo de todo el sitio dejaria 1.098 notas sin mas via
+  // que el buscador, y eso no lo pidio nadie.
+  .right, .left { display: none; }
+  // Y LA REJILLA PASA A UNA COLUMNA. Sin esto el sitio se rompe de una forma que no se ve venir:
+  // `.center` no tiene `grid-area` propia —solo la tiene `.center > article`—, asi que al ocultar
+  // el rail izquierdo la coloca el algoritmo automatico, y se mete en la pista de 320px que el
+  // rail deja vacia. Medido: `.center` a 320px de ancho pegada al borde, con el titular saliendose
+  // por la izquierda y el cuerpo a una palabra por linea.
+  #quartz-body {
+    grid-template-columns: auto;
+    grid-template-areas: "grid-header" "grid-center" "grid-footer";
+  }
+  .center { box-sizing: border-box; padding: 0 42px; }
+  // Y EL ENVOLTORIO DE LA PROSA. El contenido no cuelga de `article`: cuelga de un
+  // `.markdown-preview-view` con medida propia (685px, la de lectura). Medido — sin esta linea el
+  // heroe se queda en 685px por mucho que la rejilla mida 1.440, y las tres zonas se estrangulan a
+  // 51px cada una. La medida no se pierde: se le devuelve abajo a lo que de verdad es prosa.
+  .center > article > .markdown-preview-view { max-width: none; }
+  // A pantalla completa el heroe y los datos vivos quieren todo el ancho, pero la lista del indice
+  // no: 1.400px de prosa no se leen. Se le pone medida a lo que es texto y solo a eso.
+  .markdown-preview-view > *:not(.heroe):not(.datos-vivos) { max-width: 68ch; }
 }
 
 // ── LA NAVEGACION SE APAGA ────────────────────────────────────────────────────────────────────
 // Quartz pinta TODO enlace con `--secondary`, asi que el explorador entero, el indice y los
-// retroenlaces salian en violeta saturado: veinte carpetas gritando al mismo volumen que el unico
-// boton de accion de la pagina. En Dala la navegacion en reposo es gris ceniza y solo el elemento
-// activo o apuntado llega a blanco. El violeta se guarda para el boton, que es lo que significa.
+// retroenlaces salian en brasa saturada: veinte carpetas gritando al mismo volumen que el unico
+// boton de accion. En Brasa la navegacion en reposo es gris calido y solo el elemento activo o
+// apuntado llega a crema. La brasa se guarda para el boton, que es lo que significa.
 .explorer, .toc, .backlinks {
-  a, .folder-button, .folder-title { color: var(--gray); }
-  a:hover, a:focus-visible, a.active, .folder-button:hover, .folder-title:hover { color: var(--dark); }
+  a, .folder-button, .folder-title { color: var(--hueso-3); }
+  a:hover, a:focus-visible, a.active, .folder-button:hover, .folder-title:hover { color: var(--hueso); }
 }
-// Y los galones de plegar carpeta, que iban a `--secondary` y eran el violeta mas ruidoso de la
+// LOS TITULOS DE LISTA NO SON ENLACES DE PROSA. En las paginas de carpeta y de etiqueta, cada
+// articulo es un `h3 > a.internal` y cada etiqueta un `a.tag-link`: Quartz los pinta con
+// `--secondary` igual que un enlace suelto dentro de un parrafo, y el resultado es una pantalla
+// entera de titulares en brasa —medido en /actualidad, 3 titulares y 24 etiquetas, todo naranja—.
+// La regla de la casa es que la brasa se gana su rareza. Un titulo se lee como titulo: en crema. La
+// brasa se queda para el enlace DENTRO de la prosa, que es donde significa «esto lleva a otro
+// sitio» en vez de «esto es una fila mas de una lista».
+// Los selectores llevan el `a` delante a proposito: Quartz pinta con `a.internal`, que tiene mas
+// especificidad que una clase suelta, y sin el `a` la regla no gana.
+.page-listing h3 > a, article h3 > a.internal, a.page-title, .page-title a, .breadcrumb-element a {
+  color: var(--hueso);
+  background-color: transparent;
+  &:hover { color: var(--catodo); }
+}
+a.tag-link {
+  color: var(--bronce);
+  background-color: transparent;
+  &:hover { color: var(--hueso); }
+}
+// Y los galones de plegar carpeta, que iban a `--secondary` y eran el elemento mas ruidoso de la
 // pantalla: veinte flechas de marca en una lista de navegacion. Van con el texto que acompañan.
-.explorer .folder-icon { stroke: var(--gray); }
-// El foco de teclado no puede depender solo del color: en la piel oscura, gris -> blanco no llega a
-// 3:1 de diferencia de estado. Se le deja anillo propio (WCAG 2.2, focus-appearance).
+.explorer .folder-icon { stroke: var(--hueso-3); }
+// El foco de teclado no puede depender solo del color: gris calido -> crema no llega a 3:1 de
+// diferencia de estado. Se le deja anillo propio (WCAG 2.2, focus-appearance).
 .explorer a:focus-visible, .toc a:focus-visible, .backlinks a:focus-visible {
   outline: 2px solid var(--catodo);
   outline-offset: 2px;
 }
-
-// El rotulo «Explorador» es un h2 dentro de un boton, asi que la escala de display de Dala le daba
-// 36px — y el contenedor del explorador, que Quartz recorta (`overflow: auto hidden`) y dimensiona
-// para un rotulo normal, le cortaba la mitad inferior a las letras. Es el mismo choque que ya
-// obligo a darle tamaño propio a `.page-title`, y se arregla igual: aqui no manda la escala de
-// titular, manda la de rotulo de navegacion (14px, 600, versalitas), que es lo que esto es.
+// El rotulo «Explorador» es un h2 dentro de un boton, asi que la escala de display le daba 32px — y
+// el contenedor, que Quartz recorta (`overflow: auto hidden`) y dimensiona para un rotulo normal, le
+// cortaba la mitad inferior a las letras. Es el mismo choque que obligo a darle tamaño propio a
+// `.page-title`, y se arregla igual: aqui no manda la escala de titular, manda la de rotulo de
+// navegacion (14px, 500, versalitas), que es lo que esto es.
 .explorer .title-button h2 {
   font-size: .875rem;
   line-height: 1.2;
-  letter-spacing: .35px;
+  letter-spacing: .18em;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 500;
   margin: 0;
 }
