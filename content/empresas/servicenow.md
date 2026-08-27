@@ -1,0 +1,90 @@
+---
+title: "ServiceNow (NOW) — EE.UU., dólar estadounidense (USD)"
+tipo: empresa
+tags: [empresa, software-empresarial, usa]
+fecha: 2026-08-24
+agente: carlos
+fuentes: "[\"https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-Reports-Second-Quarter-2026-Financial-Results/default.aspx\", \"https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-First-Quarter-2026-Financial-Results/default.aspx\", \"https://newsroom.servicenow.com/press-releases/details/2025/ServiceNow-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-Board-of-Directors-Authorizes-Additional-5B-for-Share-Repurchase-Program/default.aspx\", \"https://stockanalysis.com/stocks/now/statistics/\", \"https://stockanalysis.com/stocks/now/financials/cash-flow-statement/\", \"https://www.investing.com/news/company-news/servicenow-completes-775-billion-armis-acquisition-93CH-4624538\", \"https://www.otcmarkets.com/filing/html?guid=LBj-kHypngvlDrh&id=19433251\", \"https://www.indmoney.com/blog/us-stocks/servicenow-q2-earnings-now-stock-analysis\"]"
+ticker: NOW
+---
+# ServiceNow (NOW) — EE.UU., dólar estadounidense (USD)
+
+## Identidad
+
+Plataforma de software como servicio (*SaaS*) de **flujos de trabajo empresariales** (*workflows*): nació en ITSM (gestión de servicios de TI) y hoy orquesta procesos de IT, RRHH, seguridad, atención al cliente, finanzas y legal en el Global 2000; desde 2025-26 se vende como «ServiceNow AI Platform» con agentes de IA (*agentic AI*) y «AI Control Tower» como capa de gobernanza de agentes. ~97% de los ingresos son suscripción. Cotiza en NYSE (NOW, USD). **Capitalización $124,5B (18-ago-2026) a ~$133B (23-ago-2026); EV $126–137B según fuente y día.** Candidata de la industria [[plataformas-tecnologicas-y-publicidad-digital]]. Tesis: [[servicenow-tesis]].
+
+## Cuenta de resultados (año fiscal = año natural; $M salvo EPS; **EPS retroajustados por split 5:1 del 17-dic-2025**)
+
+| | FY22 | FY23 | FY24 | FY25 | TTM (jun-26) |
+|---|---|---|---|---|---|
+| Ingresos | 7.245 | 8.971 | 10.984 | 13.280 | ~14.730 |
+| Margen operativo GAAP | [Sin datos] | [Sin datos] | 12,4% | 13,7% | ~11–13% |
+| Margen operativo no-GAAP | [Sin datos] | [Sin datos] | 29,6% | 31,2% | ~30% |
+| Margen neto GAAP | 4,5% | 19,3%¹ | 13,0% | 13,2% | ~11,4% |
+| EPS GAAP (split-ajustado) | [Sin datos] | $1,66² | $1,37² | $1,67² | ~$1,64³ |
+| EPS no-GAAP | [Sin datos] | [Sin datos] | [Sin datos] | ~$3,51⁴ | ~$3,75⁴ |
+
+¹ FY23: margen neto 19,3% con margen operativo 12–13% — beneficio fiscal puntual bajo la línea de impuestos.
+² Calculado: beneficio neto visto ($1.730/$1.430/$1.750M) ÷ acciones diluidas medias vistas en filing (1.039,9/1.046,9/1.046,7M).
+³ Implícito en PER TTM 73,54× y precio $120,41 (18-ago-2026, stockanalysis).
+⁴ Suma de trimestres vistos (TipRanks): FY25 = 0,808+0,818+0,96+0,92; TTM = 0,96+0,92+0,97+0,90.
+
+- **CAGR ingresos FY22→FY25: +22,4%/año**: crecimiento >20% sostenido incluso a $13B de escala.
+- Último trimestre (Q2 2026, publicado 22-jul-2026): ingresos **$3.987M (+24%; +22,5% cc)**; suscripción **$3.877M (+24,5%; +23% cc)**, 150 pb sobre el alto de la guía; **cRPO $13.200M (+21%; +21,5% cc)**, RPO total $29,0B (+21%); EPS no-GAAP $0,90 (vs $0,86 consenso); neto GAAP $298M; margen bruto GAAP 70,5%; margen operativo no-GAAP 29,5%; **123 contratos >$1M (+40% YoY)**, 658 clientes >$5M ACV, renovación bruta 98%; **ServiceNow AI superó $1B de ACV** (objetivo $1,5B a fin de 2026).
+- **Ojo al timing**: la CFO atribuyó ~la mitad del beat Q2 a demanda federal on-premise adelantada de Q3 a Q2; viento en contra FX de ~$35M avisado para el cRPO de Q3.
+- Guía FY26 subida tras Q2: suscripción ~$15.770M punto medio (~+21%); Q3: suscripción $3.975–3.980M (~20% cc), cRPO +20% cc, margen op no-GAAP 31%. Marco de gestión: «Rule of 56» en 2026 y «Rule of 60+» a largo plazo (crecimiento cc + margen FCF).
+- Precedente (Q1 2026, 22-abr): batió toda su guía (ingresos $3,77B +22%; cRPO $12,64B +22,5%; EPS $0,97; margen op no-GAAP 32%) y aun así la acción cayó **-17,75%, su peor día cotizado**: castigaron la guía (márgenes recortados dos veces en la llamada por la integración Armis; cRPO guiado a desacelerar a 19,5% cc).
+- Analyst Day (4-may-2026): objetivo **>$30B de suscripción en 2030** (alza >$32B); IA proyectada ~30% del ACV a 2030.
+
+## Balance
+
+- A 31-mar-2026 (prospecto 424B2, 12-may-2026): activo total $24.381M; ingresos diferidos (*deferred revenue*) **$8.129M** ($8.434M dic-25; $6.914M dic-24 — la anualidad crece con la base); deuda LP $1.491M (notas 1,400% a 2030).
+- **El balance cambió de naturaleza en 2026 por M&A** (Armis $7,75B cerrado 20-abr + Veza ~$1B mar-26, pagados cash + deuda): *term loan* senior **$4,0B** (17-abr-26, vence oct-26 + opción 6 meses), papel comercial hasta $3,0B (**$2,1B dibujados** a 22-abr-26), nueva emisión de notas senior may-26 [Sin datos: importe exacto de esa emisión].
+- A 18-ago-2026 (stockanalysis): deuda/patrimonio 0,68 · deuda/EBITDA 2,77 · **cobertura de intereses 22×** · ratio corriente 0,70 · EV−cap ≈ +$1,74B → deuda neta modesta hoy.
+- Patrimonio ≈ $12,8B (implícito en P/B 9,72). Goodwill e intangibles disparados por Armis+Veza (10-Q jul-26) [Sin datos: importe exacto de goodwill].
+
+## Flujo de caja
+
+- FCF (OCF − capex, stockanalysis): FY21 $1.799M (30,5%) · FY22 $2.173M (30,0%) · FY23 $2.704M (30,1%) · FY24 $3.415M (31,1%) · **FY25 $4.576M (34,5%)** · TTM jun-26 $4.580M (31,1%). Con la definición propia de la compañía (*non-GAAP FCF*), FY25 fue $4.636M (35%).
+- H1 2026: FCF $2.299M, margen 29,5% (vs 32% H1-25) — penalizado por **$297M de costes de fusiones** y el timing federal; Q2 aislado solo 16%. La guía FY26 mantiene margen FCF 35–36%; promesa de normalizar la expansión de márgenes en FY27.
+- Capex ~6,5% de ingresos en FY25, bajando a ~3,5% en H1-26 (guía FY26: 5%). Modelo *asset-light* típico de SaaS.
+- Recompras: autorización adicional de **$5B (ene-2026)**; en Q1-26 recompró 20,1M acciones por **$2.225M**, incluido un ASR de $2B a precio medio $107,97 — compró cuando la acción estaba machacada.
+- Dividendo: no paga.
+
+## Calidad y retorno
+
+- ROE ≈ **14,5%** TTM (stockanalysis, 18-ago-26) — bajo para su calidad porque el patrimonio arrastra goodwill de M&A y el neto GAAP arrastra amortizaciones.
+- ROIC [Sin datos: cifra publicada; proxy calculado propio: op GAAP FY25 $1.824M ÷ (patrimonio ~$12,8B + deuda neta ~$1,7B) ≈ **12,7%**, deprimido por los mismos ajustes].
+- Margen incremental FY24→FY25 (calculado): +$2.296M de ingresos trajeron +$460M de beneficio operativo GAAP → **~20% incremental**; en no-GAAP la palanca es mayor (29,6→31,2%).
+- Reinversión: capex bajo; la reinversión real es I+D y M&A (~$9B desplegados en compras entre dic-25 y may-26).
+- Conversión FCF/beneficio neto GAAP ≈ **272%** TTM (calculado: $4.580/$1.686M) — el GAAP subestima la caja por SBC (~15% de ingresos) y amortización; sobre no-GAAP ≈ 117%.
+
+## Valoración actual (precio $128,48 cierre 21-ago-2026)
+
+- **PER TTM GAAP 73,5×** (18-ago) · **PER TTM no-GAAP ~34×** (calculado sobre $3,75 TTM) · **PER forward 26×** (stockanalysis, 18-ago); ~23,6× sobre EPS no-GAAP FY27e ~$5,45 (consenso citado en may-26).
+- **EV/EBITDA 42,6×** (stockanalysis, 18-ago) vs **23,6×** (multiples.vc, 23-ago — definición de EBITDA distinta; discrepancia declarada, no resuelta).
+- **EV/FCF 27×** · P/S 8,3× TTM (forward 6,9×) · P/B 9,7× · PEG 1,06 (todo stockanalysis 18-ago).
+- Consenso analistas: objetivo medio $150,26 con 66 analistas (tickflow, 24-ago); mediana $137,50 (jun). Dispersión extrema: CLSA inició con *underperform* a $72; Guggenheim subió a compra por valoración.
+- Contexto técnico ligero: rango 52 semanas $81–195; la acción viene de caer ~40% desde máximos ($211,48) entre abril y junio, tocó mínimo $81 y rebota +30% en el último mes; cotiza por encima de su media de 200 sesiones (~$122 al 21-ago).
+
+## Señales objetivas
+
+- Dilución: **resuelta** — acciones −0,4% YoY pese a SBC del 15% de ingresos; las recompras ya superan la dilución.
+- Márgenes GAAP deprimidos por diseño M&A (amortización de intangibles ~4% de ingresos guiada FY26, costes de integración); el no-GAAP se mantiene 29,5–32%.
+- FCF > beneficio: verde estructural, pero el margen FCF de H1-26 cayó ~250 pb por deals y timing — vigilar normalización.
+- Deuda: de $1,5B a ~$8–10B brutos en meses (Armis/Veza) — cambio estructural; aún manejable (cobertura 22×).
+- Rotación de directivos: CEO Bill McDermott, presidente/COO/CPO Amit Zavery, CFO Gina Mastantuono [Sin datos: rotación ejecutiva reciente — no investigada a fondo].
+
+## Chequeo de sanidad aritmética
+
+- GAAP TTM: EPS implícito $1,64 (= $120,41 ÷ 73,54) × 1,03B acciones = **$1,69B**; ingresos $14,73B × margen neto 11,45% = **$1,69B**. Desviación <0,5% → **OK**.
+- No-GAAP TTM: EPS $3,75 × ~1,04B acc. ≈ **$3,90B**; ingresos × margen operativo no-GAAP ~26,5% ≈ **$3,90B**. Coherente → **OK**.
+- Forward PER de dos dígitos (26×) coherente con PER TTM alto: sin bandera roja de unidades confundidas.
+
+## Huecos
+
+- [Sin datos: caja exacta y deuda total oficial a 30-jun-26 — solo componentes parciales vistos (notas 2030 $1,5B; term loan $4B; CP $2,1B dibujados; emisión may-26 sin importe)]
+- [Sin datos: goodwill e intangibles exactos tras Armis y Veza]
+- [Sin datos: márgenes bruto/operativo GAAP anuales FY21–FY23]
+- [Sin datos: ROIC publicado]
+- [Sin datos: rotación ejecutiva reciente detallada]

@@ -1,0 +1,134 @@
+---
+title: "KeyCorp (KEY) — Análisis Fundamental"
+tipo: empresa
+tags: [empresa, analisis-fundamental, financieras]
+fecha: 2026-08-27
+agente: carlos-barez
+ticker: KEY
+moneda: USD
+precio_referencia: 21.91
+fecha_precio: 2026-08-27
+valor_estimado: 25.00
+gatillo_entrada: <19.00 USD (margen de seguridad ~25% sobre IV ~25; equiv. P/B <1.2x)
+veredicto: SEGUIR
+revisar_el: 2026-11-24
+fuentes: "[\"https://stockanalysis.com/stocks/KEY/\",\"https://stockanalysis.com/stocks/KEY/financials/\",\"https://stockanalysis.com/stocks/KEY/statistics/\",\"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=KEY&type=10-K&count=5\",\"https://en.wikipedia.org/wiki/KeyCorp\",\"https://investor.key.com/press-releases/news-details/2026/KEYCORP-REPORTS-FOURTH-QUARTER-2025-NET-INCOME-OF-474-MILLION-OR--43-PER-DILUTED-COMMON-SHARE/default.aspx\",\"https://www.reuters.com/sustainability/sustainable-finance-reporting/keycorp-ceo-doubles-down-share-buybacks-rules-out-acquisitions-2025-12-09/\"]"
+---
+
+# KeyCorp (KEY) — Análisis Fundamental
+
+## 1. Resumen ejecutivo
+
+KeyCorp (NYSE: KEY, "KeyBank") es un banco regional estadounidense con sede en Cleveland, Ohio, componente del S&P 500. Cotiza a **21.91 USD** (27-ago-2026) con una capitalización de **23.34 B USD** y un valor empresarial (EV) de **35.85 B USD**.
+
+Se trata de un banco que ha completado su ciclo de corrección (crisis de la banca regional 2023 y cargos por pérdida en venta de valores en 2024) y que en 2025 ha vuelto a generar beneficios récord: ingresos récord de ~7.5 B USD (+16% ajustado) y un retorno sobre capital tangible (ROTCE) en camino al objetivo de 15%+ a fin de 2027.
+
+Métricas clave: **P/E 12.92** (fwd 11.38), **P/B 1.37**, **P/FCF 19.66**, **PEG 0.68**, **ROE 10.33%**, **ROA 1.08%**, **CET1 11.7%** (peer-leading), **dividendo 3.75%** (0.82 USD/año), **Beta 1.03**.
+
+Valoración: no es una ganga profunda pero está razonablemente valorado para una entidad de calidad en recuperación con fuerte generación de capital y recompra de acciones reactivada. **Veredicto: SEGUIR** — acumular en debilidad por debajo de ~19 USD (margen de seguridad explícito).
+
+## 2. Descripción del negocio
+
+KeyCorp se formó en 1994 mediante la fusión de Society Corporation (Cleveland) y el antiguo KeyCorp. Opera bajo la marca **KeyBank** con ~1.000 sucursales y 1.217 cajeros automáticos (2023), presente en el Medio Oeste, Pacific Northwest y Noreste de EE. UU., además de Alaska, Colorado, Texas y Utah. Emplea ~17.883 personas (stockanalysis) / 17.333 (Wikipedia, 2023). Predecesor (Society National Bank) fundado en 1849.
+
+Los ingresos se dividen en dos segmentos (datos TTM, millones USD):
+- **Commercial Bank**: 3.866 (52% de ingresos)
+- **Consumer Bank**: 3.618 (48% de ingresos)
+
+Modelo de negocio típico de banca comercial y de consumo: margen de intereses (NIM 2.82% en Q4 2025, +7 pb intertrimestral) más comisiones (banca de inversión, gestión de activos — AUM récord de 70 B USD—, colocación de deuda).
+
+## 3. Industria y moat competitivo
+
+Sector: Financials — Regional Banks (SIC 6021, National Commercial Banks). La ventaja competitiva de un banco regional es **local/franquicia depositaria**, relaciones con PYMES y clientes corporativos medianos, y un coste de financiación (depósitos) inferior al de bancos solo-digitales. KeyCorp no tiene moat tipo "fosa" tecnológica, pero su red de depósitos core y su posición de capital le dan resiliencia.
+
+El entorno 2024-2026 es mixto: tipos de interés altos presionaron el coste de depósitos pero expandieron el NIM en 2025; la consolidación de la banca regional (M&A de pares) deja a Key como actor "independiente por elección" — el CEO **descarta adquisiciones** y prioriza el retorno de capital (Reuters, 9-dic-2025).
+
+## 4. Análisis financiero (5 años)
+
+Cifras en millones USD (salvo EPS), según stockanalysis.com (FY = ejercicio cerrado 31-dic; TTM a jun-2026):
+
+| Concepto | TTM | FY2025 | FY2024 | FY2023 | FY2022 | FY2021 |
+|---|---|---|---|---|---|---|
+| Ingresos | 7.371 | 7.007 | 4.239 | 5.894 | 6.743 | 7.683 |
+| Crec. ingresos | +55,4% | +65,3% | -28,1% | -12,6% | -12,2% | +35,6% |
+| Beneficio neto | 1.887 | 1.686 | -304 | 824 | 1.799 | 2.519 |
+| EPS diluido | 1,71 | 1,52 | -0,32 | 0,88 | 1,93 | 2,63 |
+
+Observaciones:
+- **2024 fue el punto de inflexión negativo**: beneficio neto de -304 M USD, lastrado por **cargos por pérdida en venta de valores de ~657 M USD tras impuestos** (Q4 2024; comunicado de resultados). De ahí el hundimiento de ingresos/margen en las series de stockanalysis.
+- **Recuperación 2025**: la compañía reporta **ingresos récord de ~7.5 B USD (+16% ajustado)** y beneficio neto TTM de 1.887 M USD (margen neto ~25,6% sobre ingresos TTM de 7.371 M).
+- **Calidad del capital**: CET1 11,7% y Tier 1 13,4% a 31-dic-2025 (peer-leading). Deuda neta implícita (EV−MktCap) ~12,5 B USD; **Debt/FCF 12,8x**.
+- **Rentabilidad**: ROE 10,33%, ROA 1,08%; objetivo de ROTCE de **15%+ a fin de 2027** y 16–19% a largo plazo.
+- **Liquidez/eficiencia**: Beta 1,03; ingresos por empleado 412 k USD; beneficio por empleado 105 k USD; tipo impositivo efectivo 20,6%.
+
+## 5. Valoración
+
+Múltiplos actuales (stockanalysis, 27-ago-2026):
+- **P/E 12,92** (fwd 11,38) — en línea con bancos regionales, barato para el crecimiento de EPS.
+- **P/B 1,37** (P/TBV 1,62) — valor contable implícito ~16,0 USD/acc; TBV ~13,5 USD/acc.
+- **P/S 3,20**, **EV/Sales 4,89**, **P/FCF 19,66**, **EV/FCF 30,09**, **PEG 0,68**.
+- **EV/Earnings 19,12**.
+
+Histórico/comparación: el valor en libros se depreció en 2023-2024 (pérdidas), por lo que el P/B actual (1,37x) refleja libro castigado y recuperación de ROE. Con ROTCE dirigido a 15%+, un múltiplo P/B de 1,4-1,6x estaría justificado.
+
+**Valor intrínseco estimado: ~25 USD/acc** (EPS normalizado ~2,0 USD × 12-13x + re-rating por capital returns; coincide con el precio objetivo medio de analistas de 26,02 USD, +18,8%).
+
+**Margen de seguridad**: a 21,91 USD el descuento al IV es solo ~14%. Un valorador disciplinado (valor/calidad, largo plazo) exige **comprar por debajo de ~19 USD** (descuento ~25% al IV; P/B <1,2x y P/E <10x fwd), nivel que coincide con la mitad baja del rango 52-semanas (16,47–24,07).
+
+## 6. Equipo directivo e incentivos
+
+- **Christopher Gorman**, Chairman y CEO (desde 2019/2020). En el Goldman Sachs Financial Services Conference (dic-2025) declaró que **la acción está infravalorada**, descartó M&A y comprometió devolver capital vía **recompras aceleradas** (200 M USD solo en Q4 2025) y dividendo.
+- **Activista HoldCo** presiona a la entidad para evitar operaciones y maximizar retorno de capital — alineación favorable al accionista a corto plazo.
+- Incentivos ligados a ROTCE y eficiencia: el plan de 2026 apunta a "aumentar de forma significativa el retorno de capital".
+
+## 7. Riesgos
+
+1. **Riesgo de tipos de interés**: un descenso rápido de tipos comprimiría el NIM (2,82%) y los márgenes; un entorno "alto y plano" ya está descontado.
+2. **Riesgo de crédito**: cartera de préstamos comerciales/CMBS; deterioro macro podría elevar las provisiones (ya vistas en 2023-2024).
+3. **Ejecución del ROTCE 15%+**: depende de crecimiento orgánico y control de costes; si falla, el re-rating se retrasa.
+4. **Reactivación limitada de recompras**: el exceso de capital es real (CET1 11,7%) pero reguladores (Fed/CCAR) pueden limitar el retorno.
+5. **Concentración geográfica**: exposición al Medio Oeste y energía/industria regional; menor diversificación que los money-center banks.
+6. **Sin M&A como palanca**: al descartar adquisiciones, Key renuncia a la vía de escala que siguen sus pares.
+
+## 8. Catalizadores y noticias recientes (2024-2025/26)
+
+- **20-ene-2026**: Q4 2025 — beneficio neto 474 M USD (0,43$/acc); ingresos 2,0 B USD; **ingresos récord de 2025 de ~7,5 B USD (+16% ajustado)**; NIM 2,82%; CET1 11,7%; recompra de 200 M USD en el trimestre.
+- **9-dic-2025**: CEO en Goldman Sachs — "el sector se consolidará, nosotros no participamos"; **acciones suben 4,5%**; enfoque en buybacks por capital infravalorado.
+- **2024**: cargo por pérdida en venta de valores de ~657 M USD (tras impuestos) hundió resultados de 2024; base de comparación baja que explica el crecimiento de +1.053% del beneficio neto TTM.
+- **Ex-dividend**: 1-sep-2026; dividendo trimestral 0,205 USD/acc (3,75% anual).
+- **Último 10-K (FY2025)** presentado 23-feb-2026 (SEC EDGAR, acc-no 0001628280-26-010546).
+
+## 9. Tesis bull / bear
+
+**Bull**
+- Recuperación de ROE/ROTCE (objetivo 15%+ a 2027) con P/B solo 1,37x.
+- Capital excesivo (CET1 11,7%) → recompras aceleradas + dividendo 3,75% = retorno total atractivo.
+- P/E 11,4x fwd y PEG 0,68 sobre crecimiento de EPS; analistas apuntan a 26 USD (+19%).
+- CEO alineado ("infravalorada") y activista presionando por retorno de capital.
+
+**Bear**
+- Banco regional sin moat defensivo fuerte; sensible a tipos y crédito.
+- Múltiplos ya "en línea"; el re-rating requiere ejecución perfecta del ROTCE.
+- Riesgo de que la Fed limite capital returns o que el crédito se deteriore.
+- Historial reciente de pérdidas (2024) y volatilidad de beneficios.
+
+## 10. Fuentes (URLs)
+
+- https://stockanalysis.com/stocks/KEY/ (overview, precio 21,91, mktcap 23,34B, P/E, dividendo)
+- https://stockanalysis.com/stocks/KEY/financials/ (serie ingresos/beneficio 2021-2025)
+- https://stockanalysis.com/stocks/KEY/statistics/ (valuation, ROE/ROA, capital, ratios)
+- https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=KEY&type=10-K&count=5 (índice 10-K FY2025)
+- https://en.wikipedia.org/wiki/KeyCorp (historia, sucursales, footprint)
+- https://investor.key.com/press-releases/news-details/2026/KEYCORP-REPORTS-FOURTH-QUARTER-2025-NET-INCOME-OF-474-MILLION-OR--43-PER-DILUTED-COMMON-SHARE/default.aspx (Q4 2025, CET1, recompras)
+- https://www.reuters.com/sustainability/sustainable-finance-reporting/keycorp-ceo-doubles-down-share-buybacks-rules-out-acquisitions-2025-12-09/ (estrategia CEO, no M&A)
+
+## 11. Veredicto de Carlos (con condiciones)
+
+**SEGUIR** (acumular en debilidad). No es una compra ciega a 21,91 USD: el descuento a mi IV de ~25 USD es solo ~14%, insuficiente como margen de seguridad para un banco regional cíclico. Condiciones de entrada:
+1. **Comprar por debajo de 19 USD** (≈25% de margen sobre IV; P/B <1,2x), o
+2. **Confirmación de ROTCE >13%** en resultados de 2026 que valide la trayectoria a 15%+ (entonces aceptable como posición core a precios actuales), y
+3. **Mantener** si el NIM se sostiene >2,7% y el CET1 se mantiene >11%.
+
+Catalizador de re-rating: ejecución del retorno de capital (recompras + dividendo) y subida de ROE. Stop mental de la tesis si el crédito comercial se deteriora o la Fed recorta tipos agresivamente sin reprecio de depósitos.
+
+<!-- META ticker=KEY veredicto=SEGUIR -->

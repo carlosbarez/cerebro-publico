@@ -1,0 +1,359 @@
+---
+title: "Citigroup Inc. (C)"
+tipo: analisis-accion
+tags: [empresa, banca, eeuu]
+fecha: 2026-08-15
+fuentes: []
+---
+
+<!-- Migrado desde cache ponytail: C.md · generado por agente autonome (sesion ponytail 2026-08-15) -->
+
+# Citigroup Inc. (C)
+
+> Fecha de corte: 2026-08-15 · Moneda: USD (dólar estadounidense)
+> Sector: Financiero (Bancos diversificados / Banca de inversión y servicios financieros) · País/Región: EE. UU. · Bolsa: NYSE (componente del S&P 500 y S&P 100)
+
+---
+
+## 1. Ficha rápida
+
+| Campo | Valor |
+|---|---|
+| Ticker / Bolsa | C / NYSE (EE. UU.); componente del S&P 500, S&P 100 y Dow Jones Industrial Average (este último hasta 2009) |
+| Sector / Industria | Financiero / Bancos diversificados (según clasificación de Yahoo Finance); banca de inversión global y servicios financieros |
+| País / Región | Estados Unidos (sede en 388 Greenwich Street, Nueva York) |
+| Moneda de reporte | USD; ejercicio fiscal de enero a diciembre (fin de año: 31 de diciembre) |
+| Capitalización bursátil | ~233,7 mil millones USD (intraday, 14 ago 2026, Yahoo Finance); ~226,8 mil millones según estadísticas (10 ago 2026) |
+| Precio | 139,33 USD (cierre 14 ago 2026, Yahoo Finance / StockAnalysis); 139,26 en after-hours |
+| Rango 52 semanas | 90,68 – 147,96 USD (14 ago 2026, Yahoo Finance) |
+| PER (TTM) | 15,01 (Yahoo Finance, cierre 14 ago 2026); 15,15 según StockAnalysis; EPS (TTM) de 9,28 USD |
+| PER forward | ~11,9-12,4 (Yahoo Finance / StockAnalysis, ago 2026) |
+| Rendimiento por dividendo | ~1,9-2,0% (dividendo trimestral de 0,60 USD hasta 2T26; aumento del 12% anunciado → ~0,67 USD/trimestre desde 3T26; anualizado forward 2,68 USD — Yahoo Finance) |
+| CEO | Jane Fraser (Presidenta y CEO; CEO desde marzo de 2021, Presidenta del consejo desde 2024) |
+| CFO | Gonzalo Luchetti (confirmado como CFO en el Investor Day del 7 may 2026; sucedió a Mark Mason) |
+| Sede | 388 Greenwich Street, Nueva York, EE. UU. |
+| Empleados | ~219 000 (perfil Yahoo Finance); ~229 000 según Wikipedia (2024) |
+| Próximos resultados | Estimado 13 oct 2026 (3T 2026, Yahoo Finance / calendario de Citi IR) |
+
+---
+
+## 2. Descripción de la empresa
+
+Citigroup (Citi) es un holding financiero diversificado fundado el 8 de octubre de 1998 mediante la fusión de Citicorp, matriz de Citibank, y Travelers Group (Wikipedia). Su negocio bancario se remonta al City Bank of New York, constituido en 1812, lo que convierte a la franquicia Citibank en una de las instituciones financieras más antiguas de EE. UU. (Wikipedia). Tras el spin-off de Travelers en 2002, Citi opera como banco puro. Es el tercer mayor banco de EE. UU. por activos, junto a [[jpmorgan-chase|JPMorgan Chase]], [[bank-of-america|Bank of America]] y [[wells-fargo|Wells Fargo]] (las "Big Four"), y es considerado banco sistémico ("too big to fail") por el Financial Stability Board (Wikipedia).
+
+Qué vende, a quién:
+
+- **Banca institucional (mayor fuente de ingresos)**: servicios de tesorería y pagos transfronterizos, custodia y servicios de valores, trading de renta fija y variable, mercados de capitales, asesoría en fusiones y adquisiciones y financiación corporativa para corporaciones multinacionales, gobiernos e instituciones financieras.
+- **Banca de consumo y tarjetas en EE. UU.**: tarjetas de crédito de marca propia y co-branded, préstamos personales y banca minorista.
+- **Gestión de patrimonio (Wealth)**: servicios de banca privada, inversión, préstamos, hipotecas y gestión de activos para clientes de alto patrimonio, además de "Wealth at Work" (planificación financiera vinculada a empleadores).
+
+Clientes: corporaciones multinacionales, gobiernos, instituciones financieras, inversores institucionales e individuos. Citi declara que hace negocios en más de 180 países y jurisdicciones (comunicado 2T26), con ~200 millones de cuentas de cliente en más de 160 países (informe de Argus, jul 2026). Citi afirma procesar más de 6 billones USD de volumen de transacciones diarias y servir a ~90% de las empresas del Fortune 500 (informe de Morningstar, jul 2026).
+
+Historia breve (hitos clave): fundación de City Bank of New York (1812) → primer banco estadounidense con más de 1 000 millones USD en activos (1918) → innovaciones ([[interes-compuesto|interés compuesto]] en ahorro 1921, préstamo personal 1928, certificado de depósito negociable 1961) → Citicorp (1967) → fusión con Travelers (1998, la mayor organización de servicios financieros del mundo en ese momento) → spin-off de Travelers (2002) → crisis de las hipotecas subprime (2007-2008): rescate del gobierno de EE. UU. y salida parcial del capital (TARP) → creación de Citi Holdings para vender activos tóxicos (2009) → retorno a la rentabilidad y desnacionalización (2010) → Jane Fraser CEO (mar 2021) → anuncio de simplificación estratégica (2022) → venta de Banca Nacional de México (Banamex, 2025-2026) → nueva estructura de cinco negocios y objetivo de rentabilidad (2024-2026).
+
+Datos corporativos de referencia: ISIN US1729674242; forma parte del S&P 500, S&P 100 y (hasta 2009) del Dow Jones. Productos y subsidiarias clave: Citibank, Citibank N.A., Citi Private Bank, Citi Global Wealth, Salomon Smith Barney (histórico), Grupo Financiero Banamex (en proceso de desinversión) (Wikipedia).
+
+### La transformación de Citi (2021-2026)
+
+Citi ha ejecutado desde 2022 uno de los planes de simplificación más ambiciosos de la banca estadounidense. Bajo el liderazgo de Jane Fraser, el banco:
+
+- **Concentró el negocio en cinco negocios nucleares** (Services, Markets, Banking, Wealth y U.S. Consumer Cards) y **salió de los negocios de consumo en mercados no estratégicos**: ventas de las franquicias de consumo en Asia (India, China, Taiwán, Indonesia, Filipinas, Vietnam, Malasia, Tailandia, Corea, Australia y Bahréin, entre otras, completadas mayormente en 2022-2024), banca de consumo en Europa y Polonia, y la salida de México vía la venta de Grupo Financiero Banamex (acuerdo 2025; venta del 25% completada el 15 dic 2025; venta de un 22,6% adicional en el 2T 2026; la desinversión estaba "muy avanzada" al may 2026). También salió de Rusia: anunció la venta de AO Citibank, cuya contabilidad "held for sale" generó una pérdida de ~1,2 mil millones USD en el 4T 2025.
+- **Simplificó la organización**: reducción de capas directivas (de 14 a 8 en la mayoría de funciones, según presentaciones de Citi), consolidación de funciones globales y nueva estructura de comités para acelerar la toma de decisiones.
+- **Reconstruyó controles y datos**: invirtió en tecnología y en remediar las órdenes de consentimiento de 2020 (gestión de riesgo y datos) y de 2024 (defensas informáticas y gestión de riesgo de terceros) emitidas por la Reserva Federal y la OCC. Este es el área de mayor escrutinio regulatorio del banco y un requisito para la expansión de su plan de capital.
+- **Redujo el legado**: liquidación del portfolio Legacy Franchises (activos en salida y franquicias no estratégicas), que pasó de 7 503 M USD de ingresos (FY2024) a 4 430 M USD (FY2025) y a una pérdida neta de 4 458 M USD en FY2025 (costes de salida), con reducción esperada hasta su eliminación total a medio plazo (Investor Day 2026).
+
+El resultado acumulado (declarado por Citi en el Investor Day del 7 may 2026): crecimiento de ingresos ex-Legacy de ~13,3 mil millones USD desde 2022, mejora de la eficiencia de 68% (2022) a 63% ex-notables (2025), y objetivo de RoTCE de 14-15% a medio plazo.
+
+---
+
+## 3. Modelo de negocio
+
+### 3.1 Segmentos de ingresos (ejercicio fiscal 2025, cerrado el 31 dic 2025)
+
+Citi opera con cinco negocios interconectados: **Services, Markets, Banking, Wealth y U.S. Consumer Cards (USCC)**, más un segmento "All Other" (Legacy Franchises y Corporate/Other). Fuente: comunicado de resultados del 4T 2025 y del 2T 2026 de Citi (14 ene 2026 y 14 jul 2026). Importes en millones de USD.
+
+| Segmento | Ingresos FY2025 | % del total | Ingresos FY2024 | Variación FY25 vs FY24 |
+|---|---|---|---|---|
+| Services | 21 256 | ~25% | 19 618 | +8% |
+| Markets | 21 970 | ~26% | 19 836 | +11% |
+| Banking | 8 333 | ~10% | 6 381 | +31% |
+| Wealth | 8 559 | ~10% | 7 483 | +14% |
+| U.S. Personal Banking (USPB) | 20 971 | ~25% | 20 055 | +5% |
+| All Other (managed basis) | 4 430 | ~5% | 7 503 | -41% |
+| **Total (suma de segmentos)** | **85 519** | **~100%** | **80 876** | **~+6%** |
+
+Notas: (1) Los porcentajes son cálculo del agente; el total reportado de Citi para FY2025 fue 85 225 M USD (la pequeña diferencia con la suma de segmentos se debe a eliminaciones/redondeos; ver 5.1). (2) En la presentación del 2T 2026, Citi pasó a reportar U.S. Consumer Cards (USCC) como negocio propio y trasladó Citigold/Retail Banking al segmento Wealth; en FY2025 el segmento consolidado se llamaba U.S. Personal Banking (USPB: Branded Cards, Retail Services y Retail Banking). Por eso el dato "USCC" de 2T26 no es directamente comparable con "USPB" de FY25. [análisis del agente]
+
+### 3.1.1 Desglose detallado 2T 2026 (comunicado del 14 jul 2026)
+
+| Segmento | Ingresos 2T26 | Var. YoY | Beneficio neto 2T26 | Var. YoY | RoTCE 2T26 |
+|---|---|---|---|---|---|
+| Services | 6 382 | +18% | 2 584 | +51% | 30,9% |
+| Markets | 7 007 | +17% | 2 387 | +32% | 17,0% |
+| Banking | 1 922 | +34% | 350 | +276% | 18,0% |
+| Wealth | 3 177 | +13% | 583 | +51% | 14,4% |
+| U.S. Consumer Cards | 4 521 | +1% | 852 | +12% | 22,0% |
+| All Other (managed) | 1 737 | +1% | -923 | n.a. | n.a. |
+| **Total Citi** | **24 766** | **+14%** | **5 831** | **+45%** | **13,0%** |
+
+Detalle de sub-líneas en 2T26: Services se descompone en Treasury and Trade Solutions (4 739 M, +18%) y Securities Services (1 643 M, +16%); Markets en Fixed Income (4 706 M, +7%; de los cuales Rates y divisas 3 247 M y Spread products/otra renta fija 1 459 M) y Equity Markets (2 301 M, +45%); Banking en Investment Banking (1 548 M, +44%) y Corporate Lending (406 M ex-hedges, -4%); Wealth en Citigold y Retail Banking (2 181 M, +17%), Private Bank (769 M, +5%) y Wealth at Work (227 M, +3%); USCC se beneficia de la incorporación de la cartera co-branded de American Airlines en el trimestre.
+
+### 3.2 Cómo gana dinero
+
+- **Services** (mayor ROE del grupo, ~31% RoTCE en 2T26): cobra comisiones y margen de interés por gestión de tesorería (Treasury & Trade Solutions: cash management, pagos transfronterizos, tarjetas comerciales, trade finance) y por servicios de valores (custodia, administración de activos, soluciones post-trading). Renta de depósitos de clientes corporativos y del volumen procesado. Activos bajo custodia/administración (AUC/AUA) de ~35 billones USD (2T26, +22% interanual). Cross-border transaction value de 115 000 M USD en el trimestre (+13%).
+- **Markets**: intermediación y creación de mercado en renta fija (rates, divisas, spread products, materias primas) y renta variable (acciones, derivados, prime brokerage). Ingresa de los spreads de trading, comisiones y financiación (préstamos de margen). Balances de prime subieron casi 60% interanual (2T26); VaR promedio de ~122 M USD.
+- **Banking**: banca de inversión (asesoría M&A, DCM, ECM) y crédito corporativo. Los fees de IB (4 618 M USD en FY2025, +20%) son el componente principal; en 2T26 el IB creció 44% (ECM +92%, DCM +65%, Advisory -4%).
+- **Wealth**: banca privada, Citigold/Retail Banking y Wealth at Work. Ingresa por margen de interés sobre depósitos y préstamos (hipotecas, colateral) y por comisiones de inversión. Activos de inversión de clientes de 727 000 M USD (2T26, +14%); 9 trimestres consecutivos de crecimiento de ingresos.
+- **U.S. Consumer Cards**: tarjetas de crédito de marca propia (incluye co-branded con aerolíneas) y Retail Services (tarjetas privadas de comercios). Ingresa por margen neto de interés sobre saldos de tarjetas y por comisiones netas de costes de recompensas; invierte agresivamente en adquisición de cuentas (5,38 millones de cuentas nuevas en 2T26, +65%).
+- **Canales y pricing**: en banca minorista de EE. UU., Citi es el tercer mayor emisor de tarjetas de crédito del país (Wikipedia); en institucional, la red global propia (más de 90 países y jurisdicciones con presencia, ~270 cámaras de compensación conectadas según Morningstar) es el principal foso. Pricing: en tarjetas, tasas sobre saldos revolventes + comisiones; en institucional, comisiones por servicio y spreads.
+
+### 3.3 Ventajas competitivas / foso
+
+- **Red global de pagos y tesorería**: una de las plataformas transfronterizas más grandes del mundo (6 billones USD/día en volumen transaccional, servicios a ~90% del Fortune 500 — Morningstar, jul 2026). Coste de cambio altísimo para clientes corporativos.
+- **Interconexión de negocios ("one firm")**: la combinación de Services + Markets + Banking permite ganar cuota de cartera en clientes institucionales; estrategia declarada y repetida en el Investor Day 2026.
+- **Escala en custodia y servicios de valores**: ~35 billones USD de AUC/AUA (2T26), entre los mayores del mundo, con fuerte crecimiento (+22%).
+- **Fuerte capital**: CET1 del 12,8% (2T26, preliminar), ~160 puntos básicos por encima del requisito regulatorio (4T25), lo que sostiene recompras agresivas.
+- **Marca y depósitos de bajo coste**: franquicia retail en EE. UU. y filiales en mercados clave; base de depósitos de ~1,5 billones USD.
+
+Debilidades competitivas relativas [análisis del agente]: rendimiento sobre capital inferior históricamente al de JPMorgan; complejidad regulatoria heredada (órdenes de consentimiento por fallas en gestión de riesgo y datos); mayor dependencia que pares del negocio de transacciones (menos diversificación en banca de consumo global tras las desinversiones).
+
+---
+
+## 4. Panorama de mercado y competencia
+
+- **Banca de inversión global (bulge bracket)**: Citi es uno de los ocho bancos globales de inversión del "Bulge Bracket" (Wikipedia). Compite con JPMorgan, [[goldman-sachs|Goldman Sachs]], [[morgan-stanley|Morgan Stanley]], Bank of America, Barclays, Deutsche Bank y UBS. En 2025 ganó cuota en fees de banca de inversión (IB fees +20% en FY25; Advisory +53%).
+- **Trading institucional**: compite con JPMorgan, Goldman Sachs, Morgan Stanley, Bank of America y Barclays en FICC y equities. Citi mantiene posición top-3 en Markets (declaración de la CEO en 4T25), con fortaleza relativa en divisas y spread products.
+- **Servicios de pagos/tesorería institucional**: rivales directos: JPMorgan (Payments), Bank of America, BNY Mellon y State Street en custodia. Citi es líder global en pagos transfronterizos de tesorería.
+- **Tarjetas de crédito de consumo en EE. UU.**: Citi es el tercer mayor emisor por saldos (Wikipedia), detrás de Chase (JPMorgan) y Bank of America; compite además con American Express, Capital One y Synchrony en co-branded/Retail Services.
+- **Wealth management**: compite con el canal de patrimonios de JPMorgan (J.P. Morgan Private Bank, Chase), Morgan Stanley, Bank of America (Merrill), UBS y Goldman Sachs. Citi busca crecer en banca privada global y "Wealth at Work".
+
+Posición relativa (comparativa de capitalización bursátil, intraday 14 ago 2026, Yahoo Finance): JPMorgan Chase ~964 mil millones USD; Bank of America ~451 mil millones; HSBC ~357 mil millones; Royal Bank of Canada ~301 mil millones; Wells Fargo ~269 mil millones; **Citi ~234 mil millones**; Banco Santander ~210 mil millones; TD ~205 mil millones; UBS ~176 mil millones. Citi cotiza con un múltiplo precio/valor en libros (~1,2x) por debajo de la mayoría de sus pares estadounidenses, reflejando su historial de menor ROE y el descuento por complejidad/regulación [análisis del agente].
+
+### 4.1 Comparativa de competidores (14 ago 2026, Yahoo Finance)
+
+| Banco | Ticker | Precio (USD) | Cap. bursátil (miles de M USD) | Posición relativa |
+|---|---|---|---|---|
+| JPMorgan Chase | JPM | 362,84 | ~964 | Líder global en banca de inversión y tarjetas; ROE de ~15-16% [NO VERIFICADO] |
+| Bank of America | BAC | 64,49 | ~451 | Gran franquicia retail y de gestión patrimonial (Merrill) |
+| HSBC Holdings | HSBC | 103,79 | ~357 | Líder de banca internacional con base en Asia |
+| Royal Bank of Canada | RY | 216,56 | ~301 | Mayor banco canadiense por capitalización |
+| Wells Fargo | WFC | 88,82 | ~269 | Franquicia retail/financiación de consumo; en recuperación regulatoria |
+| **Citigroup** | **C** | **139,33** | **~234** | **Top-3 global en trading; líder en pagos transfronterizos; menor P/B del grupo** |
+| Banco Santander | SAN | 14,76 | ~210 | Mayor banco de la zona euro por capitalización |
+| Toronto-Dominion | TD | 124,36 | ~205 | Banca canadiense y retail en EE. UU. |
+| UBS Group | UBS | 53,63 | ~176 | Líder global de gestión de patrimonio |
+
+Nota: las capitalizaciones son intraday del 14 ago 2026 (misma fuente y momento, comparables entre sí); los ROE de pares citados son referencia cualitativa y no se verificaron en fuentes primarias [NO VERIFICADO].
+
+Cuota de mercado y fortalezas relativas (cualitativo, [análisis del agente]): en servicios de tesorería transfronterizos y custodia, Citi compite de tú a tú con JPMorgan y está por delante de la mayoría de rivales europeos; en banca de inversión (fees de IB 4 618 M USD en 2025) se sitúa en la mitad-alta del ranking de los grandes bancos estadounidenses, por detrás de JPMorgan, Goldman Sachs y Morgan Stanley; en tarjetas de crédito de EE. UU. es el tercer emisor por saldos (Wikipedia). Su ventaja estructural es la combinación única de red de pagos global + mercados de capitales; su debilidad es el menor tamaño en patrimonio/wealth en EE. UU. frente a Morgan Stanley y Bank of America.
+
+---
+
+## 5. Análisis financiero
+
+### 5.1 Ingresos y márgenes (últimos ejercicios y trimestres)
+
+Fuente: comunicados de resultados de Citi (4T 2025 y 2T 2026), datos estandarizados de StockAnalysis (S&P Global Market Intelligence). "Ingresos" = ingresos totales netos de gastos por intereses (reported basis), como reporta Citi. Importes en millones de USD.
+
+| Ejercicio | Ingresos (as-reported) | Beneficio neto (as-reported) | EPS diluido | ROE | RoTCE |
+|---|---|---|---|---|---|
+| FY2021 | 71 900 [NO VERIFICADO] | 21 900 [NO VERIFICADO] | 10,14 (estandarizado) | n.d. | n.d. |
+| FY2022 | 75 300 [NO VERIFICADO] | 14 800 [NO VERIFICADO] | 7,00 (estandarizado) | n.d. | n.d. |
+| FY2023 | 78 500 [NO VERIFICADO] | 9 200 [NO VERIFICADO] | 4,04 (estandarizado) | n.d. | n.d. |
+| FY2024 | 80 722 (verificado) | 12 682 (verificado) | 5,94 (estandarizado) | 6,1% | 7,0% |
+| FY2025 | 85 225 (verificado) | 14 306 (verificado) | 6,99 (verificado) | 6,8% | 7,7% |
+| 1T 2026 | 24 633 | 5 785 | 3,06 | 11,5% | 13,1% |
+| 2T 2026 | 24 766 | 5 831 | 3,15 | 11,4% | 13,0% |
+
+Notas sobre veracidad: (1) Las cifras de FY2024 y FY2025 provienen directamente del comunicado de Citi del 4T 2025 ("net income of $12.7 billion on revenue of $80.7 billion for the full year 2024" y "$14.3 billion on revenue of $85.2 billion" para 2025). Las de FY2021-FY2023 se citan como referencia de prensa/fuentes secundarias y están marcadas [NO VERIFICADO] (no se verificaron en fuentes primarias en esta sesión); los EPS estandarizados provienen de StockAnalysis. (2) FY2025 incluyó dos partidas notables: pérdida por venta de ~1,2 mil millones USD (antes de impuestos) por la contabilidad "held for sale" de AO Citibank (Rusia) en el 4T25, y deterioro de fondo de comercio de Banamex de 726 M USD (714 M después de impuestos) en el 3T25. Excluyendo notables, el beneficio neto de FY2025 fue de ~16,1 mil millones USD y los ingresos de 86,4 mil millones (comunicado 4T25). (3) Los ingresos as-reported de Citi difieren de la serie "revenue" de StockAnalysis (p. ej. 75 716 M para FY2025), porque los datos estandarizados de terceros excluyen/reclasifican ciertas partidas; la serie de StockAnalysis se usa solo para tendencias estandarizadas.
+
+Cifras de StockAnalysis (serie estandarizada, millones USD): ingresos FY2021 74 990 / FY2022 70 560 / FY2023 70 304 / FY2024 70 946 / FY2025 75 716; beneficio neto 20 758 / 13 700 / 7 850 / 11 458 / 13 021. La diferencia entre la serie estandarizada y la as-reported crece en ejercicios con partidas no recurrentes (ganancias de desinversiones, cargos por FDIC, etc.). [análisis del agente]
+
+Margen: margen neto (beneficio neto/ingresos) del 16,8% en FY2025 y del ~23,5% en el 2T26 (cálculo del agente). Efficiency ratio (gastos/ingresos): 64,7% en FY2025, 57,4% en 2T26 (comunicado 2T26).
+
+Serie trimestral reciente (millones USD; fuente: comunicados de Citi vía StockAnalysis; cifras as-reported):
+
+| Trimestre | Ingresos | Beneficio neto | BPA diluido | Provisiones por pérdidas crediticias |
+|---|---|---|---|---|
+| 3T 2024 | 20 159 | 3 238 | 1,51 | 2 382 |
+| 4T 2024 | 19 470 | 2 856 | 1,34 | 2 563 |
+| 1T 2025 | 21 601 | 4 064 | 1,96 | 2 561 |
+| 2T 2025 | 21 661 | 4 019 | 1,96 | 2 477 |
+| 3T 2025 | 22 095 | 3 752 | 1,86 | 2 259 |
+| 4T 2025 | 19 871 | 2 471 | 1,19 | 2 220 |
+| 1T 2026 | 24 633 | 5 785 | 3,06 | 2 805 |
+| 2T 2026 | 24 766 | 5 831 | 3,15 | 2 522 |
+
+Nota: el 4T 2025 incluye la pérdida por la venta "held for sale" de AO Citibank Rusia (~1,1 mil millones USD después de impuestos); excluyendo esa partida, el beneficio neto del 4T25 fue de ~3,6 mil millones USD y el BPA de 1,81 USD (comunicado 4T25).
+
+### 5.2 Balance (deuda, efectivo, solvencia)
+
+Al 30 jun 2026 (2T26, comunicado Citi; cifras preliminares de capital):
+
+| Concepto | Importe (millones USD) | Nota |
+|---|---|---|
+| Activos totales | 2 894 654 | (2,89 billones USD) |
+| Préstamos brutos | 794 758 | +9% interanual |
+| Provisión por pérdidas crediticias | 19 961 | (ACL sobre préstamos ~20 000 M) |
+| Depósitos totales | 1 492 607 | ~1,5 billones USD, +10% interanual |
+| Deuda a corto plazo (borrowings) | 544 681 | serie estandarizada |
+| Deuda a largo plazo | 290 649 | serie estandarizada |
+| Total pasivos | 2 680 204 | |
+| Patrimonio total | 214 450 | |
+| Patrimonio común (book value) | 192 465 | |
+| Fondo de comercio (goodwill) | 19 012 | |
+| Valor en libros por acción | 114,74 USD | +7% interanual |
+| Valor en libros tangible por acción | 100,89 USD | +7% interanual |
+| Ratio CET1 (preliminar) | 12,8% | vs 12,7% en 1T26; requisito ~11,2% |
+| Supplementary Leverage Ratio (SLR) | 5,2% | |
+
+Notas: (1) En banca, "efectivo" y "deuda" no se interpretan como en empresas industriales: la cartera de inversiones/trading (~1,22 billones USD) es el activo generador de ingresos y los depósitos (~1,49 billones USD) la fuente principal de financiación; el ratio deuda neta/EBITDA no es una métrica relevante. Citi declaró para el 2T26 una ratio CET1 de 12,8%, que ya incorpora la venta de una participación del 22,6% en Banamex durante el trimestre, recompras y dividendos. [análisis del agente] (2) Provisiones totales por pérdidas crediticias de ~22,2 mil millones USD; ratio reserva/préstamos financiados del 2,5% (2T26). Préstamos non-accrual de 3,2 mil millones USD (-4% interanual). (3) Datos estandarizados de balance de StockAnalysis (S&P Global MI), verificados con el comunicado de Citi en las partidas clave (activos, préstamos, depósitos, BVPS, CET1).
+
+Estructura de financiación y liquidez (2T26, comunicado): depósitos ~1,49 billones USD (10% de los activos provienen de la financiación por depósitos de ~1,5 billones; el grueso del activo se financia con depósitos y financiación mayorista de corto plazo). Los depósitos crecieron +10% interanual (impulsados por Services), lo que reduce la dependencia de financiación mayorista. La partida "Total Debt" estandarizada (881 620 M USD) no es deuda operativa comparable con una empresa industrial: incluye financiación mayorista a corto plazo, deuda senior emitida y instrumentos de financiación estructural; Citi mantiene ratios de apalancamiento bajo supervisión (SLR 5,2%) y un colchón CET1 de ~160 pb sobre el requisito (a 4T25). [análisis del agente]
+
+Colchón de capital y plan: el test de estrés anual de la Reserva Federal (CCAR, junio 2026) aprobó el plan de capital de Citi, lo que permitió anunciar el aumento del dividendo del 12% y el plan de recompras de 30 mil millones USD (2T26). Citi fijó como objetivo un CET1 de ~12,6% (Investor Day 2026); al 2T26 se sitúa en 12,8%, con la desinversión de Banamex aportando capital en el trimestre.
+
+### 5.3 Cash flow y rentabilidad (FCF, ROE, ROIC)
+
+- En banca, el flujo de caja operativo está dominado por la variación de depósitos y préstamos (que en la serie estandarizada de StockAnalysis muestran valores negativos grandes: -67 632 M en FY2025 y -18 297 M en el TTM a jun 2026), y el "free cash flow" no es la métrica de creación de valor; la métrica estándar del sector es el retorno sobre capital. [análisis del agente]
+- ROE: 6,8% en FY2025 (afectado por notables), 11,4% en el 2T26. RoTCE: 7,7% en FY2025, 13,0% en el 2T26 (comunicados). Objetivo 2026: 10-11% RoTCE; objetivo a corto plazo (2027-2028): 11-13%; a medio plazo: 14-15% (Investor Day, 7 may 2026).
+- ROE según StockAnalysis (TTM a jun 2026): 8,53%; ROA 0,66%; margen neto 21,83% (datos estandarizados).
+- Eficiencia: 64,7% (FY2025) → 57,4% (2T26); objetivo 2026 de ~60% y <55% a medio plazo (Investor Day).
+
+### 5.4 Perfil de dividendos y recompras
+
+- Dividendo trimestral: 0,53 USD (2024) → 0,56 USD (2025) → 0,60 USD (1T-2T 2026). Con el plan de capital aprobado tras el test de estrés 2026, Citi anunció un aumento del dividendo del 12% (a ~0,67 USD/trimestre, ~2,68 USD anualizados), con fecha ex-dividendo del 3 ago 2026 (Yahoo Finance). Rendimiento ~1,9-2,0% (14 ago 2026).
+- Recompras: 13 mil millones USD en buybacks en 2025 (el mayor retorno de capital desde la pandemia: ~17,6 mil millones USD total entre recompras y dividendos, payout ratio 133% en 2025). En el 2T26 Citi lanzó un plan de recompras de 30 mil millones USD y devolvió ~5,0 mil millones USD en el trimestre (payout ratio 92%). (Comunicados 4T25 y 2T26.)
+- Serie de dividendo por acción (StockAnalysis, USD): FY2021 2,04 / FY2022 2,04 / FY2023 2,08 / FY2024 2,18 / FY2025 2,32.
+- Historia de crecimiento del dividendo trimestral: 0,51 USD (2023) → 0,53 USD (2024) → 0,56 USD (2025) → 0,60 USD (1T-2T 2026) → ~0,67 USD previsto (desde 3T26, +12%). El dividendo se paga trimestralmente; la tasa de repago (payout ratio) del 92% en 2T26 incluye recompras.
+- Recompras y capital total devuelto: ~17,6 mil millones USD en 2025 (13 mil millones en buybacks); ~5,0 mil millones USD en el 2T26; plan de buybacks de 30 mil millones USD anunciado en jul 2026. Con el dividendo aumentado (~2,68 USD/año) y el ritmo de recompras, Citi devolvería anualmente un porcentaje alto de su beneficio neto (~10-11 mil millones USD de capital por trimestre en run-rate 2T26) [análisis del agente].
+- El programa de recompras redujo el número de acciones diluidas de ~1 943 M (2T25) a ~1 736 M (2T26), -11% interanual (StockAnalysis), lo que acelera el crecimiento del BPA por acción.
+
+---
+
+## 6. Valoración
+
+Datos de mercado al 14 ago 2026 (Yahoo Finance / StockAnalysis), salvo indicación.
+
+- Precio: 139,33 USD. Capitalización: ~233,7 mil millones USD.
+- PER (TTM): 15,0-15,2. PER forward: ~11,9-12,4 (consenso para 2026/2027; el fuerte crecimiento de BPA de 2026 -6,99 → ~11-12 USD esperado [análisis del agente, basado en el run-rate de 2T26]- justifica el descuento).
+- Precio/Valor en libros: ~1,21x (sobre BVPS de 114,74 USD); Precio/Valor tangible: ~1,38x (sobre TBVPS de 100,89 USD). Según Yahoo Statistics (10 ago 2026): P/B 1,18.
+- PER histórico (StockAnalysis, estandarizado): FY2025 16,04 / FY2024 11,62 / FY2023 12,54 / FY2022 6,39 / FY2021 5,77. El múltiplo actual está por encima de la media histórica reciente, pero la acción acumula ~49% de subida en 12 meses y ~21% YTD (Yahoo Finance).
+- PEG (5 años esperado): 0,73 (Yahoo Statistics). Precio/Ventas (TTM): 2,66-2,86.
+- Comparación de sector (P/B): Citi (~1,2x) cotiza por debajo de JPMorgan (~2x [NO VERIFICADO]) y por debajo de la mayoría de pares estadounidenses, con descuento histórico consistente con un ROE inferior (6,8% en 2025 vs ~15%+ de JPMorgan [NO VERIFICADO]). [análisis del agente]
+- Consenso de analistas: objetivo de precio medio de 154,50 USD (rango 129-176); calificaciones mayoritarias de Buy/Strong Buy (Truist Buy; UBS Neutral con PT 150→142 el 3 ago 2026). Precio actual ~10% por debajo del objetivo medio.
+
+Interpretación del agente [análisis del agente]: con un PER forward de ~12x y P/B ~1,2x, la valoración no es exigente para un banco que acelera su retorno (RoTCE 13% en 2T26, objetivo 11-13% en 2027-28) y devuelve capital a ritmo agresivo (~30 mil millones USD en buybacks autorizados). El riesgo principal es que la revalorización ya incorpore mucha de la mejora esperada: a 2T26 el BPA anualizado sería ~12 USD, y el precio actual capitaliza esa mejora, dejando poco margen de error si el ciclo crediticio empeora o el negocio de Markets se normaliza. Valoración razonable/ligeramente rica si se descuenta la mejora completa; atractiva si la rentabilidad se sostiene. Cauto sesgo alcista, con tolerancia baja al deterioro crediticio.
+
+---
+
+## 7. Noticias recientes y catalizadores
+
+Hechos relevantes de los últimos 12 meses (con fechas):
+
+- **15 dic 2025**: Citi completó la venta del 25% de Grupo Financiero Banamex (México); el acuerdo se había anunciado en sept 2025 con un deterioro de fondo de comercio de 726 M USD (714 M después de impuestos) registrado en el 3T25 (comunicado 4T25).
+- **29 dic 2025 / 4T25**: Citi adoptó la contabilidad "held for sale" para AO Citibank (Rusia), con una pérdida de ~1,2 mil millones USD antes de impuestos (~1,1 mil millones después de impuestos) en el 4T25 (comunicado 4T25).
+- **14 ene 2026**: resultados del 4T y FY2025: ingresos récord de 85,2 mil millones USD; retorno de ~17,6 mil millones USD de capital en 2025; CET1 13,2%; objetivo de RoTCE de 10-11% para 2026 (comunicado 4T25).
+- **7 may 2026**: 2026 Investor Day: la dirección presentó objetivos de RoTCE de 11-13% (2027-28) y de 14-15% a medio plazo, eficiencia <55% a medio plazo, y CET1 objetivo de 12,6%; se confirmó la estructura de cinco negocios y Gonzalo Luchetti como CFO (transcript Investor Day).
+- **14 jul 2026**: resultados del 2T 2026: mejor trimestre de ingresos de la década (24,8 mil millones USD, +14%); beneficio neto +45% (5,8 mil millones USD, BPA 3,15); anuncio de aumento del dividendo del 12% y lanzamiento de un plan de recompras de 30 mil millones USD; venta del 22,6% adicional de Banamex en el trimestre (comunicado 2T26).
+- **3 ago 2026**: ex-dividendo del trimestre (con el nuevo dividendo aumentado del 12%).
+- **~13-14 ago 2026**: Citi (U.S. Consumer Cards) firmó acuerdo para adquirir **Kard Financial**, plataforma de recompensas y "commerce media" (recompensas financiadas por comerciantes); términos no divulgados, transacción no material (Retail Banker International, 14 ago 2026).
+- **~14 ago 2026**: comentarios de la CEO sobre la ley de criptoactivos de EE. UU. (CLARITY Act), calificándola de positiva para el sistema, en línea con la apuesta del banco por capacidades de activos digitales (CCN, 14 ago 2026).
+
+Catalizadores a futuro:
+
+- Cierre de la venta restante de Banamex (la desinversión de México estaba "muy avanzada" al may 2026, según la CEO) y de la venta de AO Citibank en Rusia, que liberan capital y simplifican el balance.
+- Ejecución del objetivo de RoTCE (10-11% en 2026, 11-13% en 2027-28): cada punto de mejora sostenida del RoTCE justifica un re-rating del múltiplo [análisis del agente].
+- Ciclo alcista de banca de inversión (IB fees +44% en 2T26, con ECM +92%): si el ciclo se mantiene, Banking es el segmento con mayor apalancamiento operativo.
+- Crecimiento de Services (RoTCE ~31%) y de Wealth (lanzamiento de la plataforma "Citi Sky", 9 trimestres de crecimiento).
+- Inversión en U.S. Consumer Cards (onboarding de la cartera co-branded de American Airlines en 2T26; adquisición de Kard) y en capacidades de IA y activos digitales.
+- Resultados del 3T 2026: 13 oct 2026.
+
+### 7.1 Cronología de las desinversiones (transformación 2022-2026)
+
+| Fecha | Evento |
+|---|---|
+| 2022-2024 | Venta de las franquicias de banca de consumo en Asia (India, China, Taiwán, Indonesia, Filipinas, Vietnam, Malasia, Tailandia, Corea, Australia, Bahréin) y otros mercados no estratégicos |
+| 2024 | Venta de la franquicia de consumo en Europa (incluida la banca minorista en Alemania, Reino Unido, España, Francia, Hungría, etc.) a distintos compradores |
+| Sep 2025 | Anuncio del acuerdo para vender el 25% de Grupo Financiero Banamex; deterioro de fondo de comercio de 726 M USD (714 M después de impuestos) registrado en el 3T25 |
+| Dic 2025 | Cierre de la venta del 25% de Banamex (15 dic 2025); contabilidad "held for sale" para AO Citibank (Rusia) con pérdida de ~1,2 mil millones USD en el 4T25 |
+| 2T 2026 | Venta de un 22,6% adicional de Banamex (impacto neto positivo en CET1 en el 2T26); la desinversión restante prevista a corto plazo |
+| May 2026 | Investor Day: "Polonia y Banamex muy avanzados" en los exits de consumo |
+
+Fuente: comunicados de resultados de Citi 4T25 y 2T26; Investor Day 2026.
+
+---
+
+## 8. Riesgos
+
+Riesgos específicos de la empresa:
+
+- **Ejecución de la transformación**: Citi arrastra órdenes de consentimiento regulatorias (de 2020 y 2024) por deficiencias en gestión de riesgo, control interno y datos. El incumplimiento de hitos puede retrasar el plan de capital y limitar recompras (los planes de capital se revisan anualmente). En 2T26 la eficiencia mejoró a 57,4%, pero sigue por encima de pares eficientes.
+- **Calidad crediticia en consumo**: la cartera de tarjetas de crédito de EE. UU. (USCC, ~177 mil millones USD de préstamos medios en 2T26) es sensible al ciclo; Citi está creciendo agresivamente la adquisición de cuentas (5,38 millones en 2T26), lo que eleva el riesgo de adverso selección si el crédito se deteriora.
+- **Riesgo de mercados y trading**: el segmento Markets depende de la volatilidad y los volúmenes; un entorno de baja volatilidad o un mal trimestre de trading impacta el resultado global.
+- **Concentración en depósitos de Services**: la rentabilidad del mayor segmento depende de saldos de depósitos de clientes corporativos, que pueden migrar si bajan los tipos de interés o empeora la relación con clientes.
+- **Desinversiones en curso**: ventas de Banamex y de la franquicia rusa (esta última con exposición a conflictos geopolíticos) conllevan riesgo de valoración, contabilidad y regulatorio.
+
+Riesgos sectoriales / macro:
+
+- **Tipos de interés**: el margen de interés neto (NII) depende de la curva de tipos y de la sensibilidad del activo; Citi indicó que está reduciendo su sensibilidad a tasas (Corporate/Other negativo en 2T26 por ese motivo).
+- **Recesión / deterioro crediticio**: un aumento del desempleo en EE. UU. elevaría las pérdidas en tarjetas y en crédito al consumo, y encarecería el provisionamiento.
+- **Regulación bancaria**: requisitos de capital (Basilea III, buffer de capital contracíclico), posibles cambios en la regulación de tasas de tarjetas de crédito, impuestos (ganancias no realizadas) y las evaluaciones anuales del test de estrés de la Reserva Federal condicionan el retorno de capital.
+- **Conflicto geopolítico**: la guerra en Oriente Medio (energía, inflación), las tensiones entre EE. UU. e Irán, y la guerra comercial/aranceles afectan a un banco con red global; el propio Citi lista entre sus factores de riesgo los conflictos en Oriente Medio y la inflación elevada (comunicado 2T26). Rusia: Citi sigue saliendo de esa franquicia con pérdidas reconocidas.
+
+Riesgos regulatorios / geopolíticos:
+
+- Multas y sanciones históricas y potenciales (manipulación de mercados, lavado de dinero, incumplimientos AML/KYC en varias jurisdicciones; ver sección de litigios en Wikipedia).
+- Exposición a monedas con inflación severa (p. ej., Argentina) que distorsionan resultados.
+- Mayor escrutinio político en EE. UU. sobre bancos sistémicos y sobre tarjetas de crédito (topes a tasas, reglas de recompensas).
+
+---
+
+## 9. Perspectiva del agente
+
+Resumen ejecutivo [análisis del agente]:
+
+Citigroup atraviesa un punto de inflexión ejecutable: tras años de transformación (desinversión de franquicias de consumo no estratégicas, simplificación organizativa, reconstrucción de controles), la empresa reportó en el 2T 2026 su mejor trimestre de ingresos en una década (+14% interanual, 24,8 mil millones USD), con beneficios netos +45%, RoTCE de 13,0% y mejora de la eficiencia al 57,4%. La dirección mantiene objetivos creíbles (RoTCE 10-11% en 2026, 11-13% en 2027-28, camino a 14-15%) y ha comenzado a devolver capital con intensidad (recompras de 13 mil millones USD en 2025, plan de 30 mil millones lanzado en jul 2026, dividendo +12%).
+
+Tesis a favor:
+
+- Franquicia de pagos/tesorería global líder con moat real (6 billones USD/día; ~90% del Fortune 500) y RoTCE del segmento ~31%.
+- Recuperación del ciclo de banca de inversión con apalancamiento operativo (IB +44% en 2T26).
+- Valoración poco exigente (PER forward ~12x, P/B ~1,2x) frente a mejora demostrada de rentabilidad.
+- Capital fuerte (CET1 12,8%) y devolución agresiva de capital a los accionistas.
+
+Tesis en contra:
+
+- Descuento histórico por bajo ROE y por la sombra regulatoria (órdenes de consentimiento); el mercado exige evidencia de que la mejora de 2T26 es durable.
+- Sensibilidad crediticia: el crecimiento agresivo de tarjetas y una posible recesión podrían revertir la mejora de beneficios.
+- Parte del re-rating ya está en el precio (~+49% en 12 meses); el PER forward ~12x asume que la mejora de BPA se materializa plenamente.
+- Markets y Corporate/Other pueden penalizar trimestres futuros (volatilidad de trading, coste de reducir la sensibilidad a tasas).
+
+Sesgo del agente: **constructivo / alcista moderado**, con valoración razonable y descuento justificado pero decreciente. Riesgo principal: deterioro crediticio o incumplimiento de objetivos de rentabilidad; catalizadores positivos: cierre de desinversiones, continuidad del ciclo de IB y sostenibilidad del RoTCE >12%. Esto no es asesoramiento de inversión.
+
+---
+
+## 10. Fuentes
+
+Fuentes consultadas (acceso el 15 ago 2026):
+
+- Yahoo Finance, ficha de C (precio, capitalización, PER, rango 52 semanas, dividendo, noticias, comparativas): https://finance.yahoo.com/quote/C/
+- Citi, Investor Relations (página principal; resultados 2T26 y próximas fechas): https://www.citigroup.com/global/investors
+- Citi, comunicado de resultados del 2T 2026 (PDF, 14 jul 2026): https://www.citigroup.com/rcs/citigpa/storage/public/Earnings/Q22026/2026prqtr2rslt.pdf
+- Citi, comunicado de resultados del 4T y FY2025 (PDF, 14 ene 2026): https://www.citigroup.com/rcs/citigpa/storage/public/Earnings/Q42025/2025prqtr4rslt.pdf
+- Citi, 2026 Investor Day (7 may 2026): presentaciones y transcripts: https://www.citigroup.com/global/investors/events-and-presentations/investor-day-2026
+- Citi, transcript de la presentación del CEO (Investor Day 2026): https://www.citigroup.com/rcs/citigpa/storage/public/investor-day/citi-ID26-ceo-presentation-transcript.pdf
+- Citi, transcript del CFO Gonzalo Luchetti (Investor Day 2026): https://www.citigroup.com/rcs/citigpa/storage/public/investor-day/citi-ID26-financial-overview-transcript.pdf
+- StockAnalysis, finanzas de Citigroup (ingresos, balance, segmentos, dividendos, ratios; datos de S&P Global Market Intelligence): https://stockanalysis.com/stocks/c/financials/
+- StockAnalysis, estado de resultados trimestral de Citigroup: https://stockanalysis.com/stocks/c/financials/income-statement/?p=quarterly
+- StockAnalysis, balance de Citigroup: https://stockanalysis.com/stocks/c/financials/balance-sheet/
+- Wikipedia, "Citigroup" (historia, estructura, datos corporativos): https://en.wikipedia.org/wiki/Citigroup
+- Retail Banker International / Yahoo Finance, "Citi seals deal to buy reward platform Kard Financial" (14 ago 2026): https://finance.yahoo.com/technology/articles/citi-seals-deal-buy-reward-115117583.html
+- Yahoo Finance, noticias relacionadas (Zacks, Morningstar, Argus, CCN sobre la CLARITY Act, citadas en la ficha de C): https://finance.yahoo.com/quote/C/news/
+
+Nota metodológica: las cifras de resultados y balance provienen de los comunicados oficiales de Citi (fuente primaria); los datos de mercado (precio, PER, capitalización, dividendo) de Yahoo Finance y StockAnalysis al 14 ago 2026; los datos históricos de Wikipedia/StockAnalysis se utilizan como referencia secundaria y se marcan como [NO VERIFICADO] cuando no se contrastaron con fuentes primarias. El etiquetado "análisis del agente" distingue interpretación y cálculo propios de los datos reportados.
+
+---
+
+*Página generada por agente autónomo. Fecha de corte: 2026-08-15.*
+*Verificar cifras de mercado en la fuente citada antes de decisiones de inversión.*

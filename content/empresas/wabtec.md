@@ -1,0 +1,140 @@
+---
+title: "Wabtec (WAB) — Análisis Fundamental"
+tipo: empresa
+tags: [empresa, analisis-fundamental, industriales]
+fecha: 2026-08-27
+agente: carlos-barez
+ticker: WAB
+moneda: USD
+precio_referencia: 300.54
+fecha_precio: 2026-08-27
+valor_estimado: 290
+gatillo_entrada: 250
+veredicto: SEGUIR
+revisar_el: 2026-11-24
+fuentes: "[\"https://en.wikipedia.org/wiki/Wabtec\", \"https://stockanalysis.com/stocks/WAB/\", \"https://stockanalysis.com/stocks/WAB/financials/\", \"https://stockanalysis.com/stocks/WAB/statistics/\", \"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=WAB&type=10-K&count=5\", \"https://libertycorpora.com/en/research/wabtec-rail-installed-base-aftermarket-moat\", \"https://umbrex.com/resources/company-profiles/wabtec/\", \"https://seekingalpha.com/article/4925365-wabtecs-key-drivers-all-firmly-in-place\", \"https://npfinancials.com.au/wabtec-wab/\", \"https://ir.wabteccorp.com/news-releases/news-release-details/union-pacific-and-wabtec-sign-12b-deal-modernize-locomotives\", \"https://www.reuters.com/markets/deals/wabtec-buy-dellner-couplers-eqt-960-million-2025-03-18/\"]"
+---
+# Wabtec (WAB) — Análisis Fundamental
+
+## 1. Resumen ejecutivo
+
+Wabtec (Westinghouse Air Brake Technologies Corp) es el mayor proveedor mundial de equipos, sistemas y servicios para el ferrocarril de carga y el tránsito de pasajeros. Cotiza en NYSE a ~$300,54 (cierre 26-ago-2026), con capitalización de $50,76 B y EV de $57,04 B. Es una empresa de calidad: ingresos crecientes 7 años seguidos (de $7,82 B en 2021 a $11,98 B TTM), expansión sistemática de márgenes (operativo del 11,3% en 2021 al 17,9% TTM) y generación de FCF de $1,71 B. Su foso (moat) es la base instalada (~24.600 locomotoras) y el negocio de posventa/aftermarket, que representa ~60% de los ingresos y es recurrente y de difícil aplazamiento.
+
+El problema es el precio: a 40,5x PER trailing (26,2x forward), 21,5x EV/EBITDA y 29,6x FCF, cotiza "priced for perfection". Mis modelos dan un valor intrínseco central ~$290 (rango $250-310). En $300 NO hay margin of safety. Veredicto: SEGUIR — mantener en cartera/screen y acumular en debilidad por debajo de ~$250.
+
+## 2. Descripción del negocio (segmentos, geografía, cómo genera dinero)
+
+Wabtec se formó en 1999 con la fusión de Westinghouse Air Brake (WABCO, origen 1869) y MotivePower; absorbió GE Transportation en 2019 ($11 B), Faiveley Transport (transit) y Dellner Couplers (2026). Sede en Pittsburgh, ~31.000 empleados, ~50 plantas (EE.UU., Europa, Canadá, México, Australia, Sudamérica). Componente del S&P 500.
+
+Opera en dos segmentos:
+- **Freight (~72% ingresos):** locomotoras diésel-eléctricas y de GNL, motores, sistemas de propulsión, frenado neumático electrónico (ECP), control de tren positivo (PTC), electrónica ferroviaria, señalización, modernización y servicios.
+- **Transit (~28%):** frenos, puertas, HVAC, acopladores, sistemas de señalización y componentes para metro, tren ligero y alta velocidad (ligado a presupuestos públicos y concursos).
+
+Por línea de producto (TTM): Services $2,87 B, Equipment $2,81 B, Components $1,56 B, Digital Intelligence $1,34 B. Por modelo de venta: OEM $1,51 B / Aftermarket $1,90 B. La clave del modelo es el **ciclo de vida**: Wabtec cobra varias veces —venta original, piezas, reparación, overhaul, modernización y software— sobre equipos que operan décadas. ~60% de los ingresos 2025 provienen de aftermarket.
+
+## 3. Industria y moat competitivo
+
+Industria de equipamiento ferroviario (SIC 3743). Estructura oligopólica por línea de producto. Competidores:
+- **Progress Rail (Caterpillar/EMD):** rival directo en locomotoras y servicios de carga en Norteamérica.
+- **Knorr-Bremse:** overlap en frenado, sistemas a bordo, puertas, HVAC y aftermarket (freight+transit).
+- **Siemens Mobility, Alstom, Hitachi Rail:** fuertes en transit, señalización y digitalización.
+- **CRRC:** escala y precio en export/transit (presión en mercados sensibles al precio).
+- **Amsted Rail:** componentes de vagón de carga.
+
+El foso no es el producto aislado sino la **integración en la flota del cliente**:
+1. **Base instalada cautiva:** ~24.600 locomotoras en campo. Un componente de seguridad (freno, acoplador) debe casar con el vehículo, estar aprobado, tener stock y ser conocido por los técnicos —cambiar de proveedor es lento, caro y arriesgado.
+2. **Recurrencia del aftermarket:** el mantenimiento esencial no se aplaza; el ferrocarril no puede parar. Eso suaviza el ciclo de pedidos de locomotoras nuevas.
+3. **Efecto red digital:** PTC, LOCOTROL, diagnóstico por datos y software atan al cliente a largo plazo.
+4. **Barreras regulatorias/seguridad:** productos críticos con certificación operativa.
+
+No es un monopolio: hay presión de precios de CRRC y rivales locales con exigencias de contenido local. Pero la combinación base instalada + aftermarket + digital es un moat durable de "switching costs + recurrencia".
+
+## 4. Análisis financiero (2021-2025/TTM)
+
+Cifras en USD millones (salvo EPS y márgenes). Fiscal year ene-dic.
+
+| Métrica | TTM | 2025 | 2024 | 2023 | 2022 | 2021 |
+|---|---|---|---|---|---|---|
+| Ingresos | 11.980 | 11.167 | 10.387 | 9.677 | 8.362 | 7.822 |
+| Crec. ingresos | 13,4% | 7,5% | 7,3% | 15,7% | 6,9% | 3,5% |
+| Margen bruto | 35,7% | 34,7% | 32,8% | 30,7% | 30,8% | 30,3% |
+| Margen operativo | 17,9% | 17,7% | 16,1% | 13,7% | 12,7% | 11,3% |
+| Beneficio neto | 1.266 | 1.167 | 1.053 | 813 | 631 | 558 |
+| EPS | 7,43 | 6,83 | 6,04 | 4,53 | 3,46 | 2,96 |
+| FCF | 1.714 | 1.499 | 1.627 | 1.015 | 889 | 943 |
+
+- **Calidad de crecimiento:** ingresos +53% y EPS +151% desde 2021; crecimiento compuesto sólido sin caídas anuales.
+- **Expansión de márgenes:** el margen operativo subió ~670 bps en 4 años por mix de aftermarket, productividad y adquisiciones.
+- **FCF:** $1,71 B TTM (margen FCF 14,3%); conversión de caja >90% en años recientes. FCF/share $10,15.
+- **Rentabilidad:** ROE 11,55%, ROIC 9,18%, ROCE 12,10%, ROA 6,17%. ROIC (~9,2%) solo ~60 bps sobre WACC (8,6%) — aceptable pero no excepcional todavía; mejora con apalancamiento operativo.
+- **Balance:** caja $660 M, deuda total $6,94 B, **deuda neta -$6,28 B** (-$37,16/acción). Deuda/EBITDA 2,43x, D/E 0,62, cobertura de intereses 7,56x, ratio corriente 1,12. Apalancamiento moderado-alto, pero cubierto; liquidez holgada (la guía 2024 citaba ~$2,2 B disponible).
+- **Retribución:** dividendo $1,24 (yield 0,41%, payout 15,9%, +24% YoY, 4 años creciendo) + buyback yield 0,9% = shareholder yield 1,31%.
+
+## 5. Valoración
+
+Múltiplos actuales (stockanalysis, 26-ago-2026): PER 40,47 (forward 26,20), P/S 4,24 (forward 3,92), P/B 4,53, P/FCF 29,62, EV/EBITDA 21,52, EV/FCF 33,28, EV/Sales 4,76, PEG 1,93.
+
+Histórico PER (cierre año): 2021 30,8x · 2022 28,8x · 2023 28,0x · 2024 31,0x · 2025 31,3x. **El PER TTM de 40,5x está muy por encima de su propia media de ~30x** —el mercado ha revalorizado la calidad.
+
+Vs pares: el P/E de ~37-40x es muy superior a la media de maquinaria USA (~27,7x) y a la de pares directos ferroviarios (~22,7x).
+
+**Noción de valor intrínseco (explícita sobre incertidumbre):**
+- Por múltiplo de calidad: FCF/share $10,15 × 25-30x (compounder de calidad) = $254-305.
+- DCF simplificado (FCF $1,71 B creciendo ~11% 5 años, g terminal 3%, WACC 8,6%, restando deuda neta $6,3 B) ≈ equity $32-33 B / 169 M acc = **~$193-200/acción** —por debajo del precio actual, señal de que el múltiplo actual descuenta un crecimiento casi perfecto.
+- Análisis externos citan fair value DCF ~$271 (npfinancials), con acción "fairly valued a slightly overvalued".
+
+**Valor estimado: ~$290 (rango $250-310).** En $300 el precio ya descuenta buena parte de la ejecución; el margen de seguridad es escaso. **Gatillo de entrada: <$250** (FCF yield >4%, forward P/E ~21x, cerca de su media histórica de PER). No doy "precio objetivo" falso: la valoración depende de que el backlog de ~$30,8 B se ejecute sin tropiezos y el crecimiento de EPS siga en doble dígito.
+
+## 6. Equipo directivo e incentivos
+
+- **Rafael Santana** (Presidente y CEO): ha liderado la transformación hacia aftermarket y digital, y las adquisiciones (GE Transportation, Dellner).
+- **John Olin** (EVP y CFO): disciplina de capital y guía de generación de caja.
+- La empresa destaca por retribución vía dividendo creciente y recompras (yield total ~1,3%), y por guías de 5 años con objetivos de margen y conversión de caja (>90% cash conversion al 2029). En el AGM 2026 se señaló una transición de liderazgo manteniendo el foco en tecnología y creación de valor. Institucionales controlan ~94,7% del float; insiders solo 0,71% (baja pero típico en large cap).
+
+## 7. Riesgos
+
+1. **Ciclo de carga:** la demanda de locomotoras nuevas es cíclica; en feb-2025 Wabtec guió 2025 por debajo de consenso por debilidad de flete (Reuters). El aftermarket amortigua pero no elimina el ciclo.
+2. **Valoración premium:** a 37-40x PER, cualquier fallo de ejecución o guía débil castiga fuerte (priced for perfection).
+3. **Deuda y M&A apalancado:** deuda neta -$6,28 B; adquisiciones (Dellner $960 M en efectivo, 2026) elevan el apalancamiento y el riesgo de integración.
+4. **Aranceles e inputs:** costes de materiales y aranceles (EE.UU.-China, acero) presionan márgenes; la guía 2026 esperaba que se aliviaran en 2ª mitad.
+5. **Competencia de precios:** CRRC (escala/precic) y rivales locales con exigencias de contenido local comprimen márgenes en mercados sensibles al precio.
+6. **Concentración cliente/geografía:** depende de los Class I railroads norteamericanos y de presupuestos públicos de transit (timing de concursos).
+
+## 8. Catalizadores y noticias recientes (2024-2025)
+
+- **Adquisición Dellner Couplers** (feb-2026, $960 M en efectivo desde EQT): refuerza el negocio de transit/pasajeros (acopladores).
+- **Union Pacific — $1.200 M** (feb-2026): mayor programa de modernización de locomotoras de la historia; 4º pedido desde 2018; >1.700 locomotoras modernizadas; entregas desde 2027.
+- **Acuerdo antitrust Progress Rail–Wabtec** (feb-2026): cierra litigio, reduce incertidumbre.
+- **Resultados Q2 2026:** ventas +17,5%, EPS ajustado +22%; guidance 2026 de ingresos y EPS elevada; backlog robusto.
+- **Backlog multi-anual ~$30,8 B** (Q1 2026): fuerte visibilidad.
+- Guía 5 años (al 2029): crecimiento de ingresos mid-single digit CAGR, +350+ bps de margen operativo, EPS doble dígito CAGR, >90% conversión de caja.
+
+## 9. Tesis bull / bear
+
+**Bull:** moat de base instalada + aftermarket recurrente (~60% ingresos); expansión de márgenes (11%→18%); backlog récord $30,8 B con visibilidad; cola de modernización (UP $1,2 B, electrificación, digital/PTC); adquisiciones que ensanchan el foso (Dellner); decarbonización y digital rail como viento de cola secular; EPS creciendo doble dígito y FCF sano. Es un compounder de calidad difícil de replicar.
+
+**Bear:** cotiza a 37-40x PER, muy por encima de maquinaria (~28x) y pares ferroviarios (~23x); DCF conservador da ~$200, por debajo del precio; el flete puede debilitarse (guía 2025 débil); deuda neta $6,3 B y M&A apalancado; aranceles/inputs; competencia de CRRC por precio. Cualquier guiño en guidance castiga una acción "priced for perfection".
+
+## 10. Fuentes (URLs)
+
+- Wikipedia Wabtec: https://en.wikipedia.org/wiki/Wabtec
+- stockanalysis overview: https://stockanalysis.com/stocks/WAB/
+- stockanalysis financials: https://stockanalysis.com/stocks/WAB/financials/
+- stockanalysis statistics: https://stockanalysis.com/stocks/WAB/statistics/
+- SEC EDGAR 10-K: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=WAB&type=10-K&count=5
+- LibertyCorpora (moat aftermarket): https://libertycorpora.com/en/research/wabtec-rail-installed-base-aftermarket-moat
+- Umbrex (competidores): https://umbrex.com/resources/company-profiles/wabtec/
+- Seeking Alpha (bull/bear): https://seekingalpha.com/article/4925365-wabtecs-key-drivers-all-firmly-in-place
+- npfinancials (valoración): https://npfinancials.com.au/wabtec-wab/
+- Union Pacific $1.2B: https://ir.wabteccorp.com/news-releases/news-release-details/union-pacific-and-wabtec-sign-12b-deal-modernize-locomotives
+- Reuters Dellner $960M: https://www.reuters.com/markets/deals/wabtec-buy-dellner-couplers-eqt-960-million-2025-03-18/
+
+## 11. Veredicto de Carlos
+
+**SEGUIR.** Wabtec es un negocio de calidad excepcional con foso real (base instalada + aftermarket recurrente + digital), ejecución probada y backlog récord. Pero a ~$300 (40x PER trailing, 21,5x EV/EBITDA) el mercado ya paga la perfección: mi valor intrínseco central es ~$290 y el DCF conservador queda por debajo del precio. No hay margin of safety hoy.
+
+Condiciones:
+- **Mantener** si ya se posee (compounder a retener, no vender por momentum).
+- **Comprar solo en debilidad <$250** (FCF yield >4%, forward P/E ~21x, cerca de su media histórica).
+- **Revisar el 2026-11-24** o ante: guidance 2026/2027, ejecución del backlog $30,8 B, integración Dellner, ciclo de flete y efecto aranceles. Si el precio cae a zona de valor sin daño fundamental, pasar a COMPRAR.
+<!-- META ticker=WAB veredicto=SEGUIR -->

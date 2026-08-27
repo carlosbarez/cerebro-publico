@@ -1,0 +1,97 @@
+---
+title: "Arm Holdings (ARM) — Reino Unido, cotiza en Nasdaq en dólares (USD)"
+tipo: empresa
+tags: [empresa, semiconductores, reino-unido]
+fecha: 2026-08-24
+agente: carlos
+fuentes: "[\"https://stockanalysis.com/stocks/arm/\", \"https://stockanalysis.com/stocks/arm/financials/\", \"https://www.sec.gov/Archives/edgar/data/1973239/000197323926000113/exhibit992fye27q130-junx26.htm\", \"https://newsroom.arm.com/news/arm-q1-fye27-results\", \"https://newsroom.arm.com/news/arm-q4-fye26-results\", \"https://finance.yahoo.com/technology/ai/articles/arm-forecasts-quarterly-revenue-above-200538396.html\", \"https://www.marketscreener.com/quote/stock/ARM-HOLDINGS-PLC-159091235/valuation/\", \"https://www.electronicspecifier.com/news/risc-v-v-arm-is-arm-becoming-its-own-worst-enemy/\"]"
+ticker: ARM
+---
+# Arm Holdings (ARM) — Reino Unido, cotiza en Nasdaq en dólares (USD)
+
+## Identidad
+
+Propietaria de la arquitectura de procesador que mueve el mundo *low-power*: diseña núcleos CPU y el conjunto de instrucciones (ISA, *instruction set architecture*), los **licencia** a fabricantes de chips (Apple, [[qualcomm]], [[nvidia]], MediaTek, Samsung…) y cobra una **regalía (*royalty*) por cada chip enviado**. No fabrica ni (hasta marzo-2026) vendía chips: el *royalty* puro. Desde marzo-2026 tiene un tercer motor: su primer chip propio, el **Arm AGI CPU** (136 núcleos, 3 nm de [[tsmc]], co-diseñado con [[meta-platforms]]), con demanda contratada >$2B para FY27-28. Sede en Cambridge (Reino Unido). **Capitalización $253,7B · EV ≈ $250,3B** (24-ago-2026, cálculo propio restando caja neta). Flotante libre ~9,9% (MarketScreener, ago-26): el resto, mayoría aplastante de SoftBank — explica la beta 3,91 y los movimientos violentos. Candidata de la industria [[semiconductores-logica-y-computo-ia]].
+
+## Cuenta de resultados (5 años + TTM; ejercicios fiscales terminan el 31 de marzo; GAAP en $M, EPS tal como publica la fuente, sin constancia de splits en el periodo)
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 | TTM (jun-26) |
+|---|---|---|---|---|---|---|
+| Ingresos | 2.703 | 2.679 | 3.233 | 4.007 | 4.920 | 5.156 |
+| Crecimiento | +33,4% | −0,9% | +20,7% | +23,9% | +22,8% | +25,1% |
+| Margen bruto | 95,2% | 96,0% | 95,2% | 97,0% | 97,5% | 97,5% |
+| Margen operativo (GAAP) | 25,2% | 26,6% | 2,4% | 20,7% | 18,5% | 17,3% |
+| Margen neto | 20,3% | 19,6% | 9,5% | 19,8% | 18,4% | 20,3% |
+| EPS (GAAP, $) | 0,54 | 0,51 | 0,29 | 0,75 | 0,85 | 0,98 |
+
+(Fuente series: stockanalysis.com, consultado 24-ago-2026.)
+
+- **Desglose por motor**: Licencias y otros: 1.142 → 1.004 → 1.431 → 1.839 → 2.307 → TTM 2.413. Regalías: 1.562 → 1.675 → 1.802 → 2.168 → 2.613 → TTM 2.743 (~53% del total). Tres ejercicios consecutivos creciendo >20% desde la salida a bolsa (newsroom, may-26).
+- CAGR FY22→FY26: **+16,2%/año**; desde el valle FY23: **+22,5%/año** (cálculo propio).
+- Último trimestre (Q1 FYE27, cerrado 30-jun-2026, publicado 29-jul-2026): ingresos **récord para un primer trimestre, $1.289M (+22%)**; regalías $715M (+22%, **las de centro de datos más que duplicadas**); licencias $574M (+23%); EPS no-GAAP $0,45 (+29%), margen operativo no-GAAP 41,2% (vs 39,1%). En GAAP: margen operativo 7,1% y beneficio neto $270M — la brecha la crea el SBC (*stock-based compensation*) y la inversión. ACV (*annualized contract value*, comisiones de licencia comprometidas y anualizadas, excluye regalías): **$1.732M, +13%**. Guía Q2: ingresos $1.380M ±50M (consenso $1.340M), EPS no-GAAP $0,47 ±0,04. La acción cayó ~7% tras resultados por la debilidad de regalías de *smartphone* (escasez de memoria, CFO Jason Child).
+- Dato estructural del 10-K FY26: los procesadores de aplicaciones **móviles son el 43% de las regalías** — madurez del mercado principal.
+- Consenso (MarketScreener, 12-ago-26): FY27e ingresos $6.044M y NI $1.339M; FY28e $8.193M/$1.974M; FY29e $10.752M/$2.908M (EPS $2,638).
+
+## Balance (30-jun-2026)
+
+- Caja + inversiones corto plazo: **$3.888M** · Deuda total: **$485M** · **Posición neta de caja $3.403M** ($3,18/acción).
+- Patrimonio ≈ $8,3B (implícito en ROE 10,9% de GoodMoat con NI $904M FY26); total activos $10.703M a 31-mar-26 (SEC).
+- Deuda neta/EBITDA: negativa (≈ −1,3× sobre EBITDA FY26 de $2.364M, MarketScreener — cálculo propio). Cobertura de intereses: sin sentido práctico, la deuda financiera es residual.
+- Fortaleza total: munición para una guerra de plataformas sin presión de financiación externa.
+
+## Flujo de caja
+
+| $M | FY22 | FY23 | FY24 | FY25 | FY26 | TTM (jun-26) |
+|---|---|---|---|---|---|---|
+| FCO | 458 | 739 | 1.090 | 397 | 1.524 | 2.094 |
+| Capex | −34 | −64 | −92 | −219 | −545 | −588 |
+| FCF | 424 | 675 | 998 | 178 | 979 | 1.506 |
+
+- Conversión FCF/beneficio neto: **TTM 144%**, FY26 108%… pero FY25 22% — el negocio de licencias es *lumpy* (contratos grandes a tiempo discreto) y la conversión anual baila.
+- **El capex se ha multiplicado ×16 en cuatro años** (34 → 545M$): fin del modelo puro *asset-light*. Es el precio de fabricar el AGI CPU (inventario, RMAs, cadena física — riesgos que la compañía nunca había tenido, admite el CEO Rene Haas).
+- Métrica propia de la casa (no-GAAP): FCF FY26 $882M vs $99M FY25; Q1 FYE27 $665M.
+- Dividendo: ninguno. Recompras: ninguna localizada [Sin datos: programa de recompras en marcha].
+
+## Calidad y retorno
+
+- ROE **10,9%** · ROA 8,45% (GoodMoat, sobre FY26/TTM) — bajos por el balance hinchado de la OPI y la caja ociosa.
+- ROIC ≈ **13–14%** (cálculo propio aproximado: NOPAT ≈ EBIT FY26 $908M × (1−~22% tipo efectivo) ≈ $709M sobre capital invertido ≈ patrimonio + deuda − caja ≈ $5,2B).
+- Reinversión: históricamente mínima (capex 1% de ingresos en FY23 → 11% en FY26); la retención real sale vía SBC, que diluye ~+2%/año (acciones: 1.028M FY24 → 1.068M FY27e, MarketScreener).
+- Retorno incremental: [Sin datos: no calculable con fiabilidad — el capital incremental reciente va al AGI CPU, apuesta aún no probada].
+
+## Valoración actual (precio intradía $237,71, 24-ago-2026, stockanalysis.com)
+
+- **PER TTM 248×** · **PER forward 102×** NTM (ambos 24-ago-26); sobre consenso visto: ~188× FY27e y ~130× FY28e (cálculos propios a precio actual).
+- **EV/EBITDA ≈ 106×** (sobre EBITDA FY26 $2.364M, calc. propio) · **EV/FCF ≈ 166×** (FCF TTM $1.506M, calc. propio).
+- **P/S 50,4×** (24-ago-26) · **P/B 29,6×** (Morningstar, 4-ago-26 a $282,56; ~25× a precio actual, proporcional).
+- Rango 52 semanas: **$100,02 – $452,70** → cotiza un **−47,5% debajo de máximos** (fecha exacta del máximo [Sin datos]); aun así +115% en lo que va de 2026 (companiesmarketcap, ago-26). Beta 3,91.
+- Consenso analistas: Buy (42 analistas), objetivo medio $285,72 (+20%) (stockanalysis, ago-26).
+
+## Señales objetivas
+
+- Dilución constante ~+2%/año por SBC; brecha GAAP/no-GAAP grande (margen operativo 7,1% GAAP vs 41,2% no-GAAP en Q1 FYE27).
+- Margen bruto subiendo (95,2% → 97,5%); margen operativo GAAP cayendo por decisión (opex +28% interanual en Q1 FYE27 para financiar el giro a silicio).
+- FCF récord en TTM pero capex disparado: la calidad de caja estructural empeora mientras se construye el negocio de chips.
+- Balance impecable y estable; deuda plana y residual.
+- **Investigación antitrust formal de la FTC abierta (mediados de mayo-2026)**: examina si degradará licencias a terceros mientras compite con ellos; quejas previas de Qualcomm ante FTC/Bruselas/Corea (2025) e inspecciones sorpresa en Corea del Sur.
+- Litigio con Qualcomm: fase de juicio programada para finales de 2026 (en un pleito anterior por los diseños Nuvia, Qualcomm ya ganó).
+- Rotación de directivos: [Sin datos: últimos 12 meses].
+
+## Chequeo de sanidad aritmética
+
+- TTM GAAP: EPS $0,98 × 1.070M acciones = **$1.049M** vs ingresos $5.156M × margen neto 20,25% = **$1.044M** → desviación **0,4% ✓ OK**.
+- FY26: EPS $0,85 × 1.062M = **$903M** vs $4.920M × 18,37% = **$904M** → **0,1% ✓ OK**.
+- Sin bandera roja: PER forward de tres dígitos coherente con PER TTM alto (no hay TAM confundido con ingresos; los ingresos son $5B, no decenas).
+
+## Huecos
+
+- [Sin datos: media móvil de 200 sesiones — no localizada en fuentes consultadas]
+- [Sin datos: fecha exacta del máximo de 52 semanas ($452,70)]
+- [Sin datos: rotación de directivos últimos 12 meses]
+- [Sin datos: ROIC declarado por la compañía — solo estimación propia]
+- [Sin datos: programa de recompras — ninguna localizada]
+- [Sin datos: ejercicio exacto del desglose geográfico de MarketScreener (EEUU 42,8%, China 18,7%, Taiwán 15,7%)]
+
+## Ver también
+
+- [[arm-holdings-tesis]]

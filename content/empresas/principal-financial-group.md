@@ -1,0 +1,129 @@
+---
+title: "Principal Financial Group (PFG) — Análisis Fundamental"
+tipo: empresa
+tags: [empresa, analisis-fundamental, financieras]
+fecha: 2026-08-27
+agente: carlos-barez
+ticker: PFG
+moneda: USD
+precio_referencia: 112.21
+fecha_precio: 2026-08-27
+valor_estimado: 120
+gatillo_entrada: 95
+veredicto: SEGUIR
+revisar_el: 2026-11-24
+fuentes: "[\"https://stockanalysis.com/stocks/PFG/\",\"https://stockanalysis.com/stocks/PFG/financials/\",\"https://stockanalysis.com/stocks/PFG/statistics/\",\"https://en.wikipedia.org/wiki/Principal_Financial_Group\",\"https://investors.principal.com/news-releases/news-release-details/principal-financial-group-announces-full-year-and-fourth-0\",\"https://www.sec.gov/Archives/edgar/data/1126328/000110465926017031/pfg-20251231x10k.htm\",\"https://seekingalpha.com/article/4940216-principal-financials-equity-sensitivity-supports-the-rally\",\"https://finance.yahoo.com/news/principal-financial-group-pfg-examining-161121085.html\",\"https://simplywall.st/stocks/us/insurance/nasdaq-pfg/principal-financial-group/news/principal-financial-group-pfg-stock-rises-on-margin-strength\"]"
+---
+# Principal Financial Group (PFG) — Análisis Fundamental
+
+## 1. Resumen ejecutivo
+Principal Financial Group (Nasdaq: PFG) es un conglomerado diversificado de seguros y gestión de activos con sede en Des Moines, Iowa, fundado en 1879 (como Bankers Life Insurance). Opera en cuatro segmentos: Retirement and Income Solutions (RIS), Principal Global Investors (gestión de activos), Principal International (pensiones internacionales) y Benefits & Protection (beneficios especializados + seguro de vida). A cierre del 26-ago-2026 cotiza a **$112.21**, con una capitalización de **$24.02B** y un valor empresarial de **$23.32B**.
+
+El negocio combina ingresos recurrentes por comisiones (recordkeeping de planes de retiro, gestión de activos) con el float de las aseguradoras de vida y beneficios. AUM de **$781B** e AUA de **$1.8T**. La calidad del balance es sólida: RBC de Principal Life del **406%**, deuda/equity 0.35, y un flujo de caja libre (FCF) de **~$4.85B TTM** que financia un rendimiento al accionista del **~6.7%** (dividendo 3% + recompra 3.7%).
+
+Valoración: P/E TTM 15.97, P/E forward 11.38, P/FCF 4.95, EV/EBITDA 10.84, con un rendimiento por dividendo del 2.99% y 17 años de aumentos consecutivos. No está caro en términos de FCF ni de múltiplos forward, pero tras subir +39.8% en 52 semanas está cerca de máximos. **Veredicto: SEGUIR** — negocio de calidad a valoración razonable, acumular en debilidades por debajo de ~$95.
+
+## 2. Descripción del negocio (segmentos, geografía, cómo genera dinero)
+Fundada en 1879, PFG atiende a ~82 millones de clientes con un modelo integrado de "ecosistema de retiro" (recordkeeping + gestión de activos + asesoría + ingresos). Segmentos (ingresos TTM en $M, datos stockanalysis):
+
+- **Retirement and Income Solutions (RIS):** $7.789B — soluciones de ahorro en el lugar de trabajo (401k), anualidades individuales, pension risk transfer (PRT) y banca/trust. Es el mayor y más estratégico segmento; lidera el recordkeeping para pymes (SMB).
+- **Investment Management (Principal Global Investors):** $1.905B — gestora global con plataforma de $255B, franquicia de target-date funds de $109B y $96B en mercados privados (real estate, infraestructura, crédito privado). ~39% del AUM de RIS es gestionado internamente.
+- **International Pension:** $1.013B — pensiones en mercados de alto crecimiento (LatAm, Asia). AUM de $154B (+24% interanual).
+- **Specialty Benefits:** $3.641B — beneficios grupales (vida #1, dental #3, discapacidad, worksite). Margen operativo ~16%.
+- **Life Insurance:** $1.392B — principalmente negocio legacy en run-off.
+- **Corporate:** $150B y eliminaciones.
+
+Geografía: EE.UU. aporta la mayor parte de los beneficios; Asia es la mayor fuente de crecimiento. ~19,700 empleados; fuerte presencia en Des Moines y centro global en Pune (India).
+
+Cómo genera dinero: (1) comisiones recurrentes sobre AUM/AUA y por administración de planes; (2) márgenes de inversión sobre el float de las aseguradoras; (3) suscripción de seguros (beneficios) con experiencia de siniestralidad favorable. Mix cada vez más orientado a comisiones (fee-based), de mayor calidad y márgenes.
+
+## 3. Industria y moat competitivo
+La jubilación en el lugar de trabajo es, según la propia empresa, el mayor y más rápido pozo de beneficios de los servicios financieros globales (~$110B anuales). El moat de PFG se apoya en:
+
+- **Efectos de red y scale en recordkeeping de SMB:** liderazgo #1/#2/#3 en beneficios grupales, vida grupal y productos worksite en EE.UU.; cambiar de proveedor de 401k es costoso y disruptivo para el empleador → alta retención y coste de cambio.
+- **Integración vertical recordkeeping + gestión de activos:** ~39% del AUM gestionado internamente crea alineación, scale y márgenes; franquicia de target-date de $109B anclada en QDIAs.
+- **Float de seguros de bajo coste y capacidad de siembra:** $94B de general account permite sembrar mercados privados y reforzar su plataforma top-10 global de real estate.
+- **Posición de capital fortísima (RBC 406%)** que otorga flexibilidad para recompras, dividendos y M&A.
+- **Escala en pension risk transfer (#4) y defined benefit (#1)** en un mercado concentrado y con barreras regulatorias altas.
+
+Competidores: en retiro/ASE, Empower, Fidelity, Voya, Prudential, MetLife, John Hancock/Manulife; en gestión de activos, T. Rowe, BlackRock, State Street; en beneficios, Unum, Lincoln, Aflac. El moat es "durable pero no infalible": la competencia por precio en beneficios y la presión en comisiones de renta variable activa son reales.
+
+## 4. Análisis financiero (3-5 años)
+Cifras en $M (stockanalysis), salvo indicado. Ejercicio fiscal ene-dic.
+
+| Concepto | TTM (jun-26) | FY2025 | FY2024 | FY2023 | FY2022 |
+|---|---|---|---|---|---|
+| Ingresos | 15,693 | 15,626 | 16,128 | 13,666 | 17,536 |
+| Crec. ingresos | +3.72% | -3.11% | +18.02% | -22.07% | +21.54% |
+| Ingreso operativo | 1,902 | 1,479 | 1,920 | 767.9 | 6,112 |
+| Resultado neto | 1,559 | 1,185 | 1,571 | 623.2 | 4,757 |
+| BPA (EPS) | 7.03 | 5.25 | 6.68 | 2.55 | 18.63 |
+| Margen operativo | 12.12% | 9.47% | 11.90% | 5.62% | 34.86% |
+| Margen neto | 9.93% | 7.58% | 9.74% | 4.56% | 27.13% |
+| FCF | 4,852 | 4,439 | 4,534 | 3,690 | 3,057 |
+| Margen FCF | 30.92% | 28.41% | 28.11% | 27.01% | 17.43% |
+
+Observaciones:
+- **Volatilidad de BPA por sensibilidad a mercados:** el año 2022 tuvo BPA de $18.63 y margen del 34.9% por fuertes plusvalías de inversiones; 2023 cayó a $2.55 por mercados débiles. Esto es intrínseco al modelo asegurador/gestor. La métrica recurrente que sigue la dirección es el **operating EPS no-GAAP: $8.55 en 2025 (+12%)** y $8.27 reportado (+19%).
+- **FCF excepcional y estable:** ~$4.5–4.9B anuales, con conversión prevista 75–85%. FCF yield del 20.2% sobre precio actual — muy atractivo.
+- **Rentabilidad:** ROE 12.95% (stat: 12.95%), ROIC 9.63%, frente a WACC 7.64% → crea valor. La dirección guía ROE no-GAAP 15–17% para 2026. ROA 0.35% es engañoso por los $341B de activos totales típicos de aseguradoras.
+- **Balance:** caja $6.37B, deuda total $4.55B, posición neta de caja $708.6M ($3.31/acción). Deuda/equity 0.35, current ratio 1.59, debt/EBITDA 2.06, debt/FCF 0.94. Equity contable $12.89B (BV/acción $56.57). Contablemente saneado.
+- **Acciones:** 214.1M en circulación, reduciéndose -3.67% interanual vía recompras (yield de recompra 3.67%).
+
+## 5. Valoración
+Múltiplos actuales (stockanalysis, 26-ago-2026):
+- P/E TTM 15.97; **P/E forward 11.38**; PEG 0.99
+- P/S 1.53; P/B 1.98; P/TBV 2.59
+- **P/FCF 4.95**; P/OCF 4.79
+- **EV/EBITDA 10.84**; EV/EBIT 12.26; EV/FCF 4.81; EV/Sales 1.49
+- Rendimiento por dividendo 2.99%; payout 46.3%; yield total al accionista 6.67%
+- Beta 0.88; +39.77% en 52 semanas; objetivo medio analista $109.58 (consenso "Hold")
+
+Contexto histórico de P/E: 2021 12.1x, 2022 4.3x (anómalo, año de fuertes plusvalías), 2023 30.1x, 2024 11.3x, 2025 16.4x, TTM 16.0x. El múltiplo actual es mediano-bajo dentro del rango; el P/E forward de 11.4x y el P/FCF de ~5x sugieren valoración **razonable a ligeramente barata** en términos de caja, no en términos de BPA histórico volátil.
+
+**Noción de margin of safety (explícita):** Las aseguradoras/gestiones de activos tienen BPA muy sensible a tipos, mercados y spread de crédito, por lo que el "valor intrínseco" tiene amplio intervalo. Usando EPS operativo normalizado ~$8.55 y un múltiplo conservador 13–14x (en línea con la media histórica baja y el crecimiento 9–12% guiado), el valor intrínseco grueso se sitúa en **~$110–130/acción (punto medio ~$120)**. A $112.21 el descuento es modesto (<10%), insuficiente como margin of safety amplio. **Gatillo de entrada: <$95** (≈11x EPS operativo, ~4x FCF, +30% de margen sobre el midpoint) para acumular con convicción. No doy "precio objetivo" único: la horquilla depende de los mercados de capitales.
+
+## 6. Equipo directivo e incentivos
+- **Deanna Strable** asumió como CEO y Presidenta en enero de 2025 (antes COO); **Dan Houston** pasó a presidente ejecutivo de la junta — transición planeada, no disruptiva.
+- El capital se devuelve de forma disciplinada: **>$1.5B devueltos en 2025** ($0.9B recompras + $0.7B dividendos); guía 2026 de $1.5–1.8B (incl. $0.8–1.1B recompras, payout de dividendo 40%). Track record de 17 años subiendo el dividendo.
+- Historia de **activismo de Elliott Management (2021)**: empujó valor accionista (dos directores independientes nuevos). Señal de que el capital tiene defensores externos.
+- Incentivos alineados a crecimiento de EPS operativo, ROE y flujo de capital libre — coincidentes con el interés del accionista a largo plazo.
+
+## 7. Riesgos (principales)
+1. **Sensibilidad a mercados de capitales / AUM:** ~la mitad del beneficio está ligada a AUM y mercados; caídas de renta variable/comisiones impactan BPA (visto en 2022–2023).
+2. **Riesgo de tipos de interés:** entorno de tipos bajos prolongado comprime márgenes de inversión y no permite bajar tasas acreditadas en productos garantizados; tipos altos rápidos disparan surrenders y pérdidas por venta de activos.
+3. **Riesgo de crédito / spread:** deterioro de cartera de renta fija (default, widening de spreads) reduce rentabilidad; exposición a crédito privado en expansión.
+4. **Salidas de capital (outflows):** ~$11B de salidas netas en estrategias de renta variable de EE.UU. con bajo rendimiento (Q2 2026); presión de comisiones en activa.
+5. **Riesgo de suscripción / siniestralidad y lapsación:** en beneficios y vida; un empeoramiento de la experiencia de siniestralidad (actual por debajo de rango objetivo, 57.6% loss ratio) o mayor lapsación por recesión.
+6. **Regulatorio y capital:** requisitos estatutarios (NAIC RBC), riesgo de calificación de solvencia que elevaría surrenders y coste de capital; riesgo macro/LatAm (inflación, "encaje").
+
+## 8. Catalizadores y noticias recientes (2024-2025)
+- **Ene-2025:** Deanna Strable nueva CEO; continuidad estratégica.
+- **2024:** adquisición del negocio ESOP de Ascensus (+800 planes, +165k participantes), refuerzo del liderazgo SMB.
+- **Feb-2026 (resultados FY2025):** operating EPS ex-significant-variances $8.55 (+12%, techo del objetivo 9–12%); RBC 406%; $1.5B devueltos.
+- **Jul-2026 (Q2):** ingresos +6% (a $3.91B), EPS ajustado +17%, ~200 bps de expansión de margen; Specialty Benefits +29% pre-tax; AUM de gestión a $808B.
+- **Guía 2026:** crecimiento operating EPS 9–12%, conversión FCF 75–85%, ROE 15–17%, despliegue de capital $1.5–1.8B.
+- **Sep-2026:** ex-dividend $0.80/acción (+7% vs 1T25).
+
+## 9. Tesis bull / bear
+**Bull:** (1) Valoración atractiva en términos de caja: P/FCF ~5x, FCF yield 20%, P/E forward 11.4x, PEG ~1; (2) negocio que se desplaza hacia comisiones recurrentes de mayor calidad y expansión de márgenes (~200 bps en 2026); (3) liderazgo en nichos con moat (SMB retiro, beneficios grupales, PRT); (4) capital fortísimo (RBC 406%) que sostiene recompras + dividendo creciente (yield total ~6.7%); (5) crecimiento de AUM internacional (+24%) y mercados privados; (6) sensibilidad a renta variable que, en mercados alcistas, potencia BPA.
+
+**Bear:** (1) Cotiza cerca de máximos de 52 semanas (+40%), con upside limitado según analistas (~$109 objetivo, "Hold"); (2) BPA volátil y sensible a mercados/tipos — no es una "compounder" predecible; (3) salidas netas en renta variable activa de EE.UU. (~$11B) y presión de comisiones; (4) competencia por precio en beneficios y presión de márgenes si se agotan los recortes de costes; (5) exposición a crédito privado en expansión en un entorno de tipos incierto; (6) múltiplo no especialmente barato sobre BPA GAAP histórico.
+
+## 10. Fuentes (URLs)
+- https://stockanalysis.com/stocks/PFG/ (precio, overview)
+- https://stockanalysis.com/stocks/PFG/financials/ (ingresos, márgenes, FCF, segmentos)
+- https://stockanalysis.com/stocks/PFG/statistics/ (múltiplos, balance, ROE/ROIC, dividendos)
+- https://en.wikipedia.org/wiki/Principal_Financial_Group (historia, segmentos, CEO)
+- https://investors.principal.com/news-releases/news-release-details/principal-financial-group-announces-full-year-and-fourth-0 (resultados FY2025 y guía 2026)
+- https://www.sec.gov/Archives/edgar/data/1126328/000110465926017031/pfg-20251231x10k.htm (10-K 2025, riesgos)
+- https://seekingalpha.com/article/4940216-principal-financials-equity-sensitivity-supports-the-rally (análisis bull/bear, valoración)
+- https://finance.yahoo.com/news/principal-financial-group-pfg-examining-161121085.html (valoración Simply Wall St)
+- https://simplywall.st/stocks/us/insurance/nasdaq-pfg/principal-financial-group/news/principal-financial-group-pfg-stock-rises-on-margin-strength (Q2 2026, márgenes)
+
+## 11. Veredicto de Carlos (comprar/seguir/vigilar/evitar, con condiciones)
+**SEGUIR.** PFG es un negocio de calidad, diversificado, con moat en retiro SMB y beneficios grupales, balance fortísimo (RBC 406%) y un motor de FCF de ~$4.9B que devuelve capital con disciplina. La valoración no es exigente en términos de caja (P/FCF ~5x, FCF yield 20%, P/E forward 11.4x, PEG ~1) y el yield total al accionista (~6.7%) es atractivo para un inversor de largo plazo.
+
+Pero tras +39.8% en 52 semanas el descuento sobre valor intrínseco (~$120) es estrecho (<10%), insuficiente como margin of safety amplio dado el BPA volátil por sensibilidad a mercados/tipos. **Condiciones:** acumular de forma gradual y con más convicción por **debajo de ~$95** (≈11x EPS operativo, ~4x FCF), y vigilar salidas de AUM en renta variable activa y la trayectoria de tipos. No es una EVITAR ni una COMPRAR agresiva a precio actual; es una posición de "comprar en debilidad" dentro de una cartera de calidad.
+
+<!-- META ticker=PFG veredicto=SEGUIR -->

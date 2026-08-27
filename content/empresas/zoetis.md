@@ -1,0 +1,128 @@
+---
+title: "Zoetis (ZTS) — Análisis Fundamental"
+tipo: empresa
+tags: [empresa, analisis-fundamental, salud]
+fecha: 2026-08-27
+agente: carlos-barez
+ticker: ZTS
+moneda: USD
+precio_referencia: 77.52
+fecha_precio: 2026-08-27
+valor_estimado: 100
+gatillo_entrada: 70
+veredicto: COMPRAR
+revisar_el: 2026-11-24
+fuentes: "[\"https://en.wikipedia.org/wiki/Zoetis\", \"https://stockanalysis.com/stocks/ZTS/\", \"https://stockanalysis.com/stocks/ZTS/financials/\", \"https://www.morningstar.com/company-reports/1476913-though-zoetis-wide-moat-remains-strong-weve-trimmed-long-term-assumptions-and-valuation\", \"https://app.marginofinsight.com/stocks/zts\", \"https://investor.zoetis.com/news/news-details/2026/Zoetis-Announces-Second-Quarter-2026-Results/default.aspx\", \"https://seekingalpha.com/article/4937601-zoetis-a-solid-long-term-buy-after-harsh-drawdown\", \"https://stansberryresearch.com/whitney-tilsons-daily/the-bull-and-bear-cases-for-zoetis\"]"
+---
+# Zoetis (ZTS) — Análisis Fundamental
+
+## 1. Resumen ejecutivo
+
+Zoetis (NYSE: ZTS) es el **líder mundial absoluto de salud animal** (≈18% de cuota global, por delante de Boehringer Ingelheim ~14%, Merck Animal Health ~13% y Elanco ~10%), spin-off de Pfizer en 2013. Es un negocio de calidad excepcional: márgenes operativos ~38%, ROIC elevado, generación de caja recurrente y un foso (moat) calificado de "wide moat" por Morningstar.
+
+El mercado está castigando la acción de forma severa: **cerca de -54% en lo que va de 2026** y ~70% por debajo de su máximo histórico. El catalizador del castigo es un bache cíclico en la demanda de animales de compañía en EE.UU. (menos visitas a clínicas veterinarias, sensibilidad al precio del dueño de mascota) y competencia promocional creciente en dermatología y parasiticidas, no una quiebra estructural del modelo. A precios actuales (~$77,52) cotiza a **12,6x beneficios, 13,8x FCF libre y 3,4x ventas** — sus múltiplos más bajos de la historia (en 2021-2024 llegó a 30-57x PER). Con un rendimiento por FCF de ~7%+, dividendo creciente (~2,7%) y recompra de acciones, el margen de seguridad para un inversor de valor/calidad a largo plazo es atractivo. **Veredicto: COMPRAR de forma escalonada**, con gatillo de plena posición por debajo de ~$70.
+
+## 2. Descripción del negocio (segmentos, geografía, cómo genera dinero)
+
+Zoetis descubre, desarrolla, fabrica y comercializa medicamentos, vacunas, diagnósticos, biodevices, tests genéticos y soluciones de precision animal health para animales de compañía (perros, gatos, caballos) y ganado (bovino, porcino, avícola, acuicultura, ovino).
+
+- **Segmentos (FY2025, $M):** Companion Animal $6.587 (≈69% del total) · Livestock $2.764 (≈29%) · Contract Manufacturing & Human Health $116. Sus franquicias clave incluyen dermatología (Apoquel, Cytopoint), parasiticidas (Simparica Trio, Revolution), mAb de dolor osteoartrítico de acción prolongada (Librela canino, Solensia felino, y nuevos Portela y Lenivia), vacunas (Vanguard, Poulvac) y diagnóstico (Vetscan Imagyst con IA).
+- **Geografía:** opera directamente en ~45 países y vende en >100. **Internacional ≈ 50% de los ingresos.** Modelo de ventas con la **mayor fuerza de ventas directa a veterinarios del sector** y 25 plantas de fabricación (integración vertical que sostiene márgenes y alcance).
+- **Cómo genera dinero:** recurrencia vía prescripción veterinaria, consumo repetido (parasiticidas mensuales, tratamientos crónicos de dermatología y dolor OA), y un ecosistema de diagnóstico+software que enclaustra a la clínica veterinaria. Modelo de "razas humanizadas": el dueño paga por calidad de vida de la mascota, con pricing power histórico.
+
+## 3. Industria y moat competitivo (estructura, barreras, ventaja sostenible vs competidores)
+
+- **Estructura:** industria oligopólica y muy rentable, con barreras regulatorias altas (aprobaciones FDA/EMA/USDA por especie e indicación) y una curva de I+D larga. Zoetis es el "único pure-play" de calidad con escala global.
+- **Barreras/moat (wide moat, Morningstar):**
+  1. **Liderazgo en anticuerpos monoclonales veterinarios (mAb):** primer movimiento con Cytopoint (alergia canina), Librela (OA canino) y Solensia (OA felino); ventaja de I+D medida en años.
+  2. **Franquicia dermatológica (Apoquel + Cytopoint):** estándar de oro en prurito canino, miles de millones anuales.
+  3. **Escala de I+D:** >$650M/año y pipeline profundo en mAb, parasiticidas y extensiones de especie.
+  4. **Integración vertical + fuerza de ventas:** 25 plantas y la mayor red directa a veterinarios del mundo, que sostiene márgenes y relación con la clínica.
+  5. **Ecosistema diagnóstico + digital** (Vetscan Imagyst, laboratorios, plataforma telerradiología VitalRADS adquirida en 2026) que competidores no replican rápido.
+- **Competidores:** Boehringer Ingelheim, Merck Animal Health, Elanco (ELAN, ~10% cuota, mucho más apalancado: ~22% de su EBITDA va a intereses vs ~4% en Zoetis). Elanco está ganando algo de tracción en la consulta veterinaria pero parte de una base menor y con balance más débil.
+
+## 4. Análisis financiero (3-5 años): ingresos, márgenes bruto/operativo, FCF, ROIC/ROE, deuda/EBITDA, liquidez — CITA cifras y años
+
+Cifras en $M (salvo ratios), ejercicio ene-dic, fuente stockanalysis.com:
+
+| Año | Ingresos | Crec. | Beneficio neto | Margen neto | EPS | Op. margin | FCF |
+|------|---------|-------|---------------|-------------|-----|-----------|-----|
+| 2021 | 7.776 | +16,5% | 2.037 | 26,2% | 4,27 | 36,2% | 1.736 |
+| 2022 | 8.080 | +3,9% | 2.114 | 26,2% | 4,49 | 36,3% | 1.326 |
+| 2023 | 8.544 | +5,7% | 2.344 | 27,4% | 5,07 | 35,9% | 1.621 |
+| 2024 | 9.256 | +8,3% | 2.486 | 26,9% | 5,47 | 36,7% | 2.298 |
+| 2025 | 9.467 | +2,3% | 2.673 | 28,2% | 6,02 | 38,3% | 2.283 |
+| TTM* | 9.525 | +1,6% | 2.637 | 27,7% | 6,13 | 38,1% | 2.316 |
+
+(*TTM a jun-26; los datos de balance son a dic-25.)
+
+- **Ingresos:** crecimiento de un 7.776M (2021) a 9.525M (TTM), sólido y sostenido, aunque desacelerando en 2025-2026 por el bache de compañía en EE.UU.
+- **Márgenes:** bruto ~71,9% (2025); operativo 38,3% (2025) / 38,1% (TTM); neto 28,2%. Márgenes récord sostenidos gracias a mezcla (compañía de alta rentabilidad) y pricing, a pesar de la promoción defensiva.
+- **FCF:** 2.283M (2025), 2.316M (TTM); margen FCF ~24%. Conversión de beneficio a caja sólida. OCF 2.904M (2025).
+- **ROIC/ROE:** no divulgado directo en el fetch, pero márgenes operativos >38% y retornos históricos "estelares" según Stansberry/Morningstar; el negocio es intensivo en I+D pero no en capital fijo, lo que sostiene ROIC alto.
+- **Deuda:** **Total debt subió de $6.829M (2024) a $9.313M (2025)**; caja+e inversiones $2.312M. **Net debt ≈ -$7.001M (2025)**. Con EBITDA estimado ~$4,3B (op. income + D&A), **net debt/EBITDA ≈ 1,6x** — manejable, aunque la deuda creció y hay que vigilarla. Interés sobre EBITDA solo ~4% (vs ~22% en Elanco).
+- **Liquidez:** caja $2,3B + generación de FCF >$2,2B/año cubren holgadamente el servicio de deuda y el dividendo.
+- **Accionistas:** dividendo $2,00 (2025) → $2,12 (2026, yield 2,74%), creciendo ~15%/año; recompra con ~$1,3B de capacidad restante.
+
+## 5. Valoración: P/E, P/S, EV/EBITDA, P/FCF vs histórico y pares; noción de margin of safety (explícito sobre incertidumbre, sin "precio objetivo" falso)
+
+Múltiplos actuales (a $77,52, stockanalysis.com, 2026-08-26/27):
+- **PER (TTM): 12,65x** · Forward PER: 12,54x · **P/FCF: 13,83x** · **P/S: 3,36x**.
+- **Histórico de PER:** 2021 ≈ 56,7x · 2022 ≈ 32,3x · 2023 ≈ 38,7x · 2024 ≈ 29,6x · 2025 ≈ 20,7x. La acción cotiza hoy a la **banda más baja de su historia cotizada** (desde 2013).
+- **EV/EBITDA aproximado:** EV ≈ market cap $32,0B + net debt ~$7,0B ≈ $39B; EBITDA ~$4,3B → **~9x EV/EBITDA**. El par Elanco cotiza ~15x EBITDA y ~20x beneficios con balance mucho peor; Zoetis está **más barato que su principal rival de menor calidad** — inusual.
+- **Yield:** FCF yield ~7%+; dividend yield 2,74% creciente.
+
+**Margen de seguridad (explícito):** la valoración descuenta un pesimismo extremo. Un DCF conservador con FCF ~$2,3B y crecimiento orgánico bajo-medio (guía 2026 de -3% a -1% orgánico por el bache, pero guía de 2-5% a medio plazo) a tasa de descuento ~8-9% arroja **valor intrínseco estimado ~$90-110/acción (punto central ~$100)**. A $77,52 hay ya un descuento de ~22% sobre el centro; el margen de seguridad crece si el bache es cíclico y no estructural. **No doy "precio objetivo" falso**: el rango refleja incertidumbre real (ver riesgos). Gatillo de entrada plena: <$70 (cerca del mínimo de 52 semanas $71 y nivel donde Tilsons añadiría; ~30% bajo el centro intínseco).
+
+## 6. Equipo directivo e incentivos
+
+- **CEO:** Kristin Peck (ex Pfizer, al frente desde 2020). **Chair:** Michael McCallister. **Nuevo CFO/COO:** James (Jay) Saccaro, nombrado en agosto de 2026 (EVP, CFO y COO), refuerzo de capital allocation.
+- **Incentivos alineados:** el equipo mantiene política de retorno al accionista — dividendo creciente ~15%/año y recompras (>$1,3B capacidad). Discurso de gestión consistente en "calidad y largo plazo", adaptando la estrategia comercial (rebates gross-to-net dirigidos, no recortes de lista) para proteger márgenes sin destruir el pricing power.
+- **Señal de propia piel:** la propia directiva/analistas value (Stansberry) señalan que Zoetis seguirá recomprando a estos niveles.
+
+## 7. Riesgos (3-6 principales, cualitativos y cuantitativos)
+
+1. **Bache cíclico de compañía en EE.UU. (principal):** menos visitas a clínicas veterinarias + sensibilidad al precio del dueño. Q1-2026 US revenue -8%; Q2-2026 companion animal US -11%, guía 2026 recortada (orgánico -3% a -1%). Si es estructural y no cíclico, el caso se debilita.
+2. **Competencia en dermatología:** JAK inhibitors de Elanco/Boehringer (Galaxy/Modulis) erosionan Apoquel+Cytopoint (combinado -11% en Q1-2026). La franquicia más rentable pierde monopolio de primer movimiento más rápido de lo esperado.
+3. **Seguridad de Librela:** señales neurológicas → "Dear Veterinarian" letter de la FDA y actualizaciones de etiqueta. Riesgo reputacional, de uso y posible litigio.
+4. **Genericos:** competencia de genéricos sobre Cerenia y Convenia presiona esas marcas.
+5. **Litigios (overhang 2026):** varias demandas colectivas de accionistas (may-jul 2026) tras los recortes de guía; coste y distracción, aunque suele resolverse con acuerdo.
+6. **Apalancamiento creciente:** total debt saltó a $9,3B en 2025 (desde $6,8B). Cubierto por FCF, pero reduce flexibilidad si el bache se prolonga. Riesgos menores: ciclos de ganado/enfermedad, tipo de cambio (50% internacional), China.
+
+## 8. Catalizadores y noticias recientes (2024-2025)
+
+- **Q2-2026 (06-ago-2026):** recorte de guía anual; revenue $9,12-9,32B (org -3% a -1%), EPS ajustado $6,15-6,25. Ganado US +23%, Internacional +8% compensan la debilidad de compañía US. Pipeline de ">12 bloques potenciales".
+- **Simparica Trio:** EUA de la FDA (ago-2026) para tratar infestación de "New World Screwworm" en perros — catalizador de volumen inesperado.
+- **Nuevos lanzamientos OA:** Portela (relfovetmab) y Lenivia (izenivetmab) en Canadá y UE (jul-2026), mAb de dolor de acción prolongada (hasta 3 meses).
+- **M&A:** acuerdo para adquirir VitalRADS (telerradiología veterinaria, jul-2026) — refuerza el ecosistema diagnóstico.
+- **Poulvac Procerta HVT-ND** con autorización en la UE (jul-2026).
+- **Gobierno corporativo:** Jay Saccaro como CFO/COO (ago-2026).
+- **Contexto 2025:** crecimiento orgánico ya desacelerando; la acción fue uno de los mayores caídos del S&P 500 en el 1S-2026.
+
+## 9. Tesis bull / bear (dos lados, honesto)
+
+**Bull:** Negocio de calidad "forever hold" con wide moat, ROIC estelar y FCF recurrente. El castigo (-54% YTD, -70% desde máximos) es excesivo frente a un bache cíclico de visitas veterinarias en EE.UU. A 12,6x PER y 9x EV/EBITDA, más barato que Elanco y en mínimos históricos. Tesis secualar intacta (humanización de mascotas, envejecimiento de población de mascotas, penetración de mercados emergentes, ganado). Pipeline de >12 bloques, nuevos mAb OA y screwworm añaden opcionalidad. Dividendo creciente + recompras dan suelo. Base case DCF ~$100 (Seeking Alpha), Stansberry compra <$86 y añade <$70.
+
+**Bear:** El "bache" puede ser estructural: dueños Millennial/Gen Z recortan visitas por precios de clínica; la competencia en dermatología (JAK) y genéricos erosionan las franquicias más rentables de forma permanente; Librela tiene sombra de seguridad y litigios; la deuda subió a $9,3B; si los beneficios caen de verdad (no es solo ciclo), el PER 12,6x deja de ser barato. El mercado puede tener razón y el múltiplo deprimido puede persistir años (como "value trap" si la compañía pierde pricing power).
+
+## 10. Fuentes (URLs)
+
+- https://en.wikipedia.org/wiki/Zoetis (historia, negocio, spin-off Pfizer, geografía)
+- https://stockanalysis.com/stocks/ZTS/ (precio $77,52, market cap, márgenes, noticias, guía)
+- https://stockanalysis.com/stocks/ZTS/financials/ (ingresos, márgenes, FCF, deuda, dividendos, múltiplos 2021-2025/TTM)
+- https://www.morningstar.com/company-reports/1476913-though-zoetis-wide-moat-remains-strong-weve-trimmed-long-term-assumptions-and-valuation (wide moat)
+- https://app.marginofinsight.com/stocks/zts (cuotas de mercado, moat, riesgos competitivos)
+- https://investor.zoetis.com/news/news-details/2026/Zoetis-Announces-Second-Quarter-2026-Results/default.aspx (resultados Q2-2026 y guía recortada)
+- https://seekingalpha.com/article/4937601-zoetis-a-solid-long-term-buy-after-harsh-drawdown (tesis buy, DCF ~$100, FCF yield)
+- https://stansberryresearch.com/whitney-tilsons-daily/the-bull-and-bear-cases-for-zoetis (bull/bear, comparativa Elanco, niveles de compra)
+
+## 11. Veredicto de Carlos (comprar/seguir/vigilar/evitar, con condiciones)
+
+**COMPRAR de forma escalonada (acumulación con paciencia).** Es un negocio de calidad excepcional con foso amplio, cotizando en su valle de valoración histórico (12,6x PER, ~7% FCF yield, 2,7% dividendo creciente) por un bache que juzgo mayoritariamente cíclico en la compañía estadounidense, no una quiebra del modelo. Margen de seguridad presente ya a $77,52 (~22% bajo el valor intínseco central ~$100).
+
+**Condiciones / disciplina de valor:**
+- Entrar en tramos: primer tramo aquí (~$75-78), segundo tramo si cae a ~$70 (gatillo de plena posición, cerca del mínimo de 52 semanas $71).
+- **Vigilar activamente:** (a) si la debilidad de compañía US se vuelve estructural (guided orgánico que siga cayendo en 2027), (b) erosión de Apoquel/Cytopoint por JAK rivals, (c) evolución de seguridad de Librela y litigios, (d) nivel de deuda.
+- **No es una operación de momentum ni rumor:** es compra de calidad a precio de derribo con horizonte multi-año. Revisar en 2026-11-24 tras conocer resultados Q3-2026 y guidance actualizada.
+
+<!-- META ticker=ZTS veredicto=COMPRAR -->

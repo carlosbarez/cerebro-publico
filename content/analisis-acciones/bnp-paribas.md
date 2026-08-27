@@ -1,0 +1,327 @@
+---
+title: "BNP Paribas SA (BNP.PA / BNPQY)"
+tipo: analisis-accion
+tags: [empresa, banca, francia, europa]
+fecha: 2026-08-15
+fuentes: []
+---
+
+<!-- Migrado desde cache ponytail: BNP.PA.md · generado por agente autonome (sesion ponytail 2026-08-15) -->
+
+# BNP Paribas SA (BNP.PA / BNPQY)
+
+> Fecha de corte: 2026-08-15 · Moneda: EUR (euro)
+> Sector: Financiero — Banca (banca universal) · País/Región: Francia · Bolsa: Euronext París (BNP)
+> ADR en EE. UU.: BNPQY (OTC). Componente del CAC 40 y del Euro Stoxx 50 (Wikipedia)
+
+---
+
+## 1. Ficha rápida
+
+| Campo | Valor |
+|---|---|
+| Ticker / Bolsa | BNP / Euronext París; ADR BNPQY (OTC, EE. UU.); cotización también en Londres (0HB5); componente CAC 40 y Euro Stoxx 50 |
+| Sector / Industria | Financiero / Banks - Regional (banca universal: banca minorista, banca corporativa y de inversión, gestión de activos, seguros y gestión patrimonial) |
+| País / Región | Francia (sede en París); presencia en Europa, América, Asia-Pacífico, Oriente Medio y África |
+| Moneda de reporte | EUR; ejercicio fiscal de enero a diciembre |
+| Capitalización bursátil | ~122,86 mil millones EUR (intraday, cierre 14 ago 2026, Yahoo Finance); ~123,63 mil millones EUR según estadísticas al 10 ago 2026 (Yahoo Finance) |
+| Precio | 112,10 EUR (cierre 14 ago 2026, Euronext París; Yahoo Finance / StockAnalysis) |
+| Rango 52 semanas | 65,12 – 113,82 EUR (14 ago 2026, Yahoo Finance). El precio más alto histórico del año se registró muy cerca del corte (máximo 52s = 113,82, solo ~1,5% por encima del cierre) |
+| PER (TTM) | 9,71 (14 ago 2026, Yahoo Finance); 9,76 según estadísticas al 10 ago 2026; 9,71 (StockAnalysis) |
+| PER forward | 9,78 (Yahoo Finance, estadísticas); ~9,11 (StockAnalysis) |
+| Precio/Valor contable | 0,94 (trimestre más reciente, Yahoo Finance / StockAnalysis); cotiza por debajo del valor contable neto por acción (104,3 EUR a cierre de 2025, IR BNP) |
+| Rendimiento por dividendo | Trailing ~4,6% (dividendo 2025 de 5,167 EUR/acción pagado en dos tramos, frente al precio de 112,10 EUR; cálculo del agente). Forward ~5,16% (5,80 EUR según Yahoo Finance, estimación del dividendo 2026) |
+| CEO | Jean-Laurent Bonnafé (director y CEO) |
+| Presidente del Consejo | Jean Lemierre |
+| CFO | Lars Machenil |
+| Sede | 20 Boulevard des Italiens, París, Francia |
+| Empleados | ~180 000 (2025, Wikipedia e infobox; perfil Yahoo Finance: 180 000) |
+| Próximos resultados | Q3 2026: 28 oct 2026 (fecha estimada por Yahoo Finance) |
+
+---
+
+## 2. Descripción de la empresa
+
+BNP Paribas es el **mayor banco de la zona euro por activos** —según S&P Global (abril 2026), el mayor banco de Europa por activos con ~3,28 billones USD— y uno de los mayores bancos universales del mundo. Es un banco universal (universal bank) que combina banca minorista, banca corporativa y de inversión (CIB), gestión de activos, seguros, gestión patrimonial y servicios de valores. Es además una institución financiera de importancia sistémica mundial (G-SIB) designada por el Consejo de Estabilidad Financiera (FSB) y supervisada directamente por el BCE (entidad significativa bajo la supervisión bancaria europea) (Wikipedia).
+
+Historia breve:
+
+- El grupo nace el **23 de mayo de 2000** de la fusión de **Banque Nationale de Paris (BNP)** y **Paribas**, tras una batalla bursátil que en 1999 enfrentó a BNP y Société Générale (Wikipedia). El nombre BNP Paribas sustituyó al de Banque Nationale de Paris (Yahoo Finance).
+- Sus raíces institucionales se remontan a instituciones del siglo XIX: el Comptoir national d'escompte de Paris (1848, predecesor de BNP) y la Banque de Paris et des Pays-Bas (1872, luego Paribas), con herencia de la Société Générale de Belgique (1822). Yahoo Finance sitúa la fundación "comercial" en 1822; la entidad legal actual data de 2000.
+- En **2006** compra Banca Nazionale del Lavoro (BNL) en Italia. En **2007** se convierte en la primera gran entidad financiera en reconocer abiertamente el impacto de la crisis subprime (congeló dos fondos el 9 de agosto de 2007), lo que se considera el detonante de la crisis de 2008 y le permitió reaccionar antes que otros grandes bancos europeos (Wikipedia).
+- En la crisis de 2008-2009 adquiere la mayor parte de las actividades de **Fortis** en Bélgica (75%, luego BNP Paribas Fortis) y Luxemburgo (BGL), con el Estado belga como accionista relevante desde entonces (Wikipedia).
+- En **2021** vende su banca minorista en EE. UU. (Bank of the West a Bank of Montreal por 16,3 mil millones USD), cerrando su etapa de banca minorista estadounidense (Wikipedia).
+- Adquisiciones recientes clave: **AXA Investment Managers** (cerrada 1 jul 2025, ~5,1 mil millones EUR; Reuters/StockAnalysis) y aumento de participación en la aseguradora belga **Ageas** hasta el 22,5% (operación cerrada en abril de 2026, ver sección 7) (Reuters).
+
+Qué vende y a quién:
+
+- **Consumidores y profesionales**: cuentas corrientes y de ahorro, tarjetas, préstamos al consumo (Cetelem/Personal Finance), hipotecas, bancaseguros (Cardif), servicios digitales (Hello bank!) y leasing.
+- **Pymes y empresas**: banca comercial, crédito, factoring, gestión de efectivo, trade finance y leasing de flotas (Arval).
+- **Grandes corporaciones e instituciones**: banca de inversión (emisiones, M&A, asesoramiento), mercados de capitales (venta y trading de renta fija, divisas, materias primas, acciones y derivados), servicios de valores (custodia, compensación y administración de fondos), cash management y financiación estructurada.
+- **Clientes con alto patrimonio e inversores institucionales**: gestión patrimonial (BNP Paribas Wealth Management) y gestión de activos (BNP Paribas Asset Management, tras integrar AXA IM).
+
+Opera en Europa (su mercado doméstico principal), América, Asia-Pacífico, Oriente Medio y África. Desglose geográfico del NBI (ingresos bancarios netos) a cierre de 2020 según Wikipedia: **Europa 72,2%**, América del Norte 12,9%, Asia-Pacífico 8,6%, otros 6,3% (dato de 2020; la mezcla actual no se ha verificado en fuentes primarias a fecha de corte).
+
+---
+
+## 3. Modelo de negocio
+
+### 3.1 Segmentos de ingresos
+
+BNP Paribas reporta desde 2024 tres divisiones operativas: **Corporate & Institutional Banking (CIB)**, **Commercial, Personal Banking & Services (CPBS)** e **Investment & Protection Services (IPS)** (Yahoo Finance; IR BNP). Nota: los nombres "Global Markets", "Insurance" y "Corporate & Institutional Banking" corresponden al formato de reporte anterior a la reorganización de 2024; a fecha de corte el formato vigente es el de tres divisiones.
+
+**Mezcla de NBI (ingresos bancarios netos) del ejercicio 2025** (millones EUR; fuentes: IR BNP para el total de 51 223 y S&P Global Market Intelligence vía StockAnalysis para el desglose por segmento, que concilia con el total; cálculo de porcentajes: hecho por el agente):
+
+| Segmento | NBI 2025 | % del total | Variación vs 2024 |
+|---|---|---|---|
+| Commercial, Personal Banking & Services (CPBS) | 26 717 | ~52,2% | +2,6% |
+| Corporate & Institutional Banking (CIB) | 18 997 | ~37,1% | +5,6% |
+| Investment & Protection Services (IPS) | 6 929 | ~13,5% | +19,6% |
+| Otros / eliminaciones | -1 420 | -2,8% | — |
+| **Total NBI** | **51 223** | **100%** | **+4,9%** |
+
+Serie por segmento (S&P Global vía StockAnalysis, millones EUR): CIB 14 236 (2021) → 16 404 (2022) → 16 509 (2023) → 17 993 (2024) → 18 997 (2025); CPBS 25 216 → 24 931 → 25 917 → 26 050 → 26 717; IPS 6 476 → 5 813 → 5 590 → 5 793 → 6 929. Nota de fiabilidad: los totales de 2023 y 2022 no concilian exactamente con las cifras oficiales del IR (la serie fue restatada tras la reestructuración de formatos en 2026); la mezcla de 2025 sí concilia y es la que se reporta como principal.
+
+### 3.2 Cómo gana dinero
+
+- **Margen de interés neto (NII)**: es el mayor motor de ingresos del grupo, concentrado en la banca minorista europea (Francia, Bélgica, Italia, Luxemburgo y Europa del Este) y, en menor medida, en la financiación corporativa del CIB. En el 2T26 la NII minorista de Francia y Bélgica creció ~17% interanual mientras que la de Italia cayó ~5% (Reuters).
+- **Comisiones y actividades de mercado**: el CIB genera ingresos de venta y trading de mercados de capitales (renta fija, divisas, materias primas —FICC—, acciones y prime brokerage), banca de inversión (fees de M&A, emisiones), servicios de valores y cash management. La venta y trading de acciones y prime services alcanzó un **récord histórico** en el 2T26 (+43% interanual) (Reuters).
+- **Seguros y gestión de activos**: Cardif (seguros de protección, ahorro y capitalización) y BNPP AM (gestión de activos para terceros e institucionales, reforzada por AXA IM). Aportan ~13% del NBI y son un contrapeso de comisiones menos sensible a tipos.
+- **Bancaseguros y servicios**: la distribución de seguros (especialmente con Ageas/AG Insurance en Bélgica) y servicios de valores (custodia, compensación) generan comisiones recurrentes.
+- **Canales**: red física europea (~2 200 sucursales solo en Francia, más BNL en Italia, Fortis en Bélgica, BGL en Luxemburgo) + banca digital (Hello bank!), brokers online (Consorsbank/Cortal Consors), plataformas de tesorería corporativa y las mesas de mercado del CIB en París, Londres y otras plazas.
+- **Sensibilidad a tipos**: como banco comercial europeo, su NII es sensible a la política del BCE. El ciclo de subidas de tipos 2022-2023 benefició a la NII minorista (repricing de activos más rápido que el de pasivos), mientras que el ciclo de bajadas (que empezó en 2025) presiona a la baja la NII; el repricing de depósitos se produce con desfase. [análisis del agente]
+
+### 3.3 Ventajas competitivas / foso
+
+- **Escala europea**: mayor banco de la zona euro por activos (~2,79 billones EUR a cierre de 2025) y líder en banca minorista en Francia, Bélgica y Luxemburgo, con filiales relevantes en Italia (BNL), Polonia y Turquía (Wikipedia, IR BNP).
+- **Modelo universal diversificado**: combina banca minorista estable (~52% del NBI), banca de inversión y mercados (~37%) y seguros/gestión de activos (~13%), lo que diversifica el ciclo de ingresos frente a bancos puramente minoristas o puramente de mercados.
+- **Fuerte en servicios de valores**: uno de los mayores custodios y administradores de fondos del mundo (BNP Paribas Securities Services, ~12 000 empleados), con escala global y contratos recientes de la antigua administración de hedge funds de HSBC (Wikipedia).
+- **Rentabilidad por dividendo y retorno al accionista**: payout en efectivo de ~50% y recompras anuales (~1,15 mil millones EUR en 2025), con dividendo por acción creciente de forma sostenida (ver sección 5.4).
+- **Solvencia**: CET1 del 13% al 30 jun 2026, alcanzado 18 meses antes del objetivo citado por el CEO en abril de 2026 (Reuters/transcript Q2 2026).
+- **Base de accionistas ancla**: el Estado belga (SFPI) mantiene ~5,6% desde la crisis de 2008 (Wikipedia), señal de apoyo institucional.
+- Limitación del foso: la rentabilidad (ROE ~10,5% TTM) es inferior a la de grandes bancos estadounidenses y a la de algunos pares europeos como UniCredit, y la ratio de costes/ingresos es alta (el CEO apunta a <56% para 2028 desde niveles superiores) (Reuters).
+
+---
+
+## 4. Panorama de mercado y competencia
+
+- **Tamaño y cuota**: BNP Paribas es el mayor banco de la zona euro y de Europa por activos (S&P Global, abril 2026; ~3,28 billones USD / ~2,79 billones EUR a cierre de 2025, IR BNP). Compite en un mercado bancario europeo consolidado, con exceso de capacidad en banca minorista y márgenes de interés comprimidos tras las bajadas de tipos del BCE iniciadas en 2025.
+- **Competidores principales** (banca universal europea; datos al 14 ago 2026, Yahoo Finance):
+
+| Entidad | Precio | Capitalización | Nota de posición |
+|---|---|---|---|
+| BNP Paribas (BNP.PA) | 112,10 EUR | ~122,9 mil M EUR | #1 de la zona euro por activos |
+| UniCredit (UCG.MI) | 85,23 EUR | ~127,7 mil M EUR | Mayor capitalización; ROE y retorno al accionista superiores |
+| Intesa Sanpaolo (ISP.MI) | 6,92 EUR | ~121,0 mil M EUR | Líder minorista italiano |
+| Deutsche Bank (DBK.DE) | 33,39 EUR | ~62,7 mil M EUR | CIB fuerte, minorista alemana |
+| Crédit Agricole (ACA.PA) | 20,20 EUR | ~61,1 mil M EUR | Banco cooperativo francés |
+| Société Générale (GLE.PA) | 82,36 EUR | ~60,5 mil M EUR | Rival doméstico francés |
+| KBC (KBC.BR) | 131,70 EUR | ~52,2 mil M EUR | Líder minorista belga |
+| Commerzbank (CBK.DE) | 39,74 EUR | ~43,0 mil M EUR | Rumores de consolidación |
+| Raiffeisen Bank Intl. (RBI.VI) | 62,90 EUR | ~20,7 mil M EUR | Alta exposición a Europa del Este |
+
+Otros competidores relevantes fuera de esa tabla: Santander, BBVA y Barclays en banca universal europea; HSBC y UBS en banca universal global y gestión de patrimonio; y en banca de inversión/mercados el CIB compite con los "bulge bracket" estadounidenses (JPMorgan, [[goldman-sachs|Goldman Sachs]], [[morgan-stanley|Morgan Stanley]], BofA) y europeos (UBS, Deutsche Bank).
+
+- **Posición relativa**: BNP es la mayor entidad europea por activos, pero en 2026 la revalorización del sector ha beneficiado comparativamente más a bancos con mayor rentabilidad y más agresivos con el capital (UniCredit, Intesa), que cotizan con múltiplos superiores. BNP cotiza con PER y P/B por debajo de la media de esos pares (ver sección 6), en parte por su menor ROE, su mayor ratio de costes y su exposición a Francia. Reuters señala que la acción, que en años recientes había **bajo-rendimiento frente a sus pares europeos**, se ha revalorizado ~30% en 2026 (al 23 jul 2026), casi el doble que la media del sector bancario europeo (SX7P). [análisis del agente en la interpretación]
+- **En banca de inversión**: el CIB de BNP es un jugador de primer nivel europeo (top-3) en mercados de capitales y servicios de valores, pero por debajo de los grandes estadounidenses en fees de M&A; Reuters apunta que en el 2T26 sus rivales estadounidenses reportaron subidas de ingresos de banca de inversión superiores al 30%, mientras el FICC de BNP quedó plano.
+- **Amenazas competitivas**: fintechs y neobancos en la banca minorista, presionando depósitos y comisiones; consolidación bancaria europea (posible interés en Commerzbank o en activos italianos); y la competencia del CIB por talento y cuota con las casas estadounidenses.
+
+---
+
+## 5. Análisis financiero
+
+Salvo indicación, cifras oficiales del IR de BNP Paribas (tabla "key figures", accedida 15 ago 2026) en millones EUR, ejercicio de enero a diciembre.
+
+### 5.1 Ingresos y márgenes (últimos ejercicios y trimestres)
+
+| Año | NBI (ingresos) | Resultado operativo | Beneficio neto Grupo | BPA (EUR) | Variación NBI |
+|---|---|---|---|---|---|
+| 2021 | 46 235 | 12 199 | 9 488 | 7,26 | — |
+| 2022 | 50 419 | 13 752 | 10 196 | 7,80 | +9,0% |
+| 2023 | 45 874 | 11 236 | 10 975 | 9,21 | -9,0% |
+| 2024 | 48 831 | 15 437 | 11 688 | 9,57 | +6,4% |
+| 2025 | 51 223 | 16 296 | 12 225 | 10,29 | +4,9% |
+| TTM (30 jun 2026) | ~51 256 | — | ~12 767 | 11,55 | +11,0% |
+
+Notas de fiabilidad:
+- El TTM (hasta 30 jun 2026) proviene de agregadores (S&P/StockAnalysis y Yahoo Finance); el beneficio neto TTM de 12 767 millones EUR y BPA 11,55 EUR están en línea con el fuerte 2T26 pero no son cifra oficial del IR a fecha de corte.
+- **Discrepancia de datos**: Yahoo Finance reporta una "Revenue Q2 FY26" de ~23,4 mil millones EUR en su gráfico trimestral, cifra que no concilia con el NBI trimestral reportado (2T26: 14,1 mil millones EUR según Reuters) ni con el NBI anual TTM (~51,2 mil millones). La cifra de Yahoo se considera **no fiable** y no se usa; se reporta aquí solo como aviso de calidad de datos [NO VERIFICADO].
+- El NBI 2022 (50 419) se benefició de un entorno de tipos favorable y del fuerte CIB; el retroceso de 2023 reflejó menores ingresos de mercados y costes de restructuración.
+
+**Último trimestre (2T26, terminado el 30 jun 2026; comunicado del 23 jul 2026, Reuters):**
+- Beneficio neto de **4,35 mil millones EUR, +33% interanual**, por encima del consenso de 15 analistas (4,21 mil millones EUR).
+- Ingresos (NBI) de **14,1 mil millones EUR, +12% interanual**, también por encima de expectativas.
+- Gastos operativos +10% interanual (analistas lo señalaron como punto débil; Jefferies atribuyó el exceso al adelanto de costes de integración de AXA IM; Citi lo calificó de "buen conjunto de resultados").
+- CIB: ingresos +13%, con venta/trading de acciones y prime services +43% hasta un **récord**; FICC plano.
+- Banca minorista Francia/Bélgica: NII +17% interanual; banca minorista italiana: NII -5%.
+- CET1 del **13%** al 30 jun 2026, alcanzado antes del objetivo de fin de año que el CEO había citado en abril.
+- El resultado incluyó ganancias extraordinarias de la reformulación del acuerdo con Ageas (858 millones EUR).
+
+### 5.2 Balance (deuda, efectivo, solvencia)
+
+| Concepto | 2021 | 2022 | 2023 | 2024 | 2025 |
+|---|---|---|---|---|---|
+| Total activos | 2 634 444 | 2 666 376 | 2 591 499 | 2 704 908 | 2 792 981 |
+| Depósitos de clientes | 957 684 | 1 008 054 | 988 549 | 1 034 857 | 1 075 564 |
+| Préstamos a clientes (brutos) | 814 000 | 857 020 | 859 200 | 900 141 | 897 358 |
+| Fondos propios de los accionistas | 117 886 | 121 792 | 123 742 | 128 137 | 125 513 |
+| Ratio CET1 | 12,9% | 12,3% | 13,2% | 12,9% | 12,6% |
+| Ratio Tier 1 | 14,0% | 13,9% | 15,3% | 14,9% | 14,7% |
+| Ratio capital total | 16,4% | 16,2% | 17,3% | 17,1% | 17,0% |
+
+(Millones EUR, salvo ratios; IR BNP.)
+
+- **CET1**: 12,6% a cierre de 2025 y **13% al 30 jun 2026**, cumpliendo antes de plazo el objetivo citado por el CEO (Reuters). El banco confirmó en abril de 2026 su trayectoria de CET1 tras la actualización del marco O-SII del BCE (IR BNP).
+- **Valor contable neto por acción**: 104,3 EUR a cierre de 2025 (102,5 EUR en 2024); el precio de 112,10 EUR implica un P/B de ~0,94x (por debajo del valor contable) (IR BNP; Yahoo Finance).
+- En un balance bancario la "deuda neta" convencional no aplica: la financiación mayorista (bonos, TLAC, depósitos) es parte del pasivo operativo. S&P/StockAnalysis registran ~831 mil millones EUR de "deuda total" y ~1,23 billones EUR de "caja e inversiones" a 30 jun 2026 — cifras de agregador con definiciones contables propias de banca, no comparables con las de una empresa industrial [NO VERIFICADO su interpretación como foso de liquidez]. La métrica de solvencia relevante es el CET1 (13%) y los ratios de apalancamiento regulatorios, dentro de los umbrales exigidos por el BCE y el marco TLAC.
+- Rating de crédito: BNP mantiene grado de inversión alto en Moody's, S&P y Fitch (perteneciente a la categoría A según uso sectorial habitual); las calificaciones concretas a fecha de corte no se han verificado en fuentes primarias accesibles [NO VERIFICADO].
+
+### 5.3 Cash flow y rentabilidad (FCF, ROE, ROIC)
+
+- **ROE (TTM)**: 10,48% según Yahoo Finance (hasta 30 jun 2026); ROA (TTM) 0,48% (margen propio de banca con balance de ~2,8 billones). Estimación para 2025 completa: beneficio neto 12 225 / fondos propios medios (~126 825) ≈ **9,6%** (cálculo del agente).
+- **Margen de beneficio neto**: ~24% del NBI (cálculo del agente sobre 2025: 12 225/51 223 ≈ 23,9%); Yahoo lo sitúa en 26,49% (TTM).
+- **Cash flow**: para bancos el flujo de caja libre convencional no es la métrica de rentabilidad primaria. S&P/StockAnalysis registran un flujo de caja operativo de 27 277 millones EUR (TTM) y un "FCF" de 24 262 millones (TTM), cifras de agregador con alta volatilidad interanual (46 571 en 2025; -97 376 en 2024) propia del movimiento de depósitos y operaciones; no deben leerse como FCF de negocio [NO VERIFICADO su significado]. La retribución al accionista se sostiene sobre el beneficio y el capital, no sobre un FCF convencional.
+- **Generación de capital**: el banco genera capital orgánicamente por encima de los mínimos; la reformulación del acuerdo Ageas aportó ~858 millones EUR de ganancias antes de impuestos en 2026 (Reuters).
+
+### 5.4 Perfil de dividendos y recompras
+
+| Año | Dividendo por acción (EUR) | Payout en efectivo | Recompra anual |
+|---|---|---|---|
+| 2021 | 3,673 | ~50% | ~900 millones EUR |
+| 2022 | 3,904 | ~50% | ~962 millones EUR |
+| 2023 | 4,605 | ~50% | ~1,05 mil millones EUR |
+| 2024 | 4,796 | ~50% | ~1,08 mil millones EUR |
+| 2025 | 5,167 | ~50% | ~1,15 mil millones EUR |
+
+(IR BNP, notas de la tabla de indicadores: recompra 2021 "no considerada" en el payout; dividendo 2025 pagado como interino de 2,59 EUR el 30 sep 2025 y final de 2,57 EUR el 20 may 2026.)
+
+- Política: payout en efectivo de ~50% del beneficio atribuible más recompras anuales (~1,15 mil millones EUR en 2025), es decir, retorno total del orden del 55-60% del beneficio. La dirección anunció el 23 jul 2026 que **sube el dividendo** al batir expectativas de ingresos y beneficio en el 2T26 (WSJ).
+- El dividendo 2026 esperado según Yahoo Finance es de 5,80 EUR/acción (rendimiento forward ~5,16% al precio de 112,10 EUR) — **estimación de agregador, no cifra oficial** a fecha de corte [NO VERIFICADO]. El próximo dividendo interino (ex-date 24 sep 2026) es un catalizador de calendario (Yahoo).
+- Serie de dividendos creciente de forma ininterrumpida desde 2021, con yield histórica alta (6-9% en 2022-2024 por la caída del precio) y actual de ~4,6-5,2% (StockAnalysis; Yahoo).
+
+---
+
+## 6. Valoración
+
+Múltiplos actuales (al 14 ago 2026):
+
+| Múltiplo | Valor | Fuente |
+|---|---|---|
+| PER (TTM) | 9,71 | Yahoo Finance / StockAnalysis |
+| PER forward | 9,78 (Yahoo) / ~9,11 (StockAnalysis) | Yahoo / StockAnalysis |
+| Precio/Valor contable | 0,94 | Yahoo Finance (mrq) |
+| Precio/Ingresos (TTM) | 1,74 (Yahoo) / 2,40 (StockAnalysis) | Yahoo / StockAnalysis |
+| Rendimiento por dividendo | ~4,6% trailing / ~5,2% forward | cálculo del agente / Yahoo |
+| Precio/beneficio en relación a historia | 9,71 actual vs 6,2-8,3 en 2021-2025 | StockAnalysis (PER a precios de cierre de año) |
+| Objetivo de precio consenso | 116,74 EUR (promedio, 19 analistas; rango 100-136) | StockAnalysis |
+| Revalorización | +38,75% YTD; +33,55% a 1 año (precio) | Yahoo Finance |
+
+- **Perspectiva histórica**: el PER actual (~9,7x) está por encima de su rango reciente (2021: 8,3x; 2022: 7,1x; 2023: 7,0x; 2024: 6,2x; 2025: 7,7x según StockAnalysis a precios de cierre de ejercicio). Es decir, la revalorización del 38,75% YTD ha expandido el múltiplo, aunque sigue en la parte baja de la historia del banco y muy por debajo del mercado (CAC 40 / sector financiero estadounidense).
+- **Comparación con sector**: PER ~9,7x y P/B ~0,94x frente a la media de pares europeos, que cotizan con P/B superiores (Intesa ~1,3x, UniCredit ~1,5x según estimaciones de mercado) y PER en el rango 7-12x. BNP cotiza más barato en P/B que UniCredit e Intesa a pesar de ser el mayor por activos, reflejando su menor ROE y mayor ratio de costes. [análisis del agente]
+- **Sensibilidad de la valoración**: los catalizadores de la revalorización son el plan estratégico (febrero 2027), la reducción de la ratio costes/ingresos (<56% para 2028), la continuación de la fortaleza del CIB (trading de acciones récord) y el retorno al accionista. Un descenso de la NII por bajadas de tipos o un repunte de los costes de riesgo podrían frenar el multiple expansion. [análisis del agente]
+- **Riesgo de "value trap" a considerar**: el descuento de BNP frente a pares con más rentabilidad no es gratis; si el plan de eficiencia no se ejecuta, el múltiplo puede seguir comprimido. Frente a eso, el PER forward de ~9x con yield de ~5% y CET1 del 13% ofrece un colchón defensivo razonable. [análisis del agente]
+
+Interpretación del agente: **valoración razonable-atractiva**, con sesgo positivo moderado: barata en términos absolutos (P/B <1, PER <10x, yield >5%) pero cotizando ya cerca de máximos de 52 semanas y con el descuento respecto a sus pares parcialmente justificado por su menor rentabilidad. No se observa una valoración "rica" salvo que el mercado anticipe de forma agresiva el éxito del plan estratégico de febrero de 2027. [análisis del agente]
+
+---
+
+## 7. Noticias recientes y catalizadores
+
+Hechos relevantes de los últimos 12 meses (con fechas):
+
+- **23 jul 2026 — Resultados 2T26**: beneficio neto 4,35 mil millones EUR (+33%), ingresos +12% a 14,1 mil millones, CET1 13% (antes de plazo), récord en trading de acciones; el banco sube el dividendo y confirma objetivos 2026 y 2028 (Reuters; WSJ). La acción cedía ~0,8% el día de la publicación por la "percepción de coste" (analistas; Reuters).
+- **23 jul 2026 — Eficiencia**: el CEO ve un camino hacia una ratio costes/ingresos de ~50% "con el tiempo", <56% para 2028, con mejora de ~2 puntos/año desde 2027 vía programa de recortes, IA y simplificación organizativa (Reuters).
+- **31 jul 2026 — Arval/Athlon**: Arval completa la adquisición de Athlon (ex-Mercedes-Benz), alcanzando una flota combinada de 2,3 millones de vehículos; co-líder europeo en leasing de flotas (IR BNP; Reuters señalaba a Arval como punto débil del 2T26).
+- **28 abr 2026 — Acuerdo Ageas completado**: BNP completa la implementación de su partnership a largo plazo con Ageas (cierre del acuerdo anunciado el 8 dic 2025): vende su 25% en AG Insurance por 1,9 mil millones EUR e invierte 1,1 mil millones EUR en Ageas (22,5% del capital) a 60 EUR/acción; ganancias netas tras impuestos de ~820 millones EUR en 2026 (+858 millones antes de impuestos) y +40 millones EUR recurrentes al año; nueva partnership de bancaseguros con AG Insurance y de inversión con BNPP AM (Reuters).
+- **29 abr 2026 — BMCI**: acuerdo con Holmarcom Finance Company para la desinversión de BMCI (Marruecos) (IR BNP).
+- **5 abr 2026 (aprox.) — Marco O-SII del BCE**: BNP confirma su trayectoria de CET1 tras la actualización del marco de colchones O-SII (28 abr, IR BNP).
+- **1 jun 2026 — Estrategia Bélgica (CPBB)**: presenta la estrategia de crecimiento de la banca comercial belga y sube sus objetivos de rentabilidad a 22% de RONE antes de impuestos en 2028 y 25% en 2030 (IR BNP).
+- **17 mar 2026 — Gestión de activos**: acelera el crecimiento de BNPP AM (tras AXA IM) con el objetivo de **duplicar el beneficio antes de impuestos para 2030** (IR BNP).
+- **1 jul 2025 — Adquisición AXA IM cerrada**: integración de AXA Investment Managers (~5,1 mil millones EUR) en BNPP AM, con costes de integración que los analistas citaron como punto débil del 2T26 (Reuters; StockAnalysis).
+- **Feb 2025 — Estreem**: JV con BPCE para crear un procesador de pagos top-3 europeo, con ~17 mil millones de transacciones al año (~30% del volumen de tarjetas de Francia) (Wikipedia).
+- **22 sep 2025 — Financiación de defensa**: el Financial Times informó de que BNP abandonó su compromiso previo de no financiar a productores de armas controvertidas, alineándose con el giro europeo hacia la financiación de defensa (Wikipedia, FT).
+- **Dic 2025 — Expansión en EE. UU. y Reino Unido**: anuncio de refuerzo de la banca de inversión (M&A) con nuevas contrataciones en Londres y Nueva York (Wikipedia).
+- **Litigio Sudán**: en febrero de 2026 BNP anunció que apelaría el fallo de un tribunal de EE. UU.; presentó la notificación de apelación (antes del 9 feb 2026) y el escrito de apertura ante el Tribunal de Apelaciones del Segundo Circuito en mayo de 2026, con apoyo de amicus briefs de los gobiernos de EE. UU. y Suiza; el CFO declaró en octubre de 2025 que no había provisionado el asunto (Reuters; GlobeNewswire; IR BNP).
+
+Catalizadores a futuro:
+
+- **Plan estratégico plurianual** (próximo plan: febrero de 2027; Reuters), que podría incluir objetivos de eficiencia, capital y distribución; en Italia se espera una presentación de reestructuración con conversaciones sindicales en curso (Reuters, jul 2026).
+- **Reducción de la ratio costes/ingresos** hacia <56% (2028) y ~50% "con el tiempo" (CEO, jul 2026).
+- **Continuidad del ciclo de mercados**: la volatilidad (guerra de Irán, ciclo de M&A e IPO) sostiene los ingresos de trading del CIB; un descenso de volatilidad sería un viento en contra (Reuters).
+- **Bajadas de tipos del BCE**: efecto mixto: presión sobre la NII minorista, pero posible mejora del coste de capital y de la valoración relativa de la banca (análisis del agente).
+- **Dividendo interino 2026** (ex-date 24 sep 2026) y **resultados del 3T26** (estimados 28 oct 2026).
+- **Resolución del litigio de Sudán**: la apelación ante el Segundo Circuito es un overhang legal; una sentencia favorable eliminaría un riesgo de pérdidas no provisionadas (Reuters).
+
+---
+
+## 8. Riesgos
+
+### 8.1 Específicos de la empresa
+
+- **Litigio de Sudán**: condena en primera instancia en EE. UU. en apelación (Segundo Circuito); el banco no ha provisionado el asunto, por lo que un fallo adverso definitivo podría suponer un impacto material no anticipado (Reuters, oct 2025; jun 2026).
+- **Integración AXA IM**: costes de integración por encima de lo esperado señalados por analistas en el 2T26; riesgo de ejecución en el objetivo de duplicar el beneficio antes de impuestos de gestión de activos para 2030 (Reuters; IR BNP).
+- **Arval / leasing de flotas**: debilidad recurrente del negocio de leasing de vehículos (Reuters, 2T26); la compra de Athlon amplía escala pero también exposición al ciclo del automóvil (valores residuales, electrificación, renting B2B).
+- **Italia (BNL)**: caída de la NII minorista italiana (~-5% interanual en 2T26) y planes de reestructuración con negociación sindical (Reuters); Italia es un mercado de bajo crecimiento con competencia agresiva.
+- **Ratio costes/ingresos alta**: si el programa de eficiencia no logra el objetivo <56% en 2028, la rentabilidad seguirá por debajo de la de pares y el descuento de valoración persistirá (Reuters; análisis del agente).
+
+### 8.2 Riesgos sectoriales / macro
+
+- **Sensibilidad a tipos de interés**: bajadas del BCE comprimen la NII minorista (especialmente Francia, Bélgica, Italia); el repricing de depósitos se produce con desfase. A la inversa, un repunte de inflación/tipos podría tensar la calidad crediticia de los clientes.
+- **Coste del riesgo (provisiones)**: un deterioro del ciclo crediticio europeo (consumo, inmobiliario, corporativo) elevaría las dotaciones y golpearía el beneficio.
+- **Inmobiliario comercial**: exposición del CIB a real estate comercial (oficinas, centros comerciales) vía financiación; el ajuste de valoraciones en ese segmento sigue siendo un riesgo (análisis del agente; no se ha verificado la cuantía exacta de la exposición en fuentes primarias).
+- **Mercados y volatilidad**: la fortaleza del CIB depende en parte de la volatilidad y del volumen de operaciones (guerra de Irán, M&A, IPO); una normalización reduciría los ingresos de trading. Los mercados son cíclicos y de alta intensidad de capital.
+- **Ciclo del automóvil** para Arval (valores residuales, transición eléctrica, presión de fabricantes y competidores de renting).
+
+### 8.3 Riesgos regulatorios / geopolíticos
+
+- **Regulación bancaria europea**: supervisión directa del BCE; los colchones O-SII actualizados en abril de 2026 y el marco de capital/TLAC pueden elevar los requerimientos de capital. Riesgo de nuevas exigencias tras las tensiones bancarias europeas.
+- **Marco fiscal europeo y estabilidad de Francia**: exposición soberana francesa y dependencia del mercado doméstico (banca minorista francesa ~40% del grupo). Una prima de riesgo francesa elevada o un endurecimiento fiscal afectarían a la NII y a la valoración (análisis del agente).
+- **Sanciones y geopolítica**: exposición a países sancionados (el litigio de Sudán es ejemplo de los riesgos de cumplimiento); la guerra de Ucrania y las tensiones con Irán afectan a mercados, divisas y clientes.
+- **Riesgo de cumplimiento/AML y regulatorio-financiero**: multas y costes de cumplimiento en EE. UU. y Europa; el historial del banco incluye el acuerdo de 2014 con el DOJ de EE. UU. por sanciones (9 mil millones USD) (Wikipedia).
+- **Política de financiación de defensa**: el giro (sep 2025) para financiar productores de armamento genera riesgo reputacional y de atracción de talento/ESG entre inversores institucionales (Wikipedia/FT).
+
+---
+
+## 9. Perspectiva del agente
+
+**Resumen ejecutivo.** BNP Paribas es el mayor banco de la zona euro por activos, con un modelo universal diversificado (minorista ~52% del NBI, CIB ~37%, seguros/gestión de activos ~13%) y una posición de capital sólida (CET1 13% al 2T26, antes de plazo). El 2T26 confirmó una mejora del impulso: beneficio +33%, ingresos +12%, récord en trading de acciones y dividendo al alza. La acción, que durante años rindió por debajo de sus pares, se ha revalorizado ~39% YTD y cotiza a ~9,7x beneficios y 0,94x valor contable, con yield de ~5%.
+
+**Tesis a favor**:
+- Valoración barata en términos absolutos (PER <10x, P/B <1x, yield >5%) con CET1 alto (13%) y payout ~50% + recompras.
+- Catalizadores claros: plan estratégico (feb 2027), objetivos de eficiencia (<56% costes/ingresos en 2028, camino a ~50%), duplicación del beneficio de gestión de activos para 2030, y fortaleza del CIB.
+- Diversificación geográfica y de negocio que mitiga el ciclo, con base de depósitos europea estable y primer puesto en servicios de valores.
+- La resolución favorable del litigio de Sudán y el éxito de la integración de AXA IM y de Ageas son opciones al alza no valoradas.
+
+**Tesis en contra**:
+- ROE (~10,5% TTM) inferior a la de pares europeos (UniCredit, Intesa) y estadounidenses; el descuento de valoración es en parte merecido.
+- Presión sobre la NII por bajadas de tipos del BCE y debilidad de Italia (BNL) y de Arval.
+- Costes de integración (AXA IM) y ratio de costes estructuralmente alta; riesgo de ejecución del plan de eficiencia.
+- Litigio de Sudán sin provisionar (riesgo de pérdida material); exposición soberana francesa y regulatoria.
+- El CIB depende de un entorno de mercados favorable (volatilidad, M&A); la normalización sería un viento en contra.
+
+**Sesgo del agente**: **constructivo-moderado** (visión positiva de medio plazo con prudencia). La combinación de valoración baja, capital alto, yield atractivo y catalizadores conocidos (plan estratégico, eficiencia) ofrece una ecuación riesgo/recompensa razonable, pero la revalorización ya materializada en 2026 (~+39% YTD) reduce el [[margen-de-seguridad|margen de seguridad]], y la rentabilidad relativa y el litigio de Sudán justifican un tamaño de posición prudente. Recomendación cualitativa: mantener/sobreponderar moderado, con seguimiento de los resultados del 3T26 (28 oct 2026) y del plan estratégico de febrero de 2027. [análisis del agente]
+
+---
+
+## 10. Fuentes
+
+Fuentes consultadas y URLs reales (acceso: 15 ago 2026):
+
+- Yahoo Finance — BNP.PA (cotización, estadísticas, perfil): https://finance.yahoo.com/quote/BNP.PA/
+- BNP Paribas — Investors & Shareholders (IR oficial; tabla de indicadores clave 2021-2025, comunicados): https://invest.bnpparibas.com/en
+- BNP Paribas IR — Buscador de documentos y resultados: https://invest.bnpparibas.com/en/search/reports/documents/results
+- Reuters — "BNP Paribas reports 33% jump in profit as equity trading hits record" (23 jul 2026): https://www.reuters.com/business/finance/bnp-paribas-profit-jumps-33-equity-trading-boom-retail-rebound-2026-07-23/
+- Reuters — "BNP Paribas sees path to around 50% cost-income ratio over time, CEO says" (23 jul 2026): https://www.reuters.com/business/finance/bnp-paribas-sees-path-around-50-cost-income-ratio-over-time-ceo-says-2026-07-23/
+- Reuters — "BNP Paribas increases stake in Belgium's largest insurer in $3.5 billion deal" (8 dic 2025): https://www.reuters.com/business/finance/belgian-insurer-ageas-pay-22-bln-bnp-paribas-buy-full-control-ag-insurance-2025-12-08/
+- Reuters — "European banks set for profit boost from lending, trading windfall" (21 jul 2026): https://www.reuters.com/business/finance/european-banks-set-profit-boost-lending-trading-windfall-2026-07-21/
+- Wikipedia — BNP Paribas (historia, divisiones, datos financieros, accionariado): https://en.wikipedia.org/wiki/BNP_Paribas
+- StockAnalysis — BNP Paribas (datos de mercado y financieros, fuente S&P Global Market Intelligence): https://stockanalysis.com/quote/epa/BNP/ y https://stockanalysis.com/quote/epa/BNP/financials/
+- The Wall Street Journal — "BNP Paribas Lifts Dividend as Revenue, Profit Beat Estimates" (23 jul 2026): https://www.wsj.com/business/earnings/bnp-paribas-lifts-dividend-as-revenue-profit-beat-estimates-3c17ff88
+- GlobeNewswire — "Sudan Litigation: Statement from BNP Paribas" (1 jun 2026): https://www.globenewswire.com/news-release/2026/06/01/3304575/0/en/SUDAN-LITIGATION-STATEMENT-FROM-BNP-PARIBAS.html
+
+Nota de veracidad: todas las cifras de mercado llevan su fecha (principalmente cierre del 14 ago 2026). Las cifras financieras anuales provienen del IR oficial de BNP Paribas (tabla de indicadores). El desglose por segmento del NBI 2025 proviene de S&P Global Market Intelligence vía StockAnalysis y concilia con el total oficial. Las estimaciones de dividendo forward (5,80 EUR) y los agregados TTM de cash flow son de agregadores y están marcados como [NO VERIFICADO] cuando no proceden de fuente oficial. Ningún contenido se copió literalmente; todo está redactado con las propias palabras del agente.
+
+---
+
+*Página generada por agente autónomo. Fecha de corte: 2026-08-15.*
+*Verificar cifras de mercado en la fuente citada antes de decisiones de inversión.*

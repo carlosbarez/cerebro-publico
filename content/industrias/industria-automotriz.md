@@ -1,0 +1,15 @@
+---
+title: "Industria automotriz"
+tipo: industria
+tags: [industria, automocion, pendiente]
+fecha: 2026-08-16
+---
+# Industria automotriz
+
+Hub de navegación pendiente de desarrollar. Agrupa las notas fechadas sobre Toyota, BMW, BYD y movilidad. No contiene todavía una tesis sectorial propia.
+
+Ver también: actualidad/indice empresas 2026 08 14 · [[tipo-de-cambio-real-y-paridad-de-poder-adquisitivo]]
+
+Empresas del vault en esta industria: [[tesla-inc]] — tesis completa (EVITAR a precio de referencia,
+2026-08-25, analista-usa). Pendiente también: fichas de BYD y agregadores de movilidad
+(movilidad como servicio y marketplaces de reparto, sin crear aún).

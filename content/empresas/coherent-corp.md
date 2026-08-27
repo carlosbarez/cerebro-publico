@@ -1,0 +1,122 @@
+---
+title: "Análisis Fundamental — Coherent Corp. (COHR)"
+tipo: empresa
+tags: [empresa, coherent-corp]
+fecha: 2026-08-27
+agente: carlos-barez
+ticker: COHR
+moneda: USD
+precio_referencia: 293.39
+fecha_precio: 2026-08-27
+valor_estimado: 260-380 (rango intrínseco; caso base ~320)
+gatillo_entrada: 230-260 (acumulación gradual); < 200 convicción alta
+veredicto: VIGILAR
+revisar_el: 2026-11-25
+fuentes: "[\"https://www.coherent.com/content/dam/coherent/site/en/documents/investors/financial-releases/2026/august-12/earnings-release-fy26-q4.pdf\", \"https://www.coherent.com/news/press-releases/fourth-quarter-and-fiscal-year-2025-results\", \"https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Coherent-Announce-Strategic-Partnership-to-Develop-Optics-Technology-to-Scale-Next-Generation-Data-Center-Architecture/default.aspx\", \"https://www.reuters.com/technology/nvidia-invest-2-billion-photonic-product-maker-lumentum-2026-03-02/\", \"https://en.wikipedia.org/wiki/Coherent_Corp.\", \"https://stockanalysis.com/stocks/cohr/\", \"https://www.coherent.com/company/leadership/jim-anderson\", \"https://sectordock.com/posts/2026-06-11_[ver.en]_valuechain-screening\", \"https://macroplane.com/thesis/ths_01KQWGJ2J28SKG8PYZ1TB1XMEZ-~coherent-stock-cohr-the-vertically-integrated-inp-eml-1-6t-photonics-stack\", \"https://www.chipstrat.com/p/coherents-vertical-integration-strategy\", \"https://moatmap.ai/deep-dive/COHR\", \"https://www.mordorintelligence.com/industry-reports/optical-transceiver-market\", \"https://photoncap.net/p/chinese-optical-modules-own-7-of\", \"https://convergedigest.com/coherent-scales-optical-infrastructure-ai-data-center/\", \"https://www.trefis.com/data/companies/COHR\", \"https://finance.yahoo.com/quote/COHR/key-statistics/\"]"
+---
+
+# Análisis Fundamental — Coherent Corp. (COHR)
+
+## 1. Resumen ejecutivo
+Coherent (NYSE: COHR), con sede en Saxonburg (Pensilvania) y raíces que se remontan a 1971 (como II-VI Incorporated) y a Coherent Inc. (fundada en 1966), es el mayor fabricante verticalmente integrado de fotónica del mundo: crece sus propios sustratos y obleas de fosfuro de indio (InP), fabrica los láseres (EML, VCSEL, CW), los fotodetectores, la silicon photonics y ensambla los transceptores ópticos 800G/1.6T que conectan las GPUs de los centros de datos de IA. Su tesis es simple y poderosa: a medida que la IA pasa del cobre a la fibra óptica, Coherent es el "gasolinero" del que todos los constructores de IA dependen. La integración vertical de InP —la plataforma de obleas de 6 pulgadas primero a escala mundial— y la alianza estratégica con NVIDIA (inversión de 2.000 M$ + compromiso de compra multibillonario, marzo 2026) constituyen un foso competitivo real y creciente. El negocio es de altísima calidad y visibilidad. El PROBLEMA para un inversor de valor/calidad es el precio: el múltiplo es exigente (≈71x beneficio GAAP, ≈8x ventas, ≈31x beneficio forward FY27), el free cash flow es NEGATIVO en el ejercicio 2026 por el brutal programa de capex, y la concentración en un solo complejo de demanda (datacenter, ~79% de los ingresos del último trimestre) lo expone a la cíclica del capex en IA. Veredicto: **VIGILAR** — empresa excelente, pero sin margen de seguridad suficiente a precios actuales; acumular en debilidad.
+
+## 2. Descripción del negocio
+Coherent desarrolla, fabrica y comercializa materiales avanzados, dispositivos optoelectrónicos, láseres y sistemas fotónicos para mercados de comunicaciones, industrial, instrumentación y electrónica de consumo. Opera en más de 20 países y cuenta con ~30.000 empleados. Desde el 1 de julio de 2025 reorganizó su reporting en dos segmentos:
+- **Datacenter & Communications (DC&C):** transceptores ópticos (800G/1.6T, ZR/ZR+), conmutación óptica de circuitos (OCS), co-packaged optics (CPO/NPO), láseres InP, VCSELs, silicon photonics. Es el motor de la IA.
+- **Industrial:** láseres para equipo de capital de semiconductores (ASML, Applied Materials), láseres excimer para pantallas OLED, sustratos de carburo de silicio (SiC), materiales y cerámicas.
+
+En el ejercicio 2026 (cierre 30 jun 2026) el DC&C generó 5.274 M$ (74% de la facturación) y el Industrial 1.844 M$ (26%). En el último trimestre (Q4 FY26) el DC&C supuso el 79% de los 2.045 M$ de ingresos. La empresa "genera dinero" vendiendo componentes y módulos de alto valor añadido a hyperscalers (Microsoft, Meta, Amazon, Google), a NVIDIA y a fabricantes de switching (Cisco, Arista), así como láseres/óptica a la industria y al consumo (Apple es cliente relevante de VCSELs). La clave de su modelo es que internaliza casi todas las capas de la pila óptica: cristal → epi → chip láser → fotodetector → módulo terminado. Eso le da control de coste, suministro y diferenciación que un ensamblador puro (p. ej. Innolight) no tiene.
+
+## 3. Industria y moat competitivo
+El mercado de transceptores ópticos ronda los 23-26 MM$ en 2025 y crece a un CAGR de ~18-22% hasta 2030, impulsado por la necesidad física de óptica más allá de los 400 Gbps (el cobre no escala más de ~2 metros a esas velocidades). La estructura es un oligopolio moderadamente concentrado: los cinco mayores (Coherent, Lumentum, Broadcom, Accelink, Innolight) tomaban ~50% de los ingresos 2025. **Pero el valor real no está en el módulo, sino en los componentes críticos:** los DSP son un duopolio Broadcom/Marvell (~70-80%), y los láseres EML de alta velocidad los controlan apenas un puñado de empresas (Lumentum, Coherent, Mitsubishi, Broadcom, Sumitomo). Coherent es, con Lumentum, uno de los dos únicos fabricantes occidentales con fabs de InP propias.
+
+El **moat de Coherent** descansa en tres pilares:
+1. **Integración vertical de InP (barrera técnica enorme).** La transición a obleas de 6 pulgadas (vs. 3" legacy de la competencia) da ~4x dispositivos por oblea a menos de la mitad de coste unitario. Coherent es el primero en llevarlo a escala de volumen, en 4 sitios (Sherman TX, Fremont CA, Järfälla Suecia, Zúrich).
+2. **Ciclos de cualificación de 12-18 meses y switching costs.** Una vez cualificado en un rack de hyperscaler, el proveedor queda "encerrado"; el riesgo de cambiar de suministrador es operativo, no solo de precio.
+3. **Alianza NVIDIA (marzo 2026):** 2.000 M$ de inversión directa + compromiso de compra multibillonario + derechos de capacidad futura. Esto valida la tecnología, asegura demanda a ojo de 2028 y crea "switching costs" a nivel de ecosistema.
+
+Riesgos de moat: (a) los ensambladores chinos (Innolight ~22% de cuota de módulos, Eoptolink) compiten en volumen y precio, y aunque dependen de los láseres/chips de Coherent, presionan el margen del módulo terminado; (b) Broadcom integra DSP+láser+switch en el paquete (CPO), amenazando el modelo de módulo enchufable a largo plazo; (c) Lumentum compite al nivel de componente con epitaxia posiblemente más madura en EML de 200G/lane.
+
+## 4. Análisis financiero
+Cifras en millones de USD, ejercicio fiscal julio-junio:
+
+| Concepto | FY2023 | FY2024 | FY2025 | FY2026 |
+|---|---|---|---|---|
+| Ingresos | 5.160 | 4.708 (-8,8%) | 5.810 (+23,4%) | 7.118 (+22,5%) |
+| Margen bruto GAAP | n/d | 30,9% | 35,2% | 35,2%* |
+| Margen bruto non-GAAP | n/d | 36,0% | 37,9% | 39,4% |
+| Beneficio op. non-GAAP | n/d | 618 | 1.037 | 1.457 |
+| BPA non-GAAP | n/d | 1,67 | 3,53 | 5,61 |
+| BPA GAAP | n/d | -1,84 | -0,52 | 4,12 |
+| FCF | 198 | 199 | 193 | **-1.023** |
+
+*El margen bruto GAAP de FY2026 incluye la revalorización de inventario por la inversión NVIDIA; el Q4 FY26 GAAP fue 38,5% y non-GAAP 40,2%.
+
+**Calidad de las cifras:** la expansión de margen es real y sostenida (+358 bps non-GAAP en FY25, +152 bps en FY26). El EPS non-GAAP creció +191% en FY25 y +59% en FY26. El paso de pérdidas GAAP a 805 M$ de beneficio neto atribuible en FY26 (vs. 49 M$ en FY25) es un cambio de signo genuino, no contable cosmético.
+
+**Balance (FY26):** caja+equivalente 1.162 M$, inversiones a corto 825 M$, caja restringida 607 M$. Deuda total 3.222 M$ (frente a 3.687 M$ en FY25 y ~4.170 M$ en FY24). Patrimonio neto 11.238 M$. Apalancamiento neto Deuda/EBITDA bajó a ~0,5x (era ~4,2x a finales de 2024). La fortaleza se debe a la inversión de NVIDIA y a una emisión de acciones de ~1.999 M$ en FY26. Deuda/Patrimonio ~0,06. **Pero atención:** fondo de comercio 4.376 M$ + intangibles 2.885 M$ = ~7,3 MM$ de activos intangibles (legado de Finisar 2019 y Coherent 2022), un riesgo de deterioro si el ciclo se tuerce.
+
+**El lunar del FCF:** en FY26 el free cash flow fue NEGATIVO (-1.023 M$) porque el capex se disparó a 1.103 M$ (vs. 441 M$ en FY25) para construir la capacidad de InP de 6", y el capital circulante absorbió caja (inventarios casi se duplicaron a 2.581 M$, cuentas por cobrar a 1.343 M$). Es una fase de "quemar caja para crecer"; el OCF fue solo 80 M$. Para un inversor de calidad esto es a la vez comprensible (inversión en moat) y una señal de que el rendimiento de caja hoy es nulo.
+
+## 5. Valoración
+A 293,39 $ (27 ago 2026; capitalización ~57,4 MM$):
+- **P/E GAAP (TTM):** ≈ 71x (4,12 $ BPA).
+- **P/E forward (FY27):** ≈ 31x (consenso ~9,4 $ EPS non-GAAP).
+- **EV/EBITDA:** ≈ 37x.
+- **P/S:** ≈ 8,1x. **P/B:** ≈ 5,1x.
+- Rango 52 semanas: 85,94 – 440,00 $. El valor se ha multiplicado por ~6-7x desde 2023.
+- Consenso de analistas: "Buy", objetivo medio ~389-416 $ (optimista; no es un "precio objetivo" que yo suscriba ciegamente).
+
+Comparado con su historia, el múltiplo está muy por encima de la media (GuruFocus lo marca "significantemente sobrevalorado"; su modelo es ciego al crecimiento y hay que tomarlo con pinzas). Frente a pares: Lumentum cotiza a múltiplos similares o algo menores en P/S; Broadcom a múltiplos de beneficio mayores pero con negocio mucho más diversificado.
+
+**Mi estimación de valor intrínseco (explícita e incierta):** usando el consenso de BPA non-GAAP FY28 ~14 $ y aplicando un múltiplo de 25-30x propio de un compounder de calidad ya madurado, se llega a ~350-420 $. Con un descuento por riesgo de ejecución, ciclo y el sobrecoste de capex/FCF negativo, mi rango intrínseco es **260-380 $ (caso base ~320 $)**. A 293 $ el precio está cerca de ese valor justo: **el margen de seguridad es fino o inexistente**. No hay "precio objetivo" falso aquí: la valoración depende enteramente de que el crecimiento FY27/FY28 se materialice sin tropiezos de yield o de precios. Para un inversor de valor, eso no es margen de seguridad, es fe.
+
+## 6. Equipo directivo e incentivos
+**Jim Anderson (CEO desde 3 jun 2024)** es el activo clave de la historia reciente. Ex-CEO de Lattice Semiconductor (donde la acción se revalorizó ~6x), ex-SVP de Computación y Gráficos en AMD, con paso por Intel, Broadcom y LSI. Su mandato es refundar Coherent de "conglomerado apalancado" en "plataforma de fotónica de IA enfocada", y los resultados (margen, deuda, crecimiento) avalan el progreso. Su paquete retributivo fue el más alto de EE. UU. en 2024 (Barron's) — alta compensación, pero mayoritariamente vinculada a equity, lo que alinea sus intereses con los accionistas (aunque invita a cierto sesgo de crecimiento agresivo). **Sherri Luther (CFO)** ha reducido apalancamiento y está disciplinada en capex. El legado fundacional (Carl Johnson, II-VI 1971; Chuck Mattera, artífice de las adquisiciones Finisar 2019 y Coherent 2022) dejó una base tecnológica y de M&A sólida, si bien la integración deja deuda intangible y complejidad.
+
+## 7. Riesgos
+1. **Ciclicidad del capex en IA / "digestión":** ~79% de los ingresos del último trimestre vienen de un solo complejo de demanda. Un parón o recorte del capex de hyperscalers golpea de lleno.
+2. **Concentración de clientes:** NVIDIA (inversión+compromiso), hyperscalers y Apple. La pérdida o renegociación de un gran cliente es material.
+3. **FCF negativo y consumo de capital circulante:** el capex de 1.100 M$ y el inventario de 2.581 M$ significan que hoy la empresa no genera caja; si la demanda falla, el apalancamiento (aunque bajo hoy) podría reconstituirse.
+4. **Ejecución técnica:** el ramp de InP de 6" (yield, equipos) es la restricción nº 1 declarada por el CEO; un problema de yield retrasaría ingresos en 800G/1.6T/CPO.
+5. **Competencia y compresión de precios chinos:** Innolight y Eoptolink ganan volumen en 800G y presionan márgenes de módulo; una prohibición de importación estadounidense cortaría por ambos lados (perjudica ventas de componentes a China pero beneficia módulos propios).
+6. **Amenaza CPO / canibalización de pluggables:** a largo plazo el co-packaged optics puede reducir el TAM de módulos enchufables; Coherent lo aborda (suministra láseres CW para CPO), pero el riesgo de arquitectura existe.
+7. **Intangibles/goodwill (~7,3 MM$):** riesgo de deterioro en una corrección del ciclo.
+8. **Geopolítica / controles de exportación:** los chips InP son de doble uso; dependencia de CHIPS Act y de suministros de obleas InP externas (las crece en SiC/GaAs internamente, pero el InP lo compra bajo contratos de 3-5 años).
+
+## 8. Catalizadores y noticias recientes (2024-2026)
+- **Mar 2026:** NVIDIA invierte 2.000 M$ en Coherent + compromiso de compra multibillonario y derechos de capacidad (validación de ecosistema y visibilidad a 2028).
+- **Ago 2026:** Resultados récord FY26 — ingresos 7.118 M$ (+22,5%), EPS non-GAAP 5,61 $ (+59%), margen op. non-GAAP 20,5%. Guía Q1 FY27 de 2,2-2,4 MM$ y **primer trimestre de >3.000 M$ antes de fin de FY27**.
+- **InP de 6":** capacidad se duplica a fin del trimestre actual (1 trimestre por delante del plan) y se más que duplicará de nuevo a fin de 2027; +80% de producción de láseres InP interanual en el trimestre de junio.
+- **CHIPS Act:** carta de intención de hasta 50 M$ para cuadruplicar la capacidad de obleas InP en Sherman, TX.
+- **1.6T:** el ramp se acelera por encima de lo previsto hace 3 meses; 800G crece interanual.
+- **OCS y CPO:** OCS creciendo secuencialmente; **CPO empieza a generar ingresos en Q2 FY27**.
+- **PhotonLink:** plataforma integrada de óptica "one-stop-shop" lanzada el 21 sep 2026.
+
+## 9. Tesis bull / bear
+**Bull:** la óptica es físicamente inevitable para escalar la IA; Coherent controla la capa más escasa (láseres InP) con la economía de coste superior (6"). La alianza NVIDIA elimina riesgo de demanda hasta 2028, el moat se ensancha, el margen sigue expandiéndose (objetivo >42%) y el balance ya es sólido. Si FY28 alcanza ~14 $ de BPA non-GAAP, el múltiplo actual de ~31x forward no es caro para un crecimiento del 40-50%. El inversor compra "el Intel del InP".
+
+**Bear:** el 79% de los ingresos cuelga de un solo complejo de demanda cíclico; el FCF es negativo mientras se construye capacidad que, si la IA "digiere", quedará ociosa (apalancamiento operativo negativo: fijos de fab pesan). Los chinos compiten en precio, Broadcom integra el stack completo (DSP+láser+switch) y el CPO puede canibalizar el modelo de módulo. A 71x beneficio GAAP y 8x ventas, cualquier decepción de yield, precio o capex es castigada severamente (beta 2,1; ya cayó ~19% en una semana de agosto 2026 sin noticias negativas). El múltiplo embede perfección.
+
+## 10. Fuentes
+- Earnings Release FY2026 Q4 (12 ago 2026): https://www.coherent.com/content/dam/coherent/site/en/documents/investors/financial-releases/2026/august-12/earnings-release-fy26-q4.pdf
+- Resultados FY2025: https://www.coherent.com/news/press-releases/fourth-quarter-and-fiscal-year-2025-results
+- Alianza NVIDIA-Coherent (2 mar 2026): https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Coherent-Announce-Strategic-Partnership-to-Develop-Optics-Technology-to-Scale-Next-Generation-Data-Center-Architecture/default.aspx
+- Reuters inversión NVIDIA 4.000 M$ en Lumentum+Coherent: https://www.reuters.com/technology/nvidia-invest-2-billion-photonic-product-maker-lumentum-2026-03-02/
+- Wikipedia Coherent Corp.: https://en.wikipedia.org/wiki/Coherent_Corp.
+- StockAnalysis COHR (precio/cap/finanzas): https://stockanalysis.com/stocks/cohr/
+- Ficha CEO Jim Anderson: https://www.coherent.com/company/leadership/jim-anderson
+- Sectordock (moat de transceptores): https://sectordock.com/posts/2026-06-11_[ver.en]_valuechain-screening
+- Macroplane (tesis InP→EML→1.6T): https://macroplane.com/thesis/ths_01KQWGJ2J28SKG8PYZ1TB1XMEZ-~coherent-stock-cohr-the-vertically-integrated-inp-eml-1-6t-photonics-stack
+- ChipStrat (integración vertical): https://www.chipstrat.com/p/coherents-vertical-integration-strategy
+- MoatMap deep-dive COHR: https://moatmap.ai/deep-dive/COHR
+- Mordor Intelligence (mercado transceptores): https://www.mordorintelligence.com/industry-reports/optical-transceiver-market
+- PhotonCap (módulos chinos vs. chips): https://photoncap.net/p/chinese-optical-modules-own-7-of
+- Converge Digest (escalado IA): https://convergedigest.com/coherent-scales-optical-infrastructure-ai-data-center/
+- Trefis COHR (múltiplos/consenso): https://www.trefis.com/data/companies/COHR
+- Yahoo Finance Key Statistics: https://finance.yahoo.com/quote/COHR/key-statistics/
+
+## 11. Veredicto de Carlos
+**VIGILAR (no comprar a precios actuales).** Coherent es, sin duda, un negocio de calidad excepcional con foso real, visibilidad inusual (contrato NVIDIA a 2028) y un equipo directivo (Jim Anderson) con track record de creación de valor. Cumple mi filtro de calidad, durabilidad e integridad. **Pero la disciplina de valor exige margen de seguridad, y aquí no lo hay:** 71x beneficio GAAP, 8x ventas, EV/EBITDA ~37x, free cash flow negativo por el capex de expansión, y una dependencia del ciclo del capex en IA que ya supone ~79% de los ingresos trimestrales. El precio descuenta una ejecución perfecta.
+
+No es una acción que EVITARÍA (el moat es demasiado bueno y la tesis a 3-5 años es coherente), pero tampoco una COMPRAR a 293 $. **Mi protocolo:** vigilar y acumular en debilidad —zona de acumulación gradual 230-260 $, y convicción alta por debajo de 200 $—, preferentemente tras ver el FCF volver a territorio positivo (normalización de inventario y maduración del capex de InP) o tras un recorte del múltiplo a <25x beneficio forward. Condiciones para subir a COMPRAR: (1) FCF positivo sostenido; (2) yield de InP de 6" en línea; (3) CPO/OCS aportando ingresos sin canibalizar pluggables; (4) evidencia de que la demanda de hiperscalares aguanta más allá de 2027. Mientras tanto: en la watchlist, con paciencia de inversor a largo plazo. "AI runs on compute, but it scales on optical connectivity" —Coherent está en el lado correcto de la física; solo hay que no pagar por adelantado todo el futuro.

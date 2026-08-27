@@ -1,0 +1,109 @@
+---
+title: "Cooper Companies (The) (COO) — Análisis Fundamental"
+tipo: empresa
+tags: [empresa, analisis-fundamental, salud]
+fecha: 2026-08-27
+agente: carlos-barez
+ticker: COO
+moneda: USD
+precio_referencia: 72.68
+fecha_precio: 2026-08-27
+valor_estimado: 85 (rango 75-95)
+gatillo_entrada: 63 (nivel cercano al minimo 52-sem de 58.89; da margen de seguridad si el overhang de CooperSurgical se despeja)
+veredicto: SEGUIR
+revisar_el: 2026-11-24
+fuentes: "[\"https://en.wikipedia.org/wiki/The_Cooper_Companies\", \"https://stockanalysis.com/stocks/COO/\", \"https://stockanalysis.com/stocks/COO/financials/\", \"https://stockanalysis.com/stocks/COO/statistics/\", \"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=COO&type=10-K&count=5\", \"https://koalagains.com/stocks/NASDAQ/COO/business-and-moat\", \"https://www.sec.gov/Archives/edgar/data/711404/000162828026040823/coo-20260604.htm\", \"https://investor.coopercos.com/news-releases/news-release-details/coopercompanies-announces-second-quarter-2026-results\", \"https://investor.coopercos.com/static-files/9a2148ca-9e35-4849-a842-bf3c29b22792\"]"
+---
+# Cooper Companies (The) (COO) — Análisis Fundamental
+
+## 1. Resumen ejecutivo
+The Cooper Companies (NASDAQ: COO) es un fabricante global de dispositivos médicos, fundado en 1958 y con sede en San Ramon, California. Opera en dos segmentos: **CooperVision** (lentes de contacto) y **CooperSurgical** (salud de la mujer, fertilidad y productos quirúrgicos). COTIZA a **$72.68** (cierre 26-ago-2026), con capitalización de **$14.17B** y valor empresarial (EV) de **$16.76B**.
+
+La tesis es la de un *compounder* de calidad con moat: ingresos recurrentes por productos consumibles (lentes desechables, IUD, suministros de IVF), relaciones profundas con profesionales (optometristas, ginecólogos) y una posición de oligopolio en lentes de contacto. El negocio es resiliente y genera caja, pero **dos sobre-saltos** manchan el momento: (1) un cargo por litigio de **$271.6M** (recuerdo del recall de medios de cultivo de embriones de CooperSurgical en dic-2023) que hunde el beneficio TTM y distorsiona el P/E; y (2) una **revisión estratégica de CooperSurgical** (posible venta/spin) cuyo desenlace es la clave del valor. A precios actuales (Forward P/E ~15.4x) es razonable para un negocio de calidad, pero NO barato con margen de seguridad amplio. **Veredicto: SEGUIR** (acumular solo por debajo de ~$63 o tras claridad en CooperSurgical).
+
+## 2. Descripción del negocio (segmentos, geografía, cómo genera dinero)
+- **CooperVision (CVI) — ~74% de los ingresos.** Líder mundial en lentes de contacto blandas: esféricas, tóricas (astigmatismo), multifocales (presbicia) y miopía. Familias clave: Biofinity (mensual, silicona-hidrogel), MyDay (diarias), clariti 1 day. Vende a través de profesionales de la visión (optometristas). Alta recurrencia: el usuario compra lentes todos los meses; margen operativo típico de la división en el entorno del **20%+**.
+- **CooperSurgical (CSI) — ~26% de los ingresos.** Dos sub-líneas: (a) *Fertilidad* (productos y servicios de IVF, medios de cultivo de embriones, criopreservación) y (b) *Office & Surgical* (dispositivos e instrumentos para OB/GYN, incl. el DIU no hormonal PARAGARD, contracepción). También generan ingresos recurrentes (consumibles de IVF, reposición).
+
+Desglose de ingresos FY2025/segmentos (millones USD): Toric & Multifocal 1,351; Sphere & Other 1,393; Office & Surgical 824; Fertility 525. Crecimiento orgánico de baja-dos-dígitos en fertilidad, sólido en el resto. Geografía: fuerte en América y EMEA; **softness en Asia-Pacífico** señalado en recientes conferencias. 15,000 empleados. CEO: Albert G. White III (Presidente y CEO).
+
+## 3. Industria y moat competitivo (estructura, barreras, ventaja sostenible vs competidores)
+- **Lentes de contacto = oligopolio.** Cuatro grandes dominan: Johnson & Johnson (Acuvue), Alcon, Bausch + Lomb y CooperVision. Barreras de entrada altas: regulación (FDA/equivalente), I+D de materiales (silicona-hidrogel), economías de escala en fabricación y, sobre todo, la **fidelidad del prescriptor** (el optometrista receta y el paciente rara vez cambia de marca). CooperVision ha ganado cuota sistemáticamente por encima del mercado (CAGR de mercado 4-6%).
+- **Salud de la mujer/fertilidad = nicho con fricción regulatoria y de confianza.** IVF y productos de OB/GYN requieren fiabilidad clínica y relaciones de décadas con clínicas. El recall de 2023 dañó la confianza en la línea de fertilidad de CooperSurgical pero se está resolviendo.
+- **Moat (intangible + recurrencia + coste de cambio):** marca, relaciones con prescriptores, cartera de consumibles recurrentes, y escala. No hay ecosistema de software tipo "switching cost" fuerte, pero la naturaleza no discrecional de los productos y la receta profesional dan un *franchise* durable y predecible. El riesgo es que CooperSurgical es el eslabón más débil (litigio, execución) y por eso está en revisión estratégica.
+
+## 4. Análisis financiero (3-5 años): ingresos, márgenes, FCF, ROIC/ROE, deuda/EBITDA, liquidez — CITA cifras y años
+Cifras en millones USD (ejercicio nov-oct; datos TTM a abr-2026):
+
+| Año | Ingresos | Crec. | Margen bruto | Margen op. | Beneficio neto | EPS | FCF |
+|---|---|---|---|---|---|---|---|
+| TTM (abr-26) | 4,231 | +6.1% | 65.55% | 11.86% | 235.8 | 1.18 | 569.5 |
+| FY2025 | 4,092 | +5.06% | 65.54% | 16.78% | 374.9 | 1.87 | 433.7 |
+| FY2024 | 3,895 | +8.41% | 66.64% | 18.17% | 392.3 | 1.96 | 288.1 |
+| FY2023 | 3,593 | +8.61% | 65.62% | 14.04% | 294.2 | 1.48 | 215.0 |
+| FY2022 | 3,308 | +13.20% | 64.67% | 15.28% | 385.8 | 1.94 | 450.4 |
+| FY2021 | 2,923 | +20.22% | 66.92% | 19.66% | 2,945* | 14.79* | 524.2 |
+
+*FY2021 incluye un beneficio extraordinario (no operativo) que infla el neto; no representativo.
+
+- **Ingresos:** crecimiento constante 5-13% anual; TTM +6.1%. Compounders predecibles.
+- **Márgenes:** bruto estable ~65-66% (muy sano para dispositivos médicos). Operativo TTM deprimido a 11.86% por el cargo de litigio; ex-cargos ronda 16-18%.
+- **FCF:** TTM $569.5M (FCF margin 13.5%); OCF $953M, CAPEX -$383.5M. La compañía guía **> $2.2B de FCF acumulado 2026-2028** (~$730M/año), lo que implica una mejora significativa de la conversión de caja.
+- **ROIC/ROE:** ROE 2.85%, ROIC 2.63%, ROA 2.52% en TTM — **deprimidos artificialmente** por el cargo de litigio y el menor beneficio neto del periodo. No reflejan el poder de negocio normalizado (que históricamente genera ROIC de doble dígito).
+- **Deuda/liquidez:** Deuda total $2,727M, caja $138.8M, **deuda neta -$2,588M** ($13.27/acción). Deuda/EBITDA 2.89x, interés cubierto 5.39x, Deuda/Patrimonio 0.33, ratio corriente 1.27. Apalancamiento moderado y manejable. Altman Z-Score 3.46 (zona segura), Piotroski F 6 (sólido).
+
+## 5. Valoración: P/E, P/S, EV/EBITDA, P/FCF vs histórico y pares; noción de margin of safety
+- **P/E TTM 61.35x** — DISTORSIONADO por el cargo de litigio (beneficio TTM hundido a $235.8M). Sobre el neto normalizado de FY2025 ($374.9M) sería ~37.8x; sobre un run-rate ex-one-off el múltiplo cae a la veintena baja.
+- **Forward P/E 15.37x** — la métrica útil: descuenta ~$4.6-4.8B de beneficio en 2026-27. Razonable para un compounder con moat y crecimiento de FCF de doble dígito.
+- **P/S 3.35x**, **EV/Sales 3.96x**, **EV/EBITDA 18.91x**, **EV/FCF 29.43x**, **P/FCF 24.89x**, **P/B 1.72x**, **PEG 1.87x**.
+- **Comparación de pares (dispositivos médicos/consumibles):** los múltiplos son moderados frente a peers de calidad (p. ej. medios de visión y salud de la mujer cotizan a menudo 20-25x forward earnings). EV/EBITDA ~19x es normal, no barato.
+- **Margen de seguridad (explícito sobre incertidumbre):** el P/E TTM de 61x es una trampa estadística; el negocio subyacente vale más. Pero a $72.68 el precio ya descuenta una recuperación. Mi estimación gruesa de **valor intrínseco ~$85/acción** (rango $75-95) asume: FCF normalizado ~$600-700M creciendo ~7-10%, WACC ~7.7%, y resolución del overhang de CooperSurgical. Eso deja solo ~17% de upside a valor justo y **poco margen de seguridad** a precios actuales. Un **gatillo de entrada ~$63** (cerca del mínimo 52-sem de $58.89, ~13% por debajo) daría margen de seguridad real. No doy "precio objetivo" falso: es una banda probabilística.
+
+## 6. Equipo directivo e incentivos
+- **Albert G. White III** (Presidente y CEO): 10 trimestres consecutivos batiendo consenso; discurso enfocado en *share gains* de CooperVision, FCF y retorno de capital.
+- **Alineación:** la compañía **repurchased casi $300M en FY2025** (2/3 del FCF) y elevó el programa a **$2B** (quedan ~$861M de disponibilidad tras ~$13M recomprados en Q2-26). Insiders han comprado acciones. El FCF se incorporó como métrica de bonus en 2024 — alineación con creación de valor en efectivo.
+- **Gobernanza:** transición del Chairman a retiro en discusión; Junta evaluando alternativas estratégicas para CooperSurgical (presentadas hallazgos iniciales en oct-2025).
+
+## 7. Riesgos (3-6 principales, cualitativos y cuantitativos)
+1. **Overhang de CooperSurgical / litigio:** el recall de medios de cultivo de embriones (dic-2023) generó 140+ demandas y 1,500+ reclamantes; cargo neto de **$271.6M** (Q2-26, liquidado >95%). Riesgo residual si aparecen nuevos reclamos o el seguro no cubre.
+2. **Ejecución de CooperSurgical:** división rezagada, presión de márgenes y posible desinversión — si se vende barato o se descubre más deterioro, destrucción de valor.
+3. **Apalancamiento y tipo de interés:** deuda neta ~$2.6B; Deuda/EBITDA 2.89x y cobertura 5.39x son holgados pero sensibles a un shock de márgenes/FCF.
+4. **Concentración en prescriptores y competencia oligopólica:** J&J, Alcon y Bausch+Lomb compiten agresivamente en lentes; pérdida de cuota en CooperVision golpearía el motor de beneficios.
+5. **Softness Asia-Pac y divisa:** exposición internacional; un dólar fuerte o debilidad en Asia-Pac (ya señalada) pesa sobre el crecimiento orgánico.
+6. **Riesgo regulatorio/clínico:** dispositivos médicos sujetos a FDA/autoridades; un nuevo recall o cambio normativo (p. ej. PARAGARD/contracepción) afectaría a CooperSurgical.
+
+## 8. Catalizadores y noticias recientes (2024-2025)
+- **Q2-2026 (4-jun-2026):** ingresos récord $1.082B (+8%), margen bruto 68%, EPS récord no-GAAP; 10º trimestre batiendo consenso. Cargo de litigio de $271.6M (ya casi liquidado). **Revisión estratégica de CooperSurgical avanza con "robusto interés"** — catalizador central.
+- **Guía FCF 2026-2028 > $2.2B** (subida); recompra acelerada ($2B autorizado).
+- **Roll-out de MyDay** (diarias premium, silicona-hidgel) global — motor de cuota en CooperVision.
+- **Citi sube target a $80** (Neutral); **UBS inicia en Neutral $75**; JPMorgan baja a $71; Needham $86 (Buy); Stifel $85 (Buy); Baird $85 (Outperform); Wells Fargo $66 (Equal Weight). **Consenso: Buy, target $81.50 (+12.14%).**
+- **Sostenibilidad/ESG:** informe 2025 con Scope 3; plataforma "MADE BETTER" en MyDay (señal de marca, no catalizador financiero directo).
+- **Próximo earnings: 9-sep-2026.**
+
+## 9. Tesis bull / bear (dos lados, honesto)
+**Bull:** Oligopolio en lentes con cuota creciente; recurrencia y márgenes brutos ~66%; FCF que se dispara a >$730M/año (2026-28); valoración Forward P/E ~15.4x atractiva para la calidad; litigio casi cerrado; revisión estratégica de CooperSurgical puede liberar valor (venta de la división problemática y dejar un "pure-play" de visión más limpio) o recomprar acciones con el producido; insiders alineados y recomprando.
+
+**Bear:** El P/E TTM de 61x y ROE 2.85% reflejan que el beneficio real está deprimido y el mercado ya premia la recuperación; CooperSurgical es un lastre con riesgo legal residual y dudas de ejecución; deuda neta de $2.6B limita maniobra; la competencia oligopólica puede recrudecer precios; Asia-Pac débil; y si la revisión estratégica no cuaja o se vende barato, el "catalizador" se vuelve riesgo. El upside a valor justo (~$85) es limitado desde $72.68 sin más catalizadores.
+
+## 10. Fuentes (URLs)
+- Wikipedia (negocio/historia): https://en.wikipedia.org/wiki/The_Cooper_Companies
+- StockAnalysis resumen/valoración: https://stockanalysis.com/stocks/COO/
+- StockAnalysis financials: https://stockanalysis.com/stocks/COO/financials/
+- StockAnalysis statistics: https://stockanalysis.com/stocks/COO/statistics/
+- SEC EDGAR 10-K (CIK 711404, último 10-K 2025-12-05): https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=COO&type=10-K&count=5
+- Moat/competidores (KoalaGains): https://koalagains.com/stocks/NASDAQ/COO/business-and-moat
+- 8-K litigio CooperSurgical (SEC, Q2-26): https://www.sec.gov/Archives/edgar/data/711404/000162828026040823/coo-20260604.htm
+- Q2-2026 results (IR Cooper): https://investor.coopercos.com/news-releases/news-release-details/coopercompanies-announces-second-quarter-2026-results
+- Q4-2025 earnings call (IR Cooper): https://investor.coopercos.com/static-files/9a2148ca-9e35-4849-a842-bf3c29b22792
+
+## 11. Veredicto de Carlos (comprar/seguir/vigilar/evitar, con condiciones)
+**SEGUIR.** COO es un negocio de calidad con moat real (oligopolio de lentes + recurrencia de consumibles + relación con prescriptores) y generación de FCF en mejora. Pero a $72.68 el margen de seguridad es estrecho: el P/E TTM está distorsionado por el cargo de litigio y el mercado ya descuenta bastante recuperación (Forward P/E ~15.4x, target de consenso $81.50). No es una compra agresiva hoy.
+
+**Condiciones para COMPRAR:**
+1. Precio ≤ **$63** (margen de seguridad real cerca del mínimo 52-sem de $58.89), O
+2. **Desenlace claro y favorable de la revisión estratégica de CooperSurgical** (venta a buen precio o confirmación de mejora de márgenes), y
+3. **Litigio totalmente cerrado** (sin reclamos residuales materiales) y FCF confirmando la guía >$2.2B (2026-28).
+
+Mientras tanto: **VIGILAR** el earnings del 9-sep-2026, la evolución de CooperSurgical y la trayectoria de FCF. Revisar el 2026-11-24.
+
+<!-- META ticker=COO veredicto=SEGUIR -->

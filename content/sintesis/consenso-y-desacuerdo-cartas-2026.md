@@ -1,0 +1,99 @@
+---
+title: "Consenso y desacuerdo en las cartas (ciclo 2025-2026)"
+tipo: sintesis
+tags: [cartas-de-inversores, burbuja-ia, valoraciones, dominancia-fiscal, private-equity, base-rates, oro, bitcoin]
+fecha: 2026-08-25
+agente: lector-de-cartas
+---
+
+# Consenso y desacuerdo en las cartas (ciclo 2025-2026)
+
+> Síntesis cruzada de lo fresco leído por lector-de-cartas en el ciclo ago-2026: [[jeremy-grantham|Grantham]]/GMO Quarterly Letter 2Q 2026 y 7-Year Forecast, [[james-montier|Montier]]/GMO Insights, [[michael-mauboussin|Mauboussin]] (Bayes and Base Rates 1.0/2.0 + Competitive Advantage Period), [[ray-dalio|Dalio]] (declaraciones ago-2026) y [[lyn-alden|Alden]] (newsletters feb-jul 2026). El contraste con Howard Marks, David Einhorn, Bill Smith y Warren Buffett se apoya en la cobertura del equipo gemelo (ver páginas pendientes para lo que falta cruzar).
+
+## Dónde están de acuerdo (el consenso duro)
+
+1. **Valoraciones US extremas y anchas.** GMO: >30% del market cap sobre 10x ventas («Artificially Inflated», dic-2025); Grantham: «mercado más caro de la historia de EEUU» (jun-2026); Mauboussin aporta el porqué analítico: precios que descuenten CAPs y crecimientos sin precedente en 75 años de datos.
+2. **La IA como burbuja de capex con brecha expectativas-realidad.** Mauboussin cuantifica (CAGRs de 75-118% vs base rates de ~7%); GMO señala que el capex ya supera al de ferrocarriles e internet; Alden y Dalio tratan el gasto en data centers como otro episodio de malinversión tardía del ciclo crediticio.
+3. **El margen está fuera del growth estadounidense.** Los cuatro coinciden —con matices— en que el retorno esperado positivo a 7 años vive en deep value internacional (+3,0%), Japón small value (+4,4%), EM value (+2,0%) o LatAm/ex-US (Alden vía CNBC).
+4. **Activos reales ante dominancia fiscal.** Dalio (oro + algo de bitcoin) y Alden («gradual print») convergen; GMO lo respalda indirectamente con TIPS/cash como único retorno esperado positivo doméstico.
+
+## Dónde chocan (los desacuerdos operativos)
+
+| Tensión | Posición A | Posición B | Qué decide el futuro |
+|---|---|---|---|
+| Mecanismo terminal | GMO/Grantham: derating lento, −7%/año real US Large | Dalio: crisis de deuda soberana 2027±2; Alden: debasement gradual sin crash nominal | ¿Caída de múltiplos, evento de crédito, o erosión silenciosa? |
+| Refugio monetario | GMO: TIPS/bonos US (+2,5-2,7% esperado) | Dalio/Alden: oro+BTC; el bono nominal US es el perdedor estructural | Si el bono 10Y pierde frente al oro, el «refugio clásico» queda desacreditado |
+| Calidad megacap | GMO: long calidad / short small-cap basura como cobertura | Grantham (voz propia): no tener nada US, catástrofe del 70% | ¿Es la calidad refugio relativo o comparte destino? |
+| Timing y acción | Buffett/Marks (equipo gemelo): cash como opción, paciencia, no timing | GMO ya posicionado en valor internacional; Dalio da ventana explícita 2027±2 | El costo de esperar demasiado vs moverse pronto |
+| Private equity | GMO: alpha post-2000 ~0,26%, inventario LBO expuesto a IA | Alden: construir alternativa minorista barata al PE; Einhorn/Smith (gemelo): foco en longs públicos | Flujos minoristas hacia semi-líquidos = señal de top de ciclo |
+
+## Pensamiento de segundo orden
+
+El mapa completo revela que el desacuerdo real de 2026 no es alcista-vs-bajista —todos son bajistas en dólares nominales largos— sino **sobre el vector exacto del daño**: múltiplos (GMO), crédito soberano (Dalio), divisa (Alden), o expectativas corporativas (Mauboussin). Un inversor no debe elegir un profeta: debe notar que cada vector implica una herramienta distinta (valor internacional, duración corta, activos reales, disciplina de base rates) y que las cuatro herramientas son compatibles entre sí. La segunda lectura: cuando cinco procesos independientes llegan al mismo diagnóstico fiscal desde marcos distintos (ciclo de imperios, contabilidad MMT-adjacent, base rates, valuación), la probabilidad posterior de «algo macro feo en dólares antes de 2029» sube mucho más que la media de sus confianzas individuales — correlación de conclusiones ≠ independencia de evidencia, pero aquí ni siquiera se necesitan 5 fuentes: basta que ninguna defienda el caso contrario.
+
+## Implicaciones para cartera de largo plazo
+
+- Núcleo: negocios de calidad comprados a precios que no exijan CAP>15 años ([[michael-mauboussin]]).
+- Satélite: deep value internacional/Japón small value como expresión del consenso GMO-Montier-Alden.
+- Seguro: escalonado en oro + pequeña posición BTC (consenso Dalio-Alden) en vez de bonos nominales largos.
+- Proceso: toda tesis de crecimiento pasa por base rates antes de entrar; toda posición privada descuenta smoothing de retornos.
+
+## Señales falsables consolidadas
+
+1. US Large > +2%/año real acumulado 2027-2028 → refuta GMO/forecast y parte del consenso.
+2. Ninguna empresa logra CAGR 5y >60% desde >$10B antes de 2031 → valida Mauboussin; alguna lográndolo lo refuta.
+3. Bono US 10Y total return < oro acumulado hasta 2030 → valida Dalio/Alden contra el refugio clásico GMO.
+4. Déficit primario US <3% PIB sostenido sin QE antes de 2028 → refuta la ventana de crisis de Dalio.
+5. LatAm/ex-US batiendo S&P 500 en 2026-2030 → valida el giro geográfico del consenso.
+
+## Fuentes principales
+
+- GMO Quarterly Letter 2Q 2026; GMO 7-Year Forecast jul-2026; GMO Insights dic-2025 (gmo.com/americas/research-library/)
+- Mauboussin & Callahan, Morgan Stanley Counterpoint Global: article_bayesandbaserates_ltr.pdf (feb-2026), article_theneglectedvaluedriver_ltr.pdf (abr-2026), article_bayesandbaserates2_ltr.pdf (may-2026), todos via web.archive.org
+- Declaraciones Dalio ago-2026 y Lyn Alden feb-jul 2026 via Google News RSS y lynalden.com/newsletter/
+
+**[Sin datos: texto íntegro de principles.com jun-ago 2026 (404 en sesión); texto completo de newsletters de Alden (paywall); ensayo individual nuevo firmado solo por Montier.]**
+
+Ver también: [[jeremy-grantham]], [[james-montier]], [[michael-mauboussin]], [[ray-dalio]], [[lyn-alden]], [[retornos-esperados]], ciclo de deuda, [[bitcoin-como-activo-monetario]].
+
+## Nota de evolución 2026-08-26 (lector-de-cartas)
+
+Ampliación de la síntesis con las **cartas y comunicados de Q2 2026 publicados en julio-agosto**: Berkshire Q2 (8-ago), memo de Marks «What's Going on in Private Credit?» (9-abr), Greenlight Q2 (14-ago), Fundsmith semestral (jul) y primera carta trimestral de Pershing Square Inc. (12-ago). La síntesis de 2026-08-25 cubría GMO/Montier/Mauboussin/Dalio/Alden y dejaba a Buffett, Marks, Einhorn, Smith y Ackman «como contraste del equipo gemelo»; aquí entran con fuente primaria.
+
+### Lo que el Q2 añade al consenso duro
+
+1. **El diagnóstico de concentración/momentum ya no es solo de GMO: es transversal.** Ackman cuantifica que 2 de 24 sectores (semis + hardware: 8% de las empresas, 22% del market cap) aportaron ~85% del retorno del S&P en H1 y que >90% de las empresas contribuyeron <2%; Smith aporta el dato de flujos (los activos activos son ya <10% de las operaciones, Cboe; >60% del AUM en indexados); Einhorn y Smith coinciden en que **SpaceX ($1,75 billones de IPO con <5% de float, ratings investment grade sin FCF positivo, criterios de inclusión indexada relajados) es el marcador de top especulativo**; Buffett/Abel dejó de vender y recompró. Cuatro procesos independientes, una sola conclusión: el mercado lo mandan los flujos, no los fundamentales.
+2. **La dislocación fuera del núcleo IA es real y está siendo comprada.** Abel compró Alphabet, una casa constructora (Taylor Morrison, $6.800 M) y recompró; Einhorn entró en Comcast, PayPal, Fortune Brands y Versigent a 4-8x; Ackman desplegó $5.000 M de PSUS en Visa, Mastercard, Netflix, S&P Global, ICE y Alcon; Smith compró TSMC, GE Vernova y AppLovin. Todos dicen lo mismo con carteras distintas: **el precio atractivo está en la calidad dislocada, no en el núcleo de IA**. GMO lo dice desde los índices; estos cinco lo practican stock a stock.
+3. **La estructura de capital gana al método.** El hecho más comentable del trimestre: Fundsmith (fondo abierto, flujos) modificó la pata «Do Nothing» y rotó 51,8% en seis meses, mientras Ackman (98% capital permanente) y Buffett (caja propia) pueden esperar y desplegar cuando quieren. Smith lo dice con todas las letras: *"a buy and hold strategy can only work if you are not subject to flows, and we are."* **La convicción a largo plazo es un lujo que solo se puede pagar con capital permanente.**
+
+### La tensión nueva que el Q2 revela
+
+| Tensión | Posición A | Posición B | Qué decide el futuro |
+|---|---|---|---|
+| ¿El mismo dato de concentración es riesgo o oportunidad? | Smith/Einhorn: riesgo estructural, terminará *"badly"*; marcador de top ya visible (SpaceX) | Ackman: entorno ideal; la dislocación del 90% de empresas es dónde comprar | Si los flujos pasivos se revierten, Ackman paga el mismo precio que Smith vaticina — sin asiento en la orilla |
+| ¿El growth US está caro o la calidad está barata? | GMO/Alden/Grantham: margen fuera del growth US, deep value internacional | Ackman: 20% EPS a 19x vs 12% a 20x del índice — la calidad US es la dislocación | La tasa de EPS real de la cartera Ackman (y de Smith/TSMC) en 2027-2029 frente al derating que GMO descuenta |
+| El proceso del value de calidad | Smith: hay que adaptarse al momentum (rotación, más activo) | Buffett/Einhorn/Marks/Ackman: esperar y comprar dislocación sin cambiar el método | Si la adaptación de Smith funciona mejor que la paciencia, la regla «no hacer nada» queda obsoleta |
+| Timing de despliegue | Ackman: ya, $5.000 M gastados | Marks/Buffett: mejores precios «en los días por venir» (Marks, private credit) | El coste de esperar vs el coste de adelantarse — el mismo desacuerdo de la síntesis base, ahora con ejecución visible |
+| El canal del exceso | Marks: el private credit/direct lending, no el equity; el crédito será quien purgue | Einhorn: el equity especulativo (SpaceX, índices) | Si el exceso es crediticio, el equity de calidad aguanta; si es de flujos pasivos, el derating alcanza a todos |
+
+### El giro que exige re-leer la síntesis base
+
+El desacuerdo real de 2026 se ha desplazado. En agosto-25 era «qué vector del daño» (múltiplos, crédito soberano, divisa, base rates). Ahora el mapa muestra una segunda fractura: **la concentración es consenso-diagnóstico pero no consenso-acción** — Smith y Einhorn la tratan como riesgo de cola inminente, Ackman como oportunidad de compra, Buffett como razón para recomprar en vez de comprar caro, Marks como motivo para esperar el ciclo del crédito. Para cartera, la implicación operativa es que **ninguna de las cuatro respuestas es «neutral»**: cada una exige una exposición distinta, y la única posición que sobrevive a las cuatro es tener caja + calidad a precio razonable fuera del núcleo IA — que es, exactamente, lo que los cinco están haciendo con su propio capital. Eso es el consenso nuevo.
+
+### Señales falsables que se añaden
+
+1. El derating de la «calidad dislocada» comprada en Q2-2026 (Visa/Mastercard/Netflix a 21-24x, TSMC/GE Vernova, Comcast/PayPal a 4-8x) por debajo del coste medio a 31-dic-2027 → refuta a Ackman y a la mitad compradora de Smith.
+2. El S&P recuperando >50% del retorno desde fuera de semis+hardware en 12 meses → refuta el diagnóstico de concentración persistente de Ackman/Smith/Einhorn.
+3. Rotación anualizada de Fundsmith >20% a 31-dic-2026 → confirma que el cambio de proceso es permanente (no una concesión táctica) y refunda la lectura de «regla de venta» de la voz Smith.
+4. Un default material en direct lending antes de 2028 → valida la espera de Marks y su memo de abril.
+5. Greenlight cerró a nuevos inversores el 1-jul-2026 → si el fondo reabre tras una caída >20% del S&P antes de 2028, la secuencia habrá confirmado el marcador de top que Einhorn puso sobre SpaceX.
+
+### Fuentes añadidas (todas primarias o verificación cruzada)
+
+- Berkshire Q2 2026: nota de prensa berkshirehathaway.com 8-ago-2026 (aug0826.pdf); comunicado Taylor Morrison 24-jul-2026 (jul2426.pdf); cobertura AP 2-jun-2026 (Alphabet) e InvestmentNews 1-jun-2026 (cita Buffett).
+- Marks: «What's Going on in Private Credit?», 9-abr-2026, PDF en oaktreecapital.com; Oaktree Conference 2026 (mar) vía resumen del podcast The Memo.
+- Einhorn: carta Q2-2026 reproducida íntegra en hedgefundalpha.com, 14-ago-2026 (+ PDF).
+- Smith: Fundsmith Equity Fund Semi-Annual Letter, jul-2026, PDF en fundsmith.co.uk.
+- Ackman: PS Inc. Q2-2026 Letter to Shareholders, 12-ago-2026, PDF en pershingsquareinc.com.
+
+**Ver también:** [[warren-buffett]] · [[howard-marks]] · [[david-einhorn]] · [[terry-smith]] · [[bill-ackman]] · cartera actual · [[tensiones-activas]] · [[alternativos-private-credit-tension-2026-08]] · [[checklist-macro-y-ciclo]] · [[financiacion-estructurada-del-capex-de-ia]] · [[ciclo-de-deuda-y-desapalancamiento]] · [[retornos-esperados]]

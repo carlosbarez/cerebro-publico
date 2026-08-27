@@ -1,0 +1,320 @@
+---
+title: "Prologis, Inc. (PLD)"
+tipo: analisis-accion
+tags: [empresa, reit, logistica, eeuu]
+fecha: 2026-08-15
+fuentes: []
+---
+
+<!-- Migrado desde cache ponytail: PLD.md · generado por agente autonome (sesion ponytail 2026-08-15) -->
+
+# Prologis, Inc. (PLD)
+
+> Fecha de corte: 2026-08-15 · Moneda: USD
+> Sector: Real Estate · REIT Industrial / Logística · País/Región: Estados Unidos · Bolsa: NYSE (componente S&P 500)
+
+## 1. Ficha rápida
+
+| Campo | Valor |
+|---|---|
+| Ticker / Bolsa | PLD / NYSE (componente S&P 500) |
+| Sector / Industria | Real Estate / REIT – Industrial (logística e inmuebles industriales) |
+| País / Región | EE.UU. (San Francisco, CA) · opera en ~20 países, 4 continentes |
+| Moneda de reporte | USD |
+| Capitalización bursátil | ~137.1 mm millones (intraday, 14 ago 2026, Yahoo Finance) / 131.87 mm millones al 10 ago 2026 (Yahoo Statistics) |
+| Precio | 141.03 USD (cierre 14 ago 2026, Yahoo Finance); precios con retraso no especificado |
+| Rango 52 semanas | 105.42 – 153.35 USD (al 14 ago 2026, Yahoo Finance) |
+| PER | 31.4x (TTM, 14 ago 2026) / forward ~32.1x (Yahoo Finance) |
+| Rendimiento por dividendo | 3.03% (dividendo forward anual de 4.28 USD/acción, 14 ago 2026, Yahoo Finance) |
+| CEO | Daniel S. Letter (desde 1 ene 2026; antes CEO de la empresa matriz) |
+| Chairman Ejecutivo | Hamid R. Moghadam (fundador; pasó a chairman ejecutivo el 1 ene 2026) |
+| Sede | Pier 1, Bay 1, San Francisco, California, EE.UU. |
+| Empleados | 2,802 (a tiempo completo, 2025; Wikipedia/Macrotrends) |
+| Año fiscal | Finaliza 31 de diciembre |
+| Activos bajo gestión (AUM) | ~235 mm millones USD (2025, reporte de analista Argus vía Yahoo); ~230 mm millones según Wikipedia; ~269 mm millones combinado tras cierre de SEGRO (proyección) |
+| Deuda total (30 jun 2026) | 36.4 mm millones USD (10-Q, Prologis IR) |
+| Rating de crédito | AA- / A+ (Moody's / S&P) [NO VERIFICADO — no confirmado en las fuentes consultadas; ver sección 10] |
+
+> Nota de veracidad: las cifras de mercado (precio, capitalización, PER, rendimiento) son datos del 14 ago 2026 (o 10 ago 2026 donde se indica) según Yahoo Finance y pueden estar retrasadas. La capitalización bursátil depende del precio intradiario y del número de acciones; hay diferencias pequeñas entre fuentes por fecha y metodología.
+
+## 2. Descripción de la empresa
+
+Prologis, Inc. es el mayor REIT (real estate investment trust) industrial y de logística del mundo. Se formó en junio de 2011 mediante la fusión de AMB Property Corporation y ProLogis, un acuerdo de ~8.7 mm millones de USD que creó la mayor empresa de inmuebles industriales del planeta (hecho histórico, Wikipedia). Sus orígenes se remontan a 1983, cuando Hamid Moghadam y Doug Abbey fundaron Abbey, Moghadam and Company (más tarde AMB Property, salida a bolsa en 1997).
+
+La compañía es propietaria, desarrolla, adquiere y gestiona naves logísticas y centros de distribución situados cerca de grandes núcleos urbanos y de las principales rutas de comercio global. Según la propia compañía y reportes de analistas (Argus/Morningstar vía Yahoo, 2026), a inicios de 2026 el porfolio tenía justo por debajo de 5,900 edificios, ~1.3 mm de millones de pies cuadrados (~120 millones de m²) en unos 20 países, y servía a ~6,600 clientes (Wikipedia, citando REITnotes).
+
+Aspectos clave de la operación:
+
+- **Tres capas de actividad**: (1) operación de inmuebles en renta (Rental Operations), (2) desarrollo inmobiliario (Development) —incluidos data centers— y (3) gestión de capital de terceros e inversores institucionales (Strategic Capital, incluyendo coinversiones).
+- **Exposición e-commerce**: la demanda de naves de última milla está impulsada por el crecimiento del comercio electrónico, que exige inventario cerca del consumidor. La empresa publica su propio índice de investigación de mercado (Industrial Business Indicator y Logistics Rent Index) desde 2016 (Wikipedia).
+- **Negocios complementarios**: la línea "Essentials" (desde 2018) vende y despliega solar fotovoltaica, racks, carretillas, generadores y carga de vehículos eléctricos a sus clientes. Prologis es uno de los mayores generadores de energía solar en tejados de EE.UU. (2º del país según SEIA Solar Means Business 2024) y opera un hub de carga de camiones pesados en Torrance, CA.
+- **Diversificación a data centers**: el parque de energía para data centers alcanzó 5.8 GW a junio de 2026 (comunicado 2T26, Prologis IR). Al inicio de 2026, ~2% del área neta arrendable correspondía a data centers (Argus vía Yahoo).
+
+**Historia reciente clave**: adquirió Duke Realty (octubre 2022, ~23 mm millones USD, la mayor operación de inmuebles comerciales en EE.UU. desde la pandemia), DCT Industrial (2018, 8.5 mm millones), Liberty Property Trust (2020, 13 mm millones) e Industrial Property Trust (2020, 4 mm millones). En enero de 2026, Hamid Moghadam pasó a chairman ejecutivo y Dan Letter asumió como CEO, tras un plan de sucesión de cinco años (Wikipedia / Semafor). En agosto de 2026 anunció la compra recomendada de SEGRO plc por ~18.8 mm millones USD (ver sección 7).
+
+## 3. Modelo de negocio
+
+### 3.1 Segmentos de ingresos
+
+Prologis opera en dos segmentos de reporte (descripción Reuters/LSEG y 10-Q):
+
+| Segmento | Qué es | Peso en ingresos (aprox.) |
+|---|---|---|
+| Real Estate (Rental Operations + Development) | Arrendamiento de naves logísticas existentes y desarrolladas, terrenos en desarrollo y activos de energía renovable | ~90% de los ingresos totales |
+| Strategic Capital | Gestión de fondos de coinversión con inversores institucionales (fees de gestión, promote) | ~10% (242 M USD en 2T26 vs 2,425 M USD totales) |
+
+Por región (fuente: reporte Argus vía Yahoo, inicios 2026): ~65% de las propiedades están en Norteamérica; el resto se reparte entre Europa, Asia (Japón es el segundo mercado más importante) y América Latina (con FIBRA Prologis en México como vehículo afiliado).
+
+### 3.2 Cómo gana dinero
+
+1. **Rentas (core)**: arrienda naves industriales y logísticas con contratos de larga duración (típicamente 3–10 años). Modelo de ingresos casi puramente por alquiler: renta base + recuperación de gastos operativos. La renta efectiva crece por rentas de mercado, escaladas (rent escalations) y renovaciones con rentas de mercado superiores a las contratadas (embedded rent growth). En 2T26 el cambio de renta en efectivo fue +22.3% y el cambio neto efectivo +36.9% sobre renovaciones (Prologis IR).
+2. **Desarrollo**: construye naves build-to-suit (a medida) y especulativas, las estabiliza y las revaloriza (value creation). En 2T26 el desarrollo aportó ~434 M USD de valor estimado en starts y 89 M USD en estabilizaciones (Prologis IR). Los desarrollos son una fuente histórica de ganancias al venderlos a mayor valor del coste (realized development gains).
+3. **Strategic Capital**: cobra comisiones de gestión por administrar vehículos de coinversión (joint ventures con fondos soberanos, fondos de pensiones, etc.), más ingresos por "promote" (participación en plusvalías) cuando los vehículos superan los retornos pactados. Reducen el riesgo de capital propio y dan escala.
+4. **Essentials y energía**: solar, carga EV, racks y otros servicios (menor, complementario).
+
+### 3.3 Ventajas competitivas / foso
+
+- **Escala global inigualable**: ~1.3 mm de millones de pies cuadrados; el mayor propietario de naves logísticas del mundo, con presencia en los mercados de mayor barrera de entrada (cerca de puertos, aeropuertos y grandes urbes con terreno escaso y caro).
+- **Base de clientes diversa y anclada**: ~6,600 clientes. Principales inquilinos: Amazon (~5.3% de la renta neta efectiva), [[home-depot|Home Depot]] y FedEx (Argus vía Yahoo). Un solo inquilino (Amazon) es ~5% de la renta, lo que es un riesgo de concentración moderado pero gestionable.
+- **Datos y tecnología**: investigación de mercado propia (Industrial Business Indicator), sistemas de pricing y datos de mercado que permiten subir rentas por encima del mercado.
+- **Calidad del balance y coste de capital**: deuda de largo plazo (~7.9 años de plazo medio, tipo medio 3.3% al 2T26), que permite comprar activos baratos cuando otros no pueden financiarse.
+- **Ecosistema de desarrollador**: pipeline de desarrollo propio que crea valor (value creation) por encima del coste de reposición.
+- **Barrera de entrada regulatoria y de suelo**: el terreno cerca de núcleos de consumo está cada vez más restringido por normativa urbana y de uso de suelo.
+
+## 4. Panorama de mercado y competencia
+
+### 4.1 Mercado
+
+La demanda de naves logísticas está ligada a: (a) crecimiento del comercio electrónico (necesidad de inventario distribuido), (b) resiliencia de la cadena de suministro (nearshoring, reshoring, inventarios de seguridad), y (c) la transición energética/digital (data centers, energía en tejados). Según el análisis de Oxford Economics citado por la propia compañía, en 2022 bienes por valor de ~2.7 billones de USD pasaron por instalaciones de Prologis, ~2.8% del PIB mundial (Wikipedia).
+
+El sector atravesó en 2023–2025 un ciclo de sobreoferta tras el boom post-COVID (moratoria de construcción y desaceleración del e-commerce), lo que comprimió la ocupación y el crecimiento de rentas. En 2026 los fundamentales están recuperándose: ocupación del porfolio owned & managed en 95.5% (2T26), récord de firma de contratos (67 millones de pies cuadrados en el trimestre), y la compañía subió su guía por segunda vez en el año (comunicado 2T26).
+
+### 4.2 Competidores principales
+
+| Competidor | Tipo | Comparativa (14 ago 2026, Yahoo) |
+|---|---|---|
+| **Prologis (PLD)** | REIT industrial global | Mkt cap ~137 mm millones; el mayor del mundo |
+| **Segro (SGRO.L)** | REIT industrial europeo | Objetivo de adquisición por Prologis (~18.8 mm millones USD) |
+| **Public Storage (PSA)** | REIT de almacenamiento (self-storage) | Mkt cap ~60.9 mm millones; sector distinto (mini-almacenes) |
+| **Rexford Industrial (REXR)** | REIT industrial (Southern California) | Mkt cap ~8.3 mm millones; 36.23 USD |
+| **EastGroup Properties (EGP)** | REIT industrial | Mkt cap ~10.9 mm millones; 203.06 USD |
+| **First Industrial (FR)** | REIT industrial | Mkt cap ~8.6 mm millones; 62.87 USD |
+| **Terreno (TRNO), STAG Industrial** | REIT industriales | Mkt cap ~7.4 / ~7.2 mm millones |
+| **GLP (privada)** | Mayor propietario logístico de China/global | Competidor no cotizado relevante |
+| **Goodman Group (GMC.AX)** | REIT industrial + data centers (Australia) | Competidor internacional directo en logística y data centers |
+| **DLR, Equinix** | REIT de data centers | Referencia del área de crecimiento (data centers) |
+
+### 4.3 Posición relativa
+
+Prologis es el líder indiscutible del sector industrial/logístico por tamaño y escala global. Su posición dominante le da ventaja de coste de capital y de información de mercado. La compra de SEGRO consolidaría aún más su liderazgo en Europa (porfolio europeo de ~368 millones de pies cuadrados tras el cierre) y lo posiciona también en el negocio de data centers del Reino Unido.
+
+## 5. Análisis financiero
+
+> Nota metodológica: al ser un REIT, el análisis de resultados se hace con métricas no-GAAP propias del sector — **FFO** (funds from operations) y **AFFO** (adjusted FFO) — además de ingresos y net income GAAP. El dividendo se paga con FFO/AFFO y no con beneficio contable GAAP.
+
+### 5.1 Ingresos y márgenes (últimos ejercicios + trimestres)
+
+| Ejercicio | Ingresos totales (M USD) | Net income (M USD) | Net income por acción diluida |
+|---|---|---|---|
+| 2023 | 8,023 | 3,059 | [NO VERIFICADO] |
+| 2024 | 8,202 | 3,732 | [NO VERIFICADO] |
+| 2025 | 8,790 | 3,328 | [NO VERIFICADO] |
+
+Fuente: Reuters/LSEG (ingresos, net income). El net income 2025 (3.33 mm millones) también aparece en Wikipedia/Macrotrends. Los EPS anuales no fueron verificados en las fuentes consultadas.
+
+| Trimestre | Ingresos (M USD) | Net earnings a comunes (M USD) | EPS diluido |
+|---|---|---|---|
+| 2T2025 | 2,184 | 570 | 0.61 |
+| 2T2026 | 2,425 | 1,061 | 1.13 |
+| 1S2026 | 4,723 | 2,041 | 2.18 |
+
+Fuente: comunicado de resultados 2T26 (Prologis IR, 16 jul 2026).
+
+Detalle de ingresos 2T26 (Prologis IR): renta 2,177 M USD; Strategic Capital 242 M USD; desarrollo y gestión 7 M USD. El crecimiento de la renta (+7.5% interanual en 2T26, 2,025→2,177 M USD) refleja la renta de mercado y las renovaciones; los ingresos de Strategic Capital casi se duplicaron (147→242 M USD) por la actividad de promote.
+
+Márgenes de referencia (no reportados por la compañía como margen operativo estándar; cálculo del agente a partir de la cuenta de resultados 2T26): margen bruto de arrendamiento ~75.6% (renta 2,177 M menos gastos de renta 531 M). ROE TTM 7.75% y margen de beneficio neto TTM 43.6% según Yahoo Finance (dato 10 ago 2026).
+
+### 5.2 FFO y AFFO (métrica clave de valoración del REIT)
+
+| Concepto (M USD) | 2T2025 | 2T2026 | 1S2025 | 1S2026 |
+|---|---|---|---|---|
+| NAREIT FFO a comunes/unitholders | 1,277 | 1,632 | 2,598 | 3,368 |
+| FFO (modificado Prologis) | 1,408 | 1,640 | 2,791 | 3,362 |
+| **Core FFO** | 1,396 | 1,559 | 2,752 | 3,000 |
+| **AFFO** | 1,036 | 1,323 | 2,120 | 2,795 |
+| Core FFO por acción diluida | 1.46 | 1.63 | 2.88 | 3.13 |
+| Core FFO/acción excl. net promote | 1.47 | 1.60 | 2.91 | 3.12 |
+| AFFO por acción diluida (cálculo del agente: AFFO / ~958 M acciones) | ~1.08 | ~1.38 | ~2.21 | ~2.92 |
+
+Fuente: comunicado de resultados 2T26 (Prologis IR, 16 jul 2026). El EPS/AFFO por acción de AFFO no es publicado directamente por la compañía en el comunicado; se calculó dividiendo el AFFO atribuible por las acciones diluidas (~958 M) — marcar como [análisis del agente] sobre cifras oficiales.
+
+**Guía 2026 (segunda subida del año, 16 jul 2026)** — comunicado Prologis IR:
+- Net earnings por acción: 4.40–4.55 USD (antes 3.80–4.05)
+- Core FFO por acción: 6.22–6.30 USD (antes 6.07–6.23)
+- Same-store NOI en efectivo: +6.75% a +7.25% (antes +6.25% a +7.00%)
+- Ocupación media: 95.25%–95.75%
+
+El comunicado de 2T26 destaca que la guía de net earnings constituye un "profit forecast" bajo el UK Takeover Code por la oferta a SEGRO (requisito regulatorio del Reino Unido).
+
+### 5.3 Balance (30 jun 2026, 10-Q / comunicado)
+
+| Concepto (M USD) | 31 dic 2025 | 30 jun 2026 |
+|---|---|---|
+| Total activos | 98,724 | 101,012 |
+| Inversión neta en inmuebles | 91,697 | 93,197 |
+| Efectivo | 1,146 | 1,765 |
+| Deuda total | 35,037 | 36,442 |
+| Total pasivo | 40,970 | 42,892 |
+| Equity total | 57,754 | 58,120 |
+| Equity de accionistas | 53,193 | 53,726 |
+
+Métricas de solvencia (comunicado 2T26): deuda/EBITDA ajustado 4.7x; deuda como % de capitalización bursátil 23.9%; tipo medio ponderado de la deuda 3.3% con plazo medio de 7.9 años; liquidez disponible ~7.6 mm millones USD. En el trimestre se colocaron, junto a los vehículos de coinversión, 3.4 mm millones USD de deuda a tipo medio 4.4% y plazo medio 6.2 años.
+
+El balance está sano para un REIT: apalancamiento moderado, deuda larga y mayoritariamente a tipo fijo, y liquidez holgada. En 2T26 la deuda subió ~1.4 mm millones (financiación parcial de adquisiciones y el adelanto de liquidez para el acuerdo SEGRO).
+
+### 5.4 Cash flow y rentabilidad
+
+| Concepto (M USD) | 2023 | 2024 | 2025 |
+|---|---|---|---|
+| Flujo de caja operativo | 5,373 | 4,912 | 5,008 |
+| Flujo de caja de inversión | -6,419 | -3,099 | -3,630 |
+
+Fuente: Reuters/LSEG. El flujo de inversión negativo refleja la elevada actividad de desarrollo y adquisiciones propia de la estrategia. El FCF apalancado TTM según Yahoo Finance (al 10 ago 2026) es de ~5.4 mm millones USD, consistente con el flujo operativo (los REIT no invierten en capex de reposición grande; gran parte del capex se clasifica como desarrollo).
+
+Rentabilidad TTM (Yahoo Finance, al 10 ago 2026): ROE 7.75%, ROA 2.52%. [análisis del agente] Para un REIT industrial, estas métricas GAAP subestiman la rentabilidad económica real: el AFFO yield sobre el valor de los inmuebles es la métrica más relevante. El valor de creación de desarrollo (value creation) de 477 M USD en 1S26 (comunicado 2T26) es la mejor muestra de creación de valor por encima del coste de capital.
+
+### 5.5 Perfil de dividendos y recompras
+
+- Dividendo trimestral en 2T26: 1.07 USD/acción (vs 1.01 en 2T25); dividendo forward anual 4.28 USD (Yahoo, 14 ago 2026).
+- Rendimiento: 3.03% (14 ago 2026).
+- Fecha ex-dividendo reciente: 16 jun 2026 (Yahoo). Próximos resultados trimestrales: 14 oct 2026 (Yahoo).
+- Cobertura del dividendo: en 2T26 el AFFO por acción estimado (~1.38 USD) cubre con holgura el dividendo de 1.07 USD (ratio de reparto ~78%). [análisis del agente, sobre cifras oficiales].
+- Pago de dividendos en 2T26: 1,027 M USD a comunes/unitholders (comunicado Prologis).
+- **Recompras**: no se reportaron recompras materiales en 2T26. La prioridad de capital en 2026 es desarrollo y adquisiciones; la financiación del acuerdo SEGRO se hace con una emisión de acciones (15 M de acciones nuevas, ~2.1 mm millones USD brutos) y deuda (FreightWaves, 4 ago 2026). [El historial de recompras reciente no se verificó; las cifras de capital desplegado de 2T26 (desarrollo 1.6 mm millones, adquisiciones 1.8 mm millones) muestran la asignación prioritaria a crecimiento orgánico.]
+
+## 6. Valoración
+
+### 6.1 Múltiplos actuales (al 14 ago 2026, Yahoo Finance)
+
+| Métrica | Valor |
+|---|---|
+| Precio | 141.03 USD |
+| P/E TTM | 31.4x |
+| P/E forward | ~32.1x |
+| P/S (TTM) | 14.5x |
+| P/B (último trimestre) | 2.46x |
+| EV/EBITDA | 19.6x |
+| Yield dividendo | 3.03% |
+| Precio objetivo consenso | 158.31 USD (analistas, Yahoo) |
+| Beta (5 años) | 1.32 |
+
+Comparativa de mercado (EV/EBITDA ~19.6x y P/B ~2.5x) con el sector: los REIT industriales de mayor calidad cotizan con primas; Prologis, por su escala y balance, cotiza en el rango alto de calidad del sector. PSA (self-storage) cotiza a P/E similar (pero es negocio distinto). [análisis del agente]
+
+### 6.2 Valoración por FFO/AFFO (la correcta para un REIT)
+
+- Con precio 141.03 USD y guía Core FFO 2026 de 6.22–6.30 USD/acción, el **P/FFO forward 2026 es ~22.4–22.7x**. [cálculo del agente sobre cifras oficiales]
+- Con AFFO 2026 proyectado (estimación del agente: AFFO 1S26 de 2.92 USD/acción; si el 2S26 mantiene el ritmo, AFFO 2026 ≈ 5.9–6.0 USD/acción, consistente con la cobertura del dividendo) el **P/AFFO forward sería ~23.5–24x**. La estimación de AFFO 2026 no es una cifra oficial — el comunicado de 2T26 no publica guía de AFFO; usar con cautela. [análisis del agente]
+- Con un dividendo forward de 4.28 USD y un AFFO 2026 estimado ~5.9 USD, el payout ratio proyectado ~73% deja margen para subidas de dividendo. [análisis del agente]
+
+### 6.3 Interpretación del agente
+
+A 141 USD, Prologis cotiza con una prima de calidad razonable sobre el sector industrial, coherente con su escala global, el punto del ciclo (fundamentales en recuperación tras el exceso de oferta 2023–25) y el perfil de crecimiento (data centers 5.8 GW de pipeline, desarrollo y renovaciones de renta). El P/FFO forward ~22x y el P/AFFO ~24x no son baratos en términos históricos del sector, pero el mercado está descontando el ciclo de recuperación y la expansión de la plataforma (SEGRO). A los precios actuales, el retorno esperado proviene principalmente del dividendo (~3%) más crecimiento de FFO/AFFO de un dígito-alto, no de una expansión adicional del múltiplo. La valoración es **razonable-rica**: no es un "value" clásico, sino un compounder de calidad con prima justificada mientras los fundamentales sigan mejorando. [análisis del agente]
+
+## 7. Noticias recientes y catalizadores
+
+### Hechos de los últimos 12 meses (con fechas)
+
+- **1 ene 2026**: Hamid Moghadam pasa a chairman ejecutivo; Dan Letter asume como CEO (transición planificada de 5 años). Fuente: Wikipedia/Semafor.
+- **16 jul 2026**: Resultados 2T26 — segunda subida de guía del año; récord de leasing (67 M de pies cuadrados firmados); ocupación 95.5%; same-store NOI en efectivo +8.5%; pipeline de energía para data centers de 5.8 GW. Fuente: Prologis IR.
+- **20 jul 2026**: Tercera propuesta a SEGRO con introducción de alternativa parcial en efectivo (Prologis IR).
+- **22 jul 2026**: Prologis presenta su propuesta "best and final" y pide extensión del plazo PUSU (regla del UK Takeover Code) (Prologis IR).
+- **4 ago 2026**: Acuerdo de adquisición recomendado de SEGRO plc por ~18.8 mm millones USD (0.092 acciones PLD por acción SGRO.L; alternativa en efectivo de hasta 25% con pool máximo de ~3.5 mm millones GBP). Cierre previsto en 1S2027. Sin aprobación de accionistas de Prologis. Fuente: Prologis IR / Investment Monitor / FreightWaves.
+- **4 ago 2026**: Oferta pública de 15 M de acciones nuevas de PLD (hasta 17.25 M con greenshoe) a 140 USD, ~2.1 mm millones USD brutos, para financiar el acuerdo (J.P. Morgan y BofA Securities) (Prologis IR / FreightWaves).
+- **5 ago 2026**: RBC Capital eleva la recomendación a Outperform y el objetivo de precio de 148 a 160 USD (Yahoo Finance).
+- **14 ago 2026**: Yahoo Scout nota que PLD sube ~10.2% YTD y avanza con la adquisición de SEGRO.
+
+### Catalizadores a futuro
+
+- **Cierre de la adquisición de SEGRO** (previsto 1S2027): expande el porfolio europeo un 47% hasta 368 M de pies cuadrados, añade pipeline de desarrollo europeo de 13 M de pies cuadrados, y duplica el land bank europeo (+126%). AUM combinado ~269 mm millones USD. Neutral a ligeramente dilutivo para el FFO en el primer año completo (FreightWaves/Prologis). Incluye exposición a data centers en Reino Unido. Riesgo: aprobaciones regulatorias y de accionistas de SEGRO, condiciones de cierre.
+- **Desarrollo y data centers**: la guía 2026 eleva development starts a 4.5–5.5 mm millones USD (inclusive data centers). El pipeline de 5.8 GW de energía es un catalizador plurianual.
+- **Ciclo de rentas**: ocupación en 95.5% y "embedded rent growth" (rentas por debajo de mercado en el porfolio) dan visibilidad de crecimiento de FFO en 2026–2028.
+- **Tipos de interés**: el entorno de tipos (bono a 10 años ~4.5% en julio 2026, según Argus vía Yahoo) modera el coste de refinanciación y la prima de valoración de los REIT frente a renta fija.
+
+## 8. Riesgos
+
+### 8.1 Específicos de la empresa
+
+- **Integración de SEGRO**: riesgo de ejecución en la mayor adquisición de su historia; dilución de FFO en el primer año; aprobaciones regulatorias (UE/Reino Unido) y de accionistas de SEGRO; la operación se financia con deuda y nuevas acciones (dilución).
+- **Concentración de inquilinos**: Amazon ~5.3% de la renta neta efectiva (Argus). Una contracción de Amazon (como la vivida en 2023–24 al reducir footprint) afecta a la ocupación.
+- **Ciclo de desarrollo**: el desarrollo inmobiliario es procíclico; una sobreconstrucción de terceros (como la de 2023–25) deprecia las naves propias y presiona rentas y ocupación.
+- **Dependencia del mercado inmobiliario global**: valoraciones de inmuebles sensibles a cap rates (si suben los tipos, bajan los valores de los activos y el NAV).
+
+### 8.2 Sectoriales / macro
+
+- **Tipos de interés**: los REIT son activos "duras" (duration); subidas de tipos elevan el coste de financiación y el rendimiento exigido, comprimiendo el múltiplo. La deuda al 3.3% fijo y a 7.9 años mitiga el impacto a corto plazo.
+- **Oferta de nueva construcción**: las moratorias locales y la abundancia de capital de desarrollo pueden volver a crear exceso de oferta en mercados secundarios.
+- **Comercio electrónico y consumo**: ralentización del consumo o del e-commerce reduce la demanda de espacio logístico.
+- **Geopolítica y comercio**: guerras arancelarias y cadenas de suministro afectan los flujos de mercancías (contexto 2026: conflicto en Irán y aranceles, Argus/Yahoo). Reducción de importaciones o reshoring cambia los mapas de demanda logística.
+- **Tipo de cambio**: ~96% del equity en USD o cubierto, pero la parte no cubierta y los ingresos en monedas extranjeras (EUR, JPY, GBP tras SEGRO) generan volatilidad contable (en 2T26 el FFO tuvo un ajuste de divisas no realizado de -5.4 M USD; en 2T25 fue de +137.8 M USD).
+
+### 8.3 Regulatorios / específicos del REIT
+
+- **Estatuto REIT**: Prologis debe distribuir al menos 90% de la renta gravable y mantener los test de activos e ingresos. Una brecha pondría en riesgo el estatus fiscal (10-Q/10-K).
+- **Normativa de suelo y construcción**: restricciones de uso de suelo limitan la oferta (foso) pero también la velocidad de desarrollo; los permisos de data centers y energía dependen de aprobaciones locales y de la red eléctrica.
+- **UK Takeover Code y regulación del Reino Unido**: la oferta a SEGRO está sujeta a las reglas de opas del Reino Unido y a revisión regulatoria; la guía de beneficios se formula como "profit forecast" bajo dichas reglas (comunicado 2T26).
+- **Fiscalidad internacional y de EE.UU.**: cambios en tipos impositivos afectan al flujo de caja (el impuesto corriente fue -89.3 M USD en 2T26).
+
+## 9. Perspectiva del agente
+
+**Resumen ejecutivo** — Prologis es el REIT industrial de mayor calidad del mundo: escala global (~1.3 mm de millones de pies cuadrados en 20 países), balance sólido (deuda/EBITDA 4.7x, deuda al 3.3% fijo a 7.9 años, liquidez de 7.6 mm millones), y un negocio en fase de aceleración: ocupación 95.5%, récord de leasing y guía 2026 subida dos veces (Core FFO 6.22–6.30 USD/acción).
+
+**Tesis a favor**:
+- Fundamentales operativos en recuperación tras el exceso de oferta 2023–25 (same-store NOI +8.5% en efectivo en 2T26).
+- Embedded rent growth y renovaciones con +22% de renta en efectivo dan visibilidad de crecimiento de FFO 2026–2028.
+- Plataforma de crecimiento estructural: data centers (5.8 GW de pipeline) y energía solar en tejados, además de logística.
+- La adquisición de SEGRO consolida el liderazgo europeo y añade data centers del Reino Unido; AUM combinado ~269 mm millones.
+- Dividendo bien cubierto por AFFO (~78% de payout en 2T26) con margen de crecimiento.
+
+**Tesis en contra**:
+- La valoración no es barata (P/FFO forward ~22x, P/AFFO ~24x), dejando poco margen de error.
+- Riesgo de ejecución e integración de SEGRO y dilución temporal de FFO; el mercado ya lo descuenta parcialmente (la acción apenas reaccionó al anuncio y cayó ~2.8% el día de la oferta).
+- Concentración en Amazon y sensibilidad a tipos de interés (beta 1.32) y al ciclo del comercio global.
+- El crecimiento de FFO proyectado (~6%) es de un dígito; la recompensa del múltiplo no está asegurada.
+
+**Sesgo del agente**: **Constructivo-neutral en el largo plazo / prudente en el corto plazo**. Es un compounder de calidad adecuado para carteras con horizonte de inversión largo, con riesgo acotado por balance y diversificación geográfica. El punto de entrada a 141 USD (cerca de la mitad alta del rango de 52 semanas) exige tolerancia a la volatilidad de tipos de interés y al desenlace de SEGRO. La idea de inversión más atractiva sería en correcciones hacia el rango bajo (110–120 USD), donde el P/FFO forward caería ~19–20x. Este es un análisis descriptivo, no una recomendación de compra/venta; verificar las cifras en las fuentes citadas.
+
+## 10. Fuentes
+
+(URLs consultados el 15 ago 2026)
+
+1. Prologis IR — Comunicado de resultados 2T2026 (16 jul 2026): https://ir.prologis.com/news-events/press-releases/detail/1044/prologis-reports-second-quarter-2026-results
+2. Prologis IR — Prensa (agosto 2026): https://ir.prologis.com/news-events/press-releases
+3. Prologis IR — Acuerdo SEGRO (4 ago 2026): https://ir.prologis.com/news-events/press-releases/detail/1049/prologis-announces-recommended-acquisition-of-segro-plc
+4. Yahoo Finance — PLD quote y estadísticas (14 ago 2026): https://finance.yahoo.com/quote/PLD/
+5. Reuters/LSEG — Perfil y financiero de Prologis: https://www.reuters.com/markets/companies/PLD/
+6. FreightWaves (vía Yahoo) — "Prologis says $18.8B takeover of Segro moving forward" (4 ago 2026): https://finance.yahoo.com/news/prologis-says-18-8b-takeover-150139746.html
+7. Investment Monitor (vía Yahoo) — "Prologis agrees $18.8bn acquisition of Segro" (5 ago 2026): https://finance.yahoo.com/real-estate/articles/prologis-agrees-18-8bn-acquisition-125627101.html
+8. Wikipedia — Prologis (consultado 15 ago 2026): https://en.wikipedia.org/wiki/Prologis
+9. Argus Research (vía Yahoo Research Reports, ~17 jul 2026): reporte "Midpoint of new FFO guidance increases 2%"
+10. Morningstar (vía Yahoo Research Reports, ~6 ago 2026): reporte "Prologis: Acquiring UK Industrial and Data Center REIT for $18.8 Billion"
+11. Prologis — Sitio corporativo e investigación de mercado: https://www.prologis.com/about/logistics-industry-research
+12. 10-Q Prologis 2T2026 (SEC/EDGAR): https://ir.prologis.com/financials/sec-filings/content/0001193125-26-323746/pld-20260630.htm
+
+### Notas de veracidad
+
+- Todas las cifras de resultados (ingresos, net income, FFO, AFFO, balance, guía) provienen del comunicado oficial de Prologis del 16 jul 2026 (2T26) o del 10-Q de la compañía, o de Reuters/LSEG y Yahoo Finance donde se indica.
+- Las cifras de mercado (precio, capitalización, PER, yield, rango 52 semanas, beta, ROE) son del 14 ago 2026 (o 10 ago 2026 en Yahoo Statistics) y pueden estar retrasadas.
+- La estimación de AFFO por acción 2026, P/FFO forward y payout proyectado son cálculos del agente sobre cifras oficiales y están etiquetados como tales.
+- El rating de crédito AA-/A+ aparece marcado como [NO VERIFICADO] porque no se confirmó en las fuentes consultadas durante esta investigación; consultar el apartado Fixed Income de ir.prologis.com para confirmarlo.
+- No se verificaron los EPS anuales GAAP de 2023–2025 (marcados [NO VERIFICADO]).
+
+---
+*Página generada por agente autónomo. Fecha de corte: 2026-08-15.*
+*Verificar cifras de mercado en la fuente citada antes de decisiones de inversión.*
+
+## Ver también
+
+<!-- enlaces sugeridos por similitud semántica (bge-micro-v2) -->
+- [[alphabet]]
+- [[salesforce]]
+- [[microsoft]]

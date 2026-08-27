@@ -1,0 +1,376 @@
+---
+title: "Oracle Corporation (ORCL)"
+tipo: analisis-accion
+tags: [empresa, software, eeuu]
+fecha: 2026-08-15
+fuentes: []
+---
+
+<!-- Migrado desde cache ponytail: ORCL.md · generado por agente autonome (sesion ponytail 2026-08-15) -->
+
+# Oracle Corporation (ORCL)
+
+> Fecha de corte: 2026-08-15 · Moneda: USD
+> Sector: Tecnología (Software - Infraestructura) · País/Región: Estados Unidos · Bolsa: NYSE
+
+---
+
+## 1. Ficha rápida
+
+| Campo | Valor |
+|---|---|
+| Ticker / Bolsa | ORCL / NYSE (cotiza en NYSE desde el 15 jul 2013; antes Nasdaq) |
+| Sector / Industria | Tecnología / Software de infraestructura y aplicaciones empresariales |
+| País / Región | Estados Unidos |
+| Moneda de reporte | USD (ejercicio fiscal termina el 31 de mayo) |
+| Capitalización bursátil | ≈ 433 600 M USD (14 ago 2026, Yahoo Finance); 435 100 M USD al 10 ago 2026 |
+| Precio | 150,52 USD (cierre 14 ago 2026, NYSE); after hours 150,69–150,85 USD |
+| Rango 52 semanas | 114,50 – 345,72 USD (14 ago 2026) |
+| PER (TTM) | 25,82–25,91 (Yahoo Finance, al 14 ago 2026) |
+| PER adelantado | 18,69 (Yahoo Finance, al 14 ago 2026) |
+| Rendimiento por dividendo | 1,30 % (dividendo adelantado 2,00 USD/acción; Yahoo Finance, al 14 ago 2026) |
+| CEO | Clay Magouyrk y Mike Sicilia (co-CEOs desde septiembre 2025); Larry Ellison (presidente ejecutivo y CTO); Safra Catz (vicepresidenta ejecutiva) |
+| Sede | Austin, Texas, EE. UU. |
+| Empleados | ≈ 141 000 (informe anual FY2026, mayo 2026); 162 000 en FY2025 |
+| Fecha de fundación | 16 junio 1977 (Santa Clara, California) |
+| Próximo resultado | Q1 FY2027: 10 de septiembre de 2026 (Yahoo Finance) |
+
+**Dato clave de mercado al corte**: el precio de 150,52 USD está un ~56 % por debajo del máximo de 52 semanas (345,72 USD) y ha caído ~22,8 % en lo que va de 2026 y ~38,6 % en 12 meses (Yahoo Finance, 14 ago 2026). En el otro sentido, el precio del 14 ago 2026 está un ~31 % por encima del mínimo de 52 semanas (114,50 USD).
+
+---
+
+## 2. Descripción de la empresa
+
+Oracle Corporation es una multinacional estadounidense de tecnología de origen en el software de bases de datos relacionales, fundada el 16 de junio de 1977 por Larry Ellison, Bob Miner y Ed Oates en Santa Clara, California, con el nombre de Software Development Laboratories. Fue pionera en el primer sistema de gestión de bases de datos relacionales (RDBMS) comercial con SQL (Oracle Database). Salió a bolsa el 12 de marzo de 1986 y trasladó su sede a Austin, Texas, anunciado en diciembre de 2020 (operó antes desde Redwood Shores, California). En abril de 2024 anunció un plan (sin calendario) de mover la sede a Nashville, Tennessee.
+
+La empresa vende un stack integral de software y servicios para TI empresarial:
+
+- **Bases de datos**: Oracle Database (su buque insignia histórico), MySQL, Autonomous Database, Oracle Database 23ai y la más reciente Oracle AI Database 26ai (lanzada en 2025).
+- **Aplicaciones empresariales**: ERP (Oracle Fusion Cloud ERP), HCM, SCM, CX/customer experience, EPM, NetSuite, aplicaciones por industria (incluido Oracle Health, fruto de la adquisición de Cerner).
+- **Middleware y herramientas de desarrollo**: Java, Oracle Fusion Middleware, desarrollo de software, lenguajes y herramientas.
+- **Infraestructura en la nube (OCI, Oracle Cloud Infrastructure)**: cómputo, almacenamiento, redes, Autonomous Database en la nube, servicios de IA, aprendizaje automático, IoT.
+- **Hardware**: sistemas engineered systems, servidores empresariales, almacenamiento, sistemas operativos (Solaris, Linux) y soporte asociado.
+- **Servicios**: consultoría, implementación, soporte avanzado y servicios de soporte de licencias.
+
+Los clientes son empresas de prácticamente todos los sectores, administraciones públicas e instituciones educativas, con venta directa y a través de canal indirecto. Según el informe anual FY2025, cerca del 37 % de los ingresos provienen de fuera de América [NO VERIFICADO, cifra citada de informe de Argus sobre el emisor]. Oracle tiene alianzas para ofrecer su base de datos en los cuatro hyperscalers (Oracle Cloud, [[microsoft|Microsoft]] Azure, AWS y Google Cloud), además de acuerdos destacados como la participación en Stargate y en las operaciones estadounidenses de TikTok.
+
+**Estructura de propiedad**: Larry Ellison, cofundador, posee aproximadamente el 42,4 % de la compañía y ejerce como presidente ejecutivo y director de tecnología (CTO). Desde septiembre de 2025 la empresa pasó a un esquema de co-CEOs: Clay Magouyrk (antes presidente de cloud infrastructure) y Mike Sicilia (antes presidente de industries), sustituyendo a Safra Catz, que ocupó el cargo de CEO durante 11 años y pasó a vicepresidenta ejecutiva.
+
+**Tamaño relativo**: Oracle figura entre las 50 mayores empresas del mundo por capitalización bursátil y ocupó el puesto 66 del Forbes Global 2000 en 2025 (Wikipedia).
+
+---
+
+## 3. Modelo de negocio
+
+### 3.1 Cómo gana dinero
+
+Oracle monetiza su cartera con una combinación de modelos:
+
+- **Suscripciones en la nube**: SaaS (aplicaciones Fusion, NetSuite, Oracle Health, industria) e IaaS/PaaS (OCI: cómputo, almacenamiento, base de datos como servicio, AI). Son ingresos recurrentes y crecientes, el motor principal del crecimiento actual.
+- **Licencias de software** (on-premise) y **soporte de licencias** (actualizaciones, parches, mantenimiento): es la base histórica, de márgenes muy altos, aunque en lento declive estructural.
+- **Hardware**: venta de sistemas y equipos, con soporte asociado; segmento maduro/decreciente.
+- **Servicios**: consultoría e implementación; de menor margen.
+
+### 3.2 Segmentos de ingresos
+
+Oracle cambió su desglose de segmentos a partir del ejercicio fiscal 2026 (nuevo esquema Cloud / Software / Hardware / Services). Cifras anuales del FY2026 (finalizado el 31 may 2026), según datos consolidados de S&P Global/stockanalysis.com:
+
+| Segmento (nuevo desglose FY2026) | Ingresos FY2026 (M USD) | % del total |
+|---|---|---|
+| Cloud | 33 989 | 50,5 % |
+| Software | 24 541 | 36,4 % |
+| Services | 5 743 | 8,5 % |
+| Hardware | 3 084 | 4,6 % |
+| **Total** | **67 357** | 100 % |
+
+Para comparación, en el desglose anterior (usado hasta el FY2025) el FY2025 se reportaba como: Infrastructure Cloud Services & License Support 24 646 M USD; Applications Cloud Services & License Support 19 383 M USD; Cloud License & On-Premise 5 201 M USD; Hardware 2 936 M USD; Services 5 233 M USD.
+
+**Nota del agente**: el cambio de segmentos dificulta la comparación año contra año de la mezcla. En el esquema nuevo, el segmento Cloud pasó de 24 506 M USD (FY2025) a 33 989 M USD (FY2026), un crecimiento de ~38,7 % anual, el más alto de la compañía y muy por encima del total. La composición exacta del segmento "Cloud" en el nuevo esquema (qué parte corresponde a IaaS/OCI frente a SaaS) no fue verificada en detalle; conviene leer la nota en el 10-K FY2026 para la definición precisa.
+
+Dentro del cloud, el dato desglosado más citado es la infraestructura como servicio (IaaS): en el Q2 FY2026 (trimestre cerrado en noviembre de 2025) los ingresos de cloud infrastructure (IaaS) crecieron un 68 % interanual hasta ~4 100 M USD, y las obligaciones de rendimiento restantes totales (RPO) se dispararon a ~130 000 M USD (Wikipedia, citando resultados del Q2 FY2026). Estos dos datos provienen del comunicado de resultados de Oracle de diciembre de 2025.
+
+### 3.3 Estacionalidad y recurrencia
+
+- El Q4 del ejercicio fiscal (marzo-mayo) es tradicionalmente el trimestre más fuerte en firma de contratos y ventas de licencias.
+- La parte de suscripciones y soporte es altamente recurrente (renovaciones anuales/multianuales), lo que da visibilidad a través de la cartera de obligaciones de rendimiento restantes (RPO).
+
+### 3.4 Ventajas competitivas / foso
+
+- **Base instalada de Oracle Database**: décadas de datos, procesos y experiencia de negocio acoplados a Oracle hacen que la migración fuera de Oracle sea costosa (elevados costes de cambio). Oracle mantiene una posición de liderazgo o co-liderazgo mundial en el mercado de bases de datos (junto a Microsoft).
+- **Stack completo integrado**: base de datos + aplicaciones + infraestructura cloud + hardware, con ingeniería conjunta.
+- **Relaciones empresariales de larga duración** con las mayores corporaciones y gobiernos del mundo (clientes de misión crítica).
+- **Soporte y mantenimiento** con márgenes muy altos (renovaciones de licencias).
+- **Presencia multi-cloud**: al estar disponible en Azure, AWS, Google Cloud y OCI, Oracle reduce la barrera de adopción y compite por cargas de datos donde ya está instalado.
+- **AI/database integrada**: la nueva Oracle AI Database 26ai integra capacidades de IA directamente en el motor de base de datos.
+
+---
+
+## 4. Panorama de mercado y competencia
+
+### 4.1 Tamaño de mercado y cuota
+
+- Oracle opera en mercados enormes: software empresarial (ERP/HCM/SCM), bases de datos, infraestructura cloud (IaaS/PaaS) y servicios TI. No se ha verificado un único número fiable de tamaño total de mercado; el segmento de nube pública en su conjunto se mide en cientos de miles de millones de dólares anuales y crece a ritmos de dos dígitos. **Cifras concretas de cuota de mercado: [NO VERIFICADO]**, porque no se dispuso de una fuente primaria de cuota con fecha; en términos cualitativos:
+  - **Bases de datos**: Oracle y Microsoft lideran históricamente el mercado de RDBMS empresarial, con cuotas que rondan ~30 % para cada uno en los estudios de terceros más citados (por ejemplo, DB-Engines/Gartner), aunque estos números no fueron verificados en esta investigación.
+  - **Infraestructura cloud (IaaS)**: Oracle es un competidor de tamaño intermedio, muy por detrás de AWS, Microsoft Azure y Google Cloud (posición aproximada 4.º/5.º en cuota de mercado global), pero creciendo rápido desde una base pequeña. **Cuota concreta: [NO VERIFICADO]**.
+  - **ERP/aplicaciones empresariales**: compite codo a codo con SAP y [[salesforce|Salesforce]] en sus respectivos segmentos.
+
+### 4.2 Competidores principales
+
+| Área | Competidores principales |
+|---|---|
+| Bases de datos | Microsoft (SQL Server/Azure SQL), AWS (Aurora, DynamoDB, Redshift), Google (BigQuery, Spanner), MongoDB, IBM Db2 |
+| Infraestructura cloud (IaaS/PaaS) | AWS (Amazon), Microsoft Azure, Google Cloud; competidores directos de infraestructura para IA: CoreWeave, junto con los hyperscalers |
+| Aplicaciones ERP/HCM/CRM | SAP (ERP), Salesforce (CRM), Workday (HCM/finanzas), Microsoft (Dynamics) |
+| Hardware (legado) | IBM, Dell, HPE (en los segmentos donde Oracle aún vende sistemas) |
+
+### 4.3 Posición relativa
+
+- **Fortaleza**: base de datos y aplicaciones empresariales para clientes de misión crítica; recurrencia de ingresos; base instalada muy amplia.
+- **Debilidad estructural**: en la nube de infraestructura, Oracle llega tarde frente a los tres grandes hyperscalers, que tienen escala, ecosistema de desarrolladores y capacidades de inversión superiores. Su apuesta actual es competir por la ola de demanda de IA con capacidad de cómputo y energía, donde la carrera es brutal (AWS, Azure, Google, Meta, y operadores especializados como CoreWeave).
+- La ventaja diferencial que Oracle defiende es la **integración base de datos + nube + aplicaciones**, además de los acuerdos multi-cloud.
+
+---
+
+## 5. Análisis financiero
+
+> Fuente principal de las cifras anuales: estados financieros de Oracle (FY2022–FY2026, ejercicio cerrado el 31 de mayo) agregados por S&P Global / stockanalysis.com. Fecha de corte 31 may 2026. Millones de USD salvo indicación.
+
+### 5.1 Ingresos y márgenes (ejercicios FY2022–FY2026)
+
+| Métrica | FY2022 | FY2023 | FY2024 | FY2025 | FY2026 |
+|---|---|---|---|---|---|
+| Ingresos | 42 440 | 49 954 | 52 961 | 57 399 | 67 357 |
+| Crecimiento ingresos | +4,8 % | +17,7 % | +6,0 % | +8,4 % | +17,4 % |
+| Beneficio bruto | 33 563 | 36 390 | 37 818 | 40 472 | 44 336 |
+| Margen bruto | 79,1 % | 72,9 % | 71,4 % | 70,5 % | 65,8 % |
+| Resultado operativo | 15 836 | 13 670 | 15 757 | 17 977 | 22 385 |
+| Margen operativo | 37,3 % | 27,4 % | 29,8 % | 31,3 % | 33,2 % |
+| Beneficio neto | 6 717 | 8 503 | 10 467 | 12 443 | 16 984 |
+| Margen neto | 15,8 % | 17,0 % | 19,8 % | 21,7 % | 25,2 % |
+| EPS diluido | 2,41 | 3,07 | 3,71 | 4,34 | 5,83 |
+
+Notas:
+- El salto de ingresos del FY2023 (+17,7 %) incluyó la consolidación completa de Cerner (adquirida por 28 300 M USD en efectivo, completada el 8 de junio de 2022).
+- El crecimiento del FY2026 se aceleró a +17,4 % impulsado por el segmento Cloud (+38,7 %).
+- La caída del margen bruto (79 % → 66 %) refleja el peso creciente de la infraestructura cloud y el aumento de la depreciación por los centros de datos. **análisis del agente**: la presión sobre el margen bruto es estructural en la medida en que OCI/IaaS siga creciendo más rápido que el software.
+
+### 5.2 Últimos trimestres (FY2026)
+
+| Trimestre | Ingresos (M USD) | Crec. interanual | Resultado operativo | Beneficio neto | EPS diluido | FCF |
+|---|---|---|---|---|---|---|
+| Q1 FY2026 (ago 2025) | 14 926 | +12,2 % | 4 684 | 2 927 | 1,01 | −362 |
+| Q2 FY2026 (nov 2025) | 16 058 | +14,2 % | 5 138 | 6 135 | 2,10 | −9 967 |
+| Q3 FY2026 (feb 2026) | 17 190 | +21,7 % | 5 617 | 3 721 | 1,27 | −11 484 |
+| Q4 FY2026 (may 2026) | 19 184 | +20,6 % | 6 945 | 4 304 | 1,45 | −1 873 |
+
+Notas:
+- El Q2 FY2026 (nov 2025) incluyó un beneficio extraordinario de ~2 493 M USD por la venta de inversiones (partida "gain on sale of investments"), lo que explica el pico de beneficio neto y EPS de ese trimestre.
+- El Q4 FY2026 (19 184 M USD, +20,6 %) es el trimestre más alto de la historia de la compañía en ingresos, y superó con holgura el récord previo.
+- El margen operativo mejoró trimestre a trimestre a lo largo del FY2026 (31,4 % → 36,2 %).
+
+### 5.3 Balance (deuda, efectivo, solvencia)
+
+| Métrica | FY2022 | FY2023 | FY2024 | FY2025 | FY2026 |
+|---|---|---|---|---|---|
+| Efectivo e inversiones a c/p | 21 902 | 10 187 | 10 661 | 11 203 | 31 894 |
+| Activos totales | 109 297 | 134 384 | 140 976 | 168 361 | 261 759 |
+| Deuda total | 75 859 | 90 481 | 94 414 | 108 952 | 167 432 |
+| Deuda neta | 53 957 | 80 294 | 83 753 | 97 749 | 135 538 |
+| Patrimonio total | −5 768 | 1 556 | 9 239 | 20 969 | 43 056 |
+| Inmovilizado material (PP&E) | 9 716 | 17 069 | 28 826 | 56 667 | 129 647 |
+
+Puntos clave del balance al 31 may 2026 (FY2026):
+- **Deuda total de 167 432 M USD**, de la que ~122 342 M USD es deuda a largo plazo, ~33 729 M USD arrendamientos financieros a largo plazo y el resto vencimientos corrientes. La deuda neta (135 538 M USD) se disparó en el ejercicio (+38 000 M USD).
+- **El inmovilizado material se duplicó hasta 129 647 M USD** (58 663 M USD en el FY2025) por la construcción masiva de centros de datos para IA. **análisis del agente**: el balance está en plena transformación de "empresa de software" a "operador de infraestructura de datos", lo que explica el incremento de activos totales de 168 361 a 261 759 M USD en un solo año.
+- El patrimonio es positivo (43 056 M USD) pero pequeño en relación al activo y a la deuda, por años de recompras de acciones históricas y por la deuda acumulada.
+- Ratio deuda total/patrimonio: ~389 % (Yahoo Finance, 10 ago 2026). Deuda neta/EBITDA estimado ≈ 4,4x (ver 5.5).
+- Calificación crediticia: Oracle fue históricamente investment grade; en el mercado circulan temores sobre presión a su calificación por el aumento de deuda y el FCF negativo (TheStreet, 14 ago 2026). **Estado crediticio concreto: [NO VERIFICADO]** en esta investigación (no se accedió a las agencias de rating).
+
+### 5.4 Cash flow y rentabilidad
+
+| Métrica | FY2022 | FY2023 | FY2024 | FY2025 | FY2026 |
+|---|---|---|---|---|---|
+| Flujo de caja operativo | 9 539 | 17 165 | 18 673 | 20 821 | 31 977 |
+| Capex (inversión en activo fijo) | −4 511 | −8 695 | −6 866 | −21 215 | −55 663 |
+| **Free cash flow** | **5 028** | **8 470** | **11 807** | **−394** | **−23 686** |
+| Margen FCF | 11,9 % | 17,0 % | 22,3 % | −0,7 % | −35,2 % |
+
+- El capex del FY2026 (55 663 M USD) superó al flujo de caja operativo (31 977 M USD), dejando un FCF de −23 686 M USD, el más negativo de la historia reciente. Yahoo Finance reporta un levered FCF TTM de −24 540 M USD (al 10 ago 2026).
+- **Rentabilidad** (Yahoo Finance, ttm al 14 ago 2026): ROE 53,4 %; ROA 6,5 %; margen de beneficio 25,4 %. El ROE elevado se debe a que la base de capital es pequeña (el patrimonio total es de solo ~43 000 M USD frente a un beneficio anual de ~17 000 M USD) y no debe leerse como una eficiencia operativa extraordinaria. **análisis del agente**.
+- Intereses: el gasto por intereses del FY2026 ascendió a ~4 600 M USD (Q1 923 + Q2 1 057 + Q3 1 180 + Q4 1 439), en aumento trimestre a trimestre por la deuda adicional. **análisis del agente** (suma de partidas trimestrales).
+
+### 5.5 Ratios de solvencia calculados por el agente
+
+- **EBITDA FY2026 estimado**: suma de EBITDA trimestral ≈ 30 500 M USD. **análisis del agente**.
+- **Deuda neta / EBITDA FY2026**: ≈ 4,4x (135 538 / ~30 500). **análisis del agente**.
+- **Cobertura de intereses**: resultado operativo 22 385 M USD / intereses ~4 600 M USD ≈ 4,9x. **análisis del agente**.
+- **Capex como % de ingresos FY2026**: ~83 % de los ingresos, frente a ~37 % en el FY2025 y ~13 % en el FY2024. **análisis del agente**.
+
+### 5.6 Perfil de dividendos y recompras
+
+- Oracle paga dividendo trimestral en efectivo. Actualmente **0,50 USD por acción por trimestre (2,00 USD anuales)**, con rendimiento ~1,30 % al precio de corte (Yahoo Finance, 14 ago 2026).
+- Historial de dividendo por acción por ejercicio: FY2022 1,28 USD; FY2023 1,44 USD; FY2024 1,60 USD; FY2025 1,80 USD; FY2026 2,00 USD. Aumento del 11,1 % en el último ejercicio y de forma consistente en los últimos años (datos S&P Global / stockanalysis.com).
+- Próxima fecha ex-dividendo citada: 10 de julio de 2026 (Yahoo Finance).
+- **Recompras**: el número de acciones en circulación se mantuvo relativamente estable en torno a 2 800–2 880 millones (ligero aumento por compensación en acciones), lo que sugiere que Oracle está priorizando la inversión en infraestructura frente a recompras agresivas. **análisis del agente**. No se verificó el importe exacto de recompras en efectivo del FY2026; es una cifra no relevante para la tesis actual frente al capex.
+- El pago total de dividendos (≈2,00 × 2 880 M acciones ≈ 5 800 M USD anuales) está cubierto por el flujo de caja operativo, pero no por el FCF negativo del FY2026; la sostenibilidad del dividendo depende de que el capex se modere o de nueva deuda. **análisis del agente**.
+
+---
+
+## 6. Valoración
+
+### 6.1 Múltiplos actuales (al 14 ago 2026, Yahoo Finance salvo indicación)
+
+| Métrica | Valor |
+|---|---|
+| Precio | 150,52 USD |
+| Capitalización | ~433 600 M USD |
+| Valor de empresa (EV) | 564 340 M USD (10 ago 2026) |
+| PER TTM | 25,82–25,91 |
+| PER adelantado | 18,69 |
+| PEG (5 años) | 0,85 |
+| P/S (ttm) | 6,44–6,53 |
+| P/B (mrq) | 11,59 |
+| EV/Ingresos | 8,38 |
+| EV/EBITDA | 16,87 |
+| Rent. dividendo | 1,30 % |
+| Beta (5 años) | 1,72 |
+| Objetivo medio de analistas | 247,17 USD (rango 110–400) |
+
+### 6.2 Múltiplos históricos
+
+Según datos de S&P Global/stockanalysis.com (PER con precio medio de ejercicio):
+
+| Ejercicio | PER | PER adelantado | P/S |
+|---|---|---|---|
+| FY2023 | 33,6 | 19,5 | 5,7 |
+| FY2024 | 30,8 | 19,5 | 6,1 |
+| FY2025 | 37,3 | 25,9 | 8,1 |
+| FY2026 | 38,2 | 30,0 | 9,6 |
+| Actual (ago 2026) | 25,8 | 18,7 | 6,4 |
+
+La valoración se ha **comprimido fuertemente**: el PER actual (25,8) está por debajo de la media de los ejercicios FY2023–FY2026 (~35), y el PER adelantado de 18,7 es el más bajo del período. **análisis del agente**.
+
+### 6.3 Comparación con el sector
+
+- Frente a hyperscalers y pares de software de infraestructura (Microsoft, AWS/Amazon, Google, Salesforce, SAP), Oracle cotiza con PER adelantado inferior a la mayoría de los de alto crecimiento, pero su calidad de resultados (FCF negativo) es peor que la del software puro. **análisis del agente**.
+- El múltiplo EV/EBITDA de ~16,9x y EV/Ingresos de ~8,4x están dentro del rango alto para software tradicional, pero asumen que el crecimiento del cloud justifica el premium.
+
+### 6.4 Interpretación del agente
+
+- **A precio actual (~150 USD), la valoración es "razonable a ligeramente descontada" sobre beneficios esperados (PER adelantado 18,7, PEG 0,85)**, pero **"rica" sobre flujo de caja real**, porque el FCF es negativo y la deuda crece. El mercado está valorando Oracle como un negocio de infraestructura de IA en transición, no como el software de altísimo margen de antaño. **análisis del agente**.
+- El gran descuento respecto del máximo de 52 semanas (−56 %) ya incorpora parte del escepticismo sobre el capex y el apalancamiento; sin embargo, los temores de presión sobre la calificación crediticia y la competencia de los hyperscalers mantienen un riesgo asimétrico a la baja si el ciclo de IA se enfría o si los megavatios prometidos no llegan. **análisis del agente**.
+- La diferencia entre el precio actual (150 USD) y el objetivo medio de analistas (247 USD) refleja el consenso de que el descuento es excesivo, pero los objetivos se han revisado a la baja recientemente (p. ej., UBS a 245 USD el 6 ago 2026). **análisis del agente**.
+
+---
+
+## 7. Noticias recientes y catalizadores
+
+### 7.1 Hechos de los últimos 12 meses (con fechas)
+
+- **Jun 2026 (resultados Q4 FY2026, publicados ~10 jun 2026)**: ingresos trimestrales récord de 19 184 M USD (+20,6 % interanual), EPS diluido 1,45 USD, ingresos anuales 67 357 M USD (+17,4 %). La empresa reconoció que la aceleración del capex lastra el FCF (FCF anual −23 686 M USD). Morningstar redujo su valor razonable por el peso del gasto de capital ("Hefty Capital Expenditure Is a Burden of Rapid Growth"; informe de junio 2026 citado en Yahoo Finance).
+- **Ago 14, 2026**: la acción cayó ~3,7 % (a 150,52 USD) tras conocerse que el gasoducto Green Chile (operado por Transwestern Pipeline, filial de Energy Transfer) que debe alimentar el complejo de centros de datos de IA "Project Jupiter" en Nuevo México retrasa su entrada en servicio del 15 de agosto de 2026 al 1 de febrero de 2027. El complejo prevé hasta 2,5 GW mediante pilas de combustible de Bloom Energy. Oracle afirmó que el proyecto sigue en plazo (Motley Fool, 14 ago 2026).
+- **Ago 14, 2026**: informes de prensa señalaron que Oracle planea captar ~40 000 M USD adicionales de deuda para financiar infraestructura, con preocupaciones del mercado por los niveles de deuda y el flujo de caja (GuruFocus y TheStreet, 14 ago 2026). "Oracle junk bond fears, debt surge sound alarms for investors" (TheStreet, 14 ago 2026).
+- **Ago 6, 2026**: UBS mantuvo su calificación de compra (Buy) sobre ORCL pero recortó su precio objetivo de 285 a 245 USD (Yahoo Finance).
+- **Jul 10, 2026**: fecha ex-dividendo del pago trimestral de 0,50 USD/acción.
+- **Jun 2026**: Oracle amplió su oferta de base de datos con IA en AWS ("Oracle Expands AI Database Offerings Through AWS Cloud", Zacks, ~14 ago 2026), continuando su estrategia multi-cloud.
+- **May 2026**: el informe anual (10-K FY2026) reveló que la plantilla se redujo de 162 000 (FY2025) a 141 000 empleados (−21 000, ~13 %) en el marco de recortes sectoriales por la inversión en IA. En abril de 2026 se había informado de despidos de ~12 000 empleados en India.
+- **Mar 2026**: Oracle firmó un compromiso voluntario de protección de tarifas ("ratepayer protection pledge") por el que las empresas se comprometen a construir/comprar energía para centros de datos con tarifas distintas a las de los consumidores regulares.
+- **Ene 2026**: se cerró el acuerdo sobre las operaciones estadounidenses de TikTok: Oracle, MGX y Silver Lake poseerán cada una un 15 %, y ByteDance retendrá un 19,9 %; en marzo de 2026 se estimaba la participación de Oracle en ~2 000 M USD. La participación de TikTok no consolida en ingresos de forma material; es un activo fuera de balance.
+- **Dic 2025 (resultados Q2 FY2026, cierre 30 nov 2025)**: ingresos 16 058 M USD (+14,2 %), IaaS +68 % hasta ~4 100 M USD, y RPO total de ~130 000 M USD, reflejo de la demanda de capacidad de IA. El trimestre incluyó una plusvalía de ~2 493 M USD por venta de inversiones.
+- **Sep 2025**: transición a co-CEOs (Clay Magouyrk y Mike Sicilia) anunciada en septiembre de 2025, con Safra Catz pasando a vicepresidenta ejecutiva tras 11 años como CEO.
+- **Ene 2025 (contexto)**: Oracle es socio clave de Stargate, la empresa conjunta con OpenAI, SoftBank y MGX que anunció hasta 500 000 M USD de inversión en cuatro años en infraestructura de IA en EE. UU. (anuncio de enero de 2025).
+
+### 7.2 Catalizadores a futuro
+
+- **Ritmo de ejecución de los centros de datos**: la llegada de megavatios y la puesta en producción de los complejos (Stargate, Project Jupiter y otros) convertirá los RPO en ingresos. La disponibilidad de energía es el cuello de botella crítico.
+- **Próximos resultados**: Q1 FY2027 el 10 de septiembre de 2026 (Yahoo Finance).
+- **Crecimiento de OCI y de Oracle AI Database 26ai** y su distribución multi-cloud (Azure, AWS, Google).
+- **TikTok**: eventual monetización o evolución de la participación del 15 %.
+- **Estabilización del capex**: si el gasto de capital alcanza un pico y el flujo de caja libre se vuelve positivo, el sentimiento podría mejorar notablemente. **análisis del agente**.
+
+---
+
+## 8. Riesgos
+
+### 8.1 Riesgos específicos de la empresa
+
+- **FCF negativo y endeudamiento creciente**: capex de 55 700 M USD en FY2026, deuda total de 167 400 M USD y deuda neta de 135 500 M USD. Planes de captar ~40 000 M USD adicionales. Riesgo de presión sobre la calificación crediticia y de interés/deuda descontrolado. Si la demanda de IA no acompaña, el apalancamiento amplifica la pérdida.
+- **Riesgo de ejecución de infraestructura**: retrasos de permisos, energía y gas (el caso Green Chile/Project Jupiter del 14 ago 2026 es un ejemplo), problemas de suministro de chips o energía pueden retrasar la generación de ingresos.
+- **Competencia en la nube**: AWS, Azure y Google Cloud tienen escala, precios y ecosistema superiores; Oracle compite desde una posición débil en cuota IaaS global y depende de su diferenciación en base de datos.
+- **Ciclo de IA**: la mayor parte de la nueva demanda (RPO de 130 000 M USD) es de capacidad de cómputo de IA para pocos grandes clientes (incluido OpenAI/Stargate). Una corrección del gasto en IA o la pérdida de un cliente ancla golpearía duro.
+- **Margen bruto a la baja**: la mezcla hacia infraestructura y la depreciación comprimen el margen bruto (79 % → 66 % en 4 años), lo que reduce la calidad del resultado.
+- **Concentración de control**: Larry Ellison controla ~42 % del capital, lo que limita el gobierno corporativo y la disciplina.
+- **Dividendo**: con FCF negativo, el dividendo se sostiene con deuda/flujo operativo; un ciclo adverso podría llevar a recortarlo. **análisis del agente**.
+
+### 8.2 Riesgos sectoriales / macro
+
+- **Tipos de interés elevados**: encarecen la deuda incremental y el capex; el gasto por intereses ya sube trimestre a trimestre.
+- **Recesión / recorte de presupuestos TI**: reduce firmas de nuevos contratos, renovaciones de licencias y la rentabilidad de los proyectos de infraestructura.
+- **Ciclo tecnológico**: caída del gasto en IA o burbuja de capacidad de centros de datos.
+- **Presión de precios en la nube** por competencia feroz.
+
+### 8.3 Riesgos regulatorios / geopolíticos
+
+- **Energía y regulación eléctrica**: los acuerdos de tarifas ("ratepayer protection pledge", marzo 2026) y las disputas por el trazado de gasoductos (Green Chile) muestran sensibilidad regulatoria/local.
+- **Antitrust y competencia**: litigios en curso del sector (incluidos pleitos históricos con Google sobre Java, y disputas con HP sobre Solaris/Itanium).
+- **Geopolítica**: exposición a mercados internacionales (~37 % de ingresos fuera de América [NO VERIFICADO]); posibles aranceles, sanciones, restricciones a exportación de chips y [[ciberseguridad|ciberseguridad]].
+- **Privacidad y datos de salud**: la unidad Oracle Health opera con datos de pacientes; brechas o cambios regulatorios de privacidad (HIPAA, GDPR, etc.) representan riesgo de cumplimiento y reputacional.
+- **TikTok**: la participación del 15 % está sujeta a decisiones regulatorias y políticas de EE. UU. sobre la plataforma.
+
+---
+
+## 9. Perspectiva del agente
+
+### Tesis a favor
+
+- Crecimiento real y acelerado del segmento Cloud (IaaS +68 % interanual en Q2 FY2026; segmento Cloud +38,7 % en FY2026) y cartera de RPO de ~130 000 M USD que da visibilidad multianual.
+- Base instalada y foso en bases de datos y aplicaciones de misión crítica; estrategia multi-cloud para vender en AWS/Azure/Google.
+- Valoración comprimida: PER adelantado 18,7, PEG 0,85, precio −56 % desde el máximo. Objetivo medio de analistas ~247 USD (>60 % por encima del precio actual).
+- Resultados operativos sólidos (margen operativo ~33 % y creciente; beneficio neto récord de ~17 000 M USD).
+
+### Tesis en contra
+
+- FCF muy negativo (−23 700 M USD FY2026) por un capex descomunal, que se financia con deuda adicional (planteados +40 000 M USD); deuda neta ~135 500 M USD y temores de presión crediticia.
+- La conversión de Oracle de empresa de software a operador de infraestructura compite contra hyperscalers con más escala y contra una posible burbuja de capacidad de IA.
+- Retrasos en energía/infraestructura (gasoducto Green Chile) pueden retrasar la monetización de la capacidad construida.
+- Margen bruto en declive estructural.
+
+### Veredicto (análisis del agente)
+
+- **Sesgo: neutral a cauteloso.** A corto plazo, la acción está en una zona de incertidumbre alta: el descuento ya es amplio, pero el desapalancamiento del balance y la conversión de RPO en ingresos no están garantizados. La tesis depende casi por completo de dos variables no controlables: la demanda sostenida de cómputo de IA y la disponibilidad de energía.
+- Para un inversor de largo plazo, el precio actual (150 USD) podría ofrecer buena relación riesgo/beneficio si se cree en la tesis de la infraestructura de IA y se tolera la volatilidad (beta 1,72) y el apalancamiento; pero el perfil de calidad de resultados (FCF negativo, deuda creciente) justifica exigir un mayor descuento que a un software de altísimo margen.
+- **Puntos de seguimiento clave**: 1) Q1 FY2027 del 10 sep 2026; 2) evolución trimestral del capex y del FCF; 3) estado de la calificación crediticia; 4) ejecución de Stargate/Project Jupiter; 5) renovación de contratos ancla de IA.
+- Este documento es análisis informativo, no una recomendación de compra o venta.
+
+---
+
+## 10. Fuentes
+
+Consultadas el 15 de agosto de 2026.
+
+- Yahoo Finance, ficha de Oracle (ORCL): precio, capitalización, PER, rango 52 semanas, dividendo, estadísticas, noticias. https://finance.yahoo.com/quote/ORCL/
+- Yahoo Finance, estadísticas de ORCL. https://finance.yahoo.com/quote/ORCL/key-statistics/
+- Motley Fool vía Yahoo Finance, "Why Oracle Stock Got Trounced Today" (14 ago 2026) — retraso del gasoducto Green Chile/Project Jupiter. https://finance.yahoo.com/markets/stocks/articles/why-oracle-stock-got-trounced-220245802.html
+- GuruFocus vía Yahoo Finance, "Oracle Stock Drops While $40 Billion Funding Need Looms" (14 ago 2026). https://finance.yahoo.com/markets/stocks/articles/oracle-stock-drops-while-40-195208041.html
+- TheStreet vía Yahoo Finance, "Oracle junk bond fears, debt surge sound alarms for investors" (14 ago 2026). https://finance.yahoo.com/markets/stocks/articles/oracle-junk-bond-fears-debt-173300814.html
+- Zacks vía Yahoo Finance, "Oracle Expands AI Database Offerings Through AWS Cloud" (14 ago 2026). https://finance.yahoo.com/technology/ai/articles/oracle-expands-ai-database-offerings-145300621.html
+- StockAnalysis.com (datos financieros de S&P Global Market Intelligence y Fiscal.ai), estados financieros anuales y trimestrales de ORCL, balance y ratios. https://stockanalysis.com/stocks/orcl/financials/
+- StockAnalysis.com, balance de ORCL. https://stockanalysis.com/stocks/orcl/financials/balance-sheet/
+- StockAnalysis.com, estado de resultados trimestral de ORCL. https://stockanalysis.com/stocks/orcl/financials/quarterly/
+- Oracle Investor Relations (página oficial). https://investor.oracle.com/ y https://investor.oracle.com/investor-news/default.aspx
+- Wikipedia, "Oracle Corporation" (historia, eventos, cifras FY2025 y RPO Q2 FY2026). https://en.wikipedia.org/wiki/Oracle_Corporation
+- Oracle Newsroom / comunicados de resultados de Oracle (referencia general de IR; los enlaces a noticias concretas de resultados no se pudieron cargar directamente). https://www.oracle.com/corporate/investor-relations/ (URL actualizada en investor.oracle.com)
+
+**Limitaciones de verificación**: (a) el sitio de relaciones con inversores de Oracle se cargó solo parcialmente (páginas dinámicas); por eso los datos financieros anuales/trimestrales provienen de la agregación de S&P Global vía stockanalysis.com, consistente con los 10-K/10-Q de Oracle; (b) no se accedió a un informe primario de cuota de mercado de cloud/bases de datos, por lo que esas cuotas quedan marcadas como [NO VERIFICADO]; (c) la definición exacta de los nuevos segmentos del FY2026 debe confirmarse en el 10-K FY2026; (d) cifras de terceros marcadas [NO VERIFICADO] donde se indica.
+
+---
+*Página generada por agente autónomo. Fecha de corte: 2026-08-15.*
+*Verificar cifras de mercado en la fuente citada antes de decisiones de inversión.*
+
+## Ver también
+
+<!-- red densa 2026-08-25 -->
+- [[alphabet]]
+- [[service-now]]
+- [[apple]]
+- [[sonda-2026-08-14-oracle|sonda 2026-08-14]]

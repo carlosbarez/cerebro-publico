@@ -1,0 +1,79 @@
+---
+title: "The Complete Collection — Howard Marks (memos de Oaktree)"
+tipo: fuente
+cobertura: completa
+tags: [libro, howard-marks, oaktree, memos, riesgo, ciclos, segundo-nivel]
+fecha: 2026-07-09
+fuentes: []
+---
+
+# The Complete Collection — Howard Marks (memos de Oaktree)
+
+Recopilación completa de los **memos a los clientes de Oaktree** que Howard Marks escribe desde **1990**. PDF:
+`raw/papers-sueltos/The complete collection - Howard Marks.pdf` (1.641 páginas, ~126 memos; PDF cifrado, leído con pypdf +
+cryptography). Es el **segundo libro** del cerebro y da entrada al **cuarto inversor**, [[howard-marks]].
+
+## Alcance de la ingesta — ÍNTEGRA (actualización 2026-07-10)
+
+Por instrucción de Carlos, la ingesta pasó de selectiva a **ÍNTEGRA**: los **126 memos** (1990-2025) fueron
+procesados uno a uno (cápsula de tesis por memo; lecturas profundas de los canónicos) y organizados en **seis
+páginas por era**, cada una con cápsulas por memo y enlaces al grafo:
+
+- [[marks-memos-1990-2001]] — Era I: del péndulo (1991) a la puntocom y el 11-S.
+- [[marks-memos-2002-2005]] — Era II: Enron, el credo realista, Oaktree at Ten.
+- [[marks-memos-2005-2008]] — Era III: **la anatomía de la crisis en directo** (Race to the Bottom → Nobody Knows).
+- [[marks-memos-2009-2012]] — Era IV: comprar en el pánico y la resaca soberana.
+- [[marks-memos-2012-2016]] — Era V: la destilación (riesgo, suerte, liquidez, psicología).
+- [[marks-memos-2016-2022]] — Era VI: populismo, COVID, value-vs-growth, el "sea change" y la burbuja de la IA
+  (llega hasta "Is It a Bubble?", nov-2025).
+
+## Alcance de la ingesta original (selectiva, superada)
+
+Dado el enorme tamaño (1.641 pp.), se aplicó una **ingesta selectiva de los memos canónicos** que concentran
+los modelos mentales de Marks, en vez de leer la colección entera. Se construyó un índice título→página de todos
+los memos y se leyeron en profundidad los tres pilares:
+
+- **"The Most Important Thing" (julio 2003)** — los 18 "preceptos" de Oaktree en un solo memo (semilla de su
+  libro homónimo de 2011). Fuente de [[pensamiento-de-segundo-nivel]] y de buena parte de [[howard-marks]].
+- **"Risk" (enero 2006)** — su tratado definitivo sobre el riesgo (riesgo ≠ volatilidad; riesgo = probabilidad
+  de pérdida permanente; "más cosas pueden pasar de las que pasarán"). Fuente clave de
+  [[riesgo-real-vs-volatilidad]].
+- **"You Can't Predict. You Can Prepare." (2001)** — la escuela "yo no sé" y la preparación frente al ciclo.
+  Fuente de [[ciclos-de-mercado]].
+
+El resto de la colección (crisis de 2007-08, memos por año, etc.) queda **indexado y disponible** para
+profundizar en futuras consultas sin releer el PDF entero.
+
+## Por qué importa para este cerebro
+
+Marks es el pensador de **segundo orden** por excelencia — la forma de pensar que define este wiki (ver
+[[pensamiento-de-segundo-nivel]]). Sus memos son, además, lectura obligada de Buffett (*"the first thing I open
+and read"*), lo que los convierte en un puente natural con el corpus de Berkshire.
+
+## Ideas centrales (mensajes de la fuente)
+
+1. **Precio vs. valor por encima de todo**: buen negocio ≠ buena inversión; *"there's no such thing as a good
+   idea regardless of price."* → [[precio-vs-cotizacion]].
+2. **Riesgo = probabilidad de pérdida permanente, no volatilidad** → [[riesgo-real-vs-volatilidad]].
+3. **Ciclos y el péndulo**: no extrapolar tendencias; prepararse, no predecir → [[ciclos-de-mercado]].
+4. **Pensamiento no-consenso**: el beneficio superior está fuera de la corriente → [[pensamiento-de-segundo-nivel]].
+5. **Defensa e inteligencia del riesgo**: *"if we avoid the losers, the winners will take care of themselves";
+   "invest scared"*; control del riesgo ≠ evitación del riesgo → [[margen-de-seguridad]].
+
+## Citas literales relevantes
+
+- *"No asset is so good that it can't become a bad investment if bought at too high a price. And there are few
+  assets so bad that they can't be a good investment when bought cheap enough."* (MIT, 2003)
+- *"The 'I know' school versus the 'I don't know' school... I feel strongly that the latter course is the right
+  one."* (MIT, 2003)
+- *"I'm sure 'risk' is – first and foremost – the likelihood of losing money."* (Risk, 2006)
+- *"The fact that something happened doesn't mean it was likely, and the fact that something didn't happen
+  doesn't mean it was improbable."* (Risk, 2006)
+- *"You've got to go out on a limb sometimes because that's where the fruit is. None of us is in this business
+  to make 4%."* (Risk, 2006)
+
+## Páginas del wiki creadas/actualizadas por esta ingesta
+
+- Creadas: `inversores/howard-marks.md`, `conceptos/pensamiento-de-segundo-nivel.md`,
+  `conceptos/ciclos-de-mercado.md`, `fuentes/libros/howard-marks-memos.md`
+- Actualizadas: `conceptos/riesgo-real-vs-volatilidad.md`, `index.md`, `log.md`, `CLAUDE.md`

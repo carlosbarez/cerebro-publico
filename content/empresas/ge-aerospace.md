@@ -1,0 +1,112 @@
+---
+title: "GE Aerospace (GE) — Análisis Fundamental"
+tipo: empresa
+tags: [empresa, analisis-fundamental, industriales]
+fecha: 2026-08-27
+agente: carlos-barez
+ticker: GE
+moneda: USD
+precio_referencia: 354.39
+fecha_precio: 2026-08-27
+valor_estimado: 240-300
+gatillo_entrada: 260-290
+veredicto: SEGUIR
+revisar_el: 2026-11-24
+fuentes: "[\"https://stockanalysis.com/stocks/GE/financials/\",\"https://stockanalysis.com/stocks/GE/statistics/\",\"https://www.geaerospace.com/sites/default/files/geaerospace_2024annualreport.pdf\",\"https://www.geaerospace.com/news/press-releases/ge-aerospace-announces-second-quarter-2025-results\",\"https://www.morningstar.com/stocks/after-earnings-is-ge-aerospace-stock-buy-sell-or-fairly-valued-8\"]"
+---
+# GE Aerospace (GE) — Análisis Fundamental
+
+## 1. Resumen ejecutivo
+GE Aerospace es la "joya de la corona" ex-conglomerado General Electric, cotizando como compañía independiente desde el spin-off de GE Vernova (energía) en abril de 2024 y de GE HealthCare (2023). Es líder mundial en propulsión, servicios y sistemas aeronáuticos, con una base instalada de ~70.000 motores comerciales y de defensa y ~$35.000M de ingresos ajustados (~70% traccionados por el aftermarket).
+
+Cifras TTM (cierre ~26 ago 2026): ingresos $50.639B (+21,7%), beneficio operativo $10.248B, margen operativo 20,2%, FCF $8,40B (margen FCF 16,6%), ROIC 31,0%, ROE 48,2%. Balance sano: deuda neta -$10,3B, Deuda/EBITDA 1,71x, cobertura de intereses 11,15x.
+
+La tesis es de calidad excepcional (foso amplio por costes de cambio y activos intangibles), pero la valoración es cara: P/E 41,8x, EV/EBITDA 32,9x, P/FCF 43,8x. Tras subir +32,9% en 52 semanas, el precio actual ($354,39) está por encima de mi estimación de valor intrínseco ($240–300). Veredicto: **SEGUIR** — mantener y acumular en debilidad, no comprar a precios actuales sin margen de seguridad.
+
+## 2. Descripción del negocio
+GE Aerospace diseña, fabrica y da servicio a motores de aviación comercial y de defensa, y sistemas de propulsión. Opera tras dos spin-offs como puramente aeroespacial. Cuenta con ~53.000 empleados, clientes en ~120 países y 950.000 personas en el aire en cualquier momento con tecnología GE.
+
+Segmentos (reporting 2024):
+- **Commercial Engines & Services (CES)**: >45.000 motores en base instalada; GE y la JV CFM (50/50 con Safran) propulsan 3 de cada 4 vuelos comerciales. ~$26,9B de ingresos en 2024, ~70% servicios.
+- **Defense & Propulsion Technologies (DPT)**: compuesto por Defense & Systems y Propulsion & Additive Technologies; >25.000 motores en base instalada, alimenta 2/3 de las flotas de combate y helicópteros de EE.UU. ~$1,1B de beneficio operativo 2024.
+
+Mix TTM: Servicios $34.213B (67,5% del total) vs Equipos $15.109B — el negocio de servicios de larga duración es el motor de márgenes y recurrencia.
+
+## 3. Industria y moat competitivo
+Mercado de motores en **duopolios virtuales**: narrow-body (CFM LEAP/CFM56 vs Pratt & Whitney GTF) y wide-body (GE/engine Alliance vs Rolls-Royce). GE controla ~40% del mercado global de MRO (mantenimiento, reparación y overhaul), según Oliver Wyman.
+
+**Foso amplio (wide moat)** — Morningstar: basado en costes de cambio y activos intangibles derivados de la enorme base instalada y el know-how técnico para diseñar, producir y mantener turbinas. Los motores vuelan >20 años; el ~75% de los ingresos totales y ~70% de los ingresos de servicios provienen del aftermarket de su propia flota — una "annuity" de alto margen que nadie más puede capturar sin ser el OEM original. La demanda estructural (tráfico aéreo mundial que se duplica en 20 años) refuerza la visibilidad de décadas.
+
+## 4. Análisis financiero (3-5 años)
+Cifras en millones USD (FY salvo TTM; la caída de 2021→2022 refleja los spin-offs, por lo que las comparables limpias arrancan en 2022 standalone):
+
+| (USD M) | FY22 | FY23 | FY24 | FY25 | TTM |
+|---|---|---|---|---|---|
+| Ingresos | 29.139 | 35.348 | 38.702 | 45.855 | 50.639 |
+| Crecimiento | — | +21,3% | +9,5% | +18,5% | +21,7% |
+| Beneficio operativo | 3.981 | 6.245 | 7.757 | 9.483 | 10.248 |
+| Margen operativo | 13,7% | 17,7% | 20,0% | 20,7% | 20,2% |
+| Beneficio neto | 51 | 9.187 | 6.556 | 8.704 | 8.971 |
+| EPS | 0,05 | 8,36 | 5,99 | 8,15 | 8,49 |
+| FCF (stockanalysis) | — | — | ~6.089* | — | 8.400 |
+
+* FCF ajustado 2024 $6,1B (+28%) según presentación de resultados.
+
+- **Márgenes en expansión**: margen operativo de ~13,7% (2022) a ~20% (2024-25), impulsado por servicios y productividad. Margen bruto TTM 31,05%; EBITDA 22,68%.
+- **FCF**: TTM $8,40B, margen FCF 16,58%, FCF/share $8,09. En 2024 devolvió >$6B a accionistas ($5B recompra + $1B dividendos).
+- **Rentabilidad**: ROIC 31,03%, ROE 48,23% — excepcionales, reflejo de activos ligeros y poder de precios.
+- **Apalancamiento y liquidez**: Deuda total $20,23B, efectivo $9,95B, deuda neta -$10,29B (-$9,91/share). Deuda/EBITDA 1,71x, Deuda/FCF 2,41x, interés cobertura 11,15x, D/E 1,13x. Ratio corriente 0,98 (ajustado por naturaleza de inventarios aero). Capital regresivo: acciones -2,31% anual (recompra agresiva).
+
+## 5. Valoración
+Precio referencia $354,39 (cierre 26 ago 2026). Multiples TTM:
+- P/E 41,77x | Forward P/E 42,22x | PEG 2,44
+- P/S 7,26x | P/B 20,84x | P/FCF 43,79x
+- EV $378,0B; EV/EBITDA 32,92x; EV/FCF 45,02x; EV/Sales 7,46x
+- Market cap $367,7B; ~1,04B acciones; dividendo $1,88 (yield 0,53%).
+
+**Contexto**: estos múltiplos están en la parte alta de la historia reciente de GE y muy por encima de la media de industriales. Reflejan el premio de "foso amplio" + expectativas de crecimiento de doble dígito (Morningstar proyecta ~8% CAGR ingresos hasta 2035, con margen operativo >27% en la década). Pares de motores (RTX/P&W, Rolls-Royce) cotizan con primas similares por la misma lógica de duopolio + aftermarket.
+
+**Valor intrínseco estimado**: $240–300 por acción (DCF FCF: $8,09/share creciendo 8–12% descontado al 9% → $204–276; escenario moderado ~$270). El precio actual ($354) implica una prima sobre incluso el caso optimista → **sin margin of safety** hoy.
+
+**Margin of safety explícito**: dada la alta visibilidad y calidad, tolero pagar hasta ~25–30x FCF. El gatillo de entrada es **$260–290** (≈ P/FCF 32–36x, P/E ~31–34x sobre TTM), que otorga ~20–25% de margen sobre la estimación media ($270).
+
+## 6. Equipo directivo e incentivos
+CEO y Chairman: **H. Lawrence Culp, Jr.** (desde 2018, arquitecto de la desintegración del conglomerado y la creación de valor). El equipo ejecuta un plan de "retorno de capital": >$6B devueltos en 2024 (mayoría recompra), reduciendo acciones -2,3% anual. Los incentivos están alineados con FCF y ROIC, no con crecimiento ciego de ingresos. Culp ha señalado repetidamente la prioridad SQDC (safety, quality, delivery, cost) "siempre en ese orden".
+
+## 7. Riesgos (3-6)
+1. **Cadena de suministro y mano de obra**: cuellos de botella en materiales y talento pueden frenar entregas y márgenes en cualquier línea.
+2. **Defecto de diseño/calidad de motor**: el caso Pratt & Whitney GTF (fallo metalúrgico, >$3B en cargos en efectivo) muestra el riesgo de un defecto en motores GE/LEAP.
+3. **Ejecución LEAP durability**: dependencia de kits de durabilidad para alcanzar "time on wing" tipo CFM56; retrasos afectarían reputación y coste.
+4. **Ciclo aero y recesión**: la división equipo es cíclica; una caída del tráfico aéreo golpea pedidos.
+5. **Concentración clientes/plataformas**: dependencia de programas 737 MAX, 787, A320neo, 777X y de JVs (CFM/Safran).
+6. **Valoración**: el múltiplo elevado deja poco margen ante cualquier decepción de crecimiento.
+
+## 8. Catalizadores y noticias recientes (2024-2025)
+- **2024 monumental como standalone**: pedidos totales +32% a $50,3B; ingresos ajustados +10% a $35,1B; beneficio operativo ajustado +30% a $7,3B; FCF +28% a $6,1B. Backlog (RPO) ~$172B+ ($154B CES + $18B DPT).
+- **Q2 2025 fuerte**: pedidos +28%, ingresos +30%; defensa y sistemas resilientes.
+- **Grandes contratos H1 2025**: Qatar Airways (>400 motores, incl. 60 GE9X y 260 GEnx), IAG (GEnx para 787), ANA (>75 LEAP + GEnx), Malaysian Aviation (60 LEAP), Korean Air — visibilidad de años.
+- **LEAP**: certificación A321XLR (CFM/FAA/EASA) y kit de durabilidad HPT para LEAP-1A (dic 2024), apunta a >2x time on wing.
+- **CFM cumple 50 años**; programa RISE (demostrador tecnológico) para eficiencia futura.
+
+## 9. Tesis bull / bear
+**Bull**: foso amplio real (40% MRO global, duopolios, base instalada de 20+ años); aftermarket de alto margen y recurrente; crecimiento estructural del tráfico aéreo (x2 en 20 años); expansión de márgenes a >27%; FCF robusto y creciente que financia recompras; equipo probado (Culp).
+
+**Bear**: múltiplos exigentes (P/FCF ~44x) descuentan perfección; riesgo de defecto de motor tipo GTF; cuellos de cadena de suministro; ciclo aero y exposición a programas específicos; deuda neta aún positiva y ratio corriente <1.
+
+## 10. Fuentes (URLs)
+- https://stockanalysis.com/stocks/GE/financials/ (ingresos, márgenes, FCF, ROIC/ROE)
+- https://stockanalysis.com/stocks/GE/statistics/ (múltiplos, deuda, valoración)
+- https://www.geaerospace.com/sites/default/files/geaerospace_2024annualreport.pdf (segmentos, backlog, resultados 2024)
+- https://www.geaerospace.com/news/press-releases/ge-aerospace-announces-second-quarter-2025-results (Q2 2025, contratos)
+- https://www.morningstar.com/stocks/after-earnings-is-ge-aerospace-stock-buy-sell-or-fairly-valued-8 (moat, duopolio, MRO, riesgos)
+
+## 11. Veredicto de Carlos (con condiciones)
+**SEGUIR.** GE Aerospace es un negocio de calidad excepcional con foso amplio y visibilidad de décadas, exactamente el tipo de activo que busco como inversor de valor/calidad a largo plazo. Pero **a $354 no hay margin of safety**: el mercado ya descuenta crecimiento y expansión de márgenes casi perfectos (P/FCF ~44x).
+
+Condiciones:
+- **Comprar solo en el rango $260–290** (≈32–36x FCF), o si el FCF crece lo suficiente para que el múltiplo actual se "asiente" (P/FCF <35x sobre TTM rodante).
+- **Acumular en pullbacks** ligados a miedos de cadena de suministro o ciclo aero, no por debilidad estructural.
+- **Revisar** tras Q3 2026 (16 jul 2026 ya pasó; próximo reporte ~oct 2026) para confirmar trayectoria de FCF y durabilidad LEAP.
+- **Mantener** posición existente; no vender un foso así por momentum.
+
+<!-- META ticker=GE veredicto=SEGUIR -->

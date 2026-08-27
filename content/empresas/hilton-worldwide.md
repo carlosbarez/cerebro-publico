@@ -1,0 +1,133 @@
+---
+title: "Análisis Fundamental — Hilton Worldwide (HLT)"
+tipo: empresa
+tags: [empresa, hilton-worldwide]
+fecha: 2026-08-27
+agente: carlos-barez
+ticker: HLT
+moneda: USD
+precio_referencia: 326.25
+fecha_precio: 2026-08-27
+valor_estimado: 260-320 USD por acción (rango amplio por incertidumbre de múltiplos; DCF conservador ~190, fair value calidad ~350)
+gatillo_entrada: acumular por debajo de ~280 USD (P/E forward ~31x, EV/EBITDA ~24x); zona de valor <260 USD
+veredicto: VIGILAR
+revisar_el: 2026-11-25
+fuentes: "[\"https://stockanalysis.com/stocks/HLT/\", \"https://stockanalysis.com/stocks/HLT/financials/\", \"https://stockanalysis.com/stocks/HLT/statistics/\", \"https://www.sec.gov/Archives/edgar/data/1585689/000158568925000081/hilton_worldwidex2024xannu.pdf\", \"https://stories.hilton.com/releases/hilton-reports-2024-fourth-quarter-full-year-results\", \"https://stories.hilton.com/releases/hilton-reports-2026-second-quarter-results\", \"https://www.sec.gov/Archives/edgar/data/1585689/000158568926000042/q22026earningsrelease.htm\", \"https://en.wikipedia.org/wiki/Hilton_Worldwide\", \"https://moatscan-ai.com/analysis/HLT\", \"https://tickerspark.ai/research/hlt\", \"https://www.metatrader.com/en/news/zacks/1946641-can-hilton-s-travel-boom-outrun-rising-debt-and-global\", \"https://seekingalpha.com/article/4925725-hilton-worldwide-holdings-growth-not-great-enough-to-avoid-downgrade\", \"https://bellwetherbrief.com/stock/hlt\", \"https://koalagains.com/stocks/NASDAQ/MAR/competition\", \"https://corpdigest.com/company/hilton/competitive-strategy\"]"
+---
+
+# Análisis Fundamental — Hilton Worldwide (HLT)
+
+## 1. Resumen ejecutivo
+
+Hilton Worldwide Holdings (NYSE: HLT) es, junto con Marriott, el imperio hotelero más valioso del planeta, y la diferencia clave es que **Hilton casi no posee hoteles**: su negocio es vender la marca, el motor de reservas y el programa de fidelización (Hilton Honors, ~195-251 millones de miembros) a propietarios que construyen y operan los inmuebles. Ese modelo "asset-light" genera márgenes operativos del ~57%, ROIC del ~17% y un flujo de caja libre recurrente de ~2.000 M USD anuales, creciendo su red a un ritmo de unidades del 6-7% anual. Es, en esencia, un "compounder" de calidad con foso de marca, economías de red en la lealtad y contratos de 20 años que retienen al propietario. El problema no es la empresa: es el precio. A 326,25 USD (27 ago 2026) HLT cotiza a ~49x beneficios pasados, ~35x beneficios esperados y ~28x EV/EBITDA, por encima de sus pares y muy por encima de donde un inversor de valor-calidad encuentra colchón. **Veredicto: VIGILAR.** Excelente negocio, valoración sin margen de seguridad hoy; acumular en debilidad hacia 260-280 USD.
+
+## 2. Descripción del negocio
+
+Fundada por Conrad Hilton en 1919 (Cisco, Texas), Hilton cotiza de nuevo en bolsa desde diciembre de 2013 tras la compra apalancada de Blackstone (2007) y la posterior reestructuración de deuda post-2008. Hoy es una compañía de hospitalidad global con **~9.400 propiedades y casi 1,4 millones de habitaciones en 144 países**, 28 marcas desde lujo (Waldorf Astoria, Conrad, LXR, NoMad) hasta economía/select-service (Hampton, Tru, Spark, Home2 Suites).
+
+Opera en dos segmentos:
+- **Management & Franchise (M&F)** — el corazón del valor. Genera ingresos por (i) fees de franquicia y licencias (royalty ~4-6% de la habitación, más fees de marketing/tecnología/lealtad), (ii) fees de gestión (base + incentivo sobre el beneficio del hotel) y (iii) licencias estratégicas (tarjeta de crédito co-brand, HGV). Como no posee los inmuebles, el capital necesario es mínimo y el margen, altísimo. A 2024 gestionaba 831 hoteles y franquiciaba/licenciaba 7.566, con un sistema total de 8.447 hoteles y 1.268.206 habitaciones (incl. HGV y socios).
+- **Ownership** — 50 hoteles propios/arrendados (17.138 habitaciones) que aportan ingresos de room/F&B pero atan capital y ciclicidad. Es una porción pequeña y deliberadamente reducida del modelo.
+
+Cómo genera dinero: cada nueva habitación abierta (crecimiento neto de unidades 6-7%) añade una regalía perpetua ligada al RevPAR (ocupación × ADR) sin que Hilton ponga un ladrillo. El 95% del EBITDA ajustado es de fees. El flywheel es clásico: más miembros Honors → más reservas directas → más valor para el propietario → más aperturas → más fees para invertir en marketing/puntos → más miembros.
+
+## 3. Industria y moat competitivo
+
+La industria hotelera es cíclica y fragmentada, pero el segmento de cadenas de marca está concentrado en unos pocos gigantes (Marriott, Hilton, IHG, Hyatt, Accor, Wyndham, Choice). Hilton posee un **foso estrecho (narrow moat)**, durable 10-20 años, con las palancas siguientes:
+
+- **Intangibles / marca (pilar más fuerte, 8/10):** el nombre Hilton y marcas como Waldorf, Conrad, DoubleTree o Hampton transmiten calidad previsible en 144 países. Es difícil de replicar desde cero.
+- **Efecto red en la lealtad (Hilton Honors):** ~195-251 M de miembros; >2/3 de las noches se reservan por canales directos de miembros, evitando comisiones del 15-20% a Booking/Expedia que sí pagan los independientes. Más propiedades atraen más miembros, que atraen más propietarios.
+- **Costes de cambio (moderados-fuertes):** contratos de franquicia de 10-20 años, puntos acumulados, estatus de élite y hábito del viajero corporativo. Reflaggear tiene fricción (renegociación, costes de conversión, disrupción de ocupación).
+- **Ventaja de costes por escala asset-light:** reparto de tecnología, marketing y lealtad sobre miles de propiedades; ROIC ~17-24% vs modelos intensivos en capital.
+- **El "flag" como colateral:** los prestamistas rara vez financian un hotel sin una marca grande adjunta — el flag es, de facto, garantía de ocupación previsible. Eso empuja toda nueva oferta a entrar en uno de los grandes sistemas.
+
+Frente a **Marriott** (el rival directo, ~1,8 M hab. y Bonvoy ~228-295 M miembros), Hilton es más pequeño en escala y lealtad pero **más puro y rentable**: mayor margen neto (~31% vs ~10-14% de MAR) y crecimiento de unidades más rápido en términos relativos. Marriott crece por adquisiciones (Ritz-Carlton, Starwood, citizenM); Hilton manufactura marcas orgánicamente (Spark, Tempo, LivSmart, Undergraduate) sin prima de goodwill, con el ROIC más limpio de la industria. Frente a IHG/Accor/Wyndham, Hilton combina escala global con un modelo más capital-light que los dueños de activos.
+
+## 4. Análisis financiero (FY2021–TTM, en millones USD)
+
+| Concepto | TTM (jun-26) | FY2025 | FY2024 | FY2023 | FY2022 | FY2021 |
+|---|---|---|---|---|---|---|
+| Ingresos | 5.104 | 4.954 | 4.746 | 4.408 | 3.736 | 2.444 |
+| Margen bruto | 79,0% | 77,9% | 76,3% | 74,1% | 73,3% | 72,2% |
+| Margen operativo | 56,7% | 54,0% | 49,6% | 51,4% | 56,5% | 42,2% |
+| Beneficio neto | 1.584 | 1.457 | 1.535 | 1.141 | 1.255 | 410 |
+| BPA | 6,80 | 6,12 | 6,14 | 4,33 | 4,53 | 1,46 |
+| Flujo de caja libre (FCF) | 2.029 | 2.028 | 1.917 | 1.795 | 1.642 | 74 |
+| Deuda total | 14.023 | 13.214 | 12.003 | 10.120 | 9.691 | 9.817 |
+| Efectivo | 1.009 | 918 | 1.301 | 800 | 1.209 | 1.427 |
+| Deuda neta | −13.014 | −12.296 | −10.702 | −9.320 | −8.482 | −8.390 |
+
+Puntos clave:
+- **Crecimiento y márgenes:** ingresos +5,7% TTM; el modelo M&F empuja márgenes brutos al ~79% y operativos al ~57%. El FCF se ha más que duplicado desde 2021 y ronda los 2.000 M USD con Capex exiguo (~80-100 M). Conversión FCF/OCF excepcional.
+- **Rentabilidad del capital:** ROIC 17,4%, ROCE 24,4%, ROA 11,0%. WACC ~9%, con spread positivo amplio.
+- **Balance agresivo:** deuda total subió de ~10,1 B (2023) a 14,0 B (TTM); deuda neta ~13 B. Deuda/EBITDA ~4,4x (peril de su 10-year range) e interés cubierto 4,3x. El **patrimonio neto es negativo (−6,3 B)** por las recompras acumuladas — técnico, no insolvencia operativa, pero señala una política de capital que prioriza retorno sobre colchón. Ratio corriente 0,65 (working capital negativo por diseño: depende de cobros de fees y del mercado de crédito).
+- **Retorno al accionista:** recompras que redujeron acciones un 4,7% interanual (225 M acciones hoy) y ~3.500 M USD de retorno previstos en 2026. Dividendo simbólico (0,60 USD, yield 0,18%); el "buyback yield" (~4,7%) es la vía real de retorno.
+
+## 5. Valoración
+
+A 326,25 USD (27 ago 2026), HLT presenta:
+- **P/E** 48,9x (pasado) y **forward P/E** 34,5x (sobre BPA ajustado 2026e ~8,9-9,0 USD).
+- **EV/EBITDA** 28,3x; **EV/FCF** 43,1x.
+- **P/FCF** 36,7x; **P/S** 14,6x; **PEG** 2,57x.
+- MCap 73,4 B; EV 86,4 B.
+
+**Comparativa de pares (ordenes de magnitud):** Marriott P/E ~39x / EV/EBITDA ~24x; Wyndham ~34x / ~21x; IHG y Accor más baratos; Choice (CHH) ~15x / ~11x. Hilton cotiza a **prima frente a casi todos sus pares**, reflejando la calidad del modelo y su crecimiento de unidades.
+
+Múltiplos históricos: el P/E de HLT ha oscilado desde ~27x (2022) hasta >100x (2021, post-COVID). El nivel actual está en la mitad alta de su rango normal, no en extremo, pero tampoco barato.
+
+**Noción de margin of safety:** honestamente, **escasea**. Para justificar 326 USD se requiere que Hilton crezca el BPA a doble dígito sostenido. Guía 2026: EBITDA ajustado 4,04-4,08 B (+~8% vs 3,73 B de 2024/25), BPA ajustado 8,89-9,01 USD, crecimiento de unidades 6-7%. Con un P/E razonable de calidad de 30-33x sobre 2026e, el valor intrínseco queda en **~260-300 USD**; los modelos "calidad-premium" lo llevan a ~350 USD (TickerSpark), mientras un DCF escéptico (Simply Wall St) lo sitúa en ~190 USD. **Rango estimado de valor intrínseco: 260-320 USD.** No doy precio objetivo falso: la horquilla es amplia porque el múltiplo apropiado depende de si el crecimiento de unidades y fees se mantiene por encima del ciclo. A precio actual, el colchón ante un error de tesis es estrecho.
+
+## 6. Equipo directivo e incentivos
+
+- **Christopher J. Nassetta** (Presidente y CEO desde 2008, traído por Blackstone): el arquitecto de la transformación asset-light y del crecimiento de la red a ~1,4 M hab. Track record de +15 años excelente; reconocido como uno de los mejores operadores del sector.
+- **Jonathan D. Gray** (Chairman), ex-Blackstone — alineación con la disciplina de capital y el origen del modelo.
+- **Kevin Jacobs** (CFO): guía financiera disciplinada, énfasis en FCF y retorno.
+- **Alineación:** inversores institucionales 96%; insiders solo 1,8%. **Señal mixta:** ventas relevantes de Nassetta (~36 M USD en 12 meses) y ausencia de compras de insiders — típico de grandes cotizadas con planes 10b5-1, pero debilita la señal de convicción a precio actual. Los incentivos operativos (crecimiento de unidades, RevPAR, FCF) están bien atados a la creación de valor a largo plazo.
+
+## 7. Riesgos
+
+1. **Valoración rica / margin of safety nulo:** 49x P/E pasado, 28x EV/EBITDA. Cualquier decepción de crecimiento o expansión de múltiplos a la media presiona el precio.
+2. **Apalancamiento y ciclicidad:** deuda 14 B, deuda neta ~13 B, deuda/EBITDA ~4,4x (pércentil 88 de 10 años); interés cubierto 4,3x. El swap de tipos de 1,6 B venció en marzo-2026, subiendo la exposición a tipos variables; el gasto financiero ya subió de 151 M a 183 M en un trimestre. Un shock de demanda estrecha el margen de servicio de deuda.
+3. **Estrés del ecosistema de propietarios (CMBS):** ~16% de la deuda CMBS ligada a hoteles Hilton (~2,5 B USD) está en mora; tipos altos, costes laborales y renovaciones aprietan a los dueños, pudiendo retrasar aperturas, cancelar conversiones y degradar estándares de marca. El modelo "asset-light" no es inmune al dolor del franquiciado.
+4. **Debilidad regional y geopolítica:** RevPAR MEA −29,5% y China −2,2% en 2026; conflictos en Oriente Medio y restricciones de viaje gubernamentales EE.UU. redujeron la guía. ~75% del negocio es EE.UU.-conducente, exponiendo la tesis si la demanda doméstica cae.
+5. **Trabajo / marca:** huelgas de UNITE HERE (Seattle, Graduate by Hilton) y tensiones laborales; además, devaluaciones de puntos Honors (Waldorf Maldivas 190k→250k) erosionan el "stickiness" de la lealtad.
+6. **Competencia y canales:** Marriott Bonvoy mayor; OTAs y asistentes de IA podrían capturar el descubrimiento y subir costes de distribución si el tráfico directo se debilita.
+
+## 8. Catalizadores y noticias recientes (2024–2026)
+
+- **Q4 2024 récord:** EBITDA ajustado >3,4 B (+11%), FCF que permitió retornar 3.000 M; net unit growth 7,3% (mayor aumento de habitaciones de su historia, +97.300), pipeline ~500.000 hab.
+- **2025:** adquisición mayoritaria de Sydell (NoMad, abril-2024); partnership exclusivo con Small Luxury Hotels of the World (feb-2024); lanzamiento de Undergraduate by Hilton (upper-midscale universitario) y Apartment Collection. RevPAR 2025 +2-3%.
+- **Q2 2026 (28 jul-2026):** RevPAR +3,9%, net income 482 M, EBITDA ajustado 1.054 M (+5%), EPS 2,10 (2,29 ajustado), net unit growth 6,1%, pipeline récord (~527.000 hab. a mar-2026). Guía 2026: EBITDA 4,04-4,08 B, BPA ajustado 8,89-9,01, retorno a accionistas ~3.500 M. Catalizadores: Mundial (Q3), beneficios de calendario; riesgos: elecciones de mitad de mandato y shifts de calendario en Q4.
+- **Acciones de analistas recientes (ago-2026):** Deutsche Bank sube a Buy (365); CICC initia Outperform (370); Barclays 368; Baird 360; Susquehanna baja a 345 (Neutral); Seeking Alpha downgrade a Hold por valoración y apalancamiento. Consenso Buy, precio objetivo medio ~353 USD (+8%).
+
+## 9. Tesis bull / bear
+
+**Bull:** negocio de calidad excepcional — foso de marca + red de lealtad + contratos de 20 años; ROIC 17-24%; FCF ~2 B con Capex mínimo; crecimiento de unidades 6-7% anual compuesto por años (pipeline récord); ~95% del EBITDA es de fees, casi inmune a costes de propiedad; Nassetta es un operador de élite; la industria crece con la "experiencia sobre cosas" y Hilton gana cuota de la nueva oferta global. A 30-33x 2026e el valor razonable es 300-300+ USD.
+
+**Bear:** a 326 USD ya se descuenta mucho éxito; 49x P/E y 28x EV/EBITDA dejan poco margen si el ciclo hotelero gira. La deuda 14 B y el patrimonio negativo eliminan colchón; mora CMBS del 16% amenaza el pipeline; MEA/China débiles; net margin cayó de 33% a ~30%; insiders venden; la competencia (Bonvoy) y la IA distributiva acechan. Un DCF escéptico valora ~190 USD.
+
+## 10. Fuentes
+
+- https://stockanalysis.com/stocks/HLT/ (precio, múltiplos, stats)
+- https://stockanalysis.com/stocks/HLT/financials/ (histórico 2021–TTM)
+- https://stockanalysis.com/stocks/HLT/statistics/ (valoración, ROIC, deuda)
+- https://www.sec.gov/Archives/edgar/data/1585689/000158568925000081/hilton_worldwidex2024xannu.pdf (10-K 2024)
+- https://stories.hilton.com/releases/hilton-reports-2024-fourth-quarter-full-year-results (Q4 2024)
+- https://stories.hilton.com/releases/hilton-reports-2026-second-quarter-results (Q2 2026)
+- https://www.sec.gov/Archives/edgar/data/1585689/000158568926000042/q22026earningsrelease.htm (Q2 2026 release)
+- https://en.wikipedia.org/wiki/Hilton_Worldwide (historia, modelo, marcas)
+- https://moatscan-ai.com/analysis/HLT (análisis de foso)
+- https://tickerspark.ai/research/hlt (valoración/fair value 350)
+- https://www.metatrader.com/en/news/zacks/1946641-can-hilton-s-travel-boom-outrun-rising-debt-and-global (deuda, riesgos regionales)
+- https://seekingalpha.com/article/4925725-hilton-worldwide-holdings-growth-not-great-enough-to-avoid-downgrade (downgrade por valoración)
+- https://bellwetherbrief.com/stock/hlt (CMBS, insiders, comparables)
+- https://koalagains.com/stocks/NASDAQ/MAR/competition (Hilton vs Marriott)
+- https://corpdigest.com/company/hilton/competitive-strategy (estrategia moat)
+
+## 11. Veredicto de Carlos
+
+**VIGILAR (no comprar a precio actual).** Como analista value-quality no tengo nada que objetar al negocio: Hilton es un "compounder" de altísima calidad, con foso de marca y lealtad reales, ROIC superior al coste de capital, FCF abundante y un motor de crecimiento de unidades (6-7%) que puede durar una década. El equipo directivo (Nassetta) es de los mejores del sector y la disciplina de capital retorna efectivo de forma agresiva.
+
+El problema es puramente de **precio y margin of safety**. A 326,25 USD pagas ~49x beneficios pasados y ~28x EV/EBITDA por un activo cíclico; el valor intrínseco estimado queda en 260-320 USD y el mercado ya descuenta casi todo el caso alcista. Con deuda neta de ~13 B, patrimonio negativo y mora CMBS del 16% en su ecosistema de propietarios, el colchón ante un giro cíclico es escaso. No es una "evitar" (el negocio es demasiado bueno y durable), pero **hoy no hay margen de seguridad**.
+
+**Condiciones para entrar:** acumular por debajo de ~280 USD (P/E forward ~31x, EV/EBITDA ~24x, en línea con la media de pares de calidad) y con mayor convicción si cae hacia 250-260 USD (donde un DCF moderado empieza a dar upside). Mantener en watchlist; reevaluar tras Q3 2026 (Mundial/calendario) y vigilar la mora CMBS, la guía de net unit growth y cualquier recorte de guidance por demanda EE.UU./MEA/China. Si el precio no cede, dejo pasar: prefiero pagar menos por la misma calidad que perseguir un momentum que no opera.

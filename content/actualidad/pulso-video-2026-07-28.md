@@ -1,0 +1,196 @@
+---
+title: "pulso video 2026 07 28"
+tipo: sintesis
+cobertura: parcial
+tags: [actualidad, pulso, video, macro, geopolitica, iran, petroleo, fed, semiconductores, china, cxmt, asml, megacaps, municion, ucrania, 2026-07, snapshot]
+fecha: 2026-07-28
+canales: [un canal técnico español, una cadena económica española, "una cadena financiera internacional"]
+fuentes: ["un canal técnico español metodo", "[[negociostv-metodo]]", "una cadena financiera internacional tv metodo"]
+destilado_por: omniroute
+---
+
+> [!info] Es una FOTO, no conocimiento permanente
+> Digest de **7 vídeos, 3 canales activos de 8**, ventana 27-28 jul (lunes-martes): un canal técnico español 1
+> (China-IA), una cadena económica española 4 (noticiero 28-jul + temática mercado alcista + entrevistas Villarroya y Serbin),
+> una cadena financiera internacional 2 (`The Close` 27-jul, cierre EEUU + `The China Show` 27-jul, debut CXMT). **una mesa de mercado española, un divulgador macro español,
+> un analista macro español-Bolsa, un gestor de fondos español, una cadena financiera internacional sin material nuevo procesable**: los 3 una mesa de mercado española y el un divulgador macro español del
+> 27-jul ya se cubrieron en [[pulso-video-2026-07-27]] (confirmado por ID); un analista macro español-Bolsa y un gestor de fondos español sin
+> vídeo nuevo (no es error); una cadena financiera internacional sin ningún `una cadena financiera internacional Talks` en la ventana (solo formatos
+> duplicados de @markets — descarte automático por regla de dedup).
+>
+> **Descartes de volumen**: una cadena económica española (~15 candidatos restantes): flashes `ÚLTIMA HORA` <5 min sin cifra,
+> dos piezas de trading técnico puro, noticiero 27-jul (solapa con procesados de ayer), Belikow/Lamesa
+> (opinión geopolítica solapada con Serbin+Villarroya+noticiero). una cadena financiera internacional (~55 clips): `Balance of
+> Power`×2 (política doméstica US), clips <5 min, `Open Interest`/`Surveillance`/`Daybreak` (solapan
+> `The Close`), CEO de Taylor Morrison (no cartera/watchlist). `The China Show` entra porque el hilo CXMT
+> estaba abierto desde ayer.
+
+Semana decisiva: **Fed miércoles 29 + Microsoft/Meta el mismo día + Apple/Amazon jueves** (fuente externa). El relato dominante
+cambia de "geopolítica" a "capex de IA con ROI dudoso", con China (CXMT + litografía DUV) como segundo
+frente estructural en semis.
+
+## 1. Semis: dos golpes el mismo día — limpieza de posicionamiento Y China entra en DUV
+
+- **El dato**: SOX -3% (llegó a -5%) el 27-jul; Nvidia -5% (peor contribuyente al S&P), AMD, Micron y
+  SanDisk (-11%) golpeados; **ASML ADR -5,8% por noticia de producción china de litografía DUV** (fuente externa). un canal técnico español (27-jul), en su pieza "CHINA pone en JAQUE el MONOPOLIO occidental de
+  la IA", lo encuadra como "limpieza de posicionamiento más que cambio de narrativa estructural", pero
+  advierte: **vigilar ajustes de valoración si el monopolio de ASML se ve amenazado**. ETF semis -3,54% en
+  la sesión; semis en mercado bajista.
+- **Mecanismo**: el mercado ya no premia capex, premia caja — "más ya no es más" (The Close): beats de
+  beneficios castigados (Alphabet, Intel, Texas Instruments) por planes de capex sin ROI claro. Rotación
+  clara hacia financiero, salud, energía (Dow cerca de máximos; IGV software +3,3% el mismo día que SOX -3%
+  — dispersión récord entre índices quietos y acciones individuales violentas).
+- **Cruce**: convergencia inusual comunicador-técnico (fuente externa) + fuente institucional (fuente externa)
+  sobre el mismo hecho (China DUV) — eleva la confianza. Es el hilo abierto de ayer (China DUV → presión a
+  Micron vía [[semiconductores-de-memoria]]) **confirmado por precio**. Mike Wilson (Morgan Stanley, vía The
+  Close): los ganadores de la IA serán quienes la integran internamente (transporte, software, servicios),
+  no chipmakers/hyperscalers — tesis de segundo orden que conecta con
+  [[plataformas-tecnologicas-y-publicidad-digital]] y con el debate de
+  [[financiacion-estructurada-del-capex-de-ia]] ($750B en deals circulares de Nvidia, incl. $250B backstop a
+  OpenAI, generan dudas de sostenibilidad).
+- **Contra-voz**: Gary Marcus (The Close) — "estamos en burbuja IA, acciones -30% en meses; IPOs de
+  OpenAI/Anthropic a $1T no serían posibles hoy". Posición extrema de un escéptico conocido; se anota, no se
+  adopta.
+
+## 2. CXMT: el debut más extremo del año — euforia retail china y presión estructural a Micron
+
+- **El dato** (The China Show, 27-jul): CXMT (DRAM) abrió a **~495 RMB vs precio de IPO de 86,6 RMB
+  (+470-480%)**, tras colocar ~$9.800M (66.600M RMB, 2ª mayor IPO de la historia onshore). Suscripción
+  retail >200x (7T RMB en órdenes). Precio de IPO a 2,4x valor contable, ~56% de descuento vs SK
+  Hynix/Micron. Cuota DRAM: ~15% de wafer starts globales, 10-11% en bits.
+- **Verificación en caliente (grep al VTT, coste cero)**: el destilado atribuía a Nomura un "PT 116 RMB
+  desde niveles actuales (~50 RMB)" — incoherente. El VTT confirma **PT Nomura 116 RMB**; la lectura real
+  es la inversa: el mercado abrió **~4,3x por encima del precio objetivo de Nomura**. Señal de euforia
+  retail + shock de liquidez (CXMT ~26% del volumen del Star Market en su debut), no de valoración
+  fundamental.
+- **Mecanismo**: CXMT está en blacklist del Pentágono pero **NO en la Entity List de Comercio** → acceso a
+  tecnología US preservado por ahora. Ese "por ahora" es el bisagra: si pasa a Entity List, el suministro se
+  corta; si no, su escala (con descuento del 56% vs pares) presiona márgenes del oligopolio DRAM
+  (Samsung/SK Hynix/Micron).
+- **Cruce**: consenso citado en el programa — visibilidad de crecimiento top-line "al menos 2 años"; posible
+  inflexión de precios DRAM hacia 2028 si la oferta alcanza a la demanda. Cuatro semanas consecutivas de
+  outperformance de China vs EEUU en renta variable; margen de deuda onshore ya desapalancado (3T → 2,6-2,7T
+  RMB, "más saludable").
+- 📌 **predicción** (fuente externa): demanda DRAM da visibilidad de crecimiento a CXMT ≥2 años;
+  inflexión de precios DRAM hacia 2028. Falsable: si los contratos DRAM caen >15% antes de 2027, la tesis de
+  "inflexión 2028" llega rota.
+
+## 3. Petróleo: el premium geopolítico se desinfla con el riesgo físico intacto — la predicción de agosto, al límite
+
+- **El dato**: cierre 27-jul — **Brent ~$87 (-9%), WTI ~$82 (-8,3%)** (fuente externa). un canal técnico español
+  (grabado antes del cierre US) daba WTI ~$83 y **Brent ~$90**. La caída se debe a la pausa de ataques US
+  (desde el viernes noche) + esperanzas de negociación. Pico de marzo: $118. **Gasolina +45% YTD** — el argumento empírico del caso
+  inflacionista de Duke para el +25pb (§6).
+- **La tensión del día**: el precio cae como si el riesgo hubiera pasado, pero los hechos físicos no han
+  cambiado — **tráfico naval por Ormuz prácticamente paralizado** (fuente externa), 17 mercantes desviados
+  tras restablecerse el bloqueo, petrolero explotado por mina naval, hutíes atacando instalaciones de Aramco
+  (fuente externa). Serbin: **7% del comercio mundial pasa por Bab el-Mandeb + 20% por Ormuz =
+  27% en riesgo**; Arabia Saudí no puede sacar su crudo por Ormuz y depende de Bab el-Mandeb, que también
+  está bajo ataque.
+- **Cruce con calibración**: la predicción [[2026-07-23-brent-sostiene-90-agosto]] (prob 0,68, cierre
+  31-ago ≥$90) queda **justo en el borde** — emitida con Brent >$100, hoy cotiza $87-90. Dos fuerzas
+  opuestas: el premium de guerra se evapora en cada pausa, pero la tenaza física (Ormuz + Bab el-Mandeb)
+  sigue operativa. Es exactamente el escenario que el cerebro documentó en [[mineria-industrial-y-energia]]:
+  el riesgo de cola no desaparece porque el titular se calme.
+- 📌 **predicción** (implícita del mercado, vía The Close): el mercado descuenta que la pausa se consolida.
+  Falsable: si el Brent vuelve >$95 antes del 15-ago sin nuevos ataques US, el "premium desinflado" era
+  fragilidad, no paz.
+
+## 4. Munición: el hilo se cierra con fuente primaria — NYT confirma el agotamiento
+
+- **El dato (verificado contra VTT)**: según el New York Times (fuente externa), **las 13 noches
+  consecutivas de ataques y contraataques redujeron aún más unas reservas de interceptores que ya estaban al
+  50% desde abril**, tras disparar el Pentágono **>10.000 interceptores a >4M$ cada uno**; **Trump canceló el
+  viernes noche el ataque masivo por el riesgo de dejar las reservas de Patriot prácticamente a cero**. Serbin añade: producción de un sistema
+  Patriot requiere **mínimo 1,5 años**; los envíos prometidos a Ucrania se retrasan.
+- **Mecanismo**: la pausa de Irán no es (solo) diplomacia — es restricción de inventario. EE.UU. no puede
+  sostener dos frentes de munición a la vez (Irán + Ucrania). Villarroya ofrece la lectura alternativa:
+  pausa como distracción para reorganizar una ofensiva mayor (hay precedentes). Las dos lecturas comparten
+  el mismo hecho base: el arsenal es el cuello de botella.
+- **Cruce**: **hilo abierto cerrado** — la pregunta de ayer ("¿agotamiento real o relato?") queda respondida
+  por fuente primaria (NYT + general C.JCS Dan Caine informando escasez, vía Villarroya — nombre por
+  auto-subs, atribución tentativa). Conecta con la tesis de desglobalización de cadenas de defensa; la
+  capacidad de reposición industrial (1,5 años/Patriot) es la variable lenta que el mercado aún no precia.
+- **Bajas US** (noticiero 28-jul, Pentágono): 624 heridos y 18 fallecidos desde el 28-feb; +142 heridos
+  desde el 7-jul → el "alto el fuego" se estaba deteriorando antes de la pausa.
+
+## 5. Ucrania-Irán: el intento de conexión de las dos guerras — hilo cerrado, riesgo abierto
+
+- **El dato** (Serbin, 27-jul): **Ucrania atacó un carguero iraní en el Mar Caspio** (zona de comunicación
+  Rusia-Irán); Irán promete represalia. Lectura de Serbin: Zelenski busca internacionalizar su guerra —
+  que EE.UU. vea el eje Irán-Rusia-Corea del Norte como un solo conflicto y no abandone Ucrania.
+- **Mecanismo**: si Irán responde al ataque del Caspio, las dos guerras quedan formalmente conectadas y la
+  escasez de munición US (§4) se convierte en variable de asignación entre frentes. Noticiero 28-jul:
+  Zelenski acusa a Corea del Norte e Irán de suministrar drones/misiles/tropas a Rusia y advierte de 30.000
+  soldados norcoreanos adicionales (cifra de Zelenski, fuente única).
+- **Cruce**: **hilo abierto de ayer cerrado** ("¿conecta Ucrania las guerras?") — sí lo intenta, con hecho
+  operativo (Caspio) y relato (eje tripartito). La predicción de un divulgador macro español sobre pagos Ucrania-Rusia (fuente
+  única, de ayer) queda sin corroboración — nadie en la ventana la menciona; sigue marcada como single-source.
+- 📌 **predicción** (Villarroya, 27-jul): Rusia no aceptará ninguna propuesta de la reunión Trump-Zelenski.
+  Falsable esta misma semana. 📌 **predicción** (Serbin): si Irán retalia el ataque del Caspio antes del
+  15-ago, las guerras quedan conectadas formalmente.
+
+## 6. Fed y megacaps: el mercado mira a earnings e ignora (de momento) los tipos
+
+- **El dato**: 10Y en 4,64%, 2Y en 4,32% (The Close, dos sesiones de bajada de yields); un canal técnico español:
+  20Y/30Y >5%, 3M al 3,9%. una cadena financiera internacional cita probabilidad de subida el 29-jul en **~33%**; un canal técnico español: "si
+  no sube, sería la decisión menos unánime desde 2024". Betsy Duke (ex-gobernadora Fed, The Close): hay caso
+  para +25pb — inflación sobre objetivo >5 años, laboral estable, tasa neutral ~4%; posible disidencia.
+- **Earnings**: S&P 500 flat, Nasdaq -0,2%, Dow +0,5%, Russell 2000 +0,6% el 27-jul — rotación, no
+  riesgo-off. **Alphabet: Philip Securities sube a Buy pero recorta el PT de 450 a 425 citando "estrés en el
+  free cash flow"** (verificado contra VTT — el destilado había invertido la dirección del recorte). Es el
+  hilo Alphabet FCF/deuda confirmado por sell-side: el mercado ya penaliza el capex en la valoración aunque
+  premie los ingresos. Meta: 7 velas negras consecutivas, corrección al Fibo 38,2% (fuente externa); riesgo de FCF negativo por capex (fuente externa). Microsoft: plano vs S&P desde 2020, soporte
+  clave 341-343 (~$390 actual). Hiperescaladores en debilidad relativa extrema vs Nasdaq 100 — niveles que
+  históricamente preceden rebote (fuente externa).
+- **Estructura**: anomalía histórica — Nasdaq 2,2x más volátil que Russell 2000 en el último mes (invertido
+  vs lo habitual); compras netas minoristas en **mínimos desde 2020** con volumen total en percentil 98
+  (fuente externa). **Esto matiza el "colchón del bid retail" de ayer (Risearch)**: el retail sigue operando
+  mucho pero ya no compra neto — el colchón se está agotando por dentro, coherente con la advertencia de
+  fuente única de ayer. S&P 500: soporte crítico 7.400 (dealers cortos de puts; ruptura acelera), gamma
+  negativa <7.450, positiva >7.500.
+- **Cruce**: [[renta-fija-y-tipos]] — mercado ignorando tipos largos >5% mientras mira earnings; esa
+  desconexión es frágil si la Fed disiente o si MSFT/Meta decepcionan en capex mañana.
+
+## Lo que esto le dice al cerebro de Carlos (cruces, no órdenes)
+
+- **El mercado ya castiga el capex sin ROI**: Alphabet (PT recortado por estrés FCF), Meta (FCF en riesgo),
+  Intel/TXN castigados pese a beats. Es la tesis de [[financiacion-estructurada-del-capex-de-ia]] moviéndose
+  de narrativa a precio. Las posiciones en megacaps de IA cotizan mañana (MSFT/Meta) y pasado (Apple/Amazon)
+  su examen trimestral sobre exactamente esto.
+- **Micron tiene ahora dos presiones convergentes**: la corrección de semis (-11% SanDisk, SOX -3%) y la
+  entrada estructural de CXMT con descuento del 56% y escala subvencionada. La bisagra es la Entity List —
+  si CXMT entra, alivio; si no, presión de márgenes DRAM hacia 2028.
+- **El colchón retail se agota por dentro**: compras netas mínimos desde 2020 + anomalía de volatilidad
+  Nasdaq/Russell = el tramo especulativo del mercado se debilita mientras los índices aguantan. Vigilar el
+  soporte 7.400 del S&P (gamma) como tripwire, no como orden.
+- **Brent al límite de la predicción de agosto**: el cerebro tiene prob 0,68 a ≥$90 el 31-ago y hoy cotiza
+  $87-90 con el riesgo físico intacto. Ni euforia ni pánico: la foto dice que el mercado paga la paz antes
+  de que exista.
+- **Encuadre**: todo lo anterior son comunicadores y mesas de TV — contexto, no gatillo. Las 5 llamadas
+  falsables marcadas con 📌 quedan **pendientes de fichar por `cerebro-veredicto-semanal` el domingo** para
+  que el Brier decida su peso (límite ético 6: el ruido diario no dispara operativa contra el horizonte de
+  objetivos).
+
+## Preguntas abiertas
+
+1. **Fed 29-jul**: ¿sube (fuente externa) o "decisión menos unánime desde 2024" (fuente externa)? ¿Disidencia
+   de Duke materializada? → resolución mañana.
+2. **MSFT/Meta 29-jul**: ¿confirma el mercado el castigo al capex sin ROI, o los números de Azure/Copilot y
+   publicidad desactivan la tesis? → resolución mañana post-cierre.
+3. **Apple/Amazon 30-jul**: ¿Apple (mejor mes relativo vs Nasdaq desde 2006) confirma que "generar caja y
+   recomprar" es lo que el mercado premia en 2026?
+4. **Reunión Trump-Zelenski**: ¿predicción de Villarroya (Rusia rechaza todo) correcta? Y Trump-Netanyahu:
+   ¿apoyo incondicional (Villarroya) o relación tensa con epítetos (Serbin)? — las dos fuentes discrepan en
+   el tono; hechos esta semana.
+5. **Brent**: ¿consolida <$90 (predicción en riesgo) o el riesgo físico de Ormuz/Bab el-Mandeb lo devuelve
+   >$95? Vigilancia diaria hasta el 31-ago.
+6. **CXMT**: ¿mantiene el Star Market la euforia tras los 5 días sin límite de fluctuación, o el "shock de
+   liquidez" (26% del volumen) drena al resto del índice? ¿Entra en la Entity List?
+7. **S&P 7.400**: con retail neto en mínimos 2020 y gamma negativa <7.450, ¿aguanta el soporte de dealers en
+   una semana de Fed + 4 megacaps?
+
+---
+*Enlaces: [[pulso-video-2026-07-27]] (ayer) · [[pulso-2026-07-28]] (fuente externa) · un canal técnico español metodo · [[negociostv-metodo]] ·
+una cadena financiera internacional tv metodo · [[semiconductores-de-memoria]] · [[financiacion-estructurada-del-capex-de-ia]] ·
+[[mineria-industrial-y-energia]] · [[renta-fija-y-tipos]] · [[registro-de-predicciones]]*

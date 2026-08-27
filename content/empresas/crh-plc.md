@@ -1,0 +1,157 @@
+---
+title: "CRH plc (CRH) — Análisis Fundamental"
+tipo: empresa
+tags: [empresa, analisis-fundamental, materiales]
+fecha: 2026-08-27
+agente: carlos-barez
+ticker: CRH
+moneda: USD
+precio_referencia: 97.05
+fecha_precio: 2026-08-27
+valor_estimado: ~115 (rango 100-130 USD/accion)
+gatillo_entrada: <85 USD (refuerzo; acumulacion por tramos ya razonable en 97)
+veredicto: COMPRAR
+revisar_el: 2026-11-24
+fuentes: "[\"https://stockanalysis.com/stocks/CRH/\", \"https://stockanalysis.com/stocks/CRH/financials/\", \"https://stockanalysis.com/stocks/CRH/statistics/\", \"https://www.crh.com/wp-content/uploads/2025/09/crh-investor-day-2025_main-presentation.pdf\", \"https://www.crh.com/media/press-releases/2026/crh-to-acquire-arcosa-leading-u-s-provider-of-aggregates-and-critical-infrastructure-products-for-8-5b/\", \"https://www.crh.com/wp-content/uploads/2026/02/Full-Year-Results-Announcement-2025.pdf\", \"https://www.crh.com/media/press-releases/2026/crh-reports-second-quarter-2026-results/\"]"
+---
+
+# CRH plc (CRH) — Análisis Fundamental
+
+## 1. Resumen ejecutivo
+
+CRH plc es el mayor proveedor de materiales de construcción del mundo (cemento, áridos, asfalto, hormigón, productos de carretera y agua), con sede en Dublín y cotización primaria en el NYSE desde 2023 (antes Londres/Dublín). Es el actor #1 en áridos y cemento en Norteamérica y la "infraestructura play" número 1 de la región.
+
+Se trata de un **compounder de capital de alta calidad** con moat estructural (escala irrepetible, cartera conectada y posiciones locales de tipo monopolio en mercados geográficos fragmentados). La tesis se apoya en tres pilares: (i) viento de cola masivo de infraestructura pública en EE.UU. (IIJA, ~$1T+ hasta 2033), (ii) reindustrialización/onshoring y demanda de centros de datos/red eléctrica, y (iii) capacidad de M&A disciplinada (pipeline de adquisiciones y $40.000 M de capacidad financiera 2026-2030).
+
+Cotiza a **~17x PER** (15,9x forward), **EV/EBITDA 10,5x**, con ROE 15,8%, márgenes en expansión y balance flexible (Deuda/EBITDA 2,35x, manteniendo grado de inversión). Tras caer ~14% en 52 semanas (actual $97 vs 200-MM de $112), el valoración es razonable-atractiva para un líder con estos vientos. **Veredicto: COMPRAR, acumulando por tramos; reforzar por debajo de $85.**
+
+## 2. Descripción del negocio
+
+CRH opera ~4.000 instalaciones en ~28 países con ~83.000 empleados y factura ~$38.600 M (TTM). Su modelo es **aggregates-led, connected portfolio**: ~95% de los ingresos están conectados a los áridos (la materia prima difícil de transportar >30-50 km, lo que crea franquicias locales).
+
+Tres plataformas de crecimiento alineadas con megatendencias de infraestructura:
+- **Americas Materials Solutions** (líder en áridos, cemento, asfalto, carreteras): ~$17.000 M (FY25).
+- **Americas Building Solutions** (productos de construcción regionales): ~$7.100 M.
+- **International Solutions** (Europa, Asia, América Latina): ~$13.300 M.
+
+Liderazgo: #1 en áridos, #1 en cemento, #1 en carreteras en Norteamérica. CEO: **Jim Mintern** (20+ años en CRH, ex-CFO; lideró el traslado de cotización a EE.UU./NYSE en 2023). Cultura de "CRH Winning Way": equipos empoderados locales con mentalidad de propietario.
+
+## 3. Industria y moat competitivo
+
+- **Moat: ESCALA + PROXIMIDAD + CONEXIÓN.** La naturaleza pesada y local de los áridos crea barreras de entrada casi infranqueables: permisos ambientales, reservas de cantera y logística de corta distancia son irreplicables. CRH suma >265 Mt de producción anualizada de áridos tras Arcosa.
+- **Cartera conectada:** integración vertical áridos→cemento→asfalto→carreteras→agua multiplica márgenes, caja y retornos.
+- **Marcas locales (200+ en Norteamérica, ~90 internacional):** relaciones locales que alimentan el "pipeline de adquisiciones" — CRH es el "acquirer of choice".
+- **Viento de cola:** IIJA (~$1,1T; ~60% de la financiación de autopistas aún por desplegar), presupuestos estatales de transporte +6% (2026), envejecimiento de infraestructura (1/3 con >50 años), electrificación/red/grid + centros de datos, onshoring manufacturero.
+- **Riesgo de ciclo:** construcción y materiales son cíclicos (beta 1,20); exposición a tipos, vivienda nueva (subyacente débil) y ciclo político de infraestructura.
+
+## 4. Análisis financiero (3-5 años)
+
+Cifras en millones USD (ejercicio ene-dic; TTM a jun-26). Fuente: stockanalysis.com.
+
+**Ingresos y crecimiento:**
+| Año | Ingresos | Crecimiento |
+|---|---|---|
+| TTM (jun-26) | 38.632 | +6,29% |
+| FY2025 | 37.447 | +5,27% |
+| FY2024 | 35.572 | +1,78% |
+| FY2023 | 34.949 | +6,80% |
+| FY2022 | 32.723 | +12,04% |
+| FY2021 | 29.206 | +12,82% |
+
+**Márgenes (en expansión sostenida):**
+- Margen bruto: 33,05% (2022) → 36,25% (TTM).
+- Margen operativo: 11,70% (2022) → 14,13% (TTM).
+- Margen neto: 9,87% (TTM); EBITDA margen 20,01%.
+
+**Rentabilidad y resultados:**
+- Beneficio neto: $3.814 M (TTM), $3.730 M (FY25), $3.458 M (FY24), $3.154 M (FY23).
+- EPS: $5,67 (TTM), $5,51 (FY25), $5,02 (FY24), $4,33 (FY23). Crecimiento EPS TTM +18,7%.
+- **ROE 15,81%**, ROIC 9,77% (≈ WACC 9,08%), ROCE 11,23%, ROA 6,06%.
+- EBITDA TTM $7.730 M; EBIT $5.460 M.
+
+**Generación de caja y balance (flexible):**
+- OCF: $5.419 M (TTM); Capex: -$2.653 M; **FCF: $2.766 M** (TTM), $2.912 M (FY25).
+- Caja $3.030 M; Deuda total $19.813 M; **Net cash/deuda: -$16.788 M (-$25,23/acción)**.
+- Deuda/Equity 0,78; **Deuda/EBITDA 2,35x**; Cobertura de intereses 6,40x; Ratio corriente 1,58; Patrimonio neto $25.540 M (BV/acción $36,09). Calificación de grado de inversión mantenida (pro-forma Arcosa Net Debt/EBITDA ~2,4x).
+
+**Retorno al accionista:** Dividendo $1,56/acción (yield 1,61%, payout 23,5%, crecimiento +18% interanual, política de crecimiento de dividendo a largo plazo); yield por recompras 1,71%; **shareholder yield total 3,32%**. En 2025 recompró ~11,7 M acciones ($1.200 M) y subió el dividendo ~6%.
+
+## 5. Valoración
+
+A precio $97,05 (cierre 26-ago-26; premkt 27-ago $97,68):
+- **PER 17,11x** (trailing); **Forward PER 15,87x**; **PEG 1,33**.
+- **P/S 1,67x**; **P/B 2,69x**; P/FCF 23,34x; P/OCF 11,91x.
+- **EV/EBITDA 10,52x**; EV/Sales 2,11x; EV/EBIT 14,91x; EV/FCF 29,41x.
+- Market cap $64.570 M; EV $81.350 M.
+
+**Contexto:** múltiplos históricos de CRH han oscilado entre ~7x (2022, pánico) y ~22x (2025); el nivel actual (~17x) está en el centro-bajo del rango. Los pares de materiales de construcción (Vulcan, Martin Marietta, Heidelberg) suelen cotizar a EV/EBITDA 11-14x; CRH a 10,5x ofrece descuento pese a liderazgo y mayor crecimiento.
+
+**Valor intrínseco estimado:** ~$115/acción (rango $100-$130). Racional: EPS guía FY26 $5,60-$6,05 (mid $5,80); compounder de calidad con ROIC≈WACC y crecimiento EPS ~10% merece ~18-20x. DCF simplista (crecimiento 8-10% 5 años, descuento 9%, terminal 3%) apunta a ~$120-130.
+
+**Margin of safety (explícito):** el negocio es cíclico y tiene deuda neta, por lo que aplico descuento de incertidumbre. A $97 el descuento sobre valor intrínseco es modesto (~15%); no es "barato profundo". **Gatillo de entrada con margin of safety: <$85** (≈25% bajo intrínseco, ~15% bajo precio actual). Acumulación por tramos ya razonable en niveles actuales para horizonte 3-5 años. Objetivo de consenso de analistas: $138,32 (+42,5%), "Strong Buy" (22 analistas).
+
+## 6. Equipo directivo e incentivos
+
+- **Jim Mintern (CEO):** 20+ años en CRH, ex-CFO; lideró la migración a NYSE (2023) y el "Growth Algorithm". Incentivos alineados con creación de valor a largo plazo.
+- **Política de capital disciplinada:** ~70% de los $40.000 M de capacidad financiera 2026-2030 a M&A y crecimiento orgánico de alto retorno; el resto a dividendo creciente y recompras. Historial probado de integrar adquisiciones a escala (Eco Material 2025, Arcosa 2026).
+- **Gobierno:** Consejo con experiencia en M&A, capital allocation y financiero (p.ej. Richie Boucher, ex-CEO Bank of Ireland). Institucionales poseen 87,8%; insiders 0,13% (bajo, típico de large-cap).
+- **Riesgo de incentivos:** ejecución de integración masiva (Arcosa $8,5 Bn) y posible sobrepago en M&A en mercado caliente.
+
+## 7. Riesgos (3-6)
+
+1. **Ciclicidad y macro:** construcción/materiales son cíclicos (beta 1,20). Recesión o recorte de gasto público en infraestructura golpea ingresos y márgenes.
+2. **Ejecución de Arcosa:** adquisición $8,5 Bn (11,5x 2026E EBITDA, cierra Q1-2027). Riesgo de integración, sinergias ($175 M año 3) no realizadas y apalancamiento temporal.
+3. **Deuda neta y tipos:** net debt -$16,8 Bn; Deuda/EBITDA 2,35x. Subida de tipos encarece financiación y presiona valoración.
+4. **Exposición geográfica/regulatoria:** pesos en EE.UU. (infraestructura política sensible) y Europa; cambios en permisos ambientales/canteras.
+5. **Vivienda nueva débil:** el segmento residencial new-build se mantiene subyacente deprimido (mitigado por repair/remodel e infraestructura).
+6. **Integración cultural de M&A continuo:** ritmo agresivo de adquisiciones (38 en 2025, 17 YTD 2026) puede diluir foco operativo.
+
+## 8. Catalizadores y noticias recientes (2024-2025/26)
+
+- **Adquisición Arcosa ($8,5 Bn, jun-2026):** refuerza liderazgo en áridos EE.UU. (>265 Mt), expone a MSAs de rápido crecimiento y al mercado de estructuras para red eléctrica/centros de datos. Acreditiva en 12 meses; cierra Q1-2027.
+- **Eco Material Technologies ($2,1 Bn, 2025):** +60% capacidad de cemento (SCMs) en EE.UU.; déficit estructural de cemento doméstico.
+- **Resultados FY2025:** ingresos $37,4 Bn (+5%), beneficio neto $3,8 Bn (+8%), Adj. EBITDA +11%; inclusión en el **S&P 500**; $4,1 Bn en 38 adquisiciones.
+- **Q2 2026:** ingresos $10,8 Bn (+6%), beneficio neto $1,5 Bn (+13%), Adj. EBITDA $2,6 Bn (+7%), margen EBITDA 24,4%. Guía FY26 reafirmada: net income $3,9-4,1 Bn, Adj. EBITDA $8,1-8,5 Bn, EPS diluido $5,60-$6,05.
+- **Inversor Day 2025:** objetivos financieros 2030 elevados; posición #1 infraestructura Norteamérica.
+- **Cancelación de acciones preferentes (jun-2026)** y programa de recompras extendido.
+- **Reciente:** adquisición Pisgah Stone Products (Utah, ago-2026); cobertura iniciada con Buy en DA Davidson ($137 target).
+
+## 9. Tesis bull / bear
+
+**Bull:**
+- Líder #1 irrepetible en áridos/cemento/carreteras Norteamérica con moat de escala y proximidad.
+- Viento de cola estructural (IIJA $1T+, grid/centros de datos, onshoring) durante década.
+- Compounder probado: crecimiento ingresos ~6%, EPS ~10-14%, márgenes en expansión, ROE 15,8%.
+- Asignación de capital disciplinada + $40 Bn de capacidad 2026-2030 (M&A + dividendo + recompras).
+- Valoración razonable (17x PER, 10,5x EV/EBITDA) tras corrección del -14% en 52 semanas; upside de consenso +42%.
+
+**Bear:**
+- Negocio cíclico y sensible a macro/tipos; beta 1,20 amplifica caídas en recesión.
+- Deuda neta elevada (-$16,8 Bn); Arcosa añade apalancamiento temporal.
+- Múltiplos ya no son "baratos" (no deep value); gran parte del crecimiento ya está en precio.
+- Riesgo de ejecución/sobrepago en M&A agresivo e integración de Arcosa.
+- Exposición a políticas de infraestructura que pueden cambiar con ciclos electorales.
+
+## 10. Fuentes (URLs)
+
+- https://stockanalysis.com/stocks/CRH/ (overview, precio, noticias)
+- https://stockanalysis.com/stocks/CRH/financials/ (ingresos, márgenes, FCF, deuda)
+- https://stockanalysis.com/stocks/CRH/statistics/ (múltiplos, ratios, analistas)
+- https://www.crh.com/wp-content/uploads/2025/09/crh-investor-day-2025_main-presentation.pdf (estrategia, moat, 2030)
+- https://www.crh.com/media/press-releases/2026/crh-to-acquire-arcosa-leading-u-s-provider-of-aggregates-and-critical-infrastructure-products-for-8-5b/ (Arcosa)
+- https://www.crh.com/wp-content/uploads/2026/02/Full-Year-Results-Announcement-2025.pdf (FY2025)
+- https://www.crh.com/media/press-releases/2026/crh-reports-second-quarter-2026-results/ (Q2 2026)
+- https://www.crh.com/wp-content/uploads/2026/03/Preliminary-Proxy-Statement.pdf (gobierno, capital allocation)
+
+## 11. Veredicto de Carlos (con condiciones)
+
+**COMPRAR** (acumulando por tramos; reforzar por debajo de $85 para amplio margin of safety). CRH es un negocio de calidad con moat estructural difícil de replicar, exposición directa a la mayor oleada de inversión en infraestructura de EE.UU. en generaciones, y un historial probado de asignación de capital y generación de caja.
+
+Condiciones de disciplina:
+1. **No sobreponderar:** es cíclico (beta 1,20) y con deuda neta; mantener tamaño de posición acorde al riesgo de cartera.
+2. **Entrada escalonada:** a $97 ya es razonable para horizonte 3-5 años; el tramo de refuerzo <$85 mejora el margin of safety.
+3. **Vigilar la integración de Arcosa** (cierre Q1-2027) y la evolución de Deuda/EBITDA (objetivo mantener grado de inversión, ≤~2,5-3x).
+4. **Revisar si** el viento de cola de infraestructura pública se revierte materialmente o si el ciclo de construcción entra en recesión profunda.
+5. **Horizonte:** largo plazo (compounder); no operar por momentum — aguantar volatilidad cíclica.
+
+<!-- META ticker=CRH veredicto=COMPRAR -->

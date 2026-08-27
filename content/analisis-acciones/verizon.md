@@ -1,0 +1,338 @@
+---
+title: "Verizon Communications Inc. (VZ)"
+tipo: analisis-accion
+tags: [empresa, telecomunicaciones, eeuu]
+fecha: 2026-08-15
+fuentes: []
+---
+
+<!-- Migrado desde cache ponytail: VZ.md · generado por agente autonome (sesion ponytail 2026-08-15) -->
+
+# Verizon Communications Inc. (VZ)
+
+> Fecha de corte: 2026-08-15 · Moneda: USD
+> Sector: Servicios de comunicación (Communication Services) · País/Región: Estados Unidos · Bolsa: NYSE y Nasdaq (ticker VZ)
+
+---
+
+## 1. Ficha rápida
+
+| Campo | Valor |
+|---|---|
+| Ticker / Bolsa | VZ — NYSE y Nasdaq Global Select Market |
+| Sector / Industria | Servicios de comunicación / Telecomunicaciones integradas |
+| País / Región | Estados Unidos (consumidor); negocio empresarial mundial |
+| Moneda de reporte | USD (dólar estadounidense) |
+| Capitalización bursátil | ~$201.400 M (intraday, 14 ago 2026, Yahoo Finance); $195.400 M al 10 ago 2026 (Yahoo Finance Statistics) |
+| Precio | $48,48 (cierre 14 ago 2026, Yahoo Finance / StockAnalysis.com) |
+| Rango 52 semanas | $38,39 – $51,68 (al 14 ago 2026, Yahoo Finance) |
+| PER | 12,62 (TTM, al 14 ago 2026, Yahoo Finance); 12,25 (trailing, al 10 ago 2026) |
+| PER forward | 9,38–9,56 (al 14 ago 2026, Yahoo Finance / StockAnalysis) |
+| Rendimiento por dividendo | 5,87 % (Yahoo Finance); 5,84 % (StockAnalysis) — dividendo anual $2,83 por acción |
+| EV/EBITDA | 7,96 (al 10 ago 2026, Yahoo Finance) |
+| CEO | Dan Schulman (nombrado 6 oct 2025, ex-CEO de PayPal) |
+| Presidente del consejo | Mark Bertolini |
+| CFO | Anthony (Tony) Skiadas |
+| Sede | 1095 Avenue of the Americas, Nueva York, NY 10036, EE.UU. |
+| Empleados | 89.900 (2025, Wikipedia); 97.600 a tiempo completo (Yahoo Finance) — cifras distintas por metodología |
+| Ingresos 2025 | $138.191 M (Reuters/LSEG; StockAnalysis $138.191 M) |
+| Utilidad neta 2025 | $17.174 M (Reuters/LSEG; StockAnalysis $17.174 M) |
+
+---
+
+## 2. Descripción de la empresa
+
+Verizon Communications es la mayor operadora de telecomunicaciones móviles de Estados Unidos y la segunda mayor empresa de telecomunicaciones del mundo por ingresos. Ofrece servicios de comunicaciones, tecnología, información y streaming a consumidores, empresas y entidades gubernamentales. Opera a través de dos segmentos: **Verizon Consumer Group (Consumer)** y **Verizon Business Group (Business)**. El negocio de consumo se concentra en EE.UU.; el negocio empresarial atiende clientes en todo el mundo, incluida buena parte de la lista Fortune 500.
+
+### Historia breve
+
+- **1983**: nace como Bell Atlantic, una de las siete "Baby Bells" (Regional Bell Operating Companies) creadas por la disolución del sistema Bell de AT&T, con sede en Filadelfia.
+- **1997**: fusión con NYNEX (Bell Atlantic como sobreviviente); la sede se traslada a Nueva York.
+- **2000**: adquisición de GTE por ~$64.700 M; Bell Atlantic pasa a llamarse Verizon (del latín *veritas* — verdad — y *horizon* — horizonte). En paralelo, crea Verizon Wireless como empresa conjunta con Vodafone.
+- **2013-2014**: compra el 45 % de Vodafone en Verizon Wireless por $130.000 M, quedándose con el 100 % de la división móvil (feb 2014).
+- **2015-2017**: adquiere AOL (2015) y Yahoo! (2017), fusionándolos en la división de medios Oath/Verizon Media. Vende esa unidad de medios a Apollo Global Management (2021), conservando ~10 % de la nueva Yahoo.
+- **2018-2019**: Hans Vestberg se convierte en CEO; despliega la estrategia 5G, incluida la compra de espectro C-Band (subasta 2021, junto con AT&T, por decenas de miles de millones).
+- **6 oct 2025**: el consejo nombra CEO a Dan Schulman (ex-CEO de PayPal) con efecto inmediato; Hans Vestberg queda como asesor especial hasta el 4 oct 2026. Mark Bertolini pasa a ser presidente del consejo.
+- **2026**: cierra la adquisición de Frontier Communications por $20.000 M (cerrada en enero de 2026, según Morningstar), que añade redes de fibra en ~15 millones de localizaciones, incluidos ~9 millones con fibra.
+
+### Qué vende y a quién
+
+Verizon vende conectividad móvil (servicio 5G/4G LTE), internet fijo (fibra Fios y acceso fijo inalámbrico FWA), televisión y telefonía fija, planes pospago y prepago (marcas Verizon, Visible, TracFone, SafeLink, Straight Talk), además de servicios empresariales: redes corporativas, [[ciberseguridad|ciberseguridad]], IoT, soluciones de gestión de red, acceso mayorista y servicios para el sector público. Sus clientes van desde consumidores individuales y hogares hasta pequeñas empresas, grandes corporaciones, operadores mayoristas y gobiernos.
+
+---
+
+## 3. Modelo de negocio
+
+### 3.1 Segmentos de ingresos (ejercicio 2025, StockAnalysis/Fiscal.ai)
+
+| Segmento | Ingresos FY2025 | % del total |
+|---|---|---|
+| Consumer | $106.807 M | ~77 % |
+| Business | $29.069 M | ~21 % |
+| Corporativo y otros | $2.642 M | ~2 % |
+| Eliminaciones | –$327 M | – |
+| **Total** | **$138.191 M** | **100 %** |
+
+*(Porcentajes redondeados, cálculo del agente sobre datos de StockAnalysis.)*
+
+### 3.2 Cómo gana dinero
+
+- **Servicios móviles**: el núcleo del negocio. Morningstar estima que los servicios inalámbricos representan ~70 % de los ingresos de servicio totales y casi la totalidad del beneficio operativo. Cerca de 94 millones de clientes de teléfono pospago y ~20 millones de prepago (datos Morningstar a ago 2026, vía Yahoo Finance). Total de conexiones minoristas inalámbricas: ~147 millones (Argus, a inicios de 2026); ~146,8 millones de suscriptores totales al 31 mar 2026 (Wikipedia).
+- **Internet fijo y fibra**: Fios en el noreste y Atlántico Medio de EE.UU. (~20 millones de localizaciones con fibra) más las redes de Frontier (15 millones de localizaciones, ~9 millones con fibra). Al cierre del 2T 2026, ~17,1 millones de conexiones combinadas de FWA y fibra.
+- **Venta de equipos**: smartphones, tablets y dispositivos conectados. Este flujo cayó ~20 % interanual en el 2T 2026 (>$1.200 M) por la menor frecuencia de actualización de terminales y la decisión de reducir subsidios.
+- **Pricing**: planes de tarifa plana ilimitada (lanzados planes "Simplicity" en junio de 2026, con precios transparentes e incluido el 5G más rápido y datos de hotspot), planes convergentes "Verizon One" (wireless + banda ancha) y un programa de fidelidad. Modelo post-pago con ingresos mensuales recurrentes de alta predictibilidad.
+- **Canales**: tiendas propias, canal digital/omnicanal, agentes indirectos, revendedores de soluciones empresariales y retailers nacionales (Yahoo Finance overview).
+
+### 3.3 Ventajas competitivas / foso
+
+- **Red y espectro**: licencias de espectro de banda baja, media (incluido C-Band) y milimétrica (mmWave) que cubren casi toda la población estadounidense (Argus). Primera red 5G del mundo (bajo Vestberg) y red 4G LTE madura y extensa.
+- **Base de clientes de alto valor**: mayor operador inalámbrico de EE.UU. por número de suscriptores, con base pospago de ~94 millones de líneas (Morningstar).
+- **Fibra propia**: Fios + Frontier dan una red de fibra residencial/empresarial de alcance nacional, activo que además se monetiza para infraestructura de IA (acuerdos de fibra oscura con hyperscalers, ver sección 7).
+- **Marca y distribución**: marca top-of-mind en EE.UU., red de tiendas propia y presencia omnicanal.
+- **Flujo de caja estable y dividendo**: negocio intensivo en capital pero con demanda inelástica; genera FCF recurrente de ~$20.000 M/año.
+
+---
+
+## 4. Panorama de mercado y competencia
+
+### 4.1 Tamaño y cuota
+
+El mercado inalámbrico estadounidense está prácticamente maduro y saturado: tres grandes operadores nacionales (Verizon, AT&T, T-Mobile) más operadores regionales y de nicho, y cableoperadores (Comcast, Charter) compitiendo en banda ancha fija. El crecimiento proviene sobre todo de la consolidación, el aumento de ARPU, la convergencia fijo-móvil y, en 2026, de nuevas vías como la infraestructura para IA (conectividad de fibra para centros de datos) y el acceso fijo inalámbrico.
+
+Cuota aproximada (estimación cualitativa del agente, no cifra oficial): el mercado inalámbrico pospago de EE.UU. está repartido en términos generales en tercios entre T-Mobile, Verizon y AT&T. Verizon es descrito por Morningstar como el mayor carrier inalámbrico de EE.UU. por suscriptores.
+
+### 4.2 Competidores principales (capitalización al 14 ago 2026, Yahoo Finance)
+
+| Empresa | Ticker | Mkt Cap | Precio | Notas |
+|---|---|---|---|---|
+| Verizon | VZ | ~$201.400 M | $48,48 | Líder por suscriptores; fuerte en red/fibra |
+| T-Mobile US | TMUS | ~$195.900 M | $182,61 | Competidor más agresivo en precio y crecimiento de pospago; red 5G fusionada con Sprint |
+| AT&T | T | ~$170.600 M | $24,89 | Operador integrado con fibra, wireless y medios (Warner Bros. Discovery desinvertido); está girando hacia fibra + wireless |
+
+Otros actores: Comcast (CMCSA, ~$92.900 M) y Charter (CHTR, ~$20.800 M) en banda ancha; EchoStar/DISH (SATS, ~$30.100 M) en servicios satelitales/prepago; y la amenaza emergente de SpaceX/Starlink en conectividad directa a dispositivo (ver sección 7 y 8).
+
+### 4.3 Posición relativa
+
+- **Inalámbrico**: Verizon mantiene el liderazgo en suscriptores totales, pero T-Mobile ha sido el que más cuota ha ganado en pospago en los últimos años gracias a tarifas agresivas y a la fusión con Sprint. La gestión de Schulman busca recuperar cuota con planes simplificados y convergencia.
+- **Banda ancha fija**: Verizon compite con Comcast, Charter, AT&T y T-Mobile (FWA). Con la compra de Frontier, expande fibra a ~15 millones de localizaciones adicionales.
+- **Empresarial**: compite con AT&T, Lumen, Comcast y los grandes hyperscalers en servicios de red y ahora en infraestructura de conectividad para IA.
+
+---
+
+## 5. Análisis financiero
+
+*Fuentes: Reuters (LSEG), StockAnalysis.com (S&P Global Market Intelligence / Fiscal.ai), comunicados trimestrales de Verizon. Ejercicio fiscal = año natural (ene-dic).*
+
+### 5.1 Ingresos y márgenes (últimos 5 ejercicios)
+
+| Métrica | FY2021 | FY2022 | FY2023 | FY2024 | FY2025 | TTM jun 2026 |
+|---|---|---|---|---|---|---|
+| Ingresos | $133.613 M | $136.835 M | $133.974 M | $134.788 M | $138.191 M | $138.895 M |
+| Crec. ingresos | 4,2 % | 2,4 % | –2,1 % | 0,6 % | 2,5 % | 1,4 % |
+| Utilidad bruta | $77.312 M | $77.702 M | $79.087 M | $80.880 M | $81.631 M | $82.577 M |
+| Ingreso operativo | $36.665 M | $30.771 M | $30.186 M | $30.899 M | $31.648 M | $32.045 M |
+| Utilidad neta | $22.065 M | $21.256 M | $11.614 M | $17.506 M | $17.174 M | $16.172 M |
+| EPS (básico/diluido) | $5,32 | $5,06 | $2,75 | $4,14 | $4,06 | $3,84 |
+| Margen bruto | 57,9 % | 56,8 % | 59,0 % | 60,0 % | 59,1 % | 59,5 % |
+| Margen operativo | 27,4 % | 22,5 % | 22,5 % | 22,9 % | 22,9 % | 23,1 % |
+| Margen neto | 16,5 % | 15,5 % | 8,7 % | 13,0 % | 12,4 % | 11,6 % |
+
+Notas:
+- El desplome del margen neto en 2023 responde a cargos excepcionales (incluido deterioro de activos, en parte por la reestructuración de su negocio de medios y costes del espectro C-Band).
+- La utilidad neta de 2025 cae levemente frente a 2024 por mayores intereses y cargos de reestructuración.
+
+### Último trimestre: 2T 2026 (reportado 24 jul 2026, comunicado de prensa de Verizon)
+
+| Métrica | 2T 2026 | 2T 2025 | Var. |
+|---|---|---|---|
+| Ingresos operativos totales | $34.300 M | ~$34.500 M | –0,7 % |
+| Ingresos de servicio movilidad+broadband | ~$23.400 M | — | +2,8 % |
+| Utilidad neta | $3.900 M | ~$5.000 M | –22,9 % |
+| EPS (GAAP) | $0,92 | $1,18 | –22,0 % |
+| EPS ajustado (no GAAP) | $1,30 | $1,22 | +6,6 % |
+| EBITDA ajustado | $13.700 M | — | +7,2 % |
+| Margen EBITDA ajustado | 40,1 % | 37,1 % | +3,0 p.p. |
+
+- La caída de la utilidad neta se explica por $1.800 M de partidas especiales antes de impuestos: pérdida de $746 M por clasificar el negocio internacional de conectividad por cable y servicios de red gestionada como mantenido para la venta; $397 M de indemnizaciones; $258 M de racionalización de activos.
+- La caída de ingresos totales se debe a la venta de equipos (–20 %, >$1.200 M): los clientes conservan los terminales más tiempo y la empresa redujo subsidios deliberadamente.
+- Altas netas de telefonía pospago: 184.000 (mejor 2T en consumo en 5 años; consenso FactSet esperaba 103.900). Altas netas prepago core: 73.000 (8º trimestre consecutivo positivo). Altas netas de banda ancha: 348.000 (+12,3 % interanual): 193.000 FWA + 155.000 fibra.
+
+### 5.2 Balance (deuda, efectivo, solvencia)
+
+| Métrica | Valor | Fuente/fecha |
+|---|---|---|
+| Activos totales | $404.258 M (2025) | Reuters/LSEG |
+| Pasivos totales | $299.798 M (2025) | Reuters/LSEG |
+| Patrimonio total | ~$105.700 M (2025) | Wikipedia (activos – pasivos); Yahoo: equity $105.700 M |
+| Deuda no garantizada total | $136.500 M (fin 2T 2026) | Comunicado Verizon |
+| Deuda no garantizada neta | $128.700 M (fin 2T 2026) | Comunicado Verizon |
+| Deuda total (S&P Global, incl. arrendamientos) | $193.646 M (30 jun 2026) | StockAnalysis |
+| Caja e inversiones | $2.349 M (30 jun 2026) | StockAnalysis |
+| Deuda neta (S&P Global) | –$191.297 M (30 jun 2026) | StockAnalysis |
+| Deuda total / patrimonio | 184,08 % (trimestre más reciente) | Yahoo Finance |
+| Deuda neta / EBITDA ajustado | 2,5x (fin 2T 2026) | Comunicado Verizon |
+| Deuda no garantizada / utilidad neta (LTM) | 8,2x (fin 2T 2026) | Comunicado Verizon |
+
+Nota de interpretación: existen dos mediciones de deuda muy distintas. La "deuda no garantizada" comunicada por la compañía ($136.500 M) excluye arrendamientos financieros y otras obligaciones; la "deuda total" de S&P Global ($193.646 M) los incluye. **La deuda alta es una característica estructural del negocio** (financiación de espectro y capex de red), y la compañía la ha venido reduciendo de forma gradual (de $142.500 M a fin de 1T 2026 a $136.500 M a fin de 2T 2026 en deuda no garantizada).
+
+### 5.3 Cash flow y rentabilidad
+
+| Métrica | FY2023 | FY2024 | FY2025 | TTM jun 2026 |
+|---|---|---|---|---|
+| Cash flow operativo | $37.475 M | $36.912 M | $37.137 M | $38.799 M |
+| Capex | $18.767 M | $17.090 M | $17.011 M | $17.268 M |
+| Free cash flow | $18.708 M | $19.822 M | $20.126 M | $21.531 M |
+| Margen FCF | 14,0 % | 14,7 % | 14,6 % | 15,5 % |
+
+Datos recientes (comunicado 2T 2026):
+- 1S 2026: CFO $18.400 M (+9,9 % interanual); FCF $10.200 M (+16,0 %).
+- 2T 2026: CFO $10.400 M (+16,3 %); FCF $6.400 M (+24,4 %), uno de los trimestres más fuertes de la historia de la compañía.
+
+Rentabilidad (TTM, Yahoo Finance / StockAnalysis):
+- ROE: 15,84 % · ROA: 5,05 % · Rentabilidad neta: 11,64 %.
+
+Guía 2026 (comunicado 2T 2026): crecimiento del CFO del 2–4 %; crecimiento del FCF del 9–10 %; capex de $16.000 M a $16.500 M.
+
+### 5.4 Perfil de dividendos y recompras
+
+- **Dividendo**: trimestral. Dividendo anual corriente $2,83/acción (0,7075 $/trimestre, primer pago ago 2026), rendimiento ~5,8–5,9 %. Ex-dividendo del último pago: 10 jul 2026 (Yahoo Finance).
+- **Trayectoria**: Verizon ha pagado dividendos desde que empezó a cotizar (jul 2000, antes como Bell Atlantic) y **ha subido el dividendo anual cada año sin interrupciones al menos desde 2006** (20 años consecutivos hasta 2026, con subidas todos los años desde 2007; hay años planos en 2002-2004 y 2005-2006 según el historial de la propia empresa). Serie anual de la propia Verizon (totales): 2006 $1,62 → 2010 $1,925 → 2015 $2,23 → 2020 $2,485 → 2025 $2,735 → 2026e $2,83.
+- **Ratio de reparto**: ~74 % de la EPS TTM ($2,83 / $3,84) — [análisis del agente], elevado y un factor a vigilar si el EPS ajustado no crece como la guía sugiere (guía de EPS ajustado 2026 de $4,99–$5,04 implica un reparto más cómodo de ~56 %). Ratio de reparto sobre FCF 2025: ~14 % de la generación de FCF (cálculo del agente: $2,83 × ~4.200 M acciones ≈ $11.900 M / $20.126 M).
+- **Recompras**: la empresa relanzó el programa de recompra en 2026: $3.500 M acumulados al 1S 2026 (incl. $1.000 M en el 2T), con objetivo de año ampliado a hasta $4.500 M (comunicado 2T 2026). Devolvió $9.400 M de capital total a accionistas en el 1S 2026.
+
+---
+
+## 6. Valoración
+
+### 6.1 Múltiplos actuales vs. históricos
+
+| Múltiplo | Actual (14 ago 2026) | Histórico FY2025 | Histórico FY2021-24 |
+|---|---|---|---|
+| PER (TTM) | 12,6 | 10,0 | 7,8–13,7 |
+| PER forward | 9,4–9,6 | 8,7 | 7,9–9,7 |
+| P/S | 1,45 | 1,24 | 1,18–1,63 |
+| P/FCF | 9,4 | 8,5 | 8,5–11,8 |
+| EV/EBITDA | 7,96 | — | — |
+| P/B | 1,88 | — | — |
+
+*(Fuentes: Yahoo Finance y StockAnalysis; el precio ha subido ~19 % YTD 2026, lo que eleva los múltiplos respecto al cierre de 2025.)*
+
+### 6.2 Comparación con el sector
+
+| Empresa | PER (TTM) | Yield | Notas |
+|---|---|---|---|
+| Verizon | ~12,6 | ~5,9 % | [NO VERIFICADO para comparación exacta: PER/yield de AT&T y T-Mobile tomados del widget de Yahoo del 14 ago 2026, que no muestra PER] |
+| AT&T | — | — | Mkt cap ~$170.600 M; perfil de dividendo similar tras escindir WarnerMedia |
+| T-Mobile | — | — | Mkt cap ~$195.900 M; PER más alto históricamente por mayor crecimiento |
+
+### 6.3 Interpretación del agente [análisis del agente]
+
+Verizon cotiza a un PER forward de ~9,4-9,6x y a ~8x EV/EBITDA, con un rendimiento por dividendo cercano al 6 %. Frente a su propio histórico (PER forward de ~8-10x en los últimos ejercicios), la acción no es barata de forma extrema tras la subida de ~19 % YTD, pero tampoco rica: el mercado está descontando la aceleración de ingresos de movilidad+banda ancha y el nuevo flujo de ingresos por infraestructura de IA (fibra oscura). Con una guía de EPS ajustado 2026 de $4,99-$5,04 (+6-7 %) y un yield de ~5,9 %, la relación riesgo/retorno depende críticamente de que (a) se materialice la aceleración de ingresos en el 4T 2026 (~4 % de crecimiento de servicio) y (b) la deuda siga bajando. En términos de valor total de retorno esperado (yield + crecimiento de EPS), la valoración parece razonable, no barata. Una recesión o un tipo de interés alto prolongado penalizarían más a un negocio apalancado como este.
+
+---
+
+## 7. Noticias recientes y catalizadores
+
+### Hechos relevantes de los últimos 12 meses
+
+- **6 oct 2025**: Dan Schulman nombrado CEO con efecto inmediato (transición anunciada públicamente); Mark Bertolini presidente; Hans Vestberg asesor especial hasta el 4 oct 2026. La empresa reitera la guía de 2025.
+- **Ene 2026**: cierre de la adquisición de Frontier Communications ($20.000 M), "piedra angular" de la estrategia de expansión de banda ancha (Morningstar confirma cierre en enero; Wikipedia cifra el deal en $20.000 M).
+- **Jun 2026**: lanzamiento de los planes "Simplicity" (tarifa plana ilimitada simplificada con 5G rápido incluido) y de la oferta convergente "Verizon One", además de un programa de fidelidad, dentro de la transformación orientada al cliente de Schulman (Reuters, 24 jul 2026).
+- **24 jul 2026**: resultados récord del 2T 2026 (ver sección 5.1): 184.000 altas netas pospago, EBITDA ajustado y margen récord, guía anual subida por segundo trimestre consecutivo, y ampliación de la recompra a hasta $4.500 M.
+- **24 jul 2026**: acuerdo con Google por más de $1.000 M para suministrar conectividad de fibra oscura (dark fiber) para sus centros de datos; la acción sube ~3 %. Se esperan más acuerdos que podrían generar "miles de millones" en ingresos plurianuales (Schulman, en la conferencia posterior a resultados).
+- **27 jul 2026**: TD Cowen mantiene calificación "Comprar" y sube el precio objetivo de $54 a $56 (Yahoo Finance). Consenso: precio objetivo medio $51,56 (rango $44–$71).
+- **5 ago 2026**: Reuters informa de que los planes de SpaceX de construir un servicio móvil de plena cobertura (potencial competencia de Starlink directo a dispositivo) agitaron al sector inalámbrico estadounidense; los analistas debaten el nivel de amenaza real para Verizon, AT&T y T-Mobile.
+- **Ciber/infraestructura 2026**: creciente foco en infraestructura para IA — conectividad de fibra para hyperscalers, edge computing (MEC) y venta de capacidad — como nueva vía de ingresos B2B (Reuters, Zacks).
+
+### Catalizadores a futuro
+
+- Aceleración de ingresos de servicio de movilidad+banda ancha hacia ~4 % en el 4T 2026 (guía de la empresa).
+- Monetización de fibra para centros de datos de IA (acuerdos adicionales tipo Google).
+- Sinergias de Frontier (fibra → convergencia fijo-móvil y reducción de costes).
+- Reducción de deuda y posible subida de dividendo (tradición de subidas anuales).
+- Recuperación de cuota pospago frente a T-Mobile y AT&T vía planes Simplicity y Verizon One.
+
+---
+
+## 8. Riesgos
+
+### Riesgos específicos de la empresa
+
+- **Deuda elevada**: deuda no garantizada de $136.500 M (2T 2026) y deuda total de ~$193.600 M incluyendo arrendamientos (S&P Global). La subida de tipos encarece el servicio de deuda y puede limitar la capacidad de recompras/subida de dividendo. La empresa viene reduciéndola gradualmente, pero la relación deuda/EBITDA (~2,5x) sigue alta para estándares de [[utilities|utilities]].
+- **Ejecución de la transformación**: la estrategia de Schulman (simplificar planes, convergencia, reducir subsidios) aún está en curso; si las altas netas pospago no se consolidan o el churn vuelve a subir, la subida del guidance quedaría en entredicho.
+- **Integración de Frontier**: riesgo de ejecución en la integración de una red de 15 millones de localizaciones (costes, sinergias, deuda asumida).
+- **Ingresos de equipos**: la decisión de reducir subsidios y el alargamiento de la vida útil de los smartphones reducen ingresos por equipos y pueden deprimir el ARPU si no se compensa con precios de servicio.
+- **Partidas especiales recurrentes**: $1.800 M de cargos en el 2T 2026 (venta de negocio internacional de cable, indemnizaciones, racionalización de activos) muestran un balance de reestructuración en marcha que erosiona el EPS GAAP.
+
+### Riesgos sectoriales / macro
+
+- **Competencia de precios**: T-Mobile ha sido el agresor en precios y promociones; AT&T compite en fibra y convergencia. La guerra de precios puede presionar ARPU y costes de adquisición/retención.
+- **Mercado saturado**: el crecimiento de pospago en EE.UU. es limitado; el crecimiento debe venir de cuota, ARPU y nuevos productos, no de un pastel que crece poco.
+- **Ciclo de capex**: la construcción/reforma de red 5G (C-Band) y fibra exige capex de $16.000 M–$16.500 M/año; cualquier necesidad imprevista de espectro o capacidad reduce FCF.
+- **Tipos de interés e inflación**: elevan el coste de financiación de un negocio muy apalancado y pueden deprimir el consumo de dispositivos.
+- **Tecnología disruptiva**: SpaceX/Starlink y otras constelaciones satelitales (AST SpaceMobile) avanzan en conectividad directa a dispositivo, una amenaza de largo plazo para el modelo de cobertura terrestre (Reuters, 5 ago 2026).
+
+### Riesgos regulatorios / geopolíticos
+
+- **FCC y espectro**: subastas, condiciones de uso, renovación de licencias y presiones políticas sobre el regulador (Trump nominó un abogado de la FCC al organismo en ago 2026, Reuters).
+- **Neutralidad de red**: el marco regulatorio ha ido y venido entre administraciones; cambios pueden afectar la monetización de la red y las tarifas.
+- **Tarifas y comercio**: la política arancelaria afecta el coste de los smartphones (importación) y de los equipos de red.
+- **Ciberseguridad y privacidad**: Verizon maneja datos de millones de usuarios y ha tenido incidentes; un gran ciberataque tendría impacto financiero y reputacional.
+- **Litigios y operaciones internacionales**: el negocio internacional de cable y redes gestionadas está a la venta, con riesgos de ejecución de desinversión.
+
+---
+
+## 9. Perspectiva del agente
+
+**Resumen ejecutivo [análisis del agente]**: Verizon es una acción de "income + turnaround moderado": un negocio de conectividad esencial, estable y generador de FCF de ~$20.000 M/año, con dividendo creciente desde hace 20+ años (~5,9 % de rendimiento), que bajo la nueva dirección intenta revertir años de pérdida de cuota y crecimiento plano mediante planes más simples, convergencia y la monetización de su fibra para infraestructura de IA.
+
+**Tesis a favor**:
+- Aceleración verificable en el 2T 2026 (altas netas, EBITDA récord, FCF +24,4 %), con guía subida dos trimestres seguidos.
+- Nueva vía de ingresos B2B por fibra para hyperscalers (Google >$1.000 M) que pocos esperaban hace un año.
+- Yield de ~6 % con 20 años de subidas consecutivas; ratio de reparto manejable sobre EPS ajustado (~56 % sobre guía 2026).
+- Valoración moderada (PER forward ~9,5x) para una empresa en inflección.
+
+**Tesis en contra**:
+- Deuda muy alta y negocio intensivo en capital; sensible a tipos altos.
+- Competencia feroz de T-Mobile y riesgo de no consolidar la recuperación de cuota.
+- La amenaza satelital (SpaceX) y la madurez del mercado limitan el múltiplo.
+- Gran parte del "repunte" ya cotiza (+19 % YTD, 3 años +76 %).
+
+**Sesgo del agente**: **Neutral-positivo a valoración razonable**. La acción no está claramente barata tras la revalorización, pero el riesgo/retorno se mantiene aceptable para perfiles de renta (dividendo) con tolerancia a la volatilidad del negocio. Posición de "mantener / comprar en caídas por debajo de ~$45". Sin evidencia de catalizador negativo inminente, salvo un entorno de tipos mucho más altos o una reaceleración de la guerra de precios.
+
+*Las cifras de mercado (precio, PER, yield, mkt cap) corresponden al cierre del 14 ago 2026 y pueden cambiar a diario; verifíquelas en la fuente citada antes de invertir. Las opiniones de valoración son del agente y no constituyen asesoramiento financiero.*
+
+---
+
+## 10. Fuentes
+
+**Fuentes primarias del emisor (consultadas 15 ago 2026):**
+
+1. Verizon Investor Relations — hub de inversores: https://www.verizon.com/about/investors
+2. Verizon — comunicado de prensa 2T 2026 "Verizon delivers record 2Q26 results...": https://www.verizon.com/about/news/verizon-delivers-record-2q26-results (publicado 24 jul 2026)
+3. Verizon — página de resultados 2T 2026 (materiales de la conferencia): https://www.verizon.com/about/investors/quarterly-reports/2q-2026-earnings-conference-call-webcast
+4. Verizon — historial de dividendos (2000-2026): https://www.verizon.com/about/investors/dividend-history
+5. Verizon — comunicado "Verizon Announces CEO Transition" (6 oct 2025): https://www.verizon.com/about/news/verizon-announces-ceo-transition
+6. Verizon — SEC filings (10-K, 10-Q): https://www.verizon.com/about/investors/sec-filings
+
+**Fuentes de mercado y noticias (consultadas 15 ago 2026):**
+
+7. Yahoo Finance — ficha VZ (precio, mkt cap, PER, yield, rango 52 semanas, estadísticas, informes de analistas): https://finance.yahoo.com/quote/VZ/
+8. Reuters — perfil de la empresa VZ.N (financieros anuales LSEG, balance, cash flow, directivos): https://www.reuters.com/markets/companies/VZ.N/
+9. Reuters — "Verizon lifts annual forecasts, signs $1 billion fiber deal with Google" (24 jul 2026): https://www.reuters.com/business/media-telecom/verizon-lifts-annual-forecasts-new-mobile-plans-spur-subscriber-gains-2026-07-24/
+10. Reuters — "SpaceX's mobile ambitions jolt US telecom market..." (5 ago 2026): https://www.reuters.com/business/media-telecom/spacexs-mobile-ambitions-jolt-us-telecom-market-analysts-debate-threat-2026-08-05/
+11. StockAnalysis.com — financieros de Verizon (S&P Global Market Intelligence / Fiscal.ai): https://stockanalysis.com/stocks/VZ/financials/
+12. Wikipedia — "Verizon" (historia, datos corporativos, financieros 2025, adquisición Frontier): https://en.wikipedia.org/wiki/Verizon
+
+**Nota metodológica**: los datos financieros anuales (2021-2025) provienen de Reuters/LSEG y StockAnalysis (S&P Global). Las métricas de mercado (precio, PER, yield, capitalización) provienen de Yahoo Finance con fecha explícita. Los datos del 2T 2026 provienen del comunicado de prensa oficial de Verizon. Donde las fuentes difieren (p. ej., número de empleados: 89.900 vs 97.600; cifras de net income 2025: $17.174 M según LSEG/StockAnalysis vs $17.610 M según Wikipedia), se indica la discrepancia en el texto. Cualquier interpretación o proyección propia está etiquetada como "[análisis del agente]". No se han incluido cifras que no pudieran verificarse en al menos una fuente real citada.
+
+---
+*Página generada por agente autónomo. Fecha de corte: 2026-08-15.*
+*Verificar cifras de mercado en la fuente citada antes de decisiones de inversión.*
+
+## Ver también
+
+<!-- enlaces sugeridos por similitud semántica (bge-micro-v2) -->
+- [[service-now]]
+- [[t-mobile]]
+- [[alphabet]]

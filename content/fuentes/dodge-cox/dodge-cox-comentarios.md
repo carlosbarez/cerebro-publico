@@ -1,0 +1,51 @@
+---
+title: "Comentarios de Dodge & Cox (Stock Fund) — Equity Review 2024-2026"
+tipo: fuente
+cobertura: parcial
+tags: [dodge-and-cox, dodgx, value-investing, comite, gestion-de-posiciones, salud, semiconductores, gestion-de-capital]
+fecha: 2026-08-14
+fuentes:
+  - https://www.dodgeandcox.com/ (Semi-Annual Equity Review 2025 y 2026; Investment Philosophy; Stock Fund)
+---
+
+# Comentarios de Dodge & Cox (Stock Fund) — Equity Review 2024-2026
+
+## Nota de estructura y alcance
+
+**Dodge & Cox** es una gestora de value de **gestión por comité, sin estrella única** (ver [Investment Philosophy](https://www.dodgeandcox.com/)): todas las decisiones se toman por comités que debaten (el del Stock Fund promedia 23 años en la firma y sus miembros invierten en el fondo). Más de 90 años de historia. No se crea página de inversor individual para D&C: el material es institucional y firmado por Client Portfolio Managers y el Director de Research.
+
+Cobertura **parcial**: transcripciones completas de la **Semi-Annual Equity Review** de 2025 (a 30/06/2025) y de 2026 (a 30/06/2026), la página de filosofía, la ficha del Stock Fund (DODGX) y las **tenencias completas del Stock Fund a 30/06/2026**. El archivo `dc_equity_review_2024.md` recibido estaba **vacío** → Equity Review 2024 `[Sin datos]`. Cubren la familia: Stock, International Stock, Global Stock y Emerging Markets Stock; la página se centra en el Stock Fund.
+
+## Resumen por periodo
+
+| Periodo | Desempeño del Stock Fund | Contexto de mercado | Contenido central |
+|---|---|---|---|
+| **1S2025** (30/06/2025) | Los 4 fondos (Stock, Intl, Global, EM) **baten** a sus benchmarks YTD | Aranceles de abril, rebote rápido; S&P en máximos históricos con valoraciones "elevadas"; EE.UU. ~23x forward vs ~14x internacional | Stock Fund: fuerzas en Consumer Discretionary e Industrials (CVS, [[ge-aerospace|GE Aerospace]] +50% en 2025); detractores Materials/Energy (OXY). Nuevo TSMC; ~10% del fondo en internacional (Ashtead/Sunbelt, Sanofi, GSK). Cautela sobre el retorno futuro del S&P por valoración. |
+| **1S2026** (30/06/2026) | Stock y Global **bajo rendimiento** YTD (Stock bajo S&P y Russell Value; Global bajo ACWI y ACWI Value); Intl ligeramente bajo; EM ligeramente por encima | Conflicto Irán (petróleo >$110 → ~$70); **semiconductores: ~60% del avance total del mercado YTD (IT >70%)**; IT +~40% en Q2; DRAM spot ×8 desde principios de 2025 | Stock Fund: infraponderación de semis costó >400pb vs S&P y 560pb vs Russell Value; 20 posiciones (>25% del fondo) con contracción de múltiplo (EPS forward +10%, P/E forward -27%). Actualización a calidad: entran Roper, [[microsoft|Microsoft]] (adds), Arthur J. Gallagher, Aon, Brookfield; venden GE Aerospace, recortan Norfolk Southern y FedEx, farma y managed care. Cartera con mayor margen bruto, ROIC y crecimiento que ambos índices, FCF yield doble y P/E menor. |
+
+**Tenencias Stock Fund (30/06/2026)**: top 10 por peso: Charles Schwab 4,0%, [[rtx-corp|RTX]] 3,7%, TSMC 3,5%, Johnson Controls 3,3%, CVS Health 2,8%, [[alphabet|Alphabet]] A 2,5%, MetLife 2,5%, Microsoft 2,5%, Humana 2,5%, Amazon 2,2%. Siguen: [[unitedhealth|UnitedHealth]] 2,1%, Meta 2,1%, Occidental 2,0%, Cigna 1,9%, Booking 1,8%, Gilead 1,8%, Sunbelt Rentals 1,7%, Comcast 1,6%, Alphabet C 1,6%, [[wells-fargo|Wells Fargo]] 1,5%, ABI 1,5%, GSK 1,5%, FedEx 1,3%, Fiserv 1,3%, Roper 1,3%, Arthur J. Gallagher 1,2%, Aon 1,0%, Brookfield 1,0% (https://www.dodgeandcox.com/).
+
+## Ideas centrales
+
+1. **Comité, no estrella**: filosofía value única, decisiones colegiadas, selección bottom-up compañía a compañía; los pesos sectoriales/regionales son resultado, no objetivo; alta active share y sin targets vs benchmark.
+2. **Precio disciplinado y paciente**: compran en el bache (Walmex 2025, [[hdfc-bank|HDFC Bank]] 2026) y venden cuando la valoración se acerca a la justa; "adding to long-term positions in times of short-term volatility is a hallmark of our strategy". Bajo turnover ≠ cartera estática.
+3. **Infraponderación IT como riesgo y como disciplina**: el detractor dominante de 2026 es la infraponderación en semis; el Comité lo asume porque no quiere pagar valoraciones de memoria cíclica ("our best estimate is that prices will be lower three years from now").
+4. **Compresión de múltiplos en quality value**: 20 posiciones con BPA al alza y P/E a la baja, por miedo a disrupción de IA; el equipo "duplica" el due diligence para separar miedo real de sobre-reacción.
+5. **Actualización de cartera sin pagar**: rotan de bancos/aseguradoras credit-sensitive (Barclays, Aegon, Santander, Schwab) a brokers de seguros y negocios capital-light (Gallagher, Aon, Brookfield, LSE, DSM-Firmenich); consiguen cartera de mayor calidad a menor valoración.
+6. **El mercado no es igualmente ponderado**: IT/semis concentran la rentabilidad 2026; el índice EM es 45% IT con 3 países = 70% del benchmark; D&C infrapondera conscientemente y usa la "long tail" (>200 small/mid caps, ~40% del fondo EM) como diversificador y motor de rentabilidad.
+7. **Cautela estructural sobre valoraciones EE.UU.**: 23x forward vs 14x internacional (2025) y "elevated" de nuevo en 2026; el fondo sigue barato vs S&P y hasta vs el Russell Value (14x forward en 2025).
+
+## Citas literales relevantes
+
+- *"We rely on our analysts and [their] deep knowledge of their industries, and we keep an eye on the long term. ... The goal continues to be generating excellent risk-adjusted returns over a multi-year period."* — Ben Garosi (2025).
+- *"We're an active manager. Our portfolios have high active share, meaning they do not look like their respective benchmarks."* — Doug Silverman (2025).
+- *"Adding to our long-term positions in times of short-term volatility is a hallmark of our strategy."* — Ben Garosi (2025).
+- *"We see 20 holdings that account for more than a quarter of the portfolio that have experienced significant multiple contraction while forward earnings estimates have continued to rise."* — Steve Voorhis (2026).
+- *"It's not very common in a commodity market that you'd see prices go up eight times and then stay at that level for very long."* — Steve Voorhis, sobre DRAM (2026).
+- *"We've managed to build the portfolio that is higher on all those measures, but also has a free cash flow yield double that of the market and a [forward] P/E ratio much lower."* — Steve Voorhis (2026).
+
+## Páginas del wiki creadas/actualizadas por esta ingesta
+
+- Creadas: `fuentes/dodge-cox/dodge-cox-comentarios.md`
+- Actualizaciones potenciales: `conceptos/gestion-de-posiciones.md`, `conceptos/multiplos-de-valoracion.md`, `conceptos/foso-economico.md`, `conceptos/reversion-a-la-media.md` (semis/DRAM)
+- Nota: no se crea página de inversor individual para D&C (gestión por comité, sin estrella única).

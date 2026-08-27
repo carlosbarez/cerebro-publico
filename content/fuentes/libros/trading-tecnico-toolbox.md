@@ -1,0 +1,199 @@
+---
+title: "Caja de herramientas de trading técnico — Elder + Serrano (fuente consolidada)"
+tipo: fuente
+cobertura: parcial
+tags: [libro, trading, analisis-tecnico, elder, serrano, gestion-monetaria, consolidada]
+fecha: 2026-07-12
+fuentes: []
+---
+
+# Caja de herramientas de trading técnico — Elder + Serrano (fuente consolidada)
+
+Consolidación de los tres libros de **trading/análisis técnico serio** de la tanda 2026-07-12, ingeridos como
+**caja de herramientas profunda** (decisión de Carlos) pero manteniendo su encuadre en el cerebro: el AT es
+una **caja subordinada** al análisis fundamental, útil para **tendencia, timing y dosificación**, no para
+decidir *qué* vale una empresa ([[analisis-tecnico-y-tendencia]], [[puntos-de-entrada]]). EPUBs en `raw/`,
+`ebooklib`.
+
+## 1. Alexander Elder — *El nuevo vivir del trading*
+
+El más completo y el más valioso. Tres patas ("las tres emes": Mind, Method, Money):
+
+- **Psicología (Mind)**: el trader es su peor enemigo; disciplina y registro de operaciones — converge con
+  [[sintesis-del-comportamiento]] y las tendencias de [[charlie-munger]].
+- **Método (Method) — el sistema de la Triple Pantalla**: decidir en **tres marcos temporales**: (1) la
+  *marea* (tendencia de fondo, marco largo), (2) la *ola* (corrección contra la tendencia, marco medio, con
+  osciladores), (3) la *entrada* (marco corto, gatillo). Solo operar a favor de la tendencia mayor. Es la
+  formalización del "la técnica dosifica, no decide" del cerebro.
+ - **Gestión monetaria (Money) — las reglas concretas** que faltaban tras el stub de [[position-sizing-van-tharp|Van Tharp]]: la **regla del 2%** (nunca arriesgar más del 2% del capital en una sola operación) y la
+  **regla del 6%** (parar el mes si las pérdidas acumuladas llegan al 6%). → [[gestion-de-posiciones]].
+
+### Lectura profunda vía OpenRouter (2026-07-24)
+
+La lectura completa (3 partes) de Elder añade bastante más que las tres emes ya resumidas:
+
+- **Elder, escéptico del propio AT clásico**: tras 21 años declara que "el mercado no conoce diagonales" — las
+  líneas de tendencia y el chartismo clásico son subjetivos y abren la puerta al autoengaño ("test de
+  Rorschach"); solo conserva soportes/resistencias **horizontales** y las **colas de canguro** (barra extrema
+  flanqueada por dos normales = rechazo del precio). Matiz valioso: el referente serio del AT desconfía del 90%
+  del folclore chartista. → [[analisis-tecnico-y-tendencia]].
+- **Suma negativa**: comisiones + deslizamiento (este último ~3× las comisiones, cifra sin verificar) hacen del
+  trading un juego de suma negativa — de ahí su doctrina de baja frecuencia y órdenes limitadas.
+- **Sistema impulso** (aportación propia, ausente de la página): semáforo MME+MACD-histograma que **prohíbe**
+  en vez de señalar (verde = prohibido cortos, rojo = prohibido largos) — "no me dice qué hacer, sino qué no
+  hacer". Filtro 1 de la Triple Pantalla actualizada.
+- **Vehículos, con avisos**: ETFs apalancados/de volatilidad con *tracking error* destructivo (haircut medio
+  ~1,25%/año; VXX −90% y UNG −96% en sus ejemplos — cifras sin verificar contra el crudo); CFDs/forex minorista
+  como *bucket shops* (el bróker es la contraparte); opciones: los compradores pierden como grupo.
+- **Ejecución codificada**: Triángulo de Hierro (tamaño = riesgo $ ÷ (entrada−stop)); escalera de recuperación
+  tras una debacle; **Apgar de operación** (5 preguntas puntuadas 0-1-2, solo operar con nota ≥7 y sin ceros).
+
+**Evolución [2026-07-24]**: frente a la edición de 1993, Elder relegó el chartismo clásico a un apéndice,
+reescribió por completo la gestión de capital (Triángulo de Hierro) y elevó el registro a "cuarto pilar
+integrador" — lo que más envejece del libro es la técnica; lo que menos, la psicología y la gestión monetaria.
+
+## 2. Francisca Serrano — *Escuela de Bolsa. Manual de trading*
+
+Trading sistemático en español: definición de **sistemas** con reglas de entrada/salida, **stops**, **gestión
+monetaria** y **apalancamiento** (34 menciones — típico de trading con derivados/forex). Aporta el ángulo de
+**sistema mecánico** (reglas fijas, sin discreción), primo del rebalanceo pasivo de [[ray-dalio]] pero en
+marco corto. Encuadre del cerebro: solo la tendencia/momentum tiene evidencia (AQR); el resto es folclore.
+
+### Lectura profunda vía OpenRouter (2026-07-26)
+
+El destilado completo revela que el libro es un **embudo didáctico de 17 capítulos**: bases (productos,
+perfiles) → herramienta técnica (velas, S/R, volumen, indicadores) → un sistema completo para acciones
+(**método Weinstein**: 4 etapas, MM30 semanal, fuerza relativa Mansfield) → derivados (futuros, CFDs) →
+gestión monetaria matemática → 3 estrategias "listas para usar". La autora empieza diciendo que las acciones
+"no son su producto preferido" y acaba operando **solo futuros** (mini S&P 500, eurodólar) 2 h/día.
+
+- **Gestión monetaria cuantificada** (su aportación más transferible): el **apalancamiento es asimétrico**
+  (recuperar −10% exige +11,1%; −50% exige +100%; −75% exige +300%) — la versión en espejo de por qué el
+  cerebro evita pérdidas grandes. Reglas: riesgo fijo 0,5-2% por operación, máximo 6 operaciones simultáneas,
+  ratio riesgo:beneficio 3:1, **pirámide de contratos solo con beneficios acumulados** ("con dinero del
+  mercado"). Compatible con el 2%/6% de Elder y el sizing de [[position-sizing-van-tharp|Van Tharp]].
+- **3 setups concretos en futuros**: *Gran entrada* (ruptura de lateral largo + primera vela completa fuera,
+  no la vela de ruptura — "velas trampa barren stops"); *Doble 00* (números redondos como "paradas de autobús"
+  + MM200); *Gaps* de apertura (cierre del hueco ~75% de las veces — cifra sin verificar).
+- **Weinstein en acciones** (cap. 12): comprar ruptura de etapa 2 con volumen 2-3×, stop bajo el lateral,
+  vender en etapa 4; "reglas de oro": no comprar sin mirar el gráfico, no comprar en buenas noticias, no
+  mantener tendencia bajista. Puente con el momentum de [[factor-momentum]] y la caja CANSLIM de O'Neil.
+- **Realismo estadístico inusual en el género**: cita el estudio de Barber et al. (2011) — **menos de 3 de
+  cada 1.000 day traders lo logran de forma consistente** (cifra sin verificar contra el crudo). Un libro de
+  trading que advierte que casi nadie gana merece más crédito que la media.
+- **Encuadre para el cerebro**: especulación técnica profesionalizada (scalping/day trading en futuros), no
+  inversión. Lo reutilizable a largo plazo es la asimetría del apalancamiento, el "entrar pensando cuánto se
+  está dispuesto a perder" y el cuaderno de errores — todo ya cubierto en espíritu por
+  [[gestion-de-posiciones]] y [[aversion-al-apalancamiento]].
+
+## 3. Francisca Serrano — *Análisis técnico de bolsa y trading para Dummies*
+
+Nivel introductorio: **velas japonesas** (565 menciones), soportes/resistencias, indicadores, patrones. Es el
+diccionario visual del AT; referencia consultable para interpretar un gráfico, no una fuente de tesis.
+
+### Lectura profunda vía OpenRouter (2026-07-26, 2 partes)
+
+El destilado completo (capítulos 1-12) confirma el rol de **diccionario visual**, pero con cuatro matices que
+van más allá del catálogo:
+
+- **Catálogo organizado por fiabilidad**: los patrones de velas se clasifican en **alta / media / baja
+  fiabilidad** según número de velas (4-5 velas = alta; 1 vela = baja), con **confirmación obligatoria** antes
+  de entrar. Marco de Wyckoff/VSA para el volumen ("esfuerzo": indicio → testeo → confirmación) y teoría de
+  Dow como marco de fondo. Sigue siendo consulta, no tesis.
+- **Fibonacci asumido como profecía autocumplida** — el matiz más honesto del libro: "si todos lo usan,
+  funciona; si nadie lo usa, deja de funcionar". La autora no reclama base económica intrínseca, solo
+  coordinación social de los operadores. Coherente con el escepticismo del cerebro hacia el AT
+  ([[analisis-tecnico-y-tendencia]]): aquí la propia practicante lo declara.
+- **Psicotrading y sentimiento** (cap. 11): "el 50% del éxito es psicología"; batería de indicadores de
+  sentimiento con umbrales (put/call ratio, VIX, COT Report, NAAIM, insiders) bajo la **teoría de la opinión
+  contraria** (el limpiabotas de Rockefeller). Solapa con [[sintesis-del-comportamiento]] y es la parte más
+  reutilizable: los extremos de sentimiento como alerta de régimen ya aparecen en [[ciclos-de-mercado]] y
+  [[mr-market]].
+- **Decálogo de cierre con reglas numéricas propias**: stop de cartera ≤5%, recoger beneficios cada +25%,
+  objetivo "realista" ×2 al año (cifras de manual comercial, sin verificar). Nota de discrepancia interna de
+  la caja: el 5% de Serrano es **por cartera**, el 2% de Elder es **por operación** — no son comparables y el
+  cerebro se queda con la escala más conservadora.
+
+## 4. Linda Raschke — *Street Smarts* (trading de corto plazo)
+
+Trader profesional veterana (una de las **pocas mujeres** referentes del trading técnico — recuenta el sesgo de género del corpus). *Street Smarts*: estrategias de alta probabilidad de corto plazo, disciplina y gestión del riesgo por operación. Mismo encuadre: caja **subordinada**, patrones de corto que nunca sustituyen la valoración. Refuerza la disciplina de [[gestion-de-posiciones]] y el anti-overtrading de [[carpatos-metodo]].
+
+### Lectura profunda vía OpenRouter (2026-07-26, 4 documentos)
+
+Cuatro fuentes de Raschke destiladas juntas; forman **una sola doctrina** con redundancia masiva entre sí (se anota como señal: el handout *Trading Techniques 2008* y el manual *Professional Trading Techniques* comparten casi todo el cuerpo — mismos 4 principios, mismo oscilador 3/10, mismos Keltner, mismo "Holy Grail").
+
+**Street Smarts (con Larry Connors)** — el catálogo de setups:
+
+- **Tres familias de setups, cada una con su tipo de stop**: *tests* de máximos/mínimos previos ("doble punto
+  de stop", riesgo mínimo: Turtle Soup, 80-20, Wolfe Waves), *retrocesos* en tendencia (stop simple: Holy
+  Grail ADX>30 + pullback a EMA20, Anti), y *clímax* de exhaustión (entrada solo tras ver el punto de
+  agotamiento: gaps sin rellenar, reversiones por noticias — "el pensamiento lógico te lleva a la ruina").
+- **Gestión monetaria unificada e idéntica en los 20+ setups**: entrada completa, stop inicial rígido,
+  escalar la salida, **nunca añadir a ganadores**, salida total en expansión de rango/parabólica, no llevar
+  perdedores *overnight*.
+- **La pieza empírica más valiosa de la caja**: el estudio de Fernando Diz citado en el cap. 25 (925 CTAs,
+  1974-95): la gestión monetaria —no el *edge*— explica el **88% de la supervivencia** de los gestores; el
+  mejor predictor único es el **tiempo en recuperación del peor drawdown**. Cifras sin verificar contra el
+  crudo, pero el mensaje converge con Elder, Serrano y Van Tharp: la técnica decide poco; el riesgo lo decide
+  casi todo.
+
+**Trading Techniques 2008 / Professional Trading Techniques** — el manual de oficio:
+
+- **4 principios de comportamiento del precio** (universales, todo marco temporal): la tendencia continúa más
+  a menudo de lo que revierte; **el momentum precede al precio**; las tendencias acaban en clímax; el mercado
+  alterna expansión y contracción de rango (volatilidad *mean-reverting*). Es, en el fondo, la doctrina
+  empírica del factor [[factor-momentum|momentum]] contada desde la trinchera.
+- **Línea base científica inusual en un manual de trading**: *random entries* + stop ancho (3 ATR) + un
+  único filtro de tendencia ya son rentables en el 92-100% de mercados testeados (10 años, 22 mercados —
+  cifras sin verificar). Todo sistema debe **batir esa línea base**, no solo "ganar". Raschke cuantifica su
+  propio oficio.
+- **Reglas de ejecución transferibles a cualquier horizonte**: "prove it or lose it" (salir si no funciona en
+  el tiempo previsto), "nunca irte a casa con una pérdida", **nunca promediar pérdidas** (regla de oro nº1),
+  "pierde tu opinión, no tu dinero", rutina nocturna + plan de negocio escrito + curva de equity como señal
+  de riesgo. El apéndice I compila 50 reglas clásicas del piso (1984) — folklore, pero folklore del bueno.
+- **Método, no sistema**: describe la técnica Taylor (ritmo de 2-3 días) como "un método, no un sistema";
+  pocos pueden seguir reglas ciegamente, la discrecionalidad vive *dentro* del marco.
+
+**Entrevista Better System Trader ep. 49** — la evolución tardía:
+
+- **Modelado actuarial, no predicción**: "modelar no es más que hacer preguntas al mercado"; tablas de
+  frecuencia con ventanas de *holding*, no señales puntuales. **El 10% de los trades genera el 60% del
+  beneficio**; "tres meses pueden hacer tu año" → **apalancamiento selectivo** solo cuando volumen y rango
+  confirman el desequilibrio oferta-demanda.
+- **Gestión del trade como ventaja real** (no las entradas): eliminar las 1-2 mayores perdedoras mejoraría el
+  resultado un ~50% (afirmación suya, sin verificar).
+- **Fuerza relativa como insight tardío**: tardó ~15 años en darse cuenta de su potencia ("es enorme") —
+  conecta la caja técnica con el momentum académico ([[factor-momentum]], [[cliff-asness]]).
+- Confirma el encuadre del cerebro: nunca vendió sistemas ni cursos mecánicos; "nunca desarrollé un sistema
+  mecánico con el que me sintiera 100% cómoda operando mi propio dinero".
+
+**Nota bibliográfica (2026-07-26) — Van Tharp, *Definitive Guide to Position Sizing***: el PDF ingerido como
+"Definitive Guide" resultó ser **solo el índice y el prefacio** del libro de Van Tharp (≈15 páginas), sin
+contenido de los 19 capítulos: no se le da sección propia. Lo único aprovechable es la arquitectura declarada
+—R y R-múltiplos, SQN (*System Quality Number*), modelo CPR (Capital × Position size = Risk), 12 modelos base
+de sizing y una parte entera de "modelos a evitar" (martingala, Kelly óptimo, *optimal f*)—, que queda aquí
+como referencia pendiente de lectura completa (conecta con el stub de [[position-sizing-van-tharp]]).
+
+## Qué aporta al cerebro (y qué no)
+
+- **Aporta**: reglas **concretas de gestión de posiciones/riesgo** (2%/6% de Elder), el sistema de **triple
+  pantalla** como forma disciplinada de alinear marcos temporales, y el vocabulario de AT para leer gráficos.
+  Cierra parcialmente el hueco que dejó el stub de Van Tharp.
+- **No aporta** (y así se anota): ninguna base para valorar un negocio. El AT no sustituye el
+  [[flujo-de-caja-descontado|DCF]] ni el [[foso-economico|foso]]; en el cerebro sirve para **cuándo y cuánto**
+  entrar en una convicción ya decidida por fundamentales, nunca para el **qué**. Coherente con el escepticismo
+  declarado de Carlos (perfil de inversor).
+
+## Páginas creadas/actualizadas
+
+- Creada: `fuentes/libros/trading-tecnico-toolbox.md`.
+- Actualizadas: `conceptos/analisis-tecnico-y-tendencia.md`, `conceptos/gestion-de-posiciones.md`,
+  `index.md`, `log.md`, `CLAUDE.md`.
+- (2026-07-26) Ampliada en modo delta: lectura profunda de los dos libros de Serrano y de cuatro documentos
+  de Raschke; nota bibliográfica sobre el *Definitive Guide to Position Sizing* de Van Tharp (solo índice).
+
+## Ver también
+
+[[analisis-tecnico-y-tendencia]] · [[gestion-de-posiciones]] · [[puntos-de-entrada]] ·
+[[position-sizing-van-tharp]] · [[sintesis-del-comportamiento]] · [[factor-momentum]] ·
+[[microestructura-de-mercado-y-ejecucion]]

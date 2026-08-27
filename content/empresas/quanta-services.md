@@ -1,0 +1,106 @@
+---
+title: "Quanta Services (PWR) — Análisis Fundamental"
+tipo: empresa
+tags: [empresa, analisis-fundamental, industriales]
+fecha: 2026-08-27
+agente: carlos-barez
+ticker: PWR
+moneda: USD
+precio_referencia: 616.73
+fecha_precio: 2026-08-27
+valor_estimado: ~540 (estimado por múltiplos; rango 480-560)
+gatillo_entrada: 480-520 (≈25-28x EPS forward ~18; 15-22% de margin of safety sobre valor est.; acumular en debilidad)
+veredicto: VIGILAR
+revisar_el: 2026-11-24
+fuentes: "[\"https://en.wikipedia.org/wiki/Quanta_Services\",\"https://stockanalysis.com/stocks/PWR/\",\"https://stockanalysis.com/stocks/PWR/financials/\",\"https://stockanalysis.com/stocks/PWR/statistics/\",\"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PWR&type=10-K&count=5\",\"https://investors.quantaservices.com/news-events/press-releases/detail/390/quanta-services-reports-fourth-quarter-and-full-year-2025-results\",\"https://investors.quantaservices.com/news-events/press-releases/detail/402/quanta-services-reports-second-quarter-2026-results\",\"https://investors.quantaservices.com/_assets/_7704205792e11fc43248ec5ffba9d48b/quantaservices/db/894/10451/pdf/Quanta+Services+2026+Investor+Day+Presentation+vF+for+Website.pdf\"]"
+---
+# Quanta Services (PWR) — Análisis Fundamental
+
+## 1. Resumen ejecutivo
+Quanta Services (NYSE: PWR) es el mayor proveedor de servicios de infraestructura eléctrica y de construcción especializada de Norteamérica. Es, en esencia, el "brazo de ejecución" de la electrificación, el build-out de centros de datos de IA y la modernización de la red eléctrica estadounidense. El negocio es excepcional en calidad: crecimiento de doble dígito sostenido durante una década, márgenes expansivos, generación de caja creciente y un backlog récord de ~44.000 M$.
+
+Mi veredicto es **VIGILAR**, no por dudas sobre el negocio (que es de los mejores del S&P 500 en su clase) sino por **precio**: cotiza a 70,6x beneficio nominal (P/E TTM) y en máximos de 52 semanas (+63% en un año), con una rentabilidad sobre capital invertido (ROIC 10,0%) apenas por encima de su coste de capital (WACC 10,5%). Como analista de valor/calidad a largo plazo y sin operar por momentum, el margin of safety en los precios actuales es insuficiente. Es una posición para **acumular en debilidad**, no para perseguir en máximos.
+
+## 2. Descripción del negocio
+Fundada en 1997 y con sede en Houston (Texas), Quanta prestan servicios de infraestructura para las industrias eléctrica, de gasoductos, industrial y de comunicaciones. Ha crecido orgánicamente y vía M&A —más de 200 adquisiciones— consolidando el fragmentado sector de contratistas eléctricos de EE. UU. Emplea ~69.500 personas (62.000 según Wikipedia), siendo el mayor empleador preferido de mano de obra cualificada ("craft-skilled") sindical y no sindical del sector.
+
+En la década de 2020 se ha convertido en pieza clave de la construcción de centros de datos por la demanda de energía de la IA. Sus tres grandes segmentos (datos FY2024, M$):
+- **Electric Power Infrastructure Solutions**: 11.166 M$ (47% del total)
+- **Renewable Energy Infrastructure Solutions**: 7.846 M$ (33%)
+- **Underground Utility and Infrastructure Solutions**: 4.660 M$ (20%)
+
+## 3. Industria y moat competitivo
+El TAM convergente estimado por la propia empresa es de **~2,4 T$ hasta 2030** (utilities/grid ~1,5 T$ + large-load/infraestructura ~885 B$), impulsado por: electrificación, envejecimiento de la red, generación distribuida, reshoring industrial y, sobre todo, la demanda de centros de datos de IA.
+
+**Moat (fosa competitiva):**
+- **Mano de obra cualificada (el activo verdaderamente escaso):** +80% de auto-ejecución ("self-perform") con crews propias. La escasez estructural de trabajadores especializados amplifica su ventaja — ser el mayor empleador del gremio es una barrera de entrada real.
+- **Modelo operativo descentralizado + adquisiciones:** integra contratistas locales bajo una plataforma común, manteniendo cultura de ejecución y añadiendo capacidades.
+- **"Execution certainty":** compromiso con la ruta crítica del cliente (programas multi-año de utilities y hyperscalers) que genera relaciones empotradas y recurrentes.
+- **Cadena de suministro y manufactura:** inversión en fabricación propia y JV con Hyosung HICO (junio 2026) para fabricar interruptores de alta tensión en EE. UU., aportando certidumbre de plazos.
+
+## 4. Análisis financiero (5 años, M$ USD, ejercicio ene-dic)
+Crecimiento de ingresos muy consistente: 12.980 (2021) → 17.074 (2022, +31,5%) → 20.882 (2023, +22,3%) → 23.673 (2024, +13,4%) → 28.480 (2025, +20,3%) → **32.905 (TTM a jun-26, +26,3%)**.
+
+| Métrica | 2021 | 2022 | 2023 | 2024 | 2025 | TTM |
+|---|---|---|---|---|---|---|
+| Ingresos | 12.980 | 17.074 | 20.882 | 23.673 | 28.480 | 32.905 |
+| Beneficio neto | 486 | 491 | 745 | 905 | 1.028 | 1.327 |
+| EPS (USD) | 3,34 | 3,32 | 5,00 | 6,03 | 6,80 | 8,74 |
+| Margen bruto | 15,05% | 14,81% | 14,06% | 14,83% | 15,01% | 15,46% |
+| Margen operativo | 4,87% | 4,91% | 5,23% | 5,50% | 5,57% | 6,12% |
+| Margen neto | 3,74% | 2,88% | 3,57% | 3,82% | 3,61% | 4,03% |
+| FCF | 197 | 703 | 1.141 | 1.477 | 1.517 | 2.288 |
+
+- **FCF** crece de 197 M$ (2021) a 2.288 M$ (TTM, +68%): conversión de caja robusta, Capex 890 M$ (TTM). FCF margin 6,95% (TTM).
+- **ROE 15,34% / ROIC 10,02%** (TTM). ROIC apenas 0,44 pp por encima del WACC (10,46%) — creación de valor económico *justa*; la expansión de márgenes es el motor, no aún una ventaja de ROIC abrumadora.
+- **Balance:** Deuda total 6.603 M$ (TTM), Deuda/Neto 0,68, Deuda/EBITDA 1,37x, Interest coverage 6,84x, Current ratio 1,10. Apalancamiento moderado y manejable. Liquidez ajustada (current ratio ~1,1, quick 0,98) típica de contratistas.
+- **Backlog récord:** 44.000 M$ a cierre de 2025; nuevo máximo histórico en Q2 2026. Visibilidad de ingresos excepcional.
+
+## 5. Valoración
+A 616,73$ (cierre 26-ago-26; pre-market 27-ago 626,50$):
+- **Market cap 92,72 B$ / EV 98,82 B$.**
+- **P/E TTM 70,60x; Forward P/E 33,69x** (implied forward EPS ~18,3$). PEG 1,77.
+- **P/S 2,82x; EV/Sales 3,00x; P/B 9,62x; P/FCF 40,53x; EV/EBITDA 32,45x; EV/FCF 43,19x.**
+- **Beta 1,22; +63% en 52 semanas;** 50-DMA 666,20 / 200-DMA 581,75 (cotiza por encima de ambas medias, cerca de máximos).
+
+**Interpretación de valor:** El P/E nominal (70x) refleja el salto reciente de márgenes/beneficios; el forward (34x) es más representativo y razonable para un compounder de calidad con crecimiento de EPS ~20-25%. Sin embargo, a precios actuales el **margin of safety es limitado**: el ROIC apenas supera el WACC y cualquier decepción en guidance castiga con severidad (acciones de calidad "priced for perfection").
+
+**Valor intrínseco estimado:** ~540$/acción (rango 480-560) usando ~30x EPS forward (~18$) — un múltiplo justo para su moat y tailwinds, pero que hoy no deja colchón. **Gatillo de entrada:** 480-520$ (≈25-28x forward; 15-22% de MOS; cerca o por debajo de la 200-DMA de 582$), acumulando en correcciones sectoriales.
+
+## 6. Equipo directivo e incentivos
+**Duke Austin**, Presidente y CEO, con **25 años en Quanta** — continuidad excepcional. Discurso coherente y centrado en el "Compounding Model" (gente/craft labor → capacidades → certeza → moat). El equipo ha ejecutado disciplined M&A durante décadas. **Salvedad de gobernanza:** la participación de insiders es solo **0,79%** (institucional 91,44%) — alineación limitada por ownership directo, aunque el mandato largo y la cultura mitigan el riesgo.
+
+## 7. Riesgos (3-6)
+1. **Escasez estructural de mano de obra cualificada:** es a la vez su moat y su cuello de botella; limita la capacidad de ejecutar toda la demanda y puede presionar márgenes por costes laborales.
+2. **Valoración exigente (70x P/E TTM, en máximos):** poco colchón ante un miss de guidance o un rotation fuera de "AI-infra".
+3. **Dependencia del capex de utilities y grandes clientes (hyperscalers):** concentración y sensibilidad a presupuestos/permisos de transmisión.
+4. **Riesgo de integración por M&A agresivo** (200+ adquisiciones): ejecución, goodwill y cultura.
+5. **Sensibilidad a tipos de interés y ciclo:** deuda 6,6 B$; un enfriamiento económico recorta infraestructura privada.
+6. **Permisos/regulatorios:** retrasos en interconexión y autorizaciones de líneas de transmisión afectan calendarios.
+
+## 8. Catalizadores y noticias recientes (2024-2025)
+- **Q4/FY2025 (feb-26):** récord de backlog 44.000 M$; doble dígito en ingresos y EBITDA ajustado; guía de otro año de doble dígito en EPS para 2026.
+- **Q2 2026 (jul-26):** resultados por encima de expectativas; backlog en nuevo máximo histórico; **subida significativa de guía 2026** en todos los métricos.
+- **Adquisiciones 2026:** **Phalcon** (~4.100 empleados, NE/Mid-Atlantic, data centers) y **Enerfab** (~2.100 empleados, fabricación/fabricación para generación y data centers) — aceleran la plataforma eléctrica/mecánica.
+- **JV Hyosung HICO (jun-26):** fabricación de interruptores de alta tensión en EE. UU.
+- **Investor Day 2026:** TAM convergente 2,4 T$ hasta 2030; énfasis en convergencia utility–generación–large-load.
+
+## 9. Tesis bull / bear
+**Bull:** Líder indiscutible y mejor posicionado para la electrificación + IA-data-centers; moat en mano de obra que se aprecia con la escasez; backlog récord = visibilidad; ROE 15%+ y FCF en aceleración; M&A disciplinado y modelo de compounding probado; expuesto a un superciclo de infraestructura eléctrica de una década.
+
+**Bear:** Cotiza a múltiplos de "perfection" (70x P/E); ROIC apenas > WACC hoy; el crecimiento depende de que utilities/hyperscalers mantengan capex; riesgo de que la escasez laboral limite la ejecución y comprima márgenes; cualquier normalización de la euforia por IA-infra produce correcciones severas desde máximos.
+
+## 10. Fuentes (URLs)
+- https://en.wikipedia.org/wiki/Quanta_Services
+- https://stockanalysis.com/stocks/PWR/
+- https://stockanalysis.com/stocks/PWR/financials/
+- https://stockanalysis.com/stocks/PWR/statistics/
+- https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PWR&type=10-K&count=5
+- https://investors.quantaservices.com/news-events/press-releases/detail/390/quanta-services-reports-fourth-quarter-and-full-year-2025-results
+- https://investors.quantaservices.com/news-events/press-releases/detail/402/quanta-services-reports-second-quarter-2026-results
+- https://investors.quantaservices.com/_assets/_7704205792e11fc43248ec5ffba9d48b/quantaservices/db/894/10451/pdf/Quanta+Services+2026+Investor+Day+Presentation+vF+for+Website.pdf
+
+## 11. Veredicto de Carlos (con condiciones)
+**VIGILAR.** Negocio de calidad excepcional y uno de los mejores refugios del superciclo eléctrico/IA, pero **el precio actual no ofrece margin of safety**. No opero por momentum ni persigo máximos: mantengo en radar y **acumulo en el rango 480-520$** (≈25-28x EPS forward, por debajo de la media de 200 días), o si el mercado ofrece una corrección sectorial que lleve el P/E forward a ~25x. Condiciones para elevar a COMPRAR: (a) entrada en zona de MOS, o (b) evidencia de expansión sostenida de ROIC por encima de WACC (>12%) que justifique múltiplos premium. Revisar el 2026-11-24 tras próximos resultados.
+
+<!-- META ticker=PWR veredicto=VIGILAR -->

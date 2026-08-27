@@ -1,0 +1,138 @@
+---
+title: "Take-Two Interactive (TTWO) — Análisis Fundamental"
+tipo: empresa
+tags: [empresa, analisis-fundamental, servicios-comunicacion]
+fecha: 2026-08-27
+agente: carlos-barez
+ticker: TTWO
+moneda: USD
+precio_referencia: 230.42
+fecha_precio: 2026-08-27
+valor_estimado: 190
+gatillo_entrada: < 175 USD (P/S <= ~4.5x o recorte post-lanzamiento GTA VI con FCF positivo sostenido)
+veredicto: SEGUIR
+revisar_el: 2026-11-24
+fuentes: "[\"https://en.wikipedia.org/wiki/Take-Two_Interactive\",\"https://stockanalysis.com/stocks/TTWO/financials/\",\"https://ir.take2games.com/node/31216/pdf\",\"https://www.take2games.com/ir/news/take-two-interactive-software-inc-reiterates-expectations\",\"https://ir.take2games.com/node/32401/pdf\"]"
+---
+
+# Take-Two Interactive (TTWO) — Análisis Fundamental
+
+## 1. Resumen ejecutivo
+
+Take-Two Interactive (NASDAQ: TTWO) es uno de los tres grandes publishers occidentales de videojuegos, dueña de franquicias de categoría mundial: **Grand Theft Auto** (Rockstar Games), **NBA 2K / WWE 2K / Civilization / Borderlands** (2K) y el negocio móvil de **Zynga** (adquirida en 2022). 
+
+El negocio hoy está estructuralmente saneado en caja operativa (FCF positivo TTM de ~$299M tras años de quemar efectivo) pero cotiza con **pérdidas netas** (NI TTM -$320M) y márgenes operativos aún ligeramente negativos (-1,4% TTM). El mercado no la precia por sus resultados actuales sino por el salto que anticipa con **GTA VI**, cuya fecha de lanzamiento es el **19 de noviembre de 2026** (FY2027), tras dos retrasos (de otoño 2025 a mayo 2026 y finalmente noviembre 2026).
+
+La compañía guía **Net Bookings de $8,0–8,2B para FY2027** (vs ~$6,6B en FY2026), un salto del ~25%. Es, por tanto, una historia de "calidad + opcionalidad de catálisis masiva", pero con **margen de seguridad limitado** a precio actual ($230,42; P/S 6,6x TTM). Veredicto: **SEGUIR** — acumular en debilidad, no perseguirla a precio de perfection.
+
+## 2. Descripción del negocio
+
+Fundada en 1993 (Ryan Brant), HQ en Nueva York, cotiza en Nasdaq-100 y S&P 500. Estructura por labels:
+- **Rockstar Games**: GTA (V + Online), Red Dead Redemption. El motor de valor de la compañía.
+- **2K**: NBA 2K, WWE 2K, PGA Tour 2K, Civilization, Borderlands, XCOM, BioShock, Mafia.
+- **Zynga** (desde 2022): móvil casual/hyper-casual (Toon Blast, Toy Blast, Words With Friends, Empires & Puzzles, Zynga Poker, Match Factory!, Color Block Jam).
+
+Segmentación de ingresos (TTM, $M): **Móvil 3.294 (49%)**, **Consola 2.687 (40%)**, **PC y otros 706 (11%)**. El móvil pasó de $403M (FY2022) a $3.294M (TTM) por Zynga — diversificación relevante pero de menor margen.
+
+**Recurrent consumer spending** = 80–84% de Net Bookings (FY2025: 80%; FQ1 FY2027: 84%). Esta recurrencia (GTA Online, NBA 2K MyTeam, juegos móviles) es el núcleo del moat y de la predictibilidad.
+
+## 3. Industria y moat competitivo
+
+Industria: Interactive Home Entertainment, altamente "hit-driven" y cíclica por lanzamientos, pero con fuertes barreras en las IP rentables. 
+
+Moat (ancho, cualitativo):
+1. **IP franchises perennes** con lealtad de décadas (GTA lleva 20+ años; NBA 2K es el simulador deportivo dominante por licencia NBA exclusiva).
+2. **Efectos de red y recurrencia**: GTA Online y los modos Ultimate Team/MyTeam generan ingresos años después del lanzamiento físico.
+3. **Escala de marketing y desarrollo**: pocos pueden costear producciones de $1–2B y lanzamientos globales simultáneos.
+4. **Diversificación de plataforma** (consola + PC + móvil + cloud), mitigando riesgo de una sola plataforma.
+
+El riesgo al moat es la **concentración en GTA**: el valor de la compañía está fuertemente atado a que Rockstar repita (y supere) el éxito de GTA V, que lleva 12 años generando caja.
+
+## 4. Análisis financiero (5 años, $M salvo ratios)
+
+| Concepto | TTM | FY2026 | FY2025 | FY2024 | FY2023 | FY2022 |
+|---|---|---|---|---|---|---|
+| Ingresos | 6.687 | 6.656 | 5.634 | 5.350 | 5.350 | 3.505 |
+| Crec. ingresos | 15,3% | 18,2% | 5,3% | -0,0% | 52,6% | 3,9% |
+| Margen bruto | 57,1% | 57,7% | 57,5% | 53,1% | 52,9% | 58,2% |
+| Resultado operativo | -93 | -80 | -521 | -545 | -576 | 545 |
+| Margen operativo | -1,4% | -1,2% | -9,2% | -10,2% | -10,8% | 15,6% |
+| Net Income | -320 | -298 | -4.479 | -3.744 | -1.125 | 418 |
+| FCF | 299 | 434 | -235 | -185 | -203 | 99 |
+| Cash & inversiones | 1.827 | 1.989 | 1.465 | 776 | 1.014 | 2.552 |
+| Deuda total | 2.945 | 2.958 | 4.106 | 3.534 | 3.487 | 250 |
+| Deuda neta | -1.118 | -969 | -2.640 | -2.758 | -2.473 | +2.302 |
+
+**Lectura:**
+- **Ingresos** creciendo de forma robusta (CAGR ~14% FY2022→TTM), impulsado por Zynga y el catálogo.
+- **Márgenes**: el bruto es estable ~57%. El operativo ha pasado de pérdidas profundas (-10% en 2023) a casi equilibrio (-1,4% TTM) por disciplina de costes y apalancamiento operativo.
+- **Las pérdidas netas de FY2025 (-$4.479M) y FY2024 (-$3.744M)** son en gran parte **deterioros de plusvalía (goodwill) e intangibles** tras la adquisición de Zynga, no cash burn operativo puro. El FCF de esos años fue negativo (-$235M, -$185M) por capex e inversiones, pero ya es **positivo y creciente** (TTM $299M; FY2026 $434M).
+- **Balance**: deuda neta de ~$1.118M (TTM), manejable; la deuda bruta cayó de $4.106M (FY2025) a $2.945M (TTM). Liquidez (cash+inv) $1.827M cubre holgadamente el corto plazo.
+- **ROIC/ROE**: no significativo en años de pérdidas; se normalizará post-GTA VI. El FCF positivo ya permite empezar a medir retorno de capital.
+
+## 5. Valoración
+
+Precio de referencia: **$230,42** (27 ago 2026). Múltiplos (stockanalysis):
+- **P/E**: N/A (pérdidas). Forward P/E: **28,5x** (current), 32x (FY2026).
+- **P/S**: **6,57x TTM**, 5,49x FY2026 — históricamente ha oscilado 3,8x (FY2023) a 6,5x (FY2025).
+- **P/FCF**: **147x TTM**, 84x FY2026 — exigente; refleja FCF aún pequeño.
+- **EV/EBITDA**: se estima **muy elevado (>100x)** sobre EBITDA actual (op income ~breakeven + D&A), típico de "pre-catalizador". Sobre EBITDA normalizado FY2027 (~$1,3–1,5B si margen op ~15%) el múltiplo cae a **~29–34x**, aún prima pero justificable para una IP única.
+
+**Valor intrínseco estimado (escenarios FY2027, Net Bookings $8,0–8,2B):**
+- Pesimista (margen op 12%, P/E 22x): ~$130/acción.
+- Base (margen op 17%, P/E 25x): **~$190/acción**.
+- Optimista (margen op 25%, P/E 28x, récord GTA): ~$270/acción.
+
+Precio actual ($230) está en la **mitad-alta del rango** → **margen de seguridad limitado**. El mercado ya descuenta un lanzamiento GTA VI exitoso.
+
+**Margin of safety (explícito):** dado que el 70% del valor depende de un solo lanzamiento con riesgo de ejecución y dos retrasos ya vividos, exijo un colchón. Gatillo de entrada: **< $175** (P/S ≈ 4,5x sobre ingresos FY2026 o compra post-recorte tras lanzamiento con FCF ya positivo y creciente).
+
+## 6. Equipo directivo e incentivos
+
+- **Strauss Zelnick** (Chairman & CEO desde 2007): veterano, estilo disciplinado en costes, orientado a "blockbuster de calidad" y valor a largo plazo. Posee ~82.568 acciones directas + vehículos (ZMC).
+- **Karl Slatoff** (Presidente) y **Lainie Goldstein** (CFO) completan el núcleo estable.
+- **Gobernanza de compensación sólida** (proxy DEF 14A FY2026, 95% say-on-pay): gran parte de la retribución es *performance-based*; requisitos de ownership (CEO 6x su fee anual; otros NEOs 3x salario), clawback, anti-hedging/anti-pledging, doble trigger en cambio de control, sin re-pricing de opciones sin votación. Alineación accionista: buena.
+
+## 7. Riesgos (3-6)
+
+1. **Ejecución y retraso de GTA VI**: ya retrasado dos veces (otoño 2025 → mayo 2026 → 19 nov 2026). Un tercer retraso o un lanzamiento decepcionante hundiría la tesis y el múltiplo.
+2. **Concentración en una franquicia**: GTA mueve desproporcionadamente el valor; declive de la IP o de GTA Online afectaría gravemente.
+3. **Valoración por perfection**: P/S 6,6x y múltiplos de FCF extremos; cualquier fallo de guías FY2027 ($8,0–8,2B) provoca corrección.
+4. **Legado de Zynga**: móvil aporta escala pero menor margen e intangibles; riesgo de nuevos deterioros si el segmento casual decepciona.
+5. **Ciclicidad hit-driven y plataformas**: dependencia de consola (Sony/MS) y de fees de Apple/Google en móvil; cambios en distribución/subscripción pueden comprimir márgenes.
+6. **Macro/regulatorio**: precios en mercados emergentes, regulación de loot boxes/monetización, y sensibilidad de consumo discrecional.
+
+## 8. Catalizadores y noticias recientes (2024-2025 / 2026)
+
+- **GTA VI confirmado para 19 nov 2026** (FY2027) tras retraso anunciado el 2 may 2025. Anticipado como el mayor lanzamiento de entretenimiento de la historia.
+- **FQ1 FY2027 (cierre 30 jun 2026)**: Net Bookings $1,39B (por encima de guía); recurrente = 84%.
+- **Guía FY2027: Net Bookings $8,0–8,2B** (vs ~$6,6B FY2026), con expectativa de "nueva base récord" y fuertes cash flows.
+- **FCF ya positivo** (TTM $299M; FY2026 $434M), reduciendo deuda bruta de $4,1B a $2,9B.
+- **Recurrencia 80–84%** de Net Bookings, base predecible pre-lanzamiento.
+
+## 9. Tesis bull / bear
+
+**Bull:** GTA VI es un evento generacional; con ~$8B de Net Bookings FY2027 y margen operativo que puede expandirse a 15–25% por apalancamiento, el FCF podría superar los $2–3B anuales sostenidos. IP perpetua + recurrencia 80%+ + balance saneado = calidad. A 5–6x ventas con este crecimiento, el precio actual puede ser razonable si el lanzamiento cumple.
+
+**Bear:** cotiza por expectativas no realizadas; P/S 6,6x y P/FCF 147x no dejan margen. Dos retrasos ya ocurrieron. Si GTA VI se lanza bien pero no "récord", o si los costes de producción siguen altos, el múltiplo se contrae. La historia del videojuego está llena de "priced for perfection" que decepcionaron.
+
+## 10. Fuentes (URLs)
+- https://en.wikipedia.org/wiki/Take-Two_Interactive
+- https://stockanalysis.com/stocks/TTWO/financials/
+- https://ir.take2games.com/node/31216/pdf  (FY2025 results)
+- https://www.take2games.com/ir/news/take-two-interactive-software-inc-reiterates-expectations  (GTA VI date)
+- https://ir.take2games.com/node/32401/pdf  (FQ1 FY2027 results & FY2027 outlook)
+- SEC DEF 14A FY2026 (gobernanza/compensación, vía Exa)
+
+## 11. Veredicto de Carlos (con condiciones)
+
+**SEGUIR.** Es una empresa de *calidad* (IP única, recurrencia 80%+, balance ya controlado, FCF positivo) y de *largo plazo*, pero **NO la compro a precio de perfección**. El valor intrínseco base (~$190) está por debajo del precio actual ($230), y el riesgo de ejecución de GTA VI es real (dos retrasos históricos). 
+
+Condiciones para pasar a **COMPRAR**:
+1. Precio **< $175** (P/S ≈ 4,5x), o recorte post-lanzamiento que no rompa la tesis.
+2. Confirmación de lanzamiento de GTA VI el **19 nov 2026** sin nuevo retraso.
+3. FY2027 Net Bookings dentro de $8,0–8,2B y FCF operativo creciente.
+
+Mientras tanto: la vigilo, no la persigo. Si llega el gatillo, es una de las mejores "quality moats" del sector Communication Services.
+
+<!-- META ticker=TTWO veredicto=SEGUIR -->

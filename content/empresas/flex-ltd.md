@@ -1,0 +1,118 @@
+---
+title: "Flex Ltd. (FLEX) — Análisis Fundamental"
+tipo: empresa
+tags: [empresa, analisis-fundamental, tecnologia]
+fecha: 2026-08-27
+agente: carlos-barez
+ticker: FLEX
+moneda: USD
+precio_referencia: 115.11
+fecha_precio: 2026-08-27
+valor_estimado: 105
+gatillo_entrada: <= 90 USD (margen de seguridad ~15-20% vs valor conservador; P/E forward ~18x)
+veredicto: VIGILAR
+revisar_el: 2026-11-24
+fuentes: "[\"https://stockanalysis.com/stocks/FLEX/\",\"https://stockanalysis.com/stocks/FLEX/financials/\",\"https://stockanalysis.com/stocks/FLEX/statistics/\",\"https://www.flex.com/downloads/flex-spinco-transaction-faqs\",\"https://investors.flex.com/news/news-details/2026/Flex-Announces-Intention-to-Spin-Off-its-Cloud-and-Power-Infrastructure-Segment-into-a-New-Independent-Publicly-Traded-Company/default.aspx\",\"https://investors.flex.com/news/news-details/2026/FLEX-REPORTS-FIRST-QUARTER-FISCAL-2027-RESULTS/default.aspx\",\"https://www.sec.gov/Archives/edgar/data/866374/000130817925000555/flex014214-ars.pdf\"]"
+---
+
+# Flex Ltd. (FLEX) — Análisis Fundamental
+
+## 1. Resumen ejecutivo
+Flex Ltd. (NASDAQ: FLEX) es uno de los mayores proveedores globales de manufactura electrónica (EMS) y soluciones de cadena de suministro y tecnología, en plena transformación de "contratista de manufactura" a "compañía industrial tecnológica enfocada". Con ~149.700 empleados y presencia en 30 países, factura ~29.300 M$ (TTM). 
+
+La tesis se ha revalorizado fuertemente por su exposición a la infraestructura de IA (data centers): el margen operativo ajustado subió de ~3,7% (FY2022) a 6,7% (Q1 FY2027) y el ROIC alcanza 15,1%. Sin embargo, la acción acumula +115% en 52 semanas y cotiza a P/E 44,4 (TTM) / 22,0 forward y P/FCF 50,1 — múltiplos exigentes que dejan poco margen de seguridad hoy. Además, la compañía ejecutará el spin-off de su segmento Cloud & Power Infrastructure ("SpinCo") en Q1 2027, un catalizador estructural pero también una fuente de incertidumbre.
+
+**Veredicto de disciplina:** VIGILAR. Negocio de calidad en mejora y con moat creciente, pero caro tras el rally. Entrar con margin of safety sólo por debajo de ~90$ (P/E forward ~18x). No es compra por momentum.
+
+## 2. Descripción del negocio
+Flex diseña, fabrica y gestiona el ciclo de vida de productos para marcas líderes ("manufacturing partner of choice"). Operaba en tres segmentos (reorganización en curso por el spin-off):
+- **Integrated Technology Solutions (ITS):** soluciones de manufactura y cadena de suministro para comunicaciones (networking de alta velocidad, enterprise, satélite), consumer, industrial, automotriz y healthcare.
+- **Regulated Manufacturing Solutions (RMS):** manufactura regulada (salud/farma, etc.).
+- **Cloud and Power Infrastructure (CPI):** *a ser escindido*. Power y thermal management "grid-to-chip" para data centers de IA (incluye adquisiciones JetCool — refrigeración líquida directa a chip— y Crown Technical Systems — switchgear de media tensión—).
+
+Ingresos por línea (FY2026): Communications 5.500 M$, Lifestyle 5.600 M$, Cloud & Cooling 4.500 M$, Industrial 3.800 M$, Automotive 3.600 M$, Power 2.100 M$, Healthcare 2.800 M$. La historia de valor se centra en migrar de EMS de bajo margen hacia productos y servicios de mayor valor añadido ("EMS + Products + Services").
+
+## 3. Industria y moat competitivo
+- **Moat (moderado a fuerte, en construcción):** escala global (>48 M pies² de manufactura, ~9 M pies² en México, footprint muy orientado a "nearshoring" EE.UU.), relaciones profundas y de largo plazo con OEMs de primer nivel, y creciente integración vertical en power/cooling para IA que es difícil de replicar (sólo Flex ofrece hoy Integración cloud end-to-end + power grid-to-chip).
+- **Ventaja diferencial AI:** posición única en infraestructura crítica digital (power + thermal + compute a nivel de sistema) frente al enfoque fragmentado multi-vendor. Tailwinds seculares: electrificación, aumento de densidad de potencia y complejidad de IA.
+- **Estructura de la industria:** EMS es competitiva y cíclica (márgenes bajos), pero la rama de infraestructura de IA tiene barreras mayores. Riesgo de comoditización si no continúa el mix hacia valor.
+
+## 4. Análisis financiero (3-5 años)
+Cifras en millones USD, ejercicio fiscal abril–marzo (Fuente: stockanalysis.com / S&P Global).
+
+| Concepto | FY2022 | FY2023 | FY2024 | FY2025 | FY2026 | TTM |
+|---|---|---|---|---|---|---|
+| Ingresos | 24.633 | 28.502 | 26.415 | 25.813 | 27.914 | 29.267 |
+| Crec. ingresos | 2,1% | 15,7% | -7,3% | -2,3% | +8,1% | +12,3% |
+| Margen bruto | 7,29% | 7,01% | 7,65% | 8,63% | 9,41% | 9,53% |
+| Margen op. | 3,67% | 3,66% | 3,89% | 4,86% | 5,39% | 5,35% |
+| Beneficio neto | 936 | 793 | 1.006 | 838 | 880 | 973 |
+| EPS | 1,94 | 1,72 | 2,28 | 2,11 | 2,33 | 2,59 |
+| FCF | 581 | 315 | 796 | 1.067 | 1.052 | 826 |
+| Deuda total | 4.880 | 4.322 | 3.887 | 4.283 | 4.465 | 5.930 |
+| Efectivo | 2.964 | 3.164 | 2.474 | 2.289 | 2.389 | 2.840 |
+
+**Lectura:**
+- **Mejora de calidad sostenida:** el margen bruto pasó de 7,3% (2022) a 9,5% (TTM) y el operativo de 3,7% a 5,4% — expansión real de mix y eficiencia (estrategia "Flex Forward").
+- **FCF robusto y creciente** (~1.000 M$ anuales FY2025-26), aunque el TTM cae a 826 M$ por CapEx elevado (736 M$, +68% vs FY2025) destinado a la capacidad de IA.
+- **Balance manejable:** deuda 5.930 M$, efectivo 2.840 M$, deuda neta -3.090 M$ (-8,36$/acción). Deuda/EBITDA 2,53x, cobertura de intereses 6,99x, current ratio 1,38. Altman Z 2,57 (por debajo de 3 — vigilar apalancamiento, aunque estable).
+- **Rentabilidad:** ROE 18,4%, ROIC 15,1% — por encima de su WACC (~12,1%). Creación de valor real.
+- **Acciones en descenso** (-3,65% anual por buybacks; yield de recompra 3,65%) — disciplina de capital.
+
+## 5. Valoración
+- **P/E TTM 44,4x / Forward 22,0x.** El P/E histórico (2019-22) rondaba 9-13x; el re-rating a 22x forward refleja el cambio de narrativa (IA + expansión de márgenes).
+- **EV/EBITDA 20,9x; EV/FCF 53,8x; P/FCF 50,1x; P/S 1,41x; P/B 7,51x.** Múltiplos de FCF y EBITDA exigentes, típicos de "growth at a reasonable price" pero no baratos en términos absolutos.
+- **PEG 0,46** (muy atractivo sobre el papel, asumiendo el crecimiento esperado de EPS ~43% a 3 años).
+- **Consenso de analistas:** Strong Buy, precio objetivo 160,50$ (+39% vs 115,11$).
+
+**Estimación de valor intrínseco (conservadora):** ~105$/acción. Metodología: EPS normalizado sostenible ~4,5$ (Q1 FY2027 anualiza >4$ y sube) × múltiplo de calidad 22-25x (justificado por ROIC 15% > WACC 12% y exposición IA) = ~99-113$. Escenario alcista (ejecución SpinCo + crecimiento AI) acerca al objetivo de 160$.
+
+**Margin of safety explícito:** a 115,11$ el precio está ~10% POR ENCIMA de mi estimación conservadora → **sin margen de seguridad**. El P/E trailing 44x y el P/FCF 50x penalizan un error de tesis. Para un inversor valor/calidad, el punto de entrada con protección es ≤90$ (P/E forward ~18x, ~15-20% bajo el valor conservador).
+
+## 6. Equipo directivo e incentivos
+- **Revathi Advaithi (CEO actual):** liderará **SpinCo** (Cloud & Power Infrastructure) como CEO y será Presidenta No Ejecutiva de Flex durante la transición. Incentivos alineados con la creación de valor del spin-off.
+- **Michael Hartung:** será el **CEO de Flex** tras la escisión (foco en manufactura avanzada, ITS + RMS, optimización de portafolio y cash flow duradero).
+- La estructura de dos compañías independientes (liderazgo dedicado, asignación de capital propia) es un punto positivo de gobernanza y foco estratégico.
+- Propiedad institucional 96,3%, insiders 0,61% (bajo, típico de large cap; vigilar alineación post-spin).
+
+## 7. Riesgos (3-6)
+1. **Valoración exigente:** P/E 44x TTM / P/FCF 50x deja poco margen ante un frenazo del momentum de IA o un error de crecimiento.
+2. **Ejecución del spin-off (SpinCo):** previsto Q1 2027; riesgos de retraso, costes, o no materialización de beneficios; la CEO cambia de sombrero (posible distracción).
+3. **Ciclo y concentración en IA/data centers:** una desaceleración del capex de hyperscalers impactaría el segmento de mayor crecimiento.
+4. **Riesgos macro/geopolíticos:** aranceles y tensiones EE.UU.–China, volatilidad de divisas, tipos de interés — citados explícitamente en los riesgos de la propia compañía.
+5. **Comoditización del EMS:** presión de márgenes si el mix no sigue migrando a valor; margen neto aún fino (3,3%).
+6. **Apalancamiento y Z-Score:** Altman Z 2,57 (<3) y deuda neta negativa moderada; un apretón de crédito o caída de FCF por CapEx sostenido presionaría el balance.
+
+## 8. Catalizadores y noticias recientes (2024-2025 / 2026)
+- **May 2024 — Investor Day:** presentación de la estrategia "EMS + Products + Services" y foco en power "grid-to-chip" para IA.
+- **May 5, 2026 — Anuncio del spin-off** de Cloud & Power Infrastructure (SpinCo); cierre previsto Q1 2027, tax-free, Flex retendría ≤19,9%.
+- **Jul 29, 2026 — Q1 FY2027:** ventas 7.900 M$ (+21% a/a), margen op. GAAP 4,9% / ajustado 6,7%, EPS ajustado récord 1,00$; guía FY2027 elevada; en camino para el spin-off.
+- **Jul 29, 2026 — Equipos de liderazgo** de Flex y SpinCo anunciados (Advaithi→SpinCo CEO; Hartung→Flex CEO).
+- **Ingreso al S&P 500** y múltiples recortes de precio objetivo por analistas (Baird 142$, JPMorgan 160$, Goldman 154$, Barclays 144$, Raymond James 170$) tras el rally.
+- **Adquisiciones** JetCool (cooling líquido) y Crown Technical Systems (power/media tensión) refuerzan el moat de IA.
+
+## 9. Tesis bull / bear
+**Bull:** (i) Líder único en infraestructura crítica de IA (power+cooling+compute) difícil de replicar; (ii) expansión de márgenes sostenida (7→9,5% bruto) y ROIC 15% > WACC; (iii) spin-off desbloquea valor y crea dos vehículos enfocados con crecimiento de SpinCo de 65-75% en FY2027; (iv) PEG 0,46 y P/E forward 22x razonable si el crecimiento se materializa; (v) buybacks disciplinados y balance controlado.
+
+**Bear:** (i) Múltiplos muy estirados tras +115% en 52 semanas (P/E 44x, P/FCF 50x) — poco margen de error; (ii) dependencia del capex de hyperscalers y riesgo de sobreconstrucción de IA; (iii) ejecución del spin-off incierta y posible distracción de la CEO; (iv) EMS sigue siendo cíclico y de bajo margen neto; (v) Z-Score <3 y exposición geopolítica/arancelaria.
+
+## 10. Fuentes (URLs)
+- https://stockanalysis.com/stocks/FLEX/ (overview, precio, márgenes, noticias)
+- https://stockanalysis.com/stocks/FLEX/financials/ (estados financieros 5 años)
+- https://stockanalysis.com/stocks/FLEX/statistics/ (ratios, valoración, Z-Score)
+- https://www.flex.com/downloads/flex-spinco-transaction-faqs (FAQ spin-off SpinCo)
+- https://investors.flex.com/news/news-details/2026/Flex-Announces-Intention-to-Spin-Off-its-Cloud-and-Power-Infrastructure-Segment-into-a-New-Independent-Publicly-Traded-Company/default.aspx
+- https://investors.flex.com/news/news-details/2026/FLEX-REPORTS-FIRST-QUARTER-FISCAL-2027-RESULTS/default.aspx
+- https://www.sec.gov/Archives/edgar/data/866374/000130817925000555/flex014214-ars.pdf (Annual Report / estrategia)
+
+## 11. Veredicto de Carlos (con condiciones)
+**VIGILAR.** Flex es un negocio de calidad en clara mejora (moat de infraestructura IA en construcción, márgenes y ROIC crecientes, balance sano, buybacks) — justo el perfil valor/calidad que busco a largo plazo. Pero **no compro tras un rally del +115% ni a P/E 44x / P/FCF 50x sin margin of safety**. 
+
+**Condiciones de entrada:**
+1. **Precio ≤ 90$** (P/E forward ~18x, ~15-20% bajo valor intrínseco conservador ~105$), o
+2. Pullback ligado a miedo macro/arancelario que no dañe la tesis estructural de IA, o
+3. Confirmación post-spin-off de que Flex (ITS+RMS) retiene crecimiento y FCF sólido y SpinCo cotiza con descuento atractivo.
+
+Mantendré seguimiento hasta 2026-11-24 (post Investor Day 10-nov-2026 y cercano al cierre del spin-off en Q1 2027). No es una venta del negocio; es esperar el precio correcto. Si el precio cae a zona de valor sin rotura de la tesis, paso a COMPRAR/SEGUIR.
+
+<!-- META ticker=FLEX veredicto=VIGILAR -->
