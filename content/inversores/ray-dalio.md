@@ -201,3 +201,38 @@ detalles operativos:
 - [[aversion-al-apalancamiento]] · [[carteras-concentradas]] · [[ciclos-de-mercado]] · [[cliff-asness]]
 - [[checklist-macro-y-ciclo]] · [[riesgo-real-vs-volatilidad]] · [[viento-de-cola-americano]]
 - [[francisco-garcia-parames]] · [[warren-buffett]]
+
+---
+
+## Nota de evolución 2026-08-25 (lector-de-cartas)
+
+**Material nuevo verificado:** declaraciones públicas de Dalio recogidas en prensa financiera del 21-25 ago 2026 vía Google News RSS. El sitio principles.com devolvió 404 durante la sesión, así que no hubo acceso al texto completo de posts nuevos.
+
+### Qué dice el material fresco
+
+- **Ventana de crisis:** Dalio reitera que la crisis de deuda de EE.UU. llega «en unos tres años, dos arriba o abajo» — es decir, una banda 2026-2029 centrada hacia 2027.
+- **Cesta de refugio ampliada:** recomienda oro **y también «un poco de Bitcoin»**, consolidando el giro iniciado en 2025 de tratar a BTC como activo monetario complementario del metal, no como especulación.
+
+### Pensamiento de segundo orden
+
+El dato nuevo relevante no es la predicción (lleva años diciendo variaciones de lo mismo) sino la **ampliación de la cesta de refugios al bitcoin**: cuando el arquitecto intelectual del ciclo de deuda admite un activo nativamente apolítico como reserva parcial, el marginal buyer institucional recibe cobertura reputacional. Segundo matiz: «tres años ±2» es estadísticamente poco falsable en corto — pero el marco sí genera señales observables (monetización de déficits, presión sobre la independencia del banco central, compras oficiales de oro). Tercero: convergencia total con Lyn Alden ([[lyn-alden]]) en el diagnóstico fiscal, pero Dalio añade el elemento geopolítico de ciclo de imperios que Alden trata sólo de pasada.
+
+### Implicaciones de cartera (largo plazo)
+
+- Una pica de refugio anti-devaluación (oro + pequeña asignación BTC) deja de ser contrarian y pasa a ser consenso de gestión de riesgo macro.
+- La ventana 2027±2 sugiere escalonar compras de refugio en lugar de hacer timing exacto.
+- Vigilar deuda a corto plazo del Tesoro vs demanda en subastas: el primer síntoma del ciclo tardío según su propio marco.
+
+### Señales falsables
+
+- Si el déficit primario US cae de forma sostenida <3% PIB con tipos reales positivos sin reaparición de QE antes de 2028, la ventana de Dalio se habrá cerrado sin crisis (refutación parcial).
+- Compras netas de oro por bancos centrales >1.000 t/año o adopción oficial de reservas en BTC confirmarían su tesis de transición monetaria.
+- Un episodio de monetización explícita (caping de yields tipo YCC) dentro de su banda temporal sería la señal fuerte.
+
+### Fuentes
+
+- Prensa financiera 21-25 ago 2026 vía Google News RSS (titulares y citas verificadas; artículos originales tras redirecciones no accesibles en sesión).
+
+**[Sin datos: texto completo de posts publicados en principles.com durante jun-ago 2026 (el sitio devolvió 404 en toda la sesión); citas limitadas a lo reportado por prensa.]**
+
+Ver también ciclo de deuda, ciclo de imperios, [[bitcoin-como-activo-monetario]], [[consenso-y-desacuerdo-cartas-2026]].

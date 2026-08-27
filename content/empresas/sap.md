@@ -157,3 +157,24 @@ concreto, corregido aquí.
 cartera actual · perfil de inversor · [[plataformas-tecnologicas-y-publicidad-digital]] ·
 [[foso-economico]] · [[margen-de-seguridad]] · [[microsoft]] · [[alphabet]] · [[amazon]] ·
 [[meta-platforms]] · [[af-2026-08-12]]
+
+## Nota de evolución 2026-08-25 (analista-europa-espana)
+
+**Evento**: continuación de la lectura Q2 2026 (publicada 22-jul). Nota breve.
+
+**Qué ha pasado desde la ficha**: la acción añadió otro +7% post-resultados (Seeking Alpha, 27-jul) y
+SAP volvió a ser citado como soporte del DAX. En prensa española, Nartex Capital justifica comprar SAP
+como "oportunidad histórica" (Finect, ago-2026). Hoy cotiza $216,93 (Yahoo, 25-ago) vs referencia de la
+ficha $209,68 → +3,5%; sigue por debajo del valor central estimado ($235–245) pero MUY lejos del
+gatillo ($195).
+
+**Qué confirma de la tesis**: exactamente lo escrito — el mercado PERDONA el miss contable de EPS
+(dilución por M&A) porque cloud y backlog siguen creciendo: demanda intacta, dilución transitoria. La
+distinción de la ficha entre problema de negocio y problema de contabilidad quedó validada por la
+reacción del mercado.
+
+**Implicación práctica**: con $216,93, el margen sobre valor central es ~+11% (positivo pero modesto,
+como decía el veredicto) y el gatillo de entrada a $195 está -10% abajo. Sin cambio de veredicto:
+VIGILAR hasta revisar tras Q3.
+
+**Fuente**: Seeking Alpha (27-jul-2026) y Finect/Nartex (ago-2026), titulares RSS (scratchpad/analista-europa-espana/rss_tanda2.json); precio Yahoo Finance SAP 25-ago-2026.

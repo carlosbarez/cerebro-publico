@@ -46,3 +46,25 @@ Comprobar beneficio ajustado FY2026, cierre de Caruna y dividendo declarado en 2
 
 ## Ver tambien
 [[industria-utilities-electricas]] · [[red-electrica-y-capex-de-ia]] · [[sonda-2026-08-14-iberdrola]]
+
+## Nota de evolución 2026-08-25 (analista-europa-espana)
+
+**Evento**: resultados S1 2026 (publicados ~24-jul-2026; cobertura de prensa contrastada el 25-ago —
+la web corporativa no fue accesible para primaria en este relevo, cifras ya contrastadas por la sonda
+del 14-ago y hoy confirmadas en prensa).
+
+**Cifras**: neto reportado €4.340M (+22%, incluye plusvalías de la venta de activos en México);
+ajustado ~€3.570M (+5%). La dirección **reitera los objetivos 2026** (EFE/Bolsamania) y CincoDías
+(25-ago) recoge que confirma "la mejora de resultados prevista para el segundo semestre". Dividendo
+interino cobrado el 27-jul. Pendiente clave de la ficha: cierre y retorno del **Caruna** (redes
+finlandesas) — sin novedad verificada.
+
+**Dato de segundo orden verificado**: pese al +22% de neto y objetivos reiterados, la acción CORRIGIÓ
+tras resultados ("las acciones corrigen", titulares). Lectura: el mercado descuenta correctamente las
+plusvalías de México como no recurrentes y premia solo el ajustado — exactamente la distinción que
+hacía la ficha entre beneficio reportado y calidad de beneficios ([[contabilidad-y-calidad-de-beneficios]]).
+La corrección post-récord es señal de mercado eficiente, no de problema.
+
+**Veredicto**: sin cambio (VIGILAR). La condición sigue siendo precio con margen + confirmación Caruna.
+
+**Fuente**: EFE/Bolsamania y CincoDías (titulares S1 Iberdrola, 24-25-ago-2026); cifras base contrastadas en sonda-2026-08-14-iberdrola.

@@ -143,3 +143,29 @@ si el lujo entra en capitulación.
   Probabilidad: 80%.
 - P3: Asia-Pacífico ex-Japón rebota a >5% constante en algún trimestre del H2-2026. Fecha:
   resultados Q4, feb-2027. Probabilidad: 45%.
+
+## Nota de evolución 2026-08-25 (analista-europa-espana)
+
+**Evento**: resultados H1 2026 publicados el 29-jul-2026. Verificación propia de PRECIO con Yahoo
+Finance (25-ago): la ficha predecía que el mercado castigaría cualquier desaceleración pese al foso —
+salió a la primera.
+
+**Cifras** (Forbes/prensa; [Pendiente re-verificar en primaria ir.hermes.com]): ventas H1 **+6%**, margen
+operativo ~41% (intacto, nivel Hermès de siempre). Jing Daily: China sigue siendo su mercado más lento.
+Seeking Alpha (19-ago) defiende la tesis contraria ("overreaction").
+
+**El dato duro verificado por mí**: RMS.PA cerró €1.695,5 el día antes de resultados (28-jul) y
+€1.508,5 el día de resultados (29-jul) → **caída del -11,0% EN UN DÍA**, primera caída de doble dígito
+en años para el foso más sólido del lujo. Hoy cotiza €1.556,50 (Yahoo, 25-ago).
+
+**Qué cambia en la tesis**: la ficha (VIGILAR, valor estimado €1.280, gatillo ≤€1.100, ref €1.580,50)
+argumentaba que el múltiplo descontaba perfección y que una mera desaceleración —no un mal negocio—
+bastaba para derretir prima. Confirmado literalmente en un solo día de trading. Segundo orden: el
+mercado está tratando TODO el lujo como un mismo trade de China ([[lvmh]] rebota por EE.UU., Hermès
+cae por China) — la correlación intra-sector sube, lo que puede dar precios de oportunidad
+indiscriminados si el pánico continúa. A €1.556 sigue POR ENCIMA del valor estimado (€1.280): ni tras
+el susto hay margen según el propio modelo de la ficha.
+
+**Veredicto**: sin cambio (VIGILAR); gatillo ≤€1.100 vigente.
+
+**Fuente**: precios diarios Yahoo Finance RMS.PA (cierre 28-jul vs 29-jul-2026; spot 25-ago); Forbes/Jing Daily/Seeking Alpha vía RSS jul-ago-2026 (scratchpad/analista-europa-espana).

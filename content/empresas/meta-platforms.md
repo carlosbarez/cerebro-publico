@@ -97,3 +97,25 @@ Fuente: [[conocimiento-2026-08-16]], filing Q2-2026 de Meta; verificación en
 [[plataformas-tecnologicas-y-publicidad-digital]] · [[alphabet]] · [[microsoft]] · [[nvidia]] ·
 [[foso-economico]] · [[opciones-reales]] · [[terry-smith]] · [[comparar-dos-empresas]] · cartera actual ·
 [[af-2026-07-22]]
+
+## Nota de evolución 2026-08-25 (analista-usa): los costes crecen el doble que los ingresos
+
+Del PR oficial Q2 2026 (29-jul), lo nuevo tras el 16-ago:
+
+1. Ingresos $60,8B (+28%) con impresiones +14% Y **precio por anuncio +12%** — el foso publicitario
+   sigue a pleno rendimiento. El problema NO es el negocio: es la fábrica de gastos. Costes totales
+   $42,0B vs $27,1B hace un año (**+55%**): resultado operativo $18,8B → margen ~31% (vs ~43%), EPS
+   $6,18 en caída YoY.
+2. Dentro del +55% hay dos partidas discretas: **$1,18B de severance por el recorte de plantilla de
+   mayo-2026** (~8.000 empleados, saldrán de la nómina antes de fin de Q3) y cargas legales. El recorte
+   es la primera señal de disciplina; la guía de costes 2026 se mantiene.
+3. Capex 2026 afinado a **$130-145B** (desde $125-145B) y FCF trimestral de **$784M** (vs $8,5B hace un
+   año): la publicidad ya financia menos de la mitad del capex de IA — el resto sale de caja/deuda
+   ([[financiacion-estructurada-del-capex-de-ia]]).
+
+Segundo orden para la tesis de calidad: Meta sigue siendo el mejor negocio publicitario del mundo, pero
+2026 es el año en que dejó de ser autofinanciada en tiempo real. Si el recorte de OPEX de mayo se nota
+en H2 (promesa: OI 2026 > OI 2025), la tesis compounding se repara sola; si no, el mercado empezará a
+tratarla como utility de capex. Posición de Carlos: la mayor del bloque tech (cartera actual).
+
+Fuente: Meta Q2 2026 results (PRNewswire): https://www.prnewswire.com/news-releases/meta-reports-second-quarter-2026-results-302838214.html — consulta 2026-08-25.

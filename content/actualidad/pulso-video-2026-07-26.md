@@ -5,55 +5,48 @@ cobertura: parcial
 tags: [actualidad, pulso, video, macro, geopolitica, iran, fed, oro, ia, capex, semis, china, aranceles, 2026-07, snapshot]
 fecha: 2026-07-26
 verificacion: imposible — crudo perdido 2026-07 (pre-hook; la fuga se tapó el 31-jul)
-canales: [Misterpuertas, "José Luis Cárpatos", NegociosTV, "Bloomberg TV"]
-fuentes: ["[[misterpuertas-metodo]]", "[[carpatos-metodo]]", "[[negociostv-metodo]]", "[[bloomberg-tv-metodo]]"]
+canales: [un canal técnico español, "una mesa de mercado española", una cadena económica española, "una cadena financiera internacional"]
+fuentes: ["un canal técnico español metodo", "[[carpatos-metodo]]", "[[negociostv-metodo]]", "una cadena financiera internacional tv metodo"]
 destilado_por: openrouter
 ---
 
 > [!info] Es una FOTO, no conocimiento permanente
-> Digest de **8 vídeos, 4 canales activos de 8**, ventana 25-26 jul (mayoría 26-jul): Misterpuertas (1),
-> Cárpatos (1), NegociosTV (3 de ~20 listados) y Bloomberg TV/@markets (3 de 15 candidatos D-1). **Cava,
-> Gustavo-Bolsa, Javier DV y Bloomberg Podcasts sin vídeo procesable** (normal para los tres primeros; en
-> Bloomberg Podcasts, de ~25 candidatos, todos eran duplicado exacto de @markets con otro ID, contenido
-> explícitamente excluido por regla de canal — `Stock Movers`, publicidad patrocinada, quiz semanal — o
-> reediciones ya cubiertas de la entrevista a Jensen Huang del 25-jul; `Big Take` sobre impuestos a
-> billonarios no es `Bloomberg Talks`, queda anotado como posible lead, no procesado).
+> Digest de **8 vídeos, 4 canales activos de 8**, ventana 25-26 jul (mayoría 26-jul): un canal técnico español (1),
+> una mesa de mercado española (1), una cadena económica española (3 de ~20 listados) y una cadena financiera internacional/@markets (3 de 15 candidatos D-1). **un divulgador macro español,
+> un analista macro español-Bolsa, un gestor de fondos español y una cadena financiera internacional sin vídeo procesable** (fuente externa).
 >
-> **Descartes de volumen**: Misterpuertas (`Google se desploma`, 25-jul) y Cárpatos (`Compre barato…década
+> **Descartes de volumen**: un canal técnico español (`Google se desploma`, 25-jul) y una mesa de mercado española (`Compre barato…década
 > perdida`, 25-jul) eran el **mismo vídeo ya procesado** en la "Actualización (26-jul)" de
-> [[pulso-video-2026-07-25]] — confirmado por título antes de reprocesar. **NegociosTV** (~20 candidatos
+> [[pulso-video-2026-07-25]] — confirmado por título antes de reprocesar. **una cadena económica española** (~20 candidatos
 > 25-26 jul, 3 procesados): descartados por duplicidad ya verificada (Jalife "bomba nuclear israelí" —
 > REFUTADA el 26-jul—, Iturralde "rescatará tecnológicas", Ribes "rebote de gato muerto", Melián "pacto
-> EEUU-Arabia Saudí", todos ya procesados como parte del lote de 5 de la nota anterior) y por el patrón ya
-> documentado de "dramático vs. relevante" (Irastorza ×2, Jalife nueva pieza sobre "error de cálculo
+> EEUU-Arabia Saudí", todos ya procesados como parte del lote de 5 de la relevante" (Irastorza ×2, Jalife nueva pieza sobre "error de cálculo
 > suicida", Iturralde "rearme nuclear de Arabia Saudí", Zelaia, Temprano — comentario geopolítico repetido
 > sin dato financiero nuevo sobre un hilo ya resuelto por verificación adversarial) y por foco (Gómez-Acebo
 > inmobiliario, Alonso/Lamesa sobre legitimidad de Zelensky, Moreno, *Time for Business* pyme, "IA para la
-> Renta", Ley de Transparencia de coches — ninguno con dato financiero verificable). **Bloomberg TV** (15
+> Renta", Ley de Transparencia de coches — ninguno con dato financiero verificable). **una cadena financiera internacional** (15
 > candidatos D-1, 3 procesados): descartados `By The Way` (relleno recurrente), Miami/vivienda, política
 > rusa/vodka, puente Canadá-EE.UU., posgrado, helados (Van Leeuwen), y piezas de política doméstica/Ucrania
 > (Coates, Maine Democrats, *Conflict Stretches Military Resources*) redundantes con la cobertura ya extensa
 > de Oriente Medio del resto del barrido.
 
-(Hermana del día: [[pulso-2026-07-25-a-26]] — Elena ya cubrió la misma de-escalación Irán-EE.UU. desde
-newsletters; se cruza y confirma, no se repite, en la sección 1.)
+(fuente externa, 2026-07-25)
 
 ## 1. Irán-Israel: la pausa se confirma por 3 fuentes independientes, con un matiz técnico que la complica
 
-**Misterpuertas** (26-jul) confirma, de forma independiente y con el mismo mecanismo que ya trajo
-[[pulso-2026-07-25-a-26]] (Elena, vía Axios/themarketseye): el sábado Trump **ordenó al Ejército no ejecutar**
+**un canal técnico español** (26-jul) confirma, de forma independiente y con el mismo mecanismo que ya trajo
+[[pulso-2026-07-25-a-26]] (fuente externa): el sábado Trump **ordenó al Ejército no ejecutar**
 los ataques contra Irán aprobados el viernes, horas después de reanudarse conversaciones mediadas por Omán
 para la reapertura del estrecho de Ormuz. Irán suspendió sus ataques de represalia tras dos noches sin
 ataques de EE.UU. — **tercera fuente independiente confirmando la misma secuencia de hechos sin citarse entre
-sí** (Axios/prensa vía Elena, Misterpuertas vía fundamental/técnico, y el propio mercado de derivados). Los
+sí** (fuente externa). Los
 derivados de petróleo descontaban una caída de ~4% a la apertura del lunes; Brent había tocado brevemente
 >$100 y corrigió a lo largo de la semana. Un nuevo incidente en el mar Caspio (buque mercante iraní atacado,
 1 muerto) añade a Irán una vía de reclamación adicional que cruza por primera vez el conflicto Rusia-Ucrania
 con la crisis Irán-EE.UU. sobre un mismo hecho — Irán ya lo ha planteado en llamadas con la UE (Kallas) y
 Rusia (Lavrov).
 
-**El matiz que complica la narrativa de "de-escalación limpia"** (NegociosTV, Gonzalo Cañete, 26-jul, informe
-de prensa de esa misma mañana): el ataque a la base de Jordania — ya documentado en runs anteriores (WSJ/
+**El matiz que complica la narrativa de "de-escalación limpia"** (fuente externa): el ataque a la base de Jordania — ya documentado en runs anteriores (WSJ/
 CENTCOM, 2 muertos) — tuvo un detalle técnico nuevo: los **misiles iraníes derrotaron baterías Patriot
 estadounidenses** desplegadas en la base, obligando a EE.UU. a pedir cobertura antiaérea a las propias
 fuerzas jordanas. Trump ha prometido represalia ("venganza") por los soldados caídos. El propio comunicador
@@ -62,22 +55,22 @@ que se recrudece** (más tropas, más aviones desplazados). La lectura correcta 
 contradigan — es que la pausa de fin de semana (confirmada con solidez) convive con una escalada de
 capacidades militares iraníes que no ha desaparecido del tablero.
 
-- **Niveles de mercado** (Misterpuertas): S&P500 cerró la semana en **7.412** (-0,61% semanal), Nasdaq -1,62%,
-  Russell -1,09%; gamma flip/*vol trigger* en **7.400/7.500**, zona decisiva **7.470-7.550** (JJ Montoya) —
+- **Niveles de mercado** (fuente externa): S&P500 cerró la semana en **7.412** (-0,61% semanal), Nasdaq -1,62%,
+  Russell -1,09%; gamma flip/*vol trigger* en **7.400/7.500**, zona decisiva **7.470-7.550** (fuente externa) —
   cifras que coinciden exactamente con las que trajo [[pulso-2026-07-25-a-26]] desde jjmontoya vía otro canal,
   buena corroboración cruzada de bajo coste. VIX 18,57, VVIX >100 (demanda de protección persistente).
   Probabilidad de subida de tipos en julio a cierre de viernes: **37,9%**.
 - **Cruce**: [[mineria-industrial-y-energia]] (la tenaza Ormuz sigue activa aunque en pausa táctica),
   EOG Resources (energía, 12,7% del bloque tangibles), predicción registrada
   `2026-07-23-brent-sostiene-90-agosto` (prob. 0,68) — sigue en el filo tras el susto de fin de semana.
-- **📌 predicción** (implícita, Misterpuertas): si el petróleo corrige a la baja el lunes, se alivia la
+- **📌 predicción** (fuente externa): si el petróleo corrige a la baja el lunes, se alivia la
   presión sobre bonos y baja la probabilidad de subida de tipos en julio (hoy 37,9%); si el S&P500 no
   recupera >7.500, presión vendedora sistemática (CTAs) la semana próxima — umbral y fecha claros, resuelve
   en días.
 
 ## 2. Fed / renta fija: Hartnett plantea un mecanismo distinto para la misma tesis de subida — calmar la curva larga
 
-**Cárpatos** (26-jul, relayando el informe de Michael Hartnett/BofA) trae una tesis contraintuitiva que
+**una mesa de mercado española** (26-jul, relayando el informe de Michael Hartnett/BofA) trae una tesis contraintuitiva que
 **añade un mecanismo nuevo**, no solo repite la ya documentada en [[renta-fija-y-tipos]] (Warsh/comunicación
 política): la Fed debería subir tipos **en julio, no en septiembre**, precisamente para **calmar la curva
 larga** — una subida preventiva da credibilidad antiinflación, lo que reduce la prima de inflación exigida en
@@ -111,12 +104,12 @@ antes de las *midterms* de noviembre; septiembre cae encima de la campaña.
 
 ## 3. Oro: error de destilado corregido en caliente — el suelo de $4.000 nunca estuvo en peligro
 
-**NegociosTV** (26-jul, J.L. Milán, CEO de Silverg Patrimonio ⚠️ conflicto de interés comercial en venta de
+**una cadena económica española** (26-jul, J.L. Milán, CEO de Silverg Patrimonio ⚠️ conflicto de interés comercial en venta de
 metales físicos). **Lección de método aplicada en caliente, sin gastar verificación formal**: el destilado
 automático situó el oro "lateral en $3.100-3.200" — al contrastar contra la transcripción original (grep
 gratuito, coste cero), el nivel real es muy distinto: **el oro perdió los $4.200, nunca puso en peligro el
 suelo de $4.000, y ahora está atacando los $4.100/oz**. Es la **tercera instancia** del mismo patrón de dígito
-corrupto (4→3) documentado en esta rutina (oro Cárpatos 25-jul, Alphabet FCF 26-jul) — sube a regla dura de
+corrupto (4→3) documentado en esta rutina (fuente externa) — sube a regla dura de
 memoria: todo nivel de precio de un destilado se contrasta contra el VTT crudo antes de escribirlo en el
 wiki, no solo las cifras que "suenan" extremas.
 
@@ -137,7 +130,7 @@ wiki, no solo las cifras que "suenan" extremas.
 
 ## 4. IA: la tensión entre el "tercer *inning*" (Ives) y el escrutinio de financiación (CDS/capex)
 
-**Bloomberg TV** trae dos segmentos del mismo canal, el mismo día, con tesis opuestas — se registra la
+**una cadena financiera internacional** trae dos segmentos del mismo canal, el mismo día, con tesis opuestas — se registra la
 tensión, no se resuelve:
 
 - **Dan Ives (Wedbush)**: "tercer *inning*" de una carrera armamentística de IA que nadie puede permitirse
@@ -155,7 +148,7 @@ tensión, no se resuelve:
   del índice SOX el mes pasado). Consenso explícito del propio segmento: *"no es burbuja punto-com"* porque
   hay beneficios reales (**EPS S&P500 1S26 +28% interanual, el mejor desde 2004** excluyendo rebotes post-
   COVID/GFC), pero *"las burbujas pueden durar años"* — ni confirma ni descarta el diagnóstico de "burbuja
-  localizada en semis/memoria" de Cárpatos ([[semiconductores-de-memoria]]).
+  localizada en semis/memoria" de una mesa de mercado española ([[semiconductores-de-memoria]]).
 - **Sin verificación independiente adicional** (dos segmentos del mismo canal, no dos medios distintos) — se
   deja como hilo abierto con resolución esperada en la semana de resultados: Meta/Microsoft miércoles 29-jul,
   Amazon/Apple jueves 30-jul. Nota de evolución añadida en [[financiacion-estructurada-del-capex-de-ia]].
@@ -164,7 +157,7 @@ tensión, no se resuelve:
 
 ## 5. Comercio: Rattner — "China ganó la guerra comercial 1.0 y 2.0", los aranceles son irrelevantes para el déficit
 
-**Bloomberg TV** (Steven Rattner, Willett Advisors — la misma voz que el 25-jul confirmó de forma
+**una cadena financiera internacional** (Steven Rattner, Willett Advisors — la misma voz que el 25-jul confirmó de forma
 independiente el riesgo de FCF negativo de Alphabet, ver [[financiacion-estructurada-del-capex-de-ia]]).
 Contexto: los aranceles IEEPA de "*Liberation Day*" (abril-2025) fueron anulados por el Tribunal Supremo;
 Trump usa ahora otras provisiones legales, proceso más lento y caso por caso — dinámica descrita como *"tariffs
@@ -188,12 +181,12 @@ on/off/postponed"* que el mercado ya descuenta como ruido salvo que algo se mate
   amenaza antes de ponderar el impacto. Es un analista con historial ya verificado en esta rutina (25-jul,
   Alphabet), no un comunicador con sesgo comercial declarado.
 - **Cruce**: el viernes 31-jul expira la autoridad arancelaria provisional (ley del 15% general) — mismo
-  catalizador que menciona NegociosTV en la sección 7 de forma independiente (buena corroboración cruzada).
+  catalizador que menciona una cadena económica española en la sección 7 de forma independiente (buena corroboración cruzada).
 
 ## 6. Concentración de mercado: la amplitud anómala que preocupa a un gestor de patrimonio (25-jul)
 
-**NegociosTV** (25-jul, entrevista a J.M. Villamores, AIG Wealth Management — pieza que no había sido
-procesada en la nota anterior). IPC EE.UU. 3,5% (mejor de lo esperado), memorando de entendimiento de Trump
+**una cadena económica española** (25-jul, entrevista a J.M. Villamores, AIG Wealth Management — pieza que no había sido
+procesada en la IPC EE.UU. 3,5% (mejor de lo esperado), memorando de entendimiento de Trump
 calificado de *"papel mojado"* por el entrevistado. Visión de AIG: **ningún movimiento de tipos este año**
 salvo que el petróleo se enquiste al alza por la guerra — visión que la sección 1-2 de esta misma nota ya
 matiza (Hartnett ve subida en julio, el mercado descuenta 38%).
@@ -213,7 +206,7 @@ matiza (Hartnett ve subida en julio, el mercado descuenta 38%).
 
 ## 7. IA/China: guerra de destilación de modelos — verificado, con una conflación real corregida
 
-**NegociosTV** (26-jul, Gonzalo Cañete). Dos hechos centrales, **verificados por subagente adversarial** antes
+**una cadena económica española** (26-jul, Gonzalo Cañete). Dos hechos centrales, **verificados por subagente adversarial** antes
 de escribirse aquí (no se firma sin contrastar cuando puede cruzar con exposición a China de la cartera):
 
 - **📌 VERIFICACIÓN ADVERSARIAL — CONFIRMADA**: Scott Bessent (secretario del Tesoro) declaró en Fox Business
@@ -236,7 +229,7 @@ de escribirse aquí (no se firma sin contrastar cuando puede cruzar con exposici
   es un caso **posterior y separado**: el director de la OSTP de la Casa Blanca, Michael Kratsios, acusó el
   **24-jul-2026** a **Moonshot AI** (creador de Kimi K3) de destilar Fable para entrenar su propio modelo,
   usando ~3,4 millones de intercambios rastreados — no a Alibaba. Curiosamente, Kimi K3/Moonshot aparece
-  también, de forma independiente, en el destilado del segmento de escrutinio de IA de Bloomberg TV (sección
+  también, de forma independiente, en el destilado del segmento de escrutinio de IA de una cadena financiera internacional (sección
   4): *"Kimi K3 (Moonshot) prepara IPO en ~12 meses"* y *"DeepSeek retrasa su ronda/IPO"* — dos fuentes sin
   citarse entre sí situando a Moonshot en el radar regulatorio/financiero la misma semana.
 - **Sin verificar / pendiente de fuente primaria**: el comunicador menciona además un hackeo a una agencia
@@ -257,7 +250,7 @@ de escribirse aquí (no se firma sin contrastar cuando puede cruzar con exposici
   déficit de Francia 5,7% (2025), PIB 1T -0,2%; Bitcoin en patrón HCH invertido con objetivo ≥$70.000 (cuello
   ~$64.000, ya alcanzado); Nasdaq con soporte clave en 28.650, objetivo bajista 26.500-28.500 si lo pierde.
   Viernes 31-jul expira la autoridad arancelaria provisional del 15% general — mismo catalizador ya señalado
-  en la sección 5 vía Rattner (Bloomberg), buena corroboración cruzada entre canales que no se citan entre sí.
+  en la sección 5 vía Rattner (fuente externa), buena corroboración cruzada entre canales que no se citan entre sí.
 
 ## Lo que esto le dice al cerebro de Carlos (cruces, no órdenes)
 
@@ -292,10 +285,10 @@ de escribirse aquí (no se firma sin contrastar cuando puede cruzar con exposici
   septiembre? El mercado descuenta 38% — resuelve con el comunicado FOMC.
 - ¿"Blue-collar semis" (-21% desde junio) es una señal de enfriamiento real o ruido de un sector de nicho?
   Falsable en 4-8 semanas.
-- **Persiste, 7ª vez sin resolver**: ¿quién tiene razón en semis — Cava (silencio otra vez esta ventana) o
-  Hartnett/Cárpatos (sin capitulación de flujos todavía, Bull & Bear en 9,6 desde mayo)?
+- **Persiste, 7ª vez sin resolver**: ¿quién tiene razón en semis — un divulgador macro español (silencio otra vez esta ventana) o
+  Hartnett/una mesa de mercado española (sin capitulación de flujos todavía, Bull & Bear en 9,6 desde mayo)?
 - ¿Confirma alguna fuente primaria (comunicado del Tesoro, Entity List oficial) la amenaza de sanciones de
   Bessent contra empresas chinas de IA, o queda en declaración sin ejecución — como ya ocurrió con la
   autoridad arancelaria de Sección 122 que expiró sin uso el 25-jul?
-- ¿Qué es el hackeo "Mizo" mencionado por NegociosTV? Pendiente de fuente primaria — no confirmar ni
+- ¿Qué es el hackeo "Mizo" mencionado por una cadena económica española? Pendiente de fuente primaria — no confirmar ni
   descartar hasta contrastarlo.

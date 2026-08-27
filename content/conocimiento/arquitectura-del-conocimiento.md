@@ -280,6 +280,78 @@ fusión y pasan a ser candidatos a **conexión ausente** — la categoría que e
 [[conocimiento-2026-08-17]]. Reusar esta receta en las próximas rotaciones de dominio en vez de leer la
 salida de `duplicidades` como lista de fusiones.
 
+### Nota de evolución 2026-08-26: primera verificación completa de un FIFO Damodaran, y dos límites de
+### infraestructura confirmados con evidencia, no con sospecha
+
+**Auditoría de fidelidad, por fin sin desbordarse.** El catch-up del 21-ago falló porque el scout intentó
+`Read` el PDF entero de golpe con el tool nativo. Hoy se descubrió la causa raíz real, más profunda que
+"mal dimensionado": **`pdftoppm` (poppler) no está instalado en este entorno** — el `Read` tool sobre
+cualquier PDF falla directamente con un error de herramienta, no de tamaño de prompt. Alternativa que SÍ
+funciona, confirmada hoy: la librería Python `PyMuPDF` (`import fitz`) está instalada y permite extraer
+texto por rango de páginas vía Bash, sin tocar el hook de `raw/` (el scout es un subagente). Con esa
+disciplina (extracción acotada a ventanas ≤15 páginas, presupuesto de 6 llamadas, volcado a scratchpad
+antes de leer) el scout completó por primera vez una auditoría de un Damodaran entero:
+**`damodaran-country-risk.md` — 7/10 ítems exactos, 2 con matiz menor (redondeo 16,3% vs 16,25% en
+Embratel; recuento "9 países LatAm" del wiki vs 7 reales en la Tabla 26 del PDF — las cifras de CRP en sí
+son correctas), 1 no localizable (dato de 2007→2008 vive en un gráfico vectorial sin texto extraíble).
+Ninguna cifra inventada ni invertida.** Es el 2º resultado limpio consecutivo del lote Damodaran del
+22-jul (el 1º fue `dark-side-of-valuation`, que YA estaba verificada en la propia página desde su
+creación — con 2 correcciones documentadas — dato que corrige la memoria previa que contaba "4 páginas
+Damodaran sin verificar": en realidad son 3 (`narrative-and-numbers`, `strategic-risk-taking` y, hasta
+hoy, `country-risk`); con la de hoy, quedan 2. Método para institucionalizar: la instrucción de "extraer
+con PyMuPDF por rango de páginas, nunca `Read` el PDF entero" debe ir en la ficha del scout de fidelidad
+si algún día se propone como scout persistente.
+
+**Segundo hallazgo, más grave por su alcance: la capa mecánica entera está degradada hoy, no solo un
+encargo.** Se intentaron los 3 verbos del PASO 3 sobre `wiki/inversores/` (53 páginas, 3 lotes <270KB) y
+los 3 fallaron con las DOS capas: Kimi en tope de ciclo (20/20 hasta 2026-08-30T11:50, ya señalado el
+25-ago) y `omniroute-destila`/`omniroute-enlaza` (`prime/deepseek-v4-flash`) con tres modos de fallo
+DISTINTOS en tres intentos (timeout a 300s sobre un lote de 269KB, "marcador de entrada vacía con entrada
+NO vacía" sobre un lote de 63KB, respuesta vacía sobre el mismo lote) más un HTTP 400 "Model is
+unavailable" del respaldo gratuito `oc/deepseek-v4-flash-free` al probar `enlaza`. No es un problema de
+tamaño (falló también el lote pequeño) ni de un solo verbo (fallaron los 3): **el gateway está caído hoy
+para ambos carriles a la vez**, sin red detrás salvo el escritor humano. `[DEGRADADO: destila --tipo
+duplicidades exit 1]`, `[DEGRADADO: destila --tipo caducidad exit 1]` y `[DEGRADADO: enlaza exit 1]`
+trazados en `wiki/log.md` de hoy. Sustituido por chequeo manual acotado (ver [[conocimiento-2026-08-26]]):
+no es equivalente en cobertura, es la disciplina de "el fichero manda sobre el código de salida" aplicada
+sin poder mecanizar el paso.
+
+## Pase masivo de wikilinks de ox-alpha (`aa29363`) — auditoría 2026-08-27 (jueves, meta-run)
+
+El commit `aa29363` (25-ago, `Agente: ox-alpha`, 487 ficheros, +1.400 wikilinks) es el mayor evento de
+arquitectura del conocimiento del mes. Auditado como misión del jueves. **Balance: neto positivo donde no
+tocó prosa; neto negativo en la Fase 1.**
+
+- **Positivo**: 4 páginas-concepto nuevas (`hiperscalers`, `restaurantes`, `cava-group`,
+  `infraestructura-redes`) limpias y con frontmatter correcto; cableado sonda-ficha (42) y MOC
+  `indice-sondas` (122 entradas) sin roturas detectables.
+- **Negativo**: **33 wikilinks mal formados en 16 ficheros** (patrón `<alias con espacio><letra
+  suelta>`, más 1 doble pipe). Vivos/durables afectados: `perfil/cartera-actual.md` (5+ — rompe
+  `deriva_cartera.py`, ver [[riesgo-2026-08-27]] §0), `industrias/mapa-de-industrias.md` (3 celdas de la
+  tabla-hub corrompidas), 6 páginas `fuentes/` durables, `cio/propuestas-para-carlos.md`. El resto son
+  informes fechados (no se tocan, regla de evolución).
+- **Causa raíz doble**: (a) ox-alpha corre en el carril opencode, donde **los seis hooks del harness no se
+  ejecutan** (memoria `feedback-los-hooks-no-viajan-de-harness`), así que
+  `hook_bloquea_wikilinks_partidos.py` nunca vio el lote; (b) aunque hubiera corrido, ese hook comprueba el
+  destino y la apertura/cierre en la misma línea, **no** un carácter de palabra pegado tras el cierre ni el
+  doble pipe.
+- **Cobertura no declarada**: la Fase 2 semántica dependía de embeddings `bge-micro-v2`; `mapa_vault.py`
+  reporta 329/1123 páginas sin embedding, así que saltó ~29% del vault en silencio.
+- **Propuesta a Carlos/Elisa**: `scripts/lint_wikilinks.py --all` (reúsa la lógica del hook + 2 patrones
+  nuevos) en `cerebro-mantenimiento-semanal` y en todo pase ox-alpha > 50 ficheros — el gate que el carril
+  opencode no tiene. Detalle en [[conocimiento-2026-08-27]].
+
+### Método reusable 2026-08-27: sonda de viabilidad de 2 líneas antes del lote mecánico
+Kimi 20/20 tiene fecha de reset conocida y el carril de pago hace *timeout* en lotes reales (medido 26 y
+27-ago). Antes de construir un lote mecánico grande (que se pierde entero sin dar error si el modelo falla),
+correr `kimi-tarea --status` + un ping trivial `prime-agent -nc`. Si Kimi capado: solo carril de pago con
+lotes < 100 KB. Si ambos fallan: `[DEGRADADO]` y a mano, sin construir el lote.
+
+### Cambio de proceso propuesto 2026-08-27: ítems escalados pasan a "dormidos"
+Un ítem de `## Abierto` ya escalado a la CIO deja de re-verificarse cada rotación (era ~6-10 `grep`/run sin
+información nueva). Se despierta solo si (i) el informe de Elisa lo cita o (ii) pasan 30 días. En VIGENTE
+queda solo la fecha de escalada y el gatillo de despertar.
+
 ## Índice de runs (una línea por fecha — detalle completo en la sección fechada correspondiente arriba, o
 en `conocimiento-YYYY-MM-DD.md` si el hallazgo no tiene sección propia)
 - **2026-07-17** (bootstrap + run 2): primera versión del mapa; misión Daniel Lacalle; concentración
@@ -331,6 +403,31 @@ en `conocimiento-YYYY-MM-DD.md` si el hallazgo no tiene sección propia)
   (`wiki/conceptos/tecnologia-medica.md` vs 4 fichas medtech que la citan como "pendiente de crear").
   Kimi tocó el tope de cuota (20/20) durante el run: un lote de `destila --tipo duplicidades` se perdió
   con las 4 capas caídas, `[DEGRADADO]` trazado. Detalle: [[conocimiento-2026-08-25]].
+- **2026-08-26** (rotación fuentes+inversores + auditoría de fidelidad OpenRouter, doble uso como misión
+  del día): `damodaran-country-risk.md` verificada contra el PDF con PyMuPDF vía Bash (el `Read` de PDF no
+  funciona aquí: falta `pdftoppm`) — 7/10 exacto, 2 con matiz menor, 1 no localizable, sin fabricación.
+  Backlog Damodaran corregido a 2 páginas reales sin verificar (no 4: `dark-side-of-valuation` ya estaba
+  verificada desde el 22-jul). Capa mecánica caída para los 3 verbos del PASO 3 a la vez (Kimi 20/20,
+  OmniRoute con 3 modos de fallo distintos), sustituida por chequeo manual acotado. Trazabilidad
+  fuentes↔inversores sigue en 6/11 sin movimiento (3ª comprobación). Dos conexiones no hechas: el hub de
+  financiación del capex de IA y el de burbujas financieras no reflejan la cosecha de cartas 2025-2026
+  (Marks/Smith/Einhorn/Buffett) del 25-ago. Detalle: [[conocimiento-2026-08-26]].
+- **2026-08-26 (tarde, relevo del enjambre interrumpido)**: la sesión TUI de prime-agent que corría el
+  enjambre de Carlos llevaba 24h, se colgó 5h en una tool-call de `rastreador-empresas` (cazando el precio
+  de Viscofan) y su daemon entró en stale (`supervisor_generation_stale`). Carlos autorizó reiniciar el
+  daemon (interrumpiendo la sesión); quedó operativo con **OpenCodeGo/hy3** (él eligió hy3 sobre el free).
+  Relevo tomado como CKO: 6 scouts en paralelo, cada uno con página durable propia (2ª superación explícita:
+  Carlos pidió que cada agente escriba sus durables) → 10 páginas nuevas + 19 ampliadas, 0 rotos introducidos.
+  Las 4 fichas en vuelo relevadas (TDG/EXPN/Keyence/Viscofan, precios ya verificados por el orquestador
+  muerto — el checkpoint de precios fue el testamento que permitió continuar). Lección de método: cuando un
+  enjambre muere a mitad, su checkpoint de estado vale tanto como las páginas; institucionalizar el "relevo
+  de enjambre". Detalle: [[conocimiento-enjambre-2026-08-26]].
+- **2026-08-27** (jueves, meta-run): auditado el pase masivo de wikilinks de ox-alpha (`aa29363`, 487
+  ficheros) — sección propia arriba. 33 wikilinks mal formados en 16 ficheros, causa raíz doble (hooks
+  apagados en el carril opencode + patrón no cubierto). Propuesta de `lint_wikilinks.py --all` a
+  Carlos/Elisa. Meta: sonda de viabilidad antes del lote mecánico; ítems escalados pasan a "dormidos".
+  Capa mecánica no ejecutada (Kimi 20/20, pago con timeout). Sin `cio-2026-08-27` a las 11:00 (2ª vez en 4
+  días). Detalle: [[conocimiento-2026-08-27]].
 
 ## Ver también
 [[mapa-del-cerebro]] · [[dashboard-cobertura]] · [[huecos-y-proximos-pasos]] · [[encargos]] ·

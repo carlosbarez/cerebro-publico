@@ -172,3 +172,26 @@ el ciclo. Fuente: [[conocimiento-2026-08-16]], resultados Q2-2026 de Amazon.
 cartera actual · perfil de inversor · [[plataformas-tecnologicas-y-publicidad-digital]] ·
 [[foso-economico]] · [[margen-de-seguridad]] · [[creacion-de-valor-y-eva]] · [[microsoft]] · [[alphabet]] ·
 [[meta-platforms]] · [[verisk]] · [[bae-systems]] · [[af-2026-08-03]]
+
+## Nota de evolución 2026-08-25 (analista-usa): AWS récord, FCF TTM negativo y dos tercios del beneficio son papel
+
+Del PR oficial Q2 2026 (30-jul):
+
+1. **AWS +36,7% a $42,2B** — el crecimiento más alto en 18 trimestres (run-rate ~$169B anualizado). El
+   oligopolio cloud se acelera, no se desacelera.
+2. Pero **FCF TTM: -$7,6B** (vs +$18,2B hace un año) con capex TTM $173B: Amazon ya es el caso extremo
+   del [[ciclo-de-capex]] — el mayor generador de caja del retail mundial financia su transformación con
+   deuda y balance, no con caja libre.
+3. **Calidad del beneficio**: net income $62,6B incluye **$53,4B pre-impuestos de other income
+   "principalmente de nuestras inversiones en Anthropic"** (cita literal del PR). Dos tercios del
+   beneficio del trimestre son revalorización de papel, no negocio
+   ([[contabilidad-y-calidad-de-beneficios]]).
+4. Segundo motor verificado: el negocio de IA propia y **los chips Trainium superan cada uno $25B de
+   run-rate** (triple dígito); Anthropic Y OpenAI comprometen capacidad multi-gigavatio con chips de
+   Amazon. Primera grieta verificada al poder de fijación de precios de GPU dentro del mayor cliente:
+   [[semiconductores-logica-y-computo-ia]] y [[nvidia]] tienen aquí su contrapunto estructural.
+
+Para la cartera: Carlos tiene AMZN (cartera actual). El bull case de negocio se cumple; el precio
+lo está pagando el FCF. Vigilar cuándo cruza el cruce capex→FCF positivo (guía Q3: OI $22,5-26,5B).
+
+Fuente: Amazon Q2 2026 results (IR press release): https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon.com-Announces-Second-Quarter-Results/default.aspx (texto íntegro archivado en scratchpad/analista-usa/amazon-q2-2026-pr.txt) — consulta 2026-08-25.

@@ -110,3 +110,22 @@ de la inferencia.
 [[foso-economico]] · [[flujo-de-caja-descontado]] · [[adquisiciones-fusiones-y-sinergias]] ·
 [[michael-mauboussin]] · [[nassim-taleb]] · [[ciclos-de-mercado]] · [[terry-smith]] · [[jeremy-grantham]] ·
 [[plataformas-tecnologicas-y-publicidad-digital]]
+
+## Nota de evolución 2026-08-25 (analista-usa): vísperas del informe — consenso ~$92B y la concentración de clientes como riesgo nº1
+
+Nota de víspera (el informe FY27Q2 se publica mañana miércoles 26-ago-2026); sin resultados aún:
+
+- Capitalización ~$5T; la acción encadena 7 sesiones de caídas pese a que el consenso de ingresos del
+  trimestre ronda **$92B** y Wall Street mantiene objetivos en la zona de ~$350 (titular TradingKey,
+  25-ago).
+- La preocupación nº1 citada por el mercado NO es demanda sino **concentración de clientes**: unos pocos
+  hiperscalers explican el grueso del ingreso, con Meta y SpaceX (centros de datos basados en Nvidia)
+  como ejemplos citados por CNBC hoy. Es exactamente el riesgo de cola que la ficha señala: cuando el
+  comprador es a la vez competidor-chip (Amazon/Trainium, Google/TPU) y financiado con deuda/papel, la
+  curva de demanda deja de ser inelástica ([[semiconductores-logica-y-computo-ia]],
+  [[financiacion-estructurada-del-capex-de-ia]]).
+- Dato cruzado verificado esta semana: Alphabet emitió $70B de capital/deuda y Amazon tiene FCF TTM
+  negativo — los tres mayores clientes de Nvidia están estirando sus balances para seguir comprando.
+  Test falsable de mañana: guía Q3 > consenso sin margen bruto cediendo.
+
+Fuente: CNBC, "Nvidia's dependence on hyperscalers faces big test in earnings report": https://www.cnbc.com/2026/08/25/nvidias-dependence-on-hyperscalers-faces-big-test-in-earnings-report.html · TradingKey (titular consenso $92B / PT $350): https://www.tradingkey.com/news/crypto-us-stock-forecast-tesla-price-nevada-robotaxi-victory-offset-by-china-recall-cybercab-launch-looms/ — consulta 2026-08-25.

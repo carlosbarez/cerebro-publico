@@ -154,3 +154,27 @@ Ingerido el AR 2025 completo, que confirma y cuantifica la tesis previa:
 cartera actual · perfil de inversor · [[foso-economico]] · [[margen-de-seguridad]] ·
 [[multiplos-de-valoracion]] · [[ciclos-de-mercado]] · [[eficiencia-de-mercado]] ·
 [[asignacion-de-activos]]
+
+## Nota de evolución 2026-08-25 (analista-europa-espana)
+
+**Evento**: resultados Q2 2026 publicados el 15-jul-2026 (comunicado oficial asml.com, leído íntegro
+el 25-ago-2026).
+
+**Cifras verificadas en primaria**: ventas €9.326M (+23% YoY), margen bruto **54,0%**, beneficio neto
+€2.918M, EPS €7,59. Guía Q3: ventas €11–12B con margen bruto 55–57%. **Guía FY2026 ELEVADA**: ventas
+€43–45B (desde ~40B) y margen bruto 54–56%. La dirección califica la demanda de IA de "extremely
+strong" en pedidos y anuncia ampliación de capacidad Low NA EUV del +30% para 2027 (y estudia otro
++30% adicional para 2028); DUV sin cambios estructurales.
+
+**Qué confirma de la tesis**: exactamente el catalizador que la ficha marcaba como condición de
+re-rating ("confirmar que la demanda de IA sostiene márgenes ≥54%") se ha materializado Y AMPLIADO:
+no solo sostiene el margen, sube la guía completa. El riesgo de "corrección del 20–30% por expectativas
+de IA" no se ha disparado por fundamentales: los pedidos reales avalan el ciclo.
+
+**Qué NO cambia**: el veredicto VIGILAR sigue siendo correcto por el lado del PRECIO, no del negocio.
+Dato de segundo orden verificado hoy (Yahoo): ASML cotiza $1.744 (25-ago), POR DEBAJO de los $1.797
+del día de la tesis (15-jul) pese al beat + raise de guía — el mercado ya tenía el buen resultado en
+el precio ([[eficiencia-de-mercado|eficiencia de mercado]] aplicada a semis). La corrección esperada
+por valoración no necesita mala noticia: basta expectativa ya satisfecha.
+
+**Fuente**: comunicado ASML Q2 2026, https://www.asml.com/en/news/press-releases/2026/q2-2026-financial-results (15-jul-2026); precio Yahoo Finance 25-ago-2026.

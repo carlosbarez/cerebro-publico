@@ -67,3 +67,19 @@ beneficios), la narrativa de separación no se sostiene.
 - [[horizonte-largo-plazo]] · [[interes-compuesto]] · [[las-cinco-reglas-dorsey]] · [[terry-smith]]
 - [[tracking-error-y-riesgo-de-carrera]] · [[cliff-asness]] · [[contabilidad-y-calidad-de-beneficios]]
 - [[francisco-garcia-parames]] · [[fiscalidad-en-espana]] (el aterrizaje concreto a las reglas españolas)
+
+## Nota de evolución 2026-08-25 (dividendos-fiscalidad)
+
+Dos actualizaciones que aterrizan los principios de esta página al presente del inversor español:
+
+1. **La fricción fiscal española subió un escalón para rentas altas**: desde el 1-ene-2025 (Ley 7/2024),
+   el tipo máximo del ahorro es 30% sobre el tramo >300.000 € — verificado con BOE y desarrollado en la nota
+   de evolución de [[fiscalidad-en-espana]]. No cambia el principio (comparar después de impuestos), pero sí
+   el número con el que se compara.
+2. **Nuevas páginas hermanas** que operativizan este marco: [[dividendos-retenciones-internacionales]]
+   (la fricción invisible de retenciones y el arbitraje de domicilio UCITS — caso legítimo de estructura con
+   sustancia frente a la ilusión del envoltorio) y [[dividendos-sostenibilidad-payout-y-cobertura]] (el
+   dividendo como renta solo si está cubierto: caso Telefónica 2026 como laboratorio). El episodio de la
+   sección 899 norteamericana (propuesta y retirada en 2025 tras acuerdo G7) refuerza una tesis de esta
+   página: hasta las reglas fiscales internacionales tienen riesgo político; el diferimiento y la baja
+   rotación siguen siendo las únicas palancas plenamente controlables.

@@ -5,41 +5,41 @@ cobertura: parcial
 tags: [actualidad, pulso, video, macro, geopolitica, semis, oro, petroleo, 2026-07, snapshot]
 fecha: 2026-07-16
 verificacion: imposible — crudo perdido 2026-07 (pre-hook; la fuga se tapó el 31-jul)
-canales: [Misterpuertas, "José Luis Cárpatos", "José Luis Cava", NegociosTV]
-fuentes: ["[[misterpuertas-metodo]]", "[[carpatos-metodo]]", "[[cava-metodo]]", "[[negociostv-metodo]]"]
+canales: [un canal técnico español, "una mesa de mercado española", "un divulgador macro español", una cadena económica española]
+fuentes: ["un canal técnico español metodo", "[[carpatos-metodo]]", "[[cava-metodo]]", "[[negociostv-metodo]]"]
 ---
 
 # Pulso diario de vídeo — jueves 16 jul 2026
 
 > [!info] Es una FOTO, no conocimiento permanente
 > Digest de 8 vídeos (4 canales) procesados en 24-48h. Comunicadores de macro/técnico/flujos/geopolítica —
-> capa **subordinada al valor**, contexto y no gatillo para operar. Gustavo-Bolsa y Javier DV sin vídeo nuevo
+> capa **subordinada al valor**, contexto y no gatillo para operar. un analista macro español-Bolsa y un gestor de fondos español sin vídeo nuevo
 > (normal, canales de 1 vídeo/día). Esta nota **cierra la sesión del 15 jul** (señal de venta de BofA, rotación
 > semis→hiperescaladores, IBM) que quedó fuera de [[pulso-video-2026-07-15|la nota de ayer]] por caer tras el
 > último barrido, y añade la escalada geopolítica y de mercado del 16 jul.
 
 ## Cierre de la sesión del 15 jul: se activa la señal de venta de BofA mientras el dinero rota de semis a hiperescaladores
 
-[[misterpuertas-metodo|Misterpuertas]] ("BofA activa una señal de venta") y el cierre de
-[[carpatos-metodo|Cárpatos]] ("De semis a los 7 magníficos") documentan, desde ángulos distintos, el mismo
+un canal técnico español ("BofA activa una señal de venta") y el cierre de
+[[carpatos-metodo|una mesa de mercado española]] ("De semis a los 7 magníficos") documentan, desde ángulos distintos, el mismo
 movimiento de fondo del 15 jul:
 
 - **Señal de venta contraria activada**: el nivel de efectivo de la encuesta mensual de gestores de Bank of
   America cayó de **4,1% a 3,6%** de los activos bajo gestión — mínimo desde febrero 2026 y el nivel que activa
   la "regla del efectivo" de BofA (vender cuando cae por debajo del 4%). Es la misma cifra que ya recogía
-  [[pulso-video-2026-07-15|la nota de ayer]] vía la encuesta Harnett, pero hoy Misterpuertas la nombra
+  [[pulso-video-2026-07-15|la nota de ayer]] vía la encuesta Harnett, pero hoy un canal técnico español la nombra
   explícitamente como señal técnica: en las **16 ocasiones anteriores desde 2002** en que el efectivo cayó a
   ≤3,6%, las acciones cayeron de media **−1% en las dos semanas posteriores y −0,5% en el mes siguiente**, con
   los bonos del Tesoro comportándose mejor. Es una señal de **sobre-posicionamiento**, no de fundamentales —
   exactamente el tipo de dato que [[james-montier]] y [[jeremy-grantham]] usarían para pedir cautela en un
   consenso muy cargado, y que ya se anotaba ayer sobre el bloque tech-semis de la cartera.
-- **La rotación se confirma con nombres y porcentajes**: Cárpatos documenta en el cierre que Nvidia cayó
+- **La rotación se confirma con nombres y porcentajes**: una mesa de mercado española documenta en el cierre que Nvidia cayó
   −1,10% mientras el resto de los 7 magníficos subió con fuerza (Meta +2,60%, Microsoft +2,62%, Apple, Alphabet
   y Amazon todos por encima de +3%) — "está saliendo dinero de semiconductores y está volviendo a los siete
   magníficos, la operación inversa que tanto se vio durante mucho tiempo". El ETF de semis (SMH/Vanec) cayó
-  −3,61% y el Kospi coreano vía ETF −5,37%, ambos correlacionados y cerca de zona de mínimos técnicos — Cárpatos
+  −3,61% y el Kospi coreano vía ETF −5,37%, ambos correlacionados y cerca de zona de mínimos técnicos — una mesa de mercado española
   señala que ambos gráficos "se parecen muchísimo", arrastrados en parte por ASML (que llegó a subir +8%
-  intradía tras resultados y cerró plano). Misterpuertas atribuye la rotación a la "extrema saturación y
+  intradía tras resultados y cerró plano). un canal técnico español atribuye la rotación a la "extrema saturación y
   agotamiento de valoraciones" en semis frente al "valor relativo y posicionamiento defensivo" de los gigantes
   tecnológicos — el ETF de semis lleva **+83% en lo que va de 2026**.
 - **Estrés crediticio nuevo en la tesis de IA**: los CDS de Nvidia (coste de asegurarse contra su impago) se
@@ -54,7 +54,7 @@ movimiento de fondo del 15 jul:
   crecientes sobre su deuda — mismo evento que ya documentaba con más detalle [[pulso-2026-07-15]] (−2,9% hasta
   $132,15 el miércoles, primer cierre bajo el precio de OPV, con el *lockup* de acciones ligado a la
   publicación de sus primeros resultados trimestrales).
-- **Dato estructural nuevo — dominio del inversor minorista**: Cárpatos cita datos de Goldman Sachs que no
+- **Dato estructural nuevo — dominio del inversor minorista**: una mesa de mercado española cita datos de Goldman Sachs que no
   estaban antes en el pulso: los inversores minoristas tienen **$12 billones en cuentas de brokeraje
   autodirigidas** (~10% de los $111 billones de capitalización bursátil corporativa de EEUU), los ETF suponen
   ya **más del 30% del volumen diario**, las opciones superan los **50 millones de contratos/día** (el doble
@@ -68,8 +68,8 @@ movimiento de fondo del 15 jul:
   con [[sesgo-de-superviviente]] (dominio estructural del minorista, no solo anécdota de day-trading) y con
   [[eficiencia-de-mercado]] (velocidad de monetización como síntoma de burbuja, coherente con el estudio de
   +300 burbujas de [[jeremy-grantham]]).
-- **Nota técnica de Cárpatos, recurrente**: pese a que el S&P 500 apenas subió +0,15%, el índice equiponderado
-  (RSP) subió con la misma tranquilidad (+0,14%) cerca de máximos históricos — Cárpatos reitera su
+- **Nota técnica de una mesa de mercado española, recurrente**: pese a que el S&P 500 apenas subió +0,15%, el índice equiponderado
+  (RSP) subió con la misma tranquilidad (+0,14%) cerca de máximos históricos — una mesa de mercado española reitera su
   recomendación de vigilar índices equiponderados como forma de evitar depender de "esa lotería en que se ha
   convertido la bolsa de Corea", que hoy influye en todos los sectores tecnológicos globales.
 
@@ -81,16 +81,15 @@ propia cartera actual ya marca sobre Micron con ⚠️. No es gatillo de venta (
 segmento que los CDS de Nvidia o el capex de las hiperescaladoras), pero sí refuerza la necesidad de vigilar el
 sector en conjunto sin extrapolar la ganancia +690,1% hacia adelante.
 
-## Dato de PPI y la pregunta que decide el petróleo: ¿quién frena la subida? (Cárpatos, media sesión 15 jul)
+## Dato de PPI y la pregunta que decide el petróleo: ¿quién frena la subida? (fuente externa)
 
 Pieza breve pero con un dato puntual de alto valor (patrón ya confirmado útil en aprendizajes previos): el IPP
-interanual de EE.UU. quedó en **5,5-5,6%** (Cárpatos cita 5,6%, Misterpuertas 5,5% — leve discrepancia de
-transcripción entre fuentes, mismo dato) frente al 6,2% esperado, la mayor caída mensual desde el COVID. El
+interanual de EE.UU. quedó en **5,5-5,6%** (fuente externa) frente al 6,2% esperado, la mayor caída mensual desde el COVID. El
 petróleo, sin embargo, seguía subiendo (+1,11% a $80,21) por el bloqueo del estrecho de Ormuz, "completamente
-cortado" según el mapa de tráfico marítimo de Cárpatos, con petroleros de una misma naviera parados en fila
+cortado" según el mapa de tráfico marítimo de una mesa de mercado española, con petroleros de una misma naviera parados en fila
 intentando salir a la vez ante la primera ventana de seguridad.
 
-**El mecanismo que está evitando un petróleo por encima de $100 ahora mismo, según Cárpatos, es la demanda
+**El mecanismo que está evitando un petróleo por encima de $100 ahora mismo, según una mesa de mercado española, es la demanda
 china**: mientras las importaciones de petróleo del resto de Asia (excluyendo China) ya casi han vuelto a
 niveles normales, la demanda china sigue muy deprimida — esto ha reducido el déficit medio de 28 días de
 ~11M+ barriles/día a solo 5-6M. Si China recupera su demanda, el precio subiría con fuerza; si sigue así, el
@@ -108,40 +107,40 @@ documentada arriba a todos los sectores expuestos a China por igual; el software
 sufriendo el contagio de la caída de IBM del día anterior, mismo mecanismo de reasignación de presupuesto hacia
 memoria/IA que ya cruza esta nota con Micron en el bloque de rotación semis-hiperescaladores.
 
-## IBM: ¿oportunidad de compra o trampa alcista? (Cava, 15 jul) — con blanco técnico y crítica a Jim Cramer
+## IBM: ¿oportunidad de compra o trampa alcista? (fuente externa) — con blanco técnico y crítica a Jim Cramer
 
 El hecho del desplome de IBM (−25,5%, peor sesión desde 1987) ya quedó documentado con detalle en
-[[pulso-video-2026-07-15|la nota de ayer]]; lo que añade hoy [[cava-metodo|Cava]] es su propio análisis
+[[pulso-video-2026-07-15|la nota de ayer]]; lo que añade hoy [[cava-metodo|un divulgador macro español]] es su propio análisis
 **fundamental + técnico** sobre qué hacer a partir de ahí (−25% según su cifra, con conclusiones distintas
 para cada plano):
 
 - **Fundamental**: los ingresos de software e infraestructura de IBM en el 2T2026 decepcionaron frente a
-  estimaciones de analistas, pero el software creció **+11% intertrimestral** frente al 1T — para Cava esto es
+  estimaciones de analistas, pero el software creció **+11% intertrimestral** frente al 1T — para un divulgador macro español esto es
   una desaceleración transitoria, no estructural: los clientes de IBM son grandes empresas y gobiernos que no
   van a arriesgarse a sustituir software crítico por desarrollos internos, y lo más probable es que estén
   retrasando la firma de contratos mientras reasignan presupuesto hacia IA y ciberseguridad — no que dejen de
   gastar en software de IBM. Conclusión: "se nos está ofreciendo una magnífica oportunidad de compra" desde lo
   fundamental.
-- **Técnico**: sin embargo, Cava ve **más caída por delante** antes del giro. Tanto IBM como Broadcom (AVGO,
+- **Técnico**: sin embargo, un divulgador macro español ve **más caída por delante** antes del giro. Tanto IBM como Broadcom (AVGO,
   del mismo sector) formaron máximos el 1 de junio que superaron techos previos (noviembre 2025 para IBM, 12 de
   mayo para AVGO), "barriendo" la liquidez de los alcistas atrapados antes de revertir — y la venta con
-  intensidad se produjo *antes* de los resultados, según Cava, señal de que alguien vendía ya sabiendo la
+  intensidad se produjo *antes* de los resultados, según un divulgador macro español, señal de que alguien vendía ya sabiendo la
   desaceleración de ingresos. Objetivos técnicos: **IBM hacia la zona de 195$** (mínimos de octubre 2024) y
-  **AVGO hacia 281$** (mínimos de agosto 2025 y marzo 2026) antes de que Cava dé la corrección por finalizada.
+  **AVGO hacia 281$** (mínimos de agosto 2025 y marzo 2026) antes de que un divulgador macro español dé la corrección por finalizada.
   Usa el caso como ejemplo didáctico del error de Jim Cramer (recomendó comprar IBM el 13 de julio, justo antes
   del desplome, "engañado por un escape falso al alza").
 
-**Cruce con el cerebro**: la lectura fundamental de Cava (reasignación temporal de presupuesto hacia IA/
+**Cruce con el cerebro**: la lectura fundamental de un divulgador macro español (reasignación temporal de presupuesto hacia IA/
 ciberseguridad, no sustitución estructural) es un ángulo complementario — no contradictorio — al mecanismo ya
 documentado ayer con nombres propios (Samsung, SK Hynix y Micron absorbiendo la producción de memoria que
-antes iba a servir a clientes de software como IBM). **Encuadre crítico**: Cava opera con análisis técnico de
+antes iba a servir a clientes de software como IBM). **Encuadre crítico**: un divulgador macro español opera con análisis técnico de
 corto plazo y objetivos de precio especulativos, no es una tesis de inversión de largo plazo — se cita su
-lectura fundamental (transferible) pero no su sistema de trading completo, mismo criterio aplicado a Cava en
+lectura fundamental (transferible) pero no su sistema de trading completo, mismo criterio aplicado a un divulgador macro español en
 notas anteriores.
 
 ## Geopolítica 16 jul: el frente se extiende a Fuyaira y se prepara la activación de Bab el-Mandeb — riesgo de cierre coordinado de DOS estrechos
 
-El **noticiero completo de NegociosTV (16 jul)** documenta la escalada más grave desde el punto de vista de
+El **noticiero completo de una cadena económica española (16 jul)** documenta la escalada más grave desde el punto de vista de
 la infraestructura petrolera global vista hasta ahora en el pulso de vídeo:
 
 - **Balance de víctimas actualizado**: el Ministerio de Salud iraní eleva a **35 los fallecidos** por los
@@ -181,19 +180,19 @@ la infraestructura petrolera global vista hasta ahora en el pulso de vídeo:
   documenta [[viento-de-cola-americano]] y [[michael-pettis]].
 - **Nota electoral EE.UU. (contexto, sin cruce de inversión directo)**: encuestas 2026 sin apenas cambio en la
   Cámara de Representantes (Republicanos 17% vs. Demócratas 84%), ligero retroceso republicano en el Senado
-  (56%→55%); en 2028, JD Vance baja a 19,9%, Marco Rubio a 14% (en caída sostenida), Gavin Newsom a 11,6%,
+  (56%→55%); en 2028, JD Vance baja a 19,9%, la ingesta de vídeo Rubio a 14% (en caída sostenida), Gavin Newsom a 11,6%,
   mientras AOC sube a 8% y Jon Ossoff asciende a 7,3%. Los republicanos impulsan un paquete de ~$80.000M vía
   reconciliación presupuestaria (defensa + agrícola + identificación de votantes) con resistencia interna por
   falta de recortes compensatorios.
 
-## "Estamos entrando en terreno de crimen de guerra" — la regionalización según Robert Valencia (NegociosTV, 16 jul)
+## "Estamos entrando en terreno de crimen de guerra" — la regionalización según Robert Valencia (fuente externa)
 
 Entrevista con Robert Valencia (analista político especializado en EE.UU.) que añade dos ángulos nuevos al
 hilo abierto ayer sobre la amenaza de Trump a infraestructura civil:
 
-- **Marco legal explícito**: si se atacan suministros de agua, alimentos o bases energéticas —"sea el agresor
+- **la ingesta de vídeo legal explícito**: si se atacan suministros de agua, alimentos o bases energéticas —"sea el agresor
   que sea"—, se entra en terreno de **crimen de guerra** según expertos en derecho internacional citados por
-  Valencia. Detalle relevante: Marco Rubio ha hecho recientemente declaraciones desacreditando a la Corte
+  Valencia. Detalle relevante: la ingesta de vídeo Rubio ha hecho recientemente declaraciones desacreditando a la Corte
   Internacional de Justicia, justo cuando ese riesgo legal aumenta — Valencia lo interpreta como una señal de
   que EE.UU. se distancia deliberadamente de los organismos que aplicarían esa calificación.
 - **Dato de capacidad militar que matiza la escalada**: Irán ya habría usado **el 80% de su arsenal de
@@ -212,7 +211,7 @@ hilo abierto ayer sobre la amenaza de Trump a infraestructura civil:
   aranceles contra países que negocian con Rusia, como China e India). Axios reporta fricción entre Trump y
   Netanyahu por la negativa israelí a retirar tropas del sur del Líbano.
 
-**Nota aparte — segundo frente nuclear, más contenido**: un panel de NegociosTV (analistas De Castro/Andrew/
+**Nota aparte — segundo frente nuclear, más contenido**: un panel de una cadena económica española (analistas De Castro/Andrew/
 Santiago) discute la declaración de Nikolai Patrushev (asesor de Putin) de elevar la alerta de la flota naval
 nuclear rusa. Sin estatus oficial confirmado, y con precedente similar en septiembre de 2022 sin escalada real,
 los analistas lo interpretan como demostración de fuerza dentro de un frente Rusia-Ucrania "congelado" (la
@@ -221,7 +220,7 @@ uso real — mismo patrón de ambigüedad retórica que el "TACO trade" de Trump
 riesgo de cola adicional (segundo frente nuclear distinto de Irán) para el bloque de metales preciosos, sin
 más desarrollo por ser un frente de menor densidad informativa en este barrido.
 
-## Mercados 16 jul: la sesión se abre con semis liderando, Repsol infravalorando su propio Brent (Basagoiti/Cabrera, XTB — NegociosTV)
+## Mercados 16 jul: la sesión se abre con semis liderando, Repsol infravalorando su propio Brent (fuente externa)
 
 Entrevista con Javier Cabrera (analista de XTB) en la apertura de la sesión del 16 jul:
 
@@ -274,7 +273,7 @@ Entrevista con Javier Cabrera (analista de XTB) en la apertura de la sesión del
   Sigue siendo contexto, no gatillo: la volatilidad retórica de ambos bandos (TACO trade de Trump, amenazas
   hutíes sin materializar aún) exige tratar cualquier escalada con la misma cautela hasta que se traduzca en
   cierres de producción verificables.
-- **Dominio estructural del inversor minorista (dato nuevo de Goldman vía Cárpatos)**: $12 billones en cuentas
+- **Dominio estructural del inversor minorista (fuente externa)**: $12 billones en cuentas
   autodirigidas, volumen 10% por encima del pico punto-com, 34 sesiones de movimientos >4% en semis/software
   en lo que va de año (vs. 9 en todo 2024) — variable de fondo a vigilar para cualquier lectura de "el mercado
   dice X", ya que una fracción creciente de ese mercado es minorista apalancado y de corto plazo, no capital
@@ -285,11 +284,11 @@ Entrevista con Javier Cabrera (analista de XTB) en la apertura de la sesión del
   descontada. Candidato a revisar si el cerebro amplía cobertura de energéticas (fuera del alcance actual de
   la cartera de Carlos, que no tiene exposición directa a petroleras).
 
-## Descartado por volumen (NegociosTV)
+## Descartado por volumen (fuente externa)
 
 - "¿Ha tocado fondo el mercado cripto? Las señales de acumulación institucional en Bitcoin y Ethereum" (1110s)
   y "No es un momento fácil para el que opera acciones..." con David Leyguarda (1321s) — descartadas por no
-  aportar cifras nuevas sustanciales más allá de lo ya cubierto por Cárpatos/Misterpuertas sobre Bitcoin y por
+  aportar cifras nuevas sustanciales más allá de lo ya cubierto por una mesa de mercado española/un canal técnico español sobre Bitcoin y por
   tratarse de contenido de trading de corto plazo sin cruce macro relevante.
 - "La IA es una amenaza existencial para cualquier país..." con Hatem Dhiab (340s) — pieza corta, tesis general
   sobre IA/inflación ya cubierta con más profundidad y cifras concretas en el bloque de rotación semis-
@@ -316,7 +315,7 @@ crudo emiratí queda sin ruta alternativa viable?
 - ¿Se resuelve la rotación semis↔hiperescaladores en una dirección clara, o sigue siendo un ping-pong
   intersesión como el visto entre el 15 y el 16 de julio? Relevante para calibrar si la señal de venta de BofA
   se traduce en algo más que ruido de corto plazo.
-- ¿El objetivo técnico de Cava para IBM (195$) y AVGO (281$) se cumple, o el mercado ya ha "limpiado"
+- ¿El objetivo técnico de un divulgador macro español para IBM (195$) y AVGO (281$) se cumple, o el mercado ya ha "limpiado"
   suficiente posicionamiento con la caída del 15 jul? Sin cruce directo con la cartera de Carlos (no posee
   ninguno de los dos valores), pero relevante como termómetro del sector semis en conjunto.
 - Persiste desde hace varios días: ¿se confirma la rotación de cartera de Fundsmith con la carta primaria?

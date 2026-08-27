@@ -23,6 +23,10 @@ Empresas que venden **información y confianza** en vez de un producto físico:
 - **Datos y analítica financiera** (Moody's Analytics, S&P Market Intelligence, MSCI, Verisk, FactSet): venden
   datos, modelos, índices y software por **suscripción**. Verisk es cuasi-monopolio en **analítica de datos
   para seguros** (P&C) en EE.UU.
+- **Burós de crédito** ([[experian|Experian]], Equifax, TransUnion): datos de crédito del consumidor con
+  oligopolio casi por país (Experian líder en Brasil, UK&I y gran parte de LatAm) y efecto de red bilateral —
+  el dato del consumidor es el activo, la capa de *decisioning* y anti-fraude el crecimiento (ficha
+  [[experian]], VIGILAR, margen ~+10%, 2026-08-26).
 - **Plataformas con efecto de red** (Booking, en la cartera de Carlos): no es datos, pero comparte el ADN de
   **negocio de calidad asset-light** con foso — se agrupa aquí por afinidad de método de análisis.
 

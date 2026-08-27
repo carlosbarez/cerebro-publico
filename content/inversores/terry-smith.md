@@ -206,3 +206,31 @@ Esta nota sustituye como fuente a la nota de 2026-07-14 que iba «vía pulso —
 4. **La lección Novo aplica a nuestro método**: foso contable ≠ foso real si la gestión ejecuta mal; añadir el juicio directivo explícito al checklist antes de dar por bueno un [[foso-economico]] → [[checklist-macro-y-ciclo]].
 
 Lecturas: [[foso-economico]] · [[financiacion-estructurada-del-capex-de-ia]] · [[howard-marks]]
+
+## Nota de evolución 2026-08-26 (lector-de-cartas)
+
+**Carta semestral 2026 de Fundsmith (jul-2026) — la carta del cambio de proceso.** Fuente primaria: [PDF íntegro en fundsmith.co.uk](https://www.fundsmith.co.uk/media/lfhpxi1x/fundsmith-equity-fund-semi-annual-letter-to-shareholders-2026.pdf). Contexto: esta nota es la continuación de la anual 2025 (nota 2026-08-25), donde Smith decía *"We are not going to do either"* (ni índice ni momentum). Lo que hace ahora contradice esa frase — y él lo reconoce explícitamente. Es la evolución más grande del método Fundsmith desde su fundación.
+
+### El dato: la pata «Do Nothing» ya no se puede mantener
+
+- **−2,9% en H1-2026 vs +11,2% del MSCI World (£)** — 14,1 p.p. de brecha en seis meses. La carta abre declarando que viene a explicar «qué vamos a hacer con esto».
+- **Rotación de 51,8% en el semestre** (vs 0,008% de dealing voluntario en todo 2025): compró AppLovin, GE Vernova, Legrand, Mastercard, Netflix, Nextpower, Sage, TJX, TSMC, Uber, Veeva, Yum; vendió/salió de Atlas Copco, Coloplast, EssilorLuxottica, Intuit, LVMH, Magnum Ice Cream, Mettler-Toledo, Nike, Novo Nordisk, Otis, Unilever, Wolters Kluwer, Zoetis. Trece movimientos de salida en seis meses cuando el año pasado vendió dos.
+- **La concesión explícita**: *"it seems clear that the third leg of our strategy [Do nothing] which probably needs the most change… In a market in which share price moves of 33% per day for even large stocks are not uncommon a buy and hold strategy can only work if you are not subject to flows, and we are."* Y el reconocimiento del método: *"We will take more account of momentum — both fundamental and share price — in our investment decisions. In particular, we will be much less willing to deploy the time-honoured technique of buying quality companies when they hit a glitch."* En el tramo momentum, «comprar calidad en el glitch» es *"like trying to catch the proverbial falling knife"*.
+- **El matiz que salva la tesis**: no es index-hugging (*"We have no desire to hug the index"*), y la cartera resultante conserva ROCE 31%, margen bruto 62%, conversión de caja 92%, cobertura de intereses 43x, **FCF yield 4,3% vs <2% del S&P 500** (los flujos de caja de las grandes tech absorbidos por el capex de IA). Veredicto de fondo intacto: *"I profess no insight into how or when this passive-led momentum market will end, other than to say badly."*
+
+### Por qué es tan grande (segundo orden)
+
+1. **Smith le está haciendo a Smith lo que denunció en Buffett**: la anual 2025 celebró que Buffett pudiera aguantar un mercado irracional porque controlaba un vehículo cerrado. Ahora Smith admite que, **en fondo abierto, la irracionalidad puede acabar contigo antes que contigo con ella** — cita el adagio de Indy: *"In order to finish first, you must first finish."* La institución (estructura de flujos) vence a la convicción (método). Es la prueba viviente de la frase del propio Smith sobre los buenos momentum investors: venden cuando cae.
+2. **La entrada en TSMC, GE Vernova y AppLovin lo mete en el corazón de lo que [[howard-marks]] y [[james-montier]] llaman burbuja de capex IA** — pero como vendedor de «picos y palas» con retorno de capital real (GE Vernova: backlog $163.000 M ≈ 4x ingresos 2025, ROIC ~20%, liderazgo mundial en SMR BWRX-300; TSMC: ~90% de los semiconductores más avanzados del mundo; AppLovin: ROIC >100%). La lectura: Smith no compra la burbuja de expectativas, compra el monopolio del capex que la burbuja garantiza. Choca con la tesis de fondo de Marks solo si ese capex no rinde — y si no rinde, Smith ya tendrá los cortes de manos que predijo.
+3. **La teoría del pasivo queda confirmada por su propio caso**: el mismo diagnóstico de la anual 2025 (el pasivo es momentum, los flujos mandan) lo ha obligado a adaptarse. Cuando el denunciante del momentum adopta el momentum, la señal de ciclo es doble: (a) el efecto es real y sistémico, (b) **la gestión activa de calidad está entre la espada y la pared** — o rota como Smith o se encoge como Buffett. No hay tercera vía probada → [[tensiones-activas]].
+4. **Choque con [[bill-ackman]]**: Ackman también compra Netflix, Mastercard, Uber y TSMC-vecinas (semis) este trimestre, pero sin cambiar su proceso — para él la dislocación de Q2 hizo baratas las mismas empresas que ya seguía. Smith cambia el PROCESO; Ackman cambia el PORTFOLIO. Misma selección, mecanismo distinto: uno cede al entorno, el otro lo explota desde el capital permanente. Es el contraste institucional de 2026.
+
+### Qué implica para nuestra cartera (lectura propia, propuesta)
+
+1. **El FCF yield es la métrica que separa señal de ruido**: cartera de calidad a 4,3% de FCF yield vs S&P a <2% es el argumento de fondo que sobrevive al cambio de proceso. Toda tesis de crecimiento «con glitch» debe pasar por el filtro de FCF yield antes de aplicar el patrón Smith → [[screening-de-calidad]].
+2. **La rotación de 51% es una señal de que el value de calidad puro no está funcionando**: si hasta Fundsmith rota, el cerebro debe recalibrar expectativas de cuánto tiempo puede «no hacer nada» en el tramo actual del ciclo → [[checklist-macro-y-ciclo]] · [[ciclos-de-mercado]].
+3. **La infraestructura de IA como peaje (GE Vernova/Legrand/Nextpower) coincide con la vía de exposición que ya apuntaba [[warren-buffett]] para BHE**: cobrar el capex ajeno sin pagar múltiplo de IA. Dos fuentes independientes convergiendo en el mismo sector (energía/grid) es candidato fuerte a estudio propio → [[mineria-industrial-y-energia]] · [[financiacion-estructurada-del-capex-de-ia]].
+
+**[Sin datos: la cifra exacta de AUM post-salidas a 30-jun-2026 (Morningstar la sitúa en ~£12.000 M tras picos de ~£30.000 M) no está verificada en el PDF; los datos de flujos provienen de cobertura Morningstar, no de la carta.]**
+
+Lecturas: [[bill-ackman]] · [[howard-marks]] · [[warren-buffett]] · [[eficiencia-de-mercado]]

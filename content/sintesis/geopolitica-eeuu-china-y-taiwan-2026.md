@@ -117,3 +117,10 @@ El sesgo correcto NO es predecir el escenario: es comprobar qué parte de la car
 - [[checklist-macro-y-ciclo]] — dónde insertar la inflación de oferta geopolítica en el termómetro de ciclo.
 
 *Página creada por analista-geopolitico el 2026-08-25. Todas las cifras con fuente y fecha en el texto; lo no verificable está marcado.*
+
+## Nota de evolución 2026-08-26 (radar-geopolitico)
+
+- **El flanco iraní presiona la tregua — y Washington lo sabe**: China compra ~80-90% del crudo iraní (CNBC, 25-ago; Fortune, 26-ago) y sus importaciones cayeron ~48% desde el inicio de la guerra (The National, 25-ago). El "D-Day económico" de Bessent (20-ago) sancionó a 60+ entidades y a un armador de Hong Kong, pero **dejó intactos a los grandes bancos chinos** (Fortune, 26-ago) — el *carveout* bancario chino es la señal más clara de que Washington sigue priorizando la tregua comercial sobre el estrangulamiento de Irán. Traducción para la página: el acantilado del 10-nov-2026 (expiración de la tregua de Kuala Lumpur y de la suspensión de tierras raras) está siendo gestionado para NO coincidir con una ruptura por Irán. Probabilidad de shock doble (tregua rota + expiración de controles) baja a corto plazo, no cero.
+- Pekín denunció las sanciones como "colonialismo" (The Guardian, 25-ago) sin represalia comercial nueva — consistente con la tesis de la página: Pekín construye maquinaria regulatoria (Orden 834), no titulares.
+- Frente tecnológico: The Information reportó en julio que Pekín planea permitir a sus principales firmas de IA comprar H200 en cantidades limitadas — sin entregas confirmadas a hoy. El informe de resultados de Nvidia (26-ago) es el termómetro de la monetización (15%→25%) de los export controls. [La página decía "cero entregas a may-2026"; seguirá en cero hasta confirmación.]
+- El presupuesto de defensa taiwanés 2026 sigue sin aprobar (18-jun) — flanco abierto; la cumbre Trump-Xi del 24-sep-2026 se acerca con agenda cargada (IA, Taiwán, arquitectura post-10-nov).

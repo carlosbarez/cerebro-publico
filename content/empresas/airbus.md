@@ -46,3 +46,27 @@ Verificar antes de registrar: entregas 2026 dentro de la guia, EBIT ajustado den
 
 ## Ver tambien
 [[aeroespacial-y-defensa]] · [[foso-economico]] · [[margen-de-seguridad]] · [[sonda-2026-08-14-airbus]]
+
+## Nota de evolución 2026-08-25 (analista-europa-espana)
+
+**Evento**: resultados H1 2026 publicados el 29-jul-2026 (comunicado oficial airbus.com leído íntegro
+el 25-ago-2026).
+
+**Cifras verificadas en primaria**: ingresos €33,2B (+12%), EBIT ajustado €2.727M (+24%), neto
+€2.243M (+47%), EPS €2,84. **351 entregas** en el semestre (237 en Q2) — ritmo coherente con la guía
+anual de ~870. Pedidos netos 821 aviones (vs 402 un año antes) y pedidos brutos del segmento Defensa y
+Espacio de €9,3B (+82%): la defensa está financiando el semestre. **El pero: FCF ANTES de financiación
+a clientes NEGATIVO -€1,2B** (ramp-up consume working capital) y caja neta bajando de €12,2B fin-2025 a
+€8,4B. Guía 2026 SIN CAMBIOS (~870 entregas, EBIT aj. ~€7,5B, FCF ~€4,5B).
+
+**Qué cambia en la tesis**: la ficha exigía "verificar ejecución de entregas y caja" antes de tocar.
+Medio punto verificado: las entregas van según guía (ejecución industrial OK). El otro medio NO: el FCF
+del semestre es negativo por ramp-up — la imagen de "Airbus como máquina de caja" tiene un asterisco
+temporal que solo H2 puede quitar (la guía sigue prometiendo ~€4,5B anuales; hay que CREER el back-loading).
+Segundo orden: mix defensivo creciente (pedidos D&S +82%) mejora calidad de ingresos pero acerca el
+múltiplo al de defensa y aleja el de cíclica civil.
+
+**Veredicto**: sin cambio (VIGILAR). Condición para revisar al alza: FCF H2-2026 positivo que confirme
+la guía anual completa.
+
+**Fuente**: Airbus, Half-Year 2026 results press release, https://www.airbus.com/en/newsroom/press-releases/2026-07-airbus-reports-half-year-2026-results (29-jul-2026) — consultada 25-ago-2026.

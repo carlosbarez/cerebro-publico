@@ -90,6 +90,9 @@ recurrencia, ROIC) es estructuralmente mejor en (1) que en (2).
   no el aftermarket del motor ([[airbus]]).
 - **Rolls-Royce, GE Aerospace**: comparables directos de Safran en motores civiles (fuera del universo
   europeo puro). La ficha durable de Rolls-Royce es [[rolls-royce]].
+- **TransDigm** (EE.UU.): componente aeroespacial propietario con monopolio de pieza en aftermarket (el "razor
+  and blades" más extremo, margen EBITDA ~52%) y modelo *buy-and-build* apalancado — ficha [[transdigm|TransDigm]]
+  (VIGILAR, margen ≈0%, 2026-08-26).
 
 ## Banderas rojas del sector
 

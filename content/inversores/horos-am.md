@@ -219,3 +219,20 @@ filosofía fundacional del *nuevo* producto, no de la gestora) y 8 cartas trimes
 - [[francisco-garcia-parames]] · [[azvalor-am]] · [[margen-de-seguridad]] · [[circulo-de-competencia]]
 - [[foso-economico]] · [[aversion-al-apalancamiento]] · [[asignacion-de-capital]] · [[ciclos-de-mercado]]
 - [[carteras-concentradas]] · [[warren-buffett]] · [[howard-marks]] · [[benjamin-graham]] · [[terry-smith]]
+
+## Nota de evolución 2026-08-26 (analista-fondos)
+
+Datos del primer semestre de 2026 verificados (complemento a [[ficha-horos-am]] y a
+[[fondos-value-y-dividendo-espana-2026-08]]):
+
+- **Patrimonio**: supera los **500 M€** en el semestre, con **+115 M€ de captaciones netas** y **>26.500
+  partícipes** (cuadruplicados en un año), desde ~390 M€ a cierre de 2025 (comunicado oficial, 20-07-2026).
+- **Horos Value Internacional**: **+2,7% en S1-2026** (datos de la firma vía Finect) y **+7,29% YTD a
+  14-ago-2026**; +14,76% anualizado a 5 años (Morningstar vía Finect, 17-08-2026).
+- **Horos Patrimonio**: +2,3% en el semestre (ocho meses de vida); nuevas emisiones en cartera: Fertiberia,
+  Serica Energy y Performance Shipping (comunicado, 20-07-2026).
+- **Refuerzo accionarial (dato nuevo no presente en la página)**: **Rodrigo Blanco** entra como socio
+  (director de Relación con Inversores), junto a las incorporaciones de Marina Jordá y Jaime Escudier
+  (comunicado, 20-07-2026).
+- Cirsa (controlada por Blackstone) entra en la estrategia ibérica — puente con [[private-equity-cotizado]]:
+  el value español comprando acciones de una participada de un gigante del PE cotizado.

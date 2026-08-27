@@ -116,3 +116,37 @@ cotizada **Greenlight Capital Re (GLRE, NASDAQ)**. Se hizo famoso por el **short
 3. **Desinflado especulativo en potencia/nuclear** (caso SMR): útil como termómetro del apetito por activos «de la segunda derivada de la IA»; si sigue, el contagio llegará a neoclouds e infraestructura apalancada → [[financiacion-estructurada-del-capex-de-ia]].
 
 Lecturas: [[greenlight-cartas]] · [[howard-marks]] · [[terry-smith]]
+
+## Nota de evolución 2026-08-26 (lector-de-cartas)
+
+**Carta Q2-2026 de Greenlight Capital (publicada ~14-ago-2026).** Fuente: texto de la carta reproducido íntegro en [hedgefundalpha.com](https://hedgefundalpha.com/investor-letters/greenlight-capital-q2-2026-letter/) (leído hoy; el PDF original va al pie de esa página). Cifras verificadas contra ese texto.
+
+### Resultados y dónde perdió
+
+- Greenlight **−4,3% neto en Q2 y +1,9% YTD vs +15,2% y +10,2% del S&P 500**. Exposición media **105% long / 63% short**. Arrancó «posicionado conservadoramente, enfocado en preservación de capital» y aun así perdió dinero — la señal del tramo: los longs aportaron ~+9% neto, los shorts −9%, y el **macro detrajo ~4% neto, sobre todo pérdidas en oro y en tipos de interés de EE.UU.**. El alfa del macro de 2025 (ver nota 2026-08-25) se revirtió en 2026.
+- Ganancias en Acadia Healthcare, Centene, Green Brick y TD SYNNEX atribuidas «más al mercado levantando las acciones que a desarrollos concretos»; pérdidas en shorts de las zonas «más hipadas» del mercado y en Core Natural Resources (revirtió su ganancia de Q1).
+
+### SpaceX: el marcador de top que Einhorn pone sobre la mesa
+
+- El IPO de SpaceX en junio a **$1,75 billones (trillion)** de valoración. Einhorn lo enmarca como *"the meme-ification of the market at scale, the latest proof that the markets are 'broken', a remarkable manipulation of the IPO process (including floating less than 5% of the company while persuading several index providers to grant early inclusion), or just another insult to value investing."*
+- La gota para él no son los accionistas sino las **agencias de rating**: Moody's asignó investment grade a SpaceX *"even though it isn't expected to be cash flow positive for years"* — *"We can't find any other examples of investment-grade ratings being awarded to a company with a multi-year forecast of negative free cash flow and no history of generating free cash flow."*
+- Veredicto: *"Our sense is that this IPO is something we might look back on as a marker that a major speculative top is near."* Segundo orden: el punto no es si SpaceX vale eso (Einhorn admite no saberlo); es que **el proceso de fijación de precios (índices, ratings) está siendo capturado por el propio fenómeno que debería evaluar** — el mismo dato que Smith usa para denunciar la indexación y que David Booth (Dimensional) ilustra con la relajación de criterios del Nasdaq-100 → [[eficiencia-de-mercado]] · [[ciclos-de-mercado]].
+
+### La apuesta por Kevin Warsh (nuevo presidente de la Fed)
+
+- Warsh, confirmado el **13-may-2026**, *"repeats emphatically that he will not tolerate inflation above 2.0%"*. Einhorn lo lee como el «whatever it takes» de Draghi: Plan A = que el mercado haga el trabajo (profecía autocumplida) y la inflación caiga a 2% sin subir tipos. Evidencia temprana: **los swaps de inflación a 1 año cayeron de 3,45% a 1,79%** desde la confirmación.
+- La posición de Greenlight es **contra el consenso**: el mercado espera Plan B (subidas más tarde); ellos *"are positioned to recover some of our losses if Plan A works and the Fed does not raise rates this year."* Sigue su tradición de apostar el libro macro a la política monetaria → [[checklist-macro-y-ciclo]] · [[macro-politica-monetaria-fed-bce-2026]].
+- Ironía de ciclo que él mismo señala: un halcón «hawkish» que baja las expectativas de inflación SIN subir tipos es, en efecto, un easing de facto — la inflación esperada es política monetaria.
+
+### Entradas nuevas y salidas (value con evento, otra vez)
+
+- **Comcast** ($23,91, 5x EBITDA; caída del 60% en 5 años; anunció spin-off de NBCUniversal), **Fortune Brands** ($39,37, ~8x beneficios con CEO nuevo + activista en el board), **Primo Brands** ($20,20, 12% de FCF yield esperado 2027 vs 3-5% de pares), **PayPal** ($43,53, 8x beneficios; tras el trimestre, Stripe y Advent habrían ofrecido $60,50/acción), **Versigent** ($29,20, ~4x beneficios; target de $1.000 M de FCF acumulado a 2028). Salidas: PPC (30% IRR), Victoria's Secret (157% IRR), Weatherford (45% IRR).
+- **Cerró a nuevos inversores el 1-jul-2026**, tras 30 años y con flujos de entrada — cierre de capacidad, no retirada. La contracara de lo que denuncia: si el mercado está «roto» y dominado por flujos, la respuesta racional es reducir tu propia exposición a esos flujos.
+
+### Qué implica para nuestra cartera (lectura propia, propuesta)
+
+1. **Dos señales de top especulativo independientes en un trimestre** (SpaceX y la indexación de su IPO) desde dos voces que no se copian (Einhorn y Smith) — y ambas además detectan que **el mecanismo de fijación de precios mismo está comprometido**. Eso es más fuerte que una cifra de PER: es un fallo de proceso, no de nivel → [[ciclos-de-mercado]] · [[eficiencia-de-mercado]].
+2. **El macro ya no da alfa gratis en 2026**: si hasta el mejor macro-trader de la industria pierde 4 puntos en oro y tipos, la asignación táctica debe asumir riesgo de ambos lados (2025 al revés) → [[checklist-macro-y-ciclo]].
+3. **PayPal es el caso de estudio del trimestre para value+evento**: comprada a 8x y revalorizada por una puja privada semanas después — el mercado público castigó, el privado vio el valor. Patrón ya registrado con Warner Bros. Discovery en Q4-2025.
+
+Lecturas: [[greenlight-cartas]] · [[terry-smith]] · [[howard-marks]] · [[ciclos-de-mercado]]

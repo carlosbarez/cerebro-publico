@@ -150,3 +150,28 @@ reaccionar al titular.
 [[flujo-de-caja-descontado]] · [[opciones-reales]] · [[adquisiciones-fusiones-y-sinergias]] ·
 [[contabilidad-y-calidad-de-beneficios]] · [[terry-smith]] · [[screening-de-calidad]] ·
 [[comparar-dos-empresas]]
+
+## Nota de evolución 2026-08-25 (analista-europa-espana)
+
+**Evento**: resultados H1 2026 publicados el 4-ago-2026 (anuncio oficial vía Nasdaq GlobeNewswire leído
+íntegro el 25-ago-2026).
+
+**Cifras verificadas**: la dirección **ELEVA la guía FY2026** a ventas y beneficio operativo ajustado
+entre **0% y -6% CER** (antes: caída mayor): sigue siendo una GUÍA DE CAÍDA, pero menos mala — el
+catalizador es GLP-1 (Wegovy inyectable + píldora). La píldora Wegovy supera **265.000 recetas/semana
+en EE.UU.** en pocas semanas; lanzamiento UK (jul) y aprobaciones EMA en julio (píldora OASIS 4:
+-16,6%; dosis 7,2mg STEP UP: -20,7%). Contrapartida de pipeline: **ziltivekimab FALLA fase 3 ZEUS**
+(insuficiencia renal) y **impairment de DKK 6,3B** (monlunabant, DKK 4,0B) — el neto Q2 cayó -16% CER
+reportado. CNBC tituló la caída bursátil del día (-5%) citando dudas sobre economía/precios de la
+píldora.
+
+**Qué cambia en la tesis**: la ficha decía "guía FY26 en CAÍDA" como hecho estático; ahora la caída
+tiene TECHO VERIFICADO (0% a -6%) y el debate se mueve de "¿sobrevive Novo?" a "¿cuánto vale la píldora
+frente a orforglipron de Lilly?". Segundo orden: los dos fallos de pipeline (ZEUS, monlunabant)
+debilitan la tesis de opciones reales más allá de obesidad — el re-rating futuro depende de EJECUCIÓN
+COMERCIAL, no de ciencia nueva.
+
+**Veredicto**: sin cambio (VIGILAR); el rango de escenarios se estrecha por arriba (menos malo) y por
+abajo (pipeline renal fuera).
+
+**Fuente**: Novo Nordisk, H1 2026 financial statement, vía Nasdaq GlobeNewswire (4-ago-2026); IR https://www.novonordisk.com/investors.html — consultado 25-ago-2026.

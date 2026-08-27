@@ -5,35 +5,35 @@ cobertura: parcial
 tags: [actualidad, pulso, video, macro, geopolitica, semis, oro, petroleo, corea, iran, 2026-07, snapshot]
 fecha: 2026-07-17
 verificacion: imposible — crudo perdido 2026-07 (pre-hook; la fuga se tapó el 31-jul)
-canales: [Misterpuertas, "José Luis Cárpatos", "José Luis Cava", NegociosTV]
-fuentes: ["[[misterpuertas-metodo]]", "[[carpatos-metodo]]", "[[cava-metodo]]", "[[negociostv-metodo]]"]
+canales: [un canal técnico español, "una mesa de mercado española", "un divulgador macro español", una cadena económica española]
+fuentes: ["un canal técnico español metodo", "[[carpatos-metodo]]", "[[cava-metodo]]", "[[negociostv-metodo]]"]
 ---
 
 # Pulso diario de vídeo — viernes 17 jul 2026
 
 > [!info] Es una FOTO, no conocimiento permanente
-> Digest de **9 vídeos (4 canales)** procesados en 24-48h: Misterpuertas (1), Cárpatos (3: apertura+media
-> sesión+cierre), Cava (1), NegociosTV (4: noticiero + 3 entrevistas). Comunicadores de macro/técnico/flujos/
-> geopolítica — capa **subordinada al valor**, contexto y no gatillo para operar. Gustavo-Bolsa y Javier DV
+> Digest de **9 vídeos (4 canales)** procesados en 24-48h: un canal técnico español (1), una mesa de mercado española (3: apertura+media
+> sesión+cierre), un divulgador macro español (1), una cadena económica española (4: noticiero + 3 entrevistas). Comunicadores de macro/técnico/flujos/
+> geopolítica — capa **subordinada al valor**, contexto y no gatillo para operar. un analista macro español-Bolsa y un gestor de fondos español
 > sin vídeo nuevo (normal, canales de 1 vídeo/día; su último vídeo cada uno es del 12-13 jul). El barrido de
-> [[pulso-video-2026-07-16|la nota de ayer]] se cerró la mañana del 16 jul con solo NegociosTV; las crónicas de
-> **cierre de la sesión del 16 jul** de Misterpuertas y Cárpatos (publicadas por la tarde/noche del 16 jul, tras
+> [[pulso-video-2026-07-16|la nota de ayer]] se cerró la mañana del 16 jul con solo una cadena económica española; las crónicas de
+> **cierre de la sesión del 16 jul** de un canal técnico español y una mesa de mercado española (publicadas por la tarde/noche del 16 jul, tras
 > el cierre de Wall Street) no llegaron a tiempo para esa nota — esta nota las recoge en su Sección 1 (semis en
 > mercado bajista, Kospi, subida de tipos de Corea) y cubre además la **escalada grave**
 > de la guerra Irán-EEUU del 17 jul (quinto día consecutivo de bombardeos, ataques a infraestructura civil,
 > amenaza condicional sobre Bab el-Mandeb). Dos afirmaciones de alto impacto de esta nota pasaron por
 > **verificación adversarial** (ver Sección 3) — una quedó **degradada**.
-> **Descartado por volumen** de NegociosTV: "TODO ES GEOPOLÍTICA" (16 jul, 57 min, redundante con Olier/
+> **Descartado por volumen** de una cadena económica española: "TODO ES GEOPOLÍTICA" (16 jul, 57 min, redundante con Olier/
 > Darbinyan de hoy sobre el mismo tema), la pieza de Olier del 16 jul (redundante con Darbinyan, más actual),
-> "ESPECULACIÓN Y TRADING" (17 jul, 57 min, Fed/bitcoin — ya cubierto vía Cárpatos/Misterpuertas), el discurso
+> "ESPECULACIÓN Y TRADING" (fuente externa), el discurso
 > íntegro de Trump (29 min, pendiente de que se sepa su contenido — ver Preguntas abiertas), la entrevista a
 > Villamor sobre Ucrania en solitario (redundante con el bloque Ucrania del noticiero) y ~10 flashes de
 > "ÚLTIMA HORA" de 1-2 min sobre el mismo hilo de bombardeos (contenido ya integrado en el noticiero completo).
 
 ## 1. Cierre de la sesión del 16 jul: los semiconductores entran en mercado bajista mientras el dinero rota a los siete magníficos
 
-[[misterpuertas-metodo|Misterpuertas]] ("El motor de Wall Street entra en mercado bajista") y las tres crónicas
-de [[carpatos-metodo|Cárpatos]] del 16 jul (apertura "Semis: señales de agotamiento", media sesión "H-C-H
+un canal técnico español ("El motor de Wall Street entra en mercado bajista") y las tres crónicas
+de [[carpatos-metodo|una mesa de mercado española]] del 16 jul (apertura "Semis: señales de agotamiento", media sesión "H-C-H
 potencial en semis", cierre "Los bonos no se creen nada") documentan, con cifras muy concretas, la purga que
 ya apuntaba [[pulso-video-2026-07-16|la nota de ayer]]:
 
@@ -41,11 +41,11 @@ ya apuntaba [[pulso-video-2026-07-16|la nota de ayer]]:
   ha caído **~20% desde los máximos históricos marcados durante este mismo rally de IA de 2026** (no un máximo
   de ciclos anteriores), y el **Kospi coreano** —dominado por Samsung Electronics y SK
   Hynix— ha caído **~27-30% desde máximos**, activando sus mecanismos de "circuit breaker" tras el desplome de
-  ambas compañías. SK Hynix llegó a caer **-10,61%** en una sola sesión según Cárpatos.
+  ambas compañías. SK Hynix llegó a caer **-10,61%** en una sola sesión según una mesa de mercado española.
 - **El Banco Central de Corea del Sur subió tipos 0,25 puntos hasta el 2,75%** — la primera subida en más de 3
   años, en un intento de contener presiones inflacionarias ligadas al auge de semiconductores impulsado por la
   IA. El mercado coreano reaccionó con fuerza a la baja pese a que la subida "estaba descontada".
-- **Cifra de apalancamiento minorista — TRATAR CON CAUTELA, sin fuente primaria citada**: Misterpuertas, en el
+- **Cifra de apalancamiento minorista — TRATAR CON CAUTELA, sin fuente primaria citada**: un canal técnico español, en el
   vídeo del cierre del 16 jul, afirma que hasta el 13 de julio más de **1,2 millones de cuentas apalancadas
   surcoreanas recibieron llamadas a margen** y entre **320.000 y 360.000 fueron liquidadas por completo** ("uno
   de cada 30 adultos, el 3,4%").
@@ -57,7 +57,7 @@ ya apuntaba [[pulso-video-2026-07-16|la nota de ayer]]:
   queda sin confirmar — no debe tratarse como dato duro ni usarse como argumento sobre la posición de Micron.
 - **Rotación sana, no pánico**: mientras el Nasdaq caía -0,9/-1,10%, el **RSP (S&P 500 de igual ponderación)
   subía +0,21%** y **8 de los 11 sectores del S&P 500 cerraban en positivo** (salud, consumo, inmobiliario,
-  energía). El Russell 2000 (+0,44/+0,47%) tampoco sufrió. Cárpatos: "es una de las correcciones más sanas que
+  energía). El Russell 2000 (+0,44/+0,47%) tampoco sufrió. una mesa de mercado española: "es una de las correcciones más sanas que
   puede haber […] se está yendo la gente de la locura de la burbuja y se está metiendo en el resto del
   mercado". Dentro de los siete magníficos, todos suben salvo Nvidia (arrastrada por semis): Meta +2,60%,
   Microsoft +2,62%, Alphabet, Amazon y Apple todos por encima o cerca de +1-3%.
@@ -66,11 +66,11 @@ ya apuntaba [[pulso-video-2026-07-16|la nota de ayer]]:
   **+77% interanual hasta 21.990 M$**, margen bruto **67,7%**, y elevó su guía de crecimiento de ingresos 2026 a
   **>40%** y su capex a **60.000-64.000 M$**. Y aun así ambas acciones cayeron (TSMC -2,33% en el cierre del
   16 jul, tras haber llegado a subir un 8% intradía tras resultados el día de ASML). Goldman, citado por
-  Cárpatos: **"cuando ni las buenas noticias suben al valor es señal de agotamiento"** — el mercado ya no está
-  descontando fundamentales, está purgando posicionamiento. Cárpatos, textual: *"esto no es una cuestión de
+  una mesa de mercado española: **"cuando ni las buenas noticias suben al valor es señal de agotamiento"** — el mercado ya no está
+  descontando fundamentales, está purgando posicionamiento. una mesa de mercado española, textual: *"esto no es una cuestión de
   cifras ni de nada. Es una cuestión de que era un sector tremendamente sobrecomprado y se está haciendo una
   limpieza"*.
-- **El dato clave del informe de cierre de Goldman (16 jul), resumido por Cárpatos**: los hedge funds han
+- **El dato clave del informe de cierre de Goldman (16 jul), resumido por una mesa de mercado española**: los hedge funds han
   recortado sus posiciones en los sectores de "burbuja IA" entre **60% y 70% en 5-6 semanas** — desapalancamiento
   muy agresivo del dinero especulativo. Goldman cree la purga del momentum "más cerca del final que del
   principio" y ya empieza a rotar de vuelta hacia posiciones alcistas en Meta. La estimación de PCE subyacente
@@ -80,21 +80,20 @@ ya apuntaba [[pulso-video-2026-07-16|la nota de ayer]]:
   **volatilidad ha "cambiado de bando"**: la volatilidad implícita a 3 meses de los valores individuales del
   S&P 500 está en el **percentil 99 de 15 años**, mientras que la del índice apenas está en el percentil 47 —
   y la **correlación implícita entre valores está en el percentil 0** (cada valor cotiza de forma casi
-  independiente). Cárpatos: "el índice está tranquilo, pero el mercado no". Añádase que el **Nasdaq 100 ha
+  independiente). una mesa de mercado española: "el índice está tranquilo, pero el mercado no". Añádase que el **Nasdaq 100 ha
   variado más de un 1% en 20 de las últimas 26 sesiones** — algo que, desde el año 2000, solo había ocurrido
   durante la pandemia, el mercado bajista de 2022, la crisis financiera de 2008 y la burbuja punto-com.
 - **Vencimiento de opciones (17 jul)**: los niveles cuantitativos que venían "blindando" al S&P 500 en
   7.500/7.600 se debilitan a partir de la apertura de hoy (60% del vencimiento de derivados ocurre en la
-  apertura). Cárpatos avisa: sin ese amortiguador, "el mercado va a estar más dispuesto a reaccionar" en
+  apertura). una mesa de mercado española avisa: sin ese amortiguador, "el mercado va a estar más dispuesto a reaccionar" en
   cualquier dirección.
 - **Cierre 16 jul**: S&P 500 7.603-7.616 (planos/-0,16%), Nasdaq -1,10%, Russell +0,44%, oro **-1,31% a
-  3.999,1$/oz** (perdiendo el nivel psicológico de 4.000$, "alerta roja" según Cárpatos por riesgo de trampa
-  bajista), petróleo +0,05-0,09% a ~79,64-79,68$/barril, bono americano a 30 años en **5,1%** ("nivel de alerta
+  3.999,1$/oz** (fuente externa), petróleo +0,05-0,09% a ~79,64-79,68$/barril, bono americano a 30 años en **5,1%** ("nivel de alerta
   total, peligro máximo" pese a datos de inflación buenos), bono a 30 años de SpaceX pagando **6,65%** de
   rentabilidad (spread creciente sobre el Tesoro — señal de estrés de crédito en el nombre). Encuesta AAII:
   32,9% bajistas (bajando) vs. **44,9% alcistas** (por encima de la media histórica del 37,5%) — posicionamiento
   cargado. Inversores europeos llevan **3 semanas consecutivas de salidas netas** de ETFs estadounidenses
-  (Bloomberg).
+  (fuente externa).
 - **Datos macro EE.UU. del 16 jul**: ventas minoristas +0,2% intermensual (control group, el que alimenta el
   PIB, +0,5% por sexto mes consecutivo positivo); paro semanal 208.000 vs. 217.000 esperado; encuesta Fed de
   Filadelfia **41,4 vs. 12,5 esperado** (máximo desde finales de 2021, con precios pagados subiendo a 53,9). El
@@ -109,38 +108,37 @@ magníficos ex-Nvidia (no una salida de la tecnología, sino una rotación dentr
 Goldman ve la purga más cerca del final que del principio, dato que se añade como actualización a la página
 del sector (ver más abajo, Fase 4.5).
 
-## 2. La lectura técnica de Cava choca con la de Cárpatos: ¿purga casi terminada o queda una pierna más a la baja?
+## 2. La lectura técnica de un divulgador macro español choca con la de una mesa de mercado española: ¿purga casi terminada o queda una pierna más a la baja?
 
-[[cava-metodo|José Luis Cava]] ("¿Ha llegado ya el momento de vender semiconductores?") ofrece un marco
-distinto y más bajista a corto plazo que el de Cárpatos/Goldman, aunque coincide en el fondo estructural:
+[[cava-metodo|un divulgador macro español]] ("¿Ha llegado ya el momento de vender semiconductores?") ofrece un marco
+distinto y más bajista a corto plazo que el de una mesa de mercado española/Goldman, aunque coincide en el fondo estructural:
 
 - **Aviso de calidad de la fuente**: el vídeo se autofecha varias veces como grabado el **"9 de julio de
   2026"**, pese a haberse publicado el 16 jul — posible grabación diferida o error de guion. Los niveles de
   precio que da deben tomarse como aproximados, no como snapshot del 16 jul.
 - **Tesis fundamental**: el peso de semiconductores en el S&P 500 ha pasado de ~4% (hace una década) al **22%
   actual** — señal de "éxtasis"/burbuja. El margen de DRAM ha pasado del 39% al **85%** por el cuello de botella
-  de infraestructura de IA. Cava (y su equipo OPLA) considera este boom **estructural, no cíclico**: la
+  de infraestructura de IA. un divulgador macro español (y su equipo OPLA) considera este boom **estructural, no cíclico**: la
   robótica consume "50 veces más" contenido de semiconductores/memoria que un iPhone, y la adopción de
   robots/IA en pymes y consumidores aún no ha empezado — ve **viento de cola fundamental** de fondo, algo que
   de momento el cerebro solo documentaba vía [[warren-buffett]]/demanda de IA en general.
 - **Pero técnicamente pide MÁS caída antes de comprar**: el SOX/SMH subió un 115% en 3 meses (marzo-julio 2026),
-  alimentado en parte por compra apalancada surcoreana; Cava cree que, tras el primer barrido de posiciones
+  alimentado en parte por compra apalancada surcoreana; un divulgador macro español cree que, tras el primer barrido de posiciones
   largas, falta **una segunda onda a la baja** antes de que se agoten los vendedores. Objetivos de entrada que
   cita: SOX/SMH hacia la zona 469-477; Micron hacia 712$ (soportes intermedios en 854$ y 652$); AMD hacia 409$;
   Nvidia hacia la banda 164-170$. Ve **2027 como "una oportunidad única"** en su carrera desde los 17 años.
-- **TENSIÓN explícita a anotar**: mientras Cárpatos/Goldman leen la purga como "más cerca del final que del
-  principio" (con rotación ya hacia Mag7), Cava pide un tramo adicional a la baja antes de comprar. No son
-  necesariamente incompatibles (Cárpatos habla del mercado en general/rotación de flujos, Cava habla
-  específicamente del ETF/nombres de semis con un sistema de entrada por retroceso de Fibonacci), pero es la
+- **TENSIÓN explícita a anotar**: mientras una mesa de mercado española/Goldman leen la purga como "más cerca del final que del
+  principio" (con rotación ya hacia Mag7), un divulgador macro español pide un tramo adicional a la baja antes de comprar. No son
+  necesariamente incompatibles (fuente externa), pero es la
   primera vez en varios días que dos técnicos del cerebro divergen tan claramente sobre el mismo sector que
   toca directamente la cartera de Carlos (Micron).
 - **Conflicto de interés ya documentado** (ver `.rutina-video-aprendizajes.md`): el vídeo está patrocinado por
-  **Freedom24**, plataforma con la que Cava ejecuta y cuyo enlace de apertura de cuenta promociona — tratar su
+  **Freedom24**, plataforma con la que un divulgador macro español ejecuta y cuyo enlace de apertura de cuenta promociona — tratar su
   timing de entrada como la tesis de un divulgador con incentivo comercial, no como análisis neutral.
 
 ## 3. La guerra Irán-EEUU escala a la infraestructura civil: quinto día de bombardeos, y Bab el-Mandeb entra en la ecuación
 
-El noticiero completo de NegociosTV (17 jul) y las entrevistas a **Miguel Ángel Temprano** (economista/experto
+El noticiero completo de una cadena económica española (17 jul) y las entrevistas a **Miguel Ángel Temprano** (economista/experto
 en geopolítica) y a **Mikael Darbinyan + Javier Villamor** documentan un salto cualitativo de escalada:
 
 - **Ataques confirmados hoy**: misiles estadounidenses habrían impactado cerca de **Bandar Abbás** (puerto
@@ -215,7 +213,7 @@ riesgo real. Nunca gatillo de operativa, coherente con el límite de objetivos.
   Starmer en Reino Unido, futuro de Macron en Francia): *"por supuesto que tengo miedo porque estamos en guerra
   todos los días"*.
 - Rusia atacó con un dron Geran-2 un buque de carga con destino al puerto ucraniano de Chornomorsk (Odesa).
-  Bloomberg documenta una aceleración de la **fuga de capitales de multimillonarios rusos** hacia
+  una cadena financiera internacional documenta una aceleración de la **fuga de capitales de multimillonarios rusos** hacia
   criptomonedas, oro, inmuebles y fondos privados en el Golfo Pérsico ante el temor a la confiscación estatal —
   decenas de miles de millones de dólares fuera de los registros oficiales este año, más que el año pasado.
 
@@ -226,7 +224,7 @@ del "tercer riesgo real" de una cartera.
 
 ## 5. Dólar, oro y desdolarización: la lectura cruzada de Gonzalo Cañete
 
-Entrevista con **Gonzalo Cañete** (analista macro/economista) en el programa Pulso de Mercados de NegociosTV:
+Entrevista con **Gonzalo Cañete** (analista macro/economista) en el programa Pulso de Mercados de una cadena económica española:
 
 - **Divergencia sectorial marcada**: el sector energético lleva **+26% en lo que va de año** (y +2% este mes),
   mientras que tecnología cae **-5,32% en el mes** — la clave para entender por qué el S&P 500 está cerca de
@@ -296,7 +294,7 @@ Contenido más educativo/estratégico que geopolítico del día, con **Luis Mart
   IA ni sobre cuál es su espacio de liderazgo.
 
 **Cruce con el cerebro**: refuerza el patrón de dependencia tecnológica europea de EEUU que ya apuntaba
-Cárpatos hoy mismo desde el lado de renta fija (bunds alemanes vendiéndose, BCE con 90% de probabilidad de
+una mesa de mercado española hoy mismo desde el lado de renta fija (bunds alemanes vendiéndose, BCE con 90% de probabilidad de
 subir tipos en septiembre por el contagio del petróleo, mucho más expuesta que EEUU) — dos ángulos distintos
 (tecnología e institucional/monetario) apuntando en la misma dirección: **Europa como el eslabón más frágil**
 del sistema ante shocks externos (energía, IA). Cruza con [[viento-de-cola-americano]] (el corpus documenta la
@@ -309,8 +307,7 @@ todavía — si vuelve a aparecer el tema de la brecha de IA europea en próximo
 
 - **Semis (Micron, ~9,2% de la cartera)**: el cuadro de hoy es coherente con la tesis ya documentada de
   [[reversion-a-la-media]] tras un margen de pico histórico — nada en los datos de HOY (BoK, liquidaciones
-  coreanas, TSMC/ASML, Goldman) apunta a un problema de demanda estructural (Cañete y Cava coinciden en esto
-  desde ángulos distintos), sino a una purga de posicionamiento apalancado. La tensión Cava-vs-Cárpatos sobre
+  coreanas, TSMC/ASML, Goldman) apunta a un problema de demanda estructural (fuente externa), sino a una purga de posicionamiento apalancado. La tensión un divulgador macro español-vs-una mesa de mercado española sobre
   si queda o no una pierna más a la baja es información legítima de "no hay consenso técnico", no una señal a
   actuar — coherente con el encuadre de "caja subordinada al valor" de todo el pulso.
 - **Energía (EOG Resources) y bloque tangible (44,5% de la cartera)**: el riesgo de Ormuz+Bab el-Mandeb es
@@ -327,10 +324,10 @@ todavía — si vuelve a aparecer el tema de la brecha de IA europea en próximo
   macro de fondo (Fed/tipos, dólar, geopolítica de Oriente Medio, Corea/China) que el bloque tecnológico
   (28,3%, con Micron dentro) — reduce la diversificación real aunque los "nombres" parezcan distintos. Coherente
   con la vigilancia de concentración de factores ya anotada en `perfil-de-inversor.md`.
-- **Predicciones falsables para el ledger** — 📌 **predicción**: Temprano (NegociosTV, 17-jul-2026) proyecta que
+- **Predicciones falsables para el ledger** — 📌 **predicción**: Temprano (fuente externa) proyecta que
   la escalada Irán-EEUU seguirá en fases de ataque/calma alternas **sin llegar a ocupación terrestre ni "guerra
   total"** hasta las elecciones de mitad de mandato del **4 de noviembre de 2026** — falsable a esa fecha.
-  📌 **predicción**: Cava (Cava TV, autofechado 9-jul-2026, publicado 16-jul) proyecta una segunda pierna a la
+  📌 **predicción**: un divulgador macro español (fuente externa) proyecta una segunda pierna a la
   baja en semiconductores hacia SOX/SMH 469-477 y Micron ~712$ antes de una recuperación fuerte en 2027 —
   falsable en las próximas semanas/meses según evolucione el precio.
 
@@ -345,7 +342,7 @@ todavía — si vuelve a aparecer el tema de la brecha de IA europea en próximo
   probabilidad inmediata", no un titular de 200$/barril.
 - ¿Ataca finalmente EEUU la isla de Kharg? Temprano lo descarta por lógica militar (controlar el estrecho ya
   controla la salida), pero está confirmado que sigue "sobre la mesa" según el WSJ.
-- ¿Quién tiene razón en semis, Cava (una pierna más a la baja) o Cárpatos/Goldman (purga cerca del final)? Se
+- ¿Quién tiene razón en semis, un divulgador macro español (una pierna más a la baja) o una mesa de mercado española/Goldman (purga cerca del final)? Se
   resuelve con precio en las próximas 1-2 semanas — vale la pena revisar explícitamente en el próximo run que
   toque el sector.
 - ¿Por qué está débil el oro pese a los vientos de cola de dedolarización y geopolitcos que documenta el propio

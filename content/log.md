@@ -3,6 +3,65 @@ title: "Registro"
 ---
 # Registro
 
+## [2026-08-26] web | Brasa llega al sitio público: barra arriba, héroe de tres zonas y el cerebro dibujado
+
+- **El diagnóstico primero**: el diseño de kimi-code nunca se perdió. Estaba intacto en `web/ui/`
+  (`git diff 72a7f93 HEAD` vacío). Lo que seguía en Dala era el **sitio público**, que kimi-code nunca
+  tocó: esa piel la escribió claude-opus el 25-ago, y lo único que había cruzado era `tokens.scss`.
+- **Portado a `~/cerebro-publico`** (copia fiel, decisión de Carlos): barra Brasa en `Body.tsx`, héroe
+  de tres zonas, los nueve huecos de color a Brasa con los dos modos iguales (piel única → conmutador
+  de tema apagado), versalitas condensadas 500/0.9 y hairlines de madera. Construido: **1.099 páginas,
+  5.498 ficheros, 25 min**. Detalle y por qués en `DESIGN.md` § nota de evolución 2026-08-26.
+- **La pieza central deja de ser un `<img>` enlazado y se incrusta**: dentro de un `<img>` el SVG no
+  ejecuta animaciones ni `:hover`. Orden: `cerebro.png` si existe, si no `cerebro.svg`. El vector se
+  rehízo (circunvoluciones onduladas; fuera cerebelo y tallo, que a 520px leían como un caracol).
+- **Imagen generada: bloqueada, y no por lo que parecía.** La clave de Carlos vale para texto pero
+  tiene `limit: 0` en los cuatro modelos de imagen (`GenerateContentInputTokensPerModelPerMinute-FreeTier`,
+  seis intentos espaciados). AI Studio en el navegador sí es gratis: **la genera Carlos y se deja en
+  `web/ui/cerebro.png`**; el hueco y la capa de animación ya están puestos.
+- **Dos fallos cazados verificando**, ambos habrían salido publicados: la navegación entera se pintaba
+  fuera de pantalla en móvil (`<nav>` en x=734 sobre 375) y la barra fija se comía la primera línea del
+  héroe. La causa de fondo del primero está en [[pendientes]]: KaTeX se come los importes en dólares de
+  **506 páginas** y empujaba el ancho del documento a 1.172px. Contenido en CSS; el arreglo real es de
+  Carlos porque cambia lo que dicen esas páginas.
+- Pruebas: 14 ficheros en verde (`tests/web/`, contraste y estructura). Contraste Brasa medido, todo AA.
+
+## [2026-08-26] web | el chat público deja de contestarle a Carlos, y la fase 3 queda verificada
+
+- **Fase 3 (Vercel), tareas 1-3 hechas.** El repo construye desde un clon limpio con `npx quartz build`
+  (11m42s, 5.081 ficheros, 2.510 HTML), sin el respaldo `install-plugins`. `vercel.json` comiteado
+  (`62b75ac`), **sin empujar**: el push lo decide Carlos. Simulacro: 1.098 páginas, 0 apartadas,
+  142 líneas tachadas, **puerta a 0 sobre 98 cifras vigiladas**. Incidente: el disco estaba al 100% y
+  tumbó el primer build y el propio harness.
+- **El modo público del chat existía y nadie lo llamaba** (`2f0ee78`). Medido: con `con_perfil=False`
+  seguían viajando al modelo **12 líneas** con el capital, el valor total y la tabla de asignación de
+  Carlos, y el prompt decía «PREGUNTA DE CARLOS» en los dos modos. Además `/api/biblioteca/entrada`
+  servía `perfil/cartera-actual.md` a quien la pidiera. Cerrado en publico con el MISMO juicio que
+  el sitio estático; 12 pruebas de `tests/web/` en verde.
+- **Diseño Brasa de kimi-code comiteado** (`72a7f93`) antes de que el auto-commit se lo llevara a medias.
+- **Sitio publicado en GitHub** (`origin/v5` en `f91af54`): diseño Brasa, `vercel.json` y el endpoint
+  del chat. `content/` NO viaja: las 1.098 páginas siguen sin republicar, a la espera de Carlos.
+- **Decisiones de Carlos sobre el chat público:** paleta Brasa, límite de 10 preguntas por IP y hora
+  (Deny) en `/api/pregunta`, y clave de Google en nivel **gratuito** — así que ese límite protege la
+  disponibilidad, no la factura: al agotarse el cupo la API devuelve 429 y el chat calla para todos.
+- **Plan de la fase 4 escrito y lanzado a prime-agent** (`d3a2943`): el chat vive dentro del Quartz y su
+  corpus es `contentIndex.json`, donde **no hay ni una página de `perfil/`** — la defensa deja de ser el
+  prompt y pasa a ser que ahí no hay nada que extraer.
+
+## [2026-08-25] cko | expedición flota CKO: 20 sondas, ~61 páginas nuevas y 24 evoluciones
+- Dos olas: 13 sondas lanzadas (un corte del sistema mató la primera a mitad de turno) y 7 relevos que
+  cosecharon el scratchpad de sus predecesoras sin repetir investigación. Dominios disjuntos por carpeta
+  y prefijo; superficies compartidas reservadas al orquestador.
+- Nuevas: 9 inversores + [[consenso-y-desacuerdo-cartas-2026]] · Uber/Tesla/Siemens-Energy/BBVA/Amadeus ·
+  3 síntesis de fondos + 2 evidencia ETF/activos · curva-crédito/private-credit/infra-REITs · 4 conceptos
+  de dividendos · crónica w34 + calendario quincenal · plata/carbón/fertilizantes/granos +
+  ciberseguridad/espacio/robótica/navieras · Irán-Ormuz/Ucrania/minerales/Ártico · 4 ángulos macro ·
+  balance/red-flags/Damodaran/burbujas/trend · 14 fuentes nuevas.
+- Evoluciones firmadas hoy: 7 fichas USA (resultados Q2) y 9 europeas (H1) · crédito-privado (señal
+  falsable CUMPLIDA: gates Ares/Apollo/BlackRock-Blue Owl) · fiscalidad ×2 con norma BOE citada.
+- Pendiente: 14 páginas de la primera ola sin sección Fuentes → cerrándolas verificador-fuentes;
+  wikilinks rotos intencionales quedan como pendiente (caixabank, industria viajes y turismo, …).
+
 ## [2026-08-25] web | el sitio público ya está en GitHub (push hecho)
 - `carlosbarez/cerebro-publico` creado por Carlos y rama `v5` empujada (1.861 commits, rama por defecto
   puesta en `v5`). Tres tropiezos: el clon era **shallow** y GitHub rechazaba el pack
@@ -1492,3 +1551,133 @@ relanzó); dos hijos murieron sin responder dejando trabajo completo en disco (g
 y fue recuperado al fan-in; dos rematadores redundantes cancelados sin escribir. Commits por dominio
 con trailer `Agente:`; pendiente para Carlos: dictamen sobre veredictos PROPUESTA (Aena COMPRAR
 condicionado al DORA III antes del 30-sep) y crear voz aeropuertos.
+## [2026-08-25] web | la portada enseña el vault con forma de cerebro, y Dala se aplica de verdad
+El héroe del sitio público deja de llevar un adorno generativo y lleva **el grafo real del wiki**:
+1.065 nodos (una página publicada cada uno) y 10.411 aristas (un wikilink cada una), dentro de una
+silueta de cerebro `Path2D` con sus cisuras, y con las aristas recortadas contra ella — sin ese
+recorte se lee una bola, no un cerebro. Dato nuevo `/static/grafo.json` (~100 KB) horneado por
+`publica.py`; el `contentIndex.json` de Quartz servía pero pesa 13 MB. **Fallo encontrado y
+arreglado en origen**: `inserta_portada()` colaba los datos vivos por encima del héroe y lo hundía
+1.141 px — la home construida tenía el orden bueno porque alguien reordenó `content/index.md` a
+mano, justo lo que el publicador borra en cada pasada. Segunda pasada de Dala: héroe a sangre por la
+derecha (titular hasta 113 px), tarjetas sin caja ni borde, navegación en gris ceniza (el violeta se
+guarda para el único botón), rail derecho y metadatos de Obsidian fuera de la portada, y el rótulo
+«Explorador» deja de salir cortado. Nuevos tests: `test_grafo_portada.py` (6) y el par
+`--catodo-tinta`/`--catodo` en `test_ui_contraste.py` (4,60:1, el más justo de los trece).
+Escalado a Carlos: `web/datos.py` lee mal los tickers desde que el mapa lleva wikilinks; y Explorer
+y Graph de Quartz se bajan los 13 MB en cada página. Nada publicado: todo en local.
+
+## [2026-08-26] ingesta diaria YouTube | curva larga, petróleo/Ormuz, consumidor e IA
+- Marco Reyes: 15 vídeos procesados de 8 canales; descartes de volumen registrados en scratchpad.
+- Recompras del Tesoro 2.000→4.000 M$ y próxima operación 9-sep; TGA ~950.000 M$ queda sin confirmar.
+- Contraste: petróleo -~6% y 10Y ~4,6% frente a ataque a petrolero con origen no identificado.
+- Degradaciones: criba/síntesis/cobertura mecánicas fallaron por tope Kimi/timeout Prime; resolución manual.
+- Degradación: archiva_transcripciones.py exit 2 por permisos 0555 de raw/pulso-video; crudos conservados en scratchpad.
+- Verificación determinista pasada a 15 destilados; citas FALLA y cifra de beneficios +50% excluidas.
+- Reparaciones: primer intento de escritura con argumentos invertidos exit 2; reintentado correctamente por `--desde`; índice saneado (`index#Empresas`→`index#empresas`) antes de escribir.
+- Autocheck de la puerta OK; lint Obsidian devuelve `{}` para la nota nueva; marcador de frescura YouTube escrito.
+
+## [2026-08-26] analisis-fundamental | rotacion — Baidu y Meituan, dos margenes "no fiables"
+Miercoles de rotacion (bloque China restante); Kimi en tope de ciclo (20/20), ambas al fallback
+`analista-fundamental`. **Baidu (VIGILAR)**: caja neta declarada sobreestimada ~2x contra el 20-F SEC
+EDGAR (101%→48-54% del market cap) invalida el "core gratis" del borrador; su haircut de gobernanza no es
+comparable con el WACC-uplift de JD.com (08-19), mismo bloque, dos metodos. **Meituan (VIGILAR,
+PRE-EARNINGS 28-ago)**: 4 inconsistencias numericas contra la sonda del 14-ago (P/S matematicamente
+imposible incluido) y target de consenso citado que era el maximo de la muestra, no la media; escenario
+pesimista casi duplicado sin hecho nuevo — anclaje inverso. Ningun margen se asciende como cifra de
+decision. Paginas [[baidu]]/[[meituan]] con campos de vigilancia; informe [[af-2026-08-26]]. Puente
+industria-empresa cerrado para ambas (solo el enlace de Meituan faltaba); el resto del backlog mecanico
+que detecto el script en otras paginas de industria se dejo sin tocar, fuera del dominio de escritura de
+esta rutina.
+
+## [2026-08-26] conocimiento | rotacion fuentes+inversores + auditoria de fidelidad OpenRouter (Sofia Navarro, CKO)
+Mision (dobla como auditoria de miercoles): `damodaran-country-risk.md` verificada contra el PDF original
+via scout con PyMuPDF/Bash (el `Read` tool de PDF no funciona aqui, falta `pdftoppm`/poppler) - 7/10 cifras
+exactas, 2 con matiz menor (redondeo, recuento de paises), 1 no localizable (grafico sin texto), sin
+fabricacion. Backlog Damodaran corregido: 2 paginas reales sin verificar, no 4 (`dark-side-of-valuation`
+ya estaba verificada desde el 22-jul). `[DEGRADADO: destila --tipo duplicidades exit 1]`,
+`[DEGRADADO: destila --tipo caducidad exit 1]`, `[DEGRADADO: enlaza exit 1]` - los 3 verbos de la capa
+mecanica fallaron hoy con ambos carriles (Kimi 20/20, OmniRoute con 3 modos de fallo distintos) sobre
+`wiki/inversores/`; sustituido por chequeo manual acotado. Trazabilidad fuentes-inversores sigue 6/11 sin
+movimiento (3a comprobacion). 2 conexiones no hechas: la cosecha de cartas Einhorn/Marks/Smith/Buffett del
+25-ago sin cruzar con [[financiacion-estructurada-del-capex-de-ia]] ni con la pagina de burbujas
+financieras. Elena sin `pulso-2026-08-26`, 2a vez en 5 dias tras la escalada del 21-ago - reescalado a la
+CIO. Informe [[conocimiento-2026-08-26]], durable actualizado en [[arquitectura-del-conocimiento]].
+
+## [2026-08-26] conocimiento | relevo del enjambre interrumpido — 6 scouts, 10 paginas nuevas + 19 ampliadas (Sofia Navarro, CKO)
+Relevo del enjambre de prime-agent que murio con el daemon stale: las 4 fichas en vuelo relevadas
+(TDG $1.192,60 / EXPN £30,09 / Keyence ¥80.900 / Viscofan €57,20, cierre 25-ago) y los scouts
+`geopolitico`/`commodities` que murieron vacios. Squad de 6 scouts en paralelo, cada uno con pagina
+durable propia (superacion explicita del cap de 3 y de scouts read-only, por encargo de Carlos):
+`rastreador-empresas` (4 fichas nuevas, todas VIGILAR — solo Experian con colchon real, +10%), `vigia-commodities`
+(nota en [[materias-primas-y-ciclo-de-commodities]] + [[commodities-2026-08]] + [[gas-natural-gnl-panorama-2026]]),
+`radar-geopolitico` (7 notas de evolucion + [[geopolitica-europa-rearme-y-defensa-2026]]), `analista-fondos`
+([[private-equity-cotizado]] + Azvalor/Horos), `lector-de-cartas` (6 voces + [[consenso-y-desacuerdo-cartas-2026]]),
+`profesor-conceptos` ([[economia-unitaria]], [[crecimiento-organico-vs-inorganico]]). 0 enlaces rotos
+introducidos, 0 inventos. 2 datos a escalar: conflicto de compras de oro Q1-26 (244t vs 57t, ambos citan WGC) y
+conciliacion Azvalor (Inverco 3.587M€ vs VDOS 3.743M€). Propuesta de tension del rearme a la CIO. prime-agent
+reiniciado y operativo con OpenCodeGo/hy3. Informe [[conocimiento-enjambre-2026-08-26]].
+
+## [2026-08-27] web | el cerebro del hero pasa a canvas vivo, y un CSS roto que no se veia (carlos)
+La pieza central del sitio publico deja de ser lamina PNG + foco CSS y pasa a un canvas
+(`web/ui/cerebro.js`) que reanima la anatomia que `forma_desde_video.py` saco del video de Carlos.
+Reacciona al estado del chat (reposo / pensando / golpe al firmar) y nombra a la persona de cada
+zona bajo el puntero; si no monta, cae al SVG de antes, y si tampoco, la firma lo dice en palabras.
+El hueco `#cerebro` solo reserva sitio: el dibujo se centra encima y desborda simetrico, asi que
+crece sin mover el flujo. Hallazgo: el velo del titular estaba pegado DENTRO de `.hero-claim h1
+{...}` — CSS invalido que se comia el velo Y el `margin: 0` del h1 sin dar ningun error. Sacado a su
+regla y verificado en motor real (canvas montado, velo pintando, consola limpia). Pendiente visible:
+los PNG son 512x512 y se dibujan a ~600px, se ven bandas en las zonas encendidas.
+
+## [2026-08-27] RUTINA | Ingesta newsletters 25-26 ago (Lote 1)
+
+- **Procesadas**: 12 newsletters prioritarias (Bloomberg Money Stuff, Finimize, TLDR AI, ING Think, JJ Montoya, Economist, Robinhood Snacks, McKinsey, BLS, Carnegie)
+- **Ignoradas**: ~40 (Seeking Alpha índice, HSN Store promo, Substack notificaciones, duplicados)
+- **Abiertas**: Lote 2 (~40 correos restantes) diferido a 2026-08-27 si recursos
+- **Output**: pulso-2026-08-26.md (parcial, 5 secciones: Tech, Macro, Geopolitica, Mercados, Regulación)
+- **Validación**: Editor-jefe: 19 hallazgos, 5 críticos aplicados (enlaces, Micron extrema, hearsay Chris Malone, atribuciones)
+- **Destilado**: 2 cuerpos (Bloomberg Money Stuff + Finimize) via `destila --tipo newsletter`
+- **Síntesis**: Directa Elena sobre 10 prioritarios (Lote 1)
+
+
+## [2026-08-27] ingesta diaria YouTube | Nvidia, capex IA, PCE y Ormuz
+- Creada [[pulso-video-2026-08-26]] con 8 vídeos relevantes y contraste con [[pulso-2026-08-26]].
+- Procesados: Misterpuertas, Cárpatos x3, Cava, NegociosTV x1 y Bloomberg TV x2; Javier DV sin vídeo nuevo.
+- Descartes: Gustavo fuera de ventana; NegociosTV redundantes; Bloomberg domésticos/cripto/breves; Podcasts D-1 sin pieza válida.
+- [DEGRADADO: descubrimiento comando inicial exit 2] sintaxis corregida; listas finales obtenidas por yt-dlp android.
+- [DEGRADADO: archiva_transcripciones.py exit 2] raw/pulso-video bloqueado 0555; crudo queda en scratchpad.
+- [DEGRADADO: destila --tipo cobertura exit 124] sin salida en 300s; cobertura manual y validador dejó 1 IGNORADO resuelto.
+- [DEGRADADO: verifica_destilado.py exit 1] FALLA excluidas; [DEGRADADO: escribe_pagina_wiki.py exit 2] uso inicial corregido.
+- [DEGRADADO: obsidian eval exit 124] no respondió en 120 s; lint de wikilinks determinista: 13 enlaces, 0 ausentes; autocheck de escritura OK.
+- Cierre: autocheck OK; lint Obsidian degradado, revisión determinista OK; commit pendiente.
+
+## [2026-08-27] estrategia | noveno run — Nvidia resuelto, financiación IA a ALTA, escenarios 43/15/42
+- Creada [[estrategia-2026-08-27]]; durable [[mapa-sectorial-y-megatendencias]] evolucionado (regla de evolución).
+- Sin cambio de postura sectorial. Escenarios 40/15/45 → **43/15/42** (2 de 3 gatillos del pesimista del 20-ago resueltos a favor: 30a 5,17% no re-escaló, Nvidia batió).
+- Verif. 1/3: financiación estructurada capex IA **sube a confianza ALTA sobre fuente primaria** (10-Q Nvidia: compromisos suministro $119→$279 bn, AR $63 bn, garantía $105 bn a OpenAI = techo no gasto; deuda fuera de balance ~$3-3,1 bn con MS+WSJ). "50% del gasto IA a Nvidia" queda DÉBIL.
+- Verif. 2/3: caída del Brent ($92,2→$87,8 ICE) es real, NO error de instrumento; marco Irán-Omán 25-ago pero Ormuz sigue cerrado. Predicción viva [[2026-07-23-brent-sostiene-90-agosto]] camino de resolver 0 (valor justo ~0,20-0,25).
+- 3 predicciones nuevas (FedWatch <50% 15-sep 0,60; margen Nvidia Q3 ≤74% 0,55; Ormuz sin reapertura 30-sep 0,70). CERO escrituras en wiki/predicciones/.
+- Capa mecánica: tabla-macro OK (validado). [DEGRADADO: enlaza exit 143 timeout] · [DEGRADADO: novedad exit 143 timeout] — Kimi en tope de ciclo; cruces y contraste a mano.
+- Cierre: autocheck OK; lint determinista 0 enlaces rotos; commit + marca de frescura.
+
+
+## [2026-08-27] riesgo | quinto run — deriva_cartera.py corrupto desde el 25-ago, cuant sin cambio (Daniel Ferrer, CRDSO)
+- Creada [[riesgo-2026-08-27]]; durable [[limites-y-marco-de-riesgo]] con fila de historial (sin cambio de umbrales).
+- **Hallazgo del run**: `deriva_cartera.py` da pesos falsos desde el commit `aa29363` (ox-alpha, 25-ago) — wikilinks en la tabla de `cartera-actual.md` rompen `filas_de_tabla`; 6 posiciones (Micron incl.) mal leídas. Alerta "TANGIBLES 47,1%" = artefacto; peso real ~45,6% (parser propio). ox-alpha escribió en `wiki/perfil/` (dominio de Carlos).
+- Cuant idéntico al 20-ago (vol 19,7%, VaR95 2,0%, MU mult 3,89x, metales+MU 66,6% del riesgo). Régimen: DGS30 aflojó a 5,17% (-0,14 desde pico); HY spread percentil ~7% (más comprimido). Sin gatillo de venta forzosa (combinado -8%).
+- Proceso: cadena automática 23-25 ago falló (veredicto sin 3er ciclo, CIO no corrió el 24, marcadores perdidos); ~25 predicciones del equipo sin registrar; `wiki/riesgo/` sigue fuera del veredicto (2ª escalada); diario de decisiones 47 días.
+- Sesgos: disposición equipo/Micron 5ª instancia (escalo el límite por mérito, no la psicología); analista fundamental — 4 defectos de método autodetectados y repetidos, la red los caza pre-durable, el bucle al arreglo no cierra (para Elisa).
+- [DEGRADADO: destila --tipo proceso/repeticiones exit 1 — Kimi TOPE 20/20 hasta 30-ago]; proceso a mano.
+- Verificación 1/3 sobre las 5 afirmaciones de §11: CONFIRMADA/CON MATIZ; mi sesgo alarmista operó por 3ª vez en el borrador (30-jul/20-ago/27-ago), corregido antes de publicar, elevado a Elisa como pregunta abierta.
+- Cierre: autocheck OK; lint determinista 0 enlaces rotos; commit + marca de frescura.
+
+
+## [2026-08-27] conocimiento | vigésimo segundo run — jueves, meta-run: auditoría del pase de wikilinks de ox-alpha
+- Creada [[conocimiento-2026-08-27]]; durable [[arquitectura-del-conocimiento]] con sección fechada + 2 reglas de método (regla de evolución); [[index]] actualizado.
+- Misión (0 scouts, grep + git blame): commit `aa29363` (ox-alpha, 25-ago, 487 ficheros, +1.400 wikilinks). Neto positivo en páginas-concepto nuevas; negativo en la Fase 1 — **33 wikilinks mal formados en 16 ficheros** (rompe `deriva_cartera.py`, corrompe 3 celdas de `mapa-de-industrias.md`).
+- Causa raíz doble: (a) carril opencode → los 6 hooks del harness no aplican a ox-alpha; (b) el hook de wikilinks partidos no cubre el patrón (destino limpio, daño en alias + sufijo). Fase 2 semántica saltó ~29% del vault (sin embedding), no declarado.
+- Propuestas: `scripts/lint_wikilinks.py --all` a Carlos/Elisa (gate post-hoc para el carril opencode); corregir los 33 a Daniel/Carlos Bárez; subir la disciplina PyMuPDF a `squads-de-investigacion.md`.
+- Meta (PASO 6): 2 reglas propias nuevas (sonda de viabilidad antes del lote mecánico; ítems escalados pasan a "dormidos"); 0 herramientas/MCP nuevas justificadas; 0 scouts persistentes.
+- [DEGRADADO: destila --tipo duplicidades/caducidad/enlaza exit 1 — Kimi TOPE 20/20 hasta 30-ago; carril de pago con timeout en lote real]. La misión ES la auditoría de conexiones/duplicidades del día.
+- Alerta de cadena: sin `cio-2026-08-27` ni marcador de frescura de `cerebro-cio-elisa` a las 11:00 (2ª vez en 4 días) — trasladado a la CIO/Carlos.
+- Cierre: autocheck OK; lint determinista 0 enlaces rotos; commit + marca de frescura.

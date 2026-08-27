@@ -655,6 +655,9 @@ export async function loadQuartzLayout(layoutOverrides?: {
 
   // Build per-page-type overrides
   const byPageType: Record<string, Partial<FullPageLayout>> = {}
+  // Tipos de pagina donde el yaml VACIA afterBody a mano (positions.afterBody: []): ese borrado
+  // explicito se respeta y no se le anade el chat publico.
+  const afterBodyVaciadoExplicito = new Set<string>()
   if (layoutConfig.byPageType) {
     for (const [pageType, override] of Object.entries(layoutConfig.byPageType)) {
       let filteredEntries = enabledWithLayout
@@ -679,6 +682,7 @@ export async function loadQuartzLayout(layoutOverrides?: {
             >
             if (key in ptLayout) {
               ;(ptLayout as Record<string, unknown>)[key] = []
+              if (key === "afterBody") afterBodyVaciadoExplicito.add(pageType)
             }
           }
         }
@@ -701,12 +705,25 @@ export async function loadQuartzLayout(layoutOverrides?: {
   defaultLayout.header = defaultLayout.header ?? []
   defaultLayout.footer = defaultLayout.footer ?? []
 
+  // El chat publico de Elisa (plan fase 4, tarea 5). Los componentes internos de
+  // quartz/components/ no entran por el registro (que solo carga plugins empaquetados), asi que se
+  // anaden aqui, junto al otro caso especial que ya existia (Head). El componente solo se pinta en
+  // la portada: dentro devuelve null si fileData.slug !== "index".
+  const ChatPublicoModule = await import("../../components/chat-publico")
+  defaultLayout.afterBody = [...(defaultLayout.afterBody ?? []), ChatPublicoModule.default()]
+
   // Ensure all byPageType entries inherit structural slots
   for (const pageType of Object.keys(byPageType)) {
     const pt = byPageType[pageType]
     if (!pt.head) pt.head = head
     if (!pt.header) pt.header = defaultLayout.header
     if (!pt.footer) pt.footer = defaultLayout.footer
+    // El chat publico tambien tiene que llegar a los layouts por tipo: buildLayoutForEntries deja
+    // afterBody como array VACIO (no undefined), y resolveLayout usa `??`, con lo que ese vacio
+    // pisa siempre al default. Se replica aqui, salvo vaciado explicito en el yaml.
+    if (!afterBodyVaciadoExplicito.has(pageType)) {
+      pt.afterBody = [...(pt.afterBody ?? []), ...(defaultLayout.afterBody ?? [])]
+    }
   }
 
   const mergedDefaults = { ...defaultLayout, ...layoutOverrides?.defaults }

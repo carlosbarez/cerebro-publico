@@ -94,3 +94,30 @@ hay que **no recomprar** lo mismo dentro de la ventana (o comprar algo equivalen
 
 [[fiscalidad-del-inversor]] · [[interes-compuesto]] · [[horizonte-largo-plazo]] · [[renta-fija-y-tipos]] ·
 2026 07 11 analisis inicial cartera · cartera actual · [[terry-smith]] · [[francisco-garcia-parames]]
+
+## Nota de evolución 2026-08-25 (dividendos-fiscalidad)
+
+Verificación normativa 2025-2026 con fuentes oficiales:
+
+1. **Confirmado el tipo del 30%** del tramo >300.000 € de la base del ahorro: lo introduce la **Ley 7/2024,
+   de 20 de diciembre** (BOE-A-2024-26694), **disposición final séptima**, **con efectos desde el 1-ene-2025**
+   — no "en 2025-26" a secas como decía esta página. Mecánica verificada en el texto legal: sube la mitad
+   **estatal** del tramo máximo del ahorro de 14% a 15% (la autonómica replica; la escala única para
+   contribuyentes residentes en el extranjero muestra el agregado 30%). El resto de la escala queda intacto:
+   **19 / 21 / 23 / 27 / 30%**. Primera aplicación práctica: campaña de Renta 2025 (feb-jun 2026).
+2. **Precisión contra bulo viral** (verificat.cat, abr-2026): el 30% grava los *rendimientos* del ahorro que
+   superen 300.000 € dentro de la escala progresiva; NO existe impuesto que grave el stock de ahorros ni
+   afecta a planes de pensiones (tributan como rendimientos del trabajo). La tabla superior queda así validada,
+   con la fecha de efectos ahora precisa.
+3. **Sin cambios detectados en el resto del kit**: traspaso de fondos (art. 94), regla de los dos meses
+   (art. 33.5.g), FIFO y retención del 19% sobre dividendos siguen vigentes sin modificación normativa en las
+   fuentes consultadas para 2025-2026. Los movimientos autonómicos de 2025 (Asturias, Murcia, País Vasco)
+   afectan a la escala general, no a la tarifa del ahorro (Wolters Kluwer, mar-2026).
+4. **Nuevo ángulo documentado**: la capa de doble imposición internacional tiene página propia —
+   [[dividendos-retenciones-internacionales]] (W-8BEN al 15% EEUU, casilla 588, y el arbitraje Irlanda vs
+   Luxemburgo a nivel de fondo UCITS, cuya retención interna NO es deducible por el inversor).
+5. El contexto de mercado que hace relevante este cluster: récord de dividendos repartidos por las cotizadas
+   españolas en 2026 ([[dividendos-espana-y-europa-2026]]).
+
+Fuentes añadidas: BOE Ley 7/2024 DF 7ª · Cuatrecasas (dic-2024) · Verificat (abr-2026) · Wolters Kluwer
+"Tramos y retenciones IRPF 2026" · Idealista/News (feb-2026) — todas consultadas 2026-08-25.

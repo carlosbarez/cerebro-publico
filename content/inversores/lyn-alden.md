@@ -80,3 +80,41 @@ suyo en el vault; sus cartas mensuales y su web no están ingeridas.
 [[alden-broken-money]] · [[ray-dalio]] · [[michael-pettis]] · [[chancellor-el-precio-del-tiempo]] ·
 [[ciclo-de-imperios-y-moneda-reserva]] · [[represion-financiera]] · [[economia-de-activos-vs-salarios]] ·
 [[credibilidad-del-banco-central]]
+
+---
+
+## Nota de evolución 2026-08-25 (lector-de-cartas)
+
+**Material nuevo verificado:** títulos y fechas de newsletters de lynalden.com confirmados vía RSS/sitemap («The Gradual Print is Here», 8-feb-2026; «The Wild West», jun-2026; pieza ORANGE JUICE sobre alternativa al private equity, 15-jul-2026) y aparición pública en CNBC (20-ago-2026). El contenido íntegro de las newsletters queda tras paywall en esta sesión.
+
+### Qué dice el material fresco
+
+- **«The Gradual Print is Here» (feb-2026):** la impresión monetaria ya no llega en choques (2008, 2020) sino en goteo estructural: dominancia fiscal permanente donde el Tesoro condiciona la política del Fed.
+- **«The Wild West» (jun-2026):** panorama regulatorio/geopolítico fragmentado; contexto favorable a activos fuera del sistema tradicional.
+- **ORANGE JUICE (jul-2026):** propuesta de alternativa al private equity retail — coherente con la crítica de GMO a los retornos anunciados del PE (ver [[jeremy-grantham]]).
+- **CNBC 20-ago-2026:** explícitamente alcista en renta variable global ex-US/Latinoamérica y comentarios constructivos sobre bitcoin.
+
+### Pensamiento de segundo orden
+
+La frase-título «gradual print» resume la divergencia clave dentro del campo bajista: Alden no espera un crash nominal sino una **debasement lento** que castiga al ahorrador en cash/bonos nominales sin dar el espectáculo de una crisis televisiva. Esto cambia la estrategia óptima: contra un crash sirve el cash y las puts; contra un debasement gradual sólo sirven activos reales y negocios indexados a la inflación. Su combinación ex-US/LatAm + bitcoin + alternativa-PE barata es la versión *constructiva* del mismo diagnóstico que lleva a Grantham al pesimismo puro: mismos datos fiscales, conclusiones de cartera opuestas en signo pero compatibles en sustancia (todos huyen del dólar-nominal-largo).
+
+### Implicaciones de cartera (largo plazo)
+
+- Revisar la parte de la cartera que depende de «cash seguro»: bajo dominancia fiscal el riesgo real no es la volatilidad sino la erosión silenciosa.
+- LatAm/ex-US como expresión de valor + divisa débil USD; bitcoin como cobertura asimétrica de cola monetaria.
+- Desconfiar de vehículos privados minoristas con retornos «suavizados»; preferir la liquidez incluso con prima aparente menor.
+
+### Señales falsables
+
+- Si el dólar se fortalece 2+ años frente a canasta y el oro/BTC caen simultáneamente, la tesis de debasement gradual queda seriamente dañada.
+- Si LatAm bate al S&P 500 en 2026-2028, su giro ex-US se valida; si el S&P compone >12%/año nominal hasta 2030, la oportunidad costada de su recomendación sería enorme.
+- Publicación de flujos: entrada minorista masiva en productos semi-liquidos tipo interval funds confirmaría el riesgo que su pieza jul-2026 intenta evitar.
+
+### Fuentes
+
+- https://www.lynalden.com/newsletter/ (títulos/fechas verificados vía RSS 2026-08-25)
+- CNBC, 20-ago-2026, vía Google News RSS
+
+**[Sin datos: texto completo interno de las newsletters feb-jul 2026 (paywall); solo titulares, fecha y resúmenes públicos verificados.]**
+
+Ver también [[bitcoin-como-activo-monetario]], [[ray-dalio]], [[consenso-y-desacuerdo-cartas-2026]], [[retornos-esperados]].

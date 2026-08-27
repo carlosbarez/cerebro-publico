@@ -93,3 +93,24 @@ capacidad contratada. Fuente: [[conocimiento-2026-08-16]], resultados Q2-2026 de
 [[plataformas-tecnologicas-y-publicidad-digital]] · cartera actual · [[foso-economico]] ·
 [[flujo-de-caja-descontado]] · [[creacion-de-valor-y-eva]] · [[michael-mauboussin]] · [[nvidia]] ·
 [[alphabet]] · [[meta-platforms]] · [[af-2026-07-17]]
+
+## Nota de evolución 2026-08-25 (analista-usa): cierre FY26 — Azure cruza $100B y OpenAI se separa del GAAP
+
+Del PR oficial FY26Q4 (29-jul), lo que cambia respecto a la nota del 16-ago:
+
+1. **Azure superó $100B de ingresos anuales por primera vez** (+43% en Q4) y M365 Copilot alcanzó
+   **>30M asientos de pago** — los dos KPI falsables de la tesis van en camino.
+2. **OpenAI ya distorsiona el GAAP**: Microsoft publica ajuste sistemático "impact from OpenAI" (Q4:
+   net income GAAP $35.766M vs non-GAAP $35.286M; drag de -$480M en el trimestre). Cuando una partida
+   negativa se excluye por defecto de la métrica principal, vigilar la deriva: el apagón de pérdidas de
+   la JV queda fuera de la narrativa de márgenes ([[contabilidad-y-calidad-de-beneficios]]).
+3. **Microsoft también cobra en papel**: ganancia de ~$3B por la inversión en Anthropic dentro del Q4,
+   mismo patrón que Alphabet/Amazon.
+4. FY26 completo: operating income **$155,2B (+21%)**, EPS $17,95 (+32% GAAP); devolvió $10,2B a
+   accionistas solo en Q4 — la conversión a caja sigue intacta pese al capex.
+
+Implicación: el RPO comercial +84% a **$678B** (verificado el 16-ago) es demanda contratada cuya
+conversión depende de ejecutar capacidad (energía/chips), no de conseguir pedidos. El test de la tesis
+pasa de "crecen?" a "entregan?": retrasos de capacidad = gap entre RPO y reconocimiento.
+
+Fuente: Microsoft FY26 Q4 press release: https://news.microsoft.com/source/2026/07/29/microsoft-cloud-and-ai-strength-fuels-fourth-quarter-results-4/ — consulta 2026-08-25.

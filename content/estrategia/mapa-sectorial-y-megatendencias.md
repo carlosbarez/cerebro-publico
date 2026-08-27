@@ -2,8 +2,8 @@
 title: "Mapa sectorial y megatendencias (documento vivo)"
 tipo: sintesis
 tags: [estrategia, macro, sectorial, megatendencias, durable]
-fecha: 2026-08-24
-fuentes: ["[[estrategia-2026-07-16]]", "[[estrategia-2026-07-20]]", "[[estrategia-2026-07-23]]", "[[estrategia-2026-07-30]]", "[[estrategia-2026-08-03]]", "[[estrategia-2026-08-06]]", "[[estrategia-2026-08-20]]", "[[estrategia-2026-08-24]]"]
+fecha: 2026-08-27
+fuentes: ["[[estrategia-2026-07-16]]", "[[estrategia-2026-07-20]]", "[[estrategia-2026-07-23]]", "[[estrategia-2026-07-30]]", "[[estrategia-2026-08-03]]", "[[estrategia-2026-08-06]]", "[[estrategia-2026-08-20]]", "[[estrategia-2026-08-24]]", "[[estrategia-2026-08-27]]"]
 ---
 
 # Mapa sectorial y megatendencias (documento vivo)
@@ -14,7 +14,7 @@ actualización se añade con fecha, sin borrar lo anterior, para poder ver cómo
 (misma regla que el resto del cerebro, `CLAUDE.md`). El detalle y la evidencia de cada actualización viven en
 el informe periódico correspondiente (`wiki/estrategia/estrategia-YYYY-MM-DD.md`).
 
-## Postura sectorial vigente (última actualización: 2026-08-24)
+## Postura sectorial vigente (última actualización: 2026-08-27)
 
 | Sector | Postura | Desde |
 |---|---|---|
@@ -45,6 +45,47 @@ el informe periódico correspondiente (`wiki/estrategia/estrategia-YYYY-MM-DD.md
 
 *(Envejecimiento y nuevos materiales, previstas en el marco original de la rutina, aún sin cobertura de datos
 — pendiente de datos/fuentes en runs futuros.)*
+
+## Actualización 2026-08-27
+
+Noveno run, cadencia normal (3 días, sin backlog). **Sin cambio de postura sectorial agregada.** **Escenarios
+recalibrados 40/15/45 → 43/15/42** (base +3, pesimista −3): dos de los tres gatillos que subieron el pesimista
+el 20-ago se resolvieron a favor — el 30 años no retomó la escalada (5,17%, segundo dato de alivio) y Nvidia
+no decepcionó (batió, guió Q3 a ~$108.000M, cifras verificadas contra el 10-Q); la caída real del Brent quita
+un impulso inflacionario. Contrapesos que limitan el movimiento: financiación estructurada del capex de IA a
+confianza ALTA (abajo) y Jackson Hole/Warsh pendiente el vie 28. No es *market timing* — es resolución de
+catalizadores binarios nombrados.
+
+Dos verificaciones adversariales de alto impacto (3/3 del presupuesto, dos clusters en vez de tres
+afirmaciones sueltas):
+
+1. **Financiación estructurada del capex de IA — sube a confianza ALTA sobre fuente PRIMARIA** (antes
+   MEDIA→ALTA sobre comunicadores). Base del ascenso: (a) el lenguaje del 10-Q de Nvidia (*credit support*,
+   *financial guarantees*, *extended payment terms* que "seguirán afectando al flujo de caja operativo"); (b)
+   compromisos de suministro/compra de **$119.000M → $279.000M en un trimestre** (10-Q, principalmente
+   memoria; parte cancelable) y cuentas por cobrar de **$63.059M** (desde $38.466M en enero); (c) garantía de
+   valor residual con **tope $105.000M** para *leases* de centros de datos de OpenAI (*exhibit 10.1* del 10-Q)
+   — **techo de garantía, no gasto**, *leases* 2028-2030. Deuda fuera de balance de hiperescaladores
+   **~$3-3,1 billones** con doble corroboración independiente (Morgan Stanley 24-ago + WSJ). ALTA **no**
+   significa "demanda ficticia" (el 10-Q muestra demanda física real, DC +117%, margen 75%) ni llamada de
+   *timing*; el matiz "demanda real y financiación frágil coexisten" se mantiene, y la pregunta de elasticidad
+   de la demanda sigue abierta. El "50% del gasto mundial de IA acaba en Nvidia" queda DÉBIL (rango real
+   ~30-45% del capex de hiperescaladores). El capex de $1,3 billones que citó Nvidia **supera el gatillo
+   prerregistrado de $1,2 billones** del concepto — sesgo de corto plazo alcista para semis, no bajista.
+   Recomendada nota de evolución a [[financiacion-estructurada-del-capex-de-ia]] (fuera del dominio de Inés —
+   vía CIO / sintetizador).
+2. **Brent / Ormuz — la caída es un movimiento real de mercado, no un error de instrumento** (a diferencia de
+   los runs del 20 y 24-ago). Futuro ICE $92,17 (24-ago) → $87,84 (26-ago), ambos crudos por igual. *Driver*:
+   marco Irán-Omán del 25-ago para un corredor temporal — pero el estrecho sigue **físicamente cerrado**, el
+   acuerdo sin finalizar, y el "30-60 días" es para negociar la ruta permanente. **Energía sigue
+   Sobreponderar** (físico apretado, Ormuz cerrado), con la prima de guerra en revisión. La predicción viva
+   [[2026-07-23-brent-sostiene-90-agosto]] (>$90 a 31-ago) va camino de resolver 0 (valor justo hoy
+   ~0,20-0,25, se emitió a 0,68).
+
+Tres predicciones falsables nuevas (FedWatch <50% a 15-sep prob. 0,60; margen bruto Nvidia Q3 ≤74% prob. 0,55;
+Ormuz sin reapertura física verificada a 30-sep prob. 0,70). `destila --tipo tabla-macro` OK; `enlaza` y
+`novedad` fallaron por timeout (`[DEGRADADO: exit 143]`, Kimi en tope de ciclo) — cruces y contraste de novedad
+hechos a mano. Ver el desarrollo completo en [[estrategia-2026-08-27]].
 
 ## Actualización 2026-08-24
 

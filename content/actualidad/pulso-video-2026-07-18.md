@@ -5,17 +5,17 @@ cobertura: parcial
 tags: [actualidad, pulso, video, macro, geopolitica, semis, ormuz, trump, elecciones, riqueza, 2026-07, snapshot]
 fecha: 2026-07-18
 verificacion: imposible — crudo perdido 2026-07 (pre-hook; la fuga se tapó el 31-jul)
-canales: [Misterpuertas, "José Luis Cárpatos", "José Luis Cava", NegociosTV, "Javier DV"]
-fuentes: ["[[misterpuertas-metodo]]", "[[carpatos-metodo]]", "[[cava-metodo]]", "[[negociostv-metodo]]", "[[javier-dv]]"]
+canales: [un canal técnico español, "una mesa de mercado española", "un divulgador macro español", una cadena económica española, "un gestor de fondos español"]
+fuentes: ["un canal técnico español metodo", "[[carpatos-metodo]]", "[[cava-metodo]]", "[[negociostv-metodo]]", "[[javier-dv]]"]
 ---
 
 # Pulso diario de vídeo — sábado 18 jul 2026 (cierre del 17 jul + arranque del 18)
 
 > [!info] Es una FOTO, no conocimiento permanente
-> Digest de **11 vídeos (5 canales)** procesados en 24-48h: Misterpuertas (1), Cárpatos (3: apertura+media
-> sesión+cierre del 17 jul), Cava (1), Javier DV (1, primer vídeo nuevo desde el 12-13 jul), NegociosTV (5:
+> Digest de **11 vídeos (5 canales)** procesados en 24-48h: un canal técnico español (1), una mesa de mercado española (3: apertura+media
+> sesión+cierre del 17 jul), un divulgador macro español (1), un gestor de fondos español (1, primer vídeo nuevo desde el 12-13 jul), una cadena económica española (5:
 > noticiero del 18 jul + 3 entrevistas + cierre de Wall Street del 17 jul). Comunicadores de macro/técnico/
-> flujos/geopolítica — capa **subordinada al valor**, contexto y no gatillo para operar. Gustavo-Bolsa sin
+> flujos/geopolítica — capa **subordinada al valor**, contexto y no gatillo para operar. un analista macro español-Bolsa sin
 > vídeo nuevo (normal, último vídeo 12-13 jul). El barrido de [[pulso-video-2026-07-17|la nota de ayer]] cerró
 > con el noticiero y las entrevistas del 17 jul a media tarde; esta nota recoge el **cierre de la sesión del
 > 17 jul** (Sección 1) y **arranca la cobertura del 18 jul**, con la respuesta a la pregunta abierta nº1 de
@@ -28,55 +28,54 @@ fuentes: ["[[misterpuertas-metodo]]", "[[carpatos-metodo]]", "[[cava-metodo]]", 
 > Irán/Rusia/Ucrania (Villarroya, Coso, Zelaia — mismo hilo de escalada ya extensamente cubierto y verificado
 > ayer, sin dato nuevo verificable), entrevista sobre Bitcoin/Ley de Claridad Cripto (fuera del círculo de
 > competencia de la cartera de Carlos), entrevista sobre China/Xi Jinping (Serbin, por presupuesto), y ~8
-> flashes de "ÚLTIMA HORA" de 1-4 min (contenido ya integrado en el noticiero y en las crónicas de Cárpatos).
+> flashes de "ÚLTIMA HORA" de 1-4 min (fuente externa).
 
 ## 1. Cierre de la sesión del 17 jul: Apple adelanta a Nvidia, la purga de momentum se modera y Ormuz queda efectivamente bloqueado
 
-Las tres crónicas de [[carpatos-metodo|Cárpatos]] (apertura, media sesión, cierre), [[misterpuertas-metodo|Misterpuertas]] y el cierre de Wall Street de NegociosTV documentan una sesión de vencimiento de opciones
+Las tres crónicas de [[carpatos-metodo|una mesa de mercado española]] (apertura, media sesión, cierre), un canal técnico español y el cierre de Wall Street de una cadena económica española documentan una sesión de vencimiento de opciones
 volátil que cierra con un giro narrativo notable: **Apple, no Nvidia, es la noticia del día**.
 
 - **Apple supera a Nvidia como empresa más valiosa del mundo** por primera vez desde abril de 2025 (subida de
   recomendación de HSBC de mantener a comprar). Nvidia cae ~2-2,5% en la sesión mientras Apple sube ~0,2-1,8%
-  según el momento del día. Cárpatos, textual: **"yo creo que se lo merece Apple, que no está nada mal"**.
+  según el momento del día. una mesa de mercado española, textual: **"yo creo que se lo merece Apple, que no está nada mal"**.
 - **La cesta de momentum (semis + memoria) sigue purgándose, pero se modera**: pasó de +60% en el año (22-jun)
-  a solo +12,5% (16-jul) — una caída del 3% desde máximos que, según Cárpatos citando el paper de Goldman
+  a solo +12,5% (16-jul) — una caída del 3% desde máximos que, según una mesa de mercado española citando el paper de Goldman
   (Kalahan), empieza a generar "angustia, no pánico" entre los clientes institucionales. El SMH (ETF de semis)
   perdió la línea clavicular del hombro-cabeza-hombro con objetivo en la media de 100 (~512$); en el
   fuera-de-horas llegó a caer otro 3,2% adicional. **Sandisk -12,6%** (memoria), **TSMC -2,33/-5%** pese a
-  resultados extraordinarios, **SpaceX -4,6%** en fuera de horas (cotiza en 125$, muy por debajo de los 135$
-  de salida a bolsa — Cárpatos: *"el tiempo pone todo en su lugar"*).
+  resultados extraordinarios, **SpaceX -4,6%** en fuera de horas (fuente externa).
   **Otro momento "DeepSeek"**: el modelo chino **Kimi K3 Max** (Moonshot AI) publicó benchmarks que lo colocan
   por encima de Claude Opus 4.5 y GPT-5.1 en pruebas concretas del ranking Arena — y siendo mucho más barato,
   reabre la pregunta de si el capex de cientos de miles de millones en IA se puede rentabilizar: si un modelo
   frontera abierto y barato iguala a los propietarios, cada hiperescalador enfrenta menos demanda cautiva de
-  su propia infraestructura, lo que presiona a la baja el ROI esperado del capex ya comprometido. Cárpatos:
+  su propia infraestructura, lo que presiona a la baja el ROI esperado del capex ya comprometido. una mesa de mercado española:
   *"si este modelo... está ya ahí, ¿cómo se justifica el capex brutal y salvaje...?"*. Cruza directamente con
   [[plataformas-tecnologicas-y-publicidad-digital]] (riesgo de comoditización del modelo frontera) y con la
   tesis de reversión de [[semiconductores-de-memoria]] (menos demanda de cómputo si los modelos se abaratan).
-- **Corea, la vara de medir del pánico**: Cárpatos cita que **el 4% de la población adulta surcoreana recibió
+- **Corea, la vara de medir del pánico**: una mesa de mercado española cita que **el 4% de la población adulta surcoreana recibió
   un margin call esta semana** — cifra distinta pero **direccionalmente consistente** con la ya verificada
-  ayer (Misterpuertas: 3,4% de adultos, 1,2M cuentas apalancadas, PLAUSIBLE-NO VERIFICADA). Dos comunicadores
+  ayer (fuente externa). Dos comunicadores
   independientes convergiendo en el mismo orden de magnitud (~3-4%) sube algo la confianza direccional del
   relato "liquidaciones apalancadas coreanas", aunque ninguno de los dos cita fuente primaria (FSC/FSS/KRX) —
   sigue sin ser dato duro citable, pero dos fuentes coincidiendo reduce el riesgo de que sea una cifra inventada
   por un solo canal.
 - **Goldman, resumen de cierre**: RSP (S&P equiponderado) +1% pese a la purga — rotación sana, no huida de
-  bolsa (mismo patrón que la burbuja del 2000 en sus primeros meses, avisa Cárpatos). Funciona: Apple, banca
+  bolsa (fuente externa). Funciona: Apple, banca
   regional, refino de energía, software de seguridad. Sufre: semis IA, memoria, grandes tecnológicas, Netflix
   (resultados flojos, -9/-10% por guía de márgenes por debajo de lo esperado en Q3). Exposición a momentum en
   libros de *prime broker* en el **percentil 77 a un año** (alto, no capitulación total). Goldman cree la
-  purga "más cerca del final que del principio"; Cárpatos matiza: **"yo no lo tengo tan claro. Puede venir en
+  purga "más cerca del final que del principio"; una mesa de mercado española matiza: **"yo no lo tengo tan claro. Puede venir en
   oleadas sucesivas"** — y avisa de que si el capex de IA decepciona en la próxima temporada de resultados de
   los siete magníficos, "aún quedaría recorrido a la baja". Dato de sobrecompra: los semis están un 32,5% por
   encima de su media de 200 sesiones (frente al 80% de mayo), acercándose a la media histórica del sector
   (6,1% desde 1997) pero aún elevados.
-- **Meta-Anthropic, $10.000M**: según el *New York Times* (vía cierre de Wall Street de NegociosTV), Meta
+- **Meta-Anthropic, $10.000M**: según el *New York Times* (fuente externa), Meta
   está negociando proporcionar capacidad de computación de sus centros de datos a Anthropic (modelo Claude)
   por hasta 10.000M$ en pagos mensuales a 2 años, con cláusula de rescisión anticipada — hasta ahora Anthropic
   usaba GPU de Nvidia en los centros de datos de Elon Musk/SpaceX. Intensifica la carrera de infraestructura
   IA entre Microsoft/OpenAI, Google, xAI y ahora Meta. Meta cayó -3,29% el día que se conoció la noticia.
 - **VERIFICACIÓN ADVERSARIAL — Estrecho de Ormuz, veredicto DÉBIL en la formulación, CONFIRMADO en el fondo**:
-  el ancla del cierre de Wall Street de NegociosTV afirmó que Ormuz está *"prácticamente bloqueado, ni entrada
+  el ancla del cierre de Wall Street de una cadena económica española afirmó que Ormuz está *"prácticamente bloqueado, ni entrada
   ni salida... totalmente paralizado"*. Pasado por `verificador-adversarial` con fuentes primarias (Kpler/
   Reuters, Lloyd's List Intelligence, IMF PortWatch, Windward): **el núcleo SÍ aguanta** — el tráfico se ha
   reducido a **~10% del volumen normal (7-13 buques/día frente a los ~88/día habituales)**, sin VLCC ni LNG
@@ -100,7 +99,7 @@ peldaño por encima de donde quedó ayer tras la degradación de la cifra de 200
 
 ## 2. La odisea de Trump: desclasifica documentos sobre "interferencia electoral china", y responde la pregunta abierta de ayer
 
-El noticiero de NegociosTV del 18 jul y su seguimiento monográfico documentan el discurso que Trump dio la
+El noticiero de una cadena económica española del 18 jul y su seguimiento monográfico documentan el discurso que Trump dio la
 noche del 17 al 18 jul (hora peninsular ~3:00h) — **resuelve la pregunta abierta nº1 de
 [[pulso-video-2026-07-17|ayer]]**:
 
@@ -132,7 +131,7 @@ noche del 17 al 18 jul (hora peninsular ~3:00h) — **resuelve la pregunta abier
 - **Nota aparte, sobre monetización**: Trump Media (Truth Social) estaría explorando cobrar hasta **100.000$/
   mes** a bancos y operadores por acceso de baja latencia a las publicaciones del presidente, según el
   *Financial Times* — dato menor pero revelador del entorno de incentivos alrededor de las comunicaciones
-  presidenciales que mueven mercados (recordado por Misterpuertas y el noticiero).
+  presidenciales que mueven mercados (fuente externa).
 
 **Cruce con el cerebro**: responde la pregunta abierta de ayer con un dato claro para el marco de
 objetivos: la escalada institucional (desclasificación, investigación electoral, republicanos recortando
@@ -145,7 +144,7 @@ el riesgo de inestabilidad institucional estadounidense, algo que hasta ahora so
 
 ## 3. Terremoto de magnitud 7,3 en Chiapas (México) y maniobras militares chinas en el Mar de China Meridional
 
-Contexto breve del noticiero de NegociosTV (18 jul), sin cruce directo de cartera:
+Contexto breve del noticiero de una cadena económica española (18 jul), sin cruce directo de cartera:
 
 - Terremoto de magnitud 7,3 (inicialmente reportado 7,4) frente a la costa de Chiapas, alerta local de tsunami
   emitida por el centro chino de alerta de tsunamis, sin víctimas ni daños materiales confirmados a la hora de
@@ -156,7 +155,7 @@ Contexto breve del noticiero de NegociosTV (18 jul), sin cruce directo de carter
 
 ## 4. La Fed en el limbo: Alexis Ortega ve riesgo de SUBIDA de tipos, no de bajada
 
-Entrevista a **Alexis Ortega** (profesor de finanzas, IE Business School) en NegociosTV:
+Entrevista a **Alexis Ortega** (profesor de finanzas, IE Business School) en una cadena económica española:
 
 - **Warsh, sorprendentemente hawkish**: pese a ser el nominado de Trump (que quería un banquero central más
   dócil con los tipos), sus declaraciones muestran "poco margen para obedecer a Trump" — está "muy pendiente
@@ -186,7 +185,7 @@ duración de beneficios (semis/IA), reforzando la tensión de valoración ya doc
 
 ## 5. "Yo compraría volatilidad si alguien me explica cómo": el consejo de Javier Díaz-Giménez en máxima incertidumbre
 
-Entrevista a **Javier Díaz-Giménez** (profesor de economía, IESE) en NegociosTV:
+Entrevista a **Javier Díaz-Giménez** (profesor de economía, IESE) en una cadena económica española:
 
 - **Consejo explícito de no-acción**: ante la pregunta de qué hacer como inversor ahora mismo, Díaz-Giménez es
   tajante: *"ni buscaría refugio ni buscaría riesgo... me quedaría como estoy"* — mientras no se aclare la
@@ -213,7 +212,7 @@ no comprar Nvidia o Micron directamente.
 
 ## 6. La economía de activos: por qué la riqueza global sube un récord y la clase media no lo nota
 
-Primer vídeo nuevo de [[javier-dv|Javier DV]] desde el 12-13 jul, sobre el informe *Global Wealth Report* de
+Primer vídeo nuevo de [[javier-dv|un gestor de fondos español]] desde el 12-13 jul, sobre el informe *Global Wealth Report* de
 UBS (2025, datos de 2025):
 
 - **La riqueza global creció un 10,8% en 2025** — récord no visto desde 2017 (frente a +4,6% en 2024 y +4,2%
@@ -249,22 +248,22 @@ próximos runs (ya lo mencionaba tangencialmente [[ray-dalio]] vía represión f
 en `Abierto` de la memoria, sin crear página nueva por presupuesto (regla de curación: no crear hasta que
 reaparezca).
 
-## 7. Cava, la contrapartida alcista: "el mercado está acumulando combustible, no agotándose"
+## 7. un divulgador macro español, la contrapartida alcista: "el mercado está acumulando combustible, no agotándose"
 
-[[cava-metodo|José Luis Cava]] ("NO es agotamiento, es acumulación de energía") ofrece hoy el marco
+[[cava-metodo|un divulgador macro español]] ("NO es agotamiento, es acumulación de energía") ofrece hoy el marco
 **estructuralmente alcista** que complementa (sin sustituir) la tensión técnica bajista de
 [[pulso-video-2026-07-17|su vídeo de ayer]]:
 
-- **Marco técnico**: el ETF de momentum (MTUM) y SK Hynix están en una corrección normal de Fibonacci (0,50 a
+- **la ingesta de vídeo técnico**: el ETF de momentum (MTUM) y SK Hynix están en una corrección normal de Fibonacci (0,50 a
   0,618) desde sus máximos de finales de junio — "una limpieza de todos los apalancados", no el fin de la
   tendencia. Zona de suelo probable para SK Hynix: ~1.600.000 KRW (donde comenzó el último tramo alcista el
-  8-may). **📌 predicción**: si SK Hynix llega a esa zona sin romperla a la baja, Cava la lee como suelo de la
+  8-may). **📌 predicción**: si SK Hynix llega a esa zona sin romperla a la baja, un divulgador macro español la lee como suelo de la
   corrección — falsable en las próximas semanas junto con su predicción de ayer sobre SOX/SMH 469-477$ y
   Micron ~712$.
 - **Amplitud de mercado sólida**: el 70% de los valores del NYSE cotizan por encima de su media de 200
-  sesiones — para Cava, evidencia de que "el mercado está fuerte", y lo que se ve es **rotación sectorial**,
+  sesiones — para un divulgador macro español, evidencia de que "el mercado está fuerte", y lo que se ve es **rotación sectorial**,
   no un techo de mercado.
-- **Tesis geopolítica, coincide con Misterpuertas de días atrás**: el régimen iraní estaría "colapsando" desde
+- **Tesis geopolítica, coincide con un canal técnico español de días atrás**: el régimen iraní estaría "colapsando" desde
   dentro (escasez de alimentos, medicinas y energía, cortes de aire acondicionado obligatorios en pleno
   verano) — cuando acabe la guerra, las primas de riesgo caerían y acelerarían el crecimiento global. Lectura
   optimista de mediano plazo, sin fuente primaria propia (opinión del comunicador).
@@ -272,14 +271,14 @@ reaparezca).
   incentivo comercial en el timing de entrada — tratar como tesis de un divulgador con sesgo, no análisis
   neutral, igual que ayer.
 
-**Cruce con el cerebro**: la TENSIÓN Cava-vs-Cárpatos/Goldman de ayer sigue sin resolverse en precio, pero hoy
-Cava añade matiz: coincide con Cárpatos en que es **rotación/limpieza, no fin de ciclo** — la divergencia real
+**Cruce con el cerebro**: la TENSIÓN un divulgador macro español-vs-una mesa de mercado española/Goldman de ayer sigue sin resolverse en precio, pero hoy
+un divulgador macro español añade matiz: coincide con una mesa de mercado española en que es **rotación/limpieza, no fin de ciclo** — la divergencia real
 es solo de **timing** (¿ya tocó suelo o falta un tramo más?), no de dirección estructural. Es información útil
 de "consenso direccional con desacuerdo de timing" para [[semiconductores-de-memoria]] (Micron).
 
 ## Lo que esto le dice al cerebro de Carlos (cruces, no órdenes)
 
-- **Semis (Micron, ~9,2% de la cartera)**: el consenso entre Cárpatos, Goldman y hoy también Cava (pese a su
+- **Semis (Micron, ~9,2% de la cartera)**: el consenso entre una mesa de mercado española, Goldman y hoy también un divulgador macro español (pese a su
   discrepancia de timing) es que se trata de una purga de posicionamiento apalancado sobre una tesis de
   demanda estructural intacta — nada de lo documentado hoy (Apple superando a Nvidia, Kimi/DeepSeek moment,
   Meta-Anthropic $10Bn) apunta a un colapso de la demanda de cómputo/memoria, sino a una redistribución del
@@ -298,9 +297,9 @@ de "consenso direccional con desacuerdo de timing" para [[semiconductores-de-mem
   incluso diversificando nominalmente. El dato de la "gran transferencia de riqueza" (83Bn$) y el aviso de
   UBS sobre impuestos a herencias es un input a considerar en la planificación patrimonial de largo plazo de
   Carlos, fuera del ciclo de mercado de corto plazo.
-- **Predicciones falsables para el ledger** — 📌 **predicción**: Alexis Ortega (NegociosTV, 18-jul-2026)
+- **Predicciones falsables para el ledger** — 📌 **predicción**: Alexis Ortega (fuente externa)
   proyecta riesgo de **subida** de tipos de la Fed (no bajada) si persiste la inflación subyacente pegajosa —
-  falsable en la reunión del 28-29 jul y siguientes. 📌 **predicción**: Cava (Cava TV, 18-jul-2026) marca
+  falsable en la reunión del 28-29 jul y siguientes. 📌 **predicción**: un divulgador macro español (fuente externa) marca
   ~1.600.000 KRW como zona de suelo probable para SK Hynix dentro de su corrección de Fibonacci —
   falsable en las próximas semanas junto con su predicción de ayer sobre SOX/SMH y Micron.
 
@@ -311,8 +310,8 @@ de "consenso direccional con desacuerdo de timing" para [[semiconductores-de-mem
   anticipada por el DHS, contexto de preparación para una posible pérdida de la Cámara en noviembre.
 - ¿Se mantiene el corredor sur de Ormuz vía Omán, o también queda afectado? Es la variable que determina si el
   riesgo energético escala más allá del ~10% de tráfico normal ya confirmado hoy.
-- ¿Quién tiene razón en semis, Cava (falta un tramo más a la baja, suelo en SOX/SMH 469-477 y SK Hynix
-  ~1,6M KRW) o Cárpatos/Goldman (la purga está más cerca del final)? Ambas partes coinciden ya en la dirección
+- ¿Quién tiene razón en semis, un divulgador macro español (falta un tramo más a la baja, suelo en SOX/SMH 469-477 y SK Hynix
+  ~1,6M KRW) o una mesa de mercado española/Goldman (la purga está más cerca del final)? Ambas partes coinciden ya en la dirección
   estructural (rotación, no fin de ciclo) — la divergencia es solo de timing, falsable en 1-2 semanas.
 - ¿Se confirma el riesgo de subida de tipos de la Fed que plantea Alexis Ortega, o prevalece el consenso de
   mantener/recortar? Primera pista real: reunión de la Fed del 28-29 de julio.

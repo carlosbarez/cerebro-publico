@@ -46,3 +46,29 @@ Confirmar en resultados FY2026 el cumplimiento de la guia y en 2027 la decision 
 
 ## Ver tambien
 [[aeroespacial-y-defensa]] · [[foso-economico]] · [[sonda-2026-08-14-rolls-royce]]
+
+## Nota de evolución 2026-08-25 (analista-europa-espana)
+
+**Evento**: resultados H1 2026 (publicados ~30-jul-2026). NOTA DE CALIDAD DE FUENTE: no leí el
+comunicado primario completo en este relevo; esta nota se basa en titulares convergentes de prensa
+financiera + verificación propia de precio. Cifras exactas de P&L: [Pendiente de verificar en primaria].
+
+**Lo reportado por múltiples fuentes independientes (Reuters, FT, Investing.com, CNBC)**: beneficio
+subyacente H1 disparado (Investing.com cita +46% en slides), **guía FY2026 ELEVADA más allá del
+consenso ("lifts outlook beyond forecast")**, todas las divisiones contribuyendo, aumento de dividendo,
+y el CFO declarando que los pedidos del negocio de energía para centros de datos crecen >50% con un
+"major hyperscaler nuclear deal imminent" (CNBC). El buyback anunciado fue objeto de escrutinio
+previo a la publicación del flujo de caja (TechStock²).
+
+**Dato verificado por mí (Yahoo Finance, 25-ago-2026)**: RR.L cotiza **1.530p**, máximo 52 semanas
+**1.586p marcado tras los resultados (~11-ago) = máximos históricos**, mínimo 52s 990p → la acción ha
+duplicado prácticamente en un año (+55% sobre el mínimo). Morningstar titula directamente "¿sigue
+siendo recomendable su compra?" y Yahoo pregunta si está "fully valued after buybacks" — el debate ya
+no es el negocio, es el PRECIO.
+
+**Qué cambia en la tesis**: la ficha pedía "confirmación de caja, horas de vuelo y durabilidad".
+Los titulares sugieren que caja y guía mejoraron, pero sin primaria no lo doy por verificado — la
+condición de la ficha sigue técnicamente abierta. Lo único firme: el margen de seguridad se ha
+EVAPORADO por el lado del precio (+55% interanual hacia máximos históricos), reforzando VIGILAR.
+
+**Fuente**: titulares RSS Reuters/FT/Investing/CNBC/Morningstar (jul-ago 2026, en scratchpad/analista-europa-espana/rss_tanda1.json); precio Yahoo Finance RR.L 25-ago-2026.

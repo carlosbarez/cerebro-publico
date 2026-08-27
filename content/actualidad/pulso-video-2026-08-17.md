@@ -1,35 +1,33 @@
 ---
 title: "pulso video 2026 08 17"
 tipo: actualidad
-agente: marco-reyes
+agente: ingesta-video
 cobertura: parcial
 tags: [actualidad, pulso, video, macro, geopolitica, 2026-08, snapshot]
 fecha: 2026-08-17
-canales: [Misterpuertas, JavierDV, Bloomberg TV]
+canales: [un canal técnico español, JavierDV, una cadena financiera internacional]
 videos:
-  - ikn3Y0_H7uE|Misterpuertas|3 CLAVES que moverán los MERCADOS esta SEMANA
+  - ikn3Y0_H7uE|un canal técnico español|3 CLAVES que moverán los MERCADOS esta SEMANA
   - s5usq_BUTOM|JavierDV|Quién DOMINE esta INDUSTRIA se Hará Muy RICO (Los POLÍTICOS ya ESTÁN Comprando)
-  - 1POBt1EWYD0|Bloomberg TV|Israel Strikes Lebanon as US Prepares Fresh Iran Sanctions — The Asia Trade 8/17/2026
-  - MGVI8-3-v4c|Bloomberg TV|Fed's Internal Rate Debate Faces New Scrutiny
-  - 07bsRy-kK84|Bloomberg TV|Iran Pressure Campaign Lacks Clear Off Ramp
+  - 1POBt1EWYD0|una cadena financiera internacional|Israel Strikes Lebanon as US Prepares Fresh Iran Sanctions — The Asia Trade 8/17/2026
+  - MGVI8-3-v4c|una cadena financiera internacional|Fed's Internal Rate Debate Faces New Scrutiny
+  - 07bsRy-kK84|una cadena financiera internacional|Iran Pressure Campaign Lacks Clear Off Ramp
 ---
 > [!info] Es una FOTO, no conocimiento permanente
 > Caduca. Los cruces con la cartera son lecturas, no órdenes. Destilados de capa gratuita (deepseek-v4-flash): se toma la estructura, las cifras con (sic) son sospechosas de transcripción.
 
-Nota anterior: [[pulso-video-2026-08-16]] (fin de semana 15-16-ago). Sin pulso de newsletters hoy.
-
 ## Geopolítica & petróleo: el put de la SPR se agota
 
-- SPR en 298,7 M barriles tras salida semanal de 6,1 M (el doble que la anterior), bajo 300 M por primera vez desde 1983; mínimo operativo aceptado por la industria: 250-300 M (Misterpuertas). El Brent por debajo de 90-100 pese al bloqueo no es oferta real: es drenaje con munición finita. Cuando el put se acabe, "el petróleo físico gana la discusión" → cruce con [[mineria-industrial-y-energia]].
-- Segundo orden: SPR agotándose + midterms → la administración necesita resolver Irán *antes* de que se acabe el put; las medidas duras de Bessent (anuncio esta semana: sanciones a bancos chinos, flotas fantasma, casas de cambio en EAU — Bloomberg ×2) pueden ser el sustituto barato del drenaje.
-- Tránsito por Ormuz: dato **no fiable** — Misterpuertas dice "casi ningún buque" (5-6 el lunes); Bloomberg dice que el crudo sigue pasando con transpondedores apagados (vacío de medición). Ambas lecturas pueden ser artefacto. China recortó importaciones de crudo iraní a la mitad o más; petroquímicas chinas dejaron de comprar.
-- Tensión irreconciliable sobre el precio: Misterpuertas ve "cóctel molotov" alcista si coinciden bloqueo + drenaje SPR + recuperación de demanda china; BMO pronostica promedio $70-80 los próximos dos años y "no se ve petróleo por encima de $100".
+- SPR en 298,7 M barriles tras salida semanal de 6,1 M (el doble que la anterior), bajo 300 M por primera vez desde 1983; mínimo operativo aceptado por la industria: 250-300 M (fuente externa). El Brent por debajo de 90-100 pese al bloqueo no es oferta real: es drenaje con munición finita. Cuando el put se acabe, "el petróleo físico gana la discusión" → cruce con [[mineria-industrial-y-energia]].
+- Segundo orden: SPR agotándose + midterms → la administración necesita resolver Irán *antes* de que se acabe el put; las medidas duras de Bessent (fuente externa) pueden ser el sustituto barato del drenaje.
+- Tránsito por Ormuz: dato **no fiable** — un canal técnico español dice "casi ningún buque" (5-6 el lunes); una cadena financiera internacional dice que el crudo sigue pasando con transpondedores apagados (vacío de medición). Ambas lecturas pueden ser artefacto. China recortó importaciones de crudo iraní a la mitad o más; petroquímicas chinas dejaron de comprar.
+- Tensión irreconciliable sobre el precio: un canal técnico español ve "cóctel molotov" alcista si coinciden bloqueo + drenaje SPR + recuperación de demanda china; BMO pronostica promedio $70-80 los próximos dos años y "no se ve petróleo por encima de $100".
 - La predicción del wiki `2026-07-23-brent-sostiene-90-agosto` (en [[registro-de-predicciones]]) va **camino de fallar**: tres de cinco fuentes describen un mercado que normalizó el bloqueo.
 - `📌 predicción:` si el drenaje se mantiene ≥5 M barriles/sem, la SPR toca ~275 M barriles antes del 01-10-2026 (verificable: dato semanal EIA).
 
 ## Fed & renta fija: minutas con disenso y subasta de 20 años
 
-- Minutas del FOMC el miércoles 19-ago: la decisión de no subir tuvo **3 disidentes** (presidentes regionales), segunda reunión de Warsh como chair tras una primera unánime. Probabilidad de subida en septiembre: 30-40% (Misterpuertas) — confirma el rango del wiki (~30-35%).
+- Minutas del FOMC el miércoles 19-ago: la decisión de no subir tuvo **3 disidentes** (presidentes regionales), segunda reunión de Warsh como chair tras una primera unánime. Probabilidad de subida en septiembre: 30-40% (fuente externa) — confirma el rango del wiki (~30-35%).
 - Tensión: el mercado vuelve a descontar subida en 2026; BMO: la Fed no mueve tipos hasta 4T-2027, con sesgo a recorte, y la IA presionará la inflación a la baja "eventualmente". BMO avisa: la tasa de respuesta de encuestas laborales cayó de ~90% a ~70% → un solo dato ya no basta, hacen falta 2-3 meses coherentes.
 - Tramo largo bajo presión: 30 años en máximos de 25 años; subasta de 20 años de $16.000 M esta semana (la mayor desde 2020) como test; 10 años "a 5% más pronto que tarde" (BMO) → cruce con [[renta-fija-y-tipos]].
 - Crowding-out explícito: la demanda de crédito de la IA (bono de AMD "casi del tamaño de una subasta del Tesoro", Alphabet preparando debut en bonos AUD a 20 años) compite por duración contra el Tesoro → presión extra en subastas y tipos largos.
@@ -38,15 +36,15 @@ Nota anterior: [[pulso-video-2026-08-16]] (fin de semana 15-16-ago). Sin pulso d
 
 ## Posicionamiento: euforia con cobertura que vence el viernes
 
-- Dos fuentes independientes describen el mismo fenómeno: volatilidad artificialmente baja. Misterpuertas: ~35% del S&P 500 con skew de calls a 3 meses invertido (máximo registrado), récord histórico de volumen de calls el 4-ago, 1,6 billones de $ de entradas pasivas de hogares en el año (55% sobre el récord anterior). Bloomberg: VIX bajo y distorsionado por venta sistemática de volatilidad.
+- Dos fuentes independientes describen el mismo fenómeno: volatilidad artificialmente baja. un canal técnico español: ~35% del S&P 500 con skew de calls a 3 meses invertido (máximo registrado), récord histórico de volumen de calls el 4-ago, 1,6 billones de $ de entradas pasivas de hogares en el año (55% sobre el récord anterior). una cadena financiera internacional: VIX bajo y distorsionado por venta sistemática de volatilidad.
 - Segundo orden: la euforia se financió con calls que vencen el **21-ago**; el mercado queda desprotegido justo cuando expira su cobertura, con septiembre (estacionalidad dura) delante.
 - Amplitud sana: >70% de componentes del S&P 500 sobre su media de 200 sesiones (mejor desde dic-2024); días de -3% en semis solo cuestan 0,8% al índice este año (vs 2,4% histórico). S&P 500 en 7.800, PER forward 20,1x (23,1x en octubre) → cruce con [[riesgo-real-vs-volatilidad]].
 
 ## Asia: BOJ, carry trade y China sin estímulo
 
 - USD/JPY 159,2 con ~60.000 contratos netos cortos; carry trade vivo (15% anual vs BRL). PIB Japón Q2 +1,1% anualizado vs ~2% esperado; aun así los swaps descuentan subida del BOJ en septiembre → refuerza el ~75% del wiki.
-- China: datos de actividad de julio hoy, se espera pérdida de momentum (tifones); crédito débil, residentes devolviendo préstamos; sin estímulo del Politburó. Alibaba reporta esta semana (se espera el crecimiento de ingresos más rápido en 2 años por cloud/IA); Baidu en mínimos de 6 años → cruce con [[plataformas-de-internet-de-china]]. Qian (Bloomberg): a corto plazo "chipflation" (iPhones más caros), a medio plazo China exportará deflación al mundo.
-- Chipflation confirmada por dos orillas: precios de memoria disparados (Misterpuertas) + foco en los CPI de Japón/UK/Canadá de esta semana y guía de doble dígito de TSMC (Bloomberg). Corea como "cuello de botella" → cruce con [[semiconductores-de-memoria]].
+- China: datos de actividad de julio hoy, se espera pérdida de momentum (tifones); crédito débil, residentes devolviendo préstamos; sin estímulo del Politburó. Alibaba reporta esta semana (se espera el crecimiento de ingresos más rápido en 2 años por cloud/IA); Baidu en mínimos de 6 años → cruce con [[plataformas-de-internet-de-china]]. Qian (fuente externa): a corto plazo "chipflation" (iPhones más caros), a medio plazo China exportará deflación al mundo.
+- Chipflation confirmada por dos orillas: precios de memoria disparados (fuente externa) + foco en los CPI de Japón/UK/Canadá de esta semana y guía de doble dígito de TSMC (fuente externa). Corea como "cuello de botella" → cruce con [[semiconductores-de-memoria]].
 
 ## Robotaxi: la batalla se traslada fuera de EE.UU./China (JavierDV, 37 min)
 

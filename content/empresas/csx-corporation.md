@@ -1,0 +1,154 @@
+---
+title: "CSX Corporation (CSX) — Análisis Fundamental"
+tipo: empresa
+tags: [empresa, analisis-fundamental, industriales]
+fecha: 2026-08-27
+agente: carlos-barez
+ticker: CSX
+moneda: USD
+precio_referencia: 51.76
+fecha_precio: 2026-08-27
+valor_estimado: ~45 USD (rango DCF 42-48; por debajo del precio actual)
+gatillo_entrada: 40-43 USD (fwd P/E ~18-20x, EV/EBITDA ~13x, cerca de valor DCF)
+veredicto: VIGILAR
+revisar_el: 2026-11-24
+fuentes: "[\"https://en.wikipedia.org/wiki/CSX\", \"https://stockanalysis.com/stocks/CSX/\", \"https://stockanalysis.com/stocks/CSX/financials/\", \"https://stockanalysis.com/stocks/CSX/statistics/\", \"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CSX&type=10-K&count=5\", \"https://earningsmoat.com/stocks/csx-2025-earnings-analysis\", \"https://investors.csx.com/news-and-events/news/news-details/2026/CSX-Corp--Announces-Second-Quarter-2026-Results/default.aspx\", \"https://vcpscanner.com/valuation/csx\", \"https://www.trefis.com/stock/csx/articles/569697/time-to-buy-csx-stock/2025-07-17\"]"
+---
+
+# CSX Corporation (CSX) — Análisis Fundamental
+
+## 1. Resumen ejecutivo
+
+CSX es un *Class I railroad* (ferrocarril de primera clase) que opera la mayor red de carga del Este de EE. UU.: ~21.000 millas de vía, 23.000 empleados, conexión con 240 ferrocarriles de corta distancia y 70+ puertos, cubriendo donde vive ~2/3 de la población estadounidense. Es, con Norfolk Southern (NSC), un **duopolio estructural del Este** (al Oeste mandan Union Pacific y BNSF/Berkshire). El activo es físicamente irrepetible: nadie construye un ferrocarril *Class I* nuevo en 2026.
+
+El negocio es excelente por calidad (márgenes altos, ROIC positivo sobre WACC, franquicia orgánica con goodwill apenas 0,2% de activos), pero **el precio hoy no ofrece *margin of safety***. A 51,76 USD la acción cotiza a 29,9x beneficios TTM y ~24x beneficios esperados, frente a múltiplos históricos de 16-19x. Los modelos DCF independientes sitúan el valor intrínseco en 38-47 USD. El precio está, en el mejor de los casos, en línea con el valor y, en el peor, un ~15% por encima. Con ingresos planos/ligeramente decrecientes 2022-2025 y un balance apalancado (deuda neta ~18.000M$), **no hay margen de seguridad para un comprador nuevo a estos niveles**.
+
+Veredicto: **VIGILAR** — gran empresa, momento de precio caro. Entrada atractiva en 40-43 USD.
+
+## 2. Descripción del negocio (segmentos, geografía, cómo genera dinero)
+
+CSX Transportation mueve mercancías por ferrocarril e intermodal (combinación tren-camión) en el Este y Centro-Este de EE. UU. y Este de Canadá. Cobra por mover volumen de carga bajo contratos a menudo plurianuales, con poder de fijación de precios reforzado por recargos de combustible. Ingresos TTM (12 meses a junio 2026): 14.512M$.
+
+**Mix de ingresos FY2025 (M$):** Chemicals 2.776 · Agricultural & Food 1.618 · Automotive 1.182 · Minerals 832 · Forest Products 975 · Metals & Equipment 869 · Fertilizers 521 · Intermodal 2.073 · Coal 1.900 · Trucking 816 · Other 530. Total 14.092M$ (FY2025).
+
+Tres bloques: (1) *Merchandise* (productos químicos, agrícolas, automoción, metales, minerales) es el núcleo estable; (2) *Intermodal* (contenedores, creciendo, +9% en Q2 2026) es el motor de crecimiento frente al camión; (3) *Coal* (térmico + metalúrgico) es el segmento en declive secular. La geografía es densa y captiva: muchas rutas solo las sirve un operador, lo que da poder de monopolio en *lanes* cautivas.
+
+Genera caja a través de economías de densidad (mover 1 tonelada ~500 millas por galón de combustible, ~4x más eficiente que el camión) y de tarifas que suben con el volumen y el fuel surcharge.
+
+## 3. Industria y moat competitivo
+
+**Estructura oligopólica irrepetible.** El transporte de carga por ferrocarril en EE. UU. es un cuasi-monopolio de 4 jugadores (CSX y NSC al Este; UNP y BNSF al Oeste), repartidos por geografía. Los derechos de vía se ensamblaron a lo largo de 150+ años; las barreras regulatorias, medioambientales y de expropiación de suelo para construir nuevo ferrocarril son insalvables hoy. Esto es la forma más pura de *moat* de infraestructura: un activo naturalmente monopolístico/duopolístico que ninguna cantidad de capital puede reproducir.
+
+**Ventajas sostenibles:**
+- **Irrepetibilidad física** de la red de 21.000 millas (EarningsMoat puntúa la moat en 88/100, "Irreplaceable").
+- **Poder de fijación de precios** embebido en contratos largos + fuel surcharges; en rutas cautivas CSX es la única opción.
+- **Ventaja física** de eficiencia energética (4x camión), que se amplía con precios de combustible altos y regulación de carbono.
+- **Franquicia orgánica**: goodwill solo 0,2% de activos → ventaja construida por consolidación histórica, no por adquisiciones infladas.
+- **Regulación (STB) estable**: sí limita la subida de tarifas, pero también blinda la estructura de mercado.
+
+**Contrapartida del moat:** es un negocio **intensivo en capital**. El capex es en gran parte de mantenimiento (~2.900M$ en 2025) y se renueva perpetuamente; eso limita la conversión a FCF libre y obliga a reinvertir para mantener la ventaja. El *operating ratio* (gastos/ingresos) de CSX ronda 61-64%, por encima del <60% de UNP (best-in-class); cada punto de mejora = ~140M$ de beneficio operativo.
+
+## 4. Análisis financiero (3-5 años)
+
+Cifras en M$ (salvo indicado). Fiscal year ene-dic. Fuente: stockanalysis.com / SEC 10-K.
+
+| Año | Ingresos | Net Income | EPS | Op. Income | FCF | Margen op. | Margen neto |
+|---|---|---|---|---|---|---|---|
+| 2021 | 12.522 | 3.781 | 1,68 | 5.233 | 3.308 | 41,8% | 30,2% |
+| 2022 | 14.853 | 4.114 | 1,92 | 5.821 | 3.413 | 39,2% | 27,7% |
+| 2023 | 14.657 | 3.668 | 1,82 | 5.530 | 3.257 | 37,7% | 25,0% |
+| 2024 | 14.540 | 3.470 | 1,79 | 5.427 | 2.718 | 37,3% | 23,9% |
+| 2025 | 14.092 | 2.889 | 1,54 | 4.744 | 1.711 | 33,7% | 20,5% |
+| TTM (jun'26) | 14.512 | 3.223 | 1,73 | 5.177 | 2.796 | 35,7% | 22,2% |
+
+**Lectura:**
+- **Ingresos planos/decrecientes** 2022→2025 (14.853→14.092, -5,1% acumulado); el TTM recupera algo (14.512) por el tirón de 2026.
+- **Beneficio cae** de 4.114M$ (2022) a 2.889M$ (2025); el TTM repunta a 3.223M$ por la mejora operativa de 2026.
+- **Márgenes bajo presión**: margen bruto 53,1% (2021) → 47,1% (TTM); margen operativo 41,8% → 35,7%. Parte por depreciación y mezcla, pero refleja también costes y debilidad industrial.
+- **FCF volátil y capex-intensivo**: FCF cayó de 3.413M$ (2022) a 1.711M$ (2025) por capex récord (-2.902M$) y menor OCF (4.613M$); el TTM mejora a 2.796M$ (capex -2.526M$). OCF/NI ~1,6x → **calidad de earnings alta** (beneficio respaldado por caja).
+- **Rentabilidad sobre capital**: ROE 24,4% · ROIC 12,4% · ROA 7,4% · WACC 9,63% → ROIC > WACC (crea valor), pero el ROIC de 12,4% es modesto por el activo pesado.
+- **Balance apalancado**: Deuda total 19.451M$, caja 1.390M$, deuda neta -18.061M$ (-9,75$/acción). Debt/EBITDA 2,80 · Interest coverage 6,11x · D/E 1,38 · Current ratio 0,82 (working capital negativo -746M$). Altman Z 2,45 (por debajo de 3, vigilar, aunque típico en ferrocarriles estables con cobertura de intereses >6x). Solidez de pago no comprometida, pero apalancamiento elevado.
+- **Accionistas**: 1,85B acciones (buybacks -2,28% anual). Dividendo 0,56$ (yield 1,08%), 21 años creciendo, payout 32%. Shareholder yield 3,36% (dividendo + recompra). Sólida política de retorno de capital.
+
+## 5. Valoración
+
+A 51,76 USD (cierre 26-ago-2026; premkt ~51,31):
+- Market cap 95,88B$ · Enterprise Value 113,94B$.
+- **P/E 29,93** (TTM) · Fwd P/E 24,16 · **PEG 1,99**.
+- **P/S 6,61** · P/B 6,81 · **P/FCF 34,29** · P/OCF 18,01.
+- **EV/EBITDA 16,68** · EV/FCF 40,75 · EV/Sales 7,85.
+- Beta 1,21 · +57,76% en 52 semanas (desde ~33$ a 51,76$).
+
+**Contexto histórico y de pares:** CSX cotizó a 15,8-18,7x P/E en 2022-2023; el múltiplo se ha expandido a ~30x TTM. Sus pares directos (UNP, NSC) también caros (~30x), pero el sector transporte más amplio ~38x. El re-rating del último año es de "confianza" (esperanza de recuperación 2026), no de crecimiento probado.
+
+**Valor intrínseco (fuentes externas independientes):**
+- VCP Scanner DCF: 38,07$ (subvaluada -24% según su modelo).
+- Simply Wall St / Yahoo DCF: ~46,61$ (sobrevaluada ~14%).
+- Wall Street target consenso: 53,14$ (Buy, 25 analistas) — apenas +2,7% upside.
+- Mi estimación propia: **~45$** (rango 42-48) descontando FCF de ~2,8-3,0B$ creciendo modestamente, WACC ~9,6%, con prima de moat.
+
+**Margin of safety (explícito):** A 51,76$ la acción cotiza por encima de casi todos los DCF (38-47$). La "hucha de seguridad" es **nula o negativa** hoy. No doy "precio objetivo" falso: el valor depende de que CSX recupere crecimiento de EPS (el fwd P/E 24 asume ~2,14$ EPS 2026, un salto del 39% sobre 2025). Si el ciclo industrial no acompaña, el múltiplo 30x es frágil. **Solo hay margen de seguridad comprando en 40-43$** (fwd P/E ~18-20x, EV/EBITDA ~13x, cerca del DCF).
+
+## 6. Equipo directivo e incentivos
+
+- **Steve Angel** — Presidente y CEO (promovido en 2025; antes EVP/COO, veterano de 30+ años en CSX).
+- **Sean Pelkey** — EVP y CFO. **Mike Cory** — EVP/COO. **Kevin Boone** — EVP Chief Commercial Officer. **Diana Sorfleet** — EVP Chief Administrative Officer.
+- Foco declarado 2026: *productividad, control de costes, disciplina de capital y servicio fiable* (PSR — Precision Scheduled Railroading). Los incentivos operativos (OR, seguridad, servicio) son coherentes con el modelo de ferrocarril eficiente.
+- Nota: insiders solo poseen 0,08% de las acciones; institucionales 81% — alineación del management vía opciones/retribución variable típica de gran cap, pero baja propiedad directa.
+
+## 7. Riesgos (principales)
+
+1. **Valoración sin margen de seguridad**: 30x TTM / 24x fwd asume recuperación perfecta; cualquier decepción opera con poco colchón. Múltiplo vulnerable a rotación de liderazgo hacia value.
+2. **Declive secular del carbón**: el carbón (1.900M$ en 2025, bajando) sufre caída térmica por transición energética; el metalúrgico aguanta mejor pero también es cíclico. El segmento ya cayó de 2.434M$ (2022) a 1.900M$ (2025).
+3. **Intensidad de capital perpetua**: capex de mantenimiento ~2,5-2,9B$ anual limita FCF y obliga a reinvertir; la "toll road" exige mantenimiento constante del activo.
+4. **Demanda industrial blanda**: ingresos planos 2022-2025 por entorno macro; un shock recessivo golpea volumen *merchandise* e intermodal.
+5. **Apalancamiento y liquidez ajustada**: deuda neta ~18B$, current ratio 0,82, working capital negativo, Altman Z 2,45 (<3). No es riesgo de quiebra (cobertura 6x), pero reduce flexibilidad y amplifica el riesgo de tasa.
+6. **Regulación (STB) y seguridad**: la Surface Transportation Board limita tarifas y puede forzar reciprocidad de vía; un accidente grave (derraile, riesgo ambiental) es costoso reputacional y financieramente.
+
+## 8. Catalizadores y noticias recientes (2024-2025)
+
+- **Q2 2026 récord**: ingresos 3.94B$ (+10% a/a), EPS 0,54$ (+23%), beneficio operativo 1,51B$ (+17%), margen operativo 38,3%, volumen +6% (intermodal +9%). Momentum operativo claro.
+- **FY2025 flojo**: ingresos 14,1B$, net income 2,9B$, por demanda industrial contenida; Steve Angel prometió mejora en 2026 vía productividad y disciplina de capital.
+- **Especulación M&A (jul-2025)**: Semafor reportó que Union Pacific exploraba comprar un ferrocarril del Este (CSX o NSC); las acciones de ambos subieron ~5%. CSX queda como **potencial objetivo de adquisición** (premio de toma de control), aunque con riesgo regulatorio alto.
+- **Integración Pan Am Railways** (adquirida 2022) amplía presencia en Nueva Inglaterra; en marcha.
+- **Mejoras operativas Q4-2025**: velocidad +7%, dwell -13%, trip plan performance +9% intermodal — PSR dando frutos.
+
+## 9. Tesis bull / bear
+
+**Bull:**
+- Activo irrepetible con moat de duopolio del Este; nadie replica la red.
+- PSR + nueva dirección (Angel) mejorando OR, volumen e intermodal (+9% Q2'26).
+- Recuperación cíclica 2026: fwd EPS ~2,14$ implica re-rating justificado; ROIC > WACC.
+- Retorno de capital: dividendo creciente 21 años + buybacks (shareholder yield 3,4%).
+- Opción de M&A: premio de adquisición si UNP/BNSF consolidan el Este.
+- Quality compounding a muy largo plazo; "toll road" con pricing power.
+
+**Bear:**
+- Ingresos planos/decrecientes 4 años; beneficio 2025 -30% vs 2022. ¿Dónde está el crecimiento?
+- Cotiza a 30x TTM / 24x fwd — caro vs histórico 16-19x; DCF externos en 38-47$ (precio por encima).
+- Carbón en declive estructural; intensidad de capital capa el FCF (P/FCF 34x).
+- Balance apalancado (deuda neta 18B$, Z 2,45) y working capital negativo.
+- Si el ciclo no mejora, el múltiplo 30x es frágil y vulnerable a corrección del ~25-30%.
+
+## 10. Fuentes (URLs)
+
+- https://en.wikipedia.org/wiki/CSX
+- https://stockanalysis.com/stocks/CSX/
+- https://stockanalysis.com/stocks/CSX/financials/
+- https://stockanalysis.com/stocks/CSX/statistics/
+- https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CSX&type=10-K&count=5
+- https://earningsmoat.com/stocks/csx-2025-earnings-analysis
+- https://investors.csx.com/news-and-events/news/news-details/2026/CSX-Corp--Announces-Second-Quarter-2026-Results/default.aspx
+- https://vcpscanner.com/valuation/csx
+- https://www.trefis.com/stock/csx/articles/569697/time-to-buy-csx-stock/2025-07-17
+
+## 11. Veredicto de Carlos
+
+**VIGILAR.** CSX es una de las franquicias de infraestructura más sólidas de EE. UU.: duopolio del Este, red irrepetible, moat de 88/100, ROIC > WACC y retorno de capital disciplinado. Calidad de negocio, 10/10. **Pero el precio arruina la inversión:** a 51,76$ (30x TTM, 24x fwd, EV/EBITDA 16,7x) cotiza por encima del valor DCF (38-47$) y muy por encima de su propia media histórica (16-19x). No hay margin of safety.
+
+Como inversor de valor/calidad, **no compro sin colchón**. Condiciones de entrada:
+- **Gatillo:** 40-43$ (fwd P/E ~18-20x, EV/EBITDA ~13x, cerca del DCF). 
+- Si ya se posee: **mantener** (SEGUIR), no ampliar a estos precios; el dividendo + buyback (3,4% shareholder yield) y la opción M&A justifican aguantar.
+- **Revisar** tras Q3 2026 / resultados 15-oct-2026: confirmar que la recuperación operativa (OR <61%, intermodal, volumen) es real y no solo expectativas. Si el precio corrige a zona de valor, CSX pasa a COMPRAR con convicción.
+
+<!-- META ticker=CSX veredicto=VIGILAR -->

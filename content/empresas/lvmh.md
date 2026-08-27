@@ -30,3 +30,27 @@ No había tesis durable previa localizada; la sonda confirma calidad operativa, 
 Moda y marroquinería negativa dos trimestres, margen recurrente por debajo del umbral operativo, FCF insuficiente o plan de sucesión no creíble.
 ## 11. Predicciones falsables
 Comprobar crecimiento orgánico de moda y margen FY26 en los próximos resultados; el precio objetivo de la sonda queda **[Pendiente de verificar]**.
+
+## Nota de evolución 2026-08-25 (analista-europa-espana)
+
+**Evento**: resultados H1 2026 publicados el 24-jul-2026 (comunicado oficial lvmh.com leído íntegro
+el 25-ago-2026).
+
+**Cifras verificadas en primaria**: ingresos €38.644M (-3% reportado por FX; **+2% orgánico**; Q2 solo:
++3% orgánico). La sección crítica —**Moda y Marroquinería (F&LG)**— cerró H1 en -1% pero **+1% orgánico
+en Q2: primer trimestre positivo tras ~2 años de caídas**. Joyería y Relojes (W&J) acelera: +11%
+orgánico en Q2 (H1 +9%), impulsada por Tiffany EE.UU.; Vinos y Espirituosas deja de ser el desastre
+(Q2 +5%). Margen operativo recurrente **22,5%** (se mantiene pese al mix), FCF operativo €4,1B, neto
+grupo plano (~€5,7B). Bernard Arnault cita explícitamente la llegada de Anderson a Dior como inflexión.
+
+**Qué cambia en la tesis**: la condición de veredicto era "no comprar sin moda y marroquinería
+orgánicamente positivas". Q2 da el PRIMER trimestre positivo — señal de giro, no confirmación: la
+propia ficha exige dos trimestres (su regla de invalidación era lo contrario) y un margen verificable,
+que sí está (22,5%). Segundo orden: el motor del rebote NO es China sino EE.UU./Japón lujo (coincide
+con la lectura de [[hermes-international]] sobre China más lenta) — si el consumo chino no participa,
+el techo del re-rating es menor que en ciclos pasados.
+
+**Precio**: MC.PA €450,7 (Yahoo, 25-ago) vs máximo 52s €654,7 → aún -31% desde máximos. El mercado NO
+ha rerateado el inflection: sigue tratándolo como rebote puntual. Brecha vs tesis intacta.
+
+**Fuente**: LVMH, resultados H1 2026, https://www.lvmh.com/en/news-lvmh/first-half-2026-results (24-jul-2026); precio Yahoo Finance 25-ago-2026.

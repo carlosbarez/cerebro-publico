@@ -101,3 +101,40 @@ el original.
 
 [[jeremy-grantham]] · [[gmo-y-el-permabear]] · [[margen-de-seguridad]] · [[sintesis-del-comportamiento]] ·
 [[riesgo-real-vs-volatilidad]] · [[aversion-al-apalancamiento]] · [[howard-marks]] · [[charlie-munger]]
+
+---
+
+## Nota de evolución 2026-08-25 (lector-de-cartas)
+
+**Material nuevo verificado:** en este ciclo Montier no ha publicado ensayo individual reciente localizado; su voz llega vía los productos del equipo de asset allocation de GMO (del que es co-responsable): el insight «Artificially Inflated» (18-dic-2025), la Quarterly Letter 2Q 2026 y el 7-Year Forecast de jul-2026, leídos completos.
+
+### Qué dice el material fresco
+
+- **«Artificially Inflated» (dic-2025):** más del 30% de la capitalización de EE.UU. cotiza sobre 10x ventas — territorio extremo incluso frente a la burbuja puntocom.
+- **Forecast a 7 años (jul-2026):** −7,2%/año real esperado para US Large; sólo deep value internacional (+3,0%), Japón small value (+4,4%), EM value (+2,0%) y bonos/TIPS ofrecen retorno positivo esperado.
+- **Quarterly Letter 2Q 2026:** crítica al modelo endowment y al private equity (alpha post-2000 ~0,26% en buyouts); propuesta de cobertura long calidad megacap / short small-cap de baja calidad.
+
+### Pensamiento de segundo orden
+
+El dato del 30% del mercado sobre 10x ventas convierte la discusión «¿burbuja sí o no?» en una cuestión de **anchura, no de altura**: no son 7 magníficas, es un tercio del mercado cotizando con expectativas de perfección. Para el pensamiento de segundo orden esto implica que el riesgo no requiere un catalizador macro: basta una normalización de la distribución de múltiplos (reversión a la media del *cross-section*) para producir pérdidas amplias aunque ninguna empresa «quiebre». Y la posición GMO de mantener calidad megacap mientras se corta la basura small-cap revela que temen la **devaluación de lo marginal**, no del mejor negocio del índice — matiz que un simple «GMO es bajista» pierde por completo.
+
+### Implicaciones de cartera (largo plazo)
+
+- Auditar la propia cartera: ¿qué fracción cotiza >10x ventas? Esa fracción concentra el riesgo de reversión de múltiplos.
+- Los activos defensivos con retorno positivo esperado según GMO (TIPS +2,7%, bonos +2,5%) vuelven a ser útiles por primera vez en años como diversificador real.
+- Coherencia con el marco de Montier clásico: procesos contra sesgos (anclaje a precios recientes, falacia de conjunción al estrechar muestras — ver Mauboussin abajo).
+
+### Señales falsables
+
+- Si la proporción de market cap sobre 10x ventas cae <15% en 12 meses sin caída de índices, la señal de «anchura extrema» habría sido ruido.
+- Si US Large bate a Intl Deep Value durante 2026-2028, el forecast GMO (y la lectura de Montier del ciclo) queda refutado en horizonte corto.
+- Reversión del ratio small-value/large-growth hacia media histórica antes de 2031 confirma el ciclo.
+
+### Fuentes
+
+- GMO Insights, «Artificially Inflated», 18-dic-2025 — gmo.com/americas/research-library/
+- GMO Quarterly Letter 2Q 2026 y 7-Year Forecast jul-2026 — gmo.com/americas/research-library/ (recuperados 2026-08-25)
+
+**[Sin datos: publicación individual firmada sólo por Montier entre jun-2025 y ago-2026; todo el material localizable es producción del equipo GMO.]**
+
+Ver también [[jeremy-grantham]], [[retornos-esperados]], [[consenso-y-desacuerdo-cartas-2026]].

@@ -306,3 +306,31 @@ descuento de suma-de-partes (~38%) que crea la complejidad de su estructura.
 - [[francois-rochon]] — coincidencia directa en la misma tesis errónea (Valeant, 2011-2016)
 - [[philip-fisher]] · [[nick-sleep]] — el polo opuesto exacto en la regla de venta: Ackman sí vende por
   valoración (Chipotle 2020); Fisher y Sleep, salvo error de tesis, casi nunca (ver [[carteras-concentradas]])
+
+## Nota de evolución 2026-08-26 (lector-de-cartas)
+
+**Primera carta trimestral de Pershing Square Inc. (NYSE: PS), firmada por Bill Ackman y Ryan Israel (12-ago-2026).** Fuente primaria: [PDF de la carta en pershingsquareinc.com](https://pershingsquareinc.com/wp-content/uploads/2026/08/PS-Inc.-2Q26-Letter-to-Shareholders.pdf) (leída íntegra; 30 pp.). Contexto: PS Inc. salió a bolsa en abril-2026 con el IPO de PSUS ($5.000 M), así que esta carta es también el primer documento público donde Ackman explica su negocio a accionistas de capital permanente.
+
+### El diagnóstico de mercado: la concentración como oportunidad, no como amenaza
+
+- **El dato que estructura toda la carta**: el S&P 500 subió ~10% en H1-2026, pero *"nearly the entirety of the gains has come from two sectors… Just two of the S&P 500's 24 sectors – semiconductors and tech hardware and equipment – which comprise just 8% of the companies and 22% of the market capitalization of the index, have contributed nearly 85% of the S&P 500's year-to-date gains."* Más de 90% de las empresas aportaron <2% del retorno; ~40% cotizan negativas YTD.
+- **La lectura de Ackman es la opuesta a la de [[terry-smith]]**: Smith ve ahí el riesgo estructural de colapso de flujos; Ackman ve el entorno ideal — *"the current market backdrop has created a highly attractive environment for Pershing Square as it has allowed us to opportunistically deploy nearly $5 billion of PSUS capital since the IPO."* El mismo hecho, dos conclusiones. Es la tensión central de las cartas de Q2-2026 → [[tensiones-activas]] · [[eficiencia-de-mercado]].
+- **La tesis de fondo**: *"We believe that the current trading prices of our portfolio companies in many cases reflect a temporary negative dislocation from their underlying business fundamentals."* Y su base: la cartera estima **~20% de crecimiento de EPS anual a 3-5 años a 19x beneficios** vs S&P a 12% a 20x. Para Ackman, el múltiplo de la calidad dislocada ya es más barato que el del índice — argumento directamente opuesto al «margen fuera del growth» de GMO/Alden.
+
+### Lo que hizo (los seis nuevos y la maquinaria)
+
+- **Seis nuevas inversiones desde el IPO**: Visa, Mastercard, Netflix, S&P Global, Intercontinental Exchange y Alcon — «empresas que seguimos durante más de una década» (su «librería» de cientos de negocios vigilados). Con las existentes (Microsoft, Amazon, Meta, Uber, Brookfield, Restaurant Brands), la cartera quedó 19x con 20% de crecimiento.
+- **Mecánica**: la concentración le permitió desplegar >95% del capital de PSUS en 14 posiciones; el capital es **98% permanente** (vehículos cotizados: PSH, PSUS, PS Intl., HHH) — su ventaja competitiva declarada: *"the permanency of our capital gives us important long-term sustainable competitive advantages as it enables us to invest for the long term without the requirement to return capital to our investors."*
+- **Frenesí de vehículos**: HHH completó la compra de Vantage ($2.100 M; Grandisson/Gansberg de Arch al frente) y Ackman lo rebautiza *"a modern-day Berkshire Hathaway"* — HHH venderá su cartera de bonos y la pondrá en Treasuries a corto + acciones comunes, gestionada sin fee por Pershing Square. Y anuncia un nuevo vehículo de capital permanente de venture (PSV) para pre-IPO. En el trimestre en que el mercado castiga la concentración, Ackman concentra más y construye más vehículos.
+- **Asimetría declarada**: sus hedges asimétricos han sido ~2% del capital pero ~20% de los retornos históricos; hoy apenas tiene hedges puestos porque *"hedging opportunities are only present episodically."* O sea: ve dislocaciones baratas, no riesgo de cola inminente.
+
+### Qué implica (lectura de segundo orden)
+
+1. **Ackman es hoy el contra-peso del consenso bajista del wiki**: mientras GMO/Grantham/Dalio/Alden (y la síntesis 2026-08-25) posicionan contra valoraciones US y a favor de deep value internacional, Ackman compra megacap de calidad US a 19x con 20% de EPS — la tesis «growth barato por dislocación» como antítesis del «todo US está caro». El wiki necesita ambas: la síntesis de cartas Q2-2026 debe recoger el choque explícito.
+2. **Compra lo mismo que [[terry-smith]] por el mecanismo opuesto**: Netflix, Mastercard, Uber (y semis vía otras) entran en ambas carteras; Smith rota hacia ellas como concesión al momentum, Ackman las tiene en su librería desde hace años y las compra por dislocación. Confirma que la selección convergió en el mismo conjunto de empresas — señal de crowding en «calidad dislocada» que ambos ignoran (si todos compran lo mismo, deja de estar dislocado).
+3. **El contraste con [[warren-buffett]]/[[howard-marks]] sobre la fase**: Buffett y Marks aún esperan mejores precios; Ackman ya gastó $5.000 M de PSUS. Tres gestores de capital permanente con el mismo diagnóstico de exceso llegando a fases distintas de despliegue — el timing es la decisión, y nadie lo resuelve a priori → [[negocio-maravilloso-vs-precio-maravilloso]] · [[margen-de-seguridad]].
+4. **La ironía del vehículo**: el mismo Ackman que denunció «el mercado roto» por indexación y pod shops ahora construye su propio «fondo pasivo de capital permanente» que compra calidad sin depender de flujos. Es la respuesta institucional correcta al problema que él mismo diagnosticó — la salida del juego del mercado activo retail es dejar de depender de sus flujos.
+
+**[Sin datos: valoración exacta descontada por acción de PSH a 30-jun-2026 no verificada en la carta (el fact sheet de feb-2026 la situaba en $76,74 con descuento del 24%); cifras de rendimiento de PSH en H1 no disponibles en la carta (la carta es de PS Inc., no de PSH).]**
+
+Lecturas: [[terry-smith]] · [[warren-buffett]] · [[howard-marks]] · [[carteras-concentradas]] · [[tensiones-activas]]

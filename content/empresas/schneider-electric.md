@@ -35,3 +35,24 @@ Comprobar EBITA FY26, crecimiento de sistemas y FCF anual; precios y probabilida
 
 <!-- red densa 2026-08-25 -->
 - [[sonda-2026-08-14-schneider-electric|sonda 2026-08-14]]
+
+## Nota de evolución 2026-08-25 (analista-europa-espana)
+
+**Evento**: resultados S1 2026 (publicados ~30-jul-2026). Cifras verificadas por la sonda del
+14-ago-2026 en su momento contra fuente primaria (se.se.com hoy bloquea el scraping: 403 — no he
+podido releer la primaria; las cifras siguientes son las ya contrastadas entonces).
+
+**Cifras (sonda 14-ago, contrastadas)**: S1 récord — ingresos €21,2B (+14% orgánico), margen EBITA
+ajustado **19,3%**, deuda financiera neta €15,4B (1,64x EBITDA). Titulares de prensa posteriores
+(secundaria, jul-ago) reportan además **elevación de la guía FY2026** tras el semestre — cifras exactas
+de la nueva guía: [Pendiente de verificar en primaria].
+
+**Qué cambia en la tesis**: nada en dirección, todo en intensidad. La ficha decía VIGILAR esperando
+"corrección o crecimiento recurrente que justifique el múltiplo": lo que llegó es MÁS crecimiento
+récord (+14% orgánico) con margen subiendo — el negocio ejecuta mejor que nunca Y AUN ASÍ el veredicto
+sigue siendo correcto, porque el riesgo señalado (concentración en capex IA de centros de datos, ver
+[[riesgo-de-cola-capex-computo-ia]] y [[hiperscalers]]) no disminuye con buenos resultados: SE ACENTÚA.
+Que el récord dependa del mismo cliente marginal (hiperscaler) es precisamente lo que impide subir de
+VIGILAR a COMPRAR a múltiplo pleno.
+
+**Fuente**: cifras de sonda-2026-08-14-schneider-electric (contrastadas entonces); titulares RSS secundarios jul-ago-2026 (scratchpad/analista-europa-espana); se.se.com inaccesible por 403 el 25-ago-2026.

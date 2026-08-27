@@ -29,14 +29,14 @@ fecha: 2026-08-14
 <section id="datos-vivos" class="datos-vivos" data-supabase-url="https://bkuwcahxfmmksfuqkrdi.supabase.co" data-supabase-clave="sb_publishable_z7-pP-IVzGmY41gdCnPJGw_VIMIjbbQ">
 <article class="dato-vivo" id="dato-pulso">
 <h2 class="dato-nombre">El pulso</h2>
-<p class="dato-titular">El consumidor americano se parte en dos, y la gasolina marca por dónde</p>
-<p class="dato-entradilla">La semana decisiva del trimestre se juega en 72 horas: Nvidia (mié 26), Jackson Hole con keynote de Warsh (vie 28) y PCE de julio (vie 28). Lo reportado hasta hoy ya dibuja un consumidor estadounidense bifurcado.</p>
-<p class="dato-fecha">Pulso del 25 de agosto de 2026 · publicado el 26 de agosto de 2026</p>
+<p class="dato-titular">Tecnología &amp; IA: Nvidia paradoja + Competencia de Chips</p>
+<p class="dato-entradilla">Nvidia Record vs Demanda Inflada</p>
+<p class="dato-fecha">Pulso del 26 de agosto de 2026 · publicado el 27 de agosto de 2026</p>
 </article>
 <article class="dato-vivo" id="dato-marcador">
 <h2 class="dato-nombre">El marcador</h2>
 <p class="dato-cifras">27 predicciones · 4 resueltas · brier medio 0,165</p>
-<p class="dato-fecha">Datos al 26 de agosto de 2026</p>
+<p class="dato-fecha">Datos al 27 de agosto de 2026</p>
 </article>
 <article class="dato-vivo" id="dato-cartera">
 <h2 class="dato-nombre">La cartera</h2>
@@ -50,7 +50,7 @@ fecha: 2026-08-14
 <li><span class="dato-posicion">GS Bloomberg Commodity</span> <span class="dato-peso">4,54 %</span></li>
 <li><span class="dato-posicion">Microsoft</span> <span class="dato-peso">4,05 %</span></li>
 </ul>
-<p class="dato-fecha">Foto al 26 de agosto de 2026 · pesos en %, nunca importes</p>
+<p class="dato-fecha">Foto al 27 de agosto de 2026 · pesos en %, nunca importes</p>
 </article>
 <p role="status" class="dato-estado"></p>
 </section>
@@ -1232,6 +1232,11 @@ Estudia el CONTEXTO (Inés Torres); nunca elige empresas — eso es de Carlos B�
   no vinculantes (no tres, no cerrado), FMS BofA "53% largo semis" es caída desde el 82% de julio, no
   escalada. Matiz nuevo: China fisura también por su lado "fuerte" (Unitree, Star50 a 150x). Sin cambio de
   postura ni de escenarios (40/15/45).
+- [[estrategia-2026-08-27]] — noveno informe, cadencia normal. Nvidia batió y guió al alza (verificado contra
+  el 10-Q); la financiación estructurada del capex de IA sube a confianza ALTA sobre fuente primaria
+  (compromisos de suministro $119→$279 bn en un trimestre, garantía de $105 bn a OpenAI = techo, no gasto).
+  Brent: caída real a $88 (ICE), no error de instrumento — la predicción viva Brent>$90 a 31-ago va camino de
+  fallar. Sin cambio de postura sectorial; escenarios 40/15/45 → 43/15/42.
 
 ## Perfil del operador (Carlos)
 
@@ -1288,6 +1293,12 @@ Autor: Daniel Ferrer (CRDSO), reporta a la CIO.
   precio de Jorne para reabrir la ventana CIO (950-983) ya está cumplido. Contribución al riesgo de Micron
   empeora a multiplicador 3,82x pese a peso "en rango" (8,17%). `cerebro-veredicto-semanal` lleva 11 días
   sin producir: una predicción vencida con el hecho ya conocido sigue sin resolverse.
+- [[riesgo-2026-08-20]] — cuarto run: multiplicador de riesgo de Micron a 3,89x; bug de etiquetado horario
+  reaparece y se propaga al CIO; `cerebro-veredicto-semanal` nunca ha escaneado `wiki/riesgo/` (escalado).
+- [[riesgo-2026-08-27]] — quinto run: `deriva_cartera.py` corrupto desde el commit de wikilinks del 25-ago
+  (ox-alpha) — la alerta "TANGIBLES 47,1%" es artefacto, el peso real es ~45,6% (sin cambio). Cuant idéntico
+  al 20-ago. La cadena automática 23-25 ago falló (veredicto, CIO 24-ago, marcadores). Sesgo de disposición
+  del equipo sobre Micron, 5ª instancia; sesgo alarmista propio, 3ª vez en el borrador, elevado a Elisa.
 
 ## Ingeniería de agentes (meta — conocimiento sobre el propio Cerebro)
 
@@ -1329,7 +1340,8 @@ jueves run profundo de arquitectura. Reporta a la CIO.
 
 - [[encargos]] — cola de misiones de investigación (Carlos edita a mano; los agentes marcan `[CKO:]`).
 - Informes fechados: conocimiento 25-jul ·
-  conocimiento 26-jul · enjambre 16-ago.
+  conocimiento 26-jul · enjambre 16-ago ·
+  conocimiento 26-ago · enjambre 26-ago.
 - Datos y decisiones de mercado: opciones de mercado, jul-2026.
 - [[arquitectura-del-conocimiento]] — durable: mapa de fuentes/conectores del fondo, sus límites y el mapa
   de lagunas vivo.
@@ -1397,6 +1409,19 @@ jueves run profundo de arquitectura. Reporta a la CIO.
   coordinación entre Carlos Bárez y el pipeline de `ox-alpha` sobre tecnología médica. Kimi tocó tope de
   cuota (20/20): un lote de `duplicidades` se perdió con las 4 capas caídas.
 
+- [[conocimiento-2026-08-26]] — rotación fuentes+inversores + auditoría de fidelidad OpenRouter (doble
+  uso como misión del día): `damodaran-country-risk.md` verificada con PyMuPDF vía Bash (el `Read` de PDF
+  no funciona aquí, falta poppler) — 7/10 exacto, 2 matices menores, sin fabricación; backlog Damodaran
+  real corregido a 2 páginas. Capa mecánica caída en los 3 verbos del PASO 3 con ambos carriles a la vez
+  (posible fallo de gateway). Elena sin pulso 2ª vez en 5 días — reescalado a la CIO. 2 conexiones no
+  hechas: la cosecha de cartas Einhorn/Marks/Smith/Buffett del 25-ago sin cruzar con sus hubs durables.
+- [[conocimiento-2026-08-27]] — jueves, meta-run. Misión: auditoría del pase masivo de wikilinks de
+  ox-alpha (`aa29363`, 487 ficheros, +1.400 enlaces). Neto positivo en páginas-concepto nuevas, negativo
+  en la Fase 1: 33 wikilinks mal formados en 16 ficheros (rompe `deriva_cartera.py`; corrompe celdas de
+  `mapa-de-industrias.md`). Causa raíz: hooks apagados en el carril opencode + patrón no cubierto.
+  Propuesta de `lint_wikilinks.py --all`. Meta: sonda de viabilidad antes del lote mecánico; ítems
+  escalados pasan a "dormidos". Sin `cio-2026-08-27` a las 11:00 (2ª vez en 4 días).
+
 ## Dirección de inversiones (CIO — rutina `cerebro-cio-elisa`)
 
 **Elisa Fernández (CIO)** integra los informes de todo el equipo y guía la decisión de Carlos. No hace
@@ -1447,3 +1472,5 @@ Smith, Einhorn) · didáctica en conceptos/ (DCF paso a paso, sesgos, re-rating;
 España ([[espana-bolsa-y-macro-2026]] · [[espana-oportunidades-y-riesgos-2026]] ·
 [[fiscalidad-inversor-espana-2026]]) · gestoras y ETFs en referencia/ (7 fichas) · pulso del día en actualidad/.
 - [[pulso-video-2026-08-25]] — 15 vídeos: recompras del Tesoro, tensión petróleo/Ormuz, consumidor e IA; crudo pendiente por permisos 0555.
+
+- [[pulso-video-2026-08-26]] — Nvidia, financiación del capex IA, PCE/Fed y Ormuz; crudo pendiente por permisos 0555.

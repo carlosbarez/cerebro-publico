@@ -144,3 +144,21 @@ por encima de $420 con precio <$400.
 - P2: VAS factura >= $4.000M en fiscal Q4 2026 (+>=28% YoY). Probabilidad 60%.
 - P3: cross-border ex-intra-Europa >= +10% YoY tanto en fiscal Q4 2026 como en fiscal Q1 2027.
   Probabilidad 70%.
+
+## Nota de evolución 2026-08-25 (analista-usa): fiscal Q3 2026 confirma motores y presiones de la tesis
+
+Ficha creada hoy con precios del 24-ago; añado los resultados FQ3 publicados el 28-jul (PR/PDF oficial),
+que todavía no estaban:
+
+- Net revenue **$11,6B (+14%, +13% constante)**; EPS non-GAAP $3,32 (+11%), GAAP +10%.
+- Transacciones procesadas 71,7B (+10%); cross-border total +13% cc. Motores de la tesis operativos.
+- **Client incentives $(4,68)B, +18%** — siguen creciendo MÁS rápido que los ingresos (+14%): la presión
+  de take rate que marca el §10 de esta ficha continúa.
+- Special items del trimestre: **$563M severance + $237M provisión MDL** (interchange) — el litigio
+  sigue vivo, coherente con la predicción P-MDL de la ficha.
+- Devolución a accionistas ~$6,2B en el trimestre (recompras + dividendo).
+
+Contra umbrales de §9-11: nada activa el gatillo ($325) ni invalida VIGILAR; si VAS y cross-border
+sostienen este ritmo en fiscal Q4 (informe ~28-oct-26), el central de valor ($368) gana soporte.
+
+Fuente: Visa Fiscal Q3 2026 Earnings Release (PDF q4cdn): https://s1.q4cdn.com/050606653/files/doc_financials/2026/q3/Q3-2026-Earnings-Release_vF.pdf — consulta 2026-08-25.

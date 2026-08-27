@@ -147,3 +147,29 @@ Alphabet.
 [[foso-economico]] · [[flujo-de-caja-descontado]] · [[michael-mauboussin]] · [[jeremy-grantham]] ·
 [[contabilidad-y-calidad-de-beneficios]] · [[screening-de-calidad]] · [[margen-de-seguridad]] ·
 [[tasas-base-y-vista-exterior]] · [[fiscalidad-en-espana]]
+
+## Nota de evolución 2026-08-25 (analista-usa): Alphabet deja de autofinanciarse y cobra en papel
+
+Lectura del PR oficial de Q2 2026 (22-jul), más allá del titular +24% ya cubierto el 16-ago. Tres cambios
+de régimen que afectan a la tesis:
+
+1. **Captación masiva de capital externo** — en un solo trimestre: emisión de acciones A/C + preferentes
+   obligatoriamente convertibles por **$49,6B netos** (jun-2026, "para capex de IA e infraestructura
+   global") y senior notes por **$20,3B netos** (~$70B en total). La empresa-símbolo de la
+   autofinanciación ahora diluye y se endeuda para pagar la carrera de cómputo: conecta con
+   [[financiacion-estructurada-del-capex-de-ia]] y [[hiperscalers]]. En el trimestre además recompró
+   $13,2B y pagó $2,5B de dividendo: financia las tres salidas a la vez.
+2. **Calidad del beneficio**: el EPS de $9,11 (+294%; neto al common +298%) incluye las plusvalías no
+   realizadas del ecosistema IA (other income ~+$98B según lo ya anotado). El beneficio "duro" es el
+   operativo: Google Cloud pasó de $2,8B a **$8,8B de beneficio operativo YoY (~36% de margen sobre
+   $24,8B)** — Cloud ya no es promesa, es máquina; pero el PER aparente hay que calcularlo sin papel
+   ([[contabilidad-y-calidad-de-beneficios]]).
+3. **Adopción IA verificable**: Gemini App **950M usuarios activos mensuales** y 22B de tokens API por
+   minuto — el riesgo de canibalización de Search que marca la tesis se está midiendo en uso real, no en
+   declaraciones.
+
+Segundo orden: si Berkshire mantiene Alphabet entre sus cinco mayores posiciones (~$10B, iniciada por
+Buffett consultando con Abel) mientras Alphabet emite acciones para financiar IA, el capital value ya
+está dentro del trade de IA — el debate es solo de precio ([[warren-buffett]], [[berkshire-hathaway]]).
+
+Fuente: Alphabet Q2 2026 earnings release (PDF q4cdn): https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-release.pdf — consulta 2026-08-25.

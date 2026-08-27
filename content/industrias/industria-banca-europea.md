@@ -9,7 +9,7 @@ agente: sectores-analista
 # Industria: banca europea
 
 Economía industrial del sector más barato de Europa en múltiplos y el más dependiente de UNA variable externa: la curva
-de tipos. Empresas pendientes de ficha propia citadas aquí: santander, bbva, unicredit, [[hsbc-holdings]].
+de tipos. Empresas pendientes de ficha propia citadas aquí: santander, [[bbva]], unicredit, [[hsbc-holdings]].
 Marco de tipos: [[renta-fija-y-tipos]] · marco de ciclo: [[ciclos-de-mercado]].
 
 ## La estructura: negocio del spread con regulador como tercer accionista
@@ -64,7 +64,7 @@ Datos verificados (Banco de España, Informe de Estabilidad Financiera primavera
 - santander: FY2025 récord €14.101 mm (+12%), RoTE 16,3%, CET1 13,5%; H1-2026 subyacente €7.328 mm (+15%), NII +7%,
   comisiones +9%; compromiso de ≥€10 mm en recompras 2025-26 (~€9 mm ya entregados a jul-2026); compró TSB (UK) y vendió
   49% de Santander Polska a Erste (ene-2026, plusvalía neta €1,9 mm). Press releases santander.com, 03-feb y 22-jul-2026.
-- bbva: H1-2026 beneficio neto récord €6,05 mm (+11%), **ROTE 22,2%**, TBV/acción +21,8%; cartera +17,7% a tipos
+- [[bbva]]: H1-2026 beneficio neto récord €6,05 mm (+11%), **ROTE 22,2%**, TBV/acción +21,8%; cartera +17,7% a tipos
   constantes (impulsada por Turquía/México/Sudamérica: NII grupo +18,8%); nuevo buyback extraordinario de €2 mm anunciado
   con resultados (bbva.com, 30-jul-2026). En España: préstamos +7,4%, NII +4,1%, NPL 2,9%, coste del riesgo 0,31%.
 

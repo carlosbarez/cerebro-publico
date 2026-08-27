@@ -4,56 +4,55 @@ tipo: sintesis
 cobertura: parcial
 tags: [actualidad, pulso, video, macro, geopolitica, ormuz, deuda, oro, fed, politica-eeuu, 2026-08, snapshot]
 fecha: 2026-08-08
-canales: [Misterpuertas, Cárpatos, "Gustavo Martínez", "Bloomberg TV", NegociosTV]
-fuentes: ["[[misterpuertas-metodo]]", "[[carpatos-metodo]]", "[[gustavo-martinez]]", "[[bloomberg-tv-metodo]]", "[[negociostv-metodo]]"]
+canales: [un canal técnico español, una mesa de mercado española, "un analista macro español", "una cadena financiera internacional", una cadena económica española]
+fuentes: ["un canal técnico español metodo", "[[carpatos-metodo]]", "[[gustavo-martinez]]", "una cadena financiera internacional tv metodo", "[[negociostv-metodo]]"]
 destilado_por: openrouter
 videos:
-  - "zEsUkFeq5E4|Bloomberg TV|Bloomberg This Weekend | Todd Blanche Confirmed as AG, Jobs Report Surprise"
-  - "kyaEKqqZXXY|Bloomberg TV|PGA Tour CEO Exclusive and David Kelly Talks Investing | Bloomberg Money 8/7/2026"
-  - "SqXuLW7gmCo|Bloomberg TV|Senate Confirms Former Trump Defense Lawyer as AG"
-  - "Qxxz6i9K0lQ|Gustavo-Bolsa|EEUU, JAPON y la VERDAD que te OCULTAN"
-  - "8xpS61l2Vj8|Cárpatos|Put de Trump al maximo ante elecciones - Las 4 claves de la semana Carpatos"
-  - "g3l6CFHPgN4|NegociosTV|ULTIMA HORA TRUMP: Reconciliacion en EEUU con Canada por los aranceles? y Cassidy apoyara a Blanche"
-  - "U5JOwlK9QY0|NegociosTV|ULTIMA HORA TRUMP | Terremoto politico en EEUU, presion al Senado por Fauci y rebelion republicana"
-  - "iSv9C6dip6g|NegociosTV|ULTIMA HORA ORMUZ | Trump presume de armamento en Oriente Medio y fija su nuevo objetivo en Iran"
+  - "zEsUkFeq5E4|una cadena financiera internacional|una cadena financiera internacional This Weekend | Todd Blanche Confirmed as AG, Jobs Report Surprise"
+  - "kyaEKqqZXXY|una cadena financiera internacional|PGA Tour CEO Exclusive and David Kelly Talks Investing | una cadena financiera internacional Money 8/7/2026"
+  - "SqXuLW7gmCo|una cadena financiera internacional|Senate Confirms Former Trump Defense Lawyer as AG"
+  - "Qxxz6i9K0lQ|un analista macro español-Bolsa|EEUU, JAPON y la VERDAD que te OCULTAN"
+  - "8xpS61l2Vj8|una mesa de mercado española|Put de Trump al maximo ante elecciones - Las 4 claves de la semana Carpatos"
+  - "g3l6CFHPgN4|una cadena económica española|ULTIMA HORA TRUMP: Reconciliacion en EEUU con Canada por los aranceles? y Cassidy apoyara a Blanche"
+  - "U5JOwlK9QY0|una cadena económica española|ULTIMA HORA TRUMP | Terremoto politico en EEUU, presion al Senado por Fauci y rebelion republicana"
+  - "iSv9C6dip6g|una cadena económica española|ULTIMA HORA ORMUZ | Trump presume de armamento en Oriente Medio y fija su nuevo objetivo en Iran"
 ---
 
 > [!info] Es una FOTO, no conocimiento permanente
-> Digest de **8 vídeos, 5 canales activos de 8** (Cárpatos 1 —Las 4 claves de la semana—, Gustavo-Bolsa 1,
-> Bloomberg TV 3: This Weekend + Bloomberg Money + confirmación del AG, NegociosTV 3). **Run de RECUPERACIÓN del
+> Digest de **8 vídeos, 5 canales activos de 8** (fuente externa). **Run de RECUPERACIÓN del
 > atraso**: escrito a posteriori para el contenido del 8-ago (sábado, ventana de fin de semana), con
 > descubrimiento, criba y **destilado ya completos** en `scratchpad/yt-recuperacion-2026-08-08/` (8/8, ninguno
-> con nota de fallo). Este ejecutor solo sintetizó y escribió sobre la lista cerrada. Misterpuertas, Cava,
-> Javier DV y Bloomberg Podcasts sin cobertura este día (hueco de descubrimiento del barrido heredado, mismo
+> con nota de fallo). Este ejecutor solo sintetizó y escribió sobre la lista cerrada. un canal técnico español, un divulgador macro español,
+> un gestor de fondos español y una cadena financiera internacional sin cobertura este día (hueco de descubrimiento del barrido heredado, mismo
 > patrón de la ventana).
 
 Sábado 8 de agosto: día institucional en Washington (Blanche confirmado, CR hasta diciembre, presión renovada
 sobre la Fed) con el mercado cerrado absorbiendo la sorpresa del empleo del viernes y Berkshire Hathaway
-publicando un trimestre que reordena el relato de la caja de Buffett. La lectura de la semana, en Cárpatos: **el
+publicando un trimestre que reordena el relato de la caja de Buffett. La lectura de la semana, en una mesa de mercado española: **el
 mercado descuenta el fin de la guerra — pero no como EE.UU. planeaba**.
 
 ## 1. El mercado descuenta el fin de la guerra, y el "put de Trump" como lectura de fondo
 
-Cárpatos, en su repaso de las 4 claves de la semana, articula la tesis de fondo del momento: **el mercado sube
+una mesa de mercado española, en su repaso de las 4 claves de la semana, articula la tesis de fondo del momento: **el mercado sube
 por "no me suben tipos", no por salud económica** — "subir porque la economía va mal es jugar con cerillas en
 una gasolinera". El NFP de -23.000 (prev. +75k) con revisiones de ~-100k y la participación en mínimos desde el
 COVID dejó la probabilidad de subida en septiembre en **~30%** (desde ~60%). Su lectura del ISM de servicios
 (empleo en 47,4): "el dato más fiable, encuesta a empresas sin la zarpa del Estado".
 
-**La guerra de Irán "termina muy rápido", pero no como EE.UU. la planeaba** (Cárpatos): Irán se queda con el
+**La guerra de Irán "termina muy rápido", pero no como EE.UU. la planeaba** (fuente externa): Irán se queda con el
 control del estrecho cobrando peajes (plan Irán-Omán 5-7% de la carga; excluye barcos de EE.UU. e Israel; multa
 del 20% a aliados), EE.UU. "se comerá el sapo" y lo venderá como victoria, con un probable acuerdo temporal de
 30-60 días sin peajes para poder retirarse. Por qué cede EE.UU.: **midterms en noviembre** — Trump perderá el
 Congreso "casi seguro" y el Senado está en el aire; rumores de que EE.UU. queda con ~20% del armamento de largo
 alcance/defensa; Irán usa la "espada de Damocles" electoral.
 
-**El put de Trump / put de la Fed / put del Tesoro / put de divisas** (Hartnett, vía Cárpatos): "el Estado no
+**El put de Trump / put de la Fed / put del Tesoro / put de divisas** (fuente externa): "el Estado no
 dejará que las condiciones financieras se carguen el ciclo alcista". El caso Leopold/Situational Awareness
 ($45.000M gestionados, +439% hasta junio, apalancamiento 400%, liquidado el 30-jul) como "el LTCM de los pobres"
 — la intervención cambiaria coordinada del yen como rescate encubierto. Líneas rojas de Hartnett: 3 de 4 ya
 tocadas (gasolina >4, USD/JPY subiendo, 30Y >5%).
 
-**El dólar y la deuda como nudo** (Gustavo-Bolsa, fuente con sesgo pro-oro declarado — [[gustavo-martinez]]): la
+**El dólar y la deuda como nudo** (fuente externa): la
 subida de TIR no es inflación (break-even ~2,5%), es **tipo real**: la demanda de inversión (hiperscalers
 endeudándose "como nunca" en dólares) supera a la oferta de ahorro mientras el Tesoro debe refinanciar
 **$10 billones** y necesita $15.000M nuevos diarios (julio sumó $450.000M; el último año, >$3 billones). El yen
@@ -61,16 +60,15 @@ cruzó 160 hasta **164** (verificado por grep); Japón vende bonos americanos pa
 responde condicionando a Japón a no vender a cambio de intervenir vendiendo euros. Lectura del autor: **la Fed
 intervendrá el bono antes que el dólar**.
 
-📌 **predicción** (Cárpatos): la guerra de Irán termina "muy rápido" con EE.UU. aceptando el control iraní de
-Ormuz; acuerdo temporal 30-60 días sin peajes; ambas partes declaran victoria. 📌 **predicción** (Hartnett, vía
-Cárpatos): solo los bonos pinchan la burbuja; el Estado intervendrá antes para proteger la bolsa.
+📌 **predicción** (fuente externa): la guerra de Irán termina "muy rápido" con EE.UU. aceptando el control iraní de
+Ormuz; acuerdo temporal 30-60 días sin peajes; ambas partes declaran victoria. 📌 **predicción** (fuente externa): solo los bonos pinchan la burbuja; el Estado intervendrá antes para proteger la bolsa.
 
 **Cruce**: [[mineria-industrial-y-energia]] · [[renta-fija-y-tipos]] · [[sintesis-del-comportamiento]] ·
 [[registro-de-predicciones]].
 
 ## 2. Washington: Blanche confirmado, CR hasta diciembre y presión política sobre la Fed
 
-Día institucional denso (Bloomberg This Weekend + confirmación + NegociosTV):
+Día institucional denso (fuente externa):
 - **Todd Blanche confirmado fiscal general** 50-49 en línea partidista (Cassidy, pato cojo, dio el voto decisivo;
   Collins y Murkowski en contra). Concesiones: memorando **no vinculante** del DOJ que elimina el fondo
   "anti-armamentización" de $1.800M y limita el acuerdo con el IRS — puede resucitar, patrón Trump reconocido.
@@ -83,7 +81,7 @@ Día institucional denso (Bloomberg This Weekend + confirmación + NegociosTV):
 - **Presión política sobre la Fed**: Trump "EE.UU. debería pagar el tipo de interés más bajo del mundo", sobre
   Warsh: "tiene una junta muy política"; renovó la amenaza de cesar a la gobernadora Lisa Cook (alegaciones no
   probadas, carta exige respuesta antes del 26-ago) — estrategia de reemplazar miembros de la junta por
-  personas favorables a bajar tipos. Bloomberg Economics (Anna Wong): la presión política es el riesgo de
+  personas favorables a bajar tipos. una cadena financiera internacional Economics (Anna Wong): la presión política es el riesgo de
   credibilidad del ciclo.
 - Corte de apelaciones bloquea el *ballroom* de $400M de la Casa Blanca; orden ejecutiva de "birthright tourism"
   destinada a litigio y probable fracaso por la 14ª Enmienda.
@@ -92,17 +90,16 @@ Día institucional denso (Bloomberg This Weekend + confirmación + NegociosTV):
 
 ## 3. La economía que se enfría con matices: la lectura de Anna Wong y el empleo estructural
 
-Bloomberg Economics (Anna Wong, en This Weekend) aporta la lectura más rigurosa del NFP: **la caída del paro es
+una cadena financiera internacional Economics (Anna Wong, en This Weekend) aporta la lectura más rigurosa del NFP: **la caída del paro es
 "por las razones equivocadas"** — cae la participación (16-24 años, efecto vacacional plausible), mercado laboral
-más débil de lo pensado. Dos señales estructurales: **revisiones a la baja persistentes durante 3 años** (prints
->200k deben tomarse con cautela; modelo birth-death y baja tasa de respuesta; el BLS cambió metodología) y el
+más débil de lo pensado. Dos señales estructurales: **revisiones a la baja persistentes durante 3 años** (fuente externa) y el
 único sector fuerte del mes, la construcción, vía **data centers**.
 
-La contra lectura del día (Meredith Whitney, vía Bloomberg Money): el gasto con tarjeta tocó techo en abril y la
+La contra lectura del día (fuente externa): el gasto con tarjeta tocó techo en abril y la
 gasolina en mayo — "la inflación está en el espejo retrovisor". Enfrentada a la lectura oficial ("fatiga de
 guerra"), se registra como tensión sin resolver.
 
-**La IA crea empleo, aún sin evidencia de que lo destruya** (Bloomberg Money): +22.000 en construcción, ~19.000
+**La IA crea empleo, aún sin evidencia de que lo destruya** (fuente externa): +22.000 en construcción, ~19.000
 ligados a centros de datos de IA, +4-6.000 en semiconductores. La fuerza laboral cae -1,3M interanual
 (deportaciones + jubilaciones boomer) y los salarios van por debajo del IPC por 4º mes seguido.
 
@@ -122,14 +119,14 @@ ratio operativo peor que pares; Geico en máximos tras subidas de primas).
 
 El dato más relevante para el cerebro: **Buffett/Abel empiezan a gastar la montaña de caja** — en Q2 el balance
 sigue cayendo y el dinero vuelve a trabajar en Alphabet (cruce directo con [[alphabet]] y cartera actual) y
-en inmobiliario (Taylor Morrison). Conecta con el destilado del 09-ago de Javier DV sobre Buffett gastando su
+en inmobiliario (Taylor Morrison). Conecta con el destilado del 09-ago de un gestor de fondos español sobre Buffett gastando su
 montaña de dinero (ver pulso del día siguiente).
 
 **Cruce**: inversores/warren buffett · [[alphabet]] · cartera actual.
 
 ## 5. Posicionamiento: dispersión extrema, nadie tiene miedo y el calendario de opciones
 
-Cárpatos aporta las dos estadísticas del día:
+una mesa de mercado española aporta las dos estadísticas del día:
 - **Correlación implícita del S&P en 0,16** (media 0,43; mínimo histórico 0,15; máximo 20 años 0,82) — mercado de
   selección de valores, no de índice.
 - **Goldman Panic Index en 1,03** (mínimo de 2 años; media 6,21) — nadie tiene miedo, no hay coberturas,
@@ -149,21 +146,20 @@ Cárpatos aporta las dos estadísticas del día:
 ## 6. Oro, metales y el relato del "fin de la guerra": activos escasos vs. abundancia
 
 - **Oro resiste sobre $4.000; objetivo 4.500 (media 100)**; metales preciosos **+7,9% en la semana** tras un
-  mes lateral (Cárpatos). Goldman: tendencia sostenida depende de tipos reales del dólar y de la reapertura del
+  mes lateral (fuente externa). Goldman: tendencia sostenida depende de tipos reales del dólar y de la reapertura del
   estrecho.
-- **Minerales de oro +25% semanal, una de las mayores subidas de su historia** (Gustavo-Bolsa, verificado por
-  grep); China +22 t en julio (mayor compra en 3 años) tras +15 t en junio, buscando igualar reservas tipo EE.UU.
+- **Minerales de oro +25% semanal, una de las mayores subidas de su historia** (fuente externa); China +22 t en julio (mayor compra en 3 años) tras +15 t en junio, buscando igualar reservas tipo EE.UU.
   (~8.000 t); Corea del Sur reanuda compras tras 14 años.
-- **Bid-to-cover de los bonos de hiperscalers enfriándose**: Amazon 4:1 en febrero → 2:1 ahora (Gustavo-Bolsa);
+- **Bid-to-cover de los bonos de hiperscalers enfriándose**: Amazon 4:1 en febrero → 2:1 ahora (fuente externa);
   Google acaba de emitir. Demanda de bonos de bancos centrales → oro.
-- Ranking del año (a 7-ago, Cárpatos): petróleo +61%, energía +32%, Russell 1000 value +23%, tecnología +22%;
+- Ranking del año (fuente externa): petróleo +61%, energía +32%, Russell 1000 value +23%, tecnología +22%;
   peores: bono 10Y -2%, oro -2%, **Bitcoin -27%** (sigue bajista).
 
 **Cruce**: [[mineras-de-metales-preciosos]] · [[renta-fija-y-tipos]] · [[semiconductores-de-memoria]].
 
 ## 7. Ormuz: la amenaza física se mantiene pese al relato de acuerdo
 
-NegociosTV aporta el contrapunto físico: **ADNOC (Abu Dhabi) reporta 15 buques atacados desde el inicio de la
+una cadena económica española aporta el contrapunto físico: **ADNOC (Abu Dhabi) reporta 15 buques atacados desde el inicio de la
 guerra, 3 solo esta semana** — 1 tripulante muerto, 20 heridos. Trump reconoce el límite del bloqueo naval: "lo
 controlamos, pero siempre pueden disparar algo o poner una mina". El riesgo de fondo: una mina basta para
 disuadir a barcos de $1.000M de navegar. EE.UU. sanciona la red financiera iraní (casas de cambio, empresas
@@ -179,10 +175,9 @@ nuevas sugiere horizonte de conflicto prolongado pese a la retórica "pronto".
 
 - **Ormuz**: el relato avanza hacia "peaje Irán-Omán excluyente" (ver pulso 07-ago) con el contrapunto físico de
   ADNOC (15 buques atacados). **No cerrado.**
-- **Empleo EE.UU.**: cerrado con desenlace el viernes; hoy se añade la lectura estructural de Wong (revisiones
-  sistemáticas a la baja, metodología BLS). Hilo de seguimiento abierto: ¿CPI del 12-ago en 2,4%?
+- **Empleo EE.UU.**: cerrado con desenlace el viernes; hoy se añade la lectura estructural de Wong (fuente externa). Hilo de seguimiento abierto: ¿CPI del 12-ago en 2,4%?
 - **Berkshire/caja de Buffett**: hilo nuevo — la caja baja y el dinero vuelve a trabajar (Alphabet, Tokio Marine,
-  Taylor Morrison). Se cruza con el destilado del 09-ago de Javier DV.
+  Taylor Morrison). Se cruza con el destilado del 09-ago de un gestor de fondos español.
 - **Fed bajo presión política**: hilo nuevo — Trump presiona a Cook y Warsh abiertamente; riesgo de credibilidad.
 - **Correlación implícita del S&P**: hoy el dato (0,16) confirma el hilo de julio de "selección de valores, no
   índice". Actualizado, no cerrado.
@@ -196,27 +191,22 @@ nuevas sugiere horizonte de conflicto prolongado pese a la retórica "pronto".
 - **El calendario mecánico sigue fechado**: 21-ago (vencimiento de opciones), CPI 12-ago, FOMC 16-sep, midterms
   3-nov. El pánico de los compradores de calls bajo 7.700 es la fecha mecánica más cercana.
 - **La deuda soberana como nudo central**: $10T a refinanciar, $15.000M/día, yen en 164 con Japón vendiendo
-  bonos — la lectura de Gustavo-Bolsa (sesgo pro-oro) coincide con la de Cárpatos/Hartnett en que "los bonos van
+  bonos — la lectura de un analista macro español-Bolsa (sesgo pro-oro) coincide con la de una mesa de mercado española/Hartnett en que "los bonos van
   a decidir".
-- **Aviso de cobertura para el cerebro**: hueco de descubrimiento en Misterpuertas, Cava, Javier DV y Bloomberg
-  Podcasts para este día.
+- **Aviso de cobertura para el cerebro**: hueco de descubrimiento en un canal técnico español, un divulgador macro español, un gestor de fondos español y una cadena financiera internacional para este día.
 
 ## Preguntas abiertas
 
 - ¿El CPI del 12-ago en 2,4% (Wong) confirma el "espejo retrovisor" de Whitney, o la "fatiga de guerra" del
   petróleo lo impide?
 - ¿Se materializa el peaje Irán-Omán con exclusión de EE.UU./Israel, y lo acepta Trump "comiéndose el sapo" como
-  augura Cárpatos? ¿O el ataque de ADNOC reabre la escalada?
+  augura una mesa de mercado española? ¿O el ataque de ADNOC reabre la escalada?
 - ¿Aguantó el S&P sobre 7.700 hasta el vencimiento del 21-ago con los dealers cortos de gamma?
 - ¿Rompe el SMH el canal bajista y supera su media de 50 (quita el peligro), o rechaza y contagia al Nasdaq?
 - ¿Cruza el MAGS los 70 (amenaza china fuera) o se queda debajo?
 - ¿Qué hace la caja de Berkshire tras los $4,5 mm de recompra y las compras de Alphabet/Taylor Morrison?
-- **Sin resolver por hueco de descubrimiento**: ¿qué cubrieron Misterpuertas, Cava, Javier DV y Bloomberg
-  Podcasts el 8-ago?
-
----
-*Nota hermana de vídeo — canales: [[misterpuertas-metodo]] · [[carpatos-metodo]] · [[gustavo-martinez]] ·
-[[bloomberg-tv-metodo]] · [[negociostv-metodo]]. Cruces con cartera actual · [[mineria-industrial-y-energia]] ·
+- **Sin resolver por hueco de descubrimiento**: ¿qué cubrieron un canal técnico español, un divulgador macro español, un gestor de fondos español y una cadena financiera internacional el 8-ago?
+una cadena financiera internacional tv metodo · [[negociostv-metodo]]. Cruces con cartera actual · [[mineria-industrial-y-energia]] ·
 [[renta-fija-y-tipos]] · [[checklist-macro-y-ciclo]] · [[aversion-al-apalancamiento]] ·
 [[sintesis-del-comportamiento]] · [[analisis-tecnico-y-tendencia]] · [[semiconductores-de-memoria]] ·
 [[financiacion-estructurada-del-capex-de-ia]] · [[mineras-de-metales-preciosos]] · [[registro-de-predicciones]].

@@ -10,7 +10,7 @@ fuentes: []
 
 Empresa documentada: [[tencent|Tencent]], caso de plataforma con WeChat, juegos, publicidad, fintech y capex de IA.
 
-El bloque de **China individual** de la cartera de Carlos (~9%): [[baidu|Baidu]], [[jd|JD.com]], Meituan +
+El bloque de **China individual** de la cartera de Carlos (~9%): [[baidu|Baidu]], [[jd|JD.com]], [[meituan|Meituan]] +
 el fondo [[jpmorgan-chase|JPMorgan]] Greater China. Son plataformas dominantes, cotizan **baratísimas**, y el
 plan ya dice **"no ampliar China"**. Entender por qué están tan baratas
 —y por qué esa baratura no es necesariamente una ganga— es el corazón de esta industria.

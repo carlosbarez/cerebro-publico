@@ -148,3 +148,24 @@ oaktreecapital.com (texto completo verificado): [Is It a Bubble?](https://www.oa
 4. **La tesis de Marks es asimétrica a favor de estar dentro pero no cargado**: la tecnología es real y probablemente infravalorada en potencial; los PRECIOS son el problema. Traducción al método del cerebro: valor intrínseco empresa a empresa, nunca una opinión binaria sobre «la IA» → [[valor-intrinseco]] · [[precio-vs-cotizacion]] · [[margen-de-seguridad]].
 
 Lecturas: [[ciclos-de-mercado]] · [[financiacion-estructurada-del-capex-de-ia]] · [[warren-buffett]]
+
+## Nota de evolución 2026-08-26 (lector-de-cartas)
+
+**Memo «What's Going on in Private Credit?» (9-abr-2026).** Fuente primaria: [PDF íntegro en oaktreecapital.com](https://www.oaktreecapital.com/docs/oaktreecaplibraries/memos/whats-going-on-in-private-credit.pdf). Es el tercer memo de la cosecha 2025-2026 y cierra el triángulo: burbuja (dic-2025), IA acelerando (feb-2026) y ahora el canal por donde el exceso se financia. Complementa con la Oaktree Conference 2026 (mar-2026, vía resumen del podcast The Memo).
+
+### El punto: direct lending, la burbuja que ya empezó a desinflarse
+
+- **La innovación que lo parió fue buena; la escalada, no**: Marks traza la evolución del crédito no-investment-grade desde 1977-78 (fallen angels → LBO → préstamos sindicados → direct lending → vehículos vendidos a minoristas en los 2020s). La tesis: cada etapa empezó racional y terminó en exceso. El direct lending es la etapa actual: *"it may have to go through a credit cycle to get to a better place."*
+- **Su propia exposición como control**: direct lending es solo ~20% de su cartera de *performing credit* y <15% de su AUM; 80% del private credit de Oaktree es institucional, y solo ~$10.000 M está en vehículos públicos — frente a $40.000-50.000 M de los líderes del sector. Oaktree «no sintió» el crecimiento de AUM de otros gestores, y eso lo posiciona: *"Investors' newly elevated skepticism is likely to give us investment opportunities in the days ahead that are much better than those we passed up in the period just ended."*
+- **El timing del memo es el dato**: abril de 2026, con la marea bajando en private credit — *"it's only when the tide goes out that we find out who's been swimming naked"* (su resumen de la conferencia de marzo; vía podcast). Aún no ha habido defaults significativos, pero las estructuras imprudentes ya son visibles. Segundo orden: **cuando Marks publica un memo sobre tu clase de activo, suele ser el momento en que él se vuelve comprador y tú te preguntas por qué estás expuesto** → [[alternativos-private-credit-tension-2026-08]] · [[aversion-al-apalancamiento]].
+- **La tensión interna del memo**: Oaktree invierte en data centers (demanda de IA) mientras teme que la IA interrumpa sectores enteros — Marks lo reconoce abiertamente. No es una contradicción: es la misma bifurcación de todo el ciclo (vendedores de picos y palas vs víctimas de la disrupción) aplicada a su propia cartera.
+
+### Qué implica (lectura de segundo orden)
+
+1. **Direct lending = la parte del exceso que NO se ve en bolsa**: mientras Einhorn y Smith denuncian la valoración del equity, Marks ubica el peligro en el crédito privado semi-líquido vendido a minoristas — el mismo canal que [[consenso-y-desacuerdo-cartas-2026]] señalaba como «señal de top de ciclo». Este memo es la versión del autor: la estructura de capital donde ya hay que bajar exposición, no subirla → [[ciclo-de-deuda-y-desapalancamiento]].
+2. **El contraargumento a [[bill-ackman]]**: Ackman compra porque las dislocaciones de Q2 le dejan calidad barata; Marks espera que el escepticismo crezca («the days ahead») antes de comprometer capital. La diferencia no es de diagnóstico (ambos ven excesos) sino de FASE: Ackman ya está desplegando, Marks espera mejores entradas. Es el mismo debate GMO-vs-Buffett de la síntesis: moverse pronto vs esperar la dislocación más profunda.
+3. **Regla operativa para cartera**: cualquier posición o fondo de private credit direct lending (no distressed) debe asumir que el ciclo crediticio del sector está por delante, no por detrás; el memo da la métrica para detectar la entrada de Oaktree (reaparición del escepticismo) → [[riesgo-real-vs-volatilidad]].
+
+**[Sin datos: texto íntegro del memo leído vía PDF público de Oaktree; las declaraciones de la conferencia de marzo vía resumen de podcast (no transcripción oficial).]**
+
+Lecturas: [[alternativos-private-credit-tension-2026-08]] · [[ciclo-de-deuda-y-desapalancamiento]] · [[bill-ackman]] · [[warren-buffett]]

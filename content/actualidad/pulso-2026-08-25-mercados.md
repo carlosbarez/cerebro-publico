@@ -70,8 +70,41 @@ El VIX cerró a **15,13 el viernes** (FRED) pudiendo tocar 16,01 el jueves — c
 - **Sanciones secundarias de la «Operación Economic Outcast»**: Bessent no dijo ni cuándo ni contra qué países; el anuncio de penalizaciones a compradores de crudo iraní (¿China?) es el riesgo de cola de la semana para el crudo y para cartera actual si pesa en energía/cíclicas.
 - Si el Brent consolida >90 $, la subida del BCE de septiembre pasa de probable a automática, con efectos en banca europea (márgenes) y en el euro.
 
+## Actualización 26-ago (fuente externa)
+
+### Private credit y riesgo sistémico de leverage en IA
+
+una newsletter financiera subraya un **mecanismo neglected** en la tesis de [[financiacion-estructurada-del-capex-de-ia]]: la **cascada de préstamos con margen sobre posiciones de IA a través de wealth managers**. Caso emblema: **Guggenheim Partners bajo investigación federal por >$20 mil millones en préstamos no divulgados** de sus compañías de seguros de vida (Delaware Life, Clear Spring) a entidades afiliadas vía terceros nominales. La lesión regulatoria es falta de divulgación de transacciones vinculadas, no ilegalidad del private credit per se — pero la pauta es estructural: cuando trillones de dólares de riqueza AI se crean rápido, **los gestores de fondos flexibilizan políticas de margen** (JPMorgan bajó su restricción de 135 días para SpaceX, anticipa lo mismo para Anthropic en IPO próxima). Comparativa Archegos vs Situational Awareness: SA (Leopold Aschenbrenner, AI hedge fund) perdió 30-40% en julio con 4x apalancamiento pero fue rescatada por "dynamic margining" de bancos; Archegos (2021) se quebró. La diferencia está en ejecución de riesgo del prime broker, no en estructura — riesgo de cola: **si un unicornio AI colapsa, el efecto dominó de márgenes liquidados es contagio instantáneo**.
+
+**Datos**: LeBron James $300M en bonos estructurados (2018, vencimiento 2049, respaldados por Nike); SA apalancamiento 4x con rentabilidad +1000% en 2 años; SEC investiga si bancos "tuvo suerte" en manejo de SA; JPMorgan ganó $75M solo en fees de SpaceX IPO, incentivos claros para bajar guardarraíles.
+
+Cruce [[renta-fija-y-tipos]] (Bessent comprando su propia deuda) + [[riesgo-real-vs-volatilidad]] (márgenes comprimidos con volatilidad dormida).
+
+### Nvidia Groq y la carrera de inference
+
+una newsletter técnica reporta que **Nvidia Groq 3 LPX entra en producción masiva**: token generation 4x más rápido que alternativas, agentic AI tasks en **minutos vs horas**. Contexto: Anthropic acaba de contratar **Amir Salek** (arquitecto del TPU de Google, veterano del programa de chips custom) para construir sus propios aceleradores. Segundo orden: la **carrera de infraestructura (chips) es ya más importante que la carrera de modelos** — cadena subyacente a [[financiacion-estructurada-del-capex-de-ia]]. Nvidia sigue controlando tokens de inference; Anthropic/OpenAI buscan no depender.
+
+**Datos**: Groq 3 LPX 4x vs nearest alternative; Anthropic VP-level hire (Salek ex-Google TPU lead); Open Rerouter récord: Ox Alpha 26 trillion tokens en 4 días.
+
+### Aranceles Canada-USA y sanciones Irán (Bessent «Economic Outcast»)
+
+una newsletter financiera resume la **cascada de aranceles dobles de USA** (50% a autos de Canada desde enero; 50% otros bienes desde sábado pasado) y **retaliación de Canadá $20 mil millones desde 8 de septiembre**. Paralelamente, Bessent declara «Operación Economic Outcast»: sanciones a 5 sectores iraníes + 60 entidades/barcos/personas en Emiratos, Hong Kong, China, Singapur, Suiza, **con amenaza explícita de penalizaciones secundarias** a compradores de crudo iraní (lee: China).
+
+Consecuencia en carteras: **oro +0,5% en 25-ago a $4.723 (máximo 4 meses)**, compras estatales de China como defensa ante congelación de activos (precedente Rusia 2022, $330B de reservas congeladas). La **venta de bonos USA por China** (visible en datos de TIC) no es ajuste sino reubicación a activos reales ante régimen de "dominancia fiscal" — oro y semiconductores como hedges de soberanía.
+
+**Datos**: Brent -7,18% 25-ago a $85,55 (retroceso post-anuncio sanciones); oro $4.723; S&P 500 +0,30% (contención volatilidad).
+
 ## Lo que esto le dice al cerebro de Carlos
 
 1. La semana invierte el guion de 2025-2026: ya no es «la Fed mueve todo», es **el Tesoro, el fisco y la geografía del petróleo** moviendo los tipos largos; la Fed reacciona. Un analista de largo que solo siga reuniones de la Fed llega tarde.
 2. Oro +5% e Ibex resistiendo en 20.000 con yields récord confirman que el mercado paga por **activos reales y fosos de capital barato** — coherente con [[foso-economico]] como filtro central de la cartera, no como adorno.
-3. Nada aquí cambia valores intrínsecos a 10 años; sí puede cambiar **precios de entrada**. La lista de vigilia está en la página de resultados: [[pulso-2026-08-25-resultados-y-calendario]].
+3. **Leverage sistémico en AI**: private credit boom + márgenes comprimidos + flexibilización de guardarraíles = riesgo de contagio si un unicornio falla. Vigilar prime brokers (JPMorgan, Goldman, Citi).
+4. **Nvidia aún controla tokens; Anthropic construye alternativas**: carrera de chips es ya decisiva. Implicación para [[financiacion-estructurada-del-capex-de-ia]]: dependencia de Nvidia persiste a corto/medio pero fragmentación de providers es próxima.
+5. Aranceles + sanciones Iran + ventas de bonos USA por China = **cambio de régimen de activos**: oro, semiconductores, energía — activos reales con foso de soberanía — van a subponderarse respecto a deuda fiduciaria. Coherente con postura de largo de cartera actual (bloque tangible + oro + semis).
+
+## Preguntas abiertas
+
+- ¿Bessent mantendrá recompras de bono largo pasado Jackson Hole (28-ago)? ¿O es táctico pre-evento?
+- ¿China acata sanciones secundarias de «Economic Outcast» (compras de crudo iraní) o escala?
+- Nvidia Earnings (26-ago): ¿guía para Q3 ≥103 mm$ (consenso) o depresión por oferta de chips? Goldilocks = mercado aceptaba "perfect earnings"; miss = re-precificación de IA spending.
+- SPX 7.700 (fuente externa): ¿se mantiene o quiebra con earnings Nvidia?

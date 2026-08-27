@@ -150,3 +150,20 @@ frente a la narrativa de "extinción" por transición energética (carta 1S2025)
 - [[materias-primas-y-ciclo-de-commodities]] · [[foso-economico]] · [[pensamiento-de-segundo-nivel]]
 - [[howard-marks]] · [[ray-dalio]] · [[benjamin-graham]] · [[cliff-asness]]
 - [[ciclo-de-deuda-y-desapalancamiento]] · [[ciclos-de-mercado]]
+
+## Nota de evolución 2026-08-26 (analista-fondos)
+
+Datos del primer semestre de 2026 verificados (complemento a [[ficha-azvalor-am]] y a
+[[fondos-value-y-dividendo-espana-2026-08]]; la página anterior terminaba con datos de cierre de 2025):
+
+- **Patrimonio**: 2.850 → **3.587 M€** a jun-2026 (+25,8% en el semestre, ~737 M€ sumados), captación neta
+  **335 M€**; el crecimiento cuadruplicó la media del sector (+6,3%) (Inverco vía Expansión, 19-08-2026).
+- **Azvalor Internacional** (insignia, ~70% del patrimonio): **+15,1% en S1-2026** (Morningstar a 30-jun vía
+  Finect) y **+24,66% YTD a 14-ago-2026** — sigue siendo el fondo más comparado de Finect en la semana del
+  17-08-2026; +18,7% anualizado a 5 años (Expansión/Finect).
+- **+9.000 nuevos partícipes** en el semestre — "segundo mejor semestre de captación desde 2016" (El
+  Economista, 27-07-2026).
+- [Duda de conciliación: El Economista (27-07-2026) da patrimonio de fondos de **3.743 M€** con datos VDOS y
+  captación de **356 M€** (458 M€ incluyendo planes de pensiones), frente a los 3.587 M€/335 M€ de Inverco vía
+  Expansión. Misma magnitud, dos fuentes de datos distintas (VDOS vs Inverco); [Sin datos: conciliación
+  exacta].]

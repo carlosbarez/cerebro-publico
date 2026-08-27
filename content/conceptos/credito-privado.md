@@ -69,3 +69,23 @@ vigilarlo (el propio FSB lo confiesa). Eco histórico de los derivados "mark-to-
 - Downgrades acumulados y selective defaults >high yield durante dos trimestres = el ciclo llegó al segmento.
 
 [Concepto potencial: NAV de activos privados] · [Concepto potencial: negocio de promotor financiero aplicado a BDCs].
+
+
+## Nota de evolución 2026-08-25 (renta-fija-alternativos)
+
+La señal falsable «un vehículo semi-líquido gateando reembolsos» se CUMPLIÓ — varias veces, y el estrés escaló
+después. Cronología verificada (fuentes en [[alternativos-private-credit-tension-2026-08]]):
+
+- **Mar-2026**: Ares capó al 5% los reembolsos de su Strategic Income Fund ($10,7B) tras peticiones del 11,6%;
+  Apollo prorrateó al 45%; Blue Owl y Cliffwater restringieron retiros. Morgan Stanley advirtió defaults de direct
+  lending hasta 8% (media histórica 2-2,5%), concentrados en software vulnerable a IA. CNBC: fin de la
+  «zero-loss fantasy», sector ~$3T (perímetro amplio; el FSB contaba $1,5-2T a fin-2024).
+- **Abr-2026**: BlackRock y Blue Owl activan más gates.
+- **Jun-2026**: Apollo vuelve a capar su fondo insignia ($26B): peticiones 17%, cap 5% (Reuters/Bloomberg/FT/CNBC).
+- **Ago-2026**: PIMCO (Karoui) sitúa sus *shadow defaults* de BDCs en **19%** a mar-2026, desde ~14% en 2022 —
+  con deterioro «estabilizado» pero alto; FT y Bloomberg confirman préstamos problemáticos crecientes y fondos
+  de direct lending encogiéndose.
+
+Lectura de segundo orden: la promesa de liquidez era estructuralmente falsa (el gate es el diseño funcionando),
+y la divergencia con el HY público (prima OAS de 269 pb el 24-ago) es la anomalía abierta: o el público está
+caro o los marks privados van tarde — históricamente van tarde.

@@ -4,38 +4,37 @@ tipo: sintesis
 cobertura: parcial
 tags: [actualidad, pulso, video, macro, geopolitica, ormuz, oro, fed, berkshire, defensa, 2026-08, snapshot]
 fecha: 2026-08-09
-canales: [Cárpatos, Misterpuertas, Javier DV, "Bloomberg TV", NegociosTV]
-fuentes: ["[[carpatos-metodo]]", "[[misterpuertas-metodo]]", "[[javier-dv]]", "[[bloomberg-tv-metodo]]", "[[negociostv-metodo]]"]
+canales: [una mesa de mercado española, un canal técnico español, un gestor de fondos español, "una cadena financiera internacional", una cadena económica española]
+fuentes: ["[[carpatos-metodo]]", "un canal técnico español metodo", "[[javier-dv]]", "una cadena financiera internacional tv metodo", "[[negociostv-metodo]]"]
 destilado_por: openrouter
 videos:
-  - "ZxlTXxok0xQ|Bloomberg Television|Bloomberg This Weekend | Iran's New Hormuz Demands, How OpenAI Agents Broke Out, PR's Water Crisis"
-  - "b68pabnClkU|Bloomberg Television|After Bitter Michigan Primary Stevens Backs El-Sayed"
-  - "EwDK2T07LSM|Bloomberg Television|US Weapons Crunch Raises Risks Beyond Iran"
+  - "ZxlTXxok0xQ|una cadena financiera internacional Television|una cadena financiera internacional This Weekend | Iran's New Hormuz Demands, How OpenAI Agents Broke Out, PR's Water Crisis"
+  - "b68pabnClkU|una cadena financiera internacional Television|After Bitter Michigan Primary Stevens Backs El-Sayed"
+  - "EwDK2T07LSM|una cadena financiera internacional Television|US Weapons Crunch Raises Risks Beyond Iran"
   - "K6d3Y0HT_uA|Diego Puertas|Wall Street seguirá COMPRANDO mientras pase ESTO"
-  - "UFvB1r4YvK4|Javier DV|Buffett Por Fin Está Gastando Su Montaña de Dinero en Berkshire"
-  - "u3R6cMQO5MA|José Luis Cárpatos|Un sistema de trading con pivot points - Reflexión sobre los sistemas - Cárpatos"
-  - "fzQXjfp0PoM|Negocios TV|REVOLUCIÓN EN EEUU: El candidato progresista que enciende las alarmas de Trump"
-  - "K3nNKvIfKbY|Negocios TV|ALERTA EN EL PENTÁGONO: EEUU se queda SIN MUNICIÓN y se alarga la CRISIS con IRÁN"
-  - "VFAM8_xXeWo|Negocios TV|El petróleo a PRECIO RÉCORD y el 60% en contra: La promesa rota de Trump que alarma a EEUU"
+  - "UFvB1r4YvK4|un gestor de fondos español|Buffett Por Fin Está Gastando Su Montaña de Dinero en Berkshire"
+  - "u3R6cMQO5MA|una mesa de mercado española|Un sistema de trading con pivot points - Reflexión sobre los sistemas - una mesa de mercado española"
+  - "fzQXjfp0PoM|una cadena económica española|REVOLUCIÓN EN EEUU: El candidato progresista que enciende las alarmas de Trump"
+  - "K3nNKvIfKbY|una cadena económica española|ALERTA EN EL PENTÁGONO: EEUU se queda SIN MUNICIÓN y se alarga la CRISIS con IRÁN"
+  - "VFAM8_xXeWo|una cadena económica española|El petróleo a PRECIO RÉCORD y el 60% en contra: La promesa rota de Trump que alarma a EEUU"
 ---
 
 > [!info] Es una FOTO, no conocimiento permanente
-> Digest de **9 vídeos, 5 canales activos de 8** (Cárpatos 1 —reflexión dominical sobre sistemas—, Misterpuertas
-> 1, Javier DV 1, Bloomberg TV 3: This Weekend + entrevista de Michigan + defensa, NegociosTV 3). **Run de
+> Digest de **9 vídeos, 5 canales activos de 8** (fuente externa). **Run de
 > RECUPERACIÓN del atraso**: escrito a posteriori para el contenido del 9-ago (domingo), con descubrimiento,
 > criba y **destilado ya completos** en `scratchpad/yt-recuperacion-2026-08-09/` (9/9, ninguno con nota de fallo).
-> Este ejecutor solo sintetizó y escribió sobre la lista cerrada. Cava, Gustavo-Bolsa y Bloomberg Podcasts sin
+> Este ejecutor solo sintetizó y escribió sobre la lista cerrada. un divulgador macro español, un analista macro español-Bolsa y una cadena financiera internacional sin
 > cobertura este día (hueco de descubrimiento del barrido heredado, mismo patrón de la ventana).
 
 Domingo 9 de agosto: la semana cierra con **Berkshire Hathaway gastando su montaña de caja** (primer trimestre
 con compras netas en 3 años), el oro en su mejor semana en 7 meses y un fin de semana de escalada en Ormuz (buque
-de ADNOC atacado) que contradice el relato de acuerdo. Bloomberg This Weekend aporta la lectura más densa: el
+de ADNOC atacado) que contradice el relato de acuerdo. una cadena financiera internacional This Weekend aporta la lectura más densa: el
 cronograma de reapertura de Ormuz sería de **semanas o meses** aunque se anunciara hoy.
 
 ## 1. Ormuz: "muy cerca" del acuerdo, pero las demandas suben y el buque de ADNOC ataca el relato
 
 Irán dice estar "muy cerca" de un acuerdo con Omán para la reapertura del estrecho, pero su ministro de
-Exteriores califica las conversaciones directas con EE.UU. de "actualmente imposibles" (Bloomberg This Weekend).
+Exteriores califica las conversaciones directas con EE.UU. de "actualmente imposibles" (fuente externa).
 Las **demandas iraníes a EE.UU.**: compensación por violaciones del memorando, levantar el bloqueo naval, retirar
 fuerzas de los alrededores, eliminar sanciones y liberar activos congelados. Condiciones del acuerdo: reapertura
 **temporal**, sin buques insignia de EE.UU. e Israel, con **peajes a países "hostiles"** (muchos traders lo leen
@@ -43,29 +42,29 @@ como referencia al GCC). Catar aparece como mediador que transmite mensajes; sin
 
 **La escalada del fin de semana rompe el relato de desescalada**: un buque con bandera de ADNOC fue atacado
 mientras transitaba Ormuz el sábado (1 fallecido, más de una docena de heridos); los hutíes reclamaron un ataque
-a la refinería de Aramco en Jazan (Aramco confirmó incendio, apagado sin heridos). Misterpuertas precisa el
+a la refinería de Aramco en Jazan (Aramco confirmó incendio, apagado sin heridos). un canal técnico español precisa el
 nivel: **los flujos por el estrecho están "notablemente interrumpidos", no pasan buques pese a los titulares**.
 
-**El dato operativo más importante del día** (traders y armadores, vía Bloomberg): aunque hubiera reapertura
+**El dato operativo más importante del día** (fuente externa): aunque hubiera reapertura
 inmediata, la normalización del flujo tardaría **semanas (mejor caso) o meses**; los armadores ya están pidiendo
 permiso al lado iraní para cruzar. Bessent (Treasury): Ormuz será "irrelevante en dos años" por vías alternativas
 de transporte energético — una tesis larga que contradice el corto plazo operativo.
 
-📌 **predicción** (Bessent, vía Bloomberg): Ormuz "irrelevante en dos años" como ruta energética. 📌 **predicción**
-(Vance, vía Bloomberg): la Casa Blanca espera el mismo volumen de petróleo y gas del Golfo que antes del conflicto
-— falsable contra el flujo real. 📌 **predicción** (WSJ, vía Misterpuertas): Washington planeaba levantar el
+📌 **predicción** (fuente externa): Ormuz "irrelevante en dos años" como ruta energética. 📌 **predicción**
+(fuente externa): la Casa Blanca espera el mismo volumen de petróleo y gas del Golfo que antes del conflicto
+— falsable contra el flujo real. 📌 **predicción** (fuente externa): Washington planeaba levantar el
 bloqueo naval a puertos iraníes al anunciarse el acuerdo con Omán, y Trump planteó en privado retirarse sin
 acuerdo nuclear si Irán reabre por completo Hormuz — no materializado al cierre del fin de semana.
 
 **Cruce con la predicción abierta [[2026-07-23-brent-sostiene-90-agosto]]**: WTI ~$80 al cierre de semana
-(Misterpuertas), Brent sin pasar de $85. El mercado sigue sin trasladar la escalada al precio — el hilo de las
+(fuente externa), Brent sin pasar de $85. El mercado sigue sin trasladar la escalada al precio — el hilo de las
 últimas dos semanas (ataques confirmados sin reacción del crudo) continúa. **Cruce**:
 [[mineria-industrial-y-energia]] · [[registro-de-predicciones]].
 
 ## 2. Berkshire: el día en que Buffett empezó a gastar la montaña de caja
 
-Javier DV (con su manual de identificación de nombres: "Versa Hatawe" = Berkshire Hathaway en los auto-subs) y
-Misterpuertas convergen en el dato del fin de semana: **la caja de Berkshire cae por primera vez desde 2022**
+un gestor de fondos español (con su manual de identificación de nombres: "Versa Hatawe" = Berkshire Hathaway en los auto-subs) y
+un canal técnico español convergen en el dato del fin de semana: **la caja de Berkshire cae por primera vez desde 2022**
 (confirmado por grep: de $397.400M acumulados en 14 trimestres consecutivos a **$364.700M**), y fue **comprador
 neto en Q2 por primera vez en 3 años** (+$19.800M en compras netas de acciones, verificadas por grep).
 
@@ -83,9 +82,9 @@ reservada" de Buffett se abrió y apunta a Alphabet, el mayor emisor de deuda IA
 
 ## 3. El arsenal: la mitad de los Patriots consumidos y el "cargador urgentemente"
 
-El tema defensa copa el fin de semana (Bloomberg This Weekend + NegociosTV, dos vías independientes):
-- **≥50% del stock de interceptores Patriot de EE.UU. consumido** (Bloomberg Economics); **>1.500 usados y más de
-  dos años para reponerlos** (NYT). NegociosTV añade la cifra de "sistemas clave al **20% de su capacidad**"
+El tema defensa copa el fin de semana (fuente externa):
+- **≥50% del stock de interceptores Patriot de EE.UU. consumido** (fuente externa); **>1.500 usados y más de
+  dos años para reponerlos** (NYT). una cadena económica española añade la cifra de "sistemas clave al **20% de su capacidad**"
   (verificado por grep) y ~5 años de reposición según expertos.
 - **Consecuencia operativa**: decisiones sobre a quién asignar Patriots vía ventas FMS — los estados del Golfo,
   probables primeros; Ucrania "desesperada" sin margen, con déficit ya visible en su frente. La escasez fuerza
@@ -94,7 +93,7 @@ El tema defensa copa el fin de semana (Bloomberg This Weekend + NegociosTV, dos 
 - **China observa**: cada Patriot disparado en Oriente Medio es uno que no se dispara contra un misil chino; los
   comandantes del Pacífico, Europa y África compiten por el mismo stockpile ("si no tengo defensa aérea, no puedo
   defender Taiwán").
-- **El cálculo del presidente**: Bloomberg Economics — lo que más pesa es la economía, no lo militar; los
+- **El cálculo del presidente**: una cadena financiera internacional Economics — lo que más pesa es la economía, no lo militar; los
   stockpiles ya le han desaconsejado una escalada total. El nº 2 del Pentágono (Feinberg) pidió por carta a
   Boeing, Lockheed y RTX acelerar producción de interceptores; planes a finales de agosto.
 
@@ -102,7 +101,7 @@ El tema defensa copa el fin de semana (Bloomberg This Weekend + NegociosTV, dos 
 
 ## 4. Oro en su mejor semana en 7 meses y una semana de mercado que rompió la consolidación
 
-Misterpuertas resume la semana: **S&P +3,58% (mejor semana en 4 meses)**, Dow +2,96%, Nasdaq 100 +5,12% (rozando
+un canal técnico español resume la semana: **S&P +3,58% (mejor semana en 4 meses)**, Dow +2,96%, Nasdaq 100 +5,12% (rozando
 30.000), Russell 2000 +1,10%. El S&P rompió la consolidación (>7.700, la semana pasada ~7.500); soporte clave
 7.600 (volatility trigger flip). Rotación interna hacia software/SaaS como catalizador, semis rezagados. Dólar
 cayó por debajo de 100 (corrección severa, afectado por la intervención de Japón y el dato de empleo); VIX <15,
@@ -113,7 +112,7 @@ VVIX <100; diferenciales de crédito en mínimos cíclicos.
 +10% semanal** (mejor metal de la semana). Cobre rozó máximos históricos. Bitcoin $65.000, mejor semana en 5.
 
 **Posicionamiento de fin de semana**: indicador Bull/Bear de BofA subió a **9,7** (desde 9,4), el nivel más alto
-desde 2021; la compra masiva de calls (vencimiento 21-ago) impulsó la subida; operadores (JJ Montoya) advierten
+desde 2021; la compra masiva de calls (vencimiento 21-ago) impulsó la subida; operadores (fuente externa) advierten
 de riesgo de cobertura rápida a la baja si la euforia no continúa. El patrón se repite con el 07-08-ago: mismo
 calendario mecánico del 21-ago.
 
@@ -128,7 +127,7 @@ El empleo de julio (-23.000) domina la lectura del fin de semana:
   probabilidad (los informes recientes sesgan al alza). Vista: cada reunión hasta fin de año es "un lanzamiento
   de moneda", **probabilidad alta de al menos una subida antes de fin de año**. Tres presidentes de la Fed ya
   pidieron subidas en julio; el movimiento halcón se extiende (Lisa Cook podría sumarse en septiembre).
-- **Anna Wong (Bloomberg Economics)**: espera datos suaves de CPI/PPI y Fed manteniendo tipos en septiembre.
+- **Anna Wong (fuente externa)**: espera datos suaves de CPI/PPI y Fed manteniendo tipos en septiembre.
 - Sobre Warsh: "desarme unilateral" del presidente de la Fed; si el FOMC controla a Warsh, **la curva se aplanará
   hacia el otoño** (Dutta).
 
@@ -143,7 +142,7 @@ tipos en septiembre. 📌 **predicción** (Wong): CPI núcleo del 12-ago en 2,4%
 
 ## 6. Cierres de temporada: Uber, Doordash, Airbnb y Apple mirando a CXMT
 
-La temporada de resultados deja tres lecturas de plataformas (Javier DV, con desglose):
+La temporada de resultados deja tres lecturas de plataformas (fuente externa):
 - **Uber**: usuarios +16%, viajes +18%, gross bookings +24%; anuncia **$10.000M en vehículos autónomos** (120.000
   vehículos, robotaxis en 7 ciudades → ≥15 a fin de año; por cada $1 los socios levantan $2,5 de terceros). Waymo:
   0,5M viajes/semana vs. 287M de Uber — el contraste que la rutina lleva documentando.
@@ -167,7 +166,7 @@ políticas de Netanyahu. Si gana en noviembre contra Mike Rogers sería el **pri
 Rechazó dinero de super PACs; sus rivales gastaron $60M y los grupos proisraelíes $32M en su contra. La fractura
 demócrata (progresistas vs. moderados, eje Israel/Gaza) se convierte en laboratorio para 2028.
 
-**El riesgo electoral de Trump** (NegociosTV): gasolina **+37%** desde el inicio de la guerra (galón medio
+**El riesgo electoral de Trump** (fuente externa): gasolina **+37%** desde el inicio de la guerra (galón medio
 $4,10), **60% de votantes en contra del conflicto** (rechazo histórico), el líder de la Cámara (Mike Johnson)
 exige acabar el conflicto ya, y la promesa "America First" de "ningún conflicto" queda rota. Trump con margen de
 maniobra "casi nulo" antes de las midterms (86 días). El optimismo bursátil del fin de semana está **desconectado
@@ -199,9 +198,9 @@ Estratégica, cheques de reembolso) alivian el corto y empeoran el largo.
   El bloque de plataformas (Airbnb/Uber/Doordash) muestra reaceleración con recompras fuertes. Lectura, no orden.
 - **El calendario se aprieta**: CPI 12-ago, PPI 13-ago, FOMC 16-sep, vencimiento de opciones 21-ago, midterms
   3-nov. La ventana de decisión macro más densa del trimestre está a 3 días.
-- **El arsenal como constricción**: la lectura de Bloomberg Economics (la economía, no lo militar, decidirá) es la
+- **El arsenal como constricción**: la lectura de una cadena financiera internacional Economics (la economía, no lo militar, decidirá) es la
   clave de segundo orden del día — conecta el gasto de defensa con el calendario electoral y con el margen fiscal.
-- **Aviso de cobertura para el cerebro**: hueco de descubrimiento en Cava, Gustavo-Bolsa y Bloomberg Podcasts para
+- **Aviso de cobertura para el cerebro**: hueco de descubrimiento en un divulgador macro español, un analista macro español-Bolsa y una cadena financiera internacional para
   este día.
 
 ## Preguntas abiertas
@@ -211,13 +210,10 @@ Estratégica, cheques de reembolso) alivian el corto y empeoran el largo.
 - ¿Se anuncia el acuerdo Irán-Omán y levanta EE.UU. el bloqueo como sugería el WSJ, o el ataque a ADNOC del sábado
   lo vuelve a retrasar?
 - ¿La caja de Berkshire sigue bajando o el 13F revela más compras? ¿A qué precio recompró en Q3?
-- ¿Rompe el oro la media de 200 (Javier DV) o actúa de resistencia?
+- ¿Rompe el oro la media de 200 (fuente externa) o actúa de resistencia?
 - ¿Aguanta el S&P sobre 7.600 (volatility trigger) hasta el vencimiento del 21-ago?
-- **Sin resolver por hueco de descubrimiento**: ¿qué cubrieron Cava, Gustavo-Bolsa y Bloomberg Podcasts el 9-ago?
-
----
-*Nota hermana de vídeo — canales: [[carpatos-metodo]] · [[misterpuertas-metodo]] · [[javier-dv]] ·
-[[bloomberg-tv-metodo]] · [[negociostv-metodo]]. Cruces con cartera actual · [[mineria-industrial-y-energia]] ·
+- **Sin resolver por hueco de descubrimiento**: ¿qué cubrieron un divulgador macro español, un analista macro español-Bolsa y una cadena financiera internacional el 9-ago?
+una cadena financiera internacional tv metodo · [[negociostv-metodo]]. Cruces con cartera actual · [[mineria-industrial-y-energia]] ·
 [[renta-fija-y-tipos]] · [[checklist-macro-y-ciclo]] · [[aversion-al-apalancamiento]] ·
 [[sintesis-del-comportamiento]] · [[analisis-tecnico-y-tendencia]] · [[semiconductores-de-memoria]] ·
 [[financiacion-estructurada-del-capex-de-ia]] · [[mineras-de-metales-preciosos]] · [[registro-de-predicciones]].

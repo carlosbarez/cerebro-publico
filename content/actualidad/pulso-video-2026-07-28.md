@@ -4,37 +4,35 @@ tipo: sintesis
 cobertura: parcial
 tags: [actualidad, pulso, video, macro, geopolitica, iran, petroleo, fed, semiconductores, china, cxmt, asml, megacaps, municion, ucrania, 2026-07, snapshot]
 fecha: 2026-07-28
-canales: [Misterpuertas, NegociosTV, "Bloomberg TV"]
-fuentes: ["[[misterpuertas-metodo]]", "[[negociostv-metodo]]", "[[bloomberg-tv-metodo]]"]
+canales: [un canal técnico español, una cadena económica española, "una cadena financiera internacional"]
+fuentes: ["un canal técnico español metodo", "[[negociostv-metodo]]", "una cadena financiera internacional tv metodo"]
 destilado_por: omniroute
 ---
 
 > [!info] Es una FOTO, no conocimiento permanente
-> Digest de **7 vídeos, 3 canales activos de 8**, ventana 27-28 jul (lunes-martes): Misterpuertas 1
-> (China-IA), NegociosTV 4 (noticiero 28-jul + temática mercado alcista + entrevistas Villarroya y Serbin),
-> Bloomberg TV 2 (`The Close` 27-jul, cierre EEUU + `The China Show` 27-jul, debut CXMT). **Cárpatos, Cava,
-> Gustavo-Bolsa, Javier DV, Bloomberg Podcasts sin material nuevo procesable**: los 3 Cárpatos y el Cava del
-> 27-jul ya se cubrieron en [[pulso-video-2026-07-27]] (confirmado por ID); Gustavo-Bolsa y Javier DV sin
-> vídeo nuevo (no es error); Bloomberg Podcasts sin ningún `Bloomberg Talks` en la ventana (solo formatos
+> Digest de **7 vídeos, 3 canales activos de 8**, ventana 27-28 jul (lunes-martes): un canal técnico español 1
+> (China-IA), una cadena económica española 4 (noticiero 28-jul + temática mercado alcista + entrevistas Villarroya y Serbin),
+> una cadena financiera internacional 2 (`The Close` 27-jul, cierre EEUU + `The China Show` 27-jul, debut CXMT). **una mesa de mercado española, un divulgador macro español,
+> un analista macro español-Bolsa, un gestor de fondos español, una cadena financiera internacional sin material nuevo procesable**: los 3 una mesa de mercado española y el un divulgador macro español del
+> 27-jul ya se cubrieron en [[pulso-video-2026-07-27]] (confirmado por ID); un analista macro español-Bolsa y un gestor de fondos español sin
+> vídeo nuevo (no es error); una cadena financiera internacional sin ningún `una cadena financiera internacional Talks` en la ventana (solo formatos
 > duplicados de @markets — descarte automático por regla de dedup).
 >
-> **Descartes de volumen**: NegociosTV (~15 candidatos restantes): flashes `ÚLTIMA HORA` <5 min sin cifra,
+> **Descartes de volumen**: una cadena económica española (~15 candidatos restantes): flashes `ÚLTIMA HORA` <5 min sin cifra,
 > dos piezas de trading técnico puro, noticiero 27-jul (solapa con procesados de ayer), Belikow/Lamesa
-> (opinión geopolítica solapada con Serbin+Villarroya+noticiero). Bloomberg TV (~55 clips): `Balance of
+> (opinión geopolítica solapada con Serbin+Villarroya+noticiero). una cadena financiera internacional (~55 clips): `Balance of
 > Power`×2 (política doméstica US), clips <5 min, `Open Interest`/`Surveillance`/`Daybreak` (solapan
 > `The Close`), CEO de Taylor Morrison (no cartera/watchlist). `The China Show` entra porque el hilo CXMT
 > estaba abierto desde ayer.
 
-Semana decisiva: **Fed miércoles 29 + Microsoft/Meta el mismo día + Apple/Amazon jueves** (>$24T de
-capitalización reportando, la mayor concentración del verano — Bloomberg `The Close`). El relato dominante
+Semana decisiva: **Fed miércoles 29 + Microsoft/Meta el mismo día + Apple/Amazon jueves** (fuente externa). El relato dominante
 cambia de "geopolítica" a "capex de IA con ROI dudoso", con China (CXMT + litografía DUV) como segundo
 frente estructural en semis.
 
 ## 1. Semis: dos golpes el mismo día — limpieza de posicionamiento Y China entra en DUV
 
 - **El dato**: SOX -3% (llegó a -5%) el 27-jul; Nvidia -5% (peor contribuyente al S&P), AMD, Micron y
-  SanDisk (-11%) golpeados; **ASML ADR -5,8% por noticia de producción china de litografía DUV** (Bloomberg
-  `The Close`, 27-jul). Misterpuertas (27-jul), en su pieza "CHINA pone en JAQUE el MONOPOLIO occidental de
+  SanDisk (-11%) golpeados; **ASML ADR -5,8% por noticia de producción china de litografía DUV** (fuente externa). un canal técnico español (27-jul), en su pieza "CHINA pone en JAQUE el MONOPOLIO occidental de
   la IA", lo encuadra como "limpieza de posicionamiento más que cambio de narrativa estructural", pero
   advierte: **vigilar ajustes de valoración si el monopolio de ASML se ve amenazado**. ETF semis -3,54% en
   la sesión; semis en mercado bajista.
@@ -42,7 +40,7 @@ frente estructural en semis.
   beneficios castigados (Alphabet, Intel, Texas Instruments) por planes de capex sin ROI claro. Rotación
   clara hacia financiero, salud, energía (Dow cerca de máximos; IGV software +3,3% el mismo día que SOX -3%
   — dispersión récord entre índices quietos y acciones individuales violentas).
-- **Cruce**: convergencia inusual comunicador-técnico (Misterpuertas) + fuente institucional (Bloomberg)
+- **Cruce**: convergencia inusual comunicador-técnico (fuente externa) + fuente institucional (fuente externa)
   sobre el mismo hecho (China DUV) — eleva la confianza. Es el hilo abierto de ayer (China DUV → presión a
   Micron vía [[semiconductores-de-memoria]]) **confirmado por precio**. Mike Wilson (Morgan Stanley, vía The
   Close): los ganadores de la IA serán quienes la integran internamente (transporte, software, servicios),
@@ -73,20 +71,20 @@ frente estructural en semis.
   inflexión de precios DRAM hacia 2028 si la oferta alcanza a la demanda. Cuatro semanas consecutivas de
   outperformance de China vs EEUU en renta variable; margen de deuda onshore ya desapalancado (3T → 2,6-2,7T
   RMB, "más saludable").
-- 📌 **predicción** (consenso mesa Bloomberg): demanda DRAM da visibilidad de crecimiento a CXMT ≥2 años;
+- 📌 **predicción** (fuente externa): demanda DRAM da visibilidad de crecimiento a CXMT ≥2 años;
   inflexión de precios DRAM hacia 2028. Falsable: si los contratos DRAM caen >15% antes de 2027, la tesis de
   "inflexión 2028" llega rota.
 
 ## 3. Petróleo: el premium geopolítico se desinfla con el riesgo físico intacto — la predicción de agosto, al límite
 
-- **El dato**: cierre 27-jul — **Brent ~$87 (-9%), WTI ~$82 (-8,3%)** (Bloomberg `The Close`). Misterpuertas
+- **El dato**: cierre 27-jul — **Brent ~$87 (-9%), WTI ~$82 (-8,3%)** (fuente externa). un canal técnico español
   (grabado antes del cierre US) daba WTI ~$83 y **Brent ~$90**. La caída se debe a la pausa de ataques US
   (desde el viernes noche) + esperanzas de negociación. Pico de marzo: $118. **Gasolina +45% YTD** — el argumento empírico del caso
   inflacionista de Duke para el +25pb (§6).
 - **La tensión del día**: el precio cae como si el riesgo hubiera pasado, pero los hechos físicos no han
-  cambiado — **tráfico naval por Ormuz prácticamente paralizado** (Misterpuertas), 17 mercantes desviados
+  cambiado — **tráfico naval por Ormuz prácticamente paralizado** (fuente externa), 17 mercantes desviados
   tras restablecerse el bloqueo, petrolero explotado por mina naval, hutíes atacando instalaciones de Aramco
-  (noticiero NegociosTV 28-jul). Serbin: **7% del comercio mundial pasa por Bab el-Mandeb + 20% por Ormuz =
+  (fuente externa). Serbin: **7% del comercio mundial pasa por Bab el-Mandeb + 20% por Ormuz =
   27% en riesgo**; Arabia Saudí no puede sacar su crudo por Ormuz y depende de Bab el-Mandeb, que también
   está bajo ataque.
 - **Cruce con calibración**: la predicción [[2026-07-23-brent-sostiene-90-agosto]] (prob 0,68, cierre
@@ -100,7 +98,7 @@ frente estructural en semis.
 
 ## 4. Munición: el hilo se cierra con fuente primaria — NYT confirma el agotamiento
 
-- **El dato (verificado contra VTT)**: según el New York Times (vía Misterpuertas, 27-jul), **las 13 noches
+- **El dato (verificado contra VTT)**: según el New York Times (fuente externa), **las 13 noches
   consecutivas de ataques y contraataques redujeron aún más unas reservas de interceptores que ya estaban al
   50% desde abril**, tras disparar el Pentágono **>10.000 interceptores a >4M$ cada uno**; **Trump canceló el
   viernes noche el ataque masivo por el riesgo de dejar las reservas de Patriot prácticamente a cero**. Serbin añade: producción de un sistema
@@ -126,7 +124,7 @@ frente estructural en semis.
   Zelenski acusa a Corea del Norte e Irán de suministrar drones/misiles/tropas a Rusia y advierte de 30.000
   soldados norcoreanos adicionales (cifra de Zelenski, fuente única).
 - **Cruce**: **hilo abierto de ayer cerrado** ("¿conecta Ucrania las guerras?") — sí lo intenta, con hecho
-  operativo (Caspio) y relato (eje tripartito). La predicción de Cava sobre pagos Ucrania-Rusia (fuente
+  operativo (Caspio) y relato (eje tripartito). La predicción de un divulgador macro español sobre pagos Ucrania-Rusia (fuente
   única, de ayer) queda sin corroboración — nadie en la ventana la menciona; sigue marcada como single-source.
 - 📌 **predicción** (Villarroya, 27-jul): Rusia no aceptará ninguna propuesta de la reunión Trump-Zelenski.
   Falsable esta misma semana. 📌 **predicción** (Serbin): si Irán retalia el ataque del Caspio antes del
@@ -134,21 +132,20 @@ frente estructural en semis.
 
 ## 6. Fed y megacaps: el mercado mira a earnings e ignora (de momento) los tipos
 
-- **El dato**: 10Y en 4,64%, 2Y en 4,32% (The Close, dos sesiones de bajada de yields); Misterpuertas:
-  20Y/30Y >5%, 3M al 3,9%. Bloomberg cita probabilidad de subida el 29-jul en **~33%**; Misterpuertas: "si
+- **El dato**: 10Y en 4,64%, 2Y en 4,32% (The Close, dos sesiones de bajada de yields); un canal técnico español:
+  20Y/30Y >5%, 3M al 3,9%. una cadena financiera internacional cita probabilidad de subida el 29-jul en **~33%**; un canal técnico español: "si
   no sube, sería la decisión menos unánime desde 2024". Betsy Duke (ex-gobernadora Fed, The Close): hay caso
   para +25pb — inflación sobre objetivo >5 años, laboral estable, tasa neutral ~4%; posible disidencia.
 - **Earnings**: S&P 500 flat, Nasdaq -0,2%, Dow +0,5%, Russell 2000 +0,6% el 27-jul — rotación, no
   riesgo-off. **Alphabet: Philip Securities sube a Buy pero recorta el PT de 450 a 425 citando "estrés en el
   free cash flow"** (verificado contra VTT — el destilado había invertido la dirección del recorte). Es el
   hilo Alphabet FCF/deuda confirmado por sell-side: el mercado ya penaliza el capex en la valoración aunque
-  premie los ingresos. Meta: 7 velas negras consecutivas, corrección al Fibo 38,2% (~$605-609, temática
-  NegociosTV); riesgo de FCF negativo por capex (Misterpuertas). Microsoft: plano vs S&P desde 2020, soporte
+  premie los ingresos. Meta: 7 velas negras consecutivas, corrección al Fibo 38,2% (fuente externa); riesgo de FCF negativo por capex (fuente externa). Microsoft: plano vs S&P desde 2020, soporte
   clave 341-343 (~$390 actual). Hiperescaladores en debilidad relativa extrema vs Nasdaq 100 — niveles que
-  históricamente preceden rebote (Misterpuertas).
+  históricamente preceden rebote (fuente externa).
 - **Estructura**: anomalía histórica — Nasdaq 2,2x más volátil que Russell 2000 en el último mes (invertido
   vs lo habitual); compras netas minoristas en **mínimos desde 2020** con volumen total en percentil 98
-  (Misterpuertas). **Esto matiza el "colchón del bid retail" de ayer (Risearch)**: el retail sigue operando
+  (fuente externa). **Esto matiza el "colchón del bid retail" de ayer (Risearch)**: el retail sigue operando
   mucho pero ya no compra neto — el colchón se está agotando por dentro, coherente con la advertencia de
   fuente única de ayer. S&P 500: soporte crítico 7.400 (dealers cortos de puts; ruptura acelera), gamma
   negativa <7.450, positiva >7.500.
@@ -177,7 +174,7 @@ frente estructural en semis.
 
 ## Preguntas abiertas
 
-1. **Fed 29-jul**: ¿sube (~33% Bloomberg) o "decisión menos unánime desde 2024" (Misterpuertas)? ¿Disidencia
+1. **Fed 29-jul**: ¿sube (fuente externa) o "decisión menos unánime desde 2024" (fuente externa)? ¿Disidencia
    de Duke materializada? → resolución mañana.
 2. **MSFT/Meta 29-jul**: ¿confirma el mercado el castigo al capex sin ROI, o los números de Azure/Copilot y
    publicidad desactivan la tesis? → resolución mañana post-cierre.
@@ -194,7 +191,6 @@ frente estructural en semis.
    una semana de Fed + 4 megacaps?
 
 ---
-*Enlaces: [[pulso-video-2026-07-27]] (ayer) · [[pulso-2026-07-28]] (pulso de texto de Elena — comparar:
-¿coincide el relato de vídeo con el de texto?) · [[misterpuertas-metodo]] · [[negociostv-metodo]] ·
-[[bloomberg-tv-metodo]] · [[semiconductores-de-memoria]] · [[financiacion-estructurada-del-capex-de-ia]] ·
+*Enlaces: [[pulso-video-2026-07-27]] (ayer) · [[pulso-2026-07-28]] (fuente externa) · un canal técnico español metodo · [[negociostv-metodo]] ·
+una cadena financiera internacional tv metodo · [[semiconductores-de-memoria]] · [[financiacion-estructurada-del-capex-de-ia]] ·
 [[mineria-industrial-y-energia]] · [[renta-fija-y-tipos]] · [[registro-de-predicciones]]*

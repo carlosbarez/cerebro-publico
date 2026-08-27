@@ -144,3 +144,39 @@ Desde [[damodaran-narrative-and-numbers]] y [[damodaran-dark-side-of-valuation]]
 
 [[ensayos-proceso-y-expectativas]] (fuente) · [[damodaran-narrative-and-numbers]] · [[flujo-de-caja-descontado]] · [[foso-economico]] · [[creacion-de-valor-y-eva]] · [[retorno-sobre-capital-empleado]] ·
 [[reversion-a-la-media]] · [[sesgo-de-superviviente]] · [[annie-duke]] · [[comparar-dos-empresas]] · [[manuales-de-valoracion]] · [[tasas-base-y-vista-exterior]] · [[asignacion-de-capital]]
+
+---
+
+## Nota de evolución 2026-08-25 (lector-de-cartas)
+
+**Material nuevo verificado:** tres ensayos completos de Counterpoint Global Insights (Mauboussin & Callahan), recuperados vía Wayback Machine porque morganstanley.com bloquea acceso directo: «Bayes and Base Rates» (10-feb-2026, 12 pp.), «Competitive Advantage Period: The Neglected Value Driver» (14-abr-2026, 69 pp.) y «Bayes and Base Rates 2.0» (13-may-2026, 10 pp.).
+
+### Qué dice el material fresco
+
+- **Bayes and Base Rates (feb-2026):** OpenAI proyectaba $145B de ventas en 2029 desde $3,7B en 2024 (CAGR 108%). La base rate histórica (18.897 observaciones empresa-año US, 1950-2024, ventas iniciales $2-5B) tiene media 7,0% y desviación 10,6%: **ninguna empresa pública en 75 años creció a ese ritmo** — un suceso de ~9,5 desviaciones estándar. Oracle Cloud ($10B → $166B FY2030, CAGR 75%) tampoco tiene precedente en su clase ($8-12B: media 5,7%, sd 9,6%). Añade la base rate de Flyvbjerg sobre 16.000 grandes proyectos: 47,9% cumplen presupuesto, 8,5% presupuesto+plazo, **sólo 0,5% presupuesto+plazo+beneficios esperados**; Stargate planea gastar hasta medio billón de dólares a 2029. Datos duros de OpenAI: FCF −$9B en 2025 y −$17B esperado 2026; stock-based compensation >45% de las ventas (~$1,5M por empleado).
+- **Bayes and Base Rates 2.0 (may-2026):** OpenAI revisó al alza: $184B (2029) y $284B (2030). Mauboussin responde a tres objeciones: nominal vs real (no cambia nada: media real 3,7%), estrechar la muestra a software (falacia de conjunción: el subconjunto nunca contiene un crecimiento mayor que la muestra completa; software n=350, media 5,4%) y «la IA es una tecnología de propósito general distinta» (ya hubo circuito integrado e internet dentro del período muestral). El único comparable: AOL con CAGR 103% (1997-2001), inflado por fusión con Time Warner. Anthropic alcanzó run-rate de $30B a inicios de 2026; el WSJ reportó (abr/may-2026) que OpenAI incumple sus metas internas de ingresos.
+- **Competitive Advantage Period (abr-2026):** la pieza metodológica del trimestre: cómo estimar el período de ventaja competitiva implícito en precio (CAP/fade). Los múltiplos ocultan los cuatro drivers: cuánto puede invertir la empresa, con qué spread ROIC−coste de capital, y **durante cuántos años**. Evidencia empírica de reversión a la media del ROIC por sector y tasas de fade implícitas; la mayoría de empresas tienen CAP de 5 a 20 años.
+
+### Pensamiento de segundo orden
+
+Los tres ensayos forman un solo argumento: la herramienta correcta ante narrativas grandiosas no es opinar, es **cuantificar la distancia entre la expectativa implícita y la base rate** y luego actualizar bayesianamente con cada dato. La genialidad del marco es que es *simétrico*: Mauboussin concede explícitamente los tres motivos por los que OpenAI podría batir la historia (difusión sin precedentes, +255% de crecimiento en 2025, intensidad intangible) — y aun así el prior sigue siendo casi cero. Para el inversor de largo plazo esto conecta con expectaciones invertidas y [[retornos-esperados]]: cuando el mercado descuenta un CAP de 20+ años para negocios con fade histórico de 5-15, no se necesita saber si la IA triunfa; basta con que el precio ya contenga el triunfo perfecto.
+
+### Implicaciones de cartera (largo plazo)
+
+- Sustituir la pregunta «¿creeré esta proyección?» por «¿qué fracción de empresas de su clase histórica lo logró?» antes de aceptar cualquier tesis de crecimiento.
+- En carteras con exposición AI/capex: vigilar conversiones de RPO a ingresos (Oracle) y quema de caja vs compromisos de financiación externa (OpenAI) como actualizaciones bayesianas tempranas.
+- El ensayo CAP da una vara de medir para el *hold* de calidad: si el CAP implícito se estira más allá de lo empíricamente razonable, la posición ya descuenta demasiada perfección.
+
+### Señales falsables
+
+- Si OpenAI publica ingresos 2026 muy por encima de ~$25-30B y FCF positivo 2027, la objeción de base rates pierde fuerza práctica.
+- Si alguna empresa supera 60% CAGR sostenido 5 años desde >$10B de ventas iniciales antes de 2031, sería el primer caso en 75 años — refutando directamente la base rate.
+- Retrasos >12 meses en hitos de Stargate/data centers (energía, chips) confirmarían la tasa de fracaso de Flyvbjerg aplicada a IA.
+
+### Fuentes
+
+- https://www.morganstanley.com/im/publication/insights/articles/article_bayesandbaserates_ltr.pdf (vía web.archive.org)
+- https://www.morganstanley.com/im/publication/insights/articles/article_theneglectedvaluedriver_ltr.pdf (vía web.archive.org)
+- https://www.morganstanley.com/im/publication/insights/articles/article_bayesandbaserates2_ltr.pdf (vía web.archive.org)
+
+Ver también [[ray-dalio]], [[jeremy-grantham]], [[consenso-y-desacuerdo-cartas-2026]].

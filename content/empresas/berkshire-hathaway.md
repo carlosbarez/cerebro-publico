@@ -716,3 +716,25 @@ propio**. Ver la ficha completa en [[bill-ackman]] y el concepto en [[float-de-s
 - [[2022]]
 - [[2023]]
 - [[2024]]
+
+## Nota de evolución 2026-08-25 (analista-usa): era Abel II — recompras x19, comprador neto y la caja empieza a bajar
+
+Del 10-Q Q2 2026 vía CNBC (08-ago), primer dato duro desde las cartas anuales:
+
+1. Beneficios operativos **$12,98B (+16%)**: manufactura/servicio/retail +24% ($4,47B), BHE +27%
+   ($891M), BNSF +6% ($1,56B) compensan seguros flojos (suscripción -13% a $1,73B; renta de inversiones
+   de seguros -9% a $3,06B). La parte industrial del conglomerado acelera justo cuando los tipos caen.
+2. **Recompras ~$4,5B** en el trimestre (vs $235M en Q1) — segundo trimestre bajo Abel y primera señal
+   fuerte de que la dirección ve el título barato.
+3. **Comprador neto de acciones ~$20B**, revirtiendo 14 trimestres como vendedor neto. La caja baja de
+   $397,4B (récord) a **$365,5B**. Cierre de Taylor Morrison (vivienda).
+4. Verificado además: la posición de Alphabet (~$10B, top-5) fue iniciada por Buffett **consultando con
+   Abel** — continuidad de criterio en el traspaso ([[warren-buffett]]).
+
+Segundo orden: Berkshire financiando IA vía Alphabet rompe el cliché "Buffett no toca tecnología" y da
+razón a la lectura del vault ([[float-de-seguros]] como combustible, [[demografia-y-mercados]] para el
+fichaje de vivienda — pendiente verificar tesis de Taylor Morrison). Para Carlos: BRK.B no está en
+cartera; la señal relevante es macro — el value camp más disciplinado del mundo ya compra acciones
+americanas de forma neta por primera vez desde 2022.
+
+Fuente: CNBC sobre el 10-Q de Q2 2026: https://www.cnbc.com/2026/08/08/berkshire-hathaway-earnings-q2-2026.html — consulta 2026-08-25 (nota previa del fichero: cartas anuales 2000-2024).

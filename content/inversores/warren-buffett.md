@@ -739,3 +739,25 @@ anterior de la serie era [[2024]] — esta nota extiende la serie con el cambio 
 4. **Señal silenciosa para el mercado**: Berkshire sin operaciones grandes + caja récord + «la matemática compuesta va contra nosotros» = el universo de oportunidades para un gigante está vacío A ESTOS PRECIOS. No es una llamada bajista temporal (Abel lo niega); es la confirmación de que los negocios maravillosos no están baratos → [[precio-vs-cotizacion]] · [[negocio-maravilloso-vs-precio-maravilloso]] · [[margen-de-seguridad]].
 
 Lecturas: [[berkshire-hathaway]] · greg abel (pendiente) · [[howard-marks]]
+
+## Nota de evolución 2026-08-26 (lector-de-cartas)
+
+**Resultados Q2 2026 de Berkshire (10-Q y nota de prensa del 8-ago-2026) + cierre de la compra de Taylor Morrison (24-jul-2026).** Fuentes primarias: [nota de prensa Q2 en berkshirehathaway.com](https://berkshirehathaway.com/news/aug0826.pdf) y [comunicado de cierre de la adquisición](https://berkshirehathaway.com/news/jul2426.pdf); cobertura de prensa seria para cifras de compras netas (CNBC 8-ago-2026, Yahoo Finance 10-ago-2026). Primer trimestre completo con Abel como CEO — la pregunta de esta nota es: ¿qué hace la máquina con $344.000 M?
+
+### Abel se estrena: fin de la racha vendedora y primer movimiento grande
+
+- **Comprador neto de acciones por primera vez en 15 trimestres**: compró $23.500 M de acciones y vendió $3.700 M en Q2, incluidas compras de grandes tecnológicas como Alphabet (~$10.000 M en junio, según AP 2-jun-2026). La racha vendedora de 14 trimestres que definió 2024-2025 ha terminado; el giro es de Abel, no de Buffett → [[asignacion-de-capital]].
+- **Recompras reactivadas**: $4.500 M en Q2 (H1 total: $4.800 M) y $3.300 M más en julio; frente a los $235 M simbólicos de Q1. Segundo orden: recomprar por debajo del valor intrínseco era la señal clásica de que la acción estaba barata RELATIVO al resto del universo; con la caja a $344.000 M, Berkshire opta por recortar su propio capital antes que pagar múltiplos de mercado → [[precio-vs-cotizacion]].
+- **Taylor Morrison (anunciada 31-may, cerrada 24-jul-2026)**: $72,50/acción en efectivo, $6.800 M de valor de equity, $8.500 M de enterprise value. Primer gran movimiento iniciado por Abel. Buffett, a sus 95, bendice la operación: *"Greg did that faster than I could have done it, smoother than I could have done it, and I never talked to the CEO. He has launched."* (InvestmentNews, 1-jun-2026). Dato de segundo orden: es una apuesta CÍCLICA y CONTRARIA — el sector constructor sufre tasas máximas y consolidación, y Abel compra justo ahí, mientras el mercado premia solo IA. Unificará su operación de construcción *site-built* con Clayton (top-5 constructor nacional, según UBS) → [[ciclos-de-mercado]].
+- **Caja y Tesorería bajan por primera vez en años**: $344.100 M a 30-jun vs $347.700 M a 31-mar (definición amplia ~$365.500 M). Baja, pero sigue siendo el 40%+ de la capitalización. El dato real de la nota: **Abel empieza a DESPLEGAR, no a acumular** — en el mismo trimestre compra acciones, recompras y una empresa constructora.
+- **Operativo**: beneficios operativos $12.983 M (+16% a/a); ganancias netas $25.667 M (incluye $12.700 M de ganancias de inversión, «meaningless» según el propio comunicado); float de seguros $177.500 M (+$1.100 M desde cierre 2025).
+
+### Qué implica (lectura de segundo orden)
+
+1. **La caja deja de ser "cash as option" y pasa a ser "cash as warchest en despliegue"**: las tres salidas simultáneas (acciones baratas, recompra propia, casa constructora) dicen que para Berkshire el universo de precios atractivos sigue siendo LIMITADO — nada de megadeals transformacionales, pero sí apuestas quirúrgicas donde la dislocación existe. Confirma el mapa del consenso 2026: el capital sobra donde el precio es razonable (vivienda, Alphabet castigada) y falta donde el precio es extremo (megacap IA) → [[negocio-maravilloso-vs-precio-maravilloso]] · [[margen-de-seguridad]].
+2. **Choque con [[terry-smith]] y [[bill-ackman]]**: los tres compran calidad dislocada a la vez. Pero Berkshire compra vivienda y Alphabet (value desplazado), Ackman compra Visa/Mastercard/Netflix a 21-24x (crecimiento barato), y Smith compra TSMC/GE Vernova (picks-and-shovels de IA). El mismo diagnóstico (el growth está caro, el resto dislocado) genera tres carteras distintas — la herramienta depende de la definición de "dislocación".
+3. **Refuerza a [[howard-marks]] sobre el lado demandante de la IA**: Berkshire sigue negándose a financiar infraestructura de data centers con su balance; el capital que sí fluye ahí viene de deuda y del flujo pasivo. Que Berkshire prefiera una casa constructora a un data center es, en sí mismo, una declaración de dónde está el riesgo → [[financiacion-estructurada-del-capex-de-ia]].
+
+**[Sin datos: cifra exacta del 13F Q2 2026 (posiciones a 30-jun) no verificada en sesión; el detalle de Alphabet ($10.000 M) proviene de cobertura AP, no del 13F.]**
+
+Lecturas: [[berkshire-hathaway]] · [[asignacion-de-capital]] · [[ciclos-de-mercado]] · [[howard-marks]]

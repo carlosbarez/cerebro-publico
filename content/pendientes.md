@@ -112,3 +112,25 @@ fallback; las acciones de credenciales, TCC, backup externo y borrado siguen sie
 
 ## Disparos del vigilante de tesis
 - [vigilante 2026-08-25] [[kazatomprom]] — KAP.L a 29.40 USD ha entrado en el gatillo (52.00). Veredicto escrito: VIGILAR. Releer la tesis antes de decidir nada.
+- [vigilante 2026-08-26] [[kazatomprom]] — KAP.L a 29.40 USD ha entrado en el gatillo (52.00). Veredicto escrito: VIGILAR. Releer la tesis antes de decidir nada.
+
+## [2026-08-26] El plugin de LaTeX se come los importes en dólares del sitio público
+
+- **Medido hoy** sobre `~/cerebro-publico/content`: **506 páginas** tienen dos importes en dólares en la
+  misma línea, y `@quartz-community/latex` interpreta ese `$...$` como fórmula. En el sitio construido,
+  `$79-83 → $88` se publica renderizado como matemáticas: `SPAN.katex` con el texto reordenado y los
+  símbolos comidos. Muestras reales del DOM: `200,97B(+22ROIC24,8`, `447Bingresos(UnitedHealthcare`.
+- **No se puede apagar el plugin**: hay LaTeX de verdad en 6 páginas de valoración
+  ([[flujo-de-caja-descontado]], [[estimacion-del-crecimiento]], [[multiplos-de-valoracion]],
+  [[creacion-de-valor-y-eva]], [[valor-terminal]], [[coste-de-capital-wacc]]) con bloques `$$ \frac{...} $$`.
+- **Tampoco se puede configurar**: `remark-math` acepta `singleDollarTextMath: false`, pero el plugin lo
+  llama sin opciones (`markdownPlugins() { return [remarkMath] }`, `dist/index.js:233883`) y su tabla de
+  opciones no lo expone. Parchear `node_modules/` no vale: Vercel reinstala en cada despliegue.
+- **Arreglo propuesto, para Carlos**: escapar `$` → `\$` en `publica.py`, fuera de los bloques `$$` y de
+  las vallas de código. Vive en nuestro repo, sobrevive al `npm install` y es testeable. **No lo aplico
+  yo**: cambia lo que dicen 506 páginas publicadas y eso es una decisión de contenido, no de estilo.
+- **Contenido mientras tanto** (2026-08-26, hecho): `custom.scss` obliga a `.katex` a ser `inline-block`
+  con `overflow-x: auto` y clipa `#quartz-body`. Antes, esas fórmulas empujaban el ancho del documento a
+  **1.172 px en un móvil de 375** y se llevaban por delante la barra de navegación. Eso está arreglado;
+  las cifras mal renderizadas **no**.
+- [vigilante 2026-08-27] [[kazatomprom]] — KAP.L a 29.40 USD ha entrado en el gatillo (52.00). Veredicto escrito: VIGILAR. Releer la tesis antes de decidir nada.

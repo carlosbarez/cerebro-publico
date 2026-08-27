@@ -176,3 +176,42 @@ rentabilidad a cualquier precio*. Su value investing como determinismo cultural,
 
 [[james-montier]] · [[gmo-y-el-permabear]] · [[reversion-a-la-media]] · [[ciclos-de-mercado]] ·
 [[retornos-esperados]] · [[sintesis-del-comportamiento]] · [[howard-marks]] · [[materias-primas-y-ciclo-de-commodities]]
+
+---
+
+## Nota de evolución 2026-08-25 (lector-de-cartas)
+
+**Material nuevo verificado:** GMO Quarterly Letter 2Q 2026 («What Barbarians Like to Take Private», Ben Inker & Martin Pease, 16 pp., texto completo extraído), GMO 7-Year Asset Class Forecast (31-jul-2026, valores leídos del gráfico oficial y validados contra la versión de abril), y declaraciones públicas de Grantham en prensa financiera jun-ago 2026.
+
+### Qué dice el material fresco
+
+- **El estudio LBO que desmonta la narrativa del private equity.** Inker y Pease analizaron ~700 empresas que fueron privatizadas vía LBO entre 1981 y 2025. Hallazgos: el PE selecciona empresas pequeñas, de baja calidad y altamente apalancadas; los retornos reales anuales desde 1981 fueron S&P 500 8,6%, small caps 7,4%, acciones de baja calidad 5,2% y **alta calidad 10,4%**. Además, ~40% de los LBO recientes son software: justo el sector más expuesto a la disrupción de la IA generativa.
+- **La persistencia del alpha en PE colapsó post-2000.** Citando a Braun-Jenkinson-Stoff: alpha implícito ~0,26% anual en buyouts y 1,9% en VC post-2000. Inker usa esto para atacar la «prima de iliquidez» y el modelo endowment: la iliquidez pagó menos de lo que el marketing vende.
+- **Pronósticos GMO a 7 años (jul-2026, escenario «Normal»):** US Large −7,2%/año real, US Small −5,9%, US Deep Value −0,3%, Intl Deep Value **+3,0%**, Japan Small Value **+4,4%**, EM Value +2,0%, bonos US +2,5%, cash +1,4%. Es decir: GMO espera siete años perdidos para el índice americano y rentabilidad positiva sólo fuera del growth estadounidense.
+- **Grantham en voz alta:** CNBC jun-2026: «el mercado más caro de la historia de EE.UU.»; Yahoo Finance 29-jun-2026: «no tener acciones US… una catástrofe del 70%»; ThinkAdvisor abr-2026: «mega-burbuja IA con telón de fondo global peligroso».
+
+### Pensamiento de segundo orden
+
+Lo interesante no es que Grantham siga bajista (eso ya lo sabíamos), sino **cómo** GMO estructura la tesis: ya no es sólo «caro, vendré abajo», sino un par explícito *long calidad megacap / short small-cap basura* como cobertura de mercado, y una crítica fundamentada al flujo institucional hacia privados. La ironía sistémica: el mismo ciclo de IA que infla las valoraciones públicas amenaza con destruir el 40% software del inventario LBO que el private equity acaba de comprar a múltiplos récord — un riesgo de correlación oculto en carteras «diversificadas» de dotación ([[retornos-esperados]]).
+
+### Implicaciones de cartera (largo plazo)
+
+- Evitar pagar múltiplos de growth US; el sesgo natural debe ser calidad + deep value internacional/Japón small value si se comparte el marco GMO.
+- Descontar los retornos anunciados de fondos privados: el alpha post-2000 es marginal y el riesgo software/IA no está marcado a mercado.
+- El par long-calidad/short-basura sugiere que dentro de EEUU la dispersión importará más que el índice.
+
+### Señales falsables
+
+- Si Intl Deep Value y Japan Small Value rinden ≥ +3%/año real acumulado a 2031, la tesis GMO se valida; si US Large supera +2%/año real en 2027-2028, su pronóstico −7,2% queda refutado.
+- Un aumento de impagos/downgrades en LBOs de software comprados 2024-2026 confirmaría el riesgo descrito.
+- Si el capex de IA mantiene crecimiento de ingresos agregado >40%/año hasta 2028 sin recortes de inversión, la palabra «burbuja» habría sido prematura.
+
+### Fuentes
+
+- GMO Quarterly Letter 2Q 2026, «What Barbarians Like to Take Private» — gmo.com/americas/research-library/ (PDF recuperado 2026-08-25)
+- GMO 7-Year Asset Class Forecast, 31-jul-2026 — gmo.com/americas/research-library/
+- CNBC (jun-2026), Yahoo Finance (29-jun-2026), ThinkAdvisor (abr-2026) vía Google News RSS, verificados 2026-08-25
+
+**[Sin datos: ensayo individual nuevo firmado personalmente por Grantham en 2025-26 distinto de los productos GMO; su último Viewpoint propio (ene-2026 sobre valoración de la burbuja IA) ya está cubierto en esta página.]**
+
+Ver también [[james-montier]], [[michael-mauboussin]], [[lyn-alden]], [[consenso-y-desacuerdo-cartas-2026]].

@@ -1,0 +1,102 @@
+---
+title: "Snap-on (SNA) — Análisis Fundamental"
+tipo: empresa
+tags: [empresa, analisis-fundamental, industriales]
+fecha: 2026-08-27
+agente: carlos-barez
+ticker: SNA
+moneda: USD
+precio_referencia: 397.48
+fecha_precio: 2026-08-27
+valor_estimado: 420
+gatillo_entrada: 330-345
+veredicto: SEGUIR
+revisar_el: 2026-11-24
+fuentes: "[\"https://stockanalysis.com/stocks/SNA/\",\"https://stockanalysis.com/stocks/SNA/financials/\",\"https://stockanalysis.com/stocks/SNA/statistics/\",\"https://en.wikipedia.org/wiki/Snap-on\",\"https://www.morningstar.com/company-reports/1489724-snap-on-arms-its-customers-with-all-the-right-tools\",\"https://franchisedepth.com/compare/matco-tools-vs-snap-on/\",\"https://www1.snapon.com/Snap-on-Files/Investors/2025-Q4/Q4-2025-Release.pdf\",\"https://circlfi.com/blog/sna-stock-analysis/\"]"
+---
+
+# Snap-on (SNA) — Análisis Fundamental
+
+## 1. Resumen ejecutivo
+Snap-on (NYSE: SNA) es un fabricante y distribuidor de herramientas, equipos y sistemas de diagnóstico de gama alta para usuarios profesionales del sector transporte (automoción, camión pesado, aviación, marina, ferrocarril). Fundada en 1920, es una "compounder" de calidad excepcional: ROIC ~18,4% (muy por encima de su WACC ~7,9%), márgenes brutos estables ~52%, generación de FCF recurrente (~1.100 M$ TTM) y un historial de 15+ años subiendo el dividendo un ~14% anual. Cotiza a 397,48$ (26 ago 2026), lo que implica múltiplos razonables pero no baratos (P/E 20,3x, EV/EBITDA 14,3x). El negocio tiene un foso competitivo real —red de distribución móvil franchiciada con ~60% de cuota en EE.UU.— pero crece poco orgánicamente últimamente (0,9% en FY2025) y enfrenta vientos en contra macro (aranceles, incertidumbre cliente). Veredicto: SEGUIR — negocio de altísima calidad a valoración justa; acumular en debilidad por debajo de ~330-345$.
+
+## 2. Descripción del negocio (segmentos, geografía, cómo genera dinero)
+Snap-on opera 4 segmentos (datos FY2025, millones $):
+- **Commercial & Industrial (C&I):** 1.458$ — herramientas/equipos para industrias críticas (aeroespacial, defensa, energía, ferrocarril) y canal distribuidor industrial.
+- **Snap-on Tools Group:** 1.965$ — la red de concesionarios móviles franchiciados que visitan talleres semanalmente (corazón del modelo); incluye financiación captiva.
+- **Repair Systems & Information (RS&I):** 1.877$ — equipos de diagnosis, información de reparación y subcontratación para talleres (marca Sun en Europa/Brasil).
+- **Financial Services:** 412,9$ — financiación captiva a franquiciados y clientes finales (aporta flujo estable y margen).
+
+El modelo de ingresos se apoya en **franquiciados que operan furgonetas "walk-in"** cargadas de inventario y visitan a los mecánicos cada semana: una venta presencial, consultiva y extremadamente pegajosa. ~95% de la red Tools es franchiciada (3.159 franquicias + 169 propias, 50 estados). Fundada en Milwaukee (1920), HQ en Kenosha (WI) desde 1930. ~13.000 empleados. Ingresa tanto por venta de producto como por intereses de su financiación captiva.
+
+## 3. Industria y moat competitivo
+- **Cuota dominante:** ~60% de la distribución móvil de herramientas para reparación de automoción en EE.UU. (Morningstar).
+- **Foso = red de distribución + marca + hábito del cliente.** La red de concesionarios es cara de replicar (requiere flota, relaciones de años, financiación). Cierre de franquicias ínfimo: **0,1%** (7 de 9.653 "outlet-years") vs 13,9% de Matco — señal de lealtad y modelo sano.
+- **Competidores:** Matco (Danaher/Matco), Mac Tools (Stanley Black & Decker), Cornwell, y marcas de consumo (Harbor Freight, Kobalt/Lowe's — esta última hecha por Snap-on). Ninguno iguala la cuota ni la capilaridad de la red franchiciada.
+- **Ventaja sostenible:** relación semanal cara a cara con el técnico, financiación integrada, marca "profesional" premium, y complejidad creciente de los vehículos que eleva la necesidad de sus equipos de diagnosis. Barrera de entrada alta y economías de escala en compra/fabricación.
+
+## 4. Análisis financiero (3-5 años)
+Cifras en millones $ (ejercicio feb-ene), TTM a jul-2026:
+
+| Concepto | TTM | FY2025 | FY2024 | FY2023 | FY2022 | FY2021 |
+|---|---|---|---|---|---|---|
+| Ingresos | 5.275 | 5.156 | 5.108 | 5.108 | 4.843 | 4.602 |
+| Crec. ingresos | 4,0% | 0,9% | 0,0% | 5,5% | 5,2% | 16,7% |
+| Beneficio neto | 1.034 | 1.017 | 1.044 | 1.011 | 912 | 821 |
+| BPA | 19,60 | 19,19 | 19,51 | 18,76 | 16,82 | 14,92 |
+| Margen bruto | 51,8% | 51,7% | 52,0% | 51,3% | 50,5% | 51,8% |
+| Margen operativo | 25,2% | 25,4% | 26,4% | 26,4% | 25,7% | 24,8% |
+| Margen neto | 19,6% | 19,7% | 20,4% | 19,8% | 18,8% | 17,8% |
+| OCF / FCF | 1.186 / 1.109 | 1.082 / 1.006 | 1.218 / 1.134 | 1.154 / 1.059 | 675 / 591 | 967 / 897 |
+
+- **Calidad:** ROIC 18,4%, ROE 17,9%, ROCE 18,1% — todos muy superiores al WACC (7,9%). Margen bruto estable ~52% (pricing power).
+- **Apalancamiento muy sano:** Deuda total 1.310 M$, caja 1.644 M$ → **posición de caja neta +334 M$** (6,46$/acción). Deuda/EBITDA 0,90; cobertura de intereses 26,3x; ratio corriente 3,43. Casi sin riesgo de balance.
+- **FCF robusto:** FCF TTM 1.109 M$ (margen FCF 21%), FCF por acción 21,43$ (¡por encima del BPA!). Buybacks continuos: acciones −1,03% anual (51,73 M acciones).
+- **Dividendo creciente:** 9,76$/acción (yield 2,46%), subiendo ~14% anual durante 15+ años — compounder de accionista.
+
+## 5. Valoración
+- **P/E 20,28x** (histórico: 13-20x; ahora en el extremo alto del rango, pero justificado por calidad/ROIC).
+- **Forward P/E 19,2x**; **PEG 2,66** (crecimiento lento encarece el PEG).
+- **EV/EBITDA 14,3x**, **EV/EBIT 15,2x**, **EV/FCF 18,3x**, **EV/Sales 3,83x**, **P/FCF 18,6x**, **P/B 3,40x**.
+- **Comparación:** cotiza en línea con su media histórica reciente de múltiplos (P/E subió de 13,3x en 2022 a 20,3x hoy, expandiéndose con la revalorización de calidad). No está barato ni carísimo: precio ~397$ vs valoracionistas externas que sitúan valor razonable mediano ~383-420$ (CirclFi: rango 176-522$, mediano 382$).
+- **Margen de seguridad (explícito):** la dispersión de modelos es enorme (197%), reflejo de incertidumbre en crecimiento y WACC. A 20x un BPA estable de ~19-21$, el valor intrínseco central se sitúa ~410-450$ solo si el ROIC del ~18% se mantiene; pero con crecimiento orgánico reciente <1% y múltiplos en máximos, el margen de seguridad es **estrecho en precio actual**. Un inversor de calidad/valor debe exigir entrada <~330-345$ (≈20-25% bajo el valor estimado) para holgura ante errores.
+
+## 6. Equipo directivo e incentivos
+- **Nicholas T. Pinchuk** (Chairman & CEO) — liderazgo de largo aliento, cultura de "runways for coherent growth" y disciplina de capital.
+- **Aldo J. Pagliari** (CFO).
+- Instituciones poseen 98% de flotación; insiders solo 2,36% (bajo, pero típico de large cap madura). El capital se devuelve vía buybacks (reduce acciones) + dividendo creciente, señal de asignación disciplinada. Capex contenido (~100 M$ previsto 2026), lo que maximiza FCF libre para accionistas.
+
+## 7. Riesgos
+1. **Crecimiento orgánico lento:** ingresos +0,9% en FY2025 y plano en 2024; depende de pricing y M&A más que de volumen.
+2. **Aranceles y comercio:** la propia directiva citó "fluctuating tariff levels" y disrupciones internacionales como fuente de incertidumbre del cliente (Q4'25).
+3. **Exposición ciclo automoción/taller:** si cae la actividad de reparación (recesión), baja la rotación de la red franchiciada.
+4. **Riesgo de financiación captiva (Financial Services):** la red depende de crédito a franquiciados/clientes; un endurecimiento crediticio golpea ventas y morosidad.
+5. **Concentración de red:** el modelo de franquicias es el activo clave; una degradación de la relación franquiciado (cierres, litigios) erosionaría el foso.
+6. **Múltiplo rico:** cotizar a máximos de 5 años en P/E deja poco margen si el crecimiento decepciona; beta baja (0,72) pero no inmune a rotación de "calidad".
+
+## 8. Catalizadores y noticias recientes (2024-2025)
+- **Q2 2026 récord:** ventas +4,7% a.i. hasta 1.240 M$, margen bruto +90 pb a 51,4%, BPA +5,1% (stockanalysis/transcript).
+- **FY2025:** ventas 4.743 M$ (+0,8%), BPA 19,19$ (incluye beneficios legales y mayores costes de pensiones no-servicio).
+- **Reacciones de analistas (ago 2026):** Tigress sube objetivo a 485$ (Buy, "transformación en..."); Roth a 461$ (Buy, tras batiar Q2); Baird a 415$ (Neutral). Consenso "Hold", objetivo medio 413,78$ (+4%).
+- **Continuidad del dividendo:** ex-div 19 ago 2026, 9,76$/acción; política de subida anual intacta.
+- **M&A disciplinada:** historial de adquisiciones tácticas (Dealer-FX 2021, Norbar, Car-O-Liner, etc.) para extender capacidades.
+
+## 9. Tesis bull / bear
+**Bull:** negocio de calidad 10/10, ROIC 18% > WACC 8%, foso de red franchiciada con 60% de cuota y cierre casi nulo; FCF por acción > BPA; balance con caja neta; devolución de capital creciente. A 20x earnings y con crecimiento de precios + extensiones (industrias críticas, geografías), el valor intrínseco supera los 420-450$ y el precio actual es razonable para un "buy and hold" de largo plazo. Beta baja aporta defensividad.
+
+**Bear:** crecimiento orgánico apenas positivo (<1% en 2025); el P/E en máximos de 5 años y PEG 2,66 limitan el margen de seguridad; aranceles/gobierno/shutdown ya generaron incertidumbre; dependencia de financiación captiva y del ciclo taller; modelos de valoración externos divididos (hasta −58% en caso bajista). No es "barata" para un value puro —se paga por la calidad.
+
+## 10. Fuentes (URLs)
+- https://stockanalysis.com/stocks/SNA/ (precio, métricas, noticias)
+- https://stockanalysis.com/stocks/SNA/financials/ (cuentas 2021-2025, segmentos, FCF)
+- https://stockanalysis.com/stocks/SNA/statistics/ (múltiplos, ROIC/ROE, deuda, EV)
+- https://en.wikipedia.org/wiki/Snap-on (historia, modelo de franquicias, adquisiciones)
+- https://www.morningstar.com/company-reports/1489724-snap-on-arms-its-customers-with-all-the-right-tools (cuota 60%, moat)
+- https://franchisedepth.com/compare/matco-tools-vs-snap-on/ (comparativa franquicias, cierres)
+- https://www1.snapon.com/Snap-on-Files/Investors/2025-Q4/Q4-2025-Release.pdf (resultados FY2025, riesgos)
+- https://circlfi.com/blog/sna-stock-analysis/ (valoración multi-modelo, rango fair value)
+
+## 11. Veredicto de Carlos
+**SEGUIR.** Snap-on es un "compounder" de altísima calidad con foso real (red móvil franchiciada, ~60% cuota, cierres casi nulos), ROIC 18% y FCF recurrente que devuelve al accionista. A 397$ cotiza a múltiplos justos (P/E 20x, EV/EBITDA 14x) pero en el extremo alto de su histórico y con crecimiento orgánico modesto —el margen de seguridad hoy es estrecho. No es una compra apalancada ahora, pero sí una posición que mantener y **engordar en caídas hacia 330-345$** (≈20-25% bajo valor estimado ~420$). Revisar tras resultados Q3 (15 oct 2026) y vigilar aranceles, rotación de la red y evolución de márgenes. Condición de compra: precio ≤ gatillo y ROIC mantenido >15%.
+
+<!-- META ticker=SNA veredicto=SEGUIR -->

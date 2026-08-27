@@ -1,0 +1,123 @@
+---
+title: "Masco (MAS) — Análisis Fundamental"
+tipo: empresa
+tags: [empresa, analisis-fundamental, industriales]
+fecha: 2026-08-27
+agente: carlos-barez
+ticker: MAS
+moneda: USD
+precio_referencia: 73.60
+fecha_precio: 2026-08-27
+valor_estimado: 82 (rango 75-92)
+gatillo_entrada: <65 (margen de seguridad >20% vs valor intrinseco)
+veredicto: SEGUIR
+revisar_el: 2026-11-24
+fuentes: "[\"https://stockanalysis.com/stocks/MAS/\", \"https://stockanalysis.com/stocks/MAS/financials/\", \"https://stockanalysis.com/stocks/MAS/statistics/\", \"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MAS&type=10-K&count=5\", \"https://www.morningstar.com/company-reports/1430193-mascos-wide-moat-protects-margins-despite-the-slowest-us-housing-market-in-decades\", \"https://tickerspark.ai/research/mas\", \"https://www.ainvest.com/news/masco-assessing-durability-moat-cyclical-recovery-valuation-2602/\", \"https://www.ainvest.com/news/masco-wide-moat-faces-housing-rebound-test-q1-earnings-pending-sales-signal-term-inflection-point-2604/\", \"https://koalagains.com/stocks/NYSE/MAS/business-and-moat\", \"https://umbrex.com/resources/company-profiles/masco/\", \"https://seekingalpha.com/article/4922678-masco-corporation-upside-isnt-worth-it-downgrade\"]"
+---
+# Masco (MAS) — Análisis Fundamental
+
+## 1. Resumen ejecutivo
+Masco (NYSE: MAS) es un operador de marcas líderes en productos para el hogar centrado en dos segmentos: Plumbing Products (grifos, duchas, baños, spas — Delta, hansgrohe, Brizo, Peerless, BEHR-licensed) y Decorative Architectural Products (pinturas BEHR y KILZ, herrajes decorativos Liberty/Brainerd). Cotiza a ~73,60 USD (cierre 26-ago-2026), con una capitalización de ~14,45 B USD, P/E 17,0x y un rendimiento por dividendo del 1,74% (1,28 USD, 12 años creciente).
+
+El negocio es de alta calidad: genera caja recurrente, tiene marcas con poder de fijación de precios, mix sesgado a reparación y remodelación (R&R, ~84% de ventas) —más estable que la construcción nueva— y un equipo directivo disciplinado en asignación de capital (spin-off de TopBuild en 2015, venta de ventanas y carpintería 2019-2020, recompra de 2.000 M USD autorizada en feb-2026). No obstante, a 17x beneficios y con deuda neta de ~2,95 B USD, el precio actual es *justo*, no barato. Veredicto: **SEGUIR** (acumular en debilidad <65 USD). No es una compra con margen de seguridad amplio hoy.
+
+## 2. Descripción del negocio (segmentos, geografía, cómo genera dinero)
+Masco fabrica y comercializa productos de marca para mejora del hogar y construcción. Fundada en 1929, sede en Livonia, Michigan; ~18.000 empleados.
+
+- **Plumbing Products** (~5.196 M USD TTM, ~68% de ventas): grifos, cabezales y duchas Delta/hansgrohe/Brizo/Peerless; bañeras/acrílicos; spas Hot Spring; tubos PEX y componentes de latón/cobre. Líder en Norteamérica y con presencia internacional vía hansgrohe (Europa).
+- **Decorative Architectural Products** (~2.424 M USD TTM, ~32%): pinturas y recubrimientos BEHR y KILZ (exclusivos de The Home Depot en retail NA), primarios, accesorios de aplicación; herrajes decorativos Liberty/Brainerd/Franklin Brass.
+
+Geografía: mayoritariamente Norteamérica; el negocio internacional de plumbing (hansgrohe) aporta Europa y mercados globales premium. El motor de ingresos es la **demanda de reemplazo/remodelación** (grifos, repintado), recurrente y menos cíclica que la obra nueva, vendida a través de home centers (Home Depot, Lowe's), distribuidores y profesionales.
+
+Ingresos por segmento (millones USD): Plumbing 5.252 (2022) → 5.135 (2021) → 4.842 (2023) → 4.853 (2024) → 4.992 (2025) → 5.196 (TTM). Decorative Architectural 3.428 (2022) → 3.125 (2023) → 2.975 (2024) → 2.570 (2025) → 2.424 (TTM). El segmento decorativo (pintura) cae dos años seguidos por debilidad en remodelación y mix; el plumbing crece y compensa.
+
+## 3. Industria y moat competitivo
+Mercado de mejora del hogar y productos de construcción, altamente fragmentado y cíclico, pero con fuertes economías de marca. Morningstar califica a Masco con **"wide moat"** (foso ancho) apoyado en activos intangibles (marcas) y relaciones de canal.
+
+Fosos/ventajas:
+- **Marcas líderes**: BEHR es la #1 en pintura DIY en EE.UU. (gracias a exclusividad en The Home Depot); Delta lidera grifería NA compitiendo con Moen (Fortune Brands) y Kohler; hansgrohe/Brizo dan presencia premium global.
+- **Canal exclusivo**: BEHR es exclusiva de Home Depot en retail NA —barrera de entrada enorme que bloquea a competidores del mayor home center del mundo.
+- **Poder de fijación de precios y mix**: marcas premium permiten defensa de márgenes vía precio y productividad (Masco Operating System).
+
+Debilidades del foso (es *narrow* en realidad según varios analistas): dependencia de un solo cliente (Home Depot ~35-38% de ventas totales y la gran mayoría del segmento decorativo), baja integración vertical, costes de cambio bajos para el consumidor (puede elegir Moen/Kohler fácilmente), presión de marca propia (private label) y competidores importados de bajo coste. El foso es real pero concentrado y ligado a la salud del mercado de la vivienda estadounidense.
+
+Competidores: en pintura, Sherwin-Williams, Benjamin Moore (Berkshire), PPG, RPM (Rust-Oleum); en grifería/plumbing, Fortune Brands Innovations (Moen), Kohler, LIXIL (GROHE/American Standard), Spectrum (Pfister), Zurn Elkay; en herrajes, Amerock, Richelieu, Top Knobs.
+
+## 4. Análisis financiero (2021-2025 y TTM)
+Cifras en millones USD (salvo ratios), año fiscal ene-dic. Fuente: stockanalysis.com.
+
+| Concepto | 2021 | 2022 | 2023 | 2024 | 2025 | TTM |
+|---|---|---|---|---|---|---|
+| Ingresos | 8.375 | 8.680 | 7.967 | 7.828 | 7.562 | 7.620 |
+| Beneficio neto | 406 | 842 | 908 | 822 | 810 | 885 |
+| EPS | 1,62 | 3,63 | 4,02 | 3,76 | 3,86 | 4,33 |
+| Margen bruto | 34,35% | 31,26% | 35,60% | 36,28% | 35,68% | 37,20% |
+| Margen operativo | 12,35% | 15,14% | 17,02% | 17,45% | 16,74% | 17,79% |
+| FCF | 802 | 616 | 1.170 | 907 | 866 | 1.126 |
+| Deuda total | 3.169 | 3.445 | 3.250 | 3.214 | 3.215 | 3.493 |
+| Caja | 926 | 452 | 634 | 634 | 647 | 548 |
+
+- **Ingresos**: declive suave y sostenido desde el pico de 2022 (8.680 M) por el ciclo bajista de vivienda/remodelación; el TTM (7.620 M) estabiliza +0,6%.
+- **Márgenes**: fuerte expansión estructural vs 2021 (margen operativo 12,35% → ~17,8% TTM) por mix plumbing, pricing y productividad. El bruto TTM de 37,2% es el más alto del periodo.
+- **FCF**: muy sano, 866-1.170 M anuales; TTM 1.126 M, **FCF yield ~7,6%** (1,13 B / 14,45 B). FCF por acción 5,73 USD.
+- **ROIC 30,76%** y ROCE 36,11% (excelentes); ROA 15,86%. El ROE (5.862%) está distorsionado por patrimonio neto *negativo* (-118 M, por recompra masiva de acciones), no es una señal de apalancamiento peligroso.
+- **Apalancamiento**: deuda neta ~2,95 B USD; **Deuda/EBITDA 2,20x** (moderado); cobertura de intereses 13,17x (holgada); liquidez adecuada: ratio corriente 1,86, rápido 1,15, fondo de maniobra 1,42 B.
+- **Acciones**: reducidas -4,66% interanual (recompra activa).
+
+## 5. Valoración
+Múltiplos actuales (stockanalysis, cierre 26-ago-2026, precio 73,60 USD):
+- P/E 17,00x (TTM); **P/E forward 16,78x** (sobre guía 2026 EPS 4,10-4,30 → implícito ~17x).
+- P/S 1,90x; **EV/EBITDA 11,54x**; EV/Sales 2,28x; EV/FCF 15,45x.
+- **P/FCF 12,84x**; P/OCF 11,20x; PEG 1,92.
+- EV 17,40 B USD vs market cap 14,45 B (refleja deuda neta).
+- Dividendo 1,28 USD (yield 1,74%), 12 años de crecimiento; payout bajo.
+
+Contexto: el P/E histórico de Masco suele situarse en la decena (teens). A 17x está **ligeramente por encima de su media histórica** pero es razonable para un negocio de marca con ROIC ~31%. El PEG 1,92 y la valoración no descuentan un múltiplo expandido.
+
+**Estimación de valor intrínseco**: aplicando 13-15x el FCF por acción (~5,73 USD) más prima por crecimiento bajo y buybacks, y contrastando con modelos externos (TickerSpark FV 76 USD; AInvest/TIKR ~97 USD; consenso ~81-82 USD), sitúo el valor intrínseco en **~82 USD/acción (rango 75-92)**. El precio de 73,60 USD queda un **~10% por debajo** del valor estimado: margen de seguridad *modesto*, insuficiente para un inversor en valor estricto.
+
+**Margin of safety (explícito)**: la incertidumbre es alta porque el 84% de ventas depende del ciclo vivienda/remodelación y ~37% de un solo cliente. No doy "precio objetivo" falso; doy un **gatillo de entrada <65 USD** (descuento >20% sobre el valor intrínseco y cerca del soporte de 52 semanas en 58 USD) como zona de compra con margen de seguridad cómodo. A precios actuales, SEGUIR/acumular con cautela.
+
+## 6. Equipo directivo e incentivos
+Equipo casi totalmente renovado desde 2014; CEO **Jon Nudi** (citado en presentaciones defendiendo el modelo de R&R y el récord de patrimonio neto de los propietarios como viento de cola). Gestión enfocada en: desinvertir negocios cíclicos/ menos rentables (TopBuild spin-off 2015; ventanas 2019; carpintería 2020), mejora de margen vía "Masco Operating System", balance sólido y **retorno de capital disciplinado** (dividendo creciente 12 años + recompra de 2.000 M USD autorizada feb-2026, ~13% de la capitalización). Los incentivos premian ROIC, margen y retorno al accionista, no solo crecimiento de ingresos —alineación correcta.
+
+## 7. Riesgos (principales)
+1. **Ciclo de vivienda y remodelación**: ~84% de ventas en R&R; un mercado de la vivienda deprimido (tipos altos, baja rotación, afinidad) hunde el volumen —ya visto en el declive de ingresos 2022-2025.
+2. **Concentración en The Home Depot**: ~35-38% de ventas totales y la mayoría del segmento decorativo; pérdida/reenfoque del cliente o presión de márgenes por parte del retailer sería material.
+3. **Aranceles y materias primas**: exposición a cobre, zinc, resinas, petróleo y frete; Masco estimó ~200 M USD de coste incremental arancelario en 2026 (parcialmente mitigado, pero con inflación de commoditie compensando).
+4. **Competencia y marca propia**: Moen/Kohler/LIXIL y private label de bajo coste presionan precio y cuota; riesgo de mix hacia productos de menor precio.
+5. **Tipo de cambio**: el plumbing internacional (hansgrohe) aporta volatilidad FX (euro).
+6. **Valoración y crecimiento lento**: ingresos prácticamente planos; el múltiplo ya descuenta cierta recuperación —poco margen si el ciclo no gira.
+
+## 8. Catalizadores y noticias recientes (2024-2026)
+- **Feb-2026**: Masco autoriza recompra de **2.000 M USD** (~13% market cap); Morningstar reitera *wide moat*.
+- **Q1 2026 (reportado ~22-abr / call)**: ingresos +6% a 1.918 M USD; beneficio operativo ajustado +13% a 324 M; EPS ajustado +20% a 1,04 USD —liderado por Plumbing.
+- **Guía 2026**: EPS ajustado 4,10-4,30 USD; capital deployment ≥800 M USD (recompra/adquisiciones); mercado R&R esperado plano en 2026.
+- **Reestructuración**: cargos ~18 M (2025) + ~50 M (2026) para expansión de margen hacia ~17% operativo en 2026.
+- **Jul-2026**: Seeking Alpha degrada a *soft sell* por upside limitado (múltiplo ya paga la mejora).
+- **Viento de cola estructural**: patrimonio neto de propietarios en máximos (CEO: +80% desde 2019) y envejecimiento del parque de viviendas → demanda de renovación embalsada.
+
+## 9. Tesis bull / bear
+**Bull**: (1) Marcas con foso (BEHR #1 DIY, Delta líder) y canal exclusivo Home Depot; (2) mix R&R (~84%) más estable y recurrente que construcción nueva; (3) ROIC ~31%, FCF yield ~7,6%, generación de caja sólida; (4) disciplina de capital (buyback 2B + dividendo creciente) apoya EPS; (5) recuperación del ciclo vivienda + patrimonio récord de propietarios como catalizador a medio plazo; (6) premiumización (hansgrohe/Brizo/AXOR) mejora mix y márgenes.
+
+**Bear**: (1) Negocio atado a un ciclo de vivienda aún deprimido; (2) concentración Home Depot (~37%) y poder de negociación del retailer; (3) aranceles + inflación de commoditie (cobre/zinc/resinas) presionan márgenes en 2ª mitad 2026; (4) ingresos planos y múltiplo ya en decena alta (17x) sin margen de seguridad amplio; (5) competencia de marca propia y entrantes low-cost; (6) FX y dependencia del consumidor/confianza.
+
+## 10. Fuentes (URLs)
+- https://stockanalysis.com/stocks/MAS/
+- https://stockanalysis.com/stocks/MAS/financials/
+- https://stockanalysis.com/stocks/MAS/statistics/
+- https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MAS&type=10-K&count=5
+- https://www.morningstar.com/company-reports/1430193-mascos-wide-moat-protects-margins-despite-the-slowest-us-housing-market-in-decades
+- https://tickerspark.ai/research/mas
+- https://www.ainvest.com/news/masco-assessing-durability-moat-cyclical-recovery-valuation-2602/
+- https://www.ainvest.com/news/masco-wide-moat-faces-housing-rebound-test-q1-earnings-pending-sales-signal-term-inflection-point-2604/
+- https://koalagains.com/stocks/NYSE/MAS/business-and-moat
+- https://umbrex.com/resources/company-profiles/masco/
+- https://seekingalpha.com/article/4922678-masco-corporation-upside-isnt-worth-it-downgrade
+
+## 11. Veredicto de Carlos
+**SEGUIR (acumular en debilidad).** Masco es un negocio de *calidad* —marcas con foso real, ROIC ~31%, FCF robusto y gestión disciplinada en capital— pero a 73,60 USD cotiza a ~17x beneficios, justo por encima de su media histórica y solo ~10% bajo mi valor intrínseco estimado (~82 USD). No hay margen de seguridad amplio hoy. 
+
+Condiciones de compra con margen de seguridad: **<65 USD** (ideal <60, cerca del suelo de 52 semanas en 58). Mantendría posición actual y añadiría en pullbacks del ciclo vivienda. Catalizadores a vigilar hasta la revisión (2026-11-24): giro del R&R, ejecución de la reestructuración 2026, avance de cuota pro-paint de BEHR, mitigación arancelaria y continuidad del buyback de 2.000 M USD. No es EVITAR: el foso y la generación de caja lo descartan; tampoco COMPRAR ciego a precio actual.
+
+<!-- META ticker=MAS veredicto=SEGUIR -->
