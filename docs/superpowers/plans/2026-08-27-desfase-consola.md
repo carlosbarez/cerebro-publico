@@ -646,6 +646,50 @@ recibir el push; no hay panel que tocar.
 
 ---
 
+### Tarea 9: La pieza caia al vector en el sitio publico (anadida 2026-08-27 por Opus 5)
+
+Con el despliegue vivo, la portada publica servia el SVG de reserva, no el canvas: `pieza="vector"`,
+`#cerebro canvas` inexistente. No habia error en pantalla — el vector se ve, simplemente no late —
+y por eso paso las siete tareas sin que nadie lo notara. El Paso 4 de la Tarea 7 dejaba la
+comprobacion visual «para Carlos al final», que es donde se cuela un fallo asi.
+
+Causa raiz: `cerebro.js:370` fijaba `/ui/cerebro-fase-0.png`, la ruta de la CONSOLA. Quartz sirve
+esos PNG en `/static/`, asi que los dos daban 404, saltaba `alFallar` y `cerebro-inline.js` hacia
+lo que debe: caer al vector. La Global Constraint «copy literal de la consola» es correcta para el
+copy y para la logica, pero **la ruta de un asset no es copy**: es lo unico que cambia entre los dos
+hosts, y era justo lo que se copiaba tal cual.
+
+Arreglo en la CONSOLA (`web/ui/cerebro.js`), que es de donde el publicador copia: la carpeta se
+deduce de `document.currentScript.src` en vez de fijarse. En la consola resuelve `/ui/` (sin cambio)
+y en Quartz `/static/`.
+
+- [x] **Paso 1: `web/ui/cerebro.js` deduce su carpeta**, y `tests/test_web_ui_estructura.py` gana
+  `TestPiezaPortable` — dos asserts que fallan si alguien vuelve a fijar `/ui/cerebro-fase`.
+- [x] **Paso 2: copiar la pieza** a `quartz/static/cerebro.js` (lo mismo que hace `copia_pieza()`).
+- [x] **Paso 3: comprobarlo servido con la disposicion de Quartz**, no en la consola:
+  `python3 -m http.server` sobre `public/` y leer el DOM. Medido: `pieza="canvas"`, `canvas=true`.
+
+**Leccion para el proximo port:** la comprobacion de la pieza no es «se ve un cerebro». Es
+`document.getElementById('cerebro').dataset.pieza === 'canvas'`. El vector es un fallback correcto y
+silencioso: si el criterio es visual, el fallback aprueba el examen.
+
+---
+
+## Hallazgos abiertos (para Carlos, 2026-08-27)
+
+1. **`quartz.config.yaml:12` tiene `baseUrl: cerebro-publico.vercel.app`, que es de OTRO.** Ese
+   dominio sirve hoy un Quartz ajeno («resumenes de libros, papers y videos sobre educacion»): el
+   nombre estaba cogido y Vercel le puso a este proyecto otro. El sitio de Carlos vive en
+   **`cerebro-carlos-wygu.vercel.app`**. El `baseUrl` alimenta canonicals, sitemap, RSS y el plugin
+   `cname`: mientras apunte ahi, el sitio se declara en un dominio de un tercero. Cambiarlo es una
+   linea, pero la URL canonica la elige Carlos.
+2. **Tres proyectos de Vercel sobre el mismo repo**: `cerebro-publico`, `cerebro-carlos-wygu` y
+   `ccerebro-carlos`. Cada push dispara tres builds de 1.293 paginas. Ademas, los despliegues de
+   `cerebro-publico` estan detras del SSO de Vercel (piden login), asi que ese proyecto no sirve a
+   nadie de fuera. Sobran dos.
+3. **El sondeo con `curl` al dominio dispara el firewall de Vercel** (`x-vercel-mitigated: challenge`,
+   403). Para comprobar un despliegue, navegador; `curl` sirve para la API de GitHub, no para el sitio.
+
 ## Self-Review
 
 - **Cobertura:** pieza viva (T1, T2, T3, T4), cerebro más grande 940px/78vh y móvil 430px (T4), chat con formato (T5, T6), veredicto obligatorio (T6), pulso/newsletter anonimizados (T7 vía publicador), `==subrayado==` (T4 paso 5 + T5), fondo ambiental (T2, T3). Fuera de alcance declarado en Global Constraints.

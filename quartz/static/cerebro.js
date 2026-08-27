@@ -11,6 +11,11 @@
 // o null si no hay datos de forma (app.js cae al svg). Si un PNG falla al cargar, llama alFallar().
 window.CerebroPieza = (() => {
   'use strict';
+  // La carpeta de los PNG NO se fija a mano: este MISMO fichero lo sirve la consola bajo /ui/ y el
+  // sitio publico bajo /static/ (el publicador lo copia tal cual, sin tocar una linea). Se deduce
+  // de la URL de este script. Si se fijara, el sitio que no coincidiera daria 404 y caeria al
+  // vector — sin error visible, solo una pieza que no late.
+  const CARPETA = (document.currentScript ? document.currentScript.src : '').replace(/[^/]*$/, '') || '/ui/';
   const VB = 880;
   const TAU = Math.PI * 2;
   // Lado de la lamina horneada. OJO: NO es "un pixel por pixel de origen" — los PNG del video son
@@ -367,7 +372,7 @@ window.CerebroPieza = (() => {
       img.src = src;
     });
 
-    Promise.all([cargar('/ui/cerebro-fase-0.png'), cargar('/ui/cerebro-fase-1.png')])
+    Promise.all([cargar(CARPETA + 'cerebro-fase-0.png'), cargar(CARPETA + 'cerebro-fase-1.png')])
       .then(([a, en]) => {
         apagada = lamina(a);
         encendida = lamina(en);
