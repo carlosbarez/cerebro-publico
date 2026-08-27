@@ -1,0 +1,155 @@
+---
+title: "Analisis Fundamental — Texas Pacific Land Corporation (TPL)"
+tipo: empresa
+tags: [empresa, texas-pacific-land-corporation]
+fecha: 2026-08-27
+agente: carlos-barez
+ticker: TPL
+moneda: USD
+precio_referencia: 368.33
+fecha_precio: 2026-08-27
+valor_estimado: 185-250 USD/accion (rango intrinseco, base calidad-premium; metodos P/FCF 25-30x, P/E 25-30x, EV/EBITDA 20-24x sobre FCF/EBITDA normalizados)
+gatillo_entrada: < 240 USD (acumulacion gradual con margen de seguridad parcial); zona atractiva < 200 USD (margen de seguridad pleno)
+veredicto: VIGILAR
+revisar_el: 2026-11-25
+fuentes: "[\"https://en.wikipedia.org/wiki/Texas_Pacific_Land_Corporation\", \"https://www.sec.gov/Archives/edgar/data/1811074/000181107426000018/tpl-20251231.htm\", \"https://www.texaspacific.com/investors/sec-filings/all-sec-filings/content/0001811074-25-000044/0001811074-25-000044.pdf\", \"https://www.texaspacific.com/investors/news-events/press-releases/detail/179/texas-pacific-land-corporation-announces-fourth-quarter-and\", \"https://www.texaspacific.com/investors/news-events/press-releases/detail/187/texas-pacific-land-corporation-announces-second-quarter\", \"https://www.texaspacific.com/investors/news-events/press-releases/detail/185/texas-pacific-land-corporation-announces-agreement-to\", \"https://moatscan-ai.com/analysis/TPL\", \"https://koalagains.com/stocks/NYSE/TPL/business-and-moat\", \"https://koalagains.com/stocks/NYSE/TPL/competition\", \"https://koalagains.com/stocks/NYSE/TPL/financial-statement-analysis\", \"https://stockanalysis.com/stocks/tpl/statistics/\", \"https://stockanalysis.com/stocks/tpl/financials/\", \"https://policyrisk.com/world/company/TPL\", \"https://seekingalpha.com/article/4934902-texas-pacific-land-priced-for-perfection\", \"https://moschovakiscapital.com/tpl-stock-analysis-2026-avoid/\", \"https://www.trefis.com/data/companies/TPL\", \"https://www.financialcontent.com/article/finterra-2026-4-2-the-landlord-of-the-permian-a-deep-dive-into-texas-pacific-land-corporation-tpl\"]"
+---
+
+# Analisis Fundamental — Texas Pacific Land Corporation (TPL)
+
+## 1. Resumen ejecutivo
+
+Texas Pacific Land Corporation es, sencillamente, el "casero del Permian". No perfora un solo pozo: es dueña de ~880.000 acres de superficie y ~207.000 net royalty acres (NRA) en el corazon de la cuenca permiana (Oeste de Texas), y cobra "peaje" a lo largo de todo el ciclo de vida del pozo de petroleo y gas: regalias, agua dulce y producida, derechos de paso (easements), arrendamientos comerciales y venta de materiales. Es un negocio de calidad excepcional —margenes operativos ~75%, rentabilidad sobre capital invertido ~38%, balance sin deuda neta y generacion de caja libre recurrente— construido sobre un foso competitivo casi irrepetible: la tierra no se puede recrear. El veredicto cualitativo es claro: **una de las mejores franquicias de energia de EE.UU.**, pero el precio actual (~$368) cotiza a ~47x beneficios y ~48x flujo de caja libre, es decir, 32-50% por encima de mi estimacion de valor intrinseco. Negocio para *poseer de por vida*, pero que hoy no ofrece margen de seguridad. **VIGILAR y acumular en debilidad.**
+
+## 2. Descripcion del negocio
+
+TPL se constituyo en 1888 a partir de la quiebra del ferrocarril Texas and Pacific Railway: 3,5 millones de acres pasaron a un fideicomiso que debia liquidarse vendiendo la tierra. Tardaron un siglo en darse cuenta de que la tierra valia mas que el plan de liquidacion. El pivot decisivo llego con el *fracking* horizontal (2010) y el descubrimiento del Delaware Basin en Reeves County (2016). En 2017 crearon Texas Pacific Water Resources (equipo procedente de EOG Resources) y en 2021 reconvirtieron el fideicomiso en corporacion de Delaware. Hoy cotiza en el S&P 500.
+
+Opera en **dos segmentos**:
+
+- **Land and Resource Management (LRM):** gestiona la superficie y las regalias. Ingresos por (i) regalias de petroleo y gas (~52% del total 2025), (ii) easements y otros ingresos de superficie (SLEM: derechos de paso de oleoductos, lineas electricas, arrendamientos comerciales, venta de caliche), y (iii) venta ocasional de terrenos. Las regalias son *nonparticipating perpetual royalty interests* (NPRI): se cobran sin coste de perforacion ni capex.
+- **Water Services and Operations (WSO):** a traves de Texas Pacific Water Resources, vende agua dulce/salobre para fracturacion, gestiona agua producida (royalties por volumen vertido/inyectado en su superficie), tratamiento y disposal. Es el diferenciador único de TPL frente a todas las royalty companies pares.
+
+Cifras clave 2025: ingresos totales **$798,2M** (LRM $490,7M + WSO $307,5M); produccion de regalia **34,6k Boe/dia**; precio realizado **$34,18/Boe**. El TTM a junio 2026 ya llegaba a **$897,5M** de ingresos y **$541,4M** de beneficio neto.
+
+## 3. Industria y moat competitivo
+
+La industria es la *midstream/land* de la cuenca permiana, la cuenca de petroleo y gas mas productiva de EE.UU. La estructura favorece a quien controla la **superficie fisica**, no solo el subsuelo.
+
+El foso de TPL es de los mas durable del mercado (MoatScan: *Wide Moat*, 76/100). Se sostiene en:
+
+1. **Intangibles / activos fisicos irrepetibles (pilar 9/10):** la propiedad de ~880.000 acres contiguos en el nucleo del Permian y los NPRI perpetuos. La tierra se ensamblo en el siglo XIX con coste base ~cero; ningun rival puede recrearla a precio sensible. Es propiedad protegida por ley de minerales y superficie.
+2. **Efficient scale / escasez:** solo unos pocos operadores grandes pueden desarrollar la cuenca; la posicion de TPL importa desproporcionadamente. En agua, el cliente es concentrado e intensivo en infraestructura, lo que favorece la escala incumbente.
+3. **Cost advantage:** una vez es dueno de la tierra, la regalia y las tarifas de agua se generan con capex marginal minimo. Margen EBITDA >85%. ROIC estructuralmente alto porque necesita poco capital incremental.
+4. **Switching costs (moderados-fuertes) en agua:** una vez que un operador disena gathering, disposal y logistica en torno a la superficie de TPL, reubicar exige nuevos permisos y rediseno operativo. No es cautividad absoluta, pero si friccion real.
+
+Frente a competidores —Viper Energy (VNOM, controlada por Diamondback), Sitio Royalties (adquirida por Viper en 2025), Black Stone Minerals (BSM), Kimbell (KRP), Dorchester (DMLP), PrairieSky, LandBridge— TPL gana sistematicamente en calidad de balance (cero deuda vs 1-2x apalancamiento de pares) y en diversificacion de ingresos (agua+superficie que los puros royalty no tienen). Pierde en *yield* (paga ~0,65% vs 5-10% de los pares como LP/MLP) y, sobre todo, en precio: cotiza a primas multiples muy superiores.
+
+Debilidad del moat: protege el margen, **no protege contra un ciclo de materias primas** que golpee a la vez volumen y precio. Es un foso de *activo*, no de *operacion superior*.
+
+## 4. Analisis financiero
+
+Serie anual (millones USD; márgenes de stockanalysis):
+
+| Ejercicio | Ingresos | Benef. neto | EPS | FCF | Margen op. | Margen neto |
+|---|---|---|---|---|---|---|
+| 2021 | 451,0 | 270,0 | 3,87 | 249,6 | 80,4% | 59,9% |
+| 2022 | 667,4 | 446,4 | 6,42 | 427,9 | 84,3% | 66,9% |
+| 2023 | 631,6 | 405,6 | 5,86 | 403,3 | 77,0% | 64,2% |
+| 2024 | 705,8 | 454,0 | 6,57 | 461,0 | 77,1% | 64,3% |
+| 2025 | 798,2 | 481,4 | 6,97 | 486,4 | 74,3% | 60,3% |
+| TTM (jun-26) | 897,5 | 541,4 | 7,84 | 526,7 | 75,1% | 60,3% |
+
+Crecimiento de ingresos 2021→TTM de +99% (CAGR ~15%). El FCF paso de $250M a $527M. Margenes brutos sostenidos >93%. El segmento WSO crecio de $130,5M (2021) a $307,5M (2025), +136%, y ya es ~38% de ingresos.
+
+**Balance (jun-2026, stockanalysis):** cash $248,6M; deuda total $18,0M (solo arrendamientos, sin deuda financiera); **net cash $230,6M**; equity $1,67B; ratio corriente 4,55; Deuda/Equity 0,01; cobertura de intereses 254x. Es literalmente un balance de fortaleza.
+
+**Rentabilidad:** ROE 36,6%, ROIC 38,5%, ROCE 38,2%, muy por encima del coste de capital (~7,7%).
+
+**Retorno de capital:** TPL subio el dividendo regular 21 anos seguidos (DPS $2,13 en 2025, yield ~0,65%) y en 2024 pago un dividendo especial de $10/accion ($347M total). En 2025 devolvio $147,8M en dividendos + $8,4M en recompra; en el 1S 2026 ya $83,2M en dividendos. Mantiene un objetivo de caja ~$700M por encima del cual devuelve capital; por debajo, acumula para adquisiciones (ha gastado ~$400M en regalias/superficie en 2024).
+
+**Q2 2026 (record):** ingresos $246,1M (+31% a), beneficio neto $153,9M ($2,23/acc), EBITDA ajustado $215,6M (margen 88%), FCF $155,5M. Produccion de regalia 39,7k Boe/d (+20% a); precio realizado $42,17/Boe. La nota de cautela: las ventas de agua cayeron 19% secuencialmente por precios debiles del gas en el Delaware, que desplazo actividad.
+
+## 5. Valoracion
+
+Al cierre del 27/08/2026, TPL cotiza a **$368,33**, capitalizacion $25,4B. Multiplos (stockanalysis):
+
+- **P/E TTM 46,98x** (fwd 39,73x)
+- **P/FCF 47,88x** (EV/FCF 47,45x)
+- **EV/EBITDA 33,70x**
+- **P/S 28,10x** · **P/B 15,24x** · **PEG n/d**
+
+Historico 5 anos de P/E: 2021 35,8x · 2022 40,5x · 2023 29,8x · 2024 56,0x · 2025 41,1x. O sea, el rango normal ha sido ~25-55x; hoy esta en el tercio alto.
+
+**Estimacion de valor intrinseco (enfoque calidad, con margen de prudencia):**
+- P/FCF 25-30x sobre FCF ~$527M (+ net cash) → **$194-232/acc**
+- P/E 25-30x sobre EPS ~$7,84 → **$196-235/acc**
+- EV/EBITDA 20-24x sobre EBITDA ~$742M → **$218-261/acc**
+
+Rango intrinseco central **$185-250/acc**. El precio actual ($368) esta **32-50% por encima**. Para justificar $368 con un P/FCF de 30x, TPL deberia generar ~$847M de FCF (vs $527M real, +61%). El rendimiento por FCF es solo ~2,1%.
+
+**Honestidad sobre la incertidumbre:** no doy "precio objetivo". La valoracion de TPL es intrinsecamente dificil porque (a) sus flujos son pro-ciclicos al petroleo/gas, (b) el multiple "justo" de una franquicia de foso amplio con balance de fortaleza merece prima sobre el sector (8-15x), pero la prima actual ya descuenta un crecimiento perpetuo y una des-correlacion del ciclo que no esta garantizada, y (c) la opcionalidad de data centers/desalacion es real pero aun no esta en los flujos. Mi banda refleja un multiple de calidad *razonable pero no exuberante*. Si el mercado comprime TPL a sus ratios historicos bajos (~25-30x FCF), el soporte de valor esta en $190-230.
+
+## 6. Equipo directivo e incentivos
+
+- **Tyler Glover** (CEO/Presidente) y **Chris Steddum** (CFO) lideran desde la conversion a corporacion (2021). Track record solido: han mantenido el balance limpio, evitado M&A destructivo, devuelto capital y ejecutado el giro hacia agua y superficie sin apalancarse.
+- **Alineacion:** accionista de referencia es **Horizon Kinetics Holding Corp (~15,6%)** —el mismo grupo activista que gano el proxy fight de 2019 y forzo la conversion a corporacion—. Es un accionista de conviccion a largo plazo, no un fondo pasivo. Los insiders directos solo poseen 0,36% (bajo), y se han visto ventas en 2026 (vigilar).
+- **Capital allocation**: discipline de "target de caja $700M" por encima del cual reparte; recompra solo por debajo de valor intrinseco. El historial 1980-1995 (reduce acciones 34% mientras vende solo 8% de tierra) confirma mentalidad pro-accionista de larga data.
+- No es founder-led, asi que no hay prima de "owner-operator", pero la governance mejoro tras 2021.
+
+## 7. Riesgos
+
+1. **Sensibilidad a precios de petroleo/gas (y posicion sin hedge):** TPL esta 100% sin cubrir. WTI cayo ~15% en 2025; el precio realizado de regalia bajo de $39,87 (2024) a $34,18 (2025). Un entorno de precios bajos golpea regalias y volumen de agua a la vez.
+2. **Concentracion en una cuenca:** todo esta en el Permian (Oeste de Texas y SE de Nuevo Mexico). Riesgo geografico y de infraestructura (diferenciales Waha negativos por cuellos de transporte).
+3. **Concentracion de clientes:** ~40% de los ingresos 2025 provinieron de solo 3 operadores. Menos actividad de uno de los tres afecta reported revenue.
+4. **Regulacion del agua producida / sismicidad:** la inyeccion de agua producida se ha vinculado a terremotos en Oeste de Texas; la Railroad Commission de Texas podria limitar volumenes, afectando el segmento WSO (ya ~38% de ingresos).
+5. **Riesgo de valoracion / compresion de multiple:** cotizar a ~47x FCF deja margen de error nulo. Una combinacion de recorte de multiple + ciclo bajista de commodities es el escenario adverso mas probable, no una cola remota.
+6. **Transicion energetica a largo plazo:** la dependencia de la demanda perpetua de fossililes en el Permian es el riesgo estructural de 10-20 anos. La diversificacion a data centers/energia es una cobertura, pero aun incipiente.
+7. **Ejecucion en nuevas apuestas:** desalacion (Orla, 10k bbl/d) y data centers (Bolt, Project Kilby con Chevron) son prometedores pero con riesgo de ejecucion y capex creciente que podria presionar los margenes historicos.
+
+## 8. Catalizadores y noticias recientes (2024-2026)
+
+- **2024:** entrada en el S&P 500 (junio MidCap 400, noviembre S&P 500); record de ingresos ($706M) y FCF ($461M); $400M en adquisiciones de regalias/superficie; dividendo especial de $10/accion.
+- **Dic 2025:** acuerdo con **Bolt Data & Energy** (ex-CEO de Google) para campos de data centers en sus tierras; TPL invierte $50M por equity, warrants y derecho de primer rechazo para suministrar agua. La accion subio fuertemente con la noticia.
+- **Jun 2026:** acuerdo con **Chevron (Project Kilby)** en Reeves County: TPL aporta superficie y agua salobre para una planta de generacion multi-gigawatt que soporta un data center; cobra efectivo + derecho exclusivo de agua de acuifero.
+- **Ago 2026 (Q2):** resultados record; comisionamiento de la planta de desalacion en Orla (freeze desalination, 10k bbl/d), con opcionalidad de agua dulce de alta especificacion y salmuera para litio; la directiva menciona "conversaciones avanzadas sobre 25 gigavatios" de proyectos de poder/computo en Oeste de Texas. TPL adquirio tierras fuera del Permian (Shackelford, Jones) para power generation.
+- **Adquisiciones del sector:** Viper compro Sitio Royalties por $4,1B (2025), consolidando el espacio de royalty y dejando a TPL como la unica gran compañia mixta superficie+agua.
+
+## 9. Tesis bull / bear
+
+**Bull:** foso de activo irrepetible en la mejor cuenca de EE.UU.; balance de fortaleza (cero deuda); ROIC ~38%; FCF recurrente y creciente; diversificacion unica agua+superficie que pares no tienen; opcionalidad de data centers/desalacion/energia como tercera pata de crecimiento aun no plegada en el precio; accionista de control de conviccion (Horizon Kinetics). A 10-20 anos es, probablemente, una de las formas mas seguras de exponerse al Permian sin riesgo de perforacion.
+
+**Bear:** el precio ya lo descuenta todo. A ~47x FCF, cualquier decepcion de volumen/precio o compresion de multiple destruye rentabilidad. Es un negocio totalmente pro-ciclico y sin hedge, concentrado en una cuenca y en pocos clientes. La "nueva" narrativa de IA/data centers es emocionante pero ejecucion-incierta y podria exigir capex que diluya los margenes de regalia. El riesgo de permanent loss no es de quiebra (imposible con ese balance) sino de **multiple compression**: pagar 50x por flujos atados al petroleo puede borrar una decada de crecimiento operativo. Varios analistas (Seeking Alpha "Priced for Perfection", Moschovakis) sitian valor defensible en $180-225.
+
+## 10. Fuentes
+
+1. Wikipedia — https://en.wikipedia.org/wiki/Texas_Pacific_Land_Corporation
+2. SEC 10-K FY2025 (EDGAR) — https://www.sec.gov/Archives/edgar/data/1811074/000181107426000018/tpl-20251231.htm
+3. TPL 10-K FY2024 (PDF IR) — https://www.texaspacific.com/investors/sec-filings/all-sec-filings/content/0001811074-25-000044/0001811074-25-000044.pdf
+4. Resultados Q4/FY2025 (IR) — https://www.texaspacific.com/investors/news-events/press-releases/detail/179/texas-pacific-land-corporation-announces-fourth-quarter-and
+5. Resultados Q2 2026 (IR) — https://www.texaspacific.com/investors/news-events/press-releases/detail/187/texas-pacific-land-corporation-announces-second-quarter
+6. Acuerdo Chevron Project Kilby (IR) — https://www.texaspacific.com/investors/news-events/press-releases/detail/185/texas-pacific-land-corporation-announces-agreement-to
+7. MoatScan AI (moat) — https://moatscan-ai.com/analysis/TPL
+8. KoalaGains business & moat — https://koalagains.com/stocks/NYSE/TPL/business-and-moat
+9. KoalaGains competidores — https://koalagains.com/stocks/NYSE/TPL/competition
+10. KoalaGains analisis financiero — https://koalagains.com/stocks/NYSE/TPL/financial-statement-analysis
+11. StockAnalysis estadisticas — https://stockanalysis.com/stocks/tpl/statistics/
+12. StockAnalysis financieros — https://stockanalysis.com/stocks/tpl/financials/
+13. PolicyRisk (riesgos SEC) — https://policyrisk.com/world/company/TPL
+14. Seeking Alpha "Priced For Perfection" — https://seekingalpha.com/article/4934902-texas-pacific-land-priced-for-perfection
+15. Moschovakis Capital (bear/valoracion) — https://moschovakiscapital.com/tpl-stock-analysis-2026-avoid/
+16. Trefis (datos/riesgos) — https://www.trefis.com/data/companies/TPL
+17. FinancialContent deep-dive — https://www.financialcontent.com/article/finterra-2026-4-2-the-landlord-of-the-permian-a-deep-dive-into-texas-pacific-land-corporation-tpl
+
+## 11. Veredicto de Carlos
+
+Desde la optica *value-quality* con disciplina de margen de seguridad: **VIGILAR**.
+
+TPL es, sin rodeos, uno de los mejores negocios que existe en energia —foso de activo irrepetible, balance de fortaleza, ROIC ~38%, FCF creciente y una opcionalidad de agua/data centers que nadie mas en el sector tiene. Lo compraria y mantendria encantado en una cartera a 10-20 años. **Pero el precio lo es todo en value investing**, y hoy TPL cotiza a ~47x beneficios y ~48x flujo de caja libre, un 32-50% por encima de mi valor intrinseco de calidad ($185-250). No hay margen de seguridad: el riesgo no es de quiebra (con ese balance es practicamente nulo), sino de recomprimir el multiple mientras el ciclo de commodities gira.
+
+**Condiciones de entrada:**
+- **Zona de acumulacion gradual:** por debajo de **$240/acc** (P/FCF ~28-30x, P/E ~30x), donde empieza a aparecer margen de seguridad parcial.
+- **Zona atractiva / margen de seguridad pleno:** **< $200/acc** (P/FCF ~22-25x), nivel desde el cual la tesis de "pagar por calidad" esta justificada.
+- **Reevaluar** si (a) el precio cae a esas zonas, (b) la opcionalidad de data centers/desalacion empieza a generar flujos recurrentes demostrables que eleven el valor intrinseco, o (c) el multiplo se contrae a su rango historico bajo (25-30x FCF) sin deterioro de fundamentals.
+
+Mientras tanto: observar, no perseguir. Excelente empresa, precio incorrecto. Revisar el 2026-11-25 (post Q3 2026 y evolucion de data centers/desalacion).

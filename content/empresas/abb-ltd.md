@@ -49,7 +49,7 @@ Capital goods eléctrico/automatización: la economía del sector la dicta el ci
 (energía, redes, data centers, nearshoring industrial). KPIs que importan: **pedidos y book-to-bill**
 (adelantan ingresos 6-18 meses), margen EBITA operacional, conversión de caja y crecimiento de la
 base de servicio. Competidores directos: [[siemens]], [[schneider-electric]], eaton,
-emerson electric, [[rockwell-automation]]; en variadores, presión china de costes.
+[[emerson-electric]], [[rockwell-automation]]; en variadores, presión china de costes.
 **Método de valoración que dicta**: múltiplos sobre EPS normalizado de ciclo medio (no DCF eterno al
 12% de crecimiento) porque los pedidos son cíclicos aunque la demanda estructural (electrificación,
 IA) sea secular. **Trampa clásica**: pagar múltiplo de compounder perpetuo justo en el pico del ciclo

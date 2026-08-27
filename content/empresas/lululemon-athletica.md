@@ -1,0 +1,119 @@
+---
+title: "Análisis Fundamental — Lululemon Athletica (LULU)"
+tipo: empresa
+tags: [empresa, lululemon-athletica]
+fecha: 2026-08-27
+agente: carlos-barez
+ticker: LULU
+moneda: USD
+precio_referencia: 116.40
+fecha_precio: 2026-08-27
+valor_estimado: 170-235 (rango intrínseco por acción, P/E 14-18x sobre EPS normalizado ~13 USD + caja neta; alto grado de incertidumbre)
+gatillo_entrada: acumular por debajo de 100-110 USD (P/E <9x sobre EPS previsto); convicción alta si cae por debajo de 100 USD
+veredicto: VIGILAR
+revisar_el: 2026-11-25
+fuentes: "[\"https://corporate.lululemon.com/media/press-releases/2026/03-17-2026-200620717\", \"https://corporate.lululemon.com/media/press-releases/2026/06-04-2026-210523775\", \"https://www.stockanalysis.com/stocks/lulu/\", \"https://stockanalysis.com/stocks/lulu/statistics/\", \"https://stockanalysis.com/stocks/lulu/forecast/\", \"https://eightx.co/blog/lululemon-teardown\", \"https://www.stratrix.com/moat-anatomy/what-actually-protects-lululemon-anatomy-of\", \"https://www.morningstar.com/company-reports/1148990-narrow-moat-lululemons-popularity-continues-to-rise-but-its-competition-is-increasing\", \"https://umbrex.com/resources/company-profiles/lululemon/\", \"https://corporate.lululemon.com/media/press-releases/2025/12-11-2025-210527531\", \"https://www.reuters.com/sustainability/boards-policy-regulation/lululemon-athletica-ceo-step-down-january-2025-12-11/\", \"https://www.retailtouchpoints.com/topics/market-news/athleisure-faceoff-how-lululemon-vuori-alo-and-fabletics-are-making-their-case-to-consumers\", \"https://ca.marketscreener.com/news/lululemon-athletica-annual-report-for-fiscal-year-ending-february-1-2025-form-10-k-ce7e5ed8da8bf420\", \"https://www.ainvest.com/news/lululemon-struggling-outlook-tariff-driven-downturn-competitive-market-2509/\", \"https://www.gurufocus.com/term/forward-pe-ratio/LULU\", \"https://vcpscanner.com/valuation/lulu\"]"
+---
+
+# Análisis Fundamental — Lululemon Athletica (LULU)
+
+## 1. Resumen ejecutivo
+Lululemon Athletica (NASDAQ: LULU) es la principal marca mundial de ropa técnica premium para yoga, entrenamiento y "athleisure", nacida en Vancouver en 1998 (fundador Chip Wilson; IPO en 2007). Su diferencia estructural frente al sector es un modelo vertical *direct-to-consumer* (DTC): diseña y comercializa, externaliza la manufactura, pero vende casi toda su producción por canales propios (tiendas y e-commerce), sin mayoreo relevante. Eso le otorga márgenes brutos de 56-59% — muy superiores a Nike, Adidas o Under Armour — y control total de precio, datos de cliente y experiencia de marca. El negocio es de altísima calidad (ROIC ~28%, ROE ~32%, balance sin deuda financiera neta y fuerte generación de caja), pero entra en 2026 con tres frentes abiertos: (i) debilidad sostenida en América (el 66% de los ingresos), (ii) un shock de aranceles estadounidenses cuantificado en ~275 M$ sobre el margen bruto de 2025 y con efecto continuado en 2026, y (iii) una transición de CEO sin sucesor nombrado y con ruido del fundador. El mercado ha castigado el múltiplo de ~40x a ~9-10x PER, lo que abre un margen de seguridad atractivo para un inversor de calidad/valor, pero la tesis exige confirmación de estabilización en América y de resolución del liderazgo. **Veredicto: VIGILAR, con disparador de compra por debajo de 100-110 USD.**
+
+## 2. Descripción del negocio
+Lululemon vende ropa técnica y accesorios para mujer (núcleo), hombre y "footwear" (en expansión), bajo un *masterbrand* único y plataformas de producto con masa crítica: legging **Align**, **Wunder Train**, pantalón **ABC**, sudadera **Scuba**, y telas propietarias (Luon, Nulu, Everlux). El modelo de ingresos es transaccional (no suscripción), pero de reposición recurrente: el cliente vuelve por colores de temporada, nuevas siluetas y categorías adyacentes.
+
+Mix de canal (FY2024): tiendas operadas por la compañía 47,3%, online 43,2%, "other" 9,5%. En Q1 FY2026 el digital fue el 40% de los ingresos. Geografía (FY2024): EE. UU. 61,2%, China 14,6% (segundo mercado, ~140 tiendas), Canadá 13,3%, México 0,3%, resto 10,6%. A cierre de Q1 FY2026 operaba **816 tiendas** globales (+11% de superficie interanual). La estrategia pública "Power of Three x2" (lanzada en 2022) fijaba para 2026 duplicar ingresos hasta ~12.500 M$ (desde 6.300 M$ en 2021), duplicar hombres, duplicar digital y cuadruplicar internacional.
+
+El motor de caja es el pago anticipado del consumidor y la externalización de manufactura, combinados con un modelo de comunidad (embajadores, educadores en tienda) que genera demanda orgánica con bajo gasto publicitario tradicional: SG&A ~36,6% de ingresos en FY2025, pero buena parte es operación de tienda, no medios de pago.
+
+## 3. Industria y moat competitivo
+El mercado global de athleisure superó 358.000 M$ en 2023 y crece ~9,3% anual (CAGR hasta 2030, Grandview). Es una industria fragmentada, de moda y ciclo discrecional: el riesgo de "dupe culture" y de saturación en EE. UU. es real. Morningstar califica a LULU con **foso estrecho (narrow moat)**, basado en el activo intangible de marca.
+
+Mi lectura, coincidente con análisis recientes (Stratrix, Eightx), es que el foso real no es la tela ni la comunidad — ambos son imitables — sino el **sistema DTC vertical sin intermediario mayorista**: al no ceder el precio a Macy's, Nordstrom o Foot Locker, Lululemon retiene el margen minorista completo y mantiene precio, datos y experiencia en una sola mano. Eso produce el 56-59% de margen bruto y el ~20% de margen operativo, y se autofinancia (2.000 M$ de caja, cero deuda financiera). Es un "flywheel" difícil de replicar a escala por un competidor que venda por mayoreo.
+
+Posición vs competidores (cuota de gasto en athleisure en EE. UU., Earnest Analytics): **Nike 31,6%**, **Lululemon 21,2%** (#2), Athleta 4,4%, Fabletics 4,4%, **Vuori 2,9%**, **Alo Yoga 1,3%**. Los retadores privados son pequeños en cuota pero ruidosos: **Alo Yoga** (precio ~128 $, influencers/celebrities, el buzz más alto del sector) y **Vuori** (hombre, 825 M$ levantados en 2024 a 5.500 M$ de valoración con SoftBank/General Atlantic, planea 100+ tiendas en EE. UU.). Nike sigue dominando por lejos; Athleta (Gap) compite en mujer. El foso es estrecho y está siendo presionado por la cima del precio premium, no por el fondo.
+
+## 4. Análisis financiero (FY cierra finales de enero / inicios de febrero)
+Crecimiento de ingresos: FY2021 6.260 M$ (+42%), FY2022 8.110 M$ (+30%), FY2023 9.620 M$ (+19%), FY2024 10.590 M$ (+10%), **FY2025 11.103 M$ (+4,9%; +7% ex-semana 53)**. La desaceleración es marcada.
+
+**FY2025 (cerrado el 1-feb-2026):**
+- Ingresos 11.103 M$ (+4,9%); América −1%, Internacional +22% (+20% cc).
+- Margen bruto 56,6% (−260 pb vs 59,2% en FY2024); margen operativo 19,9% (−380 pb vs 23,7%).
+- Ingreso neto 1.579 M$ (−13,0%); margen neto 14,2%; EPS diluido 13,26 USD (vs 14,64).
+- Q4: ingresos 3.641 M$ (+1%), margen bruto 54,9% (−550 pb), margen operativo 22,3% (−660 pb), EPS 5,01 USD.
+- Caja operativa 1.602 M$; FCF ~922 M$ (capex de crecimiento alto; −42% interanual por working capital e inversión).
+- Recompra de 5,0 M de acciones por 1.200 M$ en el año; en 5 años (FY21-25) recompró ~4.600 M$.
+
+**Q1 FY2026 (cerrado el 3-may-2026):**
+- Ingresos 2.500 M$ (+4%, +2% cc); comparables +1% (−2% cc).
+- **América −3% (−4% cc); comparables −5% (−6% cc)** — el 66% de los ingresos. China Mainland **+30% (+23% cc)**; comparables +13% (timing de Año Nuevo chino +8 pp). Resto del mundo +13%.
+- Digital 40% de ingresos (+4%); Hombre +7%, Mujer +4%. 816 tiendas.
+- Guía FY2026: ingresos 11.000-11.150 M$ (**plano a −1%**); América −high single digits, China +~20%, RoW mid-teens. Guía Q2: −2% a −3%.
+
+**Calidad de balance y rentabilidad (a 27-ago-2026):**
+- Caja 1.510 M$; deuda total 2.140 M$ (incluye arrendamientos de tienda; **deuda financiera/por intereses = 0**), deuda neta −621 M$. Ratio corriente 2,23; Deuda/EBITDA 0,67; D/E 0,44.
+- **ROE 32,0%; ROIC 27,7%.** Sin dividendo; yield de recompra 3,94%. Margen bruto TTM 55,7%, operativo 18,3%, neto 13,0%.
+
+## 5. Valoración
+A 116,40 USD (27-ago-2026), *market cap* 13.220 M$ (−43% interanual). Múltiplos:
+- **PER trailing 9,38x; PER forward 10,58x**; P/S 1,18; P/B 2,76; **P/FCF 10,33x; EV/EBITDA 5,40x**; EV/FCF 10,82.
+- Yield de FCF 9,7%; yield de earnings 11,0%.
+- Histórico de PER: 2021 73,8x, 2022 44x, 2023 45x, 2024 39x, 2025 28x, 2026 ~13,5x. **El múltiplo se ha desplomado de ~40-70x a ~10x** — el mercado ya no la trata como "disruptor de crecimiento" sino como marca madura de crecimiento lento y riesgo de tarifa.
+- Consenso de analistas: *Hold*; objetivo medio ~122-128 USD (rango 88-280). Goldman 111 (26-ago), Morgan Stanley *Sell* 93, UBS 120. Modelos DCF dispares: VCP ~142 USD; GuruFocus GF Value 358 USD ("significantly undervalued"); SharesGrow IV 223 USD. No los tomo como precios objetivo: son sensibles a supuestos.
+
+**Estimación de valor intrínseco (Carlos):** aplicando 14-18x a un EPS normalizado de ~13 USD (asumiendo que el golpe arancelario se mitiga parcialmente en 2027-28 y que América deja de contraerse), más la caja neta positiva, el valor razonable ronda **170-235 USD/acción**. Eso implica un margen de seguridad amplio sobre el precio actual (~9-10x). Pero la incertidumbre es alta: si América sigue cayendo y los aranceles persisten, el EPS podría comprimirse hacia 11-12 USD, y un múltiplo de 10x daría ~110-140, cercano al precio. **No doy "precio objetivo" falso; el rango es una banda de convicción baja a media, no una certeza.**
+
+## 6. Equipo directivo e incentivos
+**Calvin McDonald** (CEO 2018-ene 2026) triplicó los ingresos y expandió internacional; salió sin sucesor tras un año de ventas decepcionantes en América. Acuerdo de separación: 3,05 M$ + 2,1 M$ de indemnización + bonus FY2025 (filing SEC).
+
+Hoy **co-CEO interinos**: **Meghan Frank** (CFO) y **André Maestrini** (CCO/Presidente), con retenciones de 1,5 M$ y 0,75 M$ respectivamente y awards de 4 M$ cada uno. **Marti Morfitt** (Chair) asumió como *Executive Chair* para asegurar la estrategia. La búsqueda de CEO permanente sigue abierta — riesgo de liderazgo sin timonel definido.
+
+Ruido de gobernanza: según WSJ/Reuters, el **fundador Chip Wilson** — que ya protagonizó conflictos en el pasado (claims terapéuticos retirados en 2007 por Competencia Canadá) — habría considerado un *proxy fight* por la dirección de marketing y la junta. Es un overhang de accionista significativo (aún con participación relevante) que puede presionar el rumbo y la cultura.
+
+Incentivos de capital: recompra agresiva (yield 3,94%, ~4.600 M$ en 5 años) que redujo acciones de ~125 M (FY2020) a ~113,5 M (TTM). **Pero en Q1 FY2026 recompraron 2,2 M de acciones a 165 USD de media** — por encima del precio actual de 116 USD: mal timing de asignación de capital que resalta la dificultad de comprar en fondo.
+
+## 7. Riesgos
+1. **Aranceles y de minimis (cuantificado y continuado).** 275 M$ de reducción de margen bruto en 2025; la 10-K guía "declive continuado de márgenes en 2026". Sourcing concentrado en Vietnam/Bangladesh/Cambodia; e-commerce de EE. UU. cumplido desde Canadá (golpeado por la eliminación de *de minimis* el 29-ago-2025). 216 M$ remitidos bajo IEEPA; la Corte Suprema invalidó IEEPA (20-feb-2026) pero la Administración reimpuso aranceles por otras vías y *de minimis* sigue eliminado. Mitigación (subidas de precio selectivas, renegociación de proveedores, diversificación de sourcing) tardará 18-30 meses y "no se espera que compense" totalmente.
+2. **Saturación y debilidad en América (66% de ingresos).** Tráfico, conversión y ticket cayendo a la vez; comparables de América −5% en Q1'26. El athleisure en EE. UU. se describe como "saturated".
+3. **Competencia bien capitalizada en el mismo tramo premium.** Alo Yoga (mismo precio, buzz alto) y Vuori (hombre, 5.500 M$ de valoración, 100+ tiendas) limitan la capacidad de subir precios para trasladar aranceles.
+4. **Concentración China (19% de ingresos, +30%).** Es el motor que hoy compensa a América; riesgo geopolítico (tensiones EE. UU.-China, nacionalismo de consumo) podría amputar el crecimiento.
+5. **Ejecución de merchandising.** Stockouts de colores/tallas (2024) y retirada del legging *Breezethrough* por mal fit. El modelo vertical amplifica los errores (no hay buffer mayorista).
+6. **Transición de liderazgo + overhang del fundador.** Sin CEO permanente y con Chip Wilson potencialmente activo en la junta.
+
+## 8. Catalizadores y noticias recientes (2024-2025/26)
+- **Resultados FY2025 (17-mar-2026):** ingresos 11,1 B$, EPS 13,26, pero margen bruto −260 pb por aranceles.
+- **Sucesión de CEO (11-dic-2025):** McDonald sale al 31-ene-2026; co-CEO interinos; Morfitt como Executive Chair; búsqueda en curso.
+- **Q1 FY2026 (4-jun-2026):** China +30%, América −3%; guía de año plana a −1%.
+- **Régimen arancelario 2025:** baseline 10% (2-abr), *de minimis* eliminado (29-ago); invalidación IEEPA por Suprema Corte (20-feb-2026) con reimposición por otras vías.
+- **Expansión China:** ~140 tiendas, crecimiento compuesto ~45% en 3 años (577 M$ FY2022 → 1.750 M$ FY2025). Lanzamientos de producto (footwear, SenseKnit) con respuesta inicial "alentadora".
+
+## 9. Tesis bull / bear
+**Bull:** modelo DTC premium con margen bruto 56-59% estructuralmente superior a pares; ROIC ~28% y ROE ~32%; balance sin deuda financiera neta y caja sólida; recompra de acciones (yield ~4%) reduciendo flotación; China +30% y plan internacional cuadruplicando; cotiza a ~9-10x PER vs media quinquenal de ~40x — mercado que probablemente sobrecastiga una marca #2 en EE. UU. con franquicia intacta. Si América se estabiliza y los aranceles se mitigan en 2027, el EPS normalizado de ~13 USD justifica 170-235 USD.
+
+**Bear:** América (66% de ingresos) en declive sostenido por saturación y pérdida de "brand heat" frente a Alo/Vuori; aranceles estructurales (275 M$ ya, más en 2026) que comprimen márgenes sin poder trasladar precio; dependencia de China para sostener el total; liderazgo interino y ruido del fundador; EPS previsto plano/decreciente en 2026-27 (forward ~13 USD). El múltiplo de 10x puede ser correcto si la franquicia ha madurado y no es solo ciclo.
+
+## 10. Fuentes
+1. Resultados FY2025 (Lululemon IR): https://corporate.lululemon.com/media/press-releases/2026/03-17-2026-200620717
+2. Resultados Q1 FY2026 (Lululemon IR): https://corporate.lululemon.com/media/press-releases/2026/06-04-2026-210523775
+3. Stock Analysis (precio y overview): https://stockanalysis.com/stocks/lulu/
+4. Stock Analysis (estadísticas/valoración): https://stockanalysis.com/stocks/lulu/statistics/
+5. Stock Analysis (consenso analistas): https://stockanalysis.com/stocks/lulu/forecast/
+6. Eightx Teardown (moat, aranceles, competidores): https://eightx.co/blog/lululemon-teardown
+7. Stratrix (anatomía del moat = canal DTC): https://www.stratrix.com/moat-anatomy/what-actually-protects-lululemon-anatomy-of
+8. Morningstar (narrow moat): https://www.morningstar.com/company-reports/1148990-narrow-moat-lululemons-popularity-continues-to-rise-but-its-competition-is-increasing
+9. Umbrex (modelo de negocio): https://umbrex.com/resources/company-profiles/lululemon/
+10. Sucesión de CEO (Lululemon IR): https://corporate.lululemon.com/media/press-releases/2025/12-11-2025-210527531
+11. Reuters (salida de McDonald, posible proxy fight de Chip Wilson): https://www.reuters.com/sustainability/boards-policy-regulation/lululemon-athletica-ceo-step-down-january-2025-12-11/
+12. Retail TouchPoints (cuotas de mercado Alo/Vuori/Athleta): https://www.retailtouchpoints.com/topics/market-news/athleisure-faceoff-how-lululemon-vuori-alo-and-fabletics-are-making-their-case-to-consumers
+13. MarketScreener (detalle aranceles 10-K FY2025): https://ca.marketscreener.com/news/lululemon-athletica-annual-report-for-fiscal-year-ending-february-1-2025-form-10-k-ce7e5ed8da8bf420
+14. AInvest (outlook arancelario/valoración): https://www.ainvest.com/news/lululemon-struggling-outlook-tariff-driven-downturn-competitive-market-2509/
+15. GuruFocus (histórico de PER forward): https://www.gurufocus.com/term/forward-pe-ratio/LULU
+16. VCP Scanner (DCF/valoración relativa): https://vcpscanner.com/valuation/lulu
+
+## 11. Veredicto de Carlos
+Desde la óptica *value-quality* de largo plazo, Lululemon es un negocio de **alta calidad pero con viento en contra cualitativo abierto**. Me gusta el foso (marca + canal DTC que blinda el margen), la ausencia de deuda financiera neta, el ROIC ~28% y la capacidad de autofinanciar crecimiento y recompras. A ~9-10x PER y EV/EBITDA 5,4x, el mercado descuenta un declive estructural que, en mi lectura, es parcialmente cíclico (aranceles + saturación de América) y parcialmente competitivo real (Alo/Vuori). Eso crea un **margen de seguridad interesante** si la franquicia no está rota.
+
+Pero la disciplina *value-quality* exige comprar con margen de seguridad **y** visibilidad. Hoy hay demasiadas incógnitas sin cerrar: (a) ¿se estabiliza América o sigue contrayéndose?; (b) ¿se nombra un CEO permanente con track record de crecimiento/transformación?; (c) ¿se resuelve el ruido del fundador?; (d) ¿se mitigan los aranceles en 2027 sin destruir más margen? Por eso mi veredicto es **VIGILAR**, no COMPRAR ciego.
+
+**Condiciones de entrada:** acumular por debajo de **100-110 USD** (PER <9x sobre EPS previsto, P/B ~2,3x), zona donde el margen de seguridad ya cubre un escenario adverso de EPS ~12 USD. Convicción alta si cae por debajo de **100 USD**. Revisar el 25-nov-2026 tras conocer Q3 FY2026 y, esperemos, la designación de CEO permanente y señales de estabilización en América. Mientras, permanece en *watchlist* como oportunidad de calidad a precio de valor.
