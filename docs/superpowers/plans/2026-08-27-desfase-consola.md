@@ -599,6 +599,53 @@ cd "/Users/carlosbarez/Documents/Cerebro Carlos" && git add web/publicador/publi
 
 ---
 
+### Tarea 8: Empujar y comprobar el despliegue (anadida 2026-08-27 por Opus 5)
+
+El plan original terminaba en la Tarea 7 con «commits locales si, push no». Correcto cuando se
+escribio (habia commits de diseno ajeno sin decidir), pero deja la meta sin cumplir: la meta dice
+«la web publica queda a la par de la consola», y lo publico es lo que sirve Vercel, no lo que hay
+en un repo local. Sin push, el sitio siguio sirviendo el build del 26-ago 07:52. Carlos autorizo
+el push el 2026-08-27.
+
+- [x] **Paso 1: Verificar la puerta sobre lo YA commiteado** (no vale la del momento de generar)
+
+```bash
+cd "/Users/carlosbarez/Documents/Cerebro Carlos" && python3 -c "
+import sys; sys.path.insert(0,'.')
+from web.publicador.puerta import cifras_privadas, rastrea
+c = cifras_privadas('wiki/perfil/cartera-actual.md')
+print(len(c), 'cifras vigiladas ->', len(rastrea('/Users/carlosbarez/cerebro-publico/content', c)), 'hallazgos')"
+```
+
+Medido: 98 cifras vigiladas, 0 hallazgos.
+
+- [x] **Paso 2: Push a `origin/v5`**
+
+```bash
+cd /Users/carlosbarez/cerebro-publico && git push origin v5
+```
+
+**Falla la primera vez** con `RPC failed; HTTP 400` / `send-pack: unexpected disconnect`. No es un
+permiso ni la red: es el buffer HTTP contra un empujon de ~18k lineas con los dos PNG de la pieza.
+Ojo con el modo de fallo: tras el `fatal:`, git imprime `Everything up-to-date`, que se lee como
+exito. Comprobar `git status -sb` (seguia `ahead 2`), no la ultima linea. Arreglo, una vez:
+
+```bash
+git config http.postBuffer 524288000 && git push origin v5
+```
+
+- [x] **Paso 3: Comprobar el despliegue en el sitio servido, no en el panel**
+
+```bash
+curl -s https://cerebro-publico.vercel.app/ | grep -o 'static/cerebro[a-z.-]*js'
+curl -sI https://cerebro-publico.vercel.app/ | grep -i '^age:'
+```
+
+Esperado: los cuatro scripts de la pieza, y un `age` que se reinicia. Vercel redespliega solo al
+recibir el push; no hay panel que tocar.
+
+---
+
 ## Self-Review
 
 - **Cobertura:** pieza viva (T1, T2, T3, T4), cerebro más grande 940px/78vh y móvil 430px (T4), chat con formato (T5, T6), veredicto obligatorio (T6), pulso/newsletter anonimizados (T7 vía publicador), `==subrayado==` (T4 paso 5 + T5), fondo ambiental (T2, T3). Fuera de alcance declarado en Global Constraints.
