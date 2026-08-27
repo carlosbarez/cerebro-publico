@@ -20,6 +20,14 @@ const MODELO = "models/gemini-flash-lite-latest"
 const BASE_GOOGLE = "https://generativelanguage.googleapis.com/v1beta/openai"
 const MAX_TOKENS = 1200
 
+// ponytail: contador en memoria del modulo. En Vercel cada instancia tiene el suyo, asi que esto
+// frena al ruidoso, NO al determinado: con suficientes instancias frias el cupo se multiplica.
+// Si algun dia hay trafico de verdad, esto se cambia por estado compartido (Runtime Cache), no por
+// mas codigo aqui. El unico techo duro de verdad es el limite de gasto en Google Cloud.
+const CUPO_PREGUNTAS = 12
+const VENTANA_MS = 5 * 60 * 1000
+const LLAMADAS_POR_IP = new Map()
+
 function responde(res, codigo, datos) {
   res.status(codigo).json(datos)
 }
@@ -51,6 +59,16 @@ export default async function handler(req, res) {
     if (pregunta.length > 2000) {
       return responde(res, 413, { error: "la pregunta no puede pasar de 2000 caracteres" })
     }
+
+    // Ventana deslizante por IP. Sin cabecera x-forwarded-for se cuenta como IP comun "sin-ip".
+    const ahora = Date.now()
+    const ip = String(req.headers["x-forwarded-for"] ?? "").split(",")[0].trim() || "sin-ip"
+    const recientes = (LLAMADAS_POR_IP.get(ip) ?? []).filter((t) => t > ahora - VENTANA_MS)
+    if (recientes.length >= CUPO_PREGUNTAS) {
+      return responde(res, 429, { error: "demasiadas preguntas seguidas, prueba en unos minutos" })
+    }
+    recientes.push(ahora)
+    LLAMADAS_POR_IP.set(ip, recientes)
 
     const clave = process.env.GOOGLE_API_KEY
     if (!clave) {
