@@ -8,13 +8,11 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 // CSS igual—, y Body es el unico envoltorio por el que pasan los tres frames (default, full-width y
 // minimal), asi que una sola copia cubre las 1.098 paginas y las dos bases.
 //
-// Los destinos son los que EXISTEN hoy. «Chat con Elisa» apunta al ancla de la portada donde vivira
-// el cuadro del chat (fase 4-5): mientras el endpoint no este desplegado es el unico destino que no
-// puede dar 404.
+// Los destinos son los que EXISTEN hoy. «Chat con Elisa» apunta al ancla #chat de la portada, donde
+// ya vive el cuadro del chat.
 const SECCIONES = [
   { texto: "Chat con Elisa", href: "/#chat" },
   { texto: "Newsletter", href: "/actualidad" },
-  { texto: "Cartera", href: "/#dato-cartera" },
   { texto: "Biblioteca", href: "/biblioteca.base" },
 ]
 
