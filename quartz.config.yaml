@@ -9,7 +9,7 @@ configuration:
   # notas de inversion y no tiene por que contar quien las lee.
   analytics: {}
   locale: es-ES
-  baseUrl: cerebro-publico.vercel.app
+  baseUrl: cerebro-carlos-wygu.vercel.app
   ignorePatterns:
     - private
     - templates

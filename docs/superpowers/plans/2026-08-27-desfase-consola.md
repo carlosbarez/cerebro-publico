@@ -675,9 +675,31 @@ silencioso: si el criterio es visual, el fallback aprueba el examen.
 
 ---
 
+## Decidido y pendiente (2026-08-27)
+
+**Carlos elige quedarse con UN solo proyecto de Vercel: `cerebro-carlos-wygu`.** Medido antes de
+decidir: es de los dos que sirven al publico sin login, y esta al dia. `baseUrl` ya apunta ahi.
+
+Lo que queda es de consola de Vercel y solo lo puede hacer Carlos (borrar un proyecto es un borrado
+permanente de despliegues, y exige su sesion):
+
+1. **Añadir `GOOGLE_API_KEY`** en `cerebro-carlos-wygu` -> Settings -> Environment Variables
+   (Production). Medido hoy: `POST /api/pregunta` devuelve `503 el chat no esta configurado` en los
+   dos proyectos publicos — el chat de Elisa lleva caido en la web desde que existe. El valor esta
+   en el `.env` de la consola, asi que borrar proyectos no lo pierde. La variable **no surte efecto
+   hasta el siguiente despliegue**.
+2. **Borrar `cerebro-publico` y `ccerebro-carlos`** -> Settings -> Advanced -> Delete Project.
+   Antes de borrar `cerebro-publico`, mirar si tiene la clave puesta: es el sospechoso de tenerla,
+   y esta detras del SSO, que es justo por lo que no se pudo comprobar desde fuera.
+3. Con eso, cada push pasa de tres builds de 1.293 paginas a uno.
+
+---
+
 ## Hallazgos abiertos (para Carlos, 2026-08-27)
 
-1. **`quartz.config.yaml:12` tiene `baseUrl: cerebro-publico.vercel.app`, que es de OTRO.** Ese
+1. ~~**`quartz.config.yaml:12` tiene `baseUrl: cerebro-publico.vercel.app`, que es de OTRO.**~~
+   RESUELTO 2026-08-27: apunta a `cerebro-carlos-wygu.vercel.app`. Se deja el hallazgo por que
+   ese dominio corto sigue siendo de un tercero y conviene no volver a escribirlo. Ese
    dominio sirve hoy un Quartz ajeno («resumenes de libros, papers y videos sobre educacion»): el
    nombre estaba cogido y Vercel le puso a este proyecto otro. El sitio de Carlos vive en
    **`cerebro-carlos-wygu.vercel.app`**. El `baseUrl` alimenta canonicals, sitemap, RSS y el plugin
