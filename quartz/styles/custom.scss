@@ -139,6 +139,13 @@ strong, b { font-weight: 600; }
 // La firma estructural de Brasa: donde hace falta una linea, es de madera y es de guiones. Nunca
 // solida — una raya solida sobre nogal pesa mas que el texto que separa.
 hr { border: 0; border-top: 1px dashed var(--bronce); margin: 28px 0; }
+// ==subrayado== del wiki, emitido como <mark>: la idea a retener. Brasa bajo el crema, no otro
+// color de texto ni fondo de rotulador — un solo mundo visual con la consola (.prosa-panel u).
+mark {
+  background: none; color: inherit;
+  text-decoration: underline; text-decoration-color: var(--catodo);
+  text-decoration-thickness: 1.5px; text-underline-offset: 3px;
+}
 blockquote {
   border-left: 1px dashed var(--bronce);
   padding-left: 18px;
@@ -173,9 +180,22 @@ th, td { border-bottom: 1px dashed color-mix(in srgb, var(--bronce) 55%, transpa
   gap: 18px;
   min-height: calc(100vh - 64px - 64px);
   margin: 0 0 96px;
+  position: relative;
 }
 // Sin esto una zona de texto largo no deja encoger su columna y desborda la rejilla entera.
 .heroe-claim, .heroe-pieza, .heroe-lado { min-width: 0; }
+// El velo: la pieza desborda por detras del titular, asi que el texto necesita suelo propio.
+// Un degradado de fondo, no un filtro, para no repintar la pieza en cada fotograma.
+.heroe-claim { position: relative; z-index: 2; }
+.heroe-claim::before {
+  content: ""; position: absolute; z-index: -1;
+  inset: -6% -14% -6% -50%;
+  background: radial-gradient(ellipse at 35% 50%,
+              color-mix(in srgb, var(--fondo) 92%, transparent) 0%,
+              color-mix(in srgb, var(--fondo) 70%, transparent) 55%,
+              transparent 78%);
+  pointer-events: none;
+}
 // El heroe NO se sale de la columna con margenes negativos, como hacia el de Dala: en la portada la
 // rejilla entera pasa a una sola columna (mas abajo), asi que aqui ya hay pantalla de sobra. Las
 // tres zonas necesitan ~1.100px y la columna central de Quartz mide 790.
@@ -196,6 +216,7 @@ th, td { border-bottom: 1px dashed color-mix(in srgb, var(--bronce) 55%, transpa
 }
 .heroe-cuerpo {
   max-width: 30ch;
+  position: relative; z-index: 2;
   color: var(--hueso);
   font-family: var(--prosa);
   font-size: clamp(1.15rem, 1.55vw, 1.8125rem);
@@ -221,48 +242,29 @@ th, td { border-bottom: 1px dashed color-mix(in srgb, var(--bronce) 55%, transpa
   // Quartz pinta un fondo de resalte en todo enlace interno; encima de la brasa la apagaria.
   &.internal { background-color: var(--catodo); }
 }
-// LA PIEZA. El hueco donde /static/cerebro-inline.js incrusta cerebro.svg. Se incrusta y no se
-// enlaza porque dentro de un <img> el SVG no ejecuta ni sus animaciones ni :hover.
+// LA PIEZA. El hueco donde /static/cerebro-inline.js monta la pieza (canvas vivo o vector).
 .heroe-pieza { position: relative; margin: 0; text-align: center; }
+// #cerebro ya NO es la pieza: es solo el HUECO que reserva en la rejilla del heroe (en height, no
+// en max-width). La pieza en si se DIBUJA centrada sobre ese hueco y desborda (regla de abajo),
+// asi que crece por los dos lados sin mover el flujo ni solapar la firma. Como el desbordamiento
+// es simetrico y la pieza va en z-index: 1 por debajo del texto, lo que se sale por la izquierda
+// cae detras del titular. El hueco reserva el ALTO de la masa dibujada (~0,72 veces el lado del
+// lienzo cuadrado): 940px pide ~680px de alto, y 78vh pide ~61vh. Los dos pares van ligados
+// —toca uno, toca el otro— o la pieza pisa la firma.
 #cerebro {
-  display: block;
-  position: relative;
-  width: 100%; max-width: 520px; height: auto;
+  display: block; position: relative; z-index: 1;
+  width: 100%; max-width: none;
+  height: min(680px, 61vh);
   margin: 0 auto;
-  transform: perspective(900px) rotateX(var(--giro-x, 0deg)) rotateY(var(--giro-y, 0deg));
-  transition: transform 220ms ease-out;
+  transform: perspective(900px) rotateX(var(--giro-x, 0deg)) rotateY(var(--giro-y, 0deg)) scale(var(--escala, 1));
+  transition: transform 220ms ease-out, filter 400ms ease; filter: none;
 }
-#cerebro svg, #cerebro img { display: block; width: 100%; height: auto; }
-
-// ── LA PIEZA CUANDO ES IMAGEN ─────────────────────────────────────────────────────────────────
-// El vector se anima por dentro (los impulsos recorren los surcos). Una imagen no tiene dentro, asi
-// que su vida sale de la LUZ: respira en brasa y el foco la sigue con el raton. Son dos elementos
-// animados, no cinco — mas de dos en una misma vista distraen en vez de significar.
-// Nada de esto hace falta para entender la pagina: lo que la pieza dice, lo dice la firma de debajo
-// en palabras. El puntero solo lo adorna, que es la unica forma honesta de usar el hover.
-/* El aliento NO se hace con `filter: drop-shadow` animado, que es lo obvio y lo caro: obliga al
-   navegador a recalcular un desenfoque de 58px sobre 520x520 px en CADA fotograma, para siempre. El
-   halo es un elemento aparte con un degradado fijo, y lo que se anima es su `opacity` y su `scale`
-   —las dos unicas propiedades que la GPU compone sin volver a pintar—. Se ve igual y no cuesta nada. */
-#cerebro[data-pieza="imagen"]::before {
-  content: ""; position: absolute; inset: -14%; pointer-events: none; z-index: -1;
-  background: radial-gradient(circle at 50% 50%,
-              color-mix(in srgb, var(--catodo) 30%, transparent) 0%, transparent 62%);
-  animation: respira-luz 6s ease-in-out infinite;
-}
-@keyframes respira-luz {
-  0%, 100% { opacity: .45; transform: scale(.94); }
-  50%      { opacity: 1;   transform: scale(1.06); }
-}
-// El foco: una brasa suave bajo el cursor. `screen` sobre nogal solo puede aclarar, nunca ensuciar,
-// y con la pieza en reposo (--foco: 0) el pseudoelemento no pinta nada.
-#cerebro[data-pieza="imagen"]::after {
-  content: ""; position: absolute; inset: 0; pointer-events: none;
-  background: radial-gradient(circle at var(--foco-x, 50%) var(--foco-y, 50%),
-              color-mix(in srgb, var(--catodo) 34%, transparent) 0%, transparent 46%);
-  mix-blend-mode: screen;
-  opacity: var(--foco, 0);
-  transition: opacity var(--t-decae) ease;
+#cerebro svg, #cerebro img, #cerebro canvas {
+  display: block; position: absolute; left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+  // 940px, no mas: el origen son 279px de ancho reales y pasar de ahi agranda el escalon, no el
+  // detalle. El bandeado lo doma el horneado a 1024 (cerebro.js), no el encoger la pieza.
+  width: min(940px, 78vh); height: auto;
 }
 .heroe-firma {
   margin-top: 10px;
@@ -275,12 +277,12 @@ th, td { border-bottom: 1px dashed color-mix(in srgb, var(--bronce) 55%, transpa
   .heroe { grid-template-columns: 1fr; min-height: auto; gap: 30px; margin-bottom: 60px; }
   .heroe-titulo { max-width: none; }
   .heroe-cuerpo { max-width: 38ch; }
-  #cerebro { max-width: 340px; }
+  #cerebro { max-width: 430px; height: auto; }
+  #cerebro svg, #cerebro img, #cerebro canvas { position: static; transform: none; width: 100%; }
+  .heroe-claim::before { display: none; }
 }
 @media (prefers-reduced-motion: reduce) {
   #cerebro { transition: none; }
-  #cerebro[data-pieza="imagen"]::before { animation: none; opacity: .7; transform: none; }
-  #cerebro[data-pieza="imagen"]::after { display: none; }
 }
 
 // ── LA PORTADA CON DATOS VIVOS ────────────────────────────────────────────────────────────────

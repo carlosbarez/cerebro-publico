@@ -168,6 +168,61 @@ ChatPublico.css = `
 .chat-texto p + p {
   margin-top: 18px;
 }
+.chat-texto h1, .chat-texto h2, .chat-texto h3, .chat-texto h4 {
+  margin: 34px 0 12px;
+  color: var(--catodo);
+  font-family: var(--condensada);
+  font-weight: 500;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+.chat-texto h1 { font-size: 1.7rem; }
+.chat-texto h2 { font-size: 1.4rem; }
+.chat-texto h3, .chat-texto h4 { font-size: 1.1rem; letter-spacing: .06em; }
+/* El primer encabezado ES la conclusion: va un escalon mayor y sin margen superior. */
+.chat-texto > h2:first-child { font-size: 1.7rem; }
+.chat-texto > h2:first-child, .chat-texto > h3:first-child { margin-top: 0; }
+.chat-texto ul, .chat-texto ol { margin: 16px 0; padding-left: 24px; }
+.chat-texto li { margin: 6px 0; }
+.chat-texto a { color: var(--catodo); }
+/* ==subrayado==: la idea a retener. Brasa bajo el crema, no otro color de texto. */
+.chat-texto u {
+  text-decoration: underline;
+  text-decoration-color: var(--catodo);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+}
+.chat-texto blockquote {
+  margin: 20px 0;
+  padding-left: 18px;
+  border-left: 1px dashed var(--bronce);
+  color: var(--hueso-2);
+}
+.chat-texto code { font-family: var(--datos); font-size: .92em; }
+.chat-texto table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+  font-size: .92rem;
+  line-height: 1.5;
+}
+.chat-texto th {
+  color: var(--catodo);
+  font-family: var(--condensada);
+  font-size: .75rem;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: .1em;
+  text-align: left;
+  text-transform: uppercase;
+}
+.chat-texto th, .chat-texto td {
+  padding: 9px 12px 9px 0;
+  border-bottom: 1px dashed color-mix(in srgb, var(--bronce) 55%, transparent);
+  text-align: left;
+  vertical-align: top;
+}
+.chat-texto hr { border: 0; border-top: 1px dashed var(--bronce); margin: 28px 0; }
 /* Fallo legible (endpoint sin desplegar, red, JSON roto): rojo funcional del sitio (--aviso). */
 .chat-error {
   color: var(--aviso);

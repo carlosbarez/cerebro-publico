@@ -28,6 +28,63 @@ function crea(etiqueta: string, texto: string): HTMLElement {
   return el
 }
 
+// mdPlano — puerto del renderer del puesto de mando (web/ui/app.js). Escapa TODO primero y solo
+// reintroduce la gramatica del wiki, asi que innerHTML con su salida es seguro. Diferencia con el
+// original: los [[wikilinks]] no enlazan —la consola los resuelve contra /api/biblioteca, que aqui
+// no existe—; se quedan como texto, que es lo honesto cuando no hay destino.
+function mdPlano(md: string): string {
+  const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+  const inlinea = (s: string) =>
+    esc(s)
+      .replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, "$2")
+      .replace(/\[\[([^\]]+)\]\]/g, (_m, p: string) => p.split("/").pop()!.replace(/-/g, " "))
+      .replace(/`([^`]+)`/g, "<code>$1</code>")
+      .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+      .replace(/==([^=]+)==/g, "<u>$1</u>")
+      .replace(/(^|[\s(])\*([^*\n]+)\*/g, "$1<em>$2</em>")
+      .replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, '<a href="$2" rel="noopener noreferrer">$1</a>')
+  const bloques = String(md || "").split(/\n{2,}/)
+  let html = ""
+  for (const bloque of bloques) {
+    const b = bloque.trim()
+    if (!b) continue
+    if (/^#{1,4}\s/.test(b)) {
+      const n = b.match(/^#+/)![0].length
+      html += `<h${n}>${inlinea(b.replace(/^#+\s*/, ""))}</h${n}>`
+      continue
+    }
+    if (/^(-{3,}|\*{3,})$/.test(b)) { html += "<hr>"; continue }
+    if (/^>\s?/.test(b)) {
+      const lineas = b.split("\n").map((l) => l.replace(/^>\s?/, ""))
+      lineas[0] = lineas[0].replace(/^\[!\w+\]\s*/, "") // marcador de callout de Obsidian
+      html += `<blockquote>${inlinea(lineas.join(" ").trim())}</blockquote>`
+      continue
+    }
+    if (/^\|/.test(b)) {
+      const filas = b.split("\n").filter((l) => /^\s*\|/.test(l) && !/^\s*\|[\s:|-]+\|?\s*$/.test(l))
+      if (!filas.length) continue
+      const celdas = (l: string) => l.trim().replace(/^\||\|$/g, "").split("|").map((c) => inlinea(c.trim()))
+      html += `<table><thead><tr>${celdas(filas[0]).map((c) => `<th>${c}</th>`).join("")}</tr></thead><tbody>${filas
+        .slice(1)
+        .map((f) => `<tr>${celdas(f).map((c) => `<td>${c}</td>`).join("")}</tr>`)
+        .join("")}</tbody></table>`
+      continue
+    }
+    const aLista = (lineas: string[], regex: RegExp, etiqueta: string) => {
+      const items: string[] = []
+      for (const l of lineas) {
+        if (regex.test(l)) items.push(l.replace(regex, ""))
+        else if (items.length && l.trim()) items[items.length - 1] += ` ${l.trim()}` // continuacion del item anterior
+      }
+      return `<${etiqueta}>${items.map((i) => `<li>${inlinea(i)}</li>`).join("")}</${etiqueta}>`
+    }
+    if (/^[-*]\s/.test(b)) { html += aLista(b.split("\n"), /^[-*]\s+/, "ul"); continue }
+    if (/^\d+[.)]\s/.test(b)) { html += aLista(b.split("\n"), /^\d+[.)]\s+/, "ol"); continue }
+    html += `<p>${inlinea(b.split("\n").join(" "))}</p>`
+  }
+  return html
+}
+
 function toma<T extends Element>(raiz: Element, selector: string): T | null {
   return raiz.querySelector<T>(selector)
 }
@@ -84,15 +141,13 @@ async function enviar(formulario: HTMLFormElement): Promise<void> {
   }
 
   const firma = (datos.firma ?? {}) as Record<string, unknown>
-  const parrafos = String(datos.texto ?? "")
-    .split(/\n{2,}/)
-    .map((p) => p.trim())
-    .filter(Boolean)
 
   // Con error del modelo el texto llega null pero la respuesta viene firmada igual (contrato).
+  // El cuerpo va por mdPlano: Elisa escribe markdown estructurado y planos tiraba la mitad del
+  // trabajo. mdPlano escapa todo antes de reintroducir gramatica, asi que innerHTML es seguro.
   texto.classList.toggle("chat-error", Boolean(datos.error))
-  if (parrafos.length > 0) {
-    texto.replaceChildren(...parrafos.map((p) => crea("p", p)))
+  if (datos.texto) {
+    texto.innerHTML = mdPlano(String(datos.texto))
   } else if (datos.error) {
     texto.replaceChildren(crea("p", String(datos.error)))
   } else {
