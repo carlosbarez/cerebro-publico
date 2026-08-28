@@ -3,6 +3,25 @@ title: "Registro"
 ---
 # Registro
 
+## [2026-08-28] empresas | tanda 4 de la flota prime-agent (4 fichas) + frontmatter que faltaba
+- Nuevas en `wiki/empresas/`: [[ab-inbev]] (BUD), [[bouygues]] (EN), [[engie]] (ENGI), [[vinci]] (DG) — cola de la flota, aterrizaron despues del commit de las 73.
+- Las cuatro habian ascendido **sin frontmatter YAML** (copia literal del borrador de `scratchpad/cko-empresas-nuevas-2026-08-25/`, identica byte a byte). Anadido `tipo/tags/fecha/agente: prime-agent/ticker/moneda/fuentes` con las URL que ya citaba cada pagina; ningun dato rellenado a ojo.
+- Vinci se apoya en Wikipedia (FR) y CompaniesMarketCap porque su IR estuvo bloqueado durante la sonda: **sin verificar contra fuente primaria**, queda pendiente antes de usarla para decidir.
+- Indice actualizado (linea «tanda 4» bajo la seccion de la flota). Sin verificacion adversarial de las cuatro: son borradores ascendidos, no tesis cerradas.
+- Higiene: `__pycache__/` al `.gitignore` (el publicador web dejaba un `.pyc` suelto en el arbol).
+
+## [2026-08-28] empresas | ascensión de la flota de sondas prime-agent (73 fichas)
+- 56 páginas nuevas en `wiki/empresas/` + 17 notas de evolución («Nota de evolucion 2026-08-28 (prime-agent)») sobre páginas existentes bajo otro nombre (toyota→[[toyota-motor]], honeywell→[[honeywell-international]], etc.).
+- Verificación ligera por afirmaciones clave (1-2 contrastes por ficha contra fuente primaria). Correcciones cazadas: Chevron (beneficio FY25 real 12.299 M$, no ~20.600 M$ de la tabla TTM previa), GM (neto FY25 ~2,7 B$, no 3.180 M$; cargo 4T25 por realineamiento EV >7,2 B$), Markel (ingresos 15.513 M$, no ~16,6 B$), SK Hynix (deuda 18,6 T KRW), Adidas (EBIT 2.056 M$), Nasdaq (brutos 8.218 M$), Northrop y Philip Morris (margen/operativo oficial vs agregador, resuelto a favor del 10-K).
+- Tensión nueva notada en Block (deuda warehouse), Schwab (dividendo), Tesla (energía Q2 +13% vs +34%), Union Pacific (dividendo resuelto a favor de la página) — anotadas como tensiones, sin reescribir nada (regla de evolución).
+- Datos no verificables quedaron como `[Sin verificar]` en página (precios de sesión, cifras de filtraciones en [[openai]], guía de Dollar General en conflicto). Nada rellenado a ojo.
+- Índice actualizado (sección «Ascension de la flota prime-agent 2026-08-28»); `scratchpad/continuacion-fleets/estado.json` registra `wiki_ascendidas_2026-08-28` (73). La flota sigue corriendo sondas nuevas en paralelo; GAP, Naturgy y Nintendo quedan a decisión de Carlos.
+
+## [2026-08-28] empresas | tanda 3 de la flota prime-agent (13 fichas: 11 nuevas + 2 ampliadas)
+- Nuevas: [[carlsberg]], [[danone]], [[diageo]], [[fiserv]], [[heineken]], [[herm-s-international]], [[l-or-al]], [[pernod-ricard]], [[puma]], [[richemont]], [[saint-gobain]]. Ampliadas: [[moodys]], [[sp-global]].
+- Verificación con correcciones: Fiserv (Lyons dejo la CEO en jun-2026, la ficha lo daba vigente), L'Oréal (LFL +4,0% y reportado +1,3% invertidos en ficha), Saint-Gobain (FCF oficial 3.752 M€), Danone (neto 1.825 M€). [[sp-global]]: la sonda concluye COMPRAR vs VIGILAR de la página — contradicción documentada, decide Carlos.
+- **[ESCALAR] Duplicados de empresa**: `moody-s-corporation.md` duplica [[moodys]] (preexistente); `hermes-international.md` y `l-oreal.md` (25-ago, carlos-barez) duplican las nuevas [[herm-s-international]] y [[l-or-al]] — cruzadas como páginas hermanas; la fusión (qué nombre sobrevive y qué pasa con las valoraciones) la decide Carlos.
+
 ## [2026-08-26] web | Brasa llega al sitio público: barra arriba, héroe de tres zonas y el cerebro dibujado
 
 - **El diagnóstico primero**: el diseño de kimi-code nunca se perdió. Estaba intacto en `web/ui/`

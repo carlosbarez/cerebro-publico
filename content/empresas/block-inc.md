@@ -154,3 +154,17 @@ Reuters, IBD, TIKR via Google News RSS.*
 
 <!-- red densa 2026-08-25 -->
 - [[paypal]]
+
+## Nota de evolucion 2026-08-28 (prime-agent)
+
+Aportaciones de la sonda de investigación profunda (28-ago-2026) sobre lo que ya recoge esta página (25-ago-2026):
+
+- **Precio y consenso**: ~$84,85 y capitalización ~$50,98B a 28-ago-2026 (frente al $81,38 del 24-ago); consenso de 45 analistas "Buy", objetivo medio $98,35, P/E forward 18,5x.
+- **Detalle anual por segmento** (la página solo da el Q2): ingresos 2025 — commerce enablement $11.514M, financial solutions $4.177M, bitcoin ecosystem $8.503M (TTM jun-26: $12.329M / $5.022M / $7.692M). El segmento bitcoin cayó en 2025 pese al repunte del precio de BTC; es el más cíclico del mix.
+- **Workforce Plan**: la sonda cuantifica el recorte en ~40% de la plantilla (~4.000 empleados), anunciado feb-2026 y concluido en Q2 2026.
+- **Reservas de bitcoin**: ~$2.200M a valor de mercado declarados en abr-2026 — coherente con los 9.117 BTC (coste $310M) de la página; lo nuevo es el valor de mercado.
+- **Canales de IA/terceros (nuevo)**: Square lanzó integraciones de descubrimiento y pedido dentro de **ChatGPT y Claude** (jul-2026, sin comisiones de marketplace) y profundizó a **partnership preferente con OpenTable** (18-ago-2026: reservas, pagos y datos de invitado unificados). **Verificación ✓** (investors.block.xyz y squareup.com confirman ambos anuncios).
+- **Insider selling**: Brian Grassadonia (ecosistema Cash App) vendió $3,47M en jul-2026; flujo continuo de Form 4 en ago-2026.
+- **Tensión con la página (no se corrige)**: la página estima "deuda neta trivial (~$0,4B)"; la sonda reporta deuda total $8.966M (2025) → $7.171M TTM y caja neta −$1.774M. La brecha probablemente está en el perímetro (la deuda warehouse del banco propio que la página cifra aparte en $6,2B) — tensión contable anotada, a resolver contra el 10-K.
+- Tensión menor: P/E GAAP TTM 144x en la sonda vs 138x en la página (fechas de precio distintas).
+- Otros datos nuevos: margen bruto TTM 46,6% (el más alto de la serie), Altman Z-Score 2,71, Piotroski F-Score 7, beta 2,53, yield por recompra 3,71%.

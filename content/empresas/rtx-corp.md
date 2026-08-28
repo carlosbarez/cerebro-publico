@@ -155,3 +155,15 @@ consultas automatizadas hoy; precio verificado por una vía y corroborado por pr
 
 <!-- red densa 2026-08-25 -->
 - [[lockheed-martin]]
+
+## Nota de evolucion 2026-08-28 (prime-agent)
+
+Añadidos desde la sonda de scratchpad/cko empresas nuevas 2026 08 25 (27-ago; 10-K FY2025 y press releases oficiales). Verificación: FY2025 confirmado contra el press release oficial de 27-ene-2026 ✓ — ventas 88,6 B$ (+10%, +11% orgánico), EPS ajustado 6,29 $ (+10%), FCF 7,9 B$ (+3,4 B$ a/a), backlog a cierre 2025 de **268 B$ (161 comercial + 107 defensa)**. Los 289 B$ de esta página son ya de Q2-2026: evolución, no contradicción.
+
+- **Desglose FY2025 por segmento (10-K)**, nuevo en esta página: Collins 30.196 M$ (+7%, ROS 16,2%), Pratt & Whitney 32.916 M$ (+17%, ROS 8,3%), Raytheon 28.043 M$ (+5%, ROS 11,5%); eliminaciones −2.552 M$. Pratt crece al doble de ritmo que Collins pero con un tercio de su margen: ahí vive el riesgo GTF.
+- **Geografía FY2025**: EE.UU. 53%, Asia-Pacífico 21%, Europa 16%. Parque instalado: aviónica en >115.000 aeronaves y >90.000 motores en servicio — la "anualidad" del aftermarket cuantificada.
+- **Balance**: goodwill + intangibles ≈ 85,2 B$ ≈ **50% del activo total** (171 B$) — el P/B 4,4x de la sección 4 se apoya en intangibles de fusión; riesgo de deterioro si un segmento decepciona.
+- **Dividendo**: 2,67 $/acción abonados en 2025 (dividendos totales del año: 3,57 B$); los 2,92 $ de esta página son el tipo anualizado tras la subida a 0,73 $/trimestre de may-2026 — períodos distintos, sin contradicción.
+- **Programa "Golden Dome"** de defensa antimisil de EE.UU. (~185 B$ estimados): catalizador adicional para Raytheon no recogido antes, en la línea del superciclo de munición.
+- El DCF de la sonda (base ~157 $, toro ~241 $, oso ~106 $) reproduce casi exactamente los escenarios 103/162/245 de la sección 6: dos métodos independientes convergen en que a ~209–212 $ el margen de seguridad es escaso. Refuerza el veredicto VIGILAR.
+- Pedidos Q2-2026 de Raytheon ~20 B$ (incl. >5 B$ GEM-T Patriot, 1,8 B$ AMRAAM) — granularidad del book-to-bill 2,42 ya citado.

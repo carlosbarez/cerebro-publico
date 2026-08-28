@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>El Cerebro · Elisa</title>
+  <link rel="stylesheet" href="/ui/tokens.css">
+  <link rel="stylesheet" href="/ui/estilo.css">
+<script>window.CEREBRO_ESTATICO = true;</script>
+  <script src="/ui/cerebro-forma.js" defer></script>
+  <script src="/ui/cerebro.js" defer></script>
+  <script src="/ui/cerebro-fondo.js" defer></script>
+  <script src="/ui/cartera-parseo.js" defer></script>
+  <script src="/ui/fuente.js" defer></script>
+  <script src="/ui/app.js" defer></script>
+</head>
+<body>
+<!--
+THESIS: el Cerebro es una pieza de museo en penumbra calida: un solo objeto flotando en el
+vacio nogal, la tipografia crema como unica decoracion y una sola brasa naranja que se gana
+su rareza. Se niega a ser un dashboard de tarjetas y a ser un terminal verde/ambar.
+OWN-WORLD: nogal casi negro, crema calido (nunca #fff) y brasa #dc5000 solo donde importa;
+una familia sans para todo, mayusculas peso 500 salvo el cuerpo conversacional.
+STORY: Carlos pregunta; el cerebro se enciende mientras Elisa pone la pregunta en circulacion
+por el equipo; al responder, la brasa golpea y la firma aparece bajo la pieza; debajo quedan
+fuentes, limites y coste.
+FIRST VIEWPORT: barra superior fija con cuatro secciones, titular escultural a la izquierda,
+el cerebro al centro con interaccion, y la entrada por subrayado con el unico boton brasa.
+FORM: darkroom product editorial (referencia ORYZO aportada por Carlos) fusionado con el Cerebro.
+FINISH: unreviewed and undocumented is unfinished.
+-->
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+  <header id="barra">
+    <p class="casa">El Cerebro</p>
+    <nav aria-label="Secciones">
+      <ul id="secciones" role="tablist">
+        <li><button role="tab" data-seccion="chat" aria-controls="seccion-chat" aria-selected="true">Chat con Elisa</button></li>
+        <li><button role="tab" data-seccion="newsletter" aria-controls="seccion-newsletter" aria-selected="false">Newsletter</button></li>
+        <li><button role="tab" data-seccion="cartera" aria-controls="seccion-cartera" aria-selected="false">Cartera</button></li>
+        <li><button role="tab" data-seccion="biblioteca" aria-controls="seccion-biblioteca" aria-selected="false">Biblioteca</button></li>
+      </ul>
+    </nav>
+  </header>
+  <p class="serial" aria-hidden="true">El Cerebro · cinco mentes · una cartera</p>
+  <main id="contenido">
+    <section data-seccion="chat" id="seccion-chat" role="tabpanel">
+      <div id="hero">
+        <div class="hero-claim">
+          <p class="hero-tag">Pregunta · circula · responde con fuentes</p>
+          <h1>Cinco mentes. Una cartera. Cero ruido.</h1>
+        </div>
+        <figure id="cerebro-marco">
+          <!-- La pieza la pone app.js: el canvas de cerebro.js (reanimado desde cerebro-forma.js y
+               los dos PNG de la forma); si no, el SVG incrustado (dentro de un <img> no ejecutaria
+               sus animaciones). -->
+          <div id="cerebro" role="img" aria-label="El Cerebro: la pieza central del equipo"></div>
+          <figcaption id="cerebro-firma">En espera — la pregunta lo recorre</figcaption>
+        </figure>
+        <p class="hero-nota">Pregunta en lenguaje llano. Elisa la pone en circulación por el equipo y el Cerebro responde con fuentes, límites y coste — y con un veredicto, no con un «depende».</p>
+      </div>
+      <div id="respuestas" aria-live="polite" aria-relevant="additions"></div>
+      <div id="vacio">
+        <div class="sugeridas">
+          <button type="button" class="sugerida">¿Está caro el oro ahora mismo?</button>
+          <button type="button" class="sugerida">¿Qué dice el Cerebro de JD.com?</button>
+          <button type="button" class="sugerida">¿Qué es el foso económico de una empresa?</button>
+        </div>
+        <details id="historial"><summary>Historial de esta bancada</summary><ol id="historial-lista"></ol></details>
+      </div>
+      <form id="entrada">
+        <label class="solo-lectores" for="pregunta">Tu pregunta para el Cerebro</label>
+        <textarea id="pregunta" rows="2" placeholder="¿Dónde entro en Micron?"></textarea>
+        <button type="submit" class="accion">Preguntar</button>
+      </form>
+      <p class="aviso-legal">Esto es análisis general y no es una recomendación de inversión personalizada. Quien decide es quien invierte. El chat puede consultar internet cuando el vault no sabe la respuesta (una cifra de hoy, una noticia reciente); esas fuentes de internet <strong>no las ha revisado nadie</strong> y pueden estar incompletas o equivocadas, así que contrástalas antes de actuar. Los cinco perfiles que firman las respuestas (Elisa, Jorne, Carlos Bárez, Daniel Ferrer, Inés Torres) son especialidades de un mismo sistema automático: <strong>no son personas</strong> ni asesores registrados.</p>
+    </section>
+    <section data-seccion="newsletter" id="seccion-newsletter" role="tabpanel" hidden>
+      <header class="seccion-cab"><h2>Newsletter</h2><p class="seccion-nota" id="boletin-fecha"></p></header>
+      <label class="solo-lectores" for="boletin-ediciones">Edición del boletín</label>
+      <select id="boletin-ediciones" aria-label="Edición del boletín"></select>
+      <div id="boletin-texto" class="prosa-panel"></div>
+    </section>
+    <section data-seccion="cartera" id="seccion-cartera" role="tabpanel" hidden>
+      <header class="seccion-cab">
+        <h2>Tu cartera</h2>
+        <p class="seccion-nota">Apunta tus posiciones y mira cómo van. Se <strong>guardan solo en este navegador</strong>: no hay cuenta, no se sincronizan entre dispositivos y desaparecen si borras los datos de navegación. Cuando preguntes en el chat, <strong>se enviarán junto a tu pregunta</strong> para que la respuesta tenga en cuenta lo que tienes — si prefieres respuestas generales, quita las posiciones antes de preguntar. No se guardan en ningún servidor.</p>
+      </header>
+      <form id="cartera-form">
+        <label class="solo-lectores" for="cartera-ticker">Ticker</label>
+        <input id="cartera-ticker" name="ticker" placeholder="Ticker (MU)" maxlength="12" required>
+        <label class="solo-lectores" for="cartera-titulos">Número de títulos</label>
+        <input id="cartera-titulos" name="titulos" type="number" step="any" min="0" placeholder="Títulos (opcional)">
+        <label class="solo-lectores" for="cartera-entrada">Precio de entrada</label>
+        <input id="cartera-entrada" name="entrada" type="number" step="any" min="0" placeholder="Precio de entrada (opcional)">
+        <button type="submit" class="accion">Añadir</button>
+      </form>
+      <details id="cartera-pegar-area">
+        <summary>Cargar cartera desde texto</summary>
+        <p class="seccion-nota">Una posición por línea: <code>TICKER [títulos] [precio] [bloque]</code>. La coma vale como decimal. Repetir un ticker lo actualiza.</p>
+        <label class="solo-lectores" for="cartera-pegar">Pega tu cartera</label>
+        <textarea id="cartera-pegar" rows="6" placeholder="MU 10 62,3 metales-preciosos&#10;AAPL 5 180 tecnologia-desarrollada"></textarea>
+        <button type="button" id="cartera-pegar-btn" class="accion">Cargar cartera</button>
+        <p id="cartera-pegar-aviso" role="status" aria-live="polite"></p>
+      </details>
+      <p id="cartera-aviso" role="status" aria-live="polite"></p>
+      <ol id="cartera-lista" class="lecturas" aria-live="polite"></ol>
+      <div id="cartera-pesos" hidden aria-live="polite"></div>
+      <p id="cartera-vacia">Aún no has añadido ninguna posición.</p>
+      <button type="button" id="cartera-preguntar" class="accion">Pregunta al Cerebro sobre estas posiciones</button>
+    </section>
+    <section data-seccion="biblioteca" id="seccion-biblioteca" role="tabpanel" hidden>
+      <header class="seccion-cab"><h2>Biblioteca</h2></header>
+      <label class="solo-lectores" for="biblioteca-filtro">Filtrar la biblioteca</label>
+      <input type="search" id="biblioteca-filtro" placeholder="Filtra por título…" aria-label="Filtrar la biblioteca por título">
+      <p class="seccion-nota">Filtra por título, no busca dentro de las notas.</p>
+      <div id="biblioteca-indice"></div>
+      <div id="biblioteca-lectura" hidden>
+        <button type="button" id="lectura-volver">← Volver a la Biblioteca</button>
+        <button type="button" id="lectura-preguntar" class="accion">Pregúntale a esta nota</button>
+        <article class="prosa-panel lectura">
+          <h3 id="lectura-titulo"></h3>
+          <div id="lectura-texto"></div>
+        </article>
+      </div>
+    </section>
+  </main>
+  <aside id="instrumentos" aria-label="Instrumentos de la sección"></aside>
+</body>
+</html>

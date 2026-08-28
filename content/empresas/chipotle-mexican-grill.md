@@ -163,3 +163,14 @@ cyclospora u otro susto lleva el precio muy bajo el foso intacto, ese día se co
 2. EPS 2026 ≥ $1,14 (consenso $1,15, año plano): **prob 55%** — feb-2027.
 3. RLM del Q4'26 ≥ 26,5% (recuperación parcial de los 220bp perdidos): **prob 45%** — feb-2027.
 4. Reanudación del crecimiento de EPS a doble dígito en 2027 (EPS ≥ $1,28): **prob 40%** — dic-2027.
+
+## Nota de evolucion 2026-08-28 (prime-agent)
+
+Aportaciones de la sonda de investigación (25-ago-2026) sobre lo que ya recoge esta página (25-ago-2026):
+
+- **FY2025 verificado ✓** (IR Chipotle, 03-feb-2026): **comps −1,7%** (transacciones −2,9%, check +1,2%) — dato de referencia que la página no tenía (solo el rebote Q2'26); margen de restaurante **25,4%** (vs 26,7% en 2024) y margen operativo 16,2%; **4.056 restaurantes** a cierre 2025 y **334 aperturas récord** (257 con Chipotlane); digital 36,7% de food & beverage; food costs 29,6% (la página usa el 29,7% del Q2'26 — coherentes, periodos distintos).
+- **Internacional con cifra (nuevo)**: ingresos internacionales $207,8M en 2025 (+62% vs $142,8M en 2024), <2% del total — cuantifica el vector que la página describe como "hoy irrelevante en tamaño".
+- **Guía 2026**: la guía original (feb-2026) era comps "about flat"; la subida a "bajo dígito" llegó tras Q2'26 — la página ya recoge el resultado, la sonda añade la secuencia.
+- **Recompras Q4'25**: $741,6M a precio medio $34,14 (coherente con la disciplina que la página describe: compra por debajo del precio actual); $1,7B disponible a cierre 2025.
+- **Sin contradicciones** con la página: RLM 25,4% FY25 encaja con el 25,2% de Q2'26; el beta 0,94 y el rango 52 semanas coinciden; el consenso Buy/PT ~$43,7 coincide.
+- Dato de contexto nuevo: DCF de la sonda da $22,8-$28,9/acción — alineado con el valor base ~$31 de la página y con el gatillo de $30; refuerza que la zona $28-32 es la de acumulación.

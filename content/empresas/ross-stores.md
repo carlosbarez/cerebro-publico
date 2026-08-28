@@ -1,0 +1,84 @@
+---
+title: "Ross Stores (ROST)"
+tipo: empresa
+tags: [empresa, retail-off-price]
+fecha: 2026-08-28
+agente: prime-agent
+ticker: ROST
+moneda: USD
+precio_referencia: 229.87
+valor_estimado: 197
+gatillo_entrada: 200
+veredicto: VIGILAR
+fuentes: "[\"https://investors.rossstores.com/news-releases/news-release-details/ross-stores-reports-strong-second-quarter-sales-and-earnings\", \"https://stockanalysis.com/stocks/ROST/financials/\", \"https://stockanalysis.com/stocks/ROST/statistics/\", \"https://www.sec.gov/Archives/edgar/data/745732/000074573225000010/0000745732-25-000010.txt\", \"https://quartr.com/companies/ross-stores-inc_5207\"]"
+---
+
+# Ross Stores (ROST)
+
+## 1. Negocio
+
+Ross Stores es el nº 1 del retail *off-price* (excedentes de marca a descuento) en EE. UU., con dos enseñas:
+- **Ross Dress for Less** (~90% de ingresos): apparel, hogar y belleza de marca 20–60% por debajo de los grandes almacenes; 1.952 tiendas en 42 estados.
+- **dd's DISCOUNTS**: perfil más económico, 20–70% de descuento; 376 tiendas en 23 estados.
+
+Total: **2.328 tiendas al 1-ago-2026** (+95 netas en un año). Compra excedentes, cancelaciones e inventario *packaway* (comprado fuera de temporada a precio mínimo y almacenado), sin e-commerce material y sin internacional: el crecimiento es aperturas (~115 en FY2026) más ventas comparables. La experiencia "caza del tesoro" y el gasto de marketing casi nulo son parte del modelo, no un accidente.
+
+**Implicación de segundo orden:** el off-price es el comprador residual del *exceso* del resto del retail. En sobreabastecimiento (2022-23) gana mercancía barata; cuando el inventario del sector está fino o los aranceles encarecen la mercancía nueva, su ventaja de compra se estrecha. Su foso depende, en parte, del desperdicio ajeno — y a la vez es el refugio del *trade-down*: en recesión gana tráfico que otros pierden. Es un semi-anticíclico con estacionalidad propia.
+
+## 2. Economía y foso (moat)
+
+Tipo: **[[ventaja-de-costes]] + escala en compra de excedentes + [[poder-de-precios]] sobre el canal** ([[foso-economico]]).
+- ROIC ~36% y ROE ~43% (TTM), frente a un WACC ~8,6%: el capital invertido rinde 4x su coste.
+- Margen bruto ~34% con rotación de inventario 5,67x y overhead *lean*.
+- Balance fortísimo: deuda neta **negativa** (~-0,45B USD), caja 4,29B, cobertura de intereses 88,8x.
+- Recompras de 2,55B USD a dos años (1,275B en FY2026) + dividendo.
+
+Contraste revelador: TJX factura ~56B (vs 22,8B de Ross) y es más diversificado, pero Ross tiene ROIC superior (36,3% vs 30,1%). Burlington, con el mismo formato, rinde ROIC 10,7%. La lección: **el moat off-price no es el formato, es la ejecución de compra** — y Ross/TJX la han demostrado durante décadas; BURL aún no.
+
+¿Aguanta 10 años? Sí, mientras el consumidor siga valorando marca a descuento y los proveedores sigan generando excedentes. Erosionadores: un mundo de aranceles altos y cadenas "just-in-time" (menos excedente), y el crecimiento del canal directo de las marcas.
+
+## 3. Números clave
+
+| Métrica | FY2024 (1-feb-25) | FY2025 (31-ene-26) | TTM (1-ago-26) |
+|---|---|---|---|
+| Ingresos | 21,1 B | 22,8 B (+7,7%) | 24,51 B (+14%) |
+| Beneficio neto | 2.090 M | 2.145 M | 2.659 M |
+| BPA diluido | 6,32 | 6,61 | 8,27 |
+| Margen operativo | 12,2% | ~11,9% | 13,7% |
+| FCF | 1.637 M | 2.208 M | 2.790 M |
+
+**Q2 FY2026 (cerrado 1-ago-2026) — verificado contra la llamada de resultados:** ventas 6,3B USD (+13%), mismas tiendas +10% (por transacciones), beneficio neto 851 M, BPA 2,66 USD — **incluye ~0,60 USD de reembolso de aranceles IEEPA (253 M)**. Guía FY2026 elevada a BPA 8,61–8,77 (incluye los 0,60); ex-reembolso el EPS normalizado es ~8,0–8,1.
+
+⚠️ **Corrección de verificación (2026-08-28):** la ficha de sonda atribuía los "405 pb" al margen operativo. Los 405 pb son el efecto del reembolso sobre el **margen bruto** (+625 pb totales); el margen operativo mejoró +610 pb en total y **+205 pb ex-reembolso**. La lectura de calidad no cambia, pero el impulso operativo subyacente es menor de lo que la ficha sugería.
+
+Calidad del beneficio: **media en el TTM** — ~7% del EPS es un one-off fiscal, no operativo. El negocio subyacente crece fuerte (tráfico, nuevos y recuperados clientes), pero el +14% de ingresos TTM también está ayudado por la comparación con un 1S-2025 deprimido por aranceles ([[reversion-a-la-media]] aplicado a las propias comps).
+
+## 4. Riesgos y red flags
+
+- **Aranceles:** 100% de mercancía importada; el reembolso IEEPA fue único y futuras subidas son riesgo directo de coste y de confianza del consumidor.
+- **Valoración sobre beneficio inflado:** P/E 27,8x sobre EPS TTM con one-off → ~30x sobre EPS normalizado. Además la acción lleva +55% en 52 semanas: *priced for perfection* ([[expansion-y-compresion-de-multiples]]).
+- **Comps no recurrentes:** +13% en el 1S es excepcional frente a un histórico de +2–5%; la comparación difícil del 2S es explícita en la guía.
+- **Saturación doméstica:** sin internacional, el crecimiento estructural es ~3–5% anual de tiendas.
+- **dd's DISCOUNTS** aún en optimización en mercados nuevos.
+- Sin red flags contables evidentes: caja real, deuda neta negativa, FCF > beneficio neto.
+
+## 5. Conexiones
+
+- Par directo: [[tjx-companies]] (líder global off-price, más escala e internacional) · [[dollar-general]] (hard discount, cliente aún más sensible al precio) · [[walmart]] y [[costco-wholesale]] (el competidor de valor masivo).
+- Industria: [[industria-consumo]] · [[retail-de-moda]] · [[industria-consumo-masivo]] (pendiente una página de "retail off-price EE. UU.").
+- Conceptos: [[ventaja-de-costes]] · [[poder-de-precios]] · [[ciclos-de-mercado]] · [[reversion-a-la-media]] · [[demografia-y-mercados]] · [[recompra-de-acciones]] · [[margen-de-seguridad]] · [[valor-intrinseco]] · [[valoracion-dcf-paso-a-paso]].
+
+## 6. Qué vigilar
+
+- **Comps Q3/Q4** contra la guía (+6–7% y +4–5%): ¿aguanta el tráfico o es rebote post-aranceles?
+- **Crecimiento ex-aranceles:** EPS normalizado ~8,0–8,1 en FY2026; en FY2027 el comparable arranca en 8,61–8,77 (inflado) — medir sobre base limpia.
+- **Política arancelaria y fletes** (no cubren combustible).
+- **Aperturas (115) y tracción de dd's** en mercados nuevos.
+- **Ejecución de la recompra** (1,275B en FY2026 bajo autorización de 2,55B).
+- **Gatillo de entrada (de la ficha):** debilidad hacia **~200 USD** o menos — el DCF conservador de la ficha (WACC 9%) da ~197; a 229,87 no hay margen de seguridad.
+
+**Veredicto de la ficha (razonado): VIGILAR, sesgo comprador en debilidades.** Negocio de primerísima calidad a precio que ya descuenta ejecución perfecta.
+
+---
+
+*Verificación 2026-08-28 (prime-agent): ✓ Q2 FY2026 (ventas 6,3B/+13%, comps +10%, net income 851M, EPS 2,66 con 0,60 de reembolso, guía 8,61–8,77, 115 aperturas, recompras 1,275B); ✓ corrección pb bruto vs operativo; [Sin verificar] el nivel exacto de precio/capitalización de mercado a 27-ago-2026 (229,87 USD / 73,7B, fuente única stockanalysis).*

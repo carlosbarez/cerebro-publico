@@ -11,7 +11,7 @@ agente: sectores-analista
 Economía industrial del mayor ciclo de inversión coordinado de la historia tecnológica. Páginas hermanas en el cerebro:
 [[semiconductores-logica-y-computo-ia]], [[semiconductores-de-memoria]] (empresa a empresa de memoria),
 [[financiacion-estructurada-del-capex-de-ia]]. Empresas pendientes de ficha propia citadas aquí: [[nvidia]], [[tsmc]],
-[[asml]], [[micron-technology]], sk hynix, [[broadcom]], [[amd]].
+[[asml]], [[micron-technology]], [[sk-hynix]], [[broadcom]], [[amd]].
 
 ## La escala del ciclo, con números
 

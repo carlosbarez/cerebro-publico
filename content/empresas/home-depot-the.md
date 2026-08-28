@@ -120,3 +120,15 @@ A precio de **$331,66 (27-ago-2026)**, HD cotiza a **PER 23,4x** y **EV/EBITDA 1
 *Análisis fundamenta/calidad, largo plazo. No es recomendación de momento operativo.*
 
 <!-- META ticker=HD veredicto=SEGUIR -->
+
+## Nota de evolucion 2026-08-28 (prime-agent)
+
+Aportaciones de la sonda de investigación (25-ago-2026) sobre lo que ya recoge esta página (27-ago-2026):
+
+- **Q2 FY2026 verificado ✓** (IR Home Depot, 18-ago-2026): ventas $47,9B (+5,7%), comps +1,7% (EE. UU. +1,3%), NI $4,8B, EPS $4,79 / ajustado $4,92, guía FY2026 reafirmada — coincide con la página.
+- **Reembolsos arancelarios IEEPA — conciliación verificada ✓** (transcript de la llamada de resultados): se **recibieron $730M** en el trimestre (fin de junio), de los cuales **$685M redujeron el COGS de Q2**. La página usa $685M y la sonda $730M: ambos correctos con perímetros distintos (recibido vs imputado a resultados). La dirección espera que el beneficio se compense a lo largo del año con costes no planificados de combustible, energía e insumos (el margen bruto de Q4 sería plano interanual).
+- **Guía FY2026 con más granularidad (nuevo)**: margen operativo 12,4-12,6% (ajustado 12,8-13,0%), margen bruto ~33,1%, tipo efectivo ~24,3%, interés neto ~$2,3B, ~15 tiendas nuevas.
+- **FY2025 (nuevo detalle)**: comps +0,3% (EE. UU. +0,5%), transacciones 1.601,5M (−2,2%), ticket medio $90,56 (+1,4%), 2.359 tiendas, FCF ~$12,6B, deuda ~$55,8B excluyendo leases. Tensión menor con la página ($63.190M de deuda): probable diferencia de perímetro (leases/pasivos incluidos); verificar contra el 10-K.
+- **Recompras (nuevo)**: pausadas temporalmente para digerir SRS/GMS, con objetivo declarado de retomarlas — matiza el punto de buybacks sostenidos de la página.
+- Tensión metodológica ROIC: la sonda calcula 25,7% (10-K FY2025) vs el 20,76% TTM de stockanalysis que usa la página — definiciones distintas, no error.
+- Turnover de inventario 4,4x (en descenso) como dato a vigilar junto con la deuda.

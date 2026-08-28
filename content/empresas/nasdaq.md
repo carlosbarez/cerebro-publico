@@ -1,0 +1,70 @@
+---
+title: "Nasdaq, Inc. (NDAQ)"
+tipo: empresa
+tags: [empresa, infraestructura-de-mercados, tecnologia-financiera]
+fecha: 2026-08-28
+agente: prime-agent
+ticker: NDAQ
+moneda: USD
+fuentes: "[\"https://ir.nasdaq.com/news-releases/news-release-details/nasdaq-reports-fourth-quarter-and-full-year-2025-results-annual\", \"https://www.sec.gov/Archives/edgar/data/1120193/000162828026007703/ndaq-20251231.htm\", \"https://stockanalysis.com/stocks/NDAQ/statistics/\", \"https://ir.nasdaq.com\"]"
+---
+
+# Nasdaq, Inc. (NDAQ)
+
+## 1. Negocio
+
+Nasdaq, Inc. es un operador global de infraestructura de mercados con sede en Nueva York. Gestiona **The Nasdaq Stock Market** (la bolsa electrónica de referencia para tecnológicas y OPV en EE. UU.), las bolsas nórdicas y bálticas, la cámara de compensación Nasdaq Clearing, y —cada vez más importante— un portfolio de **software financiero de misión crítica** (Verafin, contra el crimen financiero; Adenza/Calypso/AxiomSL, riesgo y regulación de mercados de capitales, adquirida en nov-2023 por ~10.500 M$).
+
+Tres segmentos:
+- **Capital Access Platforms:** listado de empresas, índices (el Nasdaq-100 como activo de licencias), relaciones con emisores.
+- **Financial Technology:** Verafin + Adenza. Ingresos por suscripción (ARR) de alto crecimiento (+14% en 2025).
+- **Market Services:** negociación (acciones, derivados, renta fija) y datos. Ingresos brutos altos pero con ~2.500 M$/año de rebates a creadores de mercado; lo que queda neto (~1.201 M$ en 2025) es muy rentable.
+
+Segundo orden: la compra de Adenza convirtió a Nasdaq en algo más que una bolsa — es un **proveedor de plomería regulatoria** cuyos clientes (bancos globales) no pueden migrar sin riesgo regulatorio. Eso cambia el perfil: menos dependiente del ciclo de volúmenes, más parecido a [[software-empresarial]] con un exchange pegado encima. Conecta con [[intercontinental-exchange]] y [[london-stock-exchange-group]], que han hecho la misma jugada (comprar software/data recurrente para salir de la dependencia de volúmenes).
+
+## 2. Economía y foso (moat)
+
+Tipo: **efecto red + costes de cambio + barrera regulatoria** ([[efecto-red]], [[costes-de-cambio]], [[foso-economico]]).
+
+1. **Listado con efecto red:** nº1 de EE. UU. en capital captado en OPV por 7º año consecutivo; en 2025 récord de traspasos de cotización (~1,2 billones $ cambiados de bolsa). Quien cotiza en Nasdaq no se muda: el símbolo "Nasdaq-listed" es parte de la marca del emisor tech.
+2. **Índices como licencias:** el ecosistema Nasdaq-100 genera royalties sobre ETPs (~882.000 M$ de AUM a cierre 2025). Es un negocio de [[poder-de-precios]] puro: el índice no cuesta nada de margen adicional.
+3. **Software de cumplimiento embebido:** Verafin/Adenza viven dentro de los flujos de compliance de bancos; sustituirlos implica riesgo regulatorio y migración. Es el clásico foso de [[costes-de-cambio]].
+4. **Licencias de bolsa/cámara:** la entrada de un operador nuevo de mercado regulado en EE. UU. es casi imposible por regulación.
+
+¿Aguanta 10 años? Sí en listado, índices y software. El punto débil es Market Services: compite por precio con ICE/NYSE y Cboe en un mundo de volúmenes electrónicos comprimidos — por eso la estrategia es precisamente reducir su peso relativo.
+
+## 3. Números clave
+
+FY2025 (10-K y nota de resultados oficial, verificado):
+- Ingresos netos (revenues less transaction-based expenses): **5.249 M$** (+13%)
+- Ingresos brutos totales: **8.218 M$** (ojo: la ficha de origen decía 8.262 M$ y Market Services 4.214 M$; el press release oficial recoge 8.218 M$ y 4.170 M$ — corregido aquí)
+- Resultado operativo GAAP: **2.331 M$** (margen 44,4% sobre neto)
+- Beneficio neto atrib.: **1.788 M$** (+60%) · BPA diluido GAAP **3,09 $**
+- ARR: **3.051 M$** (+10%)
+- Deuda total ~9.000 M$ (tras Adenza); goodwill+intangibles ~20.900 M$ — el balance es "pesado" de intangibles por M&A.
+- 1S 2026: ingresos netos 2.908 M$ (+14,4%), beneficio neto 1.026 M$ [Sin verificar línea a línea; citado del 10-Q Q2-2026 en la ficha de origen]
+- Precio ~99 $, capitalización ~55.500 M$, P/E TTM ~29x, EV/EBITDA ~19x [Sin verificar; datos de mercado de stockanalysis en la ficha]
+- Consenso: Buy, objetivo medio 109,80 $ [Sin verificar]
+
+## 4. Riesgos y red flags
+
+- **Valoración exigente:** ~29x beneficios TTM por una empresa de crecimiento ~12-13%. El mercado ya descuenta que la transformación en "empresa de tecnología" tiene éxito. Poco [[margen-de-seguridad]] cerca de máximos.
+- **Ciclo de volúmenes:** Market Services sigue siendo ~23% del neto; una contracción de volúmenes/comisión presiona.
+- **Apalancamiento post-Adenza:** ~9.000 M$ de deuda; la integración y el desapalancamiento consumen FCF que no va a recompras.
+- **Concentración geográfica:** ~72% de ingresos brutos de EE. UU.; dependencia del ciclo de OPV estadounidense (que es a su vez su catalizador).
+- **Regulación de estructuras de mercado:** tasas Section 31, reglas de jornada extendida 24h, tokenización — cambios de reglas que pueden redistribuir ingresos entre operadores.
+- Red flags contables: ninguna evidente; el gap bruto-vs-neto (~3.000 M$ de rebates) es estructural del sector, no manipulación — pero obliga a leer siempre "ingresos netos", nunca los brutos.
+
+## 5. Conexiones
+
+- Industria: infraestructura de mercados (pendiente) · pares: [[intercontinental-exchange]], [[london-stock-exchange-group]], [[cme-group]]
+- Conceptos: [[efecto-red]] · [[costes-de-cambio]] · [[foso-economico]] · [[poder-de-precios]] · [[software-empresarial]] · [[multiplos-de-valoracion]]
+- Tema de segundo orden: la extensión de la jornada a ~24h y la adquisición de LeveL Markets (ago-2026, [Sin verificar]) conectan con la tesis de [[microestructura-de-mercado-y-ejecucion]]: el trading globaliza horario y el operador que capture el flujo fuera de horario gana cuota.
+
+## 6. Qué vigilar
+
+- **Crecimiento de ARR de Financial Technology >12% sostenido:** si se frena, la re-rating como "empresa tech" se evapora y el múltiplo converge al de exchange puro.
+- **Flujos netos de OPV:** si el ciclo de salidas a bolsa se enfría, Capital Access Platforms sufre con retraso de ~1-2 trimestres.
+- **Reglas de jornada 24h y competencia de ICE/Cboe en horario extendido.**
+- **Desapalancamiento:** deuda neta/EBITDA bajando hacia ~3x habilitaría recompras más agresivas.
+- **Precio:** a ~29x TTM, la tesis de compra solo mejora con debilidad; un pullback que acerque el P/E a ~22-24x forward (22,7x actual) con ARR >12% sería el punto de entrada razonado. [Sin verificar el precio actual]

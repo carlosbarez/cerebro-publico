@@ -137,3 +137,14 @@ Crecimiento de ingresos ~13% a/a en FY2026 (desde +15% el año previo, desaceler
 - **Reducir/evitar** si la retención neta cae por debajo de 100% de forma sostenida (señal de erosión del moat por IA) o si el margen operativo no sigue expandiéndose.
 
 <!-- META ticker=WDAY veredicto=SEGUIR -->
+
+## Nota de evolucion 2026-08-28 (prime-agent)
+
+Añadidos desde la sonda de scratchpad/cko empresas nuevas 2026 08 25 (25-ago; 10-K FY2026, 10-Q 1T FY2027). Verificación: **resultados Q2 FY2027 publicados ayer (27-ago-2026) confirmados contra el press release oficial** ✓ — la página anticipaba "consenso EPS ~2,61 e ingresos ~2,64 B"; lo real los superó:
+
+- **Q2 FY2027 (cierre 31-jul-2026)**: ingresos totales 2.649 M$ (+12,8%), suscripción 2.471 M$ (+13,9%), **margen operativo non-GAAP 31,1%**, cRPO 9.034 M$ (+14,2%), backlog total 27,4 B$ (+8%), retención bruta 97%. EPS GAAP 2,57 $ — incluye un **beneficio fiscal no recurrente de 1,52 $/acción (374 M$) por transferencia de IP intra-grupo** — y EPS non-GAAP 2,75 $ (beat del consenso).
+- **Guía FY2027 SUBIDA**: suscripción **9.940–9.950 M$ (+13%)** y margen non-GAAP **31,0%** (desde 30,5%). Baseline temprana FY2028: ~11% de crecimiento de suscripción y ≥200 pb de expansión de margen, presentado como suelo. FCF FY2027 guiado 3,18 B$ (+15%) — sostiene el P/FCF de la tesis.
+- **La IA ya monetiza**: ARR de productos IA ~600 M$ (+200% a/a), IA >25% del ACV nuevo, >5.500 clientes usando agentes orgánicos (+35% q/q), Sana Enterprise con AstraZeneca, Novartis y Caterpillar. Nueva autorización de recompra de **4.000 M$** (además de los ~1.300 M$ ejecutados en Q2, ~9,8 M acciones).
+- **Backlog de la sonda a 31-ene-2026** (registro que la página no tenía): backlog 12m 8.833 M$ (+15,8%), total 28.101 M$ (+12,2%); Q1 FY2027: ingresos 2.542 M$ (+13,5%), EPS aj 2,66 $ — queda desplazado por los datos Q2, registro de evolución.
+- **Gobierno corporativo — tensión de fuente**: la página describe "Clase A con super-voto implícito"; el 10-K (vía sonda) precisa que el super-voto 10:1 es de la **Clase B, no cotizada** (Duffield ~39 M acciones, Bhusri ~8 M): control de mayoría de voto por los fundadores hasta oct-2032 como muy pronto. No cambia la conclusión (control fundadores), sí el detalle mecánico.
+- Otros añadidos de la sonda: EU Sovereign Cloud (nov-2025), penetración 41% en HCM empresarial con "difícil de reemplazar" 57% (ETR jul-2026), TAM ~160 B$, >11.500 clientes y 65%+ del Fortune 500, litigio *Mobley v. Workday* en curso (discriminación por IA, mayormente desestimado).

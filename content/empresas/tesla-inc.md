@@ -155,3 +155,15 @@ al alza por cambio de escenario, no por precio.
 - Sonda 13-ago-2026 con fuentes primarias agregadas:
   Reuters/LSEG (FY2025), Electrek (10-ago Cybercab-Starlink; 04-ago telemetria robotaxi y Waymo; 03-ago FSD v14 Lite HW3; 13-ago huelga IF Metall), TipRanks (12-ago clausula SpaceX), KBB (ATP), Benchmark (EV julio) — consulta 2026-08-25
 - analisis acciones/tesla (ficha de datos previa del vault, PER/rango 52s)
+
+## Nota de evolucion 2026-08-28 (prime-agent)
+
+Añadidos desde la sonda de scratchpad/cko empresas nuevas 2026 08 25 (10-K FY2025 y Q2 2026). Verificación: el recall de China está **confirmado** (Reuters/Guardian/Electrek, 21-ago-2026) — esto resuelve el "verificar magnitud" pendiente de la sección 7.
+
+- **Recall China cuantificado**: Tesla retira ~**2.976.000 vehículos** (973.156 Model 3 y 1.956.713 Model Y nacionales + importados) por la dificultad de localizar el mando interior de emergencia de las puertas; forma parte del mayor recall de la historia de China (~4,3 M vehículos de 11 fabricantes, incluidos Xiaomi, Xpeng y Geely). Remedio: etiquetas + actualización OTA (efectivo desde 25-sep-2026), sin cambio de hardware. China prohibirá los tiradores ocultos desde 2027. En EE.UU.: investigación de NHTSA abierta y proyecto de ley SAFE Exit Act. Coste directo bajo (software/etiquetas), pero refuerza la presión regulatoria sobre el diseño y los litigios por muertes ya en curso.
+- **FY2025 (10-K)**, cifras nuevas: créditos regulatorios ~1.993 M$ (−28% a/a, camino a ~cero); despliegues de almacenamiento 46,7 GWh (récord) con margen del segmento energía ~29,8% — la columna que sostiene el beneficio mientras el auto se comprime.
+- **Q2 2026 añadidos**: 1,48 M suscripciones FSD activas (+56%); robotaxi en Austin, Dallas, Houston, Miami, Orlando y Tampa (safety driver en Bay Area); capex 5.789 M$ (+142%) y plan de capex 2026 >25 B$ (CFO Taneja).
+- **Compensación Musk (nuevo y relevante)**: la Corte Suprema de Delaware **reinstauró el award 2018** (orden final 18-mar-2026); el interim award de 96 M acciones quedó forfeitado en abr-2026 ("no double dip"); el Implementation Agreement (21-abr-2026) condiciona el vesting a que Musk siga como CEO hasta 19-ene-2028 con retención de 5 años. Modifica la lectura de la sección 5: el riesgo de dilución ya tiene calendario y condiciones legales.
+- **Competencia verificable**: BYD empató con Tesla en cuota europea en 1S-2026 (2,4% cada uno); Tesla perdió a finales de 2025 el #1 mundial de EV ante BYD; Giga Shanghai exporta ya el 49% de su producción. **Toyota y Stellantis salieron del pool de CO₂ europeo para 2026** — acelera el colapso de créditos ya documentado.
+- **Tensión de fuente**: esta página recoge energía Q2-2026 +34%; la sonda y el cálculo directo sobre el 10-K (3.139 M$ vs 2.789 M$ en Q2-2025) dan **~+13%** — prevalece el +13%; la cifra de esta página probablemente compara con otro período base.
+- Pipe de producto (guías de la compañía, sin verificar hitos): Megapack 3 / Megablock 20 MWh en 2026, Optimus Gen 3 en la antigua línea S/X de Fremont con ventas externas posibles en 2S-2027, FSD v15 ("step-change") fin-2026/prin-2027.

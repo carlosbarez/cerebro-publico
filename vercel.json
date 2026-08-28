@@ -1,9 +1,10 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
-  "buildCommand": "npx quartz build",
+  "buildCommand": "echo sitio estatico horneado por publica.py",
   "outputDirectory": "public",
   "installCommand": "npm ci",
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }

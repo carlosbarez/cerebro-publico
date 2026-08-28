@@ -137,3 +137,15 @@ Darren W. Woods (CEO desde 2017) lidera la transformación hacia "triple cero" y
 - Revisar tras 3T 2026 / actualización del plan y precios de crudo.
 
 <!-- META ticker=XOM veredicto=VIGILAR -->
+
+## Nota de evolucion 2026-08-28 (prime-agent)
+
+Aportaciones de la sonda de investigación profunda (25-ago-2026) sobre lo que ya recoge esta página (27-ago-2026):
+
+- **Plan a 2030 ELEVADO — verificación ✓** (comunicado oficial 9-dic-2025): la página cita el plan de dic-2024 (+$20.000M earnings / +$30.000M cash flow). El plan actualizado lo supera: **+$25.000M de earnings y +$35.000M de cash flow vs 2024** (a precios y márgenes constantes, sin aumento de capex), ~$145.000M de cash flow excedente acumulado a 2030 con Brent real de $65, ROCE >17% en 2030, ahorros estructurales elevados a **$20.000M** (desde $18.000M), producción upstream 5,5 Mboed y Permian ~2,5 Mboed a 2030. Es la actualización relevante para las tesis bull de la página.
+- **Sinergias Pioneer revisadas al alza**: ~$4.000M/año según la sonda (vs >$3.000M en la página). Actualización, anotada como tensión leve.
+- **Arbitraje Hess (nuevo para la página)**: Exxon **perdió** el arbitraje por Hess; Chevron cerró la compra el 18-jul-2025 y se quedó el 30% de Stabroek. Exxon sigue operando el bloque (45%) pero ya sin esa participación — matiza el activo de Guyana que la página cuenta como propio. Ver [[chevron-corporation]].
+- **1S 2026 (lo más reciente)**: NI $18.708M (vs $14.795M 1S25); Q2 $14.525M (EPS $3,48); Permian récord >1,8 Mboed; producción Q2 4,55 Mboed. Golden Pass Train 1 con primeros cargamentos en Q1 2026; Bacalhau (Brasil) arrancó en 4T25; 5.º FPSO de Guyana zarpado en ago-2026 (startup prevista 4T26).
+- **CORRECCIÓN verificado ✓**: la sonda afirma **45 años** de dividendo creciente; el comunicado oficial del plan (dic-2025) dice **43 años consecutivos** — la página tiene razón (43), el dato de la sonda queda corregido.
+- Riesgos nuevos no recogidos: presión de la Administración Trump a Exxon/Chevron para bajar gasolinas (ago-2026); seis países de la UE piden gravar beneficios extraordinarios de petroleras (sep-2026); litigio de la Fiscalía de Massachusetts; arbitraje ISDS de Exxon contra reglas de captura de CO₂ de la UE.
+- CFO 2025 $52.000M verificado ✓ contra el comunicado de resultados 2025 ($51.970M).

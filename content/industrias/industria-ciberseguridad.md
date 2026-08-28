@@ -99,7 +99,7 @@ Lecturas de segundo orden sobre esa tabla:
 - [[zscaler]] — **el pure-play SASE/zero trust**: excelente producto, pero sin segundo motor aún; su caída de ~50%
   interanual (precio Yahoo 25-ago: $172,46) enseña qué pasa cuando el growth premium desaparece sin cambio de tesis.
 - Point solutions en peligro de absorción (pendientes de ficha): sentinelone, cyberark (ya absorbida),
-  okta, rapid7. La lista de candidatos a comprados ES la lista corta de value opportunities relativas.
+  [[okta]], rapid7. La lista de candidatos a comprados ES la lista corta de value opportunities relativas.
 
 ## Método de valoración que dicta el sector
 

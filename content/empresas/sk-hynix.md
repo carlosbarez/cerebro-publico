@@ -1,0 +1,82 @@
+---
+title: "SK hynix (000660.KS / SKHY)"
+tipo: empresa
+tags: [empresa, semiconductores-memoria]
+fecha: 2026-08-28
+agente: prime-agent
+ticker: 000660.KS / SKHY
+moneda: KRW
+precio_referencia: 1730000
+fuentes: "[\"https://news.skhynix.com/en/q2-2026-business-results/\", \"https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/\", \"https://stockanalysis.com/quote/krx/000660/financials/\", \"https://www.reuters.com/world/asia-pacific/sk-hynix-board-approves-38-bln-investments-south-koreas-yongin-cheongju-chip-2026-08-07/\", \"https://en.infomaxai.com/news/articleView.html?idxno=110410\"]"
+---
+
+# SK hynix (000660.KS / SKHY)
+
+## 1. Negocio
+
+SK hynix es el segundo fabricante mundial de memoria y el **líder indiscutible en HBM** (High-Bandwidth Memory), el componente crítico de los aceleradores de IA. Fabrica y vende (modelo IDM, fábricas propias):
+- **DRAM** (~2/3–3/4 de ingresos): HBM3E/HBM4, DDR5 servidor, LPDDR móvil, GDDR7, SOCAMM.
+- **NAND** (resto): eSSD empresariales de alta capacidad vía **Solidigm** (ex-NAND de Intel).
+
+Clientes: B2B puro — **NVIDIA (~24% de los ingresos 2025: 23,3 T KRW)**, Google (TPU), Microsoft, Meta, Amazon y ensambladores; ~10 clientes clave con **acuerdos a largo plazo (LTAs)** que aseguran carga de fábrica 2026–2028. Fabs en Corea (Icheon, Cheongju, cluster Yongin en construcción), China (Wuxi-DRAM, Dalian-NAND) y empaquetado en Indiana (EE. UU.). Desde el 10-jul-2026 cotiza como ADR en Nasdaq (**SKHY**) — la mayor salida de una extranjera en la historia de EE. UU. [la recaudación de ~26,5 B USD: Sin verificar].
+
+**Implicación de segundo orden:** la memoria de IA se negocia con contratos anuales por adelantado y precios negociados bilateralmente — SK hynix pasó de commodity-puro a cuasi-proveedor designado. Pero eso mismo significa que su destino depende del capex de unos pocos compradores ([[hiperscalers]], [[nvidia]]): la "visibilidad" de los LTAs es a cambio de dependencia.
+
+## 2. Economía y foso (moat)
+
+Tipo: **liderazgo tecnológico + foso de empaquetado + costes de cambio** ([[foso-economico]]), en [[semiconductores-de-memoria]].
+1. **HBM:** primera en HBM3E de 12 capas y primera en HBM4 en volumen; cuota de HBM ~58–62% y UBS proyecta ~70% del HBM4 para la plataforma Rubin de NVIDIA.
+2. **El cuello de botella real es el backend:** el empaquetado TSV y sus *yields* tardan años en igualarse por Samsung/Micron; SK hynix invierte en Cheongju e Indiana para blindarlo.
+3. **LTAs con ~10 clientes** y co-diseño (*custom HBM*): pegajoso y con coste de recalificación enorme.
+4. **Alianza SK Group–NVIDIA (jul-2026):** LoI >500 B USD que incluye co-desarrollo de memoria de próxima generación y la "AI factory" de SK Telecom con HBM4 — ancla demanda a 2027+.
+
+¿Aguanta 10 años? La posición HBM sí mientras el empaquetado siga siendo el cuello de botella. La memoria convencional, no: es commodity cíclica al uso ([[reversion-a-la-media]]) y Samsung ya recuperó el nº 1 en DRAM total (38% vs 29% en 1T26), con CXMT (China) creciendo desde ~8%.
+
+## 3. Números clave
+
+**Q2 2026 — verificado contra el newsroom (29-jul-2026):** ingresos **79,32 T KRW** (+257% a/a; +51% secuencial), resultado operativo **60,54 T (margen 76%, récord)**, beneficio neto **93,92 T (margen neto 118%, no recurrente)**. El neto incluye **63,27 T KRW de plusvalías por activos de inversión + 1,15 T de FX**: el beneficio operativo (60,5 T) es la base de valoración correcta, no el neto ([[contabilidad-y-calidad-de-beneficios]], [[valoracion-ciclicas-y-beneficios-negativos]]).
+
+| Año | Ingresos | Res. operativo | Margen op. |
+|---|---|---|---|
+| 2023 | 32,77 T | −7,73 T | −23,6% |
+| 2024 | 66,19 T | 23,47 T | 35,5% |
+| 2025 | 97,15 T ✓ | 47,20 T ✓ | 48,6% |
+| 1S 2026 | >100 T (histórico) | 98,2 T | ~74% |
+
+Balance (Q2'26, verificado): efectivo **88 T KRW**, deuda total **18,6 T**, **caja neta +69,4 T**. ROE 2025 ~44%.
+
+⚠️ **Corrección de verificación (2026-08-28):** la ficha daba deuda total 21,1 T y caja neta 66,9 T a jun-2026; el comunicado de la compañía reporta 18,6 T y 69,4 T. Se usan las cifras de la compañía.
+
+**Conflicto de fuentes (importante):** resultados récord pero **la acción cayó ~9% tras publicarlos** (queda cerca del mínimo de 52 semanas, ~128–195 USD/ADR) y la capitalización ha caído ~45% desde su pico de junio según prensa. El consenso "Strong Buy" con objetivo +83% que recoge la ficha (pre-resultados) convive mal con esa caída: o el objetivo está desfasado, o el mercado ya está descontando el pico del ciclo. Ambas cosas pueden ser ciertas a la vez — es exactamente el dilema cíclico clásico.
+
+## 4. Riesgos y red flags
+
+1. **Concentración de cliente:** NVIDIA ~24% de ingresos y creciendo (27% de 1S25 según TrendForce). Un recorte de su capex es directo ([[riesgo-de-cola-capex-computo-ia]]).
+2. **Ciclicidad extrema:** perdió 9,1 T KRW en 2023; márgenes del 76% **no son perpetuos**. TrendForce/Counterpoint ya señalan "pausa de precios" de HBM en 2026 antes del salto de 2027.
+3. **Competencia:** Samsung recuperó el #1 en DRAM total y avanza en HBM; Micron gana cuota; CXMT presiona el mercado convencional.
+4. **Geopolítica/China:** las fabs de Wuxi y Dalian dependen del régimen de licencias anuales de EE. UU. (el waiver VEU expiró a fin de 2025) — renovación anual = riesgo recurrente ([[geopolitica-del-computo]]).
+5. **Capex masivo:** plan de 54,3 T KRW hasta 2031 (Yongin Y2 + M17) y hasta 600 T en Yongin a largo plazo. Si la IA se enfría, el exceso de capacidad castiga — patrón idéntico a ciclos previos ([[ciclo-de-capex]]).
+6. **Gobernanza del grupo:** control vía [[gobierno-corporativo-consejos|SK Square]] (20,5%) y entramado cruzado del SK Group; Chey Tae-won indultado en 2018. Riesgo de decisiones de capital no óptimas para el minoritario.
+7. El múltiplo "barato" (PER forward ~4–5x) descuenta consenso de superciclo casi perfecto: barato sobre beneficios de pico no es barato.
+
+## 5. Conexiones
+
+- Industria: [[semiconductores-de-memoria]] · [[industria-semiconductores-ciclo-ia]] · [[super-ciclos-y-regimenes-estructurales]].
+- Cadena: [[nvidia]] (cliente-motor) · [[samsung-electronics]] y [[micron-technology]] (competidores) · [[asml]], [[lam-research]], [[kla-corp]], [[tokyo-electron]] (proveedores de equipo) · [[tsmc]] · [[sandisk]] (NAND) · [[hiperscalers]] · [[infraestructura-centros-de-datos]].
+- Conceptos: [[ciclo-de-capex]] · [[geopolitica-del-computo]] · [[reversion-a-la-media]] · [[valoracion-ciclicas-y-beneficios-negativos]] · [[contabilidad-y-calidad-de-beneficios]] · [[riesgo-de-cola-capex-computo-ia]] · [[financiacion-estructurada-del-capex-de-ia]].
+
+## 6. Qué vigilar
+
+- **ASP de HBM 2026–2027:** la "pausa de precios" anunciada; cualquier caída mayor de lo esperado rompe la tesis de márgenes >70%.
+- **Cuota HBM4** (objetivo ~70% según UBS) frente al avance de Samsung/Micron.
+- **Renovación de licencias EE. UU.** para Wuxi/Dalian (anual).
+- **Capex de NVIDIA e hiperscalers** 2027: el único gatillo que de verdad invalida la tesis.
+- **Ejecución de Yongin/M17** y disciplina de capex (¿600 T KRW sostenibles si el ciclo gira?).
+- **Retorno al accionista:** cancelación de 15,3 M de acciones (2,1%) y dividendo creciente — señal de madurez de caja, vigilar si se mantiene en 3T26.
+- Acción cerca de mínimos de 52 semanas pese a resultados récord: resolver la contradicción consenso-mercado antes de cualquier decisión.
+
+Sin veredicto propio de la ficha: "alta calidad, alta expectativa". La valoración queda abierta; los múltiplos actuales no son utilizables sin normalizar el ciclo.
+
+---
+
+*Verificación 2026-08-28 (prime-agent): ✓ Q2 2026 (79,32 T / 60,54 T / 93,92 T; margen op. 76%; plusvalía 63,27 T + FX 1,15 T); ✓ balance Q2'26 (88 T caja, 18,6 T deuda, +69,4 T neta — corregido vs ficha); ✓ FY2025 (97,15 T / 47,20 T); ✓ Q1 2026 (52,58 T / 37,61 T); ✓ LTAs ~10 clientes, HBM4 en volumen, capex 54,3 T (Reuters); ✓ conflicto detectado: caída de acción tras récord vs consenso +83% de la ficha; [Sin verificar] recaudación exacta del ADR (26,5 B USD) y capitalización (~900 B USD) a 27-ago-2026.*

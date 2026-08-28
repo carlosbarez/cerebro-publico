@@ -136,3 +136,14 @@ RSI 25: oversold no es barato.
 - Marmaxx comp Q3 FY27 >=2% ("mejora inicio de trimestre", CEO): prob 65% — ~nov 2026.
 - EPS ajustado FY27 >= $5,15 (piso de guia): prob 75% — feb-mar 2027.
 - Precio entre $120 y $178 el 23-nov-2026: prob 85%.
+
+## Nota de evolucion 2026-08-28 (prime-agent)
+
+Añadidos desde la sonda de scratchpad/cko empresas nuevas 2026 08 25 (26-ago; earnings release FY26, Q2 FY27 y 10-K). Verificación: precio confirmado vía stockanalysis — **cierre 27-ago-2026: 134,22 $, tocando el mínimo de 52 semanas (rango 134,17–170,00)** ✓; market cap ~148 B$.
+
+- **El precio ya descendió del 140,71 $ de referencia de esta página hasta el suelo anual**: el gatillo de entrada de ~124 $ (MOS 15%) está a ~7,5% de distancia, no es un escenario teórico. La sonda ya lo adelantaba con Yahoo (134,22 $ el 26-ago) ✓.
+- **Desglose FY26 por división (nuevo)**: crecimiento de ventas Marmaxx +6%, HomeGoods +8%, TJX Canada +8%, TJX International +11%; comps globales FY26 +5%. El crecimiento de la división grande es el más lento — confirma el patrón de la alerta Marmaxx de la sección 3.
+- **Margen bruto Q2 FY27**: 32,4% inflado por reembolsos IEEPA (~31,4% ajustado) — coherente con los 219 M$ de devoluciones ya recogidos en la sección 4; el propio release espera ~0,5 pp de beneficio adicional en Q3 FY27.
+- **Tensión metodológica de rentabilidad**: la sonda calcula ROE ~59%, ROA ~16% y **ROIC >70% excluyendo arrendamientos operativos**, frente al ROIC 30,1% de esta página — distinto tratamiento de leases y capital empleado; ninguna de las dos cifras es "la buena" sin normalizar, úsense con la fuente explícita.
+- **Novedad de mercado post-resultados (verificada)**: ola de recortes de objetivos y downgrades por la desaceleración de Marmaxx — Jefferies a Hold (145 $), Citi a Neutral (154 $), Wells Fargo a Equal Weight (140 $), Gordon Haskett a Accumulate; objetivo medio 170,40 $. La tesis de la página ("ejecución de merchandising, no demanda") sigue intacta — la compañía subió guía FY27 — pero el sentimiento analista se está deteriorando más rápido que el fundamental.
+- Balance FY26 según sonda: efectivo 6,23 B$, deuda financiera 2,88 B$ → posición neta de caja ~3,35 B$ antes de leases (coherente con la sección 4).

@@ -124,4 +124,15 @@ Pero a **$310,62 cotiza a ~25x beneficios y ~28x FCF, por encima de su media his
 
 **Condiciones de compra:** iniciar/refuerzo por debajo de **~$250** (P/E ~20x, P/FCF <22x), o si la fusión NS se confirma con sinergias intactas y el servicio sigue mejorando. Si ya se posee, **SEGUIR** (no vender una franquicia así por momentum). Revisar tras próximas decisiones de la STB y el 10-K de 2026.
 
+## Nota de evolucion 2026-08-28 (prime-agent)
+
+Añadidos desde la sonda de scratchpad/cko empresas nuevas 2026 08 25 (25-ago; 10-K FY2025 y presentación Q2'26). Verificación: **Q2 2026 confirmado contra el press release oficial (23-jul-2026)** ✓ — no recogido en esta página, que se quedaba en Q1:
+
+- **Q2 2026 (récord)**: ingresos 6.900 M$ (+12%, impulsados por recargo de combustible y volumen), neto 2.000 M$ (+6%), **EPS 3,36 $ / ajustado 3,41 $ (+13% vs 3,03 $)**, OR 59,7% reportado / 59,2% ajustado (mejoras de 70/110 pb pese a −120 pb por precio del diésel), flete ex-combustible +4%. La dirección **elevó la guía 2026 a crecimiento de EPS reportado de dígito alto**.
+- **Dividendo aclarado**: el 16-jul-2026 el consejo subió el trimestral un 3% a **1,42 $ (≈5,68 $ anualizados)**. Resuelve la tensión entre la sonda (~5,36 $/acción a precios de 2025) y los 5,68 $ de esta página: prevalece 5,68 $ como tipo vigente; ambos datos eran correctos para su fecha.
+- **One-off FY2025**: +234 M$ por ventas de terrenos de parques industriales (+0,30 $ EPS) y −30 M$ de costes de fusión — matiza la calidad del beneficio de la sección 4.
+- **Detalle nuevo del expediente STB (FD 36873)**: acuerdo condicionado con CN — CN adquiriría la participación de NS en TRRA y KCT y el 50% de la de UP en Peoria & Pekin Union Railway. Cronograma completo: comentarios hasta 18-nov-2026, opiniones DOJ/USDOT ~3-dic-2026, réplicas 16-feb-2027, alegatos finales 28-may-2027, decisión ~90 días tras el cierre (H2-2027).
+- **Seguridad como refuerzo del foso**: 2025 fue su mejor año histórico (tasa de lesiones 0,68, −24%; descarrilos 1,75, −19%, mejores de la industria) — relevante frente al escrutinio FRA post-East Palestine y para el expediente de la fusión.
+- Recompras 2025: 4,0–4,5 B$ (retorno total >100% del FCF); plan de capital 2026 ~3,4 B$. Berkshire Hathaway no participa en UNP (es dueña de BNSF).
+
 <!-- META ticker=UNP veredicto=VIGILAR -->

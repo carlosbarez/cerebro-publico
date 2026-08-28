@@ -70,6 +70,8 @@ Todo esto necesita tu terminal o una cuenta tuya; ninguna lo puede hacer el agen
 | `comprueba_launchd.py` (audit A2) | Cruzar `scripts/launchd/*.plist` contra `launchctl list` en el mantenimiento semanal; el watchdog no ve launchd (modo de fallo del vigilante). Sin respuesta en la tanda | 2026-08-02 | sin decidir |
 | Blindaje del backup (audit A3) | Ampliar `backup.sh` (docs/tests/pruebas/_ingesta_tmp) + `--verifica` + launchd + copia a iCloud. Relacionado con la fila "Backup FUERA del disco". Sin respuesta en la tanda | 2026-08-02 | sin decidir |
 | `dedup_raw.py --seguro` (audit A4) | Borrado con guardarraíl MD5 (solo ≥2 copias idénticas). La fila de duplicados de arriba ya va verificada a mano | 2026-08-02 | sin decidir |
+| **Duplicados de empresa: fusionar 3 pares** | `hermes-international.md` vs `herm-s-international.md` · `l-oreal.md` vs `l-or-al.md` · `moody-s-corporation.md` vs `moodys.md`. Las de hoy (prime-agent) cruzan como páginas hermanas; decidir qué nombre sobrevive y fusionar respetando la regla de evolución (las valoraciones VIGILAR de carlos-barez del 25-ago no se pierden) | 2026-08-28 | pendiente |
+| **[ESCALA] La flota prime-agent escribe fichas crudas directo en `wiki/empresas/`** | Detectadas 4 (`ab-inbev`, `bouygues`, `engie`, `vinci`, 13:02) sin frontmatter, con acentos y formato de informe — incumple «crudo jamás al hilo del wiki» y el estándar de página. El ascensor (verificación + formato + atribución) debe seguir siendo un redactor; ajustar el encargo de la flota o el hook de wikilinks/frontmatter | 2026-08-28 | **pendiente** |
 | Worktree stale de 2,4 GB | `.claude/worktrees/great-mclaren-1711e3/` (30-jul): Carlos decidió NO borrarlo en la tanda del 2026-08-02 | 2026-08-02 | decidido (se queda) |
 
 ## Ronda 2 (2026-08-02) — propuestas auditadas NO seleccionadas en la tanda
@@ -134,3 +136,4 @@ fallback; las acciones de credenciales, TCC, backup externo y borrado siguen sie
   **1.172 px en un móvil de 375** y se llevaban por delante la barra de navegación. Eso está arreglado;
   las cifras mal renderizadas **no**.
 - [vigilante 2026-08-27] [[kazatomprom]] — KAP.L a 29.40 USD ha entrado en el gatillo (52.00). Veredicto escrito: VIGILAR. Releer la tesis antes de decidir nada.
+- [vigilante 2026-08-28] [[kazatomprom]] — KAP.L a 29.40 USD ha entrado en el gatillo (52.00). Veredicto escrito: VIGILAR. Releer la tesis antes de decidir nada.

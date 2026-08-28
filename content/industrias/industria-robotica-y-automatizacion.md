@@ -12,7 +12,7 @@ Economía industrial del sector, hermana de [[industria-electrificacion-automati
 planta) y conectada al ciclo fabril global vía [[ciclo-de-capex]] y [[super-ciclos-y-regimenes-estructurales]].
 Fichas relacionadas en el vault: [[abb-ltd]], [[siemens]], [[schneider-electric]], [[caterpillar]],
 [[intuitive-surgical]], [[keyence]]. Pendientes de ficha citadas aquí: fanuc, yaskawa electric,
-teradyne (dueña de Universal Robots), [[rockwell-automation]], mitsubishi heavy industries.
+[[teradyne]] (dueña de Universal Robots), [[rockwell-automation]], mitsubishi heavy industries.
 
 ## La economía base: robots industriales, un negocio cíclico con capa de servicio
 
@@ -102,7 +102,7 @@ Cadena causal completa:
 | yaskawa electric | ¥4.966 | +61,6% | Ciclo puro de robots; margen bajo presión china |
 | fanuc | ¥6.047 | +36,6% | Líder histórico; premium en CNC+robots, servicio |
 | [[abb-ltd]] | ADR $99,16 | +48,8% | Plataforma completa (robots+electrificación+servicio) |
-| teradyne | $367,26 | +213,7% | Universal Robots (cobots) + test semis: doble exposición IA-fábrica |
+| [[teradyne]] | $367,26 | +213,7% | Universal Robots (cobots) + test semis: doble exposición IA-fábrica |
 
 > [Sin verificar] 2026-08-25, verificador-fuentes
 

@@ -145,4 +145,15 @@ A precio 358,67 USD (cierre 26-ago-2026):
 
 No es EVITAR (el negocio es magnífico) ni COMPRAR hoy (sin MOS). Es una posición para **construir en debilidad**, no por momentum.
 
+## Nota de evolucion 2026-08-28 (prime-agent)
+
+Añadidos desde la sonda de scratchpad/cko empresas nuevas 2026 08 25 (10-K FY2025 y 10-Q Q2 2026 en SEC EDGAR):
+
+- **Desglose de fees FY2025 (10-K)**, no recogido antes: gross fees 5.438 M$ (franquicia 3.325, gestión base 1.322, incentivos 791), net fees 5.303 M$. U.S. & Canada genera ~70% de los fee revenues. Cartera oficial a 31-dic-2025: 9.805 propiedades / 1.779.936 habitaciones en 145 países.
+- **Patrimonio contable −3.771 M$ a 31-dic-2025 según 10-K** (esta página recoge −4,53 B de stockanalysis TTM: tensión de fuente/fecha, se mantienen ambas lecturas). FCF FY2025 por CFO−capex del 10-K: 2.608 M$ (vs 2.258 M$ de stockanalysis: tensión metodológica).
+- **Q2 2026 verificado** (press release oficial 3-ago-2026): RevPAR mundial **+3,4%** — la sonda decía +2,1%, dato corregido —, U.S. & Canada +5,0% (confirmado), internacional −0,5% (Oriente Medio −43% por el conflicto). La compañía **elevó la guía FY2026 de RevPAR a +3–3,5%** (desde +1,5–2,5% que recoge esta página): la desaceleración temida se está moderando.
+- **Pipeline récord Q2**: ~4.200 propiedades / ~629.000 habitaciones (44% en construcción). Bonvoy 295M+ miembros con **nuevos acuerdos de co-branding a largo plazo con JPMorgan Chase y American Express** (nuevo foso de fees de tarjeta). Recompra Q2: 3,0 M acciones por 1,1 B$; deuda total 16,9 B$.
+- **Alianza con Catalonia Hotels** (23-jul-2026) para dos resorts todo incluido en Jamaica y Tanzania: primera vía all inclusive de la compañía, encaja con el empuje de lujo/ocio.
+- Tensión Bonvoy: la sonda cita >230 M de miembros, cifra desfasada frente a los >295 M oficiales ya recogidos aquí (prevalece la oficial).
+
 <!-- META ticker=MAR veredicto=VIGILAR -->

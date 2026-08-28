@@ -93,3 +93,14 @@ Negocio de calidad excepcional al precio equivocado. Con margen de seguridad de 
 2. EPS FY27 >= $4,50 (base non-GAAP): **60%**.
 3. KLAC toca <$150 en algun momento antes del 31-dic-2026 (beta 1,46 + rotacion sectorial): **45%**.
 4. Margen bruto non-GAAP FY27 >= 61%: **65%**.
+
+## Nota de evolucion 2026-08-28 (prime-agent)
+
+Aportaciones de la sonda de investigación profunda (27-ago-2026) sobre lo que ya recoge esta página (25-ago-2026):
+
+- **Guía Q1 FY27 completada — verificación ✓** (PR Newswire/IR, 28-jul-2026): la página tenía el rango de ingresos ($4,0B ±$200M); la sonda añade margen bruto non-GAAP **62,5% ±1,0%** (GAAP 61,6% ±1,0%), EPS GAAP $1,14 ±0,10 y non-GAAP $1,16 ±0,10. FY26 confirmado punto por punto (ingresos $13,58B, NI $4,83B, EPS $3,66, FCF $3,77B, retornos $3,35B, split 10:1 el 11-jun-2026) — cuadra con la página ✓.
+- **Lectura del CEO (nueva)**: Rick Wallace — "momentum acelerándose en 2S CY2026 y continuando por 2027", con la IA (leading-edge foundry/logic, memoria y **advanced packaging**) como motor explícito. Refuerza el escenario optimista de la página.
+- **Matiz a la caída del -41%**: parte del reset fue la lectura de "guidance cauta" (rango amplio de Q1 FY27) pese a batir resultados — la acción cayó ~10% post-resultados antes del desplome del mes. Compresión de múltiplo, no deterioro del negocio (coherente con la tesis de la página).
+- **Mix y clientes (nuevo)**: mix SPC Q2 FY26 foundry/lógica ~59% vs memoria ~41% (el peso de HBM sube); **advanced packaging >$925M en CY2025 (+70%)** como nuevo mercado; TSMC y Samsung **cada uno >10% de los ingresos** FY23-FY25. China 29,8% FY26 ✓ cuadra con el ~30% de la página.
+- Controles BIS: la sonda cuantifica **$300-350M de menores ingresos hasta fin-2026** y pérdida de cuota en China a favor de rivales no estadounidenses **[Sin verificar]** (fuente secundaria de la sonda; el 10-K advierte del riesgo pero la cifra no se contrastó).
+- **Tensiones con la página (no se corrigen)**: (a) cuota de process control — la sonda cita >57% (Gartner 2022, citado por KLA) vs el ~50% de la página (StockStory, media de década); (b) deuda neta — la sonda calcula ~$985M (solo deuda a largo plazo, $5.887M − liquidez $4.903M) vs el ~$1,25B de la página (deuda total $6,15B). Definiciones distintas; el orden de magnitud (deuda neta trivial) no cambia.

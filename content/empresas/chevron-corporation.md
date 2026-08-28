@@ -143,3 +143,15 @@ Referencia: **precio ~198 USD** (market cap ~389.000 M; EV ~417.500 M; datos de 
 No es una compra ciega a precios actuales: es **seguir y acumular con colchón**. Para un perfil valor/calidad, CVX merece sitio en cartera con entradas escalonadas por debajo de ~160 USD.
 
 <!-- META ticker=CVX veredicto=SEGUIR -->
+
+## Nota de evolucion 2026-08-28 (prime-agent)
+
+Aportaciones de la sonda de investigación profunda (25-ago-2026) sobre lo que ya recoge esta página (27-ago-2026):
+
+- **CONTRADICCIÓN detectada y verificada ✓ (comunicado 4T/FY2025, 30-ene-2026)**: el ejercicio 2025 auditado fue **NI atribuible $12.299M (EPS diluido $6,63; ajustado $7,29)**, ventas $184.432M / ingresos totales $189.031M, CFFO $33,9B, capex $17,3B, ROCE 6,6%. La fila "2025" de la tabla de esta página (~209.000M ingresos / ~20.600M NI / EPS 10,41, de stockanalysis-TTM) **no cuadra con el año auditado**: era una estimación de agregador pre-cierre. La página lo explica: 2025 fue un año flojo (Brent ~$69) y 2026 un año excepcional (Brent YTD ~$92). No se borra la fila; se anota la tensión y el dato auditable.
+- Producción 2025: récord de 3.723 MBOED (+12%), con Hess aportando 261 MBOED y legacy +124 MBOED; reservas probadas ~10,6 Bboe y reemplazo de reservas 158%.
+- **Balance post-Hess (nuevo)**: deuda total $40.758M (vs $24.541M en 2024); deuda neta/CFFO 1,0x en 2025, corregido a 0,6x tras amortizar $8,4B solo en Q2 2026.
+- **Dividendo**: $1,78/trimestre (+4% en 2026). **Tensión en el conteo de racha**: la sonda dice 39º año consecutivo de subida; la página dice 37 años. Fuentes distintas, no conciliado.
+- Sinergias Hess: el comunicado FY2025 confirma el objetivo de $1B logrado; la sonda reporta $1,5B run-rate (50% por encima del objetivo).
+- Nuevos vectores no recogidos en la página: *heads of agreement* en **Irak** (West Qurna 2, Nasiriyah, oleoducto de exportación, 2026); **litio** en Smackover (~135.000 acres netos TX/AR); FID de expansión de **Leviathan** (2,1 Bcf/d); desinversiones en Singapur, Vietnam, Australia e Indonesia (cierre previsto 2027).
+- Precio de la sonda ~$198,74 (27-ago-2026): coherente con la referencia $198 de la página.

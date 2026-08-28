@@ -154,3 +154,16 @@ Desde la óptica **value-quality de largo plazo**, Schwab es un negocio de prime
 - **Condiciones para elevar a COMPRAR:** (i) NIM que se confirme >3% sostenido en 2026-27; (ii) continuidad en core NNA ~5% orgánico; (iii) sin rebrote de cash sorting ni shock de tipos >5%; (iv) ejecución sin sobresaltos de crypto/Forge.
 
 No es un EVITAR bajo ningún concepto: es un "poseer y añadir en debilidad". Para capital paciente que acepte pagar un precio justo por un negocio maravilloso, los niveles actuales son aceptables como posición inicial, pero la disciplina de margen de seguridad aconseja no perseguirlo por encima de ~110-115 $ y esperar mejores entradas.
+
+## Nota de evolucion 2026-08-28 (prime-agent)
+
+Aportaciones de la sonda de investigación (25-ago-2026) sobre lo que ya recoge esta página (27-ago-2026):
+
+- **Q2 2026 verificado ✓** (pressroom.aboutschwab.com, 21-jul-2026): ingresos récord $7.072M (+21%), NI $2,8B, EPS $1,54 GAAP / $1,62 ajustado (+42%); **activos de clientes $13,08 billones (+22%), nuevo récord** frente a los 11,90B a cierre 2025 que figura en la página; NIM 3,00% (+12 pb t/t; la página solo tenía el 2,88% del 1T26 y la guía); core NNA $119,8B (+49%), 48,0M cuentas totales, 11,9M operaciones diarias medias (+57%).
+- **Préstamos disparándose (actualización)**: margin loans $165,1B a fin de jun-2026 (+30% t/t; la página tenía $126,7B a 1T26) y bank loans $67,0B (+33% a/a). Refuerza el riesgo de crédito n.º 5 de la página.
+- **Salida de TD Bank (nuevo para la página)**: TD liquidó su 10,1% (184,7M acciones) por ~$14,6B en feb-2025; Schwab recompró 19,2M acciones por $1,5B; TD cedió sus dos escaños y quedó como proveedor de servicios bajo el acuerdo IDA.
+- **Riesgo sweep cuantificado (nuevo)**: rendimiento por defecto de sweep recortado al 0,05% (desde 0,45% en 2024), frente al ~2,19% que paga Fidelity por defecto a RIAs; demandas en curso — materializa el riesgo n.º 3 de la página.
+- **Nuevos motores**: Portfolio Insights (IA generativa sobre rendimiento de carteras) lanzado en 2026; piloto de transferencia de crypto (jul-2026) ya lo recogía la página.
+- **Tensión con la página (no se corrige)**: dividendo — la página registra $1,28 anuales ya vigentes; la sonda trata $1,27 como estimación 2026 (+17% sobre el $1,08 de 2025). Probable base pre-aumento en la sonda.
+- Tensión menor: mercado direccionable de EE. UU. $75 billones (sonda, citando el 10-K) vs >80 billones (página).
+- Margen pre-tax récord: la sonda cita 51,9%; la cobertura de la Summer Business Update reporta 54,3% ajustado. Recompra en Q2: 11,2M acciones por $1,0B.

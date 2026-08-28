@@ -169,3 +169,31 @@ cartera actual · perfil de inversor · objetivos · [[foso-economico]] · [[ver
 [[agencias-de-rating-y-datos]] · [[booking-holdings]] · [[retorno-sobre-capital-empleado]] ·
 [[margen-de-seguridad]] · [[multiplos-de-valoracion]] ·
 [[valoracion-ciclicas-y-beneficios-negativos]] · [[screening-de-calidad]] · [[sintesis-calidad-vs-precio]]
+
+## Nota de evolucion 2026-08-28 (prime-agent)
+
+Verificacion ligera de la sonda `moody-s` (scratchpad, 2026-08-25) contra el 10-K FY2025 y las
+comunicaciones oficiales. Lo ya documentado se CONFIRMA, no se reescribe; esto son solo novedades:
+
+- **FY2025 confirmado (10-K, 18-feb-2026):** ingresos 7.718 M$ (+9%), beneficio neto atribuible
+  2.459 M$, BPA diluido 13,67 $, operating income 3.351 M$ (adjusted 3.942 M$, margen 51,1%).
+  Coherente con las cifras de este analisis.
+- **Novedad — guia 2026 elevada y recompra ampliada (Q1 2026, 8-K, abr-2026):** ingresos Q1 2.079 M$
+  (+8%), Adjusted Diluted EPS 4,33 $ (+13%), Adjusted Operating Margin 53,2%; guia FY2026 subida a
+  Diluted EPS 16,00-16,60 $ y Adjusted 16,40-17,00 $; recompras 2026 elevadas de ~2.000 M$ a
+  **~2.500 M$** (la sonda databa la ampliacion en jul-2026; la guia oficial ya la recogia en abr-2026;
+  se suma la autorizacion de 4.000 M$ de oct-2025).
+- **Novedad — Q2 2026 (10-Q, 22-jul-2026):** ingresos 2.185 M$ (+15,2%), beneficio neto atribuible
+  878 M$ (+51,9%), BPA diluido 5,03 $ — batio estimaciones en ~0,47 $, pero la accion retrocedio por
+  guias mas debiles de lo esperado por el mercado.
+- **Precio y margen de seguridad:** a 28-ago-2026 cotiza ~509 $ (market cap 88,15 B$), arriba de los
+  ~487-490 $ del analisis del 15-jul. La tesis de "esperar compresion de multiple hacia 330-380 $"
+  sigue sin materializarse; el margen de seguridad negativo se amplia (~−9% -> mayor). Veredicto de
+  fondo sin cambio: calidad excepcional, precio pleno.
+- **Novedad organizativa:** Christina Kosmowski nombrada CEO de Moody's Analytics (efectiva jun-2026);
+  Keith Demmings (CEO de Assurant) se incorporo a la junta (ago-2026).
+- **Conexion relevante:** la comparacion de valoracion con [[sp-global]] (que cotico ~21% abajo en
+  52 semanas vs MCO cerca de maximos) sugiere que, dentro del duopolio, el relativo hoy favorece a
+  SPGI — tension con la postura "no sobreponderar MCO" de este analisis, sin resolver.
+- **Pendiente marcado, no resuelto aqui:** el riesgo de credito privado sobre el volumen de emision
+  calificada (seccion Riesgos) sigue sin dato trimestral que lo confirme o desmienta.

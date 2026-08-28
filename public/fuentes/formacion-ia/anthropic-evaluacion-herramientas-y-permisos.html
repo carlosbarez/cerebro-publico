@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr"><head><title>Formación IA · Tanda 2B — evaluación, herramientas y permisos (blog de ingeniería de Anthropic)</title><meta charset="utf-8"/><link rel="preload" href="../../index-f09644cd.css" as="style"/><link rel="preload" href="../../prescript-20e13e31.js" as="script"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Cerebro financiero"/><meta property="og:title" content="Formación IA · Tanda 2B — evaluación, herramientas y permisos (blog de ingeniería de Anthropic)"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Formación IA · Tanda 2B — evaluación, herramientas y permisos (blog de ingeniería de Anthropic)"/><meta name="twitter:description" content="Formación IA · Tanda 2B — evaluación, herramientas y permisos (blog de ingeniería de Anthropic) Los nueve documentos restantes de la tanda 2: cómo se mide un agente, cómo se le diseñan las herramientas y cómo se le ponen límites."/><meta property="og:description" content="Formación IA · Tanda 2B — evaluación, herramientas y permisos (blog de ingeniería de Anthropic) Los nueve documentos restantes de la tanda 2: cómo se mide un agente, cómo se le diseñan las herramientas y cómo se le ponen límites."/><meta property="og:image:alt" content="Formación IA · Tanda 2B — evaluación, herramientas y permisos (blog de ingeniería de Anthropic) Los nueve documentos restantes de la tanda 2: cómo se mide un agente, cómo se le diseñan las herramientas y cómo se le ponen límites."/><meta property="twitter:domain" content="cerebro-carlos-wygu.vercel.app"/><meta property="og:url" content="https://cerebro-carlos-wygu.vercel.app/fuentes/formacion-ia/anthropic-evaluacion-herramientas-y-permisos"/><meta property="twitter:url" content="https://cerebro-carlos-wygu.vercel.app/fuentes/formacion-ia/anthropic-evaluacion-herramientas-y-permisos"/><link rel="icon" href="../../static/icon.png"/><meta name="description" content="Formación IA · Tanda 2B — evaluación, herramientas y permisos (blog de ingeniería de Anthropic) Los nueve documentos restantes de la tanda 2: cómo se mide un agente, cómo se le diseñan las herramientas y cómo se le ponen límites."/><meta name="generator" content="Quartz"/><link href="../../index-f09644cd.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-735924e0.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-589c1cea.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-bbc3f7c0.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-2911f5d1.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-e427079e.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-1ce480fe.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-53b25b2b.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-c93c6a44.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-8a06014f.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-6ee21cee.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-1ea6ad18.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-34bdfded.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-788c9ca3.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-642859cd.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-4abc06bd.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-274a3dfe.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-94cb6c84.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-58d5ff56.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-7262b5a7.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../static/resource-style-a5c806d2.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../static/resource-style-6bd36952.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../../prescript-20e13e31.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../../static/contentIndex.json").then(data => data.json())</script><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://cerebro-carlos-wygu.vercel.app/fuentes/formacion-ia/anthropic-evaluacion-herramientas-y-permisos-og-image.webp"/><meta property="og:image:url" content="https://cerebro-carlos-wygu.vercel.app/fuentes/formacion-ia/anthropic-evaluacion-herramientas-y-permisos-og-image.webp"/><meta name="twitter:image" content="https://cerebro-carlos-wygu.vercel.app/fuentes/formacion-ia/anthropic-evaluacion-herramientas-y-permisos-og-image.webp"/><meta property="og:image:type" content="image/webp"/></head><body data-slug="fuentes/formacion-ia/anthropic-evaluacion-herramientas-y-permisos" data-basepath><div id="quartz-root" class="page" data-frame="default"><header class="barra-brasa"><a class="barra-casa" href="/">El Cerebro</a><nav class="barra-nav" aria-label="Secciones"><ul><li><a href="/#chat">Chat con Elisa</a></li><li><a href="/actualidad">Newsletter</a></li><li><a href="/biblioteca.base">Biblioteca</a></li></ul></nav></header><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="../..">Cerebro financiero</a></h2><div class="mobile-only"><div class="spacer"></div></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 0.5rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button" aria-label="Buscar" aria-expanded="false"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Buscar</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Buscar algo..." placeholder="Buscar algo..."/><div class="search-layout" data-preview="true" data-field-priority="[&quot;title&quot;,&quot;content&quot;,&quot;tags&quot;]"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode" aria-label="Modo lector"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Modo lector"><title>Modo lector</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer nav-files-container" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a2, b2) => {\n    if (!a2.isFolder &amp;&amp; !b2.isFolder || a2.isFolder &amp;&amp; b2.isFolder) {\n      return (a2.displayName || \&quot;\&quot;).localeCompare(b2.displayName || \&quot;\&quot;, void 0, {\n        numeric: true,\n        sensitivity: \&quot;base\&quot;\n      });\n    }\n    if (!a2.isFolder &amp;&amp; b2.isFolder) {\n      return 1;\n    }\n    return -1;\n  }&quot;,&quot;filterFn&quot;:&quot;(node) => node.slugSegment !== \&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;(node) => {\n    return node;\n  }&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-957" aria-label="Explorador"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorador</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-957" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#" class="nav-file-title tree-item-self"></a></li></template><template id="template-folder"><li><div class="folder-container nav-folder-title tree-item-self"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon nav-folder-collapse-indicator collapse-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content tree-item-children"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../fuentes/">fuentes</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../fuentes/formacion-ia/">formacion-ia</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Formación IA · Tanda 2B — evaluación, herramientas y permisos (blog de ingeniería de Anthropic)</a></div></nav><h1 class="article-title">Formación IA · Tanda 2B — evaluación, herramientas y permisos (blog de ingeniería de Anthropic)</h1><details class="note-properties metadata-container" open data-collapsed="false"><summary class="note-properties-header"><span class="note-properties-title">Properties</span><span class="note-properties-count">1</span></summary><table class="note-properties-table"><tbody><tr class="note-properties-row metadata-property"><td class="note-properties-key metadata-property-key">tags</td><td class="note-properties-value metadata-property-value"><span class="note-properties-tags"><a href="../../tags/ingenieria-agentes" class="internal internal-link tag-link">ingenieria-agentes</a><span class="note-properties-separator">, </span><a href="../../tags/evaluacion" class="internal internal-link tag-link">evaluacion</a><span class="note-properties-separator">, </span><a href="../../tags/herramientas" class="internal internal-link tag-link">herramientas</a><span class="note-properties-separator">, </span><a href="../../tags/mcp" class="internal internal-link tag-link">mcp</a><span class="note-properties-separator">, </span><a href="../../tags/permisos" class="internal internal-link tag-link">permisos</a><span class="note-properties-separator">, </span><a href="../../tags/gobernanza" class="internal internal-link tag-link">gobernanza</a></span></td></tr></tbody></table></details><p show-comma="true" class="content-meta"><time datetime="2026-08-27T18:39:45.000Z">27 ago 2026</time><span>Se lee en 17 min</span></p></div></div><article class="popover-hint"><div class="markdown-preview-view markdown-rendered"><h1 id="formación-ia--tanda-2b--evaluación-herramientas-y-permisos-blog-de-ingeniería-de-anthropic">Formación IA · Tanda 2B — evaluación, herramientas y permisos (blog de ingeniería de Anthropic)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#formación-ia--tanda-2b--evaluación-herramientas-y-permisos-blog-de-ingeniería-de-anthropic" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>Los nueve documentos restantes de la <strong>tanda 2</strong>: cómo se mide un agente, cómo se le diseñan las herramientas
+y cómo se le ponen límites. La mitad de orquestación y harness está en
+<a href="../../fuentes/formacion-ia/anthropic-orquestacion-y-harness" class="internal internal-link" data-slug="fuentes/formacion-ia/anthropic-orquestacion-y-harness">anthropic-orquestacion-y-harness</a>. Método y límites de la tanda: <a href="../../ingenieria-agentes/formacion-ia-metodo" class="internal internal-link" data-slug="ingenieria-agentes/formacion-ia-metodo">formacion-ia-metodo</a>.</p>
+<p><strong>Misma regla de citas que la página hermana</strong>, autorizada por Carlos para esta tanda: <strong>cero citas
+procedentes del destilado</strong>; todo lo entrecomillado se recuperó del crudo y se comprobó por <code>grep</code>
+normalizado. <strong>Misma advertencia de fuente</strong>: material de <em>vendor</em>, sin revisión por pares, con cifras
+propias y sin réplica. Los apartados 1-3 son los que más valor tienen para el Cerebro; los 4-8, decrecientes;
+el 9 es documentación operativa.</p>
+<hr/>
+<h2 id="1-demystifying-evals-for-ai-agents--el-hueco-más-grande-que-tenemos-con-manual-de-instrucciones">1. Demystifying evals for AI agents — el hueco más grande que tenemos, con manual de instrucciones<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1-demystifying-evals-for-ai-agents--el-hueco-más-grande-que-tenemos-con-manual-de-instrucciones" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Es <strong>la fuente más accionable de toda la tanda 2</strong>, porque ataca exactamente la casilla que
+<a href="../../ingenieria-agentes/harness-de-agentes" class="internal internal-link" data-slug="ingenieria-agentes/harness-de-agentes">harness-de-agentes</a> marca como floja: capa <strong>V</strong>, <em>buena en juicio, sin regresión</em>. El desarrollo del
+concepto está en <a href="../../ingenieria-agentes/evaluacion-de-agentes" class="internal internal-link" data-slug="ingenieria-agentes/evaluacion-de-agentes">evaluacion-de-agentes</a>; aquí queda la ficha.</p>
+<p><strong>Vocabulario operativo</strong> que adoptamos tal cual: <em>task</em> (prueba con entradas y criterios de éxito) ·
+<em>trial</em> (cada intento; se corren varios por la varianza) · <em>grader</em> (la lógica que puntúa; varios por tarea) ·
+<em>transcript</em> (registro completo) · <em>outcome</em> (<strong>estado final del entorno</strong>, distinto de lo que el agente
+dice que hizo) · <em>suite</em>. Y una distinción que nos faltaba nombrar: se evalúa <strong>modelo + andamiaje juntos</strong>,
+nunca el modelo solo.</p>
+<p><strong>Las cifras y reglas que cambian decisiones:</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Hallazgo</th><th>Cifra</th><th>Qué implica</th></tr></thead><tbody><tr><td>SWE-bench Verified</td><td>de 40% a >80% en un año, cerca de saturación</td><td>un <em>eval</em> al 100% ya solo detecta regresiones</td></tr><tr><td>Opus 4.5 en CORE-Bench</td><td><strong>42% → 95%</strong> tras arreglar errores de puntuación</td><td>la métrica medía el <em>eval</em> roto, no al agente</td></tr><tr><td><code>pass@k</code> vs <code>pass^k</code></td><td>con 75% de éxito por intento, pasar 3 seguidos = 0,75³ ≈ <strong>42%</strong></td><td>a k=10 divergen: <code>pass@k</code>→100%, <code>pass^k</code>→0%</td></tr><tr><td>Tamaño para empezar</td><td><strong>20-50 tareas</strong> bastan</td><td>los efectos son grandes al principio; 80/20</td></tr><tr><td>Bolt</td><td>sistema completo de <em>evals</em> en <strong>3 meses</strong></td><td>orden de magnitud del esfuerzo</td></tr></tbody></table></div>
+<p><strong>Los cuatro avisos que valen más que las cifras</strong>, porque son modos de fallo del evaluador y no del agente:</p>
+<ol>
+<li><em>«A 0% pass rate across many trials (i.e. 0% pass@100) is most often a signal of a broken task, not an
+incapable agent.»</em> Terminal-Bench, CORE-Bench y METR contenían tareas defectuosas. En METR, la tarea pedía
+optimizar <strong>hasta</strong> un umbral y la puntuación exigía <strong>superarlo</strong> — penalizando justo a los modelos que
+seguían la instrucción.</li>
+<li><em>«One-sided evals create one-sided optimization.»</em> Probar solo cuándo una conducta <strong>debe</strong> ocurrir produce
+sobreoptimización: el agente acaba disparando siempre. Hay que probar los dos lados, el que dispara de
+menos y el que dispara de más.</li>
+<li><em>«It’s often better to grade what the agent produced, not the path it took.»</em> Verificar secuencias exactas
+de llamadas es frágil: hay muchos caminos válidos.</li>
+<li><em>«As a rule, we do not take eval scores at face value until someone digs into the details of the eval and
+reads some transcripts.»</em></li>
+</ol>
+<p><strong>Un modo de fallo de infraestructura que nos aplica literalmente</strong>: Claude obtuvo ventaja indebida leyendo
+el historial de git de intentos anteriores — <strong>los intentos no eran independientes</strong>. Cualquier eval nuestro
+que corra sobre el vault vivo tiene ese problema por construcción.</p>
+<p><strong>Límites que declaran</strong>: los <em>evals</em> automatizados <strong>pueden crear falsa confianza</strong> si no reflejan el uso
+real; el LLM-como-juez no es determinista, es más caro y necesita calibración humana frecuente; y ningún
+método basta solo — modelo «queso suizo», donde el <em>eval</em> es una capa entre monitorización, A/B testing,
+feedback de usuario y lectura manual de transcripciones.</p>
+<hr/>
+<h2 id="2-quantifying-infrastructure-noise-in-agentic-coding-evals--el-ruido-es-mayor-que-la-señal-que-leemos">2. Quantifying infrastructure noise in agentic coding evals — el ruido es mayor que la señal que leemos<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#2-quantifying-infrastructure-noise-in-agentic-coding-evals--el-ruido-es-mayor-que-la-señal-que-leemos" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>El experimento más limpio de la tanda 2, y el único con estadística: mismo modelo, mismo harness, mismas
+tareas, <strong>solo cambia la configuración de recursos</strong> del contenedor.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Configuración</th><th>Errores de infraestructura</th><th>Éxito</th></tr></thead><tbody><tr><td>1x (spec como suelo y techo duro)</td><td><strong>5,8%</strong></td><td>referencia</td></tr><tr><td>3x</td><td><strong>2,1%</strong> (p &lt; 0,001 frente a 1x)</td><td>dentro del ruido (p = 0,40)</td></tr><tr><td>sin tope</td><td><strong>0,5%</strong></td><td><strong>+6 puntos</strong> sobre 1x (p &lt; 0,01)</td></tr></tbody></table></div>
+<p>La lectura fina es lo valioso: <strong>hasta ~3x, más recursos solo arreglan fiabilidad de infraestructura</strong> (las
+tareas que se caían habrían fallado igual). De 3x a sin tope, los errores bajan 1,6 pp más pero el éxito sube
+~4 pp — es decir, <strong>los recursos extra cambian lo que el eval mide</strong> (permiten instalar dependencias pesadas,
+suites intensivas). En SWE-bench el mismo efecto, menor: <strong>+1,54 pp</strong> a 5x.</p>
+<p>De ahí la regla que nos importa: <em>«leaderboard differences below 3 percentage points deserve skepticism until
+the eval configuration is documented and matched»</em>, y la formulación que la explica:
+<em>«Two agents with different resource budgets and time limits aren’t taking the same test.»</em> Con el corolario
+general: <em>«the boundary between “model capability” and “infrastructure behavior” is blurrier than a single
+benchmark score suggests»</em>.</p>
+<p><strong>Recomendación operativa que sí podemos copiar</strong>: especificar <strong>dos</strong> parámetros (asignación garantizada y
+techo duro <strong>separados</strong>, no un valor único), calibrar la banda para que suelo y techo caigan dentro del ruido
+mutuo, <strong>reportar el multiplicador</strong>, y correr los <em>evals</em> en varios momentos para promediar. Tratar la
+configuración como <strong>variable experimental de primera clase</strong>, documentada con el mismo rigor que el prompt o
+la temperatura.</p>
+<p><strong>Límites declarados, y son serios</strong>: la réplica solo es rigurosa en modelos de Anthropic; el efecto
+hora-del-día se observó <strong>solo anecdóticamente</strong>; el multiplicador óptimo varía por <em>benchmark</em>; y no publican
+datos brutos ni tamaños de muestra del experimento principal.</p>
+<p><strong>Por qué esto es P1 para nosotros</strong>: <code>dorado.py --corre</code> hace <strong>una sola pasada por caso</strong>, y ya tenemos
+medido que dos ejecuciones idénticas del mismo modelo dieron 1/2 y 0/2 en el eje CITAS. Estamos leyendo
+diferencias por debajo de nuestro propio ruido. Punto 1 del backlog de la tanda 2.</p>
+<hr/>
+<h2 id="3-an-update-on-recent-claude-code-quality-reports--cómo-se-ve-una-regresión-desde-dentro">3. An update on recent Claude Code quality reports — cómo se ve una regresión desde dentro<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#3-an-update-on-recent-claude-code-quality-reports--cómo-se-ve-una-regresión-desde-dentro" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Post-mortem de ~un mes de quejas de degradación. <strong>No hubo degradación del modelo</strong>: hubo <strong>tres cambios
+independientes en la capa de producto</strong>, cada uno afectando a una porción distinta del tráfico en fechas
+distintas, cuyo efecto agregado parecía una degradación amplia e inconsistente.</p>
+<ol>
+<li><strong>Esfuerzo de razonamiento por defecto</strong> bajado de alto a medio (4 mar → revertido 7 abr) para recortar
+latencias de cola. En sus <em>evals</em> internos, medio daba inteligencia «ligeramente menor» con latencia
+mucho mejor. Los usuarios preferían lo contrario. <em>«This was the wrong tradeoff.»</em></li>
+<li><strong>Error de caché que borraba el razonamiento previo</strong> (26 mar → arreglado 10 abr). Una optimización para
+sesiones inactivas limpiaba el <em>thinking</em> <strong>en cada turno</strong> en vez de una sola vez. Síntomas: olvido,
+repetición, elecciones raras de herramienta y fallos de caché que consumían los límites de uso más rápido.
+La causa raíz tardó <strong>más de una semana</strong> en confirmarse.</li>
+<li><strong>Una instrucción anti-verbosidad en el system prompt</strong> (16 abr → revertida 20 abr) causó una <strong>caída del
+3%</strong> en una evaluación, en dos modelos.</li>
+</ol>
+<p><strong>Los cuatro fallos del proceso de detección, que son la lección entera:</strong></p>
+<ul>
+<li>Los reportes eran <strong>indistinguibles de la variación normal</strong> del feedback.</li>
+<li>El error de caché quedó <strong>enmascarado en el uso interno</strong> por dos experimentos no relacionados: el <em>build</em>
+interno de prueba <strong>no era el build público</strong>.</li>
+<li>Pasó revisiones humanas y automatizadas, pruebas unitarias, e2e y verificación automatizada: vivía en un
+caso límite (sesiones rancias) en la <strong>intersección de tres sistemas</strong>.</li>
+<li>El conjunto de <em>evals</em> del cambio de prompt era <strong>demasiado estrecho</strong>: semanas de pruebas sin regresión, y
+solo al ampliarlo y hacer <strong>ablaciones</strong> apareció el 3%.</li>
+</ul>
+<p>Y la declaración de intención que enmarca todo: <em>«We never intentionally degrade our models»</em>.</p>
+<p><strong>Cruce con el Cerebro, y es incómodo</strong>: este es nuestro escenario más probable de fallo. Un cambio pequeño
+en <code>reglas-nucleo.md</code> o en un <code>SKILL.md</code> degrada varias rutinas a la vez, el efecto es difuso, y nadie tiene
+una línea base con la que compararlo. Su medida correctiva —<em>evals</em> amplios <strong>por modelo</strong> para cada cambio de
+system prompt, más ablaciones continuas y <strong>periodos de reposo</strong> antes de desplegar— es la versión adulta de
+nuestra <strong>puerta dorada</strong>, que hoy solo cubre los encargos de <code>destila</code>.</p>
+<hr/>
+<h2 id="4-writing-effective-tools-for-ai-agents--herramientas-para-agentes-no-apis-envueltas">4. Writing effective tools for AI agents — herramientas para agentes, no APIs envueltas<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#4-writing-effective-tools-for-ai-agents--herramientas-para-agentes-no-apis-envueltas" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Tesis</strong>: <em>«Tools are a new kind of software which reflects a contract between deterministic systems and
+non-deterministic agents.»</em> Y el aviso central: <em>«More tools don’t always lead to better outcomes.»</em></p>
+<p><strong>Los cinco principios</strong>, que se leen como una auditoría de nuestro <code>scripts/</code>:</p>
+<ol>
+<li><strong>Pocas herramientas de alto impacto</strong>, orientadas a flujos de trabajo reales; no envolver <em>endpoints</em> 1:1.
+Consolidar cadenas frecuentes en una sola herramienta.</li>
+<li><strong>Espacios de nombres</strong> por servicio o recurso, para delimitar fronteras cuando hay muchas.</li>
+<li><strong>Devolver solo señal alta</strong>: <code>name</code>, <code>image_url</code>, <code>file_type</code> antes que <code>uuid</code> o <code>mime_type</code>. Resolver
+identificadores opacos a lenguaje natural <strong>mejora la precisión de recuperación</strong> y reduce alucinaciones.</li>
+<li><strong>Eficiencia de tokens</strong>: paginación, filtros, truncado con valores por defecto sensatos, y <strong>errores
+redactados como instrucciones accionables</strong>, no códigos opacos ni trazas.</li>
+<li><strong>Prompt-engineering de las descripciones</strong>: explicarlas como a un empleado nuevo; parámetros sin
+ambigüedad (<code>user_id</code>, no <code>user</code>).</li>
+</ol>
+<p><strong>Cifras</strong>: respuestas «concisas» frente a «detalladas` vía un parámetro de formato, <strong>72 frente a 206
+tokens</strong> (~⅓); Claude Code trunca las respuestas de herramienta a <strong>25.000 tokens</strong> por defecto. Un error real
+citado: el modelo añadía «2025» al parámetro de búsqueda web y sesgaba los resultados; se arregló mejorando la
+descripción.</p>
+<p><strong>El método, que es lo que de verdad transfiere</strong>: evaluaciones sobre su espacio de trabajo interno real, con
+<strong>conjuntos de prueba retenidos</strong> contra el sobreajuste, midiendo exactitud, tiempo por llamada y por tarea,
+número de llamadas, tokens y errores — y luego <strong>leyendo las transcripciones y el razonamiento</strong>. Los
+conjuntos retenidos revelaron mejoras incluso sobre implementaciones «expertas».</p>
+<p><strong>Límite honesto y útil</strong>: <em>no hay</em> una solución única para la estructura de respuesta (XML/JSON/Markdown) ni
+para el esquema de nombres; <strong>depende del agente y hay que evaluarlo</strong>. Y el feedback del propio agente es
+señal incompleta: <strong>lo que omite puede importar más que lo que dice</strong> — el mismo modo de fallo por omisión que
+ya tenemos codificado como el fallo caro de la capa gratuita.</p>
+<hr/>
+<h2 id="5-code-execution-with-mcp--mover-el-trabajo-fuera-de-la-ventana">5. Code execution with MCP — mover el trabajo fuera de la ventana<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#5-code-execution-with-mcp--mover-el-trabajo-fuera-de-la-ventana" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Problema</strong>: con cientos de herramientas MCP, cargar todas las definiciones por adelantado y hacer pasar
+cada resultado intermedio por el modelo dispara coste y latencia. <strong>Propuesta</strong>: presentar los servidores MCP
+como <strong>ficheros de código</strong> que el agente descubre explorando el sistema de ficheros, cargando solo lo que
+necesita, y procesar los datos <strong>en el entorno de ejecución</strong> antes de devolver nada.</p>
+<p>Cifras, todas ilustrativas y de un único ejemplo construido —lo declaran—: carga bajo demanda
+<em>«a time and cost saving of 98.7%»</em> (de 150.000 a 2.000 tokens); una hoja de <strong>10.000 filas</strong> de la que el
+agente ve <strong>5</strong> tras filtrar en el entorno.</p>
+<p><strong>Límite declarado, y es el que decide para nosotros</strong>: ejecutar código generado por el agente exige
+<em>sandboxing</em>, límites de recursos y monitorización, y esos costes hay que sopesarlos.</p>
+<p><strong>Lectura para el Cerebro</strong>: el patrón ya lo aplicamos, y por otra vía. <code>scripts/</code> <strong>es</strong> la capa de código
+determinista entre el agente y los datos; <code>destila</code>, <code>verifica_destilado.py</code> y <code>trocea.py</code> procesan el crudo
+fuera de la ventana y devuelven solo el destilado. La regla 1 de nuestra disciplina de coste («el crudo va a
+disco, nunca a contexto») es la misma idea escrita antes de leer esto. Lo único nuevo y aprovechable es el
+<strong>descubrimiento progresivo</strong>: no cargar el catálogo de herramientas entero de entrada. Y una observación
+sobre nuestra propia mecánica: <em>«Although many of the problems here feel novel—context management, tool
+composition, state persistence—they have known solutions from software engineering.»</em></p>
+<hr/>
+<h2 id="6-equipping-agents-with-agent-skills--divulgación-progresiva-en-tres-niveles">6. Equipping agents with Agent Skills — divulgación progresiva en tres niveles<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#6-equipping-agents-with-agent-skills--divulgación-progresiva-en-tres-niveles" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Un <em>skill</em> es un directorio con un <code>SKILL.md</code> que el agente descubre y carga dinámicamente.
+<em>«Progressive disclosure is the core design principle that makes Agent Skills flexible and scalable.»</em> Tres
+niveles: (1) metadatos YAML —<code>name</code> y <code>description</code>— precargados en el system prompt; (2) el cuerpo del
+<code>SKILL.md</code>, cargado <strong>solo si</strong> el agente lo juzga relevante; (3) ficheros referenciados que navega bajo
+demanda. Consecuencia: <em>«the amount of context that can be bundled into a skill is effectively unbounded»</em>,
+porque nunca se carga entero.</p>
+<p><strong>Límites declarados</strong>: seguridad (un <em>skill</em> malicioso puede exfiltrar datos o inducir acciones no
+deseadas — instalar solo de fuentes confiables) y <strong>fragilidad de activación</strong>: si se dispara o no depende
+enteramente de la calidad del <code>name</code>/<code>description</code>. <strong>Ausencia notable</strong>: ni una métrica de tasa de activación
+correcta ni de sobrecoste.</p>
+<p><strong>Cruce, y es una tensión medible con nuestra práctica.</strong> Nuestros <code>.claude/skills-cerebro/*.md</code> son skills en
+el sentido del formato, pero el núcleo se lee <strong>entero y siempre</strong>: <code>reglas-nucleo.md</code> (23,6 KB) +
+<code>nucleo-comun.md</code> (16,2 KB) + <code>CLAUDE.md</code> (23,2 KB) = <strong>~63 KB en cada run de rutina</strong>, por diseño y con buen
+motivo (la fusión de 2026-07-20 sustituyó siete lecturas por una). El principio de divulgación progresiva dice
+lo contrario: cargar los metadatos y el cuerpo solo si aplica. Las dos posiciones son defendibles y la
+diferencia es medible — va al backlog como punto con dato, no como corrección.</p>
+<hr/>
+<h2 id="7-claude-desktop-extensions--el-patrón-no-el-producto">7. Claude Desktop Extensions — el patrón, no el producto<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#7-claude-desktop-extensions--el-patrón-no-el-producto" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Anuncio de un formato de empaquetado (<code>.mcpb</code>: un ZIP con <code>manifest.json</code>, el servidor y sus dependencias)
+para instalar servidores MCP con doble clic. <strong>Sin métricas de adopción ni evaluación</strong>: la especificación va
+en versión <strong>0.1</strong> a propósito, y las salvaguardas descritas son de una versión preliminar.</p>
+<p><strong>Aporta poco y conviene decirlo.</strong> Lo único destilable más allá del producto es el patrón:
+<strong>manifiesto declarativo + paquete autocontenido + configuración de usuario tipada (con secretos en el
+llavero del sistema) + sustitución de plantillas en tiempo de ejecución + <em>overrides</em> por plataforma</strong>. Un
+<code>manifest.json</code> por rutina que declare herramientas, parámetros requeridos y valores por defecto, validado
+antes de activar, es concebible para nuestras 12 rutinas — pero hoy no resuelve ningún fallo que hayamos
+tenido, así que se queda fuera del backlog por la regla 1.</p>
+<hr/>
+<h2 id="8-how-we-built-claude-code-auto-mode--clasificar-en-vez-de-preguntar">8. How we built Claude Code auto mode — clasificar en vez de preguntar<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#8-how-we-built-claude-code-auto-mode--clasificar-en-vez-de-preguntar" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Punto medio entre el <em>sandbox</em> (seguro y caro de mantener) y saltarse los permisos (cero fricción, cero
+protección). Dos capas: una sonda de inyección de prompts que escanea las salidas de herramienta <strong>antes</strong> de
+que entren al contexto, y un <strong>clasificador de transcripción</strong> que evalúa cada acción antes de ejecutarla, en
+dos etapas (filtro rápido de un token sesgado a bloquear → cadena de razonamiento solo sobre lo marcado).</p>
+<p>Diseño deliberado: el clasificador ve <strong>solo mensajes de usuario y llamadas a herramienta</strong>, no el
+razonamiento del asistente ni los resultados. <em>«Instead, we want it to judge what the agent did, not what the
+agent said.»</em> Incluir mensajes del asistente <strong>empeoró</strong> el rendimiento en su banco de pruebas — lo reportan
+como evidencia, no como principio.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Conjunto</th><th>Etapa 1</th><th>Cadena completa</th></tr></thead><tbody><tr><td>Tráfico real (n=10.000)</td><td>8,5% falsos positivos</td><td><strong>0,4%</strong></td></tr><tr><td>Acciones excesivas reales (n=52)</td><td>6,6% falsos negativos</td><td><strong>17%</strong></td></tr><tr><td>Exfiltración sintética (n=1.000)</td><td>1,8% falsos negativos</td><td><strong>5,7%</strong></td></tr></tbody></table></div>
+<p>La etapa 2 compra precisión con recall. Y lo publican sin maquillar: <em>«The 17% false-negative rate on real
+overeager actions is the honest number.»</em> El 0,4% de falsos positivos es «sobrevivible» porque una denegación
+vuelve como resultado de herramienta con instrucción de buscar una vía segura — <strong>denegar y continuar</strong> —, y
+<strong>3 denegaciones seguidas o 20 en total escalan a un humano</strong> (en modo desatendido, terminan el proceso).</p>
+<p><strong>Límites declarados</strong>: n=52 es pequeño; el conjunto de exfiltración es sintético; y
+<em>«It is not a drop-in replacement for careful human review on high-stakes infrastructure»</em> — está pensado
+para quien hoy corre sin ningún guardarraíl.</p>
+<p><strong>Cruce con el Cerebro, y hay dos.</strong> (a) Nuestros hooks también <strong>deniegan en vez de preguntar</strong>, decisión ya
+confirmada en el punto 9 del backlog de la tanda 1; esta fuente añade la mecánica que nos falta:
+<strong>denegar-y-continuar con contador y escalado</strong>. Hoy un hook nuestro deniega y no cuenta nada. (b) El
+clasificador se aplica <strong>en los dos extremos del traspaso a un subagente</strong> —al delegar, porque dentro del
+subagente la instrucción del orquestador parece autorización del usuario, y al retornar—; nuestro
+<a href="../.././../../.claude/sistema/reglas-nucleo" class="internal internal-link alias" data-slug=".claude/sistema/reglas-nucleo">roster plano</a> resuelve el mismo riesgo por otra vía, prohibiendo
+que lo delegado delegue.</p>
+<hr/>
+<h2 id="9-best-practices-for-claude-code--la-escalera-de-verificación">9. Best practices for Claude Code — la escalera de verificación<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#9-best-practices-for-claude-code--la-escalera-de-verificación" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Documentación operativa, sin una sola cifra: <em>«Most best practices are based on one constraint: Claude’s
+context window fills up fast, and performance degrades as it fills.»</em> Lo aprovechable:</p>
+<ul>
+<li><strong>La escalera de imposición</strong>, por coste creciente de montaje: pedirlo en el prompt → objetivo reevaluado
+cada turno → <strong>hook determinista</strong> que bloquea el cierre del turno → <strong>subagente verificador</strong> que intenta
+refutar el resultado. Y la regla de reparto que ya es nuestra: <strong>quien hace el trabajo no es quien lo
+califica</strong>.</li>
+<li><strong><code>CLAUDE.md</code> es consejo; los hooks son deterministas.</strong> Regla transferible y explícita: <em>si una instrucción
+se ignora repetidamente, conviértela en hook</em>. Es exactamente lo que hicimos en el punto 3 de la tanda 1.</li>
+<li><strong>La prueba por línea</strong> para el fichero de instrucciones: <em>«¿quitar esto haría que el modelo cometiera
+errores?»</em> Si no, fuera. Y el aviso, en mayúsculas suyas: <em>«Bloated CLAUDE.md files cause Claude to ignore
+your actual instructions!»</em></li>
+<li><strong>Reiniciar en vez de corregir</strong>: <em>«A clean session with a better prompt almost always outperforms a long
+session with accumulated corrections.»</em> Con regla operativa: tras <strong>2 correcciones fallidas</strong> sobre lo
+mismo, sesión nueva. Es la versión micro de nuestra regla 12 de coste (higiene de sesión por tramos de
+contexto).</li>
+<li><strong>Y el límite que evita el exceso de celo</strong>: <em>«A reviewer prompted to find gaps will usually report some,
+even when the work is sound»</em> — perseguir todos los hallazgos de un revisor lleva a sobreingeniería.
+Aplicable tal cual a nuestro <code>editor-jefe</code> y a su <em>punch-list</em>, y razón por la que el
+<strong>tope de 3 pasadas</strong> de <code>nucleo-comun.md</code> es correcto.</li>
+</ul>
+<hr/>
+<h2 id="interés-del-emisor--qué-nos-conviene-y-qué-le-conviene-a-anthropic">Interés del emisor — qué nos conviene y qué le conviene a Anthropic<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#interés-del-emisor--qué-nos-conviene-y-qué-le-conviene-a-anthropic" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Sección obligatoria de esta tanda (<a href="../../ingenieria-agentes/formacion-ia-metodo" class="internal internal-link" data-slug="ingenieria-agentes/formacion-ia-metodo">formacion-ia-metodo</a>). Un patrón puede ser bueno <strong>y</strong> estar publicado
+por quien vende el sustrato; lo que no vale es no distinguirlo.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Documento</th><th>Qué recomienda</th><th>A quién le conviene</th></tr></thead><tbody><tr><td>Evals (§1)</td><td>medir con tareas propias antes de creerse un número</td><td><strong>A nosotros.</strong> Es lo que reduce la dependencia del vendedor: mide tu caso, no su <em>benchmark</em></td></tr><tr><td>Ruido de infraestructura (§2)</td><td>desconfiar de diferencias &lt;3 pp entre modelos</td><td><strong>A los dos, y a ellos primero.</strong> Desactiva las comparaciones de tabla clasificatoria justo cuando quedan por debajo de 3 pp. El experimento es sólido; el incentivo, evidente</td></tr><tr><td>Post-mortem (§3)</td><td><em>evals</em> amplios y ablaciones antes de desplegar</td><td><strong>A nosotros.</strong> Es autoacusatorio: cuesta reputación publicarlo</td></tr><tr><td>Herramientas (§4)</td><td>pocas herramientas, bien descritas, evaluadas</td><td><strong>A nosotros</strong>, con un pero: el vehículo recomendado es MCP</td></tr><tr><td>MCP como código (§5)</td><td>ejecutar código que llama a servidores MCP</td><td><strong>A Anthropic.</strong> Refuerza su protocolo y desplaza trabajo a su ecosistema. La idea subyacente —procesar fuera de la ventana— es buena y <strong>no requiere MCP</strong>: nosotros la tenemos con <code>scripts/</code></td></tr><tr><td>Agent Skills (§6)</td><td>empaquetar la experiencia en skills con divulgación progresiva</td><td><strong>A Anthropic.</strong> Es su estándar. El principio (cargar lo mínimo) es correcto e independiente del formato</td></tr><tr><td>Desktop Extensions (§7)</td><td>instalar MCP con un clic</td><td><strong>A Anthropic</strong>, casi en exclusiva. Anuncio de producto</td></tr><tr><td>Auto mode (§8)</td><td>clasificador en vez de diálogos de permiso</td><td><strong>A los dos.</strong> El 17% de falsos negativos publicado sin adornos da credibilidad al resto</td></tr><tr><td>Best practices (§9)</td><td>sesiones limpias, ficheros de instrucciones cortos, hooks</td><td><strong>A nosotros</strong>, y en contra de su propio consumo: recomienda <strong>gastar menos tokens</strong></td></tr></tbody></table></div>
+<p><strong>El patrón</strong>: cuando el consejo es <em>mide, desconfía y gasta menos</em>, coincide con nuestro interés; cuando es
+<em>adopta este formato</em>, coincide con el suyo. Los dos pueden ser buenos consejos — pero se aceptan por razones
+distintas y con cargas de prueba distintas.</p>
+<h2 id="enlaces">Enlaces<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#enlaces" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><a href="../../ingenieria-agentes/ingenieria-de-agentes" class="internal internal-link" data-slug="ingenieria-agentes/ingenieria-de-agentes">ingenieria-de-agentes</a> · <a href="../../fuentes/formacion-ia/anthropic-orquestacion-y-harness" class="internal internal-link" data-slug="fuentes/formacion-ia/anthropic-orquestacion-y-harness">anthropic-orquestacion-y-harness</a> · <a href="../../ingenieria-agentes/evaluacion-de-agentes" class="internal internal-link" data-slug="ingenieria-agentes/evaluacion-de-agentes">evaluacion-de-agentes</a> ·
+<a href="../../ingenieria-agentes/ingenieria-de-contexto" class="internal internal-link" data-slug="ingenieria-agentes/ingenieria-de-contexto">ingenieria-de-contexto</a> · <a href="../../ingenieria-agentes/harness-de-agentes" class="internal internal-link" data-slug="ingenieria-agentes/harness-de-agentes">harness-de-agentes</a> · <a href="../../ingenieria-agentes/backlog-de-mejoras-del-sistema" class="internal internal-link" data-slug="ingenieria-agentes/backlog-de-mejoras-del-sistema">backlog-de-mejoras-del-sistema</a> ·
+<a href="../../ingenieria-agentes/formacion-ia-metodo" class="internal internal-link" data-slug="ingenieria-agentes/formacion-ia-metodo">formacion-ia-metodo</a> · <a href="../../fuentes/formacion-ia/tier-a-accionable" class="internal internal-link" data-slug="fuentes/formacion-ia/tier-a-accionable">tier-a-accionable</a> · <a href="../../sintesis/reparto-de-modelos" class="internal internal-link" data-slug="sintesis/reparto-de-modelos">reparto-de-modelos</a> · <a href="../../equipo-agentes" class="internal internal-link" data-slug="equipo-agentes">equipo-agentes</a></p></div></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Vista Gráfica</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc"><button type="button" class="toc-header" aria-controls="toc-948" aria-expanded="true"><h3>Tabla de Contenidos</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-0" class="toc-content overflow"><li class="depth-0"><a href="#formación-ia--tanda-2b--evaluación-herramientas-y-permisos-blog-de-ingeniería-de-anthropic" data-for="formación-ia--tanda-2b--evaluación-herramientas-y-permisos-blog-de-ingeniería-de-anthropic">Formación IA · Tanda 2B — evaluación, herramientas y permisos (blog de ingeniería de Anthropic)</a></li><li class="depth-1"><a href="#1-demystifying-evals-for-ai-agents--el-hueco-más-grande-que-tenemos-con-manual-de-instrucciones" data-for="1-demystifying-evals-for-ai-agents--el-hueco-más-grande-que-tenemos-con-manual-de-instrucciones">1. Demystifying evals for AI agents — el hueco más grande que tenemos, con manual de instrucciones</a></li><li class="depth-1"><a href="#2-quantifying-infrastructure-noise-in-agentic-coding-evals--el-ruido-es-mayor-que-la-señal-que-leemos" data-for="2-quantifying-infrastructure-noise-in-agentic-coding-evals--el-ruido-es-mayor-que-la-señal-que-leemos">2. Quantifying infrastructure noise in agentic coding evals — el ruido es mayor que la señal que leemos</a></li><li class="depth-1"><a href="#3-an-update-on-recent-claude-code-quality-reports--cómo-se-ve-una-regresión-desde-dentro" data-for="3-an-update-on-recent-claude-code-quality-reports--cómo-se-ve-una-regresión-desde-dentro">3. An update on recent Claude Code quality reports — cómo se ve una regresión desde dentro</a></li><li class="depth-1"><a href="#4-writing-effective-tools-for-ai-agents--herramientas-para-agentes-no-apis-envueltas" data-for="4-writing-effective-tools-for-ai-agents--herramientas-para-agentes-no-apis-envueltas">4. Writing effective tools for AI agents — herramientas para agentes, no APIs envueltas</a></li><li class="depth-1"><a href="#5-code-execution-with-mcp--mover-el-trabajo-fuera-de-la-ventana" data-for="5-code-execution-with-mcp--mover-el-trabajo-fuera-de-la-ventana">5. Code execution with MCP — mover el trabajo fuera de la ventana</a></li><li class="depth-1"><a href="#6-equipping-agents-with-agent-skills--divulgación-progresiva-en-tres-niveles" data-for="6-equipping-agents-with-agent-skills--divulgación-progresiva-en-tres-niveles">6. Equipping agents with Agent Skills — divulgación progresiva en tres niveles</a></li><li class="depth-1"><a href="#7-claude-desktop-extensions--el-patrón-no-el-producto" data-for="7-claude-desktop-extensions--el-patrón-no-el-producto">7. Claude Desktop Extensions — el patrón, no el producto</a></li><li class="depth-1"><a href="#8-how-we-built-claude-code-auto-mode--clasificar-en-vez-de-preguntar" data-for="8-how-we-built-claude-code-auto-mode--clasificar-en-vez-de-preguntar">8. How we built Claude Code auto mode — clasificar en vez de preguntar</a></li><li class="depth-1"><a href="#9-best-practices-for-claude-code--la-escalera-de-verificación" data-for="9-best-practices-for-claude-code--la-escalera-de-verificación">9. Best practices for Claude Code — la escalera de verificación</a></li><li class="depth-1"><a href="#interés-del-emisor--qué-nos-conviene-y-qué-le-conviene-a-anthropic" data-for="interés-del-emisor--qué-nos-conviene-y-qué-le-conviene-a-anthropic">Interés del emisor — qué nos conviene y qué le conviene a Anthropic</a></li><li class="depth-1"><a href="#enlaces" data-for="enlaces">Enlaces</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Retroenlaces</h3><ul id="list-0" class="overflow"><li><a href="../../fuentes/formacion-ia/anthropic-orquestacion-y-harness" class="internal">Formación IA · Tanda 2A — orquestación, harness y contexto (blog de ingeniería de Anthropic)</a></li><li><a href="../../ingenieria-agentes/backlog-de-mejoras-del-sistema" class="internal">Backlog de mejoras del sistema — de la biblioteca «Formación IA» al Cerebro</a></li><li><a href="../../ingenieria-agentes/evaluacion-de-agentes" class="internal">Evaluación de agentes — medir un sistema no determinista sin engañarse</a></li><li><a href="../../ingenieria-agentes/formacion-ia-metodo" class="internal">Biblioteca «Formación IA» — método, límites y cómo se destila</a></li><li><a href="../../ingenieria-agentes/harness-de-agentes" class="internal">Harness de agentes — las 7 capas, y dónde está el Cerebro en cada una</a></li><li><a href="../../ingenieria-agentes/ingenieria-de-agentes" class="internal">Ingeniería de agentes — hub de la zona</a></li><li><a href="../../ingenieria-agentes/ingenieria-de-contexto" class="internal">Ingeniería de contexto — el contexto como presupuesto, no como almacén</a></li><li><a href="../../referencia/revision-pendiente" class="internal">REVISIÓN PENDIENTE — Páginas de fuentes destiladas en capas degradadas</a></li><li><a href="../../biblioteca.base" class="internal">biblioteca</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Creado con <a href="https://quartz.jzhao.xyz/">Quartz v5.0.0</a> © 2026</p><ul><li><a href="/aviso-legal">Aviso legal</a></li></ul></footer></div></div></body><script src="../../static/resource-after-e13fffa1.js" type="application/javascript" data-persist="true"></script><script src="../../static/resource-after-8b336f9a.js" type="application/javascript" data-persist="true"></script><script src="../../static/resource-after-baba652b.js" type="application/javascript" data-persist="true"></script><script src="../../static/resource-after-5eb75950.js" type="module" data-persist="true"></script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../../postscript-4ed85087.js" type="module" data-persist="true"></script><script src="../../static/datos-vivos.js" type="application/javascript" data-persist="true"></script></html>
