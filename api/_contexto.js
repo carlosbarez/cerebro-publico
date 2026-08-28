@@ -1,25 +1,20 @@
-// _contexto.js — carga contentIndex.json una vez por proceso y puntua paginas por la pregunta.
+// _contexto.js — import estatico de corpus.json y puntaje de paginas por la pregunta.
 //
-// Puerto directo de _busca_literal y _terminos de web/chat/contexto.py del vault (leido 2026-08-26):
-// palabras de 4+ letras, fuera las vacias y repetidas, el titulo pesa 3 y el cuerpo 1. Ese reparto
-// esta medido en el vault y funciona; cambiarlo es rehacer trabajo hecho.
-// El corpus aqui NO es el vault: es public/static/contentIndex.json, el indice que Quartz emite en
-// cada construccion desde content/, que ya paso filtro y puerta. Ahi no hay ni una pagina de
-// perfil/ y las lineas con dinero ya vienen tachadas: la defensa no es el prompt, es que no hay
-// nada que extraer.
-// Sin dependencias: Node trae fs de serie (restriccion global del plan: cero paquetes npm nuevos).
-// Interfaz SINCrona: la pide el propio plan (su medicion llama busca() y mapea sin await) y el
-// coste se paga una vez por proceso, en el arranque en frio, no por peticion.
+// C2 (plan 2026-08-28): el chat ya no lee public/static/contentIndex.json de Quartz, que muere al
+// jubilar Quartz (fase 4). Ahora importa corpus.json, que el publicador del Cerebro emite en api/
+// con EXACTAMENTE las notas publicadas (clave = ruta sin .md, valor = {titulo, texto}). El import
+// estatico ES la razon del cambio: el empaquetador de funciones de Vercel solo incluye los ficheros
+// que importa de forma estatica; un readFileSync sobre una ruta calculada en tiempo de ejecucion no
+// viaja al paquete, y el 503 previo escondia ese fallo. Node 22.16 (.node-version) admite el
+// atributo `with { type: "json" }`.
+// El puerto de puntuacion es COPIA de web/chat/contexto.py del vault (palabras de 4+ letras, fuera
+// las vacias y repetidas, titulo pesa 3 y cuerpo 1): medido en el vault y funciona; no se toca.
+// Interfaz SINCRONA: se paga una vez por proceso, en el arranque en frio, no por peticion.
 
-import { readFileSync } from "node:fs"
-import path from "node:path"
-import { fileURLToPath } from "node:url"
-
-const DIR_API = path.dirname(fileURLToPath(import.meta.url))
-const RUTA_INDICE = path.join(DIR_API, "..", "public", "static", "contentIndex.json")
+import corpus from "./corpus.json" with { type: "json" }
 
 const LIMITE_PUNTUACION = 6000 // igual que el vault: puntuar sobre las primeras 6000 letras
-const LIMITE_TEXTO = 12000     // igual que _lee del vault: tope de texto que viaja al modelo
+const LIMITE_TEXTO = 12000     // igual que el vault: tope de texto que viaja al modelo
 
 const PALABRA = /[a-zA-ZáéíóúñÁÉÍÓÚÑ]{4,}/g
 
@@ -29,14 +24,10 @@ const VACIAS = new Set([
   "puede", "debo", "quiero", "mucho", "mejor", "algun", "alguna", "seria", "estar",
 ])
 
-let indiceCacheado = null // un parse por proceso; en serverless el proceso se reutiliza caliente
-
-export function cargaIndice() {
-  if (!indiceCacheado) {
-    indiceCacheado = JSON.parse(readFileSync(RUTA_INDICE, "utf8"))
-  }
-  return indiceCacheado
-}
+// C2: el corpus llega vacio si corpus.json se quedo como {} o no se empaco en la funcion. La
+// respuesta entonces sale sin paginas y la traza lo dice (nunca una respuesta muda que parezca
+// normal). pregunta.js lee esta bandera para elegir el mensaje de traza.
+export const corpusVacio = Object.keys(corpus).length === 0
 
 function terminos(pregunta) {
   const salida = []
@@ -48,15 +39,15 @@ function terminos(pregunta) {
 }
 
 export function busca(pregunta, tope = 6) {
-  const indice = cargaIndice()
+  const indice = corpus
   const terminosPregunta = terminos(pregunta)
   if (!terminosPregunta.length) return []
 
   const puntuadas = []
   for (const [slug, entrada] of Object.entries(indice)) {
-    const contenido = entrada.content || ""
-    if (!contenido) continue // paginas de tag y de carpeta: sin conocimiento (tags/perfil entre ellas)
-    const titulo = String(entrada.title || "").toLowerCase()
+    const contenido = entrada.texto || ""
+    if (!contenido) continue // paginas sin texto: no aportan conocimiento
+    const titulo = String(entrada.titulo || "").toLowerCase()
     const cuerpo = contenido.slice(0, LIMITE_PUNTUACION).toLowerCase()
     let n = 0
     for (const t of terminosPregunta) {
@@ -68,9 +59,11 @@ export function busca(pregunta, tope = 6) {
 
   puntuadas.sort((a, b) => b[1] - a[1] || (a[0] < b[0] ? -1 : a[0] > b[0] ? 1 : 0))
 
+  // Lo que busca() DEVUELVE no cambia: {slug, title, texto}, que es lo que _prompt.js ya consume.
+  // Solo cambia de donde lo lee (entrada.titulo / entrada.texto en vez de title / content).
   return puntuadas.slice(0, tope).map(([slug]) => ({
     slug,
-    title: indice[slug].title || "",
-    texto: String(indice[slug].content || "").slice(0, LIMITE_TEXTO),
+    title: indice[slug].titulo || "",
+    texto: String(indice[slug].texto || "").slice(0, LIMITE_TEXTO),
   }))
 }

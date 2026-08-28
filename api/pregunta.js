@@ -11,7 +11,7 @@
 //   - Sin CORS: la funcion y el sitio son el mismo origen. No se registra la pregunta en ningun
 //     sitio: no hay donde, y guardar texto de desconocidos sin decirselo es un problema legal.
 
-import { busca } from "./_contexto.js"
+import { busca, corpusVacio } from "./_contexto.js"
 import { enruta, armaPrompt } from "./_prompt.js"
 
 // Id curado por medicion real en el vault el 2026-08-20 (web/chat/proveedor.py). No se inventa
@@ -79,7 +79,11 @@ export default async function handler(req, res) {
     const fuentes = paginas.map((p) => p.slug)
     const trazas = []
     if (!paginas.length) {
-      trazas.push("sin coincidencia literal en el indice para esa pregunta")
+      // C2: si el corpus llego vacio (corpus.json como {} o fuera del paquete de la funcion), la
+      // traza lo dice con palabras; nunca una respuesta muda que parezca normal.
+      trazas.push(corpusVacio
+        ? "el Cerebro respondio sin sus paginas: el corpus llego vacio"
+        : "sin coincidencia literal en el indice para esa pregunta")
     }
 
     const ficha = enruta(pregunta)
