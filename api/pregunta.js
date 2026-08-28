@@ -3,8 +3,9 @@
 // Contrato (plan fase 4, tarea 2) + C3 (2026-08-28):
 //   - Solo POST; cualquier otro metodo: 405.
 //   - Cuerpo {"pregunta": "..."}: vacia 400, mas de 2.000 caracteres 413.
-//   - Sin GOOGLE_API_KEY en el entorno: 503 {"error":"el chat no esta configurado"} — sin decir
-//     que variable falta y sin buscarla en ningun fichero.
+//   - Sin ninguna de las dos claves (GOOGLE_API_KEY principal ni GEMINI_API_KEY de reserva): 503
+//     {"error":"el chat no esta configurado"} — el texto no dice cual falta y no se busca en ningun
+//     fichero. La cuenta de reserva (C5, 2026-08-28) solo entra si la principal agota su cuota.
 //   - Con todo bien: 200 {texto, firma:{agente, especialidad, modelo, motivo}, fuentes, trazas,
 //     error}. fuentes ahora lleva DOS grupos: {cerebro:[{ruta, titulo}], internet:[{titulo, dominio, url}]}.
 //   - Sin CORS: la funcion y el sitio son el mismo origen. No se registra la pregunta en ningun
@@ -78,6 +79,64 @@ function fuentesInternet(metadata) {
   return salida
 }
 
+// C5 + C3: hace la llamada a Gemini y devuelve el resultado ya parseado. Usa el `fetch` global, asi
+// que las pruebas lo sustituyen por uno de mentira para ejercitar el reintento sin red. La bandera
+// `falloCuota` distingue los errores que SI merecen reintento con la reserva (cuota) de los que no.
+async function llamaGemini(clave, prompt) {
+  let r
+  try {
+    r = await fetch(`${BASE_GOOGLE}/${MODELO}:generateContent`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "x-goog-api-key": clave,
+      },
+      body: JSON.stringify({
+        contents: [{ role: "user", parts: [{ text: prompt }] }],
+        tools: [{ google_search: {} }],
+        generationConfig: { maxOutputTokens: MAX_TOKENS, temperature: 0 },
+      }),
+    })
+  } catch {
+    // Error de red: la respuesta sale igual con lo que el vault dio (texto null) y la traza lo dice.
+    return { texto: null, fuentesWeb: [], error: "la busqueda no se pudo hacer (error de red)", estado: 0, falloCuota: false }
+  }
+
+  if (r.ok) {
+    const datos = await r.json()
+    const candidato = datos.candidates && datos.candidates[0]
+    const partes = candidato && candidato.content && candidato.content.parts
+    const contenido = partes ? partes.map((p) => p.text || "").join("") : ""
+    if (contenido) {
+      // C3: las fuentes de internet vienen de los metadatos de grounding, no del texto del modelo.
+      return {
+        texto: contenido,
+        fuentesWeb: fuentesInternet(candidato && candidato.groundingMetadata),
+        error: null,
+        estado: r.status,
+        falloCuota: false,
+      }
+    }
+    return { texto: null, fuentesWeb: [], error: "el modelo respondio vacio", estado: r.status, falloCuota: false }
+  }
+
+  // HTTP de error. Solo la cuota (429, o 403 por cuota/RESOURCE_EXHAUSTED) merece reintento con la
+  // reserva: un 400 (peticion mal formada) o un 500 darian el mismo error con la segunda clave y
+  // habrian gastado dos llamadas por nada.
+  let detalle = ""
+  try {
+    const errData = await r.json()
+    detalle = errData && errData.error && errData.error.message ? errData.error.message : ""
+  } catch { /* cuerpo no JSON */ }
+  const mensaje = detalle
+    ? `la busqueda no se pudo hacer (${r.status}: ${detalle})`
+    : `la busqueda no se pudo hacer (HTTP ${r.status})`
+  const falloCuota =
+    r.status === 429 ||
+    (r.status === 403 && /cuota|quota|RESOURCE_EXHAUSTED/i.test(detalle || ""))
+  return { texto: null, fuentesWeb: [], error: mensaje, estado: r.status, falloCuota }
+}
+
 export default async function handler(req, res) {
   try {
     if (req.method !== "POST") {
@@ -112,8 +171,12 @@ export default async function handler(req, res) {
     recientes.push(ahora)
     LLAMADAS_POR_IP.set(ip, recientes)
 
-    const clave = process.env.GOOGLE_API_KEY
-    if (!clave) {
+    // C5 (2026-08-28): Carlos tiene dos cuentas de Google. GOOGLE_API_KEY es la principal;
+    // GEMINI_API_KEY es la de reserva (otra cuenta) y solo entra si la principal agota su cuota.
+    // Sin ninguna de las dos, el 503 de siempre, con el mismo texto y sin decir que variable falta.
+    const clavePrincipal = process.env.GOOGLE_API_KEY
+    const claveReserva = process.env.GEMINI_API_KEY
+    if (!clavePrincipal && !claveReserva) {
       return responde(res, 503, { error: "el chat no esta configurado" })
     }
 
@@ -141,49 +204,30 @@ export default async function handler(req, res) {
     const hoy = new Date().toISOString().slice(0, 10)
     const prompt = armaPrompt(pregunta, ficha, paginas, trazas, hoy)
 
-    let texto = null
-    let error = null
-    let fuentesWeb = []
-    try {
-      const r = await fetch(`${BASE_GOOGLE}/${MODELO}:generateContent`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "x-goog-api-key": clave,
-        },
-        body: JSON.stringify({
-          contents: [{ role: "user", parts: [{ text: prompt }] }],
-          tools: [{ google_search: {} }],
-          generationConfig: { maxOutputTokens: MAX_TOKENS, temperature: 0 },
-        }),
-      })
-      if (r.ok) {
-        const datos = await r.json()
-        const candidato = datos.candidates && datos.candidates[0]
-        const partes = candidato && candidato.content && candidato.content.parts
-        const contenido = partes ? partes.map((p) => p.text || "").join("") : ""
-        if (contenido) {
-          texto = contenido
-          // C3: las fuentes de internet vienen de los metadatos de grounding, no del texto del modelo.
-          fuentesWeb = fuentesInternet(candidato && candidato.groundingMetadata)
-        } else {
-          error = "el modelo respondio vacio"
-        }
+    // C5 (2026-08-28): la cuenta de reserva solo se usa si hay las dos claves y la principal
+    // agota su cuota. Un 400 o un 500 no se reintentan: la segunda clave daria el mismo error y
+    // habrian gastado dos llamadas por nada. Un SOLO reintento, sin bucle ni rotacion: la reserva
+    // es reserva, no un reparto de carga.
+    let resultado = await llamaGemini(clavePrincipal, prompt)
+    let usoReserva = false
+    if (claveReserva && resultado.falloCuota) {
+      usoReserva = true
+      resultado = await llamaGemini(claveReserva, prompt)
+    }
+
+    let texto = resultado.texto
+    let fuentesWeb = resultado.fuentesWeb
+    let error = resultado.error
+
+    // C5: rastro del respaldo, que es el punto entero. Sin el, Carlos sabria que agoto la principal
+    // el dia que se agote tambien la segunda, y para entonces no habria nada que mirar. Nunca se
+    // nombra una variable de entorno: se dice «cuenta principal» y «cuenta de reserva».
+    if (usoReserva) {
+      if (texto) {
+        trazas.push("se agoto la cuota de la cuenta principal; respondio la cuenta de reserva")
       } else {
-        // 429 de cuota de grounding, 400 de herramienta no soportada, 403 de la clave...: la
-        // respuesta sale igual con lo que el vault dio, y la traza lo dice. El chat no se cae por
-        // una pregunta — es el contrato que ya tiene escrito en su cabecera.
-        let detalle = ""
-        try {
-          const errData = await r.json()
-          detalle = errData && errData.error && errData.error.message ? errData.error.message : ""
-        } catch { /* cuerpo no JSON */ }
-        error = detalle
-          ? `la busqueda no se pudo hacer (${r.status}: ${detalle})`
-          : `la busqueda no se pudo hacer (HTTP ${r.status})`
+        trazas.push("la cuenta principal agoto su cuota y la de reserva tambien fallo")
       }
-    } catch {
-      error = "la busqueda no se pudo hacer (error de red)"
     }
 
     // C3: la traza dice si consulto internet. Si busco y hubo fuentes, las cuenta; si no, lo dice.
