@@ -22,7 +22,9 @@
 //   - El functionResponse se envia en role "user" y el modelo LO LEYO (uso el dato "2.310 USD").
 //   - RESTRICCION NUEVA que el plan no preveia: Gemini exige el thoughtSignature del functionCall
 //     al reenviar el historial, o devuelve 400. Se captura de la llamada 1 y se reenvia en la 2.
-//   - Tavily NO se pudo comprobar en vivo: este entorno no tiene TAVILY_API_KEY/TAVILY2_API_KEY.
+//   - Tavily COMPROBADO EN VIVO por Carlos el 2026-08-29 (POST /search, advanced, 5 resultados):
+//     HTTP 200 y cada results[] trae url, title, content, score, raw_content, id. La respuesta NO
+//     trae `usage`: el gasto de creditos solo se ve en el panel de Tavily, no desde aqui.
 //     La forma se tomo de su documentacion; la comprobacion en vivo queda para el despliegue.
 
 import { busca, corpusVacio } from "./_contexto.js"
