@@ -102,7 +102,13 @@ async function unaBusquedaTavily(clave, consulta) {
     return { estado: r.status, resultados, error: null, esCuota: false }
   }
   let detalle = ""
-  try { const e = await r.json(); detalle = (e && (e.error || e.message)) || "" } catch {}
+  // Solo si es una cadena: el cuerpo de error de Tavily a veces trae un objeto en `error`, y
+  // interpolarlo pondria "[object Object]" en una traza que ve el visitante.
+  try {
+    const e = await r.json()
+    const bruto = e && (e.error || e.message)
+    detalle = typeof bruto === "string" ? bruto : ""
+  } catch {}
   const esCuota = CODIGOS_CUOTA_TAVILY.includes(r.status)
   const error = detalle
     ? `la busqueda no se pudo hacer (${r.status}: ${detalle})`
