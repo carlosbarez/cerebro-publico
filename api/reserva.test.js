@@ -237,7 +237,7 @@ test("B4-1 el modelo pide buscar: dos llamadas al modelo, una a Tavily, fuentes 
   globalThis.fetch = fake
   try {
     const res = resFalso()
-    await handler({ method: "POST", body: { pregunta: "a cuanto el oro hoy" }, headers: { "x-forwarded-for": "b4-1" } }, res)
+    await handler({ method: "POST", body: { pregunta: "que dice el cerebro del oro" }, headers: { "x-forwarded-for": "b4-1" } }, res)
     const modelo = fake.llamadas.filter((l) => l.tipo === "modelo")
     const tavily = fake.llamadas.filter((l) => l.tipo === "tavily")
     assert.equal(modelo.length, 2, "dos llamadas al modelo")
@@ -283,7 +283,7 @@ test("B4-3 Tavily 432 en principal y 200 en reserva: dos llamadas a Tavily, segu
   globalThis.fetch = fake
   try {
     const res = resFalso()
-    await handler({ method: "POST", body: { pregunta: "oro hoy" }, headers: { "x-forwarded-for": "b4-3" } }, res)
+    await handler({ method: "POST", body: { pregunta: "que dice el cerebro del oro" }, headers: { "x-forwarded-for": "b4-3" } }, res)
     const tv = fake.llamadas.filter((l) => l.tipo === "tavily")
     assert.equal(tv.length, 2, "dos llamadas a Tavily")
     assert.equal(tv[1].opts.headers["Authorization"], "Bearer tvly-R", "la segunda usa la clave de reserva")
@@ -309,7 +309,7 @@ test("B4-4 Tavily 432 en ambas cuentas: responde con el Cerebro y traza de cuota
   globalThis.fetch = fake
   try {
     const res = resFalso()
-    await handler({ method: "POST", body: { pregunta: "oro hoy" }, headers: { "x-forwarded-for": "b4-4" } }, res)
+    await handler({ method: "POST", body: { pregunta: "que dice el cerebro del oro" }, headers: { "x-forwarded-for": "b4-4" } }, res)
     const tv = fake.llamadas.filter((l) => l.tipo === "tavily")
     assert.equal(tv.length, 2, "dos llamadas a Tavily")
     assert.ok(res.cuerpo.texto, "responde con el Cerebro")
@@ -331,7 +331,7 @@ test("B4-5 Tavily 400 (no reintentable): una sola llamada a Tavily", async () =>
   globalThis.fetch = fake
   try {
     const res = resFalso()
-    await handler({ method: "POST", body: { pregunta: "oro hoy" }, headers: { "x-forwarded-for": "b4-5" } }, res)
+    await handler({ method: "POST", body: { pregunta: "que dice el cerebro del oro" }, headers: { "x-forwarded-for": "b4-5" } }, res)
     const tv = fake.llamadas.filter((l) => l.tipo === "tavily")
     assert.equal(tv.length, 1, "un 400 no se reintenta")
     assert.ok(res.cuerpo.texto, "responde con el Cerebro")
@@ -376,9 +376,77 @@ test("B4-7 las fuentes salen de results[].url, no del texto del modelo", async (
   globalThis.fetch = fake
   try {
     const res = resFalso()
-    await handler({ method: "POST", body: { pregunta: "oro hoy" }, headers: { "x-forwarded-for": "b4-7" } }, res)
+    await handler({ method: "POST", body: { pregunta: "que dice el cerebro del oro" }, headers: { "x-forwarded-for": "b4-7" } }, res)
     assert.deepEqual(res.cuerpo.fuentes.internet, [{ titulo: "Oro", dominio: "kitco.com", url: "https://kitco.com/oro" }])
     assert.ok(!JSON.stringify(res.cuerpo.fuentes.internet).includes("noticias-falsas"), "la URL inventada del modelo no aparece")
+  } finally {
+    globalThis.fetch = fetchOriginal
+  }
+})
+
+// B6 (2026-08-29): el disparo por codigo. La pregunta con marca temporal busca ANTES del modelo,
+// asi que hay UNA llamada al modelo (sin tools) y UNA a Tavily, y los resultados viajan en el
+// prompt marcados como texto de terceros.
+test("B6-1 pregunta con marca temporal: busca antes, una llamada al modelo sin tools", async () => {
+  process.env.GOOGLE_API_KEY = CLAVE_P
+  process.env.TAVILY_API_KEY = "tvly-P"
+  const fake = fetchPorUrl({
+    modelo: [ okModeloTexto("El oro cerro a 2310 USD segun kitco.") ],
+    tavily: [ okTavily([{ title: "Oro ayer", url: "https://kitco.com/oro", content: "Cerro a 2310." }]) ],
+  })
+  const fetchOriginal = globalThis.fetch
+  globalThis.fetch = fake
+  try {
+    const res = resFalso()
+    await handler({ method: "POST", body: { pregunta: "a cuanto cerro el oro ayer" }, headers: { "x-forwarded-for": "b6-1" } }, res)
+    const modelo = fake.llamadas.filter((l) => l.tipo === "modelo")
+    assert.equal(modelo.length, 1, "una sola llamada al modelo")
+    assert.equal(fake.llamadas.filter((l) => l.tipo === "tavily").length, 1, "una a Tavily")
+    assert.ok(!modelo[0].cuerpo.tools, "no se ofrece la herramienta: ya se busco")
+    const enviado = JSON.stringify(modelo[0].cuerpo.contents)
+    assert.ok(enviado.includes("kitco.com/oro"), "los resultados viajan en el prompt")
+    assert.ok(enviado.includes("TEXTO DE TERCEROS"), "van marcados como texto de terceros")
+    assert.deepEqual(res.cuerpo.fuentes.internet, [{ titulo: "Oro ayer", dominio: "kitco.com", url: "https://kitco.com/oro" }])
+    assert.ok(res.cuerpo.trazas.includes("consulto internet: 1 fuentes"), `traza: ${JSON.stringify(res.cuerpo.trazas)}`)
+  } finally {
+    globalThis.fetch = fetchOriginal
+  }
+})
+
+test("B6-2 marca temporal y Tavily agotada: responde igual y la traza dice que no pudo buscar", async () => {
+  process.env.GOOGLE_API_KEY = CLAVE_P
+  process.env.TAVILY_API_KEY = "tvly-P"
+  process.env.TAVILY2_API_KEY = "tvly-R"
+  const fake = fetchPorUrl({
+    modelo: [ okModeloTexto("Sin red, respondo con el Cerebro.") ],
+    tavily: [ errorTavily(432), errorTavily(432) ],
+  })
+  const fetchOriginal = globalThis.fetch
+  globalThis.fetch = fake
+  try {
+    const res = resFalso()
+    await handler({ method: "POST", body: { pregunta: "precio del oro hoy" }, headers: { "x-forwarded-for": "b6-2" } }, res)
+    assert.equal(fake.llamadas.filter((l) => l.tipo === "tavily").length, 2, "principal y reserva")
+    assert.equal(fake.llamadas.filter((l) => l.tipo === "modelo").length, 1, "una llamada al modelo")
+    assert.ok(res.cuerpo.texto, "la respuesta sale igual")
+    assert.deepEqual(res.cuerpo.fuentes.internet, [])
+    assert.ok(res.cuerpo.trazas.some((t) => t.includes("cuota agotada")), `traza: ${JSON.stringify(res.cuerpo.trazas)}`)
+  } finally {
+    globalThis.fetch = fetchOriginal
+  }
+})
+
+test("B6-3 pregunta sin marca temporal: no se busca antes, la herramienta sigue ofreciendose", async () => {
+  process.env.GOOGLE_API_KEY = CLAVE_P
+  process.env.TAVILY_API_KEY = "tvly-P"
+  const fake = fetchPorUrl({ modelo: [ okModeloTexto("Un moat es una ventaja duradera.") ], tavily: [] })
+  const fetchOriginal = globalThis.fetch
+  globalThis.fetch = fake
+  try {
+    const res = resFalso()
+    await handler({ method: "POST", body: { pregunta: "que es un moat" }, headers: { "x-forwarded-for": "b6-3" } }, res)
+    assert.equal(fake.llamadas.filter((l) => l.tipo === "tavily").length, 0, "cero a Tavily")
+    assert.ok(fake.llamadas.filter((l) => l.tipo === "modelo")[0].cuerpo.tools, "se ofrece la herramienta")
   } finally {
     globalThis.fetch = fetchOriginal
   }
