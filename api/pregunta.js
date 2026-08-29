@@ -62,6 +62,68 @@ function dominioDeUrl(url) {
   }
 }
 
+// B1 (plan 2026-08-29): busqueda en internet con Tavily en lugar del grounding de Google.
+// Profundidad `advanced`, 5 resultados (decision de Carlos: 2 creditos por busqueda, no 1). Timeout
+// de 8s con AbortSignal nativo: una Tavily colgada no puede colgar la funcion de Vercel. La cuenta
+// de reserva (TAVILY2_API_KEY) SOLO entra si la principal agota su cuota (432/433/429); un
+// 400/401/500 no se reintenta. Devuelve SIEMPRE { resultados, error, usoReserva }: una busqueda
+// fallida no tumba la respuesta. Forma de la API comprobada contra su documentacion el 2026-08-29
+// (NO contra vivo: este entorno no tiene las claves de Tavily; la comprobacion en vivo queda
+// pendiente del despliegue).
+const TAVILY_URL = "https://api.tavily.com/search"
+const TAVILY_TIMEOUT_MS = 8000
+const CODIGOS_CUOTA_TAVILY = [429, 432, 433]
+
+async function unaBusquedaTavily(clave, consulta) {
+  let r
+  try {
+    r = await fetch(TAVILY_URL, {
+      method: "POST",
+      headers: { "Authorization": `Bearer ${clave}`, "Content-Type": "application/json" },
+      body: JSON.stringify({ query: consulta, search_depth: "advanced", max_results: 5, topic: "general" }),
+      signal: AbortSignal.timeout(TAVILY_TIMEOUT_MS),
+    })
+  } catch {
+    // Timeout o red caida: es una busqueda fallida como cualquier otra; la respuesta sale igual.
+    return { estado: 0, resultados: [], error: "la busqueda no se pudo hacer (error de red)", esCuota: false }
+  }
+  if (r.ok) {
+    let datos = null
+    try { datos = await r.json() } catch {}
+    const crudos = datos && Array.isArray(datos.results) ? datos.results : []
+    // De cada resultado, SOLO lo que Tavily documenta: title, url, content. El dominio se calcula
+    // con dominioDeUrl() que ya existe (no se escribe una segunda).
+    const resultados = crudos.map((x) => ({
+      titulo: x.title || "",
+      url: x.url || "",
+      dominio: dominioDeUrl(x.url || ""),
+      contenido: x.content || "",
+    }))
+    return { estado: r.status, resultados, error: null, esCuota: false }
+  }
+  let detalle = ""
+  try { const e = await r.json(); detalle = (e && (e.error || e.message)) || "" } catch {}
+  const esCuota = CODIGOS_CUOTA_TAVILY.includes(r.status)
+  const error = detalle
+    ? `la busqueda no se pudo hacer (${r.status}: ${detalle})`
+    : `la busqueda no se pudo hacer (HTTP ${r.status})`
+  return { estado: r.status, resultados: [], error, esCuota }
+}
+
+// Devuelve SIEMPRE { resultados, error, usoReserva }. Nunca lanza. La reserva solo entra si la
+// principal agota su cuota; un solo reintento, sin bucle ni rotacion (la reserva es reserva).
+async function buscaEnInternet(consulta) {
+  const principal = process.env.TAVILY_API_KEY || process.env.TAVILY2_API_KEY
+  const reserva = process.env.TAVILY_API_KEY ? process.env.TAVILY2_API_KEY : null
+  let res = await unaBusquedaTavily(principal, consulta)
+  let usoReserva = false
+  if (reserva && res.esCuota) {
+    usoReserva = true
+    res = await unaBusquedaTavily(reserva, consulta)
+  }
+  return { resultados: res.resultados, error: res.error, usoReserva }
+}
+
 // C3: de los metadatos de grounding sacamos SOLO las fuentes que Google devolvio (nunca una URL que
 // el modelo haya escrito en su texto): titulo + dominio + url. Una fuente inventada con pinta de
 // bueno es el fallo mas caro, asi que no se admite ninguna que no venga de groundingMetadata.
