@@ -121,7 +121,7 @@ async function buscaEnInternet(consulta) {
     usoReserva = true
     res = await unaBusquedaTavily(reserva, consulta)
   }
-  return { resultados: res.resultados, error: res.error, usoReserva }
+  return { resultados: res.resultados, error: res.error, usoReserva, esCuota: res.esCuota }
 }
 
 // B2 (plan 2026-08-29): herramienta de busqueda que se ofrece al modelo SOLO si hay claves de
@@ -346,7 +346,9 @@ export default async function handler(req, res) {
       fuentesWeb = busqueda.resultados.map((x) => ({ titulo: x.titulo, dominio: x.dominio, url: x.url }))
 
       if (busqueda.error) {
-        if (/cuota/.test(busqueda.error)) {
+        // La distincion "cuota agotada" vs "otra cosa" se hace por el codigo HTTP de Tavily
+        // (432/433/429), no por el texto del error: el mensaje puede no contener la palabra.
+        if (busqueda.esCuota) {
           trazasBusqueda.push("no se pudo buscar en internet (cuota agotada); respondi solo con las paginas del Cerebro")
         } else {
           trazasBusqueda.push(`no se pudo buscar en internet (${busqueda.error}); respondi solo con las paginas del Cerebro`)
