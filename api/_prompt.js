@@ -43,6 +43,16 @@ export const AVISO_PUBLICO =
 // no baste") no es aplicable por el modelo: una cifra vieja SIEMPRE parece que basta. Por eso el
 // disparador pasa a ser objetivo (la pregunta pide el dato de ahora + el contexto lleva fecha
 // anterior) y el freno de coste queda detras, como excepcion y no como regla general.
+//
+// MEDIDO DE NUEVO 2026-08-29, MISMO DIA, EN PREVIEW: ESTE ARREGLO NO FUNCIONA. Con las reglas de
+// arriba desplegadas, la misma pregunta ("a cuanto cerro el oro ayer") sigue sin llamar a
+// busca_en_internet (traza: "no consulto internet") y ademas EMPEORA la respuesta: antes decia
+// "4.647,6 segun la ultima lectura verificada el 26 de agosto" y ahora afirma "el oro cerro AYER a
+// 4.647,60", perdiendo la fecha que la regla nueva le pedia explicitamente poner.
+// Lo que esto prueba: gemini-flash-lite-latest no obedece estas reglas con el corpus delante, asi
+// que el problema NO se arregla escribiendo mejores reglas. Queda vivo porque no hace dano, pero
+// NO es un guardarrail: no confies en el. La decision (subir a gemini-flash-latest, o disparar la
+// busqueda desde el codigo en vez de dejarsela al modelo) es de Carlos y esta sin tomar.
 export const REGLAS_INTERNET = [
   "- EL CEREBRO MANDA. Las paginas del vault son tu fuente primaria y lo que el visitante puede leer",
   "  entero. Internet (la herramienta busca_en_internet) es solo para lo que el vault no puede saber:",
