@@ -25,7 +25,11 @@
 //   - Tavily COMPROBADO EN VIVO por Carlos el 2026-08-29 (POST /search, advanced, 5 resultados):
 //     HTTP 200 y cada results[] trae url, title, content, score, raw_content, id. La respuesta NO
 //     trae `usage`: el gasto de creditos solo se ve en el panel de Tavily, no desde aqui.
-//     La forma se tomo de su documentacion; la comprobacion en vivo queda para el despliegue.
+//     Lo comprobado es la FORMA de la API suelta, con curl. Lo que NO esta comprobado todavia es
+//     el camino entero en el despliegue (pregunta -> functionCall -> Tavily -> respuesta) con las
+//     claves de Vercel: eso solo se prueba abriendo el sitio en el navegador y preguntando algo
+//     que el vault no pueda saber. Nunca con curl: el cortafuegos de Vercel devuelve un 403 que
+//     parece un fallo del sitio.
 
 import { busca, corpusVacio } from "./_contexto.js"
 import { enruta, armaPrompt } from "./_prompt.js"
@@ -69,9 +73,8 @@ function dominioDeUrl(url) {
 // de 8s con AbortSignal nativo: una Tavily colgada no puede colgar la funcion de Vercel. La cuenta
 // de reserva (TAVILY2_API_KEY) SOLO entra si la principal agota su cuota (432/433/429); un
 // 400/401/500 no se reintenta. Devuelve SIEMPRE { resultados, error, usoReserva }: una busqueda
-// fallida no tumba la respuesta. Forma de la API comprobada contra su documentacion el 2026-08-29
-// (NO contra vivo: este entorno no tiene las claves de Tavily; la comprobacion en vivo queda
-// pendiente del despliegue).
+// fallida no tumba la respuesta. La forma de la API se comprobo EN VIVO el 2026-08-29 (detalle en
+// la cabecera): results[] trae url, title y content, que es exactamente lo que se lee aqui.
 const TAVILY_URL = "https://api.tavily.com/search"
 const TAVILY_TIMEOUT_MS = 8000
 const CODIGOS_CUOTA_TAVILY = [429, 432, 433]
