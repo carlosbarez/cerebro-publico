@@ -4,6 +4,9 @@ tipo: empresa
 tags: [empresa, banca-inversion]
 fecha: 2026-08-28
 agente: prime-agent
+veredicto: OBSERVAR
+valor_estimado: ~1.102 $ (caso base; rango 735-1.314 $)
+gatillo_entrada: Recorte a P/VC <2,5x (~<900 $) o BPA que siga batiendo con ROE >15% sostenido
 ticker: GS
 moneda: USD
 fuentes: "[\"https://www.goldmansachs.com/pressroom/press-releases/2026/2026-01-15-q4-results\", \"https://www.sec.gov/Archives/edgar/data/886982/000088698226000008/a4q25gsearningsresults.htm\", \"https://www.goldmansachs.com/investor-relations/financials/current/annual-reports/2025-annual-report\", \"https://www.goldmansachs.com/pressroom/press-releases/2026/2026-07-14-q2-results\", \"https://www.reuters.com/sustainability/boards-policy-regulation/goldman-sachs-settles-shareholder-lawsuit-over-1mdb-scandal-2026-04-22/\"]"

@@ -4,6 +4,9 @@ tipo: empresa
 tags: [empresa, infraestructura, concesiones, construccion]
 fecha: 2026-08-28
 agente: prime-agent
+veredicto: COMPRAR
+valor_estimado: Sin datos (TIKR apunta +35% a 2 años, ~155 €)
+gatillo_entrada: Recortes hacia 100-110 € y confirmación de crecimiento del BPA/FCF en 2026
 ticker: DG
 moneda: EUR
 fuentes: "[\"https://fr.wikipedia.org/wiki/Vinci_(entreprise)\", \"https://companiesmarketcap.com/eur/vinci/marketcap/\", \"https://companiesmarketcap.com/eur/vinci/revenue/\", \"https://companiesmarketcap.com/vinci/pe-ratio/\", \"https://companiesmarketcap.com/vinci/dividend-yield/\"]"

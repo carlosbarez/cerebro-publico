@@ -4,6 +4,9 @@ tipo: empresa
 tags: [empresa, telecomunicaciones, medios]
 fecha: 2026-08-28
 agente: prime-agent
+veredicto: OBSERVAR
+valor_estimado: Sum-of-parts por encima de la capitalizacion (~95.000 M$); potencial si el split NBCU/Sky destapa valor (objetivo medio 30,08 $)
+gatillo_entrada: Aprobaciones regulatorias del split y retorno de recompras; debilidad <25 $ o mejora neta de abonados de banda ancha
 ticker: CMCSA
 moneda: USD
 fuentes: "[\"https://corporate.comcast.com/press/releases/comcast-announces-plans-to-separate-media-and-technology-businesses-into-two-leading-public-companies\", \"https://www.sec.gov/Archives/edgar/data/1166691/000162828026004994/cmcsa-20251231.htm\", \"https://www.cnbc.com/2026/06/29/comcast-announces-it-will-spin-off-media-and-tech-wings-into-separate-public-companies.html\", \"https://www.cmcsa.com/news-releases/news-release-details/comcast-reports-2nd-quarter-2026-results\", \"https://stockanalysis.com/stocks/cmcsa/\"]"

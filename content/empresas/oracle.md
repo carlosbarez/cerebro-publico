@@ -4,6 +4,9 @@ tipo: empresa
 tags: [empresa, software, nube]
 fecha: 2026-08-28
 agente: prime-agent
+veredicto: OBSERVAR
+valor_estimado: Sin datos
+gatillo_entrada: Ratings estables (S&P >BBB-) + FCF bruto positivo + conversion de RPO en ingresos
 ticker: ORCL
 moneda: USD
 fuentes: "[\"https://www.prnewswire.com/news-releases/oracle-announces-record-q4-and-fy-2026-results-driven-by-cloud-infrastructure--cloud-applications-302797201.html\", \"https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm\", \"https://www.cnbc.com/2026/06/10/oracle-orcl-q4-earnings-report-2026.html\", \"https://www.channelnewsasia.com/business/analysisoracle-corp-goes-high-stakes-ratings-gamble-in-ai-strategy-6298706\", \"https://openai.com/index/five-new-stargate-sites/\"]"

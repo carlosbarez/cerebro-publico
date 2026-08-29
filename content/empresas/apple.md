@@ -4,6 +4,9 @@ tipo: empresa
 tags: [empresa, tecnologia, consumo-tecnologico]
 fecha: 2026-08-28
 agente: prime-agent
+veredicto: OBSERVAR
+valor_estimado: ~330 $ (objetivo consenso medio)
+gatillo_entrada: De-rating a P/E <30x (precio <~280 $) o crecimiento de servicios que compense la valoración
 ticker: AAPL
 moneda: USD
 fuentes: "[\"https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm\", \"https://www.apple.com/newsroom/2025/10/apple-reports-fourth-quarter-results/\", \"https://www.apple.com/newsroom/pdfs/fy2026q3/FY26_Q3_Consolidated_Financial_Statements.pdf\", \"https://www.reuters.com/world/eu-court-rejects-apples-challenge-against-eu-rules-reining-big-tech-2026-07-08/\", \"https://stockanalysis.com/stocks/aapl/\", \"https://www.morningstar.com/company-reports/1485466-apple-remains-the-preeminent-device-vendor-with-an-entrenched-wide-moat-ecosystem\"]"

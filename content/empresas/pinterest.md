@@ -4,6 +4,9 @@ tipo: empresa
 tags: [empresa, plataformas-de-internet]
 fecha: 2026-08-28
 agente: prime-agent
+veredicto: MANTENER
+valor_estimado: Sin datos
+gatillo_entrada: Sin datos
 ticker: PINS
 moneda: USD
 fuentes: "[\"https://www.cnbc.com/2026/08/04/pinterest-pins-q2-earnings-report-2026.html\", \"https://www.reuters.com/business/media-telecom/pinterest-expects-slower-quarterly-revenue-growth-ad-competition-heats-up-2026-08-04/\", \"https://www.marketscreener.com/news/pinterest-quarterly-report-for-quarter-ending-june-30-2026-form-10-q-ce7f50dfd889f32d\", \"https://s204.q4cdn.com/369458543/files/doc_earnings/2026/q2/presentation/Q2-2026-Pinterest-Earnings-Presentation.pdf\", \"https://www.businesswire.com/news/home/20260212059914/en/Pinterest-Announces-Fourth-Quarter-and-Full-Year-2025-Results-Delivers-14-Revenue-Growth-and-Record-Users\"]"

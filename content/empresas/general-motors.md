@@ -4,6 +4,9 @@ tipo: empresa
 tags: [empresa, automocion]
 fecha: 2026-08-28
 agente: prime-agent
+veredicto: OBSERVAR
+valor_estimado: ~101 $ (objetivo consenso)
+gatillo_entrada: Confirmar 2S2026 sin cargos y <80 $ aprox
 ticker: GM
 moneda: USD
 precio_referencia: 86.18

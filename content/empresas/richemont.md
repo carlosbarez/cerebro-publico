@@ -4,6 +4,9 @@ tipo: empresa
 tags: [empresa, lujo, suiza]
 fecha: 2026-08-28
 agente: prime-agent
+veredicto: OBSERVAR
+valor_estimado: ~25 $ ADR (objetivo consenso)
+gatillo_entrada: Pullback ligado a China (<~24 $ ADR / ~27x fwd)
 ticker: CFR
 moneda: EUR
 fuentes: "[\"https://www.richemont.com/news-media/press-releases-news/richemont-delivers-strong-sales-growth-and-solid-results-for-the-year-ended-31-march-2026/\", \"https://www.richemont.com/news-media/press-releases-news/richemont-posts-strong-start-to-the-year-with-sales-up-by-20-at-constant-rates-for-its-first-quarter-ended-30-june-2026/\", \"https://www.richemont.com/media/nnlbvvyt/richemont-company-snapshot-en.pdf\", \"https://stockanalysis.com/quote/otc/CFRUY/\"]"

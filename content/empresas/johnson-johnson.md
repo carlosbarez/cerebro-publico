@@ -4,6 +4,9 @@ tipo: empresa
 tags: [empresa, salud-y-farma]
 fecha: 2026-08-28
 agente: prime-agent
+veredicto: MANTENER
+valor_estimado: P/E ~31x TTM ya descuenta buena parte del upside; justa como core defensivo de largo plazo
+gatillo_entrada: Cierre efectivo acuerdo talco (>=95% participacion); entrada en pullback <250 $
 ticker: JNJ
 moneda: USD
 fuentes: "[\"https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm\", \"https://www.reuters.com/business/healthcare-pharmaceuticals/johnson-johnson-announces-55-billion-settlement-talc-lawsuits-2026-07-27/\", \"https://www.investor.jnj.com/investor-news/news-details/2026/Johnson--Johnson-Announces-a-Proposed-Resolution-of-Ovarian-Talc-Litigation/default.aspx\", \"https://www.jnj.com/media-center/press-releases/johnson-johnson-reports-q2-2026-results-raises-2026-outlook\", \"https://www.reuters.com/markets/deals/jj-buy-intra-cellular-therapies-146-billion-2025-01-13/\", \"https://stockanalysis.com/stocks/jnj/statistics/\"]"

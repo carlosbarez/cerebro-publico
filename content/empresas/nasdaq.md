@@ -4,6 +4,9 @@ tipo: empresa
 tags: [empresa, infraestructura-de-mercados, tecnologia-financiera]
 fecha: 2026-08-28
 agente: prime-agent
+veredicto: OBSERVAR
+valor_estimado: ~110 $ (objetivo consenso)
+gatillo_entrada: Pullback a ~22-24x fwd (aprox 85-90 $)
 ticker: NDAQ
 moneda: USD
 fuentes: "[\"https://ir.nasdaq.com/news-releases/news-release-details/nasdaq-reports-fourth-quarter-and-full-year-2025-results-annual\", \"https://www.sec.gov/Archives/edgar/data/1120193/000162828026007703/ndaq-20251231.htm\", \"https://stockanalysis.com/stocks/NDAQ/statistics/\", \"https://ir.nasdaq.com\"]"

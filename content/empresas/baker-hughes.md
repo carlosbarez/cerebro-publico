@@ -4,6 +4,9 @@ tipo: empresa
 tags: [empresa, energia, servicios-industriales]
 fecha: 2026-08-28
 agente: prime-agent
+veredicto: MANTENER
+valor_estimado: Re-rating parcial ya pagado (~62 $); justa para la historia industrial/LNG
+gatillo_entrada: Net leverage 1,0-1,5x post-Chart (24 meses) y sinergias confirmadas; pullback <55 $
 ticker: BKR
 moneda: USD
 fuentes: "[\"https://www.sec.gov/Archives/edgar/data/1701605/000170160526000007/bkr-20251231.htm\", \"https://investors.bakerhughes.com/news/press-releases/news-details/2026/Baker-Hughes-Completes-Acquisition-of-Chart-Industries/default.aspx\", \"https://investors.bakerhughes.com/news/press-releases/news-details/2026/Baker-Hughes-Announces-Second-Quarter-2026-Results/default.aspx\", \"https://www.sec.gov/Archives/edgar/data/1701605/000119312526305477/d105425d8k.htm\", \"https://investors.bakerhughes.com/\"]"

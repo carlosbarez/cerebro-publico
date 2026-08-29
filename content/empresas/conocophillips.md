@@ -4,6 +4,9 @@ tipo: empresa
 tags: [empresa, energia, petroleo-y-gas]
 fecha: 2026-08-28
 agente: prime-agent
+veredicto: COMPRAR
+valor_estimado: Objetivo medio 145,33 $ (+13% sobre ~129 $); EV/EBITDA ~6,5x
+gatillo_entrada: Mantener si se posee; nuevo con pullback <120 $ o WTI estable >70 $ y deuda neta bajando
 ticker: COP
 moneda: USD
 fuentes: "[\"https://www.conocophillips.com/news-media/story/conocophillips-reports-fourth-quarter-and-full-year-2025-results-announces-2026-guidance-and-quarterly-dividend/\", \"https://www.sec.gov/Archives/edgar/data/1163165/000116316526000009/cop-20251231.htm\", \"https://www.conocophillips.com/news-media/story/conocophillips-announces-second-quarter-2026-results-and-quarterly-dividend/\", \"https://www.conocophillips.com/news-media/story/conocophillips-completes-acquisition-of-marathon-oil-corporation/\", \"https://stockanalysis.com/stocks/cop/forecast/\"]"

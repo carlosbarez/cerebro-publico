@@ -4,6 +4,9 @@ tipo: empresa
 tags: [empresa, banca-universal]
 fecha: 2026-08-28
 agente: prime-agent
+veredicto: COMPRAR
+valor_estimado: ~164 $ (base intrínseca; rango 133-195 $)
+gatillo_entrada: Cierre de consent orders Fed/OCC + RoTCE sostenido >=10-11%
 ticker: C
 moneda: USD
 fuentes: "[\"https://www.citigroup.com/rcs/citigpa/storage/public/Earnings/Q42025/2025prqtr4rslt.pdf\", \"https://www.citigroup.com/rcs/citigpa/storage/public/Earnings/Q22026/2026prqtr2rslt.pdf\", \"https://www.sec.gov/Archives/edgar/data/831001/000110465926083383/c-20260714xex99d1.htm\", \"https://www.citigroup.com/global/news/press-release/2025/citi-announces-successful-completion-of-the-sale-of-equity-stake-in-banamex\", \"https://www.federalreserve.gov/newsevents/pressreleases/files/enf20201007a1.pdf\", \"https://stockanalysis.com/stocks/c/statistics/\"]"

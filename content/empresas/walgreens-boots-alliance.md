@@ -4,6 +4,9 @@ tipo: empresa
 tags: [empresa, salud-retail]
 fecha: 2026-08-28
 agente: prime-agent
+veredicto: OBSERVAR
+valor_estimado: Privada desde 28-ago-2025; caso de estudio. CVR VillageMD hasta 3,00 $/accion si se retuvieron derechos
+gatillo_entrada: No cotiza; vigilar monetizacion VillageMD y posible salida a bolsa de Boots
 ticker: WBA
 moneda: USD
 fuentes: "[\"https://www.sec.gov/Archives/edgar/data/1618921/000161892124000084/wba-20240831.htm\", \"https://www.sycamorepartners.com/news-article/sycamore-partners-completes-acquisition-of-walgreens-boots-alliance\", \"https://www.sec.gov/Archives/edgar/data/1618921/000119312525147528/d919053dex991.htm\", \"https://www.justice.gov/opa/pr/walgreens-agrees-pay-350m-illegally-filling-unlawful-opioid-prescriptions-and-submitting\", \"https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3304628\", \"https://stockanalysis.com/stocks/wba/statistics/\"]"

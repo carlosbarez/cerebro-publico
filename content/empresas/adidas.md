@@ -4,6 +4,9 @@ tipo: empresa
 tags: [empresa, consumo-discrecional, articulos-deportivos]
 fecha: 2026-08-28
 agente: prime-agent
+veredicto: MANTENER
+valor_estimado: ~201 € (objetivo consenso)
+gatillo_entrada: En debilidad tras sell-off jul-2026 (P/E fwd <14x)
 ticker: ADS
 moneda: EUR
 fuentes: "[\"https://www.adidas-group.com/en/media/press-releases/adidas-reports-record-revenues-for-2025-and-expects-strong-sales-and-profit-growth-to-continue-over-the-next-years\", \"https://report.adidas-group.com/2025/en/consolidated-financial-statements/consolidated-income-statement.html\", \"https://stockanalysis.com/quote/etr/ADS/financials/\", \"https://stockanalysis.com/quote/etr/ADS/forecast/\", \"https://stockanalysis.com/quote/etr/ADS/statistics/\"]"

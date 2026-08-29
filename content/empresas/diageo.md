@@ -4,6 +4,9 @@ tipo: empresa
 tags: [empresa, espirituosos, reino-unido]
 fecha: 2026-08-28
 agente: prime-agent
+veredicto: COMPRAR
+valor_estimado: 106,43 $ (objetivo medio)
+gatillo_entrada: Estabilizacion del organico de Norteamerica (volumen deja de caer)
 ticker: DGE
 moneda: USD
 precio_referencia: 92.09

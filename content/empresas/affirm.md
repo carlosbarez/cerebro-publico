@@ -4,6 +4,9 @@ tipo: empresa
 tags: [empresa, fintech, credito-consumo]
 fecha: 2026-08-28
 agente: prime-agent
+veredicto: OBSERVAR
+valor_estimado: Sin datos (P/E trailing ~72x; sin target de precio)
+gatillo_entrada: Normalizacion beneficio FY2027 sin ayuda fiscal + P/E <40x en debilidad.
 ticker: AFRM
 moneda: USD
 fuentes: "[\"https://www.sec.gov/Archives/edgar/data/1820953/000182095325000080/afrm-20250630.htm\", \"https://www.sec.gov/Archives/edgar/data/1820953/000162828026032105/affirmfq326shareholderle.htm\", \"https://investors.affirm.com/\", \"https://stockanalysis.com/stocks/afrm/\", \"https://www.cnbc.com/2025/05/06/trumps-cfpb-drops-enforcement-of-bnpl-as-consumer-protections-decline.html\"]"

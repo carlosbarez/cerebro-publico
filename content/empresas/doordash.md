@@ -4,6 +4,9 @@ tipo: empresa
 tags: [empresa, consumo-digital, logistica-ultima-milla]
 fecha: 2026-08-28
 agente: prime-agent
+veredicto: OBSERVAR
+valor_estimado: ~252 USD (consenso; rango amplio)
+gatillo_entrada: Resolucion favorable riesgo laboral UE/arbitraje + pullback a P/E <80x.
 ticker: DASH
 moneda: USD
 fuentes: "[\"https://www.sec.gov/Archives/edgar/data/1792789/000179278926000013/dash-20251231.htm\", \"https://ir.doordash.com/news/news-details/2026/DoorDash-Releases-Second-Quarter-2026-Financial-Results/default.aspx\", \"https://ir.doordash.com/news/news-details/2026/DoorDash-Releases-Fourth-Quarter-and-Full-Year-2025-Financial-Results/default.aspx\", \"https://www.reuters.com/markets/deals/doordash-acquire-uks-deliveroo-39-billion-deal-2025-05-06/\", \"https://stockanalysis.com/stocks/dash/\"]"

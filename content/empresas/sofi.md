@@ -4,6 +4,9 @@ tipo: empresa
 tags: [empresa, fintech, banca-digital]
 fecha: 2026-08-28
 agente: prime-agent
+veredicto: MANTENER
+valor_estimado: ~19,98 USD (consenso; rango 12-30)
+gatillo_entrada: Recorte por charge-offs o guia a <~17 USD (P/E <30x) con NCO personales estables.
 ticker: SOFI
 moneda: USD
 precio_referencia: 19.16

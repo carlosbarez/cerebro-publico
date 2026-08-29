@@ -4,6 +4,9 @@ tipo: empresa
 tags: [empresa, infraestructura-de-mercados]
 fecha: 2026-08-28
 agente: prime-agent
+veredicto: MANTENER
+valor_estimado: Sin datos
+gatillo_entrada: Cierre exitoso de MarketAxess (1S 2027) sin apalancamiento >3x EBITDA y penetracion recurrente >60%
 ticker: ICE
 moneda: USD
 fuentes: "[\"https://www.sec.gov/Archives/edgar/data/1571949/000157194926000004/ice-20251231.htm\", \"https://ir.theice.com/financials/annual-reports-and-proxy/2025-Letter-to-Shareholders/default.aspx\", \"https://ir.theice.com/press/news-details/2026/Intercontinental-Exchange-Reports-Second-Quarter-2026/default.aspx\", \"https://ir.theice.com/press/news-details/2026/Intercontinental-Exchange-to-Acquire-MarketAxess-Creating-a-Premier-Fixed-Income-Marketplace/default.aspx\", \"https://www.reuters.com/legal/transactional/intercontinental-exchange-buy-marketaxess-57-billion-deal-2026-07-30/\", \"https://www.sec.gov/files/litigation/admin/2024/34-100206.pdf\"]"

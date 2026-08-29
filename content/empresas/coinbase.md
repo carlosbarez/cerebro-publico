@@ -4,6 +4,9 @@ tipo: empresa
 tags: [empresa, criptoactivos, infraestructura-financiera]
 fecha: 2026-08-28
 agente: prime-agent
+veredicto: OBSERVAR
+valor_estimado: Sin datos (beta 3,36; consenso EPS 2027 +$2,88)
+gatillo_entrada: Recuperacion de volumen/precio cripto + EPS 2027 positivo; entrada en debilidad (<~170 USD) con conviccion de ciclo.
 ticker: COIN
 moneda: USD
 fuentes: "[\"https://investor.coinbase.com/news/news-details/2026/Coinbase-Q2-Earnings-Everything-Exchange-Drives-3rd-Consecutive-Quarter-of-Record-Crypto-Trading-Volume-Market-Share-Revenue-Diversification-and-Resilience/default.aspx\", \"https://www.cnbc.com/2026/07/30/coinbase-coin-earnings-q2-2026.html\", \"https://www.stocktitan.net/sec-filings/COIN/10-q-coinbase-global-inc-quarterly-earnings-report-45843e165ccf.html\", \"https://www.reuters.com/technology/us-securities-regulator-drop-lawsuit-against-coinbase-exchange-says-2025-02-21/\", \"https://www.reuters.com/markets/deals/coinbase-acquire-deribit-29-billion-deal-wsj-reports-2025-05-08/\", \"https://stockanalysis.com/stocks/coin/statistics/\"]"

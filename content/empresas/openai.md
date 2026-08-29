@@ -4,6 +4,9 @@ tipo: empresa
 tags: [empresa, ia-generativa]
 fecha: 2026-08-28
 agente: prime-agent
+veredicto: OBSERVAR
+valor_estimado: Sin datos (privada; valoración 852.000 M$ ronda 2026)
+gatillo_entrada: IPO (objetivo 2027) y cuota enterprise LLM estable vs Anthropic
 moneda: USD
 fuentes: "[\"https://openai.com/index/accelerating-the-next-phase-ai/\", \"https://www.bloomberg.com/news/articles/2026-03-31/openai-valued-at-852-billion-after-completing-122-billion-round\", \"https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html\", \"https://www.wheresyoured.at/exclusive-openai-financials/\", \"https://fortune.com/2026/06/16/openai-financials-leaked-losses-revenue-profit/\"]"
 ---

@@ -4,6 +4,9 @@ tipo: empresa
 tags: [empresa, entretenimiento-medios]
 fecha: 2026-08-28
 agente: prime-agent
+veredicto: COMPRAR
+valor_estimado: Subvalorada a ~108 $; objetivo medio 127,84 $ (+18%), P/E fwd ~15,7x
+gatillo_entrada: Margen DTC SVOD >=10% en FY2026 y desescalada FCC/ABC; acumular en debilidad <100 $
 ticker: DIS
 moneda: USD
 precio_referencia: 108

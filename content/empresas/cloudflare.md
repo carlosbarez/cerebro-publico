@@ -4,6 +4,9 @@ tipo: empresa
 tags: [empresa, infraestructura-internet, ciberseguridad]
 fecha: 2026-08-28
 agente: prime-agent
+veredicto: OBSERVAR
+valor_estimado: Sin datos (EV/Ventas ~39x; sin target de precio en informe)
+gatillo_entrada: Margen bruto estable >70% + pullback a EV/Ventas <30x (~$240-250).
 ticker: NET
 moneda: USD
 fuentes: "[\"https://www.cloudflare.com/press/press-releases/2026/cloudflare-announces-second-quarter-2026-financial-results/\", \"https://www.sec.gov/Archives/edgar/data/1477333/000147733326000016/cloud-20251231.htm\", \"https://cloudflare.net/files/doc_financials/2026/q2/Q2-2026-Cloudflare-Investor-Presentation.pdf\", \"https://siliconangle.com/2026/08/06/cloudflare-shares-jump-18-revenue-beat-raised-full-year-outlook/\", \"https://blog.cloudflare.com/voidzero-joins-cloudflare/\", \"https://stockanalysis.com/stocks/net/\"]"

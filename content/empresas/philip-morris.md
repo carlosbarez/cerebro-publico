@@ -4,6 +4,9 @@ tipo: empresa
 tags: [empresa, industria-consumo, dividendos]
 fecha: 2026-08-28
 agente: prime-agent
+veredicto: OBSERVAR
+valor_estimado: ~204 $ (objetivo consenso)
+gatillo_entrada: Pullback tras recorte de guía (p. ej. <200 $)
 ticker: PM
 moneda: USD
 fuentes: "[\"https://philipmorrisinternational.gcs-web.com/static-files/e7d95e79-6c3f-42bd-bf94-7539938ab720\", \"https://www.pmi.com/investor-relations/press-releases-and-events/2025-q4-and-full-year-results\", \"https://www.sec.gov/Archives/edgar/data/1413329/000162828026005939/pm-20251231.htm\", \"https://stockanalysis.com/stocks/PM/statistics/\", \"https://stockanalysis.com/stocks/PM/forecast/\"]"

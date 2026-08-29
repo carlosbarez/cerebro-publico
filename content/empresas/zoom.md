@@ -4,6 +4,9 @@ tipo: empresa
 tags: [empresa, software-saas]
 fecha: 2026-08-28
 agente: prime-agent
+veredicto: COMPRAR
+valor_estimado: ~118 USD (objetivo medio consenso)
+gatillo_entrada: Sin datos
 ticker: ZM
 moneda: USD
 precio_referencia: 97.25

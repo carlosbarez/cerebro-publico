@@ -4,6 +4,9 @@ tipo: empresa
 tags: [empresa, cerveza, dinamarca]
 fecha: 2026-08-28
 agente: prime-agent
+veredicto: OBSERVAR
+valor_estimado: 779-1.090 DKK (rango consenso)
+gatillo_entrada: NIBD/EBITDA -> ~2,5x y sinergias Britvic por encima de plan
 ticker: CARL-B
 moneda: DKK
 precio_referencia: 885.4

@@ -4,6 +4,9 @@ tipo: empresa
 tags: [empresa, construccion, francia]
 fecha: 2026-08-28
 agente: prime-agent
+veredicto: COMPRAR
+valor_estimado: 97,72 € (objetivo medio)
+gatillo_entrada: Margen EBITDA >15% y politica EPBD europea de rehabilitacion intacta
 ticker: SGO
 moneda: EUR
 precio_referencia: 80.24

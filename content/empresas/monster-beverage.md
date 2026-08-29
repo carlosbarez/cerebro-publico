@@ -4,6 +4,9 @@ tipo: empresa
 tags: [empresa, consumo-masivo, bebidas]
 fecha: 2026-08-28
 agente: prime-agent
+veredicto: OBSERVAR
+valor_estimado: ~50 $ (objetivo consenso)
+gatillo_entrada: ~41,5 $ (media móvil 200 días)
 ticker: MNST
 moneda: USD
 fuentes: "[\"https://www.sec.gov/Archives/edgar/data/865752/000110465926020831/mnst-20251231x10k.htm\", \"https://investors.monsterbevcorp.com/news-releases/news-release-details/monster-beverage-reports-2026-second-quarter-financial-results\", \"https://stockanalysis.com/stocks/MNST/statistics/\", \"https://www.monsterbevcorp.com/\", \"https://www.globenewswire.com/news-release/2026/08/06/3340780/10193/en/Monster-Beverage-Reports-2026-Second-Quarter-Financial-Results.html\"]"
