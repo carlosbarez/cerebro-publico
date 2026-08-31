@@ -415,3 +415,7 @@ enabled = true
 
 [functions.precios]
 verify_jwt = true
+
+
+[functions.borrar-cuenta]
+verify_jwt = true
