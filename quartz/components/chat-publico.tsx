@@ -18,15 +18,9 @@
 //   el rotulo copia .dato-nombre de la portada (custom.scss) y el corte movil usa su breakpoint
 //   de 999px. La promesa visible: toda respuesta lleva FIRMA, FUENTES y TRAZAS, siempre.
 
-interface FirmaPublica {
-  agente?: string
-  especialidad?: string
-  modelo?: string
-  motivo?: string
-}
-
 // El cliente (chat-publico.inline.ts) viaja como TEXTO gracias al inline-script-loader del build;
 // aqui solo se cuelga como script afterDOMLoaded del componente.
+// @ts-ignore: el .inline.ts viaja como texto (inline-script-loader); no es modulo de TS.
 import chatPublicoScript from "./chat-publico.inline"
 
 function ChatPublico({ fileData }: QuartzComponentProps) {
