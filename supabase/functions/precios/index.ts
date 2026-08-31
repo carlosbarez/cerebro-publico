@@ -53,9 +53,11 @@ export async function handler(req: Request, deps: PreciosDeps): Promise<Response
   if (!Array.isArray(simbolos) || simbolos.length === 0 || simbolos.length > MAX_SIMBOLOS) {
     return json({ error: `simbolos: array de 1 a ${MAX_SIMBOLOS}` }, 400)
   }
-  const validos = [...new Set(
-    simbolos.map((s) => String(s).toLowerCase().trim()).filter((s) => SIMBOLO_RE.test(s)),
-  )]
+  const validos = [
+    ...new Set(
+      simbolos.map((s) => String(s).toLowerCase().trim()).filter((s) => SIMBOLO_RE.test(s)),
+    ),
+  ]
   if (validos.length === 0) return json({ error: "ningun simbolo valido" }, 400)
 
   const cache = await deps.leerCache(validos)
@@ -77,7 +79,12 @@ export async function handler(req: Request, deps: PreciosDeps): Promise<Response
       const p = parseaStooq(await deps.pedirStooq(s))
       if (p) {
         precios[s] = p
-        nuevas.push({ simbolo: s, precio: p.precio, fecha: p.fecha, actualizado: new Date(deps.ahora()).toISOString() })
+        nuevas.push({
+          simbolo: s,
+          precio: p.precio,
+          fecha: p.fecha,
+          actualizado: new Date(deps.ahora()).toISOString(),
+        })
       } else {
         throw new Error("sin datos")
       }
@@ -104,12 +111,15 @@ if ((Deno.env.get("DENO_TESTING") ?? "") !== "1") {
     handler(req, {
       ahora: () => Date.now(),
       leerCache: async (ss) =>
-        ((await admin.from("precios_cache").select("*").in("simbolo", ss)).data ?? []) as FilaCache[],
+        ((await admin.from("precios_cache").select("*").in("simbolo", ss)).data ??
+          []) as FilaCache[],
       guardarCache: async (filas) => {
         await admin.from("precios_cache").upsert(filas)
       },
       pedirStooq: async (s) =>
-        await (await fetch(`https://stooq.com/q/l/?s=${encodeURIComponent(s)}&f=sd2t2ohlcv&h&e=csv`)).text(),
-    })
+        await (
+          await fetch(`https://stooq.com/q/l/?s=${encodeURIComponent(s)}&f=sd2t2ohlcv&h&e=csv`)
+        ).text(),
+    }),
   )
 }

@@ -18,7 +18,10 @@ Deno.serve(async (req) => {
     Deno.env.get("SUPABASE_URL")!,
     Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!,
   )
-  const { data: { user }, error } = await admin.auth.getUser(token)
+  const {
+    data: { user },
+    error,
+  } = await admin.auth.getUser(token)
   if (error || !user) return json({ error: "no autorizado" }, 401)
 
   const { error: e2 } = await admin.auth.admin.deleteUser(user.id)
