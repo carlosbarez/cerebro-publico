@@ -8,7 +8,7 @@ ticker: BANCOCHILE
 moneda: CLP
 precio_referencia: 192.70 CLP (snapshot 2026-08-20; cotización con retraso). ADR NYSE:BCH ~38.8 USD (2026-06-25)
 fecha_precio: 2026-08-29
-valor_estimado: Rango estimado por múltiplo de utilidad: base ~180 CLP (P/E 15x); optimista ~205 CLP (P/E 17x)
+valor_estimado: "Rango estimado por múltiplo de utilidad: base ~180 CLP (P/E 15x); optimista ~205 CLP (P/E 17x)"
 gatillo_entrada: < 175 CLP
 veredicto: MANTENER
 revisar_el: 2026-11-29

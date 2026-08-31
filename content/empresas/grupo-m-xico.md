@@ -8,7 +8,7 @@ ticker: GMEXICOB
 moneda: MXN
 precio_referencia: MX$ 230,52 (cotiza en BMV; ADR GMBXF)
 fecha_precio: 2026-08-27
-valor_estimado: MX$ 233 (escenario base: P/E 16x × EPS 2024 MX$ 14,54)
+valor_estimado: "MX$ 233 (escenario base: P/E 16x × EPS 2024 MX$ 14,54)"
 gatillo_entrada: MX$ 200 (entrada con margen de seguridad)
 veredicto: COMPRAR
 revisar_el: 2026-11-29

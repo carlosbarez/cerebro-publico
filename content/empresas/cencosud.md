@@ -8,7 +8,7 @@ ticker: CENCOSUD
 moneda: CLP
 precio_referencia: 2,080 CLP (snapshot 2026-08-28; cotización con retraso)
 fecha_precio: 2026-08-29
-valor_estimado: Rango estimado por múltiplo de utilidad: base ~2,100 CLP; optimista ~2,400 CLP (excluyendo efecto hiperinflación Argentina)
+valor_estimado: "Rango estimado por múltiplo de utilidad: base ~2,100 CLP; optimista ~2,400 CLP (excluyendo efecto hiperinflación Argentina)"
 gatillo_entrada: < 1,900 CLP
 veredicto: OBSERVAR
 revisar_el: 2026-11-29

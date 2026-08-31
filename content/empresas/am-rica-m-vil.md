@@ -8,7 +8,7 @@ ticker: AMX
 moneda: USD
 precio_referencia: US$ 23,18 (ADR en NYSE; en BMV cotiza en MXN como AMX)
 fecha_precio: 2026-08-28
-valor_estimado: US$ 23,20 (escenario base: P/E 14x × EPS TTM US$ 1,66)
+valor_estimado: "US$ 23,20 (escenario base: P/E 14x × EPS TTM US$ 1,66)"
 gatillo_entrada: US$ 19,00 (entrada con margen de seguridad)
 veredicto: MANTENER
 revisar_el: 2026-11-29

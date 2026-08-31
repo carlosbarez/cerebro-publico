@@ -8,7 +8,7 @@ ticker: FEMSAUBD
 moneda: MXN
 precio_referencia: MX$ 203,46 (cotiza en BMV; ADR FMX)
 fecha_precio: 2026-08-21
-valor_estimado: MX$ 194 (escenario base: P/E 21x × EPS TTM MX$ 9,24)
+valor_estimado: "MX$ 194 (escenario base: P/E 21x × EPS TTM MX$ 9,24)"
 gatillo_entrada: MX$ 175 (entrada con margen de seguridad)
 veredicto: MANTENER
 revisar_el: 2026-11-29

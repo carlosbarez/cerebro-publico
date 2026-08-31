@@ -8,7 +8,7 @@ ticker: CEMEXCPO
 moneda: MXN
 precio_referencia: 18.77 MXN (snapshot 2026-08-21; cotización con retraso)
 fecha_precio: 2026-08-29
-valor_estimado: Rango estimado por EV/EBITDA: escenario base ~19-20 MXN por CPO (equity ~US$19-20B)
+valor_estimado: "Rango estimado por EV/EBITDA: escenario base ~19-20 MXN por CPO (equity ~US$19-20B)"
 gatillo_entrada: < 16 MXN por CPO (EV/EBITDA < ~7x)
 veredicto: MANTENER
 revisar_el: 2026-11-29

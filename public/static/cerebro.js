@@ -182,6 +182,7 @@ window.CerebroPieza = (() => {
     let luzX = 0, luzY = 0, luzOX = 0, luzOY = 0;            // la luz que sigue al puntero (B.1)
     let focoX = 0, focoY = 0, focoSobre = false, focoA = 0;  // el foco calido bajo el cursor (B.2)
     let zona = -1, zonaA = 0;                                // la zona iluminada y su realce (B.3)
+    let zonaFirma = -1; // la zona de quien firma; manda cuando el puntero no esta encima (fase 2.1)
     let alZonaCb = null;
 
     const pinta = (t) => {
@@ -245,8 +246,11 @@ window.CerebroPieza = (() => {
       }
 
       // 4c. el realce de la zona iluminada: acotado a la elipse, mismo mecanismo que el foco
-      if (zona >= 0 && zonaA > 0.001) {
-        const z = ZONAS[zona];
+      // la zona efectiva: manda el puntero mientras esta encima; la firma, cuando no
+      // (misma precedencia que firmaEstado en app.js). Asi el cerebro se enciende por quien firma.
+      const zonaEf = zona >= 0 ? zona : zonaFirma;
+      if (zonaEf >= 0 && zonaA > 0.001) {
+        const z = ZONAS[zonaEf];
         ctx.save();
         ctx.beginPath();
         ctx.ellipse(z.cx, z.cy, z.rx, z.ry, z.rot, 0, TAU);
@@ -333,7 +337,7 @@ window.CerebroPieza = (() => {
         luzX += (luzOX - luzX) * Math.min(1, dt * 4);
         luzY += (luzOY - luzY) * Math.min(1, dt * 4);
         focoA += ((focoSobre ? 1 : 0) - focoA) * Math.min(1, dt * 4);
-        zonaA += ((zona >= 0 ? 1 : 0) - zonaA) * Math.min(1, dt * 4);
+        zonaA += (((zona >= 0 ? zona : zonaFirma) >= 0 ? 1 : 0) - zonaA) * Math.min(1, dt * 4);
         tAcum += dt * vel;
         pinta(tAcum);
       };
@@ -386,6 +390,13 @@ window.CerebroPieza = (() => {
       ritmo(n) { velBase = n; velObjetivo = hover ? Math.max(n, 1.5) : n; recorrido = n > 1; if (REDUCE) pinta(tAcum); },
       golpe() { golpeEn = performance.now(); if (REDUCE) { pinta(tAcum); golpeEn = -1; } },
       mira(x, y) { luzOX = x; luzOY = y; },
+      // enciende la zona de quien acaba de firmar. Un slug desconocido da -1 (ninguna
+      // zona): si el enrutador devuelve un agente sin zona, no se enciende ninguna al azar.
+      // En REDUCE se pinta ya encendida, como el hover (cerebro.js no anima).
+      firma(slug) {
+        zonaFirma = ZONAS.findIndex((z) => z.slug === slug);
+        if (REDUCE) { zonaA = zonaFirma >= 0 ? 1 : 0; pinta(tAcum); }
+      },
       alZona(cb) { alZonaCb = cb; }
     };
   };

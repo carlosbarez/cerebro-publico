@@ -8,7 +8,7 @@ ticker: MGLU3
 moneda: BRL
 precio_referencia: R$ 4,71 (cotiza en B3; ADR MGLUY)
 fecha_precio: 2026-08-26
-valor_estimado: R$ 4,68 (escenario base: P/E 18x × EPS 2025 R$ 0,26)
+valor_estimado: "R$ 4,68 (escenario base: P/E 18x × EPS 2025 R$ 0,26)"
 gatillo_entrada: R$ 3,50 (zona de soporte; requiere confirmación de tendencia)
 veredicto: OBSERVAR
 revisar_el: 2026-11-29

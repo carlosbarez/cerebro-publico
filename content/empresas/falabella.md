@@ -8,7 +8,7 @@ ticker: FALABELLA
 moneda: CLP
 precio_referencia: 6,221 CLP (snapshot 2026-08-22; cotización con retraso)
 fecha_precio: 2026-08-29
-valor_estimado: Rango estimado por múltiplo de utilidad: base ~6,650 CLP (P/E 12x ex-fair value); optimista ~7,700 CLP
+valor_estimado: "Rango estimado por múltiplo de utilidad: base ~6,650 CLP (P/E 12x ex-fair value); optimista ~7,700 CLP"
 gatillo_entrada: < 5,800 CLP
 veredicto: COMPRAR
 revisar_el: 2026-11-29

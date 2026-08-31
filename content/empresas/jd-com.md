@@ -5,7 +5,7 @@ tags: [empresa, analisis-fundamental, tecnologia-ecommerce]
 fecha: 2026-08-29
 agente: carlos-barez
 ticker: JD
-moneda: USD (ADR NASDAQ: JD; también HKEX 9618)
+moneda: "USD (ADR NASDAQ: JD; también HKEX 9618)"
 precio_referencia: USD 28.74
 fecha_precio: 2026-08-28
 valor_estimado: USD 32 (base, ~11x beneficio no-GAAP)

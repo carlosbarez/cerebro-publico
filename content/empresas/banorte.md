@@ -8,7 +8,7 @@ ticker: GFNORTEO
 moneda: MXN
 precio_referencia: 189.68 MXN (snapshot 2026-08; cotización con retraso)
 fecha_precio: 2026-08-29
-valor_estimado: Rango estimado por múltiplo de utilidad: base ~210 MXN (P/E 10x); optimista ~250 MXN (P/E 12x)
+valor_estimado: "Rango estimado por múltiplo de utilidad: base ~210 MXN (P/E 10x); optimista ~250 MXN (P/E 12x)"
 gatillo_entrada: < 180 MXN (P/E < ~8.7x sobre EPS 2025)
 veredicto: COMPRAR
 revisar_el: 2026-11-29

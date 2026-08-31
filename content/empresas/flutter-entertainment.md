@@ -6,7 +6,7 @@ fecha: 2026-08-29
 agente: carlos-barez
 ticker: FLTR
 moneda: USD
-precio_referencia: 101.78 USD (ADR NYSE: FLUT, cierre 28 ago 2026; LSE FLTR cotiza en EUR)
+precio_referencia: "101.78 USD (ADR NYSE: FLUT, cierre 28 ago 2026; LSE FLTR cotiza en EUR)"
 fecha_precio: 2026-08-28
 valor_estimado: 110-140 USD (rango escenarios; base ~125 USD)
 gatillo_entrada: < 90 USD
