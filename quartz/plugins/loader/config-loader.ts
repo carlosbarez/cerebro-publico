@@ -712,6 +712,19 @@ export async function loadQuartzLayout(layoutOverrides?: {
   const ChatPublicoModule = await import("../../components/chat-publico")
   defaultLayout.afterBody = [...(defaultLayout.afterBody ?? []), ChatPublicoModule.default()]
 
+  // Registro, cartera y guardados (plan 2026-08-30). Mismo caso especial que ChatPublico:
+  // los componentes internos no entran por el registro de plugins. Van al afterBody por
+  // defecto y el bucle de abajo los replica a los layouts por tipo.
+  const CuentaModule = await import("../../components/cuenta")
+  const CarteraModule = await import("../../components/cartera")
+  const GuardarModule = await import("../../components/guardar")
+  defaultLayout.afterBody = [
+    ...(defaultLayout.afterBody ?? []),
+    CuentaModule.default(),
+    CarteraModule.default(),
+    GuardarModule.default(),
+  ]
+
   // Ensure all byPageType entries inherit structural slots
   for (const pageType of Object.keys(byPageType)) {
     const pt = byPageType[pageType]

@@ -14,6 +14,7 @@ const SECCIONES = [
   { texto: "Chat con Elisa", href: "/#chat" },
   { texto: "Newsletter", href: "/actualidad" },
   { texto: "Biblioteca", href: "/biblioteca.base" },
+  { texto: "Mi cuenta", href: "/cuenta" },
 ]
 
 const Body: QuartzComponent = ({ children }: QuartzComponentProps) => {
