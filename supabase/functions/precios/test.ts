@@ -1,18 +1,27 @@
 // test.ts — deno test supabase/functions/precios/test.ts
 // Todo mockeado: ni red, ni Supabase. El handler recibe sus dependencias (deps).
 import { assertEquals, assert } from "jsr:@std/assert"
-import { handler, parseaStooq, TTL_MS, type PreciosDeps, type FilaCache } from "./index.ts"
+import {
+  handler,
+  parseaYahoo,
+  simboloYahoo,
+  TTL_MS,
+  type PreciosDeps,
+  type FilaCache,
+} from "./index.ts"
 
-const CSV_OK =
-  "Symbol,Date,Time,Open,High,Low,Close,Volume\nAAPL.US,2026-08-28,22:00:00,230,233,229,232.5,123456\n"
-const CSV_ND = "Symbol,Date,Time,Open,High,Low,Close,Volume\nXXXX.US,N/D,N/D,N/D,N/D,N/D,N/D,N/D\n"
+// regularMarketTime = 2026-08-28T15:00:00Z
+const JSON_OK = JSON.stringify({
+  chart: { result: [{ meta: { regularMarketPrice: 232.5, regularMarketTime: 1787929200 } }] },
+})
+const JSON_ND = JSON.stringify({ chart: { result: null, error: { code: "Not Found" } } })
 
 function depsBase(over: Partial<PreciosDeps> = {}): PreciosDeps {
   return {
     ahora: () => Date.parse("2026-08-30T10:00:00Z"),
     leerCache: () => Promise.resolve([]),
     guardarCache: () => Promise.resolve(),
-    pedirStooq: () => Promise.resolve(CSV_OK),
+    pedirYahoo: () => Promise.resolve(JSON_OK),
     ...over,
   }
 }
@@ -21,13 +30,20 @@ function post(cuerpo: unknown): Request {
   return new Request("http://x", { method: "POST", body: JSON.stringify(cuerpo) })
 }
 
-Deno.test("parseaStooq: csv bueno da precio y fecha", () => {
-  assertEquals(parseaStooq(CSV_OK), { precio: 232.5, fecha: "2026-08-28" })
+Deno.test("simboloYahoo: .us se quita, otros sufijos en mayusculas", () => {
+  assertEquals(simboloYahoo("aapl.us"), "AAPL")
+  assertEquals(simboloYahoo("san.mc"), "SAN.MC")
+  assertEquals(simboloYahoo("mc.pa"), "MC.PA")
 })
 
-Deno.test("parseaStooq: N/D y csv vacio dan null", () => {
-  assertEquals(parseaStooq(CSV_ND), null)
-  assertEquals(parseaStooq(""), null)
+Deno.test("parseaYahoo: json bueno da precio y fecha", () => {
+  assertEquals(parseaYahoo(JSON_OK), { precio: 232.5, fecha: "2026-08-28" })
+})
+
+Deno.test("parseaYahoo: sin result y basura dan null", () => {
+  assertEquals(parseaYahoo(JSON_ND), null)
+  assertEquals(parseaYahoo(""), null)
+  assertEquals(parseaYahoo("<html>muro anti-bot</html>"), null)
 })
 
 Deno.test("handler: GET es 405", async () => {
@@ -41,7 +57,7 @@ Deno.test("handler: cuerpo sin simbolos validos es 400", async () => {
   assertEquals((await handler(post({ simbolos: [";<mal>"] }), depsBase())).status, 400)
 })
 
-Deno.test("handler: cache fresca no llama a Stooq", async () => {
+Deno.test("handler: cache fresca no llama a Yahoo", async () => {
   let llamadas = 0
   const fila: FilaCache = {
     simbolo: "aapl.us",
@@ -53,9 +69,9 @@ Deno.test("handler: cache fresca no llama a Stooq", async () => {
     post({ simbolos: ["AAPL.US"] }),
     depsBase({
       leerCache: () => Promise.resolve([fila]),
-      pedirStooq: () => {
+      pedirYahoo: () => {
         llamadas++
-        return Promise.resolve(CSV_OK)
+        return Promise.resolve(JSON_OK)
       },
     }),
   )
@@ -64,7 +80,7 @@ Deno.test("handler: cache fresca no llama a Stooq", async () => {
   assertEquals(c.precios["aapl.us"], { precio: 100, fecha: "2026-08-29" })
 })
 
-Deno.test("handler: cache caducada pide a Stooq y guarda", async () => {
+Deno.test("handler: cache caducada pide a Yahoo y guarda", async () => {
   const guardadas: FilaCache[] = []
   const vieja: FilaCache = {
     simbolo: "aapl.us",
@@ -88,16 +104,16 @@ Deno.test("handler: cache caducada pide a Stooq y guarda", async () => {
   assertEquals(guardadas[0].simbolo, "aapl.us")
 })
 
-Deno.test("handler: Stooq sin datos y sin cache da error por simbolo", async () => {
+Deno.test("handler: Yahoo sin datos y sin cache da error por simbolo", async () => {
   const r = await handler(
     post({ simbolos: ["xxxx.us"] }),
-    depsBase({ pedirStooq: () => Promise.resolve(CSV_ND) }),
+    depsBase({ pedirYahoo: () => Promise.resolve(JSON_ND) }),
   )
   const c = await r.json()
   assertEquals(c.precios["xxxx.us"], { error: "sin datos" })
 })
 
-Deno.test("handler: Stooq caido con cache caducada la sirve marcada", async () => {
+Deno.test("handler: Yahoo caido con cache caducada la sirve marcada", async () => {
   const vieja: FilaCache = {
     simbolo: "aapl.us",
     precio: 100,
@@ -108,7 +124,7 @@ Deno.test("handler: Stooq caido con cache caducada la sirve marcada", async () =
     post({ simbolos: ["aapl.us"] }),
     depsBase({
       leerCache: () => Promise.resolve([vieja]),
-      pedirStooq: () => Promise.reject(new Error("red caida")),
+      pedirYahoo: () => Promise.reject(new Error("red caida")),
     }),
   )
   const c = await r.json()

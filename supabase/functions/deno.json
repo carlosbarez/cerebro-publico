@@ -1,6 +1,6 @@
 {
   "nodeModulesDir": "auto",
   "tasks": {
-    "test": "deno test --allow-env supabase/functions/precios/test.ts"
+    "test": "DENO_TESTING=1 deno test --allow-env supabase/functions/precios/test.ts"
   }
 }

@@ -1,68 +1,44 @@
 # BLOQUEOS — despliegue de registro-cartera (plan 2026-08-30)
 
-Estos pasos quedaron PENDIENTES al ejecutar el plan porque la CLI de Supabase
-(`supabase` 2.116 vía npm) no tiene access token (PAT) en este entorno:
-`~/.supabase/access-token.json` no existe y `supabase login` es interactivo.
-Sin PAT, `supabase link`, `db push` y `functions deploy` fallan con
-"Access token not provided". No se reintentó en bucle: se saltaron y se anotan
-aquí para que Carlos los ejecute con su cuenta.
+## Estado 2026-08-31: despliegue HECHO
 
-Proyecto ya creado (Task 0): `cerebro-publico`, región EU.
-Project ref (de la URL del dashboard): `bkuwcahxfmmksfuqkrdi`.
-`quartz/static/supabase-config.js` YA tiene url + anon key reales (no tocar).
+Con PAT aportado por Carlos se completaron los pasos 1-4:
 
-## 1) Login / enlazar (necesita PAT)
+- `supabase link` al proyecto `bkuwcahxfmmksfuqkrdi`: OK.
+- `supabase db push` (migración `20260830000000_registro_cartera.sql`): OK.
+  Verificado con `db query --linked`: `cartera`, `posiciones`, `marcador`,
+  `pulso`, `favoritos`, `precios_cache` existen, todas con RLS activado.
+- `functions deploy precios` y `functions deploy borrar-cuenta`: OK.
+- 401 sin JWT: `borrar-cuenta` OK; `precios` NO (ver incidencia 1, ya corregida
+  y redesplegada: anónimo → 401, Bearer inválido → 401).
 
-```bash
-supabase login                 # abre navegador; pega el PAT de https://supabase.com/dashboard/account/tokens
-supabase link --project-ref bkuwcahxfmmksfuqkrdi
-```
+## Incidencia 1 (RESUELTA): verify_jwt no frena anónimos con publishable key
 
-## 2) Aplicar la migración (Task 1)
+El gateway dejó pasar POST a `precios` con solo `apikey` (publishable key nueva)
+y sin `Authorization`, pese a `verify_jwt = true` en config.toml y en el
+servidor (comprobado vía Management API). Con `Authorization: Bearer basura`
+sí rechaza. Es decir: con las claves nuevas, el gateway valida el JWT solo si
+viene. Fix: verificación explícita del JWT en el código de `precios`
+(`admin.auth.getUser`), mismo patrón que `borrar-cuenta`. Tests deno: 8/8 OK.
 
-```bash
-supabase db push
-```
+## Incidencia 2 (RESUELTA): Stooq cayó como fuente de datos → Yahoo Finance
 
-Verificar en el dashboard (Table Editor) que existen `posiciones`, `favoritos` y
-`precios_cache`, y que cada una tiene RLS activado. O:
+`https://stooq.com/q/l/?s=aapl.us&f=sd2t2ohlcv&h&e=csv` dejó de devolver CSV:
+devuelve HTML ("page does not exist") y `q/d/l` quedó tras un muro anti-bot
+JavaScript. Fallaba tanto desde la red local como desde la edge function.
 
-```bash
-supabase db query "select tablename, rowsecurity from pg_tables where schemaname = 'public';"
-```
+Fix (2026-08-31): fuente cambiada a Yahoo Finance
+(`query1.finance.yahoo.com/v8/finance/chart/<SYM>`, sin key; exige User-Agent
+de navegador, si no 429). Los símbolos canónicos siguen en formato Stooq
+(`aapl.us`, `san.mc`); `simboloYahoo()` los mapea (`.us` se quita, resto en
+mayúsculas). Verificado contra la API real: AAPL y SAN.MC devuelven precio y
+fecha correctos. Tests deno: 9/9 OK.
 
-## 3) Desplegar edge function `precios` (Task 2)
+## Paso 5 pendiente (necesita a Carlos): comprobación 200 de `precios`
 
-```bash
-supabase functions deploy precios
-```
-
-Comprobar que exige JWT (sin token → 401):
-
-```bash
-curl -i -X POST https://bkuwcahxfmmksfuqkrdi.supabase.co/functions/v1/precios \
-  -H "apikey: <anon-key>" -H "Content-Type: application/json" \
-  -d '{"simbolos":["aapl.us"]}'
-# Esperado: 401
-```
-
-## 4) Desplegar edge function `borrar-cuenta` (Task 3)
-
-```bash
-supabase functions deploy borrar-cuenta
-```
-
-Comprobar 401 sin JWT:
-
-```bash
-curl -i -X POST https://bkuwcahxfmmksfuqkrdi.supabase.co/functions/v1/borrar-cuenta \
-  -H "apikey: <anon-key>"
-# Esperado: 401
-```
-
-## 5) Comprobación 200 de `precios` (tras Task 5, con un usuario de prueba)
-
-Desde la consola del navegador en `/cuenta` (sesión iniciada):
+Requiere un usuario registrado y confirmado. Lo más simple y además prueba
+extremo a extremo la página /cuenta: registrarse en la web, y en la consola
+del navegador con la sesión iniciada:
 
 ```js
 ;(await supabase.auth.getSession()).data.session.access_token
@@ -75,7 +51,10 @@ curl -X POST https://bkuwcahxfmmksfuqkrdi.supabase.co/functions/v1/precios \
   -H "Authorization: Bearer <jwt>" -H "Content-Type: application/json" \
   -d '{"simbolos":["aapl.us"]}'
 # Esperado: {"precios":{"aapl.us":{"precio":...,"fecha":"..."}}}
+# (mientras Stooq siga caído: {"error":"sin datos"} por símbolo)
 ```
+
+Ojo: el registro por API rechaza dominios `.invalid`; usar email real.
 
 ## Notas (no bloquean, pero conviene saberlas)
 

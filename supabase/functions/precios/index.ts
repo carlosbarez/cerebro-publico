@@ -1,6 +1,9 @@
-// index.ts — cierre diario via Stooq con cache de 24h en precios_cache (plan 2026-08-30).
-// Auth: verify_jwt = true en config.toml; el gateway rechaza peticiones sin JWT de usuario,
-// asi que aqui no se comprueba. La cache se lee/escribe con la service role (env automatica).
+// index.ts — ultimo precio via Yahoo Finance (chart API, sin key) con cache de 24h en
+// precios_cache (plan 2026-08-30; fuente cambiada de Stooq a Yahoo el 2026-08-31 porque
+// Stooq puso sus endpoints CSV tras un muro anti-bot).
+// Auth: el JWT de usuario se verifica en el bloque de cableado (verify_jwt del gateway
+// no frena peticiones anonimas con publishable key). La cache se lee/escribe con la
+// service role (env automatica).
 import { createClient } from "jsr:@supabase/supabase-js@2"
 
 export const TTL_MS = 24 * 60 * 60 * 1000
@@ -18,20 +21,28 @@ export interface PreciosDeps {
   ahora(): number
   leerCache(simbolos: string[]): Promise<FilaCache[]>
   guardarCache(filas: FilaCache[]): Promise<void>
-  pedirStooq(simbolo: string): Promise<string> // CSV crudo
+  pedirYahoo(simbolo: string): Promise<string> // JSON crudo del chart API
 }
 
-// Stooq con f=sd2t2ohlcv&h&e=csv: "Symbol,Date,Time,Open,High,Low,Close,Volume".
-// Sin datos: la fila viene con "N/D". null = sin datos.
-export function parseaStooq(csv: string): { precio: number; fecha: string } | null {
-  const lineas = csv.trim().split("\n")
-  if (lineas.length < 2) return null
-  const c = lineas[1].split(",")
-  const fecha = c[1]
-  const cierre = c[6]
-  if (!cierre || cierre === "N/D") return null
-  const precio = Number(cierre)
-  return Number.isFinite(precio) && precio > 0 ? { precio, fecha } : null
+// Los simbolos canonicos siguen el formato Stooq (aapl.us, san.mc, mc.pa). Yahoo:
+// sufijo .us se quita, el resto se pasa en mayusculas (san.mc -> SAN.MC).
+export function simboloYahoo(s: string): string {
+  const up = s.toUpperCase()
+  return up.endsWith(".US") ? up.slice(0, -3) : up
+}
+
+// Yahoo chart API: chart.result[0].meta.{regularMarketPrice, regularMarketTime(epoch s)}.
+// Simbolo desconocido: chart.result = null. null = sin datos.
+export function parseaYahoo(texto: string): { precio: number; fecha: string } | null {
+  try {
+    const meta = JSON.parse(texto)?.chart?.result?.[0]?.meta
+    const precio = Number(meta?.regularMarketPrice)
+    const t = Number(meta?.regularMarketTime)
+    if (!Number.isFinite(precio) || precio <= 0 || !Number.isFinite(t) || t <= 0) return null
+    return { precio, fecha: new Date(t * 1000).toISOString().slice(0, 10) }
+  } catch {
+    return null
+  }
 }
 
 function json(cuerpo: unknown, status = 200): Response {
@@ -76,7 +87,7 @@ export async function handler(req: Request, deps: PreciosDeps): Promise<Response
   const nuevas: FilaCache[] = []
   for (const s of pendientes) {
     try {
-      const p = parseaStooq(await deps.pedirStooq(s))
+      const p = parseaYahoo(await deps.pedirYahoo(s))
       if (p) {
         precios[s] = p
         nuevas.push({
@@ -102,13 +113,24 @@ export async function handler(req: Request, deps: PreciosDeps): Promise<Response
 
 // Cableado real (solo en el runtime de Supabase; el test importa handler con deps falsas y
 // pasa DENO_TESTING=1, ver Step 4, para que este bloque no arranque un servidor en el test).
+// Auth: verify_jwt=true NO basta con las publishable keys nuevas (el gateway deja pasar
+// peticiones con apikey y sin Authorization), asi que el JWT se verifica aqui, igual que
+// en borrar-cuenta.
 if ((Deno.env.get("DENO_TESTING") ?? "") !== "1") {
   const admin = createClient(
     Deno.env.get("SUPABASE_URL")!,
     Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!,
   )
-  Deno.serve((req) =>
-    handler(req, {
+  Deno.serve(async (req) => {
+    const token = (req.headers.get("Authorization") ?? "").replace("Bearer ", "")
+    if (!token) return json({ error: "no autorizado" }, 401)
+    const {
+      data: { user },
+      error,
+    } = await admin.auth.getUser(token)
+    if (error || !user) return json({ error: "no autorizado" }, 401)
+
+    return handler(req, {
       ahora: () => Date.now(),
       leerCache: async (ss) =>
         ((await admin.from("precios_cache").select("*").in("simbolo", ss)).data ??
@@ -116,10 +138,14 @@ if ((Deno.env.get("DENO_TESTING") ?? "") !== "1") {
       guardarCache: async (filas) => {
         await admin.from("precios_cache").upsert(filas)
       },
-      pedirStooq: async (s) =>
+      pedirYahoo: async (s) =>
+        // Yahoo da 429 sin User-Agent de navegador.
         await (
-          await fetch(`https://stooq.com/q/l/?s=${encodeURIComponent(s)}&f=sd2t2ohlcv&h&e=csv`)
+          await fetch(
+            `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(simboloYahoo(s))}`,
+            { headers: { "User-Agent": "Mozilla/5.0" } },
+          )
         ).text(),
-    }),
-  )
+    })
+  })
 }

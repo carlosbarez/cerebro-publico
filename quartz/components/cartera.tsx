@@ -21,7 +21,7 @@ function Cartera({ fileData }: QuartzComponentProps) {
             name="simbolo"
             required
             pattern="[A-Za-z0-9.\-^=]{1,15}"
-            title="Símbolo de Stooq: aapl.us, san.mc, mc.pa…"
+            title="Símbolo: aapl.us, san.mc, mc.pa…"
             placeholder="Símbolo (aapl.us, san.mc…)"
           />
           <input
