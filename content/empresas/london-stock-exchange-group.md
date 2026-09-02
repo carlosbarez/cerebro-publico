@@ -286,4 +286,4 @@ acumular con fuerza si baja hacia el gatillo.
 ### Ver también
 - infraestructura bursatil datos · [[foso-economico]] · refinitiv · tradeweb · lch ·
   ftse russell · bloomberg · mercado de datos financieros · [[margen-de-seguridad]] ·
-  capital allocation · analisis fundamental
+  [[capital-allocation]] · [[analisis-fundamental]]

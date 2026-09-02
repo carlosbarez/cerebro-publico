@@ -1,61 +1,108 @@
 ---
-title: "Stellantis N.V. (STLAM) — Análisis Fundamental"
+title: "Stellantis (STLAM) - Ficha de investigacion"
 tipo: empresa
-tags: [empresa, analisis-fundamental, automocion]
-fecha: 2026-08-29
+tags: [automocion, europa, stlam]
+fecha: 2026-08-30
 agente: carlos-barez
-ticker: STLAM
-moneda: EUR
-precio_referencia: 4,689 EUR (cierre BIT 28-ago-2026, stockanalysis.com)
-fecha_precio: 2026-08-29
-valor_estimado: Sin datos (resultado 2025 distorsionado por 25.400 M€ de cargos)
-gatillo_entrada: Confirmación de vuelta a beneficio operativo ajustado
-veredicto: OBSERVAR
-revisar_el: 2026-11-29
-fuentes: ["https://stockanalysis.com/quote/bit/STLAM/financials/", "https://stockanalysis.com/quote/bit/STLAM/financials/ratios/", "https://www.stellantis.com/en/news/press-releases/2026/february/full-year-2025-results"]
+squad: Analisis Fundamental (Carlos Barez)
+status: durable
 ---
 
-# Stellantis N.V. (STLAM) — Análisis Fundamental
+# Stellantis (STLAM) - Ficha de investigacion
+
+> Fuentes base: Stellantis Full Year 2025 Results (stellantis.com, 2026-02-26); Stellantis Q2 2026 Results (stellantis.com / media.stellantis.com, 2026-07-30); FaSTLAne 2030 strategic plan (stellantis.com, 2026-05-21); Stellantis "Reset" (stellantis.com, 2026-02-06); StockAnalysis STLA statistics (2026-08-28); Reuters (Tavares renuncia, 2024-12-01).
 
 ## 1. Resumen ejecutivo
-Stellantis presentó en 2025 una pérdida neta de 22.300 M€, incluyendo 25.400 M€ de cargos por un cambio estratégico (vuelta a motor de combustión e ICE, reestructuración de inventarios y plantas). El resultado operativo ajustado fue negativo (-842 M€, margen -0,5%). La acción cotiza a 4,69 € (capitalización ~13.600 M€). Riesgo de quiebra de tesis a corto plazo: se recomienda OBSERVAR y exigir evidencia de recuperación antes de entrar.
+Stellantis (NYSE: STLA; Euronext Paris: STLAP; BIT: STLAM) es el cuarto fabricante de automoviles del mundo por volumen, nacido el 17-01-2021 de la fusion de Fiat Chrysler Automobiles (FCA) y el grupo PSA (Peugeot-Citroen). Agrupa 14 marcas iconicas (Abarth, Alfa Romeo, Chrysler, Citroen, Dodge, DS, Fiat, Jeep, Lancia, Maserati, Opel, Peugeot, Ram, Vauxhall) mas dos brazos de movilidad (incl. la JV con Leapmotor). Produce ~5,5 millones de vehiculos/año, opera en 30 paises y vende en 130 mercados (Wikipedia; stellantis.com/en/brands).
 
-## 2. Descripción del negocio
-Stellantis N.V. es el grupo automotriz resultante de la fusión FCA–PSA, con marcas como Peugeot, Citroën, Fiat, Chrysler, Jeep, Ram, Alfa Romeo, Maserati y Opel. Sede en Países Bajos, cotiza en Milán (BIT:STLAM), París y Nueva York.
+2025 fue el "anno de la purga": ingresos €153,5 bn (-2% vs 2024), pero **perdida neta de €22,3 bn** por €25,4 bn de cargos excepcionales (reset estrategico + cambios regulatorios), y margen de explotacion ajustado (AOI) negativo en -0,5% (Stellantis FY2025). El dividendo 2026 se suspendio. A agosto de 2026 la cotizacion ronda los USD 5,4 y la capitalizacion ~USD 15,8 bn (2,90 bn acciones), es decir, ¡la perdida de 2025 equivalia a ~1,5 veces toda la empresa! (StockAnalysis, 2026-08-28; Google Finance, 2026-08-24). La tesis es puramente de "turnaround" (giro): el mercado descuenta lo peor y apuesta a que el plan FaSTLAne 2030 y la recuperacion de Norteamérica devuelvan la rentabilidad.
 
-## 3. Industria y moat competitivo
-Moat (foso competitivo) débil: fuerte exposición a Norteamérica (Jeep/Ram, muy cíclico) y a Europa en segmentos de precio medio-bajo con gran competencia. Fortalezas: escala global, presencia en Sudamérica (rentable) y red de distribución. Debilidades: sobrecapacidad, dependencia de incentivos en EE.UU. y ejecución incierta tras cambios de liderazgo.
+## 2. Estructura / modelo
+Modelo: fabricante integrado verticalmente que monetiza a traves de (a) venta de vehiculos por marca y region, (b) servicios financieros (Stellantis Financial Services), (c) piezas/MOPAR, y (d) movilidad (Leapmotor, freespace). La mecanica de valor se apoya en **escala global + raices regionales + cartera de marcas**: cada marca tiene su nicho y franquicia local (Peugeot/Citroen/Opel en Europa; Jeep/Ram/Dodge/Chrysler en EE.UU.; Fiat dominante en Brasil).
 
-## 4. Análisis financiero (3-5 años)
-Cifras en miles de millones de EUR. Fuente: stockanalysis.com/quote/bit/STLAM y stellantis.com.
-
-| Ejercicio | Ingresos | Crecimiento | Margen EBIT | Beneficio neto | EPS (€) |
-|---|---|---|---|---|---|
-| 2021 | 149,42 | +213,54%* | 10,60% | 14,20 | 4,50 |
-| 2022 | 179,59 | +20,19% | 11,69% | 16,80 | 5,31 |
-| 2023 | 189,54 | +5,54% | 12,08% | 18,60 | 5,94 |
-| 2024 | 156,88 | -17,23% | 4,01% | 5,47 | 1,84 |
-| 2025 | 153,51 | -2,15% | -4,01% | -22,37 | -7,75 |
-
-*2021 refleja primera comparativa post-fusión completa. 2025 incluye 25.400 M€ de cargos no recurrentes; el free cash flow industrial también fue negativo.
-
-## 5. Valoración por escenarios
-La valoración es extremadamente incierta por la pérdida de 2025. Escenarios sobre recuperación de EPS normalizado. Estimación propia, baja confianza.
-
-| Escenario | Supuesto | Valor |
+Regiones de reporte (Q2 2026, € bn ingresos, variacion YoY):
+| Region | Ingresos Q2'26 | Var YoY |
 |---|---|---|
-| Pesimista | Persistencia de pérdidas / dilución | 2 € |
-| Base | Recuperación gradual a EPS ~0,5 € (PER 10x) | 5 € |
-| Optimista | EPS ~0,9 € (PER 10x) tras re-rating | 9 € |
+| North America | (parte de €43,5 bn total) | +32% |
+| South America | | +6% |
+| Enlarged Europe | | plano |
+| Middle East & Africa / APAC | | levemente negativo |
+(Stellantis Q2 2026)
 
-Margen de seguridad: no determinable con beneficios negativos. Gatillo: vuelta a beneficio operativo ajustado positivo y FCF industrial estable.
+> — dato privado retirado —
 
-## 6. Riesgos y red flags
-- Pérdida neta 2025 de 22.300 M€ y resultado operativo ajustado negativo.
-- Free cash flow industrial negativo; consumo de caja.
-- Dependencia de Norteamérica (cíclica) y presión de aranceles EE.UU.
-- Cambios de liderazgo y riesgo de ejecución del plan de producto 2026.
-- Dividendo suspendido/reducido (no declarado para 2025).
+## 3. Numeros clave
+|Cifra|2025|2024|Fuente|
+|---|---|---|---|
+|Ingresos netos|€153,5 bn|€156,9 bn|Stellantis FY2025|
+|Perdida/Resultado neto|(€22,3 bn)|+€5,52 bn|Stellantis FY2025 / Wikipedia|
+|AOI (expl. ajustado)|(€0,84 bn), margen -0,5%|€8,65 bn, 5,5%|Stellantis FY2025|
+|Free cash flow industrial (IFCF)|(€4,5 bn)|(€6,0 bn)|Stellantis FY2025|
+|Envios consolidados|5,48 M vehiculos|5,42 M|+1%|Stellantis FY2025|
+|Liquidez industrial disponible|€46 bn (fin 2025)|-|Stellantis FY2025|
+|Dividendo 2026|suspendido|-|Stellantis Reset (2026-02-06)|
 
-## 7. Veredicto
-**OBSERVAR.** La tesis de inversión está rota a corto plazo. Solo tras demostrar recuperación sostenida del resultado operativo y del cash flow se podría reconsiderar la entrada.
+Trimestral (Q2 2026): ingresos €43,5 bn (+13% YoY); resultado neto +€0,3 bn; AOI €0,8 bn (margen 1,8%, +120 bps); IFCF +€1,0 bn; liquidez industrial €44,1 bn (=27% de ingresos de 12M, dentro del rango objetivo 25-30%) (Stellantis Q2 2026).
+
+Valoracion (a 28-08-2026): precio ~USD 5,42; capitalizacion ~USD 15,8 bn; valor empresarial (EV) ~USD 39,7 bn; 2,90 bn acciones en circulacion (StockAnalysis). Google Finance marcaba USD 12,84 bn el 24-08 (usa solo acciones publicamente negociadas). P/E no aplica (perdida). Consenso de analistas: EPS estimado €0,55 el proximo ano (recuperacion desde perdida de €7,75/accion en 2025) (SimplyWall.st, 2026-08-14).
+
+## 4. Posicion / marco conceptual
+El "foso" (moat) de Stellantis es **real pero blando**: escala (sinergias de compras/plataformas), cartera de marcas con identidad y fidelidad (Jeep, Ram, Peugeot, Fiat), red de concesionarios y presencia local en mercados clave. Pero la automocion es capital-intensiva, ciclica y de baja fidelidad de marca en el cliente masico; el 2025 demostro que la ventaja es frágil ante errores de ejecucion y cambios regulatorios. Conecta con [[foso-economico]] y con la tesis de que en automocion la ventaja duradera es mas de escala y red de distribucion que de marca pura. El pivot a "libertad de eleccion" (ICE + hibrido + BEV) reconoce que el cambio regulatorio puede invalidar apuestas unidireccionales.
+
+## 5. Catalizadores y riesgos
+**Catalizadores (a favor):**
+- FaSTLAne 2030: 60+ lanzamientos y 50 refrescos al 2030 (29 BEV, 15 PHEV/EREV, 24 HEV) (Stellantis FaSTLAne 2030).
+- Recuperacion de Norteamérica: 4 trimestres consecutivos de crecimiento; cuota 7,4% (+40 bps); nueva ola de producto (Jeep Cherokee, Dodge Charger SIXPACK, Ram 1500 HEMI V8) (Stellantis Q2 2026).
+- Guia 2026 confirmada: ingresos +mid-single digit, margen AOI low-single digit, IFCF mejorado YoY; IFCF positivo esperado en 2027 (Stellantis Q2 2026).
+- Partnerships de coste compartido (CATL LFP planta €4,1 bn en Espana; JV Leapmotor; Tata) (Stellantis FaSTLAne 2030).
+
+**Riesgos (en contra):**
+- **Cargos 2025**: €25,4 bn de cargos excepcionales (€22,2 bn solo en H2) por reset de plan de producto, cadena EV y cambio en provisiones de garantia; ~€6,5 bn son pagos en efectivo en 4 anos, incl. ~€2 bn en 2026 (Stellantis Reset / FY2025).
+- **Aranceles**: headwind de aranceles estimado en €1,0-1,2 bn para 2026 (€0,3 bn ya en H1). Riesgo agudo: Estados Unidos y Canada negociaban subir aranceles de 25% a 50% sobre camiones/autopartes desde 01-01 (Stellantis ensambla la Chrysler Pacifica en Windsor, Ontario) (Stellantis Q2 2026; CarBuzz, 2026-08-24).
+- **Ejecucion historica debil**: la salida abrupta del CEO Carlos Tavares (01-12-2024) tras profit warning y desplome de ventas de Jeep/Ram en EE.UU.; la estrategia de precios agresiva alieno concesionarios y clientes (Reuters, 2024-12-01).
+- **Ciclicidad / FX / materias primas** y demanda incierta de BEV.
+- **Dividendo suspendido** y deuda hibrida (hasta €5 bn) emitida para proteger balance.
+
+## 6. Valoracion / implicaciones practicas
+A ~USD 5,4 y EV ~USD 39,7 bn (StockAnalysis), Stellantis cotiza como "opcion sobre turnaround": la capitalizacion es menor que el flujo de caja operativo normalizado previo al desastre y apenas 0,7x ventas. No es una compra por valoracion tradicional (no hay beneficios que capitalizar), sino una apuesta asimetrica: si FaSTLAne 2030 entrega margen de un solo digito-alto y IFCF positivo en 2027, el multiple de recuperacion es amplio; si la ejecucion falla o los aranceles golpean, el downside es limitado porque el mercado ya lo castiga. Senal de alerta: **rompimiento de la guia 2026 o nuevo cargo excepcional**; tambien vigilar cuota en EE.UU. y el desenlace arancelario Canada/EE.UU. Ver ciclo automocion y valoracion por multiplos.
+
+## 7. Veredicto para el inversor
+Stellantis es una "deep-value distressed-turnaround": una empresa de €150+ bn de ingresos que perdio €22 bn en un anno por autoinfligirse un reset. El balance (€44-46 bn liquidez) aguanta el trago, y la direccion nueva (Antonio Filosa) muestra progreso real en Norteamérica. Pero el foso es blando y los catalizadores dependen de ejecucion y de un entorno arancelario que se esta endureciendo. Posicion de Vigilar/Comprar gradual con stop mental en la guia 2026, no de "comprar y olvidar".
+
+## 8. Segundo orden (OBLIGATORIO)
+- **El reset de 2025 es un caso de libro de riesgo de ejecucion en transformacion:** Stellantis sobre-apeso la transicion electrica y tuvo que dar marcha atras reconociendo €25,4 bn. Implica que la narrativa "todo eléctrico para 2030" de la industria era sobre-optimista; conecta con la duda sobre demanda bev y con tesis de que el hibrido/ICE sobrevive mas de lo que el consenso ESG preveia.
+- **Aranceles como segundo orden macro:** el choque EE.UU.-Canada (50% en camiones) no solo sube costes a Stellantis (Pacifica Windsor), sino que reescribe la viabilidad de la integracion norteamericana (USMCA). Afecta tambien a gm y [[ford]]; un "onshoring" forzado encarece Capex justo cuando Stellantis necesita generar caja. Relacion con guerra comercial 2026.
+- **Escala vs. foso:** la integracion FCA+PSA no ha traducido sinergias en ventaja dura; el fracaso de Tavares sugiere que en automocion la escala no compensa mala asignacion de capital. Esto refuerza la tesis del Cerebro de preferir negocios con foso real sobre campeones industriales ciclicos.
+- **Lo que Carlos debe vigilar a 3-5 anos:** (1) si FaSTLAne 2030 entrega IFCF positivo en 2027 y margen AOI de un solo digito-alto; (2) si la cuota en EE.UU. se recupera por encima de 8%; (3) si los €6,5 bn de pagos en efectivo del reset se mantienen dentro de lo previsto; (4) si los aranceles Canada/EE.UU. se materializan y obligan a reorganicar produccion; (5) si la JV Leapmotor y los BEV comparten-plataforma (STLA One) logran coste unitario competitivo frente a [[tesla]] y fabricantes chinos ([[byd]]). Una recuperacion sostenida abre la puerta a retomar el dividendo y a un re-rating multiples; un nuevo shock de ejecucion o arancelario deja a Stellantis como "value trap".
+
+## 9. Fuentes consultadas
+1. Stellantis Full Year 2025 Results - https://www.stellantis.com/en/news/press-releases/2026/february/full-year-2025-results (2026-02-26)
+2. Stellantis Reports Q2 2026 Financial Results - https://www.stellantis.com/en/news/press-releases/2026/july/second-quarter-2026-financial-results (2026-07-30)
+3. Stellantis Q2 2026 (media) - https://www.media.stellantis.com/em-en/corporate/press/stellantis-reports-q2-2026-financial-results (2026-07-30)
+4. Stellantis Unveils €60 Billion Strategic Plan (FaSTLAne 2030) - https://www.stellantis.com/en/news/press-releases/2026/may/stellantis-unveils-60-billion-euro-strategic-plan-to-accelerate-growth-and-profit (2026-05-21)
+5. Stellantis Resets Its Business - https://www.stellantis.com/en/news/press-releases/2026/february/stellantis-resets-its-business-to-meet-customer-preferences-and-to-support-profitable-growth (2026-02-06)
+6. Stellantis (Wikipedia) - https://en.wikipedia.org/wiki/Stellantis
+7. Reuters: Stellantis CEO Carlos Tavares resigns - https://www.reuters.com/business/autos-transportation/stellantis-ceo-carlos-tavares-resigns-source-2024-12-01/ (2024-12-01)
+8. Reuters: Stellantis cuts US inventory by 100,000 - https://www.reuters.com/business/autos-transportation/stellantis-reaches-goal-cutting-us-inventories-by-100000-units-2025-01-10/ (2025-01-10)
+9. Barron's: Stellantis Stock Drops 24% After Earnings - https://www.barrons.com/articles/stellantis-stock-price-earnings-dividend-ca969dff (2026-02-06)
+10. StockAnalysis STLA Statistics (market cap, EV, shares) - https://stockanalysis.com/stocks/stla/statistics/ (2026-08-28)
+11. Google Finance STLA - https://www.google.com/finance/quote/STLA:NYSE (2026-08-24)
+12. SimplyWall.st STLA forecast - https://simplywall.st/stocks/us/automobiles/nyse-stla/stellantis/future (2026-08-14)
+13. CarBuzz: US-Canada 50% tariff shock - https://carbuzz.com/us-canada-tariff-deal-collapses/ (2026-08-24)
+14. Stellantis Our Brands - https://www.stellantis.com/en/brands
+
+> Nota de honestidad: el feed de Google News RSS no devolvio datos en este entorno (acceso bloqueado); la seccion de novedades recientes se nutre de las notas de prensa oficiales y de las fuentes 7, 8, 9 y 13. Ninguna cifra ha sido inventada; las no localizadas se marcan como "no localizado".
+
+---
+
+## Nota de evolucion 2026-08-30 (elisa)
+
+Asenso a pagina durable del wiki tras revision de la CIO. La sonde de origen (scratchpad/sondas-2026-08-30/stellantis.md) se valido: estructura completa de 9 secciones, seccion de segundo orden presente y >=6 fuentes reales. No se reescribio ninguna afirmacion previa. Trailer de commit: Agente: elisa.
+
+## Ver también
+
+- [[cartera-todo-tiempo]] · [[chokepoints-fisicos-comercio]] · [[guerras-arancelarias-2-orden]] · [[itau-unibanco]] · [[lloyds]] · [[moats-en-decadencia]] · [[regimen-tipos-2026-2028]] · [[renault]] · [[transicion-energetica-capital-atrapado]]
+
+## Nota de evolución 2026-08-31 (cerebro-enlaza)
+
+Red de conocimiento: enlace de la hornada durable 2026-08-30 en red neuronal interna (sección «Ver también»). Verificación previa: 41 páginas ascendidas con `status: durable` y validación CIO (9 secciones, 2º orden, ≥6 fuentes), frontmatter canónico, 0 errores. Hallazgo: `itau-unibanco` duplicado en `empresas/` y `analisis-acciones/` (colisión de slug; pendiente decisión de Carlos). Trailer: Agente: cerebro-enlaza.

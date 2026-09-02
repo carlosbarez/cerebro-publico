@@ -2,8 +2,8 @@
 title: "Mapa sectorial y megatendencias (documento vivo)"
 tipo: sintesis
 tags: [estrategia, macro, sectorial, megatendencias, durable]
-fecha: 2026-08-27
-fuentes: ["[[estrategia-2026-07-16]]", "[[estrategia-2026-07-20]]", "[[estrategia-2026-07-23]]", "[[estrategia-2026-07-30]]", "[[estrategia-2026-08-03]]", "[[estrategia-2026-08-06]]", "[[estrategia-2026-08-20]]", "[[estrategia-2026-08-24]]", "[[estrategia-2026-08-27]]"]
+fecha: 2026-08-31
+fuentes: ["[[estrategia-2026-07-16]]", "[[estrategia-2026-07-20]]", "[[estrategia-2026-07-23]]", "[[estrategia-2026-07-30]]", "[[estrategia-2026-08-03]]", "[[estrategia-2026-08-06]]", "[[estrategia-2026-08-20]]", "[[estrategia-2026-08-24]]", "[[estrategia-2026-08-27]]", "[[estrategia-2026-08-31]]"]
 ---
 
 # Mapa sectorial y megatendencias (documento vivo)
@@ -14,7 +14,7 @@ actualización se añade con fecha, sin borrar lo anterior, para poder ver cómo
 (misma regla que el resto del cerebro, `CLAUDE.md`). El detalle y la evidencia de cada actualización viven en
 el informe periódico correspondiente (`wiki/estrategia/estrategia-YYYY-MM-DD.md`).
 
-## Postura sectorial vigente (última actualización: 2026-08-27)
+## Postura sectorial vigente (última actualización: 2026-08-31 — sin cambio de postura desde el 2026-08-27; escenarios 43/15/42)
 
 | Sector | Postura | Desde |
 |---|---|---|
@@ -45,6 +45,40 @@ el informe periódico correspondiente (`wiki/estrategia/estrategia-YYYY-MM-DD.md
 
 *(Envejecimiento y nuevos materiales, previstas en el marco original de la rutina, aún sin cobertura de datos
 — pendiente de datos/fuentes en runs futuros.)*
+
+## Actualización 2026-08-31
+
+Décimo run. **[DEGRADADO: pulsos de Elena y Marco caducados ~98h]** — cero flujo de equipo nuevo desde el
+27-ago; el informe se apoya solo en datos macro oficiales frescos. **Sin cambio de postura sectorial en
+ninguna fila. Escenarios mantenidos 43/15/42.**
+
+Motivo de NO recalibrar: el único binario que el noveno run marcó como capaz de mover los escenarios —el
+discurso de Warsh en Jackson Hole (28-ago)— **no se puede verificar** por insumos caducados y sin acceso web
+(`[Sin datos]`). Las señales de mercado que sí hay apuntan todas en dirección benigna, pero mover probabilidad
+sin confirmar el catalizador nombrado sería *market timing*.
+
+Datos macro frescos (FRED/BCE/Yahoo):
+- **Curva larga: escalada pausada, ya con 3 datos de alivio.** 30a 5,19% (27-ago), desde 5,27% el 21-ago;
+  consolidado bajo 5,25%. Nivel sigue alto (crisis de crowding-out confirmada en NIVEL), trayectoria de
+  escalada sin retomarse ~2 semanas. Sigue sin ser gatillo de renta fija.
+- **Crédito sin el menor estrés — señal, no ruido.** OAS high yield (FRED BAMLH0A0HYM2) en **2,63%**, mínimo
+  de ciclo. Por [[checklist-macro-y-ciclo]]: complacencia → subir el listón de calidad en compras nuevas. Y
+  lectura directa sobre el escenario pesimista: si la financiación estructurada del capex de IA fuera a
+  romperse a corto plazo, el HY sería el primer sitio donde se vería — y está en mínimos. Fragilidad
+  estructural (*leases* 2028-2030) y cero estrés de crédito hoy **coexisten**.
+- **Desinflación intacta.** IPC EE.UU. +0,074% m/m / +3,30% a/a en julio (desde ~3,46% en junio); inflación
+  implícita 10a anclada en 2,31%. Paro 4,1%, nóminas −23k. Cuadro dovish.
+- **El crudo revirtió la caída.** La bajada del Brent a ~$88 (24-25 ago) sobre la diplomacia Irán-Omán **no
+  se sostuvo**: BZ=F de vuelta a ~$90 en 3-4 sesiones. La "prima de guerra en revisión" del noveno run se
+  congela — la desescalada no se materializó en precio. **Energía sigue Sobreponderar.**
+- Dólar débil sostenido (EUR/USD 1,16): viento de cola del bloque tangibles (44,5% cartera).
+
+**0 verificaciones adversariales** (sin pulso, no entró ninguna afirmación nueva que cambie el comportamiento
+de Carlos; todas las cifras son series oficiales sin encuadre de comunicador). Dos predicciones falsables
+nuevas (OAS HY < 3,00% a fin de sep, prob. 0,80; Brent ≥ $85 el 30-sep, prob. 0,70). Predicción viva
+[[2026-07-23-brent-sostiene-90-agosto]] resuelve hoy prácticamente en la línea (~$90,08 intradía vs. $89,31
+cierre del viernes) — para el veredicto semanal. `destila --tipo tabla-macro` y `omniroute-enlaza` fallaron
+por timeout (3er run consecutivo) — cuadro y cruces a mano. Ver [[estrategia-2026-08-31]].
 
 ## Actualización 2026-08-27
 

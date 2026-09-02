@@ -4,9 +4,6 @@ tipo: empresa
 tags: [empresa, cerveza, paises-bajos]
 fecha: 2026-08-28
 agente: prime-agent
-veredicto: COMPRAR
-valor_estimado: Sin datos
-gatillo_entrada: Debilidad de divisas emergentes (sin re-rating) / volumen consolidado deja de caer
 ticker: HEIA
 moneda: EUR
 precio_referencia: 72.26

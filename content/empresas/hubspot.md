@@ -4,9 +4,6 @@ tipo: empresa
 tags: [empresa, software-saas]
 fecha: 2026-08-28
 agente: prime-agent
-veredicto: OBSERVAR
-valor_estimado: Sin datos
-gatillo_entrada: Sin datos
 ticker: HUBS
 moneda: USD
 fuentes: "[\"https://ir.hubspot.com/news-releases/news-release-details/hubspot-reports-q2-2026-results\", \"https://www.sec.gov/Archives/edgar/data/1404655/000119312526046646/hubs-20251231.htm\", \"https://ir.hubspot.com/news-releases/news-release-details/hubspot-reports-strong-q4-and-full-year-2025-results/\", \"https://ca.investing.com/news/transcripts/earnings-call-transcript-hubspot-beats-q2-2026-eps-shares-sink-21-after-hours-93CH-4779417\", \"https://www.fool.com/investing/2026/08/08/hubspot-just-cut-its-own-customer-growth-forecast/\"]"

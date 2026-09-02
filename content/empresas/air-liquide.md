@@ -23,7 +23,7 @@ Simple de decir: **vende aire separado**. Oxígeno, nitrógeno y argón por tube
 
 ## 2. Industria — [[industria-gases-industriales]]
 
-Oligopolio global ([[linde]] #1, Air Liquide #2, air products #3, Nippon Sanso): economía de red + utility — el gas no se almacena barato y gana quien tiene densidad de activos y contratos largos. KPIs: margen op recurrente (+100 bp/año), ROCE recurrente (11,2% FY25), backlog (récord €6.000M), conversión capex→EBITDA. Método que dicta: DCF con WACC ~7% + EV/EBITDA relativo a Linde. **Trampa clásica**: fiarse del EBITDA — el capex es tan alto que el FCF libre puede ser casi cero aunque el EBITDA crezca (ver sección 4). Competencia hoy: Linde cotiza a PE 31,6x / EV/EBITDA 18x / ROIC 12,4%; Air Products a fwd PE 21,5x / EV/EBITDA 18,4x / ROIC 8,9% (stockanalysis, ago-2026).
+Oligopolio global ([[linde]] #1, Air Liquide #2, [[air-products]] #3, Nippon Sanso): economía de red + utility — el gas no se almacena barato y gana quien tiene densidad de activos y contratos largos. KPIs: margen op recurrente (+100 bp/año), ROCE recurrente (11,2% FY25), backlog (récord €6.000M), conversión capex→EBITDA. Método que dicta: DCF con WACC ~7% + EV/EBITDA relativo a Linde. **Trampa clásica**: fiarse del EBITDA — el capex es tan alto que el FCF libre puede ser casi cero aunque el EBITDA crezca (ver sección 4). Competencia hoy: Linde cotiza a PE 31,6x / EV/EBITDA 18x / ROIC 12,4%; Air Products a fwd PE 21,5x / EV/EBITDA 18,4x / ROIC 8,9% (stockanalysis, ago-2026).
 
 ## 3. Moat — [[foso-economico]]
 

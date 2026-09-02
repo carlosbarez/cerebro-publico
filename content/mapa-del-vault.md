@@ -2,7 +2,7 @@
 title: "Mapa del vault (autogenerado)"
 tipo: sintesis
 tags: [mantenimiento, mapa, grafo]
-fecha: 2026-08-25
+fecha: 2026-08-30
 ---
 
 # Mapa del vault (autogenerado)
@@ -11,75 +11,582 @@ fecha: 2026-08-25
 > wikilinks precocinado para que el lint y las sesiones no redescubran la estructura leyendo
 > archivo a archivo. Regenerar: `python3 scripts/mapa_vault.py --escribe-mapa`.
 
-**991 páginas · 11630 wikilinks · 1 rotos · 4 huérfanas**
+**1417 páginas · 14497 wikilinks · 491 rotos · 159 huérfanas**
 
 ## Páginas por carpeta
-- `actualidad` — 196
-- `empresas` — 168
-- `conceptos` — 127
-- `fuentes` — 122
+- `empresas` — 488
+- `actualidad` — 203
+- `conceptos` — 142
+- `fuentes` — 136
 - `analisis-acciones` — 106
-- `inversores` — 48
+- `sintesis` — 54
+- `inversores` — 53
+- `industrias` — 45
+- `referencia` — 38
 - `predicciones` — 29
-- `sintesis` — 28
-- `industrias` — 27
-- `referencia` — 26
-- `conocimiento` — 21
+- `conocimiento` — 24
+- `analisis-fundamental` — 16
 - `ingenieria-agentes` — 16
-- `analisis-fundamental` — 14
-- `estrategia` — 13
-- `analisis-tecnico` — 13
+- `analisis-tecnico` — 15
+- `estrategia` — 14
 - `cio` — 12
 - `(raíz)` — 8
 - `perfil` — 8
-- `riesgo` — 5
+- `riesgo` — 6
 - `log-archivo` — 3
 - `repaso` — 1
 
 ## Hotspots (núcleos conceptuales, por enlaces entrantes)
-- **294** ← cartera actual
-- **243** ← [[foso-economico]]
-- **243** ← [[margen-de-seguridad]]
-- **133** ← [[ciclos-de-mercado]]
-- **126** ← [[terry-smith]]
-- **120** ← [[riesgo-real-vs-volatilidad]]
-- **111** ← [[warren-buffett]]
-- **109** ← [[asignacion-de-capital]]
-- **109** ← [[checklist-macro-y-ciclo]]
-- **107** ← [[renta-fija-y-tipos]]
-- **106** ← [[aversion-al-apalancamiento]]
-- **105** ← [[valor-intrinseco]]
-- **98** ← [[financiacion-estructurada-del-capex-de-ia]]
-- **93** ← [[mineria-industrial-y-energia]]
-- **90** ← [[semiconductores-de-memoria]]
-- **89** ← [[howard-marks]]
-- **88** ← [[alphabet]]
-- **88** ← [[carteras-concentradas]]
-- **87** ← [[microsoft]]
-- **83** ← [[ray-dalio]]
+- **393** ← [[foso-economico]]
+- **348** ← cartera actual
+- **341** ← [[margen-de-seguridad]]
+- **173** ← [[ciclos-de-mercado]]
+- **143** ← [[renta-fija-y-tipos]]
+- **141** ← [[financiacion-estructurada-del-capex-de-ia]]
+- **140** ← [[terry-smith]]
+- **138** ← [[riesgo-real-vs-volatilidad]]
+- **130** ← [[checklist-macro-y-ciclo]]
+- **120** ← [[warren-buffett]]
+- **115** ← [[asignacion-de-capital]]
+- **115** ← [[valor-intrinseco]]
+- **113** ← [[mineria-industrial-y-energia]]
+- **112** ← [[aversion-al-apalancamiento]]
+- **100** ← [[valoracion-ciclicas-y-beneficios-negativos]]
+- **100** ← [[semiconductores-de-memoria]]
+- **100** ← [[howard-marks]]
+- **93** ← [[carteras-concentradas]]
+- **93** ← [[retorno-sobre-capital-empleado]]
+- **91** ← [[contabilidad-y-calidad-de-beneficios]]
 
 ## Huérfanas (0 enlaces entrantes, excluidos hubs)
-[[nike]], [[pepsico]], [[tjx-companies]], [[walmart]]
+[[barrido-406-empresas]], [[at-2026-08-29]], [[3m]], [[a-o-smith]], [[accor]], [[aegon]], [[aes-corporation]], [[aflac]], [[agilent-technologies]], [[ahold-delhaize]], [[albemarle-corporation]], [[alexandria-real-estate-equities]], [[alibaba]], [[align-technology]], [[allegion]], [[allstate]], [[am-rica-m-vil]], [[ambev]], [[amcor]], [[american-tower]], [[american-water-works]], [[ameriprise-financial]], [[applovin]], [[aptiv]], [[asian-paints]], [[asmi]], [[assurant]], [[atlas-copco]], [[atlassian]], [[autodesk]], [[automatic-data-processing]], [[ball-corporation]], [[bio-techne]], [[broadridge-financial-solutions]], [[brookfield-renewable-partners]], [[brown-brown]], [[bunge-global]], [[camden-property-trust]], [[carrier-global]], [[cbre-group]], [[centene-corporation]], [[charles-river-laboratories]], [[cigna]], [[cintas]], [[cms-energy]], [[coherent-corp]], [[comfort-systems-usa]], [[consolidated-edison]], [[constellation-energy]], [[cooper-companies-the]], [[costar-group]], [[csx-corporation]], [[d-r-horton]], [[davita]], [[deere]], [[dexcom]], [[digital-realty]], [[dominion-energy]], [[dupont]], [[eaton-corporation]], [[ebay-inc]], [[ecolab]], [[edison-international]], [[equinix]], [[essex-property-trust]], [[exelon]], [[extra-space-storage]], [[f5-inc]], [[federal-realty-investment-trust]], [[fifth-third-bancorp]], [[firstenergy]], [[flex-ltd]], [[franklin-resources]], [[garmin]], [[gartner]], [[genuine-parts-company]], [[godaddy]], [[gsk]], [[hasbro]], [[healthpeak-properties]], [[heico]], [[hewlett-packard-enterprise]], [[hilton-worldwide]], [[home-depot-the]], [[humana]], [[idexx-laboratories]], [[incyte]], [[ingersoll-rand]], [[international-flavors-fragrances]], [[invesco]], [[j-b-hunt]], [[jacobs-solutions]], [[keycorp]], [[lowe-s]], [[m-t-bank]], [[marathon-petroleum]], [[marsh-mclennan]], [[mid-america-apartment-communities]], [[mosaic-company-the]], [[motorola-solutions]], [[nextera-energy]], [[nisource]], [[nordson-corporation]], [[norwegian-cruise-line-holdings]], [[nvr-inc]], [[old-dominion]], [[on-semiconductor]], [[paccar]], [[parker-hannifin]], [[principal-financial-group]], [[prologis]], [[prudential-financial]], [[quest-diagnostics]], [[realty-income]], [[regency-centers]], [[regions-financial-corporation]], [[rollins-inc]], [[sanofi]], [[sempra]], [[sherwin-williams]], [[solventum]], [[southwest-airlines]], [[state-street-corporation]], [[steris]], [[supermicro]], [[sysco]], [[take-two-interactive]], [[texas-pacific-land-corporation]], [[trane-technologies]], [[tyler-technologies]], [[udr-inc]], [[ulta-beauty]], [[united-airlines-holdings]], [[ups]], [[vale]], [[verisign]], [[vertex-pharmaceuticals]], [[viatris]], [[vici-properties]], [[vivmark-residential]], [[w-w-grainger]], [[wabtec]], [[waste-connections]], [[welltower]], [[west-pharmaceutical-services]], [[williams-companies]], [[xcel-energy]], [[zebra-technologies]], [[zoetis]], [[zurich-insurance]], [[academia-de-inversion-paco-lodeiro]], [[apollo-academy-torsten-slok]], [[doomberg]], [[grumpy-economist-john-cochrane]], [[money-stuff-matt-levine]], [[musings-on-markets-damodaran]], [[net-interest-marc-rubinstein]], [[the-diff-byrne-hobart]], [[we-study-billionaires-tip]]
 
 ## Enlaces rotos
+- `wiki/log.md:62` → `publico`
+- `wiki/log.md:86` → `caixabank`
+- `wiki/log.md:86` → `industria viajes y turismo`
+- `wiki/log.md:1576` → `aeropuertos`
+- `wiki/sintesis/evidencia-spiva-activo-vs-pasivo-2026.md:10` → `SPIVA`
+- `wiki/sintesis/consenso-y-desacuerdo-cartas-2026.md:10` → `páginas pendientes`
+- `wiki/sintesis/consenso-y-desacuerdo-cartas-2026.md:56` → `ciclo de deuda`
+- `wiki/sintesis/geopolitica-desdolarizacion-y-oro.md:81` → `oro como seguro de cola`
+- `wiki/sintesis/geopolitica-ucrania-postguerra-y-reconstruccion.md:42` → `enka insaat`
+- `wiki/sintesis/geopolitica-ucrania-postguerra-y-reconstruccion.md:42` → `limak holding`
+- `wiki/sintesis/geopolitica-ucrania-postguerra-y-reconstruccion.md:42` → `ronesans holding`
+- `wiki/sintesis/geopolitica-ucrania-postguerra-y-reconstruccion.md:42` → `kalyon holding`
+- `wiki/sintesis/geopolitica-ucrania-postguerra-y-reconstruccion.md:43` → `ferrovial`
+- `wiki/sintesis/geopolitica-ucrania-postguerra-y-reconstruccion.md:43` → `budimex`
+- `wiki/sintesis/geopolitica-ucrania-postguerra-y-reconstruccion.md:43` → `skanska`
+- `wiki/sintesis/geopolitica-ucrania-postguerra-y-reconstruccion.md:44` → `crh`
+- `wiki/sintesis/geopolitica-ucrania-postguerra-y-reconstruccion.md:44` → `heidelberg materials`
+- `wiki/sintesis/geopolitica-ucrania-postguerra-y-reconstruccion.md:44` → `holcim`
+- `wiki/sintesis/geopolitica-ucrania-postguerra-y-reconstruccion.md:46` → `zurich insurance group`
+- `wiki/sintesis/geopolitica-ucrania-postguerra-y-reconstruccion.md:46` → `axa`
+- `wiki/sintesis/geopolitica-ucrania-postguerra-y-reconstruccion.md:46` → `lloyd s of london`
+- `wiki/sintesis/geopolitica-ucrania-postguerra-y-reconstruccion.md:61` → `crh`
+- `wiki/sintesis/geopolitica-ucrania-postguerra-y-reconstruccion.md:61` → `heidelberg materials`
+- `wiki/sintesis/geopolitica-ucrania-postguerra-y-reconstruccion.md:61` → `holcim`
+- `wiki/sintesis/geopolitica-ucrania-postguerra-y-reconstruccion.md:62` → `ferrovial`
+- `wiki/sintesis/geopolitica-ucrania-postguerra-y-reconstruccion.md:62` → `budimex`
+- `wiki/sintesis/geopolitica-ucrania-postguerra-y-reconstruccion.md:62` → `skanska`
+- `wiki/sintesis/geopolitica-ucrania-postguerra-y-reconstruccion.md:62` → `enka insaat`
+- `wiki/sintesis/geopolitica-ucrania-postguerra-y-reconstruccion.md:62` → `limak holding`
+- `wiki/sintesis/geopolitica-ucrania-postguerra-y-reconstruccion.md:63` → `zurich insurance group`
+- `wiki/sintesis/geopolitica-ucrania-postguerra-y-reconstruccion.md:63` → `axa`
+- `wiki/sintesis/geopolitica-iran-oriente-medio-ormuz.md:54` → `pendiente`
+- `wiki/sintesis/geopolitica-europa-rearme-y-defensa-2026.md:58` → `thales`
+- `wiki/sintesis/geopolitica-europa-rearme-y-defensa-2026.md:58` → `leonardo`
+- `wiki/sintesis/geopolitica-europa-rearme-y-defensa-2026.md:58` → `saab`
+- `wiki/sintesis/geopolitica-artico-rutas-y-militarizacion.md:79` → `riesgo logistico global`
+- `wiki/sintesis/geopolitica-minerales-criticos-y-africa.md:66` → `mp materials`
+- `wiki/sintesis/geopolitica-minerales-criticos-y-africa.md:66` → `lynas rare earths`
+- `wiki/sintesis/macro-estado-del-ciclo-2026.md:105` → `Vanke`
+- `wiki/industrias/litio-panorama-2026.md:50` → `catl`
+- `wiki/industrias/litio-panorama-2026.md:50` → `jianxiawo restart`
+- `wiki/industrias/litio-panorama-2026.md:50` → `bess demanda fija`
+- `wiki/industrias/industria-ciberseguridad.md:100` → `sentinelone`
+- `wiki/industrias/industria-ciberseguridad.md:100` → `cyberark`
+- `wiki/industrias/industria-ciberseguridad.md:101` → `rapid7`
+- `wiki/industrias/petroleo-y-gas-panorama-2026.md:43` → `flete maritimo`
+- `wiki/industrias/petroleo-y-gas-panorama-2026.md:79` → `vehiculos electricos`
+- `wiki/industrias/petroleo-y-gas-panorama-2026.md:127` → `flete maritimo`
+- `wiki/industrias/petroleo-y-gas-panorama-2026.md:127` → `lng europa`
+- `wiki/industrias/petroleo-y-gas-panorama-2026.md:128` → `estrangulamientos geopoliticos`
+- `wiki/industrias/petroleo-y-gas-panorama-2026.md:128` → `vehiculos electricos`
+- `wiki/industrias/industria-consumo.md:13` → `industria alimentacion y envases`
+- `wiki/industrias/industria-automotriz.md:14` → `movilidad como servicio y marketplaces de reparto`
+- `wiki/industrias/fertilizantes-panorama-2026.md:84` → `nutrien`
+- `wiki/industrias/fertilizantes-panorama-2026.md:84` → `mosaic`
+- `wiki/industrias/fertilizantes-panorama-2026.md:84` → `icl group`
+- `wiki/industrias/fertilizantes-panorama-2026.md:85` → `qatar energy`
+- `wiki/industrias/fertilizantes-panorama-2026.md:86` → `mosaic`
+- `wiki/industrias/fertilizantes-panorama-2026.md:90` → `nutrien`
+- `wiki/industrias/fertilizantes-panorama-2026.md:90` → `mosaic`
+- `wiki/industrias/fertilizantes-panorama-2026.md:90` → `yara`
+- `wiki/industrias/fertilizantes-panorama-2026.md:91` → `icl group`
+- `wiki/industrias/fertilizantes-panorama-2026.md:91` → `qatar energy`
+- `wiki/industrias/fertilizantes-panorama-2026.md:129` → `nutrien`
+- `wiki/industrias/fertilizantes-panorama-2026.md:129` → `mosaic`
+- `wiki/industrias/fertilizantes-panorama-2026.md:129` → `yara`
+- `wiki/industrias/fertilizantes-panorama-2026.md:129` → `icl group`
+- `wiki/industrias/fertilizantes-panorama-2026.md:130` → `qatar energy`
+- `wiki/industrias/fertilizantes-panorama-2026.md:130` → `seguridad alimentaria como politica`
+- `wiki/industrias/fertilizantes-panorama-2026.md:130` → `curva de costes del nitrogeno`
+- `wiki/industrias/granos-agro-panorama-2026.md:87` → `nutrien`
+- `wiki/industrias/granos-agro-panorama-2026.md:87` → `mosaic`
+- `wiki/industrias/granos-agro-panorama-2026.md:87` → `yara`
+- `wiki/industrias/granos-agro-panorama-2026.md:108` → `archer daniels midland`
+- `wiki/industrias/granos-agro-panorama-2026.md:109` → `bunge`
+- `wiki/industrias/granos-agro-panorama-2026.md:109` → `viterra`
+- `wiki/industrias/granos-agro-panorama-2026.md:109` → `corteva`
+- `wiki/industrias/granos-agro-panorama-2026.md:146` → `enso clima y cosechas`
+- `wiki/industrias/granos-agro-panorama-2026.md:146` → `biocombustibles y 45z`
+- `wiki/industrias/granos-agro-panorama-2026.md:146` → `stocks to use usda`
+- `wiki/industrias/granos-agro-panorama-2026.md:146` → `tierra como activo`
+- `wiki/industrias/uranio-panorama-2026.md:90` → `cameco`
+- `wiki/industrias/uranio-panorama-2026.md:90` → `enrichment y centrifugado`
+- `wiki/industrias/uranio-panorama-2026.md:90` → `sprott physical uranium trust`
+- `wiki/industrias/uranio-panorama-2026.md:112` → `renuclearizacion occidental`
+- `wiki/industrias/plata-panorama-2026.md:113` → `fresnillo`
+- `wiki/industrias/plata-panorama-2026.md:113` → `pan american silver`
+- `wiki/industrias/plata-panorama-2026.md:113` → `wheaton precious metals`
+- `wiki/industrias/plata-panorama-2026.md:114` → `hecla mining`
+- `wiki/industrias/plata-panorama-2026.md:141` → `plata vs oro ratio historico`
+- `wiki/industrias/plata-panorama-2026.md:142` → `demanda industrial de plata`
+- `wiki/industrias/plata-panorama-2026.md:142` → `thrifting solar`
+- `wiki/industrias/industria-banca-europea.md:11` → `santander`
+- `wiki/industrias/industria-banca-europea.md:11` → `unicredit`
+- `wiki/industrias/industria-banca-europea.md:63` → `santander`
+- `wiki/industrias/cobre-panorama-2026.md:90` → `codelco`
+- `wiki/industrias/cobre-panorama-2026.md:115` → `redes electricas`
+- `wiki/industrias/cobre-panorama-2026.md:115` → `data centers demanda fisica`
+- `wiki/industrias/cobre-panorama-2026.md:115` → `tcrc y midstream cobre`
+- `wiki/industrias/carbon-termico-panorama-2026.md:95` → `glencore`
+- `wiki/industrias/carbon-termico-panorama-2026.md:95` → `thungela`
+- `wiki/industrias/carbon-termico-panorama-2026.md:95` → `whitehaven coal`
+- `wiki/industrias/carbon-termico-panorama-2026.md:95` → `peabody energy`
+- `wiki/industrias/carbon-termico-panorama-2026.md:95` → `core natural resources`
+- `wiki/industrias/carbon-termico-panorama-2026.md:137` → `glencore`
+- `wiki/industrias/carbon-termico-panorama-2026.md:137` → `thungela`
+- `wiki/industrias/carbon-termico-panorama-2026.md:137` → `whitehaven coal`
+- `wiki/industrias/carbon-termico-panorama-2026.md:137` → `peabody energy`
+- `wiki/industrias/carbon-termico-panorama-2026.md:137` → `core natural resources`
+- `wiki/industrias/carbon-termico-panorama-2026.md:138` → `gnl oleada 2027`
+- `wiki/industrias/carbon-termico-panorama-2026.md:138` → `gasificacion carbon india`
+- `wiki/industrias/industria-defensa-europea.md:13` → `thales`
+- `wiki/industrias/industria-defensa-europea.md:13` → `leonardo`
+- `wiki/industrias/industria-defensa-europea.md:13` → `saab`
+- `wiki/industrias/industria-defensa-europea.md:27` → `thales`
+- `wiki/industrias/industria-defensa-europea.md:28` → `leonardo`
+- `wiki/industrias/industria-defensa-europea.md:29` → `saab`
+- `wiki/industrias/industria-defensa-europea.md:97` → `thales`
+- `wiki/industrias/navieras-y-logistica-global.md:13` → `maersk`
+- `wiki/industrias/navieras-y-logistica-global.md:13` → `hapag lloyd`
+- `wiki/industrias/navieras-y-logistica-global.md:14` → `msc`
+- `wiki/industrias/navieras-y-logistica-global.md:14` → `zim integrated shipping`
+- `wiki/industrias/navieras-y-logistica-global.md:14` → `frontline`
+- `wiki/industrias/navieras-y-logistica-global.md:14` → `danaos`
+- `wiki/industrias/navieras-y-logistica-global.md:14` → `cosco shipping`
+- `wiki/industrias/industria-robotica-y-automatizacion.md:13` → `fanuc`
+- `wiki/industrias/industria-robotica-y-automatizacion.md:13` → `yaskawa electric`
+- `wiki/industrias/industria-robotica-y-automatizacion.md:14` → `mitsubishi heavy industries`
+- `wiki/industrias/industria-robotica-y-automatizacion.md:30` → `fanuc`
+- `wiki/industrias/industria-robotica-y-automatizacion.md:30` → `yaskawa electric`
+- `wiki/industrias/industria-robotica-y-automatizacion.md:101` → `yaskawa electric`
+- `wiki/industrias/industria-robotica-y-automatizacion.md:102` → `fanuc`
+- `wiki/industrias/oro-panorama-2026.md:110` → `tipos reales y oro`
+- `wiki/industrias/oro-panorama-2026.md:111` → `banco central comprador`
+- `wiki/industrias/oro-panorama-2026.md:111` → `energia y inflacion`
+- `wiki/industrias/industria-espacio-y-satelites.md:15` → `spacex`
+- `wiki/industrias/industria-espacio-y-satelites.md:15` → `rocket lab`
+- `wiki/industrias/industria-espacio-y-satelites.md:15` → `ast spacemobile`
+- `wiki/industrias/industria-espacio-y-satelites.md:15` → `eutelsat`
+- `wiki/industrias/industria-espacio-y-satelites.md:15` → `ses sa`
+- `wiki/industrias/industria-espacio-y-satelites.md:15` → `iridium communications`
+- `wiki/industrias/industria-espacio-y-satelites.md:16` → `amazon leo`
+- `wiki/industrias/industria-espacio-y-satelites.md:39` → `spacex`
+- `wiki/industrias/industria-espacio-y-satelites.md:63` → `rocket lab`
+- `wiki/industrias/industria-espacio-y-satelites.md:73` → `spacex`
+- `wiki/industrias/industria-espacio-y-satelites.md:74` → `rocket lab`
+- `wiki/industrias/industria-espacio-y-satelites.md:75` → `ast spacemobile`
+- `wiki/industrias/industria-espacio-y-satelites.md:76` → `eutelsat`
+- `wiki/industrias/industria-espacio-y-satelites.md:77` → `ses sa`
+- `wiki/industrias/industria-espacio-y-satelites.md:102` → `rocket lab`
+- `wiki/conocimiento/arquitectura-del-conocimiento.md:327` → `<alias con espacio>`
+- `wiki/conocimiento/conocimiento-enjambre-2026-08-26.md:124` → `industria alimentacion y envases`
+- `wiki/actualidad/pulso-2026-08-25-resultados-y-calendario.md:36` → `banco santander`
+- `wiki/actualidad/pulso-2026-08-25-resultados-y-calendario.md:36` → `arcelormittal`
+- `wiki/actualidad/pulso-video-2026-08-26.md:22` → `pulso 2026 08 26 mercados`
+- `wiki/empresas/aegon.md:46` → `industria seguros`
+- `wiki/empresas/snowflake.md:30` → `databricks`
+- `wiki/empresas/snowflake.md:60` → `databricks`
+- `wiki/empresas/allianz.md:30` → `seguros y reaseguros`
+- `wiki/empresas/allianz.md:182` → `seguros y reaseguros`
+- `wiki/empresas/toyota-motor.md:35` → `scratchpad/cko empresas nuevas 2026 08 25`
+- `wiki/empresas/globalfoundries.md:62` → `umc`
+- `wiki/empresas/globalfoundries.md:67` → `prima geoestrategica chips`
+- `wiki/empresas/globalfoundries.md:67` → `fotonica silicio`
+- `wiki/empresas/globalfoundries.md:67` → `chips act`
+- `wiki/empresas/robinhood-markets.md:126` → `scratchpad/cko empresas nuevas 2026 08 25`
+- `wiki/empresas/monster-beverage.md:69` → `keurig dr pepper`
+- `wiki/empresas/general-motors.md:63` → `economia financiera captiva`
+- `wiki/empresas/general-motors.md:63` → `ciclo pickups eeuu`
+- `wiki/empresas/general-motors.md:63` → `aranceles automocion`
+- `wiki/empresas/viscofan.md:30` → `industria alimentacion y envases`
+- `wiki/empresas/nasdaq.md:59` → `infraestructura de mercados`
+- `wiki/empresas/equinor.md:27` → `dogger bank`
+- `wiki/empresas/equinor.md:108` → `[[cartera]]`
+- `wiki/empresas/hasbro.md:38` → `stockanalysis`
+- `wiki/empresas/ubs-group.md:21` → `credit suisse`
+- `wiki/empresas/ubs-group.md:45` → `banca universal`
+- `wiki/empresas/ubs-group.md:47` → `gestion de patrimonios`
+- `wiki/empresas/ubs-group.md:226` → `banca universal`
+- `wiki/empresas/ubs-group.md:226` → `gestion de patrimonios`
+- `wiki/empresas/ubs-group.md:233` → `banca universal`
+- `wiki/empresas/ubs-group.md:233` → `gestion de patrimonios`
+- `wiki/empresas/ubs-group.md:233` → `credit suisse`
+- `wiki/empresas/expedia.md:61` → `economia ota`
+- `wiki/empresas/expedia.md:61` → `riesgo google dependencia`
+- `wiki/empresas/expedia.md:61` → `agentes ia viajes`
+- `wiki/empresas/anthropic.md:41` → `google`
+- `wiki/empresas/workday-inc.md:142` → `scratchpad/cko empresas nuevas 2026 08 25`
+- `wiki/empresas/republic-services.md:21` → `gestion de residuos`
+- `wiki/empresas/republic-services.md:25` → `gestion de residuos`
+- `wiki/empresas/waste-connections.md:19` → `gfl environmental`
+- `wiki/empresas/waste-connections.md:19` → `casella waste systems`
+- `wiki/empresas/waste-connections.md:25` → `gestion de residuos`
+- `wiki/empresas/waste-connections.md:27` → `clean harbors`
+- `wiki/empresas/comcast.md:91` → `charter communications`
+- `wiki/empresas/uber.md:42` → `movilidad como servicio y marketplaces de reparto`
+- `wiki/empresas/saint-gobain.md:88` → `vulcan materials`
+- `wiki/empresas/saint-gobain.md:89` → `owens corning`
+- `wiki/empresas/saint-gobain.md:89` → `heidelberg materials`
+- `wiki/empresas/lyft.md:64` → `disrupcion tecnologica`
+- `wiki/empresas/lyft.md:65` → `waymo`
+- `wiki/empresas/caterpillar.md:22` → `solar turbines`
+- `wiki/empresas/caterpillar.md:23` → `cat financial`
+- `wiki/empresas/caterpillar.md:120` → `wiki/empresas`
+- `wiki/empresas/caterpillar.md:120` → `analisis acciones`
+- `wiki/empresas/caterpillar.md:124` → `[[cartera]]`
+- `wiki/empresas/assurant.md:46` → `industria seguros`
+- `wiki/empresas/puma.md:86` → `on running`
+- `wiki/empresas/puma.md:87` → `deckers`
+- `wiki/empresas/puma.md:88` → `anta sports`
+- `wiki/empresas/puma.md:90` → `levi strauss`
+- `wiki/empresas/puma.md:91` → `under armour`
+- `wiki/empresas/union-pacific-corporation.md:128` → `scratchpad/cko empresas nuevas 2026 08 25`
+- `wiki/empresas/openai.md:51` → `softbank`
+- `wiki/empresas/vale.md:92` → `riesgo pais`
+- `wiki/empresas/vale.md:105` → `china demanda materias primas`
+- `wiki/empresas/apple.md:46` → `doj`
+- `wiki/empresas/apple.md:108` → `foxconn`
+- `wiki/empresas/apple.md:111` → `industria semiconductores logica y computo ia`
+- `wiki/empresas/apple.md:112` → `doj antimonopolio`
+- `wiki/empresas/richemont.md:89` → `swatch group`
+- `wiki/empresas/richemont.md:89` → `tiffany`
+- `wiki/empresas/richemont.md:91` → `moncler`
+- `wiki/empresas/am-rica-m-vil.md:47` → `industria telecomunicaciones`
+- `wiki/empresas/am-rica-m-vil.md:47` → `telefonica`
+- `wiki/empresas/am-rica-m-vil.md:47` → `millicom`
+- `wiki/empresas/sanofi.md:23` → `opella`
+- `wiki/empresas/sanofi.md:33` → `dupixent`
+- `wiki/empresas/sanofi.md:34` → `regeneron`
+- `wiki/empresas/sanofi.md:38` → `beyfortus`
+- `wiki/empresas/sanofi.md:45` → `blueprint medicines`
+- `wiki/empresas/sanofi.md:48` → `opella`
+- `wiki/empresas/sanofi.md:52` → `industria farmaceutica`
+- `wiki/empresas/sanofi.md:61` → `roche`
+- `wiki/empresas/sanofi.md:73` → `amlitelimab`
+- `wiki/empresas/sanofi.md:73` → `frexalimab`
+- `wiki/empresas/sanofi.md:74` → `elenestinib`
+- `wiki/empresas/sanofi.md:104` → `belen garijo`
+- `wiki/empresas/sanofi.md:105` → `msd`
+- `wiki/empresas/sanofi.md:141` → `opella`
+- `wiki/empresas/sanofi.md:195` → `industria farmaceutica`
+- `wiki/empresas/sanofi.md:195` → `opella`
+- `wiki/empresas/sanofi.md:195` → `dupixent`
+- `wiki/empresas/sanofi.md:195` → `amlitelimab`
+- `wiki/empresas/american-tower.md:46` → `industria reits infraestructura`
+- `wiki/empresas/brookfield-asset-management.md:23` → `brookfield corporation`
+- `wiki/empresas/brookfield-asset-management.md:30` → `oaktree`
+- `wiki/empresas/brookfield-asset-management.md:34` → `gestion activos alternativos`
+- `wiki/empresas/brookfield-asset-management.md:40` → `BN`
+- `wiki/empresas/brookfield-asset-management.md:67` → `brookfield corporation`
+- `wiki/empresas/brookfield-asset-management.md:68` → `oaktree`
+- `wiki/empresas/atlassian.md:27` → `software saas`
+- `wiki/empresas/atlassian.md:29` → `software saas`
+- `wiki/empresas/atlassian.md:48` → `red flags sbc`
+- `wiki/empresas/atlassian.md:112` → `software saas`
+- `wiki/empresas/aena.md:29` → `aeropuertos`
+- `wiki/empresas/aena.md:29` → `infraestructura regulada`
+- `wiki/empresas/aena.md:115` → `aeropuertos`
+- `wiki/empresas/citigroup.md:96` → `banca universal`
+- `wiki/empresas/blackstone.md:49` → `breit reembolsos`
+- `wiki/empresas/blackstone.md:52` → `apollo global management`
+- `wiki/empresas/blackstone.md:111` → `gestion de patrimonios`
+- `wiki/empresas/dollar-general.md:48` → `ciclos de mercados`
+- `wiki/empresas/dollar-general.md:95` → `dollar tree`
+- `wiki/empresas/alibaba.md:47` → `pdd holdings`
+- `wiki/empresas/philip-morris.md:55` → `british american tobacco`
+- `wiki/empresas/l-or-al.md:43` → `estee lauder`
+- `wiki/empresas/l-or-al.md:43` → `coty`
+- `wiki/empresas/mondelez.md:72` → `hershey`
+- `wiki/empresas/asian-paints.md:47` → `industria pinturas revestimientos`
+- `wiki/empresas/tjx-companies.md:141` → `scratchpad/cko empresas nuevas 2026 08 25`
+- `wiki/empresas/linde.md:29` → `ingenieria de plantas`
+- `wiki/empresas/linde.md:135` → `carlos`
+- `wiki/empresas/marsh-mclennan.md:23` → `seguros y reaseguros`
+- `wiki/empresas/marsh-mclennan.md:25` → `AON`
+- `wiki/empresas/kkr.md:23` → `private equity`
+- `wiki/empresas/kkr.md:23` → `global atlantic`
+- `wiki/empresas/kkr.md:46` → `private equity`
+- `wiki/empresas/kkr.md:46` → `gestoras de activos alternativos`
+- `wiki/empresas/kkr.md:48` → `apollo global management`
+- `wiki/empresas/kkr.md:48` → `carlyle`
+- `wiki/empresas/kkr.md:68` → `apollo global management`
+- `wiki/empresas/brookfield-renewable-partners.md:20` → `brookfield corporation`
+- `wiki/empresas/brookfield-renewable-partners.md:21` → `brookfield renewable corporation`
+- `wiki/empresas/brookfield-renewable-partners.md:37` → `westinghouse`
+- `wiki/empresas/brookfield-renewable-partners.md:48` → `industria energia renovable`
+- `wiki/empresas/brookfield-renewable-partners.md:50` → `energia limpia`
+- `wiki/empresas/brookfield-renewable-partners.md:54` → `ffo`
+- `wiki/empresas/brookfield-renewable-partners.md:54` → `cafd`
+- `wiki/empresas/brookfield-renewable-partners.md:59` → `distribucion`
+- `wiki/empresas/brookfield-renewable-partners.md:72` → `inteligencia artificial`
+- `wiki/empresas/brookfield-renewable-partners.md:100` → `cafd`
+- `wiki/empresas/brookfield-renewable-partners.md:121` → `brookfield corporation`
+- `wiki/empresas/brookfield-renewable-partners.md:251` → `industria energia renovable`
+- `wiki/empresas/brookfield-renewable-partners.md:251` → `brookfield corporation`
+- `wiki/empresas/brookfield-renewable-partners.md:251` → `brookfield renewable corporation`
+- `wiki/empresas/brookfield-renewable-partners.md:252` → `westinghouse`
+- `wiki/empresas/brookfield-renewable-partners.md:252` → `ffo`
+- `wiki/empresas/brookfield-renewable-partners.md:252` → `cafd`
+- `wiki/empresas/brookfield-renewable-partners.md:252` → `distribucion`
+- `wiki/empresas/brookfield-renewable-partners.md:252` → `tasa de interes`
+- `wiki/empresas/affirm.md:107` → `fintech credito consumo`
+- `wiki/empresas/baker-hughes.md:16` → `slb`
+- `wiki/empresas/baker-hughes.md:88` → `slb`
+- `wiki/empresas/baker-hughes.md:100` → `slb`
+- `wiki/empresas/general-electric.md:72` → `economia motor aeronautico`
+- `wiki/empresas/general-electric.md:72` → `aftermarket industrial`
+- `wiki/empresas/rtx-corp.md:160` → `scratchpad/cko empresas nuevas 2026 08 25`
+- `wiki/empresas/atlas-copco.md:45` → `epiroc`
+- `wiki/empresas/morgan-stanley.md:19` → `institutional securities`
+- `wiki/empresas/morgan-stanley.md:20` → `wealth management`
+- `wiki/empresas/morgan-stanley.md:20` → `investment management`
+- `wiki/empresas/morgan-stanley.md:46` → `banca de inversion`
+- `wiki/empresas/morgan-stanley.md:48` → `servicios financieros`
+- `wiki/empresas/morgan-stanley.md:49` → `activos bajo gestion`
+- `wiki/empresas/ibm.md:71` → `kyndryl`
+- `wiki/empresas/tesla-inc.md:160` → `scratchpad/cko empresas nuevas 2026 08 25`
+- `wiki/empresas/bbva.md:41` → `santander`
+- `wiki/empresas/bbva.md:42` → `caixabank`
+- `wiki/empresas/bbva.md:138` → `santander`
+- `wiki/empresas/bbva.md:138` → `caixabank`
+- `wiki/empresas/zoom.md:105` → `participaciones privadas en balance`
+- `wiki/empresas/walt-disney.md:110` → `riesgo politico regulatorio`
+- `wiki/empresas/deere.md:28` → `maquinaria agricola`
+- `wiki/empresas/blackrock.md:26` → `activos bajo gestion`
+- `wiki/empresas/blackrock.md:28` → `ishares`
+- `wiki/empresas/blackrock.md:32` → `aladdin`
+- `wiki/empresas/blackrock.md:40` → `industria gestion activos`
+- `wiki/empresas/blackrock.md:54` → `vanguard`
+- `wiki/empresas/blackrock.md:54` → `state street`
+- `wiki/empresas/blackrock.md:71` → `hps investment partners`
+- `wiki/empresas/blackrock.md:71` → `gip`
+- `wiki/empresas/blackrock.md:74` → `vanguard`
+- `wiki/empresas/blackrock.md:75` → `state street`
+- `wiki/empresas/blackrock.md:101` → `hps investment partners`
+- `wiki/empresas/blackrock.md:101` → `gip`
+- `wiki/empresas/blackrock.md:150` → `hps investment partners`
+- `wiki/empresas/accor.md:47` → `industria viajes y turismo`
+- `wiki/empresas/abb-ltd.md:37` → `softbank`
+- `wiki/empresas/abb-ltd.md:43` → `wikipedia`
+- `wiki/empresas/abb-ltd.md:50` → `eaton`
+- `wiki/empresas/fiserv.md:86` → `moody s`
+- `wiki/empresas/london-stock-exchange-group.md:21` → `refinitiv`
+- `wiki/empresas/london-stock-exchange-group.md:33` → `lseg workspace`
+- `wiki/empresas/london-stock-exchange-group.md:35` → `ftse russell`
+- `wiki/empresas/london-stock-exchange-group.md:40` → `lch`
+- `wiki/empresas/london-stock-exchange-group.md:53` → `infraestructura bursatil datos`
+- `wiki/empresas/london-stock-exchange-group.md:55` → `mercado de datos financieros`
+- `wiki/empresas/london-stock-exchange-group.md:63` → `motor de descuento de flujo de caja`
+- `wiki/empresas/london-stock-exchange-group.md:65` → `cme`
+- `wiki/empresas/london-stock-exchange-group.md:66` → `tradeweb`
+- `wiki/empresas/london-stock-exchange-group.md:66` → `bloomberg`
+- `wiki/empresas/london-stock-exchange-group.md:66` → `factset`
+- `wiki/empresas/london-stock-exchange-group.md:68` → `bloomberg`
+- `wiki/empresas/london-stock-exchange-group.md:120` → `tradeweb`
+- `wiki/empresas/london-stock-exchange-group.md:187` → `tradeweb`
+- `wiki/empresas/london-stock-exchange-group.md:227` → `bloomberg`
+- `wiki/empresas/london-stock-exchange-group.md:281` → `tradeweb`
+- `wiki/empresas/london-stock-exchange-group.md:286` → `infraestructura bursatil datos`
+- `wiki/empresas/london-stock-exchange-group.md:286` → `refinitiv`
+- `wiki/empresas/london-stock-exchange-group.md:286` → `tradeweb`
+- `wiki/empresas/london-stock-exchange-group.md:286` → `lch`
+- `wiki/empresas/london-stock-exchange-group.md:287` → `ftse russell`
+- `wiki/empresas/london-stock-exchange-group.md:287` → `bloomberg`
+- `wiki/empresas/london-stock-exchange-group.md:287` → `mercado de datos financieros`
+- `wiki/empresas/london-stock-exchange-group.md:288` → `[[capital-allocation]]`
+- `wiki/empresas/london-stock-exchange-group.md:288` → `[[analisis-fundamental]]`
+- `wiki/empresas/gsk.md:20` → `haleon`
+- `wiki/empresas/gsk.md:25` → `pipeline farma`
+- `wiki/empresas/gsk.md:28` → `brecha de patentes`
+- `wiki/empresas/gsk.md:28` → `IRA`
+- `wiki/empresas/gsk.md:34` → `moderna`
+- `wiki/empresas/gsk.md:34` → `daiichi`
+- `wiki/empresas/gsk.md:34` → `zantac`
+- `wiki/empresas/gsk.md:34` → `IRA`
+- `wiki/empresas/gsk.md:49` → `haleon`
+- `wiki/empresas/gsk.md:66` → `zantac`
+- `wiki/empresas/gsk.md:66` → `lilly`
+- `wiki/empresas/gsk.md:97` → `pipeline farma`
+- `wiki/empresas/gsk.md:97` → `brecha de patentes`
+- `wiki/empresas/gsk.md:97` → `zantac`
+- `wiki/empresas/gsk.md:97` → `haleon`
+- `wiki/empresas/gsk.md:97` → `análisis fundamental`
+- `wiki/empresas/gsk.md:97` → `dividendo`
+- `wiki/empresas/general-mills.md:63` → `kellanova`
+- `wiki/empresas/general-mills.md:65` → `presion marca blanca`
+- `wiki/empresas/general-mills.md:65` → `glp1 consumo alimentario`
+- `wiki/empresas/general-mills.md:65` → `economia mascotas`
+- `wiki/empresas/bank-of-america.md:108` → `gestion de patrimonios`
+- `wiki/empresas/carlsberg.md:95` → `britvic`
+- `wiki/empresas/automatic-data-processing.md:47` → `industria servicios empresariales`
+- `wiki/empresas/automatic-data-processing.md:47` → `workday`
+- `wiki/empresas/cisco-systems.md:56` → `industria semiconductores logica y computo ia`
+- `wiki/empresas/cisco-systems.md:109` → `splunk`
+- `wiki/empresas/cisco-systems.md:111` → `industria semiconductores logica y computo ia`
+- `wiki/empresas/johnson-johnson.md:69` → `kenvue`
+- `wiki/empresas/johnson-johnson.md:69` → `genmab`
+- `wiki/empresas/goldman-sachs.md:63` → `ciclo ma mercados capitales`
+- `wiki/empresas/goldman-sachs.md:64` → `g sib regulacion`
+- `wiki/empresas/sp-global.md:29` → `rating datos`
+- `wiki/empresas/sp-global.md:29` → `datos y benchmarks financieros`
+- `wiki/empresas/sp-global.md:31` → `mobility global`
+- `wiki/empresas/sp-global.md:43` → `indice sp 500`
+- `wiki/empresas/sp-global.md:47` → `indice sp 500`
+- `wiki/empresas/sp-global.md:48` → `platts`
+- `wiki/empresas/sp-global.md:51` → `indice sp 500`
+- `wiki/empresas/sp-global.md:51` → `ihs markit`
+- `wiki/empresas/sp-global.md:54` → `agencias de rating crediticio`
+- `wiki/empresas/sp-global.md:74` → `indice sp 500`
+- `wiki/empresas/sp-global.md:76` → `platts`
+- `wiki/empresas/sp-global.md:180` → `indice sp 500`
+- `wiki/empresas/sp-global.md:198` → `agencias de rating crediticio`
+- `wiki/empresas/amadeus.md:35` → `industria viajes y turismo`
+- `wiki/empresas/honeywell-international.md:28` → `SOLS`
+- `wiki/empresas/honeywell-international.md:40` → `automatizacion industrial`
+- `wiki/empresas/honeywell-international.md:86` → `quantinuum`
+- `wiki/empresas/honeywell-international.md:92` → `vimal kapur`
+- `wiki/empresas/adidas.md:33` → `real madrid`
+- `wiki/empresas/adidas.md:102` → `real madrid`
+- `wiki/empresas/hubspot.md:61` → `transicion pricing ia`
+- `wiki/empresas/hubspot.md:61` → `aeo marketing`
+- `wiki/empresas/hubspot.md:61` → `regla del 40`
+- `wiki/empresas/autodesk.md:46` → `industria software diseno`
+- `wiki/empresas/autodesk.md:46` → `ansys`
+- `wiki/empresas/autodesk.md:46` → `dassault systemes`
+- `wiki/empresas/altria.md:93` → `fumador de dividendos`
+- `wiki/empresas/altria.md:95` → `anheuser busch inbev`
+- `wiki/empresas/marriott-international.md:149` → `scratchpad/cko empresas nuevas 2026 08 25`
+- `wiki/empresas/marriott-international.md:155` → `all inclusive`
+- `wiki/empresas/doordash.md:61` → `directiva ue plataformas`
+- `wiki/empresas/doordash.md:61` → `economia unitaria delivery`
+- `wiki/empresas/doordash.md:61` → `retail media`
+- `wiki/empresas/heico.md:45` → `repuestos aeronauticos pma`
+- `wiki/empresas/heico.md:72` → `[[capital-allocation]]`
+- `wiki/empresas/heico.md:81` → `stockanalysis`
+- `wiki/empresas/heico.md:94` → `stockanalysis`
+- `wiki/empresas/heico.md:140` → `stockanalysis`
+- `wiki/empresas/heico.md:140` → `finance.yahoo`
+- `wiki/empresas/heico.md:200` → `stockanalysis`
+- `wiki/empresas/heico.md:200` → `finance.yahoo`
+- `wiki/empresas/walgreens-boots-alliance.md:101` → `trampa de valor`
+- `wiki/empresas/deutsche-boerse.md:21` → `dax`
+- `wiki/empresas/deutsche-boerse.md:44` → `infraestructura bursatil`
+- `wiki/empresas/deutsche-boerse.md:48` → `euronext`
+- `wiki/empresas/deutsche-boerse.md:48` → `london stock exchange`
+- `wiki/empresas/deutsche-boerse.md:48` → `uniones de mercado de capitales eu`
+- `wiki/empresas/deutsche-boerse.md:168` → `infraestructura bursatil`
+- `wiki/empresas/deutsche-boerse.md:169` → `dax`
+- `wiki/empresas/deutsche-boerse.md:169` → `euronext`
+- `wiki/empresas/deutsche-boerse.md:169` → `london stock exchange`
+- `wiki/empresas/deutsche-boerse.md:169` → `ice intercontinental exchange`
+- `wiki/empresas/deutsche-boerse.md:169` → `allfunds`
+- `wiki/empresas/zurich-insurance.md:45` → `seguros y reaseguros`
+- `wiki/empresas/zurich-insurance.md:48` → `combined ratio`
+- `wiki/empresas/zurich-insurance.md:49` → `core roe`
+- `wiki/empresas/zurich-insurance.md:50` → `swiss solvency test`
+- `wiki/empresas/zurich-insurance.md:50` → `csm`
+- `wiki/empresas/zurich-insurance.md:63` → `beazley`
+- `wiki/analisis-tecnico/at-2026-08-29.md:32` → `Semiconductores de memoria`
+- `wiki/analisis-tecnico/at-2026-08-29.md:32` → `cíclicas y márgenes`
+- `wiki/analisis-tecnico/at-2026-08-29.md:52` → `calidad y compounding`
+- `wiki/analisis-tecnico/at-2026-08-29.md:72` → `indice sp500 y rotacion`
+- `wiki/analisis-tecnico/at-2026-08-29.md:96` → `metales preciosos`
+- `wiki/analisis-tecnico/at-2026-08-29.md:96` → `defensiva en ciclo alcista`
+- `wiki/analisis-tecnico/at-2026-08-29.md:116` → `calidad y compounding`
+- `wiki/analisis-tecnico/at-2026-08-29.md:116` → `datos e inteligencia`
+- `wiki/analisis-tecnico/at-2026-08-27.md:41` → `materias primas energia mineria`
+- `wiki/analisis-tecnico/at-2026-08-27.md:66` → `calidad datos`
+- `wiki/analisis-tecnico/at-2026-08-27.md:91` → `materias primas energia mineria`
+- `wiki/analisis-tecnico/at-2026-08-27.md:116` → `materias primas energia mineria`
+- `wiki/analisis-tecnico/at-2026-08-27.md:116` → `metales preciosos`
+- `wiki/analisis-tecnico/at-2026-08-27.md:175` → `materias primas energia mineria`
+- `wiki/analisis-tecnico/at-2026-08-27.md:175` → `metales preciosos`
+- `wiki/analisis-tecnico/at-2026-08-27.md:175` → `.at aprendizajes`
+- `wiki/referencia/tipos-directores-bancos-centrales-2026.md:111` → `curva tipos soberanos 2026`
+- `wiki/referencia/rentabilidades-historicas-clases-de-activo.md:64` → `retornos emergentes largo plazo`
+- `wiki/inversores/ray-dalio.md:217` → `ciclo de deuda`
+- `wiki/inversores/ray-dalio.md:217` → `ciclo de imperios`
+- `wiki/inversores/ray-dalio.md:237` → `ciclo de deuda`
+- `wiki/inversores/ray-dalio.md:237` → `ciclo de imperios`
+- `wiki/inversores/michael-mauboussin.md:161` → `expectaciones invertidas`
+- `wiki/inversores/walter-schloss.md:130` → `deep value y cigar butts`
+- `wiki/inversores/edward-thorp.md:21` → `criterio de kelly`
+- `wiki/inversores/edward-thorp.md:128` → `criterio de kelly`
+- `wiki/inversores/warren-buffett.md:740` → `greg abel`
+- `wiki/inversores/sir-john-templeton.md:141` → `diversificacion global`
+- `wiki/inversores/joel-greenblatt.md:120` → `spin offs y situaciones especiales`
+- `wiki/conceptos/universidad-damodaran-metodo-de-valoracion.md:16` → `aswath damodaran`
 - `wiki/conceptos/stablecoins.md:17` → `Remitly`
+- `wiki/conceptos/historia-de-las-burbujas-financieras.md:20` → `hyman minsky`
+- `wiki/conceptos/historia-de-las-burbujas-financieras.md:135` → `kindleberger y minsky manias`
 
 ## Colisiones de nombres
 - **abbvie** — `wiki/analisis-acciones/abbvie.md`, `wiki/empresas/abbvie.md`
 - **adobe** — `wiki/analisis-acciones/adobe.md`, `wiki/empresas/adobe.md`
+- **alibaba** — `wiki/analisis-acciones/alibaba.md`, `wiki/empresas/alibaba.md`
+- **allianz** — `wiki/analisis-acciones/allianz.md`, `wiki/empresas/allianz.md`
 - **alphabet** — `wiki/analisis-acciones/alphabet.md`, `wiki/empresas/alphabet.md`
 - **amazon** — `wiki/analisis-acciones/amazon.md`, `wiki/empresas/amazon.md`
+- **ambev** — `wiki/analisis-acciones/ambev.md`, `wiki/empresas/ambev.md`
 - **amd** — `wiki/analisis-acciones/amd.md`, `wiki/empresas/amd.md`
 - **american-express** — `wiki/analisis-acciones/american-express.md`, `wiki/empresas/american-express.md`
+- **american-tower** — `wiki/analisis-acciones/american-tower.md`, `wiki/empresas/american-tower.md`
+- **apple** — `wiki/analisis-acciones/apple.md`, `wiki/empresas/apple.md`
 - **asml** — `wiki/analisis-acciones/asml.md`, `wiki/empresas/asml.md`
 - **astrazeneca** — `wiki/analisis-acciones/astrazeneca.md`, `wiki/empresas/astrazeneca.md`
+- **bank-of-america** — `wiki/analisis-acciones/bank-of-america.md`, `wiki/empresas/bank-of-america.md`
+- **boeing** — `wiki/analisis-acciones/boeing.md`, `wiki/empresas/boeing.md`
 - **broadcom** — `wiki/analisis-acciones/broadcom.md`, `wiki/empresas/broadcom.md`
+- **caterpillar** — `wiki/analisis-acciones/caterpillar.md`, `wiki/empresas/caterpillar.md`
+- **citigroup** — `wiki/analisis-acciones/citigroup.md`, `wiki/empresas/citigroup.md`
 - **coca-cola** — `wiki/analisis-acciones/coca-cola.md`, `wiki/empresas/coca-cola.md`
+- **deere** — `wiki/analisis-acciones/deere.md`, `wiki/empresas/deere.md`
 - **eli-lilly** — `wiki/analisis-acciones/eli-lilly.md`, `wiki/empresas/eli-lilly.md`
+- **ge-aerospace** — `wiki/analisis-acciones/ge-aerospace.md`, `wiki/empresas/ge-aerospace.md`
+- **goldman-sachs** — `wiki/analisis-acciones/goldman-sachs.md`, `wiki/empresas/goldman-sachs.md`
+- **gsk** — `wiki/analisis-acciones/gsk.md`, `wiki/empresas/gsk.md`
 - **hsbc-holdings** — `wiki/analisis-acciones/hsbc-holdings.md`, `wiki/empresas/hsbc-holdings.md`
 - **index** — `wiki/analisis-acciones/index.md`, `wiki/analisis-tecnico/index.md`, `wiki/index.md`
 - **intel** — `wiki/analisis-acciones/intel.md`, `wiki/empresas/intel.md`
+- **johnson-johnson** — `wiki/analisis-acciones/johnson-johnson.md`, `wiki/empresas/johnson-johnson.md`
 - **jpmorgan-chase** — `wiki/analisis-acciones/jpmorgan-chase.md`, `wiki/empresas/jpmorgan-chase.md`
+- **kkr** — `wiki/empresas/kkr.md`, `wiki/inversores/kkr.md`
+- **linde** — `wiki/analisis-acciones/linde.md`, `wiki/empresas/linde.md`
+- **lockheed-martin** — `wiki/analisis-acciones/lockheed-martin.md`, `wiki/empresas/lockheed-martin.md`
 - **lvmh** — `wiki/analisis-acciones/lvmh.md`, `wiki/empresas/lvmh.md`
 - **mastercard** — `wiki/analisis-acciones/mastercard.md`, `wiki/empresas/mastercard.md`
 - **mcdonalds** — `wiki/analisis-acciones/mcdonalds.md`, `wiki/empresas/mcdonalds.md`
@@ -87,21 +594,29 @@ fecha: 2026-08-25
 - **meta-platforms** — `wiki/analisis-acciones/meta-platforms.md`, `wiki/empresas/meta-platforms.md`
 - **micron-technology** — `wiki/analisis-acciones/micron-technology.md`, `wiki/empresas/micron-technology.md`
 - **microsoft** — `wiki/analisis-acciones/microsoft.md`, `wiki/empresas/microsoft.md`
+- **morgan-stanley** — `wiki/analisis-acciones/morgan-stanley.md`, `wiki/empresas/morgan-stanley.md`
 - **nestle** — `wiki/analisis-acciones/nestle.md`, `wiki/empresas/nestle.md`
+- **netflix** — `wiki/analisis-acciones/netflix.md`, `wiki/empresas/netflix.md`
+- **nextera-energy** — `wiki/analisis-acciones/nextera-energy.md`, `wiki/empresas/nextera-energy.md`
 - **nike** — `wiki/analisis-acciones/nike.md`, `wiki/empresas/nike.md`
 - **novo-nordisk** — `wiki/analisis-acciones/novo-nordisk.md`, `wiki/empresas/novo-nordisk.md`
 - **nvidia** — `wiki/analisis-acciones/nvidia.md`, `wiki/empresas/nvidia.md`
+- **oracle** — `wiki/analisis-acciones/oracle.md`, `wiki/empresas/oracle.md`
 - **paypal** — `wiki/analisis-acciones/paypal.md`, `wiki/empresas/paypal.md`
 - **pepsico** — `wiki/analisis-acciones/pepsico.md`, `wiki/empresas/pepsico.md`
 - **petrobras** — `wiki/analisis-acciones/petrobras.md`, `wiki/empresas/petrobras.md`
 - **pfizer** — `wiki/analisis-acciones/pfizer.md`, `wiki/empresas/pfizer.md`
 - **procter-gamble** — `wiki/analisis-acciones/procter-gamble.md`, `wiki/empresas/procter-gamble.md`
+- **prologis** — `wiki/analisis-acciones/prologis.md`, `wiki/empresas/prologis.md`
 - **qualcomm** — `wiki/analisis-acciones/qualcomm.md`, `wiki/empresas/qualcomm.md`
 - **reliance-industries** — `wiki/analisis-acciones/reliance-industries.md`, `wiki/empresas/reliance-industries.md`
 - **rio-tinto** — `wiki/analisis-acciones/rio-tinto.md`, `wiki/empresas/rio-tinto.md`
 - **salesforce** — `wiki/analisis-acciones/salesforce.md`, `wiki/empresas/salesforce.md`
+- **sanofi** — `wiki/analisis-acciones/sanofi.md`, `wiki/empresas/sanofi.md`
 - **sap** — `wiki/analisis-acciones/sap.md`, `wiki/empresas/sap.md`
+- **schlumberger** — `wiki/analisis-acciones/schlumberger.md`, `wiki/empresas/schlumberger.md`
 - **shell** — `wiki/analisis-acciones/shell.md`, `wiki/empresas/shell.md`
+- **starbucks** — `wiki/analisis-acciones/starbucks.md`, `wiki/empresas/starbucks.md`
 - **tencent** — `wiki/analisis-acciones/tencent.md`, `wiki/empresas/tencent.md`
 - **thermo-fisher** — `wiki/analisis-acciones/thermo-fisher.md`, `wiki/empresas/thermo-fisher.md`
 - **tjx-companies** — `wiki/analisis-acciones/tjx-companies.md`, `wiki/empresas/tjx-companies.md`
@@ -109,24 +624,58 @@ fecha: 2026-08-25
 - **toyota-motor** — `wiki/analisis-acciones/toyota-motor.md`, `wiki/empresas/toyota-motor.md`
 - **tsmc** — `wiki/analisis-acciones/tsmc.md`, `wiki/empresas/tsmc.md`
 - **unitedhealth** — `wiki/analisis-acciones/unitedhealth.md`, `wiki/empresas/unitedhealth.md`
+- **ups** — `wiki/analisis-acciones/ups.md`, `wiki/empresas/ups.md`
+- **vale** — `wiki/analisis-acciones/vale.md`, `wiki/empresas/vale.md`
+- **verizon** — `wiki/analisis-acciones/verizon.md`, `wiki/empresas/verizon.md`
 - **visa** — `wiki/analisis-acciones/visa.md`, `wiki/empresas/visa.md`
 - **walmart** — `wiki/analisis-acciones/walmart.md`, `wiki/empresas/walmart.md`
+- **wells-fargo** — `wiki/analisis-acciones/wells-fargo.md`, `wiki/empresas/wells-fargo.md`
 
 ## Conceptos candidatos a página (citados por ≥2 páginas, sin página propia)
-_Ninguno._
+- scratchpad/cko empresas nuevas 2026 08 25 — 8: [[marriott-international]], [[robinhood-markets]], [[rtx-corp]], [[tesla-inc]], [[tjx-companies]], [[toyota-motor]] …
+- gestion de patrimonios — 3: [[bank-of-america]], [[blackstone]], [[ubs-group]]
+- industria alimentacion y envases — 3: [[conocimiento-enjambre-2026-08-26]], [[viscofan]], [[industria-consumo]]
+- industria viajes y turismo — 3: [[accor]], [[amadeus]], [[log]]
+- seguros y reaseguros — 3: [[allianz]], [[marsh-mclennan]], [[zurich-insurance]]
+- activos bajo gestion — 2: [[blackrock]], [[morgan-stanley]]
+- aeropuertos — 2: [[aena]], [[log]]
+- apollo global management — 2: [[blackstone]], [[kkr]]
+- banca universal — 2: [[citigroup]], [[ubs-group]]
+- brookfield corporation — 2: [[brookfield-asset-management]], [[brookfield-renewable-partners]]
+- caixabank — 2: [[bbva]], [[log]]
+- [[capital-allocation]] — 2: [[heico]], [[london-stock-exchange-group]]
+- [[cartera]] — 2: [[caterpillar]], [[equinor]]
+- ciclo de deuda — 2: [[ray-dalio]], [[consenso-y-desacuerdo-cartas-2026]]
+- gestion de residuos — 2: [[republic-services]], [[waste-connections]]
+- heidelberg materials — 2: [[saint-gobain]], [[geopolitica-ucrania-postguerra-y-reconstruccion]]
+- industria seguros — 2: [[aegon]], [[assurant]]
+- industria semiconductores logica y computo ia — 2: [[apple]], [[cisco-systems]]
+- leonardo — 2: [[industria-defensa-europea]], [[geopolitica-europa-rearme-y-defensa-2026]]
+- metales preciosos — 2: [[at-2026-08-27]], [[at-2026-08-29]]
+- mosaic — 2: [[fertilizantes-panorama-2026]], [[granos-agro-panorama-2026]]
+- movilidad como servicio y marketplaces de reparto — 2: [[uber]], [[industria-automotriz]]
+- nutrien — 2: [[fertilizantes-panorama-2026]], [[granos-agro-panorama-2026]]
+- saab — 2: [[industria-defensa-europea]], [[geopolitica-europa-rearme-y-defensa-2026]]
+- santander — 2: [[bbva]], [[industria-banca-europea]]
+- softbank — 2: [[abb-ltd]], [[openai]]
+- stockanalysis — 2: [[hasbro]], [[heico]]
+- thales — 2: [[industria-defensa-europea]], [[geopolitica-europa-rearme-y-defensa-2026]]
+- yara — 2: [[fertilizantes-panorama-2026]], [[granos-agro-panorama-2026]]
 
 ## Conectores transversales (hubs; apartados del clustering)
-[[index]], cartera actual, [[foso-economico]], [[margen-de-seguridad]], [[log]], [[ciclos-de-mercado]], [[terry-smith]], [[warren-buffett]], [[checklist-macro-y-ciclo]], [[riesgo-real-vs-volatilidad]], [[financiacion-estructurada-del-capex-de-ia]], [[renta-fija-y-tipos]], [[indice-sondas]], [[mineria-industrial-y-energia]], [[semiconductores-de-memoria]], [[asignacion-de-capital]], [[aversion-al-apalancamiento]], [[valor-intrinseco]], [[index]], [[howard-marks]], [[alphabet]], [[carteras-concentradas]], [[microsoft]], [[semiconductores-logica-y-computo-ia]], [[bill-ackman]], [[retorno-sobre-capital-empleado]], [[valoracion-ciclicas-y-beneficios-negativos]], [[horizonte-largo-plazo]], [[precio-vs-cotizacion]], [[ray-dalio]], objetivos, [[registro-de-predicciones]], perfil de inversor, [[mapa-del-cerebro]], [[plataformas-tecnologicas-y-publicidad-digital]], [[circulo-de-competencia]], [[eficiencia-de-mercado]], [[2026-07]], [[contabilidad-y-calidad-de-beneficios]], [[berkshire-hathaway]], [[jeremy-grantham]], [[ciclo-de-deuda-y-desapalancamiento]], [[viento-de-cola-americano]], [[negocio-maravilloso-vs-precio-maravilloso]], [[recompra-de-acciones]], [[sintesis-del-comportamiento]], [[interes-compuesto]], [[francisco-garcia-parames]], [[benjamin-graham]], [[gestion-de-posiciones]], [[reversion-a-la-media]], [[michael-pettis]], [[ciclo-de-imperios-y-moneda-reserva]], [[salud-y-farma]], [[pensamiento-de-segundo-nivel]], [[mineras-de-metales-preciosos]], [[flujo-de-caja-descontado]], [[multiplos-de-valoracion]], [[equipo-agentes]], [[misterpuertas-metodo]], [[float-de-seguros]], [[materias-primas-y-ciclo-de-commodities]], [[michael-mauboussin]], [[evaluar-una-cartera]], [[consejo-de-voces]], [[mr-market]], [[nassim-taleb]], [[ensayos-proceso-y-expectativas]], [[charlie-munger]], decisiones, [[screening-de-calidad]], [[cliff-asness]], [[asignacion-de-activos]], [[aeroespacial-y-defensa]], [[paridad-de-riesgo-y-diversificacion]], [[tensiones-activas]], [[carpatos-metodo]], [[james-montier]], [[sintesis-del-riesgo]], [[analisis-tecnico-y-tendencia]], [[tasas-base-y-vista-exterior]], [[plataformas-de-internet-de-china]], [[filosofia-de-inversion]], [[sesgo-de-superviviente]], [[estrategia-2026-07-30]], [[indice-empresas-2026-08-14]], [[prima-de-riesgo-y-beta]], [[mapa-de-industrias]], [[morgan-housel]], [[manuales-de-valoracion]], [[retornos-esperados]], [[ensayos-y-behavioural-investing]], [[coste-de-capital-wacc]], [[creacion-de-valor-y-eva]], [[gobierno-corporativo-consejos]], [[historial-del-cerebro]], [[philip-fisher]], 2026 07 11 analisis inicial cartera, [[riesgo-2026-08-20]]
+[[index]], [[foso-economico]], cartera actual, [[margen-de-seguridad]], [[log]], [[ciclos-de-mercado]], [[financiacion-estructurada-del-capex-de-ia]], [[renta-fija-y-tipos]], [[terry-smith]], [[checklist-macro-y-ciclo]], [[warren-buffett]], [[riesgo-real-vs-volatilidad]], [[mineria-industrial-y-energia]], [[semiconductores-de-memoria]], [[asignacion-de-capital]], [[valor-intrinseco]], [[indice-sondas]], [[aversion-al-apalancamiento]], [[howard-marks]], [[contabilidad-y-calidad-de-beneficios]], [[index]], [[valoracion-ciclicas-y-beneficios-negativos]], [[horizonte-largo-plazo]], [[retorno-sobre-capital-empleado]], [[semiconductores-logica-y-computo-ia]], [[carteras-concentradas]], [[ray-dalio]], [[alphabet]], [[precio-vs-cotizacion]], [[microsoft]], [[plataformas-tecnologicas-y-publicidad-digital]], [[bill-ackman]], [[registro-de-predicciones]], [[eficiencia-de-mercado]], objetivos, [[pensamiento-de-segundo-nivel]], [[materias-primas-y-ciclo-de-commodities]], [[recompra-de-acciones]], [[ciclo-de-deuda-y-desapalancamiento]], [[berkshire-hathaway]], [[jeremy-grantham]], perfil de inversor, [[mapa-del-cerebro]], [[multiplos-de-valoracion]], [[negocio-maravilloso-vs-precio-maravilloso]], [[circulo-de-competencia]], [[francisco-garcia-parames]], [[interes-compuesto]], [[2026-07]], [[viento-de-cola-americano]], [[reversion-a-la-media]], [[screening-de-calidad]], [[gestion-de-posiciones]], [[salud-y-farma]], [[mineras-de-metales-preciosos]], [[michael-pettis]], [[aeroespacial-y-defensa]], [[benjamin-graham]], [[sintesis-del-comportamiento]], [[ciclo-de-imperios-y-moneda-reserva]], [[float-de-seguros]], [[flujo-de-caja-descontado]], [[mr-market]], [[michael-mauboussin]], [[equipo-agentes]], [[misterpuertas-metodo]], [[nassim-taleb]], [[evaluar-una-cartera]], [[consejo-de-voces]], [[cliff-asness]], [[tensiones-activas]], [[asignacion-de-activos]], [[retornos-esperados]], [[charlie-munger]], decisiones, [[paridad-de-riesgo-y-diversificacion]], [[sesgo-de-superviviente]], [[ensayos-proceso-y-expectativas]], [[james-montier]], [[tasas-base-y-vista-exterior]], [[plataformas-de-internet-de-china]], [[coste-de-capital-wacc]], [[prima-de-riesgo-y-beta]], [[sintesis-del-riesgo]], [[carpatos-metodo]], [[analisis-tecnico-y-tendencia]], [[gobierno-corporativo-consejos]], [[filosofia-de-inversion]], [[manuales-de-valoracion]], [[creacion-de-valor-y-eva]], [[estrategia-2026-07-30]], [[morgan-housel]], [[indice-empresas-2026-08-14]], [[mapa-de-industrias]], [[ensayos-y-behavioural-investing]], [[reparto-de-modelos]], [[represion-financiera]], [[philip-fisher]], [[riesgo-2026-08-20]], [[factor-momentum]], 2026 07 11 analisis inicial cartera, [[riesgo-2026-08-27]], [[sintesis-calidad-vs-precio]], [[cio-2026-07-16]], [[ilusion-de-los-activos-privados]], [[red-electrica-y-capex-de-ia]], [[tracking-error-y-riesgo-de-carrera]], [[historial-del-cerebro]], [[efecto-red]], [[microsoft]], [[azvalor-am]], [[francois-rochon]], [[mark-mobius]], [[economia-de-activos-vs-salarios]], [[valoracion-de-empresas-financieras]], [[horos-am]], [[comparar-dos-empresas]], [[huecos-y-proximos-pasos]], [[cava-metodo]], [[ciberseguridad]], [[valor-terminal]], [[alphabet]], [[amazon]], [[nvidia]], [[mapa-sectorial-y-megatendencias]], [[adquisiciones-fusiones-y-sinergias]], [[estrategia-2026-07-20]], [[agencias-de-rating-y-datos]], [[evaluacion-cartera-carlos-2026-07]], [[puntos-de-entrada]], [[bloomberg-tv-metodo]], [[conocimiento-2026-08-25]], [[limites-y-marco-de-riesgo]], [[riesgo-2026-08-06]], [[negociostv-metodo]], [[derivados-armas-de-destruccion-masiva]], [[fiscalidad-del-inversor]], [[bae-systems]], [[estrategia-2026-07-23]], [[commodities-2026-08]], [[activismo-accionarial]]
 
 ## Clusters temáticos (comunidades por co-enlazado, sin hubs)
-- **tsmc** · 46 páginas — [[alphabet]], [[microsoft]], [[nvidia]], [[tsmc]], [[meta-platforms]], [[tier-a-accionable]], [[backlog-de-mejoras-del-sistema]], [[formacion-ia-metodo]] …
-- **byd** · 28 páginas — [[byd]], [[toyota-motor]], [[industria-automotriz]], [[nike]], [[tesla]], [[sonda-2026-08-14-toyota-motor]], [[jd-com]], [[ventaja-de-costes]] …
-- **astrazeneca** · 23 páginas — [[astrazeneca]], [[eli-lilly]], [[novartis]], [[sonda-2026-08-14-astrazeneca]], [[sonda-2026-08-14-abbvie]], [[sonda-2026-08-14-novartis]], [[pfizer]], [[amgen]] …
-- **kentley-metodo** · 18 páginas — [[benchmarks-sectoriales]], [[kentley-metodo]], [[manufactura-muestra-2026]], [[finance-and-insurance]], [[manufactura-muestra-2024]], [[professional-scientific-and-technical-services]], [[accommodation-and-food-services]], [[electronica-y-ordenadores]] …
-- **pagos-digitales** · 13 páginas — [[pagos-digitales]], [[adyen]], [[paypal]], [[remesas]], [[stripe]], [[visa]], [[wise-plc]], [[worldline]] …
-- **totalenergies** · 11 páginas — [[totalenergies]], [[petrobras]], [[sonda-2026-08-14-petrobras]], [[shell]], [[sonda-2026-08-14-exxonmobil]], [[sonda-2026-08-14-saudi-aramco]], [[sonda-2026-08-14-chevron]], [[sonda-2026-08-14-totalenergies]] …
-- **relx** · 6 páginas — [[relx]], [[elsevier]], [[thomson-reuters]], [[wolters-kluwer]], [[datos-financieros-y-legales]], [[open-access]]
-- **tencent** · 5 páginas — [[tencent]], [[sonda-2026-08-14-alibaba]], [[pinduoduo]], [[alibaba]], [[alibaba-hk]]
-- **chipotle-mexican-grill** · 5 páginas — [[chipotle-mexican-grill]], [[restaurantes]], [[cava-group]], [[mcdonalds]], [[yum-brands]]
-- **copart** · 5 páginas — [[cme-group]], [[copart]], [[xylem]], [[waste-management]], [[enjambre-cko-2026-08-20]]
+- **industria-consumo-masivo** · 74 páginas — [[industria-consumo-masivo]], [[industria-consumo]], [[industria-lujo]], [[hermes-international]], [[costco-wholesale]], [[ventaja-de-costes]], [[lvmh]], [[lvmh]] …
+- **novo-nordisk** · 44 páginas — [[novo-nordisk]], [[merck-kgaa]], [[astrazeneca]], [[novartis]], [[eli-lilly]], [[astrazeneca]], [[sonda-2026-08-14-astrazeneca]], [[pfizer]] …
+- **fiscalidad-inversor-espana-2026** · 43 páginas — [[mapa-del-vault]], [[etfs-indexados-mundiales-inversor-espanol]], [[fiscalidad-inversor-espana-2026]], [[indexacion-pasiva-y-reflexividad]], [[comparativa-gestoras-value-espanolas]], [[chipotle-mexican-grill]], [[guia-etfs-acumulacion-ucits-2026]], [[evidencia-spiva-activo-vs-pasivo-2026]] …
+- **pagos-digitales** · 21 páginas — [[pagos-digitales]], [[adyen]], [[paypal]], [[block-inc]], [[mastercard]], [[visa]], [[remesas]], [[stablecoins]] …
+- **pulso-video-2026-08-16** · 18 páginas — [[pulso-video-2026-08-16]], [[pulso-2026-08-12-a-13]], [[pulso-video-2026-08-11]], [[ormuz-y-riesgo-energetico-2026-08]], [[pulso-video-2026-08-13]], [[pulso-video-2026-08-14]], [[pulso-video-2026-08-06]], [[pulso-video-2026-08-07]] …
+- **benchmarks-sectoriales** · 18 páginas — [[benchmarks-sectoriales]], [[kentley-metodo]], [[manufactura-muestra-2026]], [[finance-and-insurance]], [[manufactura-muestra-2024]], [[professional-scientific-and-technical-services]], [[accommodation-and-food-services]], [[electronica-y-ordenadores]] …
+- **cme-group** · 13 páginas — [[cme-group]], [[copart]], [[waste-management]], [[sp-global]], [[xylem]], [[msci]], [[enjambre-cko-2026-08-20]], [[intercontinental-exchange]] …
+- **eog-resources** · 12 páginas — [[eog-resources]], [[chevron-corporation]], [[shell]], [[totalenergies]], [[exxonmobil]], [[baker-hughes]], [[conocophillips]], [[halliburton]] …
+- **saint-gobain** · 7 páginas — [[saint-gobain]], [[builders-firstsource]], [[crh-plc]], [[ferguson-enterprises]], [[martin-marietta-materials]], [[masco]], [[quanta-services]]
+- **relx** · 6 páginas — [[relx]], [[datos-financieros-y-legales]], [[elsevier]], [[thomson-reuters]], [[wolters-kluwer]], [[open-access]]
+- **industria-gases-industriales** · 5 páginas — [[sonda-2026-08-14-air-liquide]], [[industria-gases-industriales]], [[air-liquide]], [[linde]], [[air-products]]
+- **industria-utilities-electricas** · 5 páginas — [[industria-utilities-electricas]], [[alliant-energy]], [[ameren]], [[american-electric-power]], [[constellation-energy]]
 

@@ -122,7 +122,7 @@ No existía tesis en wiki/empresas (primera ficha). Sí hay análisis migrado en
 (15-ago-26): "neutral, largo plazo positivo; mejor entrada $600-700", PER 36,9x. Mi valoración a ciegas
 (VIGILAR, ~$550) coincide en lo cualitativo y es algo más conservadora en múltiplo terminal: normalizo el
 EPS al alza (mix power estructuralmente mejor) pero exijo múltiplo de salida menor que el actual. Sin
-postura en cartera.
+postura en [[cartera]].
 
 ## 9. Veredicto: VIGILAR (propuesta — decide Carlos)
 

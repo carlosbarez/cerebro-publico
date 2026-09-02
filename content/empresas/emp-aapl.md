@@ -1,0 +1,101 @@
+---
+title: "Apple (AAPL) - Ficha de investigacion"
+tipo: empresa
+tags: [empresa, tech, usa]
+fecha: 2026-08-31
+agente: carlos-barez
+squad: Analisis Fundamental - Empresas (Carlos Barez)
+status: sonde
+---
+
+# Apple (AAPL) - Ficha de investigacion
+
+> Fuentes base: Apple 10-K FY2025 (SEC EDGAR), stockanalysis.com (AAPL financials), Apple Machine Learning Research (AFM 3), Reuters y Yahoo Finance (tarifas), MacRumors/DigiTimes (automatizacion de proveedores), Google News RSS (novedades 2026).
+
+## 1. Resumen ejecutivo
+
+Apple Inc. (NASDAQ: AAPL) es el mayor valor de capitalizacion del mundo por capitalizacion de mercado (~4,60 billones de USD al 31/08/2026, segun stockanalysis.com) y un "compoundeur" de efectivo: ingresos de 416.161 M$ en el ejercicio fiscal 2025 (cierre septiembre), +6,4% interanual, y beneficio neto de 112.010 M$ (+19,5%) [(SEC 10-K FY2025)](https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/R10.htm). En datos TTM (hasta junio 2026) los ingresos ya superan los 466.800 M$ (+14,2%) [(stockanalysis.com)](https://stockanalysis.com/stocks/aapl/financials/).
+
+Para el inversor de largo plazo importa por tres razones: (1) el foso de ecosistema sobre ~2.000+ millones de dispositivos activos; (2) el negocio de Servicios, con margen bruto del 75,4% en FY2025, que ya representa el 26% de los ingresos y casi todo el crecimiento de margen; y (3) la pregunta abierta de si la IA (inteligencia artificial) ensancha o erode ese foso en 3-5 anos. Cotiza a PER ~36,7x y P/FCF ~34x [(stockanalysis.com)](https://stockanalysis.com/stocks/aapl/), es decir, caro y priced-for-perfection.
+
+## 2. Estructura / modelo
+
+Apple combina hardware (silicon propio: Apple silicon / chips M-series y A-series) + software (iOS/macOS) + servicios recurrente (App Store, iCloud, suscripciones, publicidad, garantia AppleCare). El modelo es "integracion vertical" (vertical integration) y captura de renta por lock-in del ecosistema. Ingresso desagregado FY2025 (en M$, [SEC 10-K](https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/R10.htm)):
+
+| Segmento | Ingresos FY2025 | % total |
+|---|---:|---:|
+| iPhone | 209.586 | 50,4% |
+| Services | 109.158 | 26,2% |
+| Wearables, Home & Accessories | 35.686 | 8,6% |
+| Mac | 33.708 | 8,1% |
+| iPad | 28.023 | 6,7% |
+| **Total** | **416.161** | 100% |
+
+Mecanica de costes: Apple no fabrica casi nada en propiedad; externaliza el ensamblaje (Foxconn y otros) pero disena el silicon, el SO y la experiencia. El coste de ventas de Productos es manufactura + componentes; el de Servicios es casi solo infraestructura/licencias, de ahi su margen del 75,4% frente al ~36,8% estimado de Productos (calculado: beneficio bruto total 195.201M$ - beneficio bruto de Servicios 82,3M$ = 112,9M$ / 307,0M$ de ingresos de Productos).
+
+## 3. Numeros clave
+
+- Ingresos FY2025: 416.161 M$ (+6,4%); TTM 466.823 M$ (+14,2%) [(stockanalysis.com)](https://stockanalysis.com/stocks/aapl/financials/).
+- Beneficio neto FY2025: 112.010 M$; TTM 128.930 M$ [(stockanalysis.com)](https://stockanalysis.com/stocks/aapl/financials/).
+- Margen bruto (blended / mixto): 46,9% FY2025; 48,65% TTM. Margen bruto de Servicios: 75,4% FY2025 (vs 73,9% FY2024, 70,8% FY2023) [(10-K y EarningsMoat)](https://earningsmoat.com/stocks/aapl-2025-earnings-analysis).
+- I+D (R&D) FY2025: 34.550 M$ (+10,1% i.a.) [(Apple 8-K Q4 FY25)](https://www.apple.com/newsroom/pdfs/fy2025-q4/FY25_Q4_Consolidated_Financial_Statements.pdf).
+- Free cash flow FY2025: 98.767 M$ (-9,2%); TTM 136.683 M$ [(stockanalysis.com)](https://stockanalysis.com/stocks/aapl/financials/).
+- Caja + inversiones 132.420 M$; deuda total 112.377 M$; net cash ~20.043 M$ [(stockanalysis.com)](https://stockanalysis.com/stocks/aapl/financials/).
+- Capitalizacion ~4,60 B$; PER 36,68; FWD PER 34,91; P/S 9,99; P/FCF 34,14 [(stockanalysis.com)](https://stockanalysis.com/stocks/aapl/).
+- Empleados: 166.000 [(stockanalysis.com)](https://stockanalysis.com/stocks/aapl/).
+
+## 4. Posicion / marco conceptual
+
+El foso es, en terminos de [[Fosos-Economicos]], "switching costs" + "red de efectos de red" dentro del ecosistema: el usuario atado a iCloud, App Store, Mensajes y continuidad macOS/iOS difícilmente migra. El 66% de los 13.700 M$ de ingresos diferidos se realizara en menos de un ano [(10-K)](https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/R10.htm), serial de recurrencia.
+
+La tesis de "Apple como negocio de software disfrazado de hardware" se sostiene: Servicios crece mas rapido y con margen casi de software, financiando el hardware. Conecta con Apple Services Moat y con la idea de Calidad Precio Growth at Reasonable Price (esta cara a PER ~37x, ya no es "reasonable" sino premium).
+
+## 5. Catalizadores y riesgos
+
+Catalizadores:
+- Lanzamiento de "Siri AI" en WWDC 2026 y la 3ª generacion de Apple Foundation Models (AFM 3), con modelos on-device (en dispositivo) de 3B y 20B parametros y modelos en servidor bajo Private Cloud Compute [(Apple ML Research, 2026-08-28)](https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models).
+- Automatizacion de la cadena de suministro: Apple exige a sus proveedores robotizacion o pierden contratos (sept 2025), externalizando el CAPEX y reduciendo dependencia de mano de obra en China [(MacRumors/DigiTimes, 2025-09-01)](https://www.macrumors.com/2025/09/01/apple-demanding-suppliers-switch-to-robotics/).
+- Diversificacion geografica: produccion de iPhone en India y Mac Mini en EE.UU. en 2026 [(Geeknetic, Google News)](https://news.google.com/rss/search?q=Apple).
+- Reembolsos de aranceles (tariffs) que mejoraron el margen bruto al 49,3% en el trimestre de marzo 2026 [(Yahoo Finance, 2026-05-02)](https://uk.finance.yahoo.com/news/tim-cook-says-apple-pursuing-220119327.html).
+
+Riesgos:
+- Aranceles: ~900 M$ de coste adicional en un trimestre (mayo 2025) y recorte de 10.000 M$ en el buyback por la guerra comercial [(Reuters, 2025-05-01)](https://www.reuters.com/technology/apple-edges-past-expectations-world-girds-tariff-impact-2025-05-01/).
+- Regulacion: Siri AI NO llega a la UE por friccion regulatoria (DMA) [(DW, Google News)](https://news.google.com/rss/search?q=Apple). El Antitrust y la DMA amenazan la comision del App Store, nucleo del foso de Servicios.
+- Commoditizacion de la IA: asistentes en la nube (OpenAI, Google, Meta) pueden restar diferenciacion a Siri.
+- Valoracion exigente (PER ~37x): cualquier fallo de "superciclo de IA" comprime multiples.
+
+## 6. Valoracion / implicaciones practicas
+
+A 4,6 B$ de capitalizacion y PER ~37x, Apple ya descuenta exito de IA y continuidad de Servicios. El inversor deberia vigilar: (a) la aceleracion de Servicios por encima del 15% i.a. y su margen >75%; (b) si la IA on-device (Apple silicon) traduce en un superciclo de renovacion de iPhone/Mac; (c) la resistencia del margen bruto de Productos ante aranceles y costes de memoria; (d) la erosion regulatoria de la comision del App Store. Senal de alerta: si Services crece <10% o el margen bruto de Productos cae por debajo del 35%, la narrativa "software disfrazado de hardware" se debilita y el multiple es vulnerable.
+
+## 7. Veredicto para el inversor
+
+Apple sigue siendo un negocio de efectivo excepcional con foso de ecosistema real, pero esta caro (PER ~37x) y su mayor apuesta (IA on-device) es a la vez su mayor interrogante. No es una compra obvia a precio actual para un enfoque de [[Margen-De-Seguridad]]; conviene acumular en debilidad y no perseguir el precio. El riesgo no es quiebra, es compression de multiples si la IA no entrega el superciclo prometido.
+
+## 8. Segundo orden (OBLIGATORIO y central en este wiki)
+
+Aqui es donde la IA y la automatizacion redefinen la estructura de costes y el foso a 3-5 anos, y donde choco con la narrativa simplista de "Apple lo controla todo":
+
+1) Coste marginal de inferencia desplazado al dispositivo. Apple apuesta por IA on-device: sus AFM 3 (modelos de 3B y un modelo sparse de 20B, "AFM 3 Core Advanced") guardan los pesos en memoria flash (NAND) y activan solo 1-4B parametros por peticion, reduciendo DRAM [(Apple ML Research)](https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models). Segunda orden: mientras Microsoft/OpenAI/Google queman CAPEX masivo en datacenters para inferencia en nube, Apple externaliza el coste de inferencia al cliente (su hardware). Eso protege su margen bruto y es un diferenciador ("privacidad"), pero REQUIERE liderazgo continuo en silicon (Apple silicon). Si el ritmo de mejora de sus chips se estanca, la ventaja on-device se difumina.
+
+2) El "foso de integracion vertical" tiene un agujero en forma de Google. La 3ª generacion de AFM se construye "en colaboracion con Google", y el modelo Cloud Pro usa NVIDIA GPUs en Google Cloud bajo Private Cloud Compute [(Apple ML Research)](https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models). Segunda orden: el entrenamiento y la capa server de Apple dependen de terceros (Google, NVIDIA). El mito de autosuficiencia choca con la realidad: Apple controla la experiencia, no toda la pila. Esto es un riesgo de dependencia y de coste (GPU/cloud) que el inversor debe vigilar, y conecta con Dependencia De Terceros En IA.
+
+3) Automatizacion como transferencia de CAPEX al proveedor. Al obligar a Foxconn y otros a robotizar con su propio dinero [(MacRumors)](https://www.macrumors.com/2025/09/01/apple-demanding-suppliers-switch-to-robotics/), Apple mejora su propio margen estructuralmente y profundiza el lock-in aguas arriba (switching costs de proveedores). Pero segunda orden: esto estruja los margenes de los proveedores y concentra riesgo geopolitico; si la automatizacion falla o encarece la transicion fuera de China, la cadena se rompe. Ademas, robotizar reduce la ventaja china de mano de obra barata, acelerando la diversificacion a India/EE.UU. (ver Cadenas De Suministro Y Geopolitica).
+
+4) La IA puede canibalizar el foso de Servicios. Los agentes IA (agentic tool use, que Apple mismo anuncia en AFM 3 Cloud Pro) podrian reducir la necesidad de apps y, con ello, la comision del App Store, que hoy sostiene el margen del 75,4%. Es la tension interna mas subestimada: la IA que hace Apple atractivo puede erosionar la fuente de su margen. Conecta con Canibalizacion IA Del App Store.
+
+5) Regulacion como segundo orden del foso. La ausencia de Siri AI en la UE [(DW, Google News)](https://news.google.com/rss/search?q=Apple) y la DMA apuntan a que el foso de ecosistema es politico, no solo tecnico. A 3-5 anos, la pregunta no es "¿Apple tiene foso?" sino "¿los reguladores dejan que el foso siga cobrando peaje?".
+
+Que debe vigilar Carlos a 3-5 anos: (i) mix Servicios >30% de ingresos con margen estable; (ii) renovacion de dispositivos impulsada por IA on-device; (iii) dependencia de Google/NVIDIA en entrenamiento/server; (iv) resistencia del margen de Productos a aranceles y a la automatizacion mal ejecutada; (v) agresion regulatoria al App Store. La tesis bull se mantiene si Servicios+silicon lideran; la bear se activa si la IA commoditiza a Siri y la regulacion parte el ecosistema.
+
+## 9. Fuentes consultadas
+
+1. Apple Inc. Form 10-K FY2025 (SEC EDGAR, segmentos y margen) - https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/R10.htm
+2. Apple Newsroom - FY2025 Q4 Consolidated Financial Statements (I+D) - https://www.apple.com/newsroom/pdfs/fy2025-q4/FY25_Q4_Consolidated_Financial_Statements.pdf
+3. StockAnalysis.com - Apple (AAPL) Overview y Financials - https://stockanalysis.com/stocks/aapl/ y https://stockanalysis.com/stocks/aapl/financials/
+4. Apple Machine Learning Research - "Introducing the Third Generation of Apple's Foundation Models" (2026-08-28) - https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models
+5. MacRumors - "Apple Demands Suppliers Switch to Robotics for Manufacturing" (2025-09-01) - https://www.macrumors.com/2025/09/01/apple-demanding-suppliers-switch-to-robotics/
+6. Reuters - "Apple girds for more trade war pain, trims buyback" (2025-05-01) - https://www.reuters.com/technology/apple-edges-past-expectations-world-girds-tariff-impact-2025-05-01/
+7. Yahoo Finance - "Tim Cook Says Apple Is Pursuing Tariff Refunds..." (2026-05-02) - https://uk.finance.yahoo.com/news/tim-cook-says-apple-pursuing-220119327.html
+8. EarningsMoat - "Apple Inc. AAPL 2025 10-K Analysis" (2026-04-01) - https://earningsmoat.com/stocks/aapl-2025-earnings-analysis
+9. Google News RSS - "Apple Inteligencia Artificial Siri 2026", "Apple resultados 2026", "Apple automatizacion cadena suministro" (consultadas 2026-08-31) - https://news.google.com/rss/search?q=Apple

@@ -4,9 +4,6 @@ tipo: empresa
 tags: [empresa, retail-latam]
 fecha: 2026-08-28
 agente: prime-agent
-veredicto: MANTENER
-valor_estimado: 60,82 MXN (consenso, +27%)
-gatillo_entrada: Caída a P/E ~13x con negocio estable, o retorno del tráfico de tiendas a positivo
 ticker: WALMEX
 moneda: MXN
 precio_referencia: 47.9

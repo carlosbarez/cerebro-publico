@@ -1,0 +1,104 @@
+---
+title: "Alphabet (GOOGL) - Ficha de investigacion"
+tipo: empresa
+tags: [empresa, tech, usa]
+fecha: 2026-08-31
+agente: carlos-barez
+squad: Analisis Fundamental - Empresas (Carlos Barez)
+status: sonde
+---
+
+# Alphabet (GOOGL) - Ficha de investigacion
+
+> Fuentes base: SEC EDGAR 10-K FY2025 (https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm); stockanalysis.com GOOGL (https://stockanalysis.com/stocks/googl/); SEC submissions CIK 0001652044 (https://data.sec.gov/submissions/CIK0001652044.json); Wikipedia Tensor Processing Unit (https://en.wikipedia.org/wiki/Tensor_Processing_Unit).
+
+## 1. Resumen ejecutivo
+
+Alphabet Inc. es la sociedad holding de Google: Search, YouTube, Android, Chrome, Google Cloud, Play y Other Bets (Waymo, etc.). Cotiza en Nasdaq como GOOGL (Clase A, con voto) y GOOG (Clase C, sin voto). Es, con ~4,13 billones de dolares de capitalizacion, una de las mayores empresas del mundo y un pilar del indice tecnologico estadounidense (entro en el Dow Jones Industrial Average en junio de 2026 [8]).
+
+Para el inversor de largo plazo importa porque concentra tres motores: (i) el monopolio de busqueda financiado por publicidad, (ii) Google Cloud ya rentable y creciendo rapido, y (iii) la apuesta propia por la IA (Gemini + TPUs propios). Cifras clave del 10-K FY2025 [1]:
+- Ingresos 2025: 402.836 M$ (+15% vs 350.018 M$ en 2024).
+- Beneficio neto 2025: 132.170 M$ (+32%); margen operativo 32% (129.039 M$).
+- Beneficio por accion diluido 2025: 10,81 $.
+
+Advertencia de honestidad: las metricas TTM en stockanalysis.com (a 31/08/2026) muestran ingresos 445,87 B$ y beneficio neto 244,12 B$ (+111%), con EPS 19,93 $ y PER 17,39 [3]. Ese salto del beneficio neto TTM frente al 10-K auditado de 2025 (132 B$) es atipico y posiblemente incluye partidas extraordinarias; NO esta desglosado en esta sonda y debe verificarse contra el 10-Q del 2T 2026 [9] antes de usarlo en valoracion.
+
+## 2. Estructura / modelo
+
+Alphabet reporta tres segmentos. La mecanica es: regalar productos a consumidores (Search, Maps, Gmail, Android, YouTube) para captar atencion, y monetizarla via publicidad; vender infraestructura/software a empresas (Google Cloud); y experimentar en Other Bets.
+
+| Segmento | Ingresos 2025 (M$) | Ingresos 2024 (M$) | Resultado operativo 2025 (M$) |
+|---|---|---|---|
+| Google Services (ads + suscripciones + dispositivos) | 342.721 | 304.930 | 139.404 |
+| Google Cloud (GCP + Workspace) | 58.705 | 43.229 | 13.910 |
+| Other Bets | 1.537 | 1.648 | (7.515) |
+| Total | 402.836 | 350.018 | 129.039 |
+
+Fuente: 10-K FY2025 [1]. Google Services es ~85% de los ingresos y casi todo el beneficio; Google Cloud paso de 6.112 M$ a 13.910 M$ de resultado operativo en un ano (inflexion de rentabilidad). El coste de ingresos 2025 fue 162.535 M$ (40% de ingresos), repartido en TAC (traffic acquisition costs) 59.926 M$ y "otros costes" 102.609 M$ [1].
+
+## 3. Numeros clave
+
+- Ingresos por geografia 2025: EE.UU. ~49% del total; el resto internacional (EMEA, APAC, Americas) [1].
+- TAC (pago a socios de distribucion y Google Network): 59.926 M$ en 2025 (+5.026 M$ vs 2024), pagado sobre todo a socios de distribucion [1]. Esto es el principal "coste de proveedor" del modelo publicitario.
+- Costes de adquisicion de contenido (YouTube): pagos a creadores/medios por licencias [1].
+- Capex/IA: la 10-K menciona "costes e pasivos crecientes" para construir y mantener infraestructura de cloud y centros de datos, y el despliegue de TPUs propios ("Ironwood", 7a generacion) y GPUs [1]. La prensa 2026 habla de un "colapso" del FCF por el gasto en IA [8].
+- Valoracion (stockanalysis, ~31/08/2026) [3]: Market cap 4,13 B$; rango 52 semanas 206,20-408,61 $; PER 17,39; PER forward 26,00; dividendo 0,88 $ (0,26%, ex-div 4/09/2026); beta 1,24; consenso "Strong Buy", objetivo 428,07 $ (+26,6%).
+
+## 4. Posicion / marco conceptual
+
+El foso (moat) es triple: (i) efectos de red y datos en Search/YouTube; (ii) economias de escala en centros de datos y silicio propio (TPUs); (iii) ecosistema Android/Play. El 10-K afirma explicitamente que "ningun cliente individual ni grupo de clientes afiliados represento mas del 10% de los ingresos en 2023, 2024 ni 2025" [1] — la base de clientes (anunciantes) es fragmentada, lo que reduce el poder de negociacion aguas abajo.
+
+Conecta con el resto del Cerebro via Inteligencia Artificial (Gemini y el superciclo de capex), [[NVIDIA]] y [[TSMC]] (dependencia de suministro de chips), Meta (competencia por la publicidad y por la IA), [[Microsoft]] y [[Amazon]] (guerra de nube), y Antitrust (riesgo regulatorio del monoplio de busqueda).
+
+## 5. Catalizadores y riesgos
+
+Catalizadores:
+- Inflexion de rentabilidad de Google Cloud (resultado operativo x2,3 en 2025) [1]; el 2T 2026 el cloud habria crecido ~82% interanual [5][8].
+- Integracion de Gemini en Search, Cloud y Workspace; despliegue de TPU v8 (Ironwood) con ventaja de coste de silicio propio [1][7].
+- Remuneracion al accionista (dividendo + recompra) y entrada en el Dow (junio 2026) [8].
+
+Riesgos (novedades via Google News RSS):
+- Antimonopolio: Google perdio la apelacion de la multa de 4.700 M$ de la UE (Android) el 2/07/2026 [6]; nueva multa de ~1.000 M$ de la UE en julio 2026 [6]; cambios de politica en la UE para evitar mas sanciones (agosto 2026) [6]. En EE.UU. pesan los remedios del caso DOJ sobre Search (posible ruptura/cesion de default search).
+- Disrupcion por IA del modelo de busqueda y de publicidad: Bernstein (31/08/2026) sugiere que Meta podria superar a Google en ingresos por publicidad de busqueda en 2026 por el cambio a IA [7].
+- Concentracion de suministro (ver seccion 8): TSMC (Taiwan), Broadcom (TPUs) y NVIDIA (GPUs) son cuellos de botella geopoliticos [4].
+- Presion de FCF por el capex de IA [8] y dependencia del acuerdo de default search con Apple (en riesgo por los remedios antimonopolio).
+
+## 6. Valoracion / implicaciones practicas
+
+A PER 17,4 sobre EPS TTM (19,93 $) la accion no parece cara frente al crecimiento (~20% ingresos TTM) y la capacidad de generar caja estructural, SIEMPRE que el salto del beneficio neto TTM no sea puramente extraordinario [3]. Senal de alerta: confirmar en el 10-Q 2T 2026 [9] el desglose de ese beneficio neto y la trayectoria de FCF/capex. El inversor deberia vigilar: (a) la resolucion de los remedios antimonopolio en EE.UU.; (b) la cuota de ingresos por busqueda frente a Meta/IA; (c) la tasa de crecimiento y margen de Google Cloud; (d) el coste y disponibilidad de TPUs/GPUs.
+
+## 7. Veredicto para el inversor
+
+Alphabet sigue siendo, con evidencia primaria, un negocio de foso ancho, crecimiento doble digito y múltiplo razonable, pero con una cola de riesgo regulatoria real (antitrust en UE y EE.UU.) y una dependencia de suministro de chips concentrada en Taiwan/[[TSMC]] y [[Broadcom]]. Comprar/aguantar con la salvedad de vigilar el desglose del beneficio TTM y el desenlace antimonopolio.
+
+## 8. Segundo orden (OBLIGATORIO y central en este wiki)
+
+Angulo obligatorio: cadena de valor y tesis adyacentes. Mapeo upstream/downstream a partir de la 10-K [1] y fuentes secundarias [4]:
+
+UPSTREAM (proveedores y socios que abren tesis adyacentes):
+- Socios de distribucion (TAC ~60 B$/ano) [1]: Apple (default search en iPhone), OEMs de Android, navegadores. Tesis: [[Apple]] y el ecosistema movil; riesgo si el acuerdo con Apple cae por remedios antimonopolio.
+- Silicio: TPUs co-desarrollados con Broadcom y fabricados por TSMC (todas las generaciones) [4]; GPUs de [[NVIDIA]]; componentes de [[AMD]]/Intel/red (Arista, Broadcom). Tesis: Semiconductores, [[TSMC]] (riesgo geopolitico de Taiwan), [[Broadcom]] (ASICs de IA), [[NVIDIA]].
+- Centros de datos: energia (PPAs renovables tipo NextEra), real estate, refrigeracion, opticas. Tesis: utilities, REITs de data centers, Energia.
+- Contenido (YouTube): creadores y medios. Tesis: economia del creador.
+- Google Cloud: componentes de infraestructura empresarial. Tesis: software empresarial, [[Microsoft]], [[Amazon]].
+
+DOWNSTREAM (clientes que abren tesis adyacentes):
+- Anunciantes (>>85% de ingresos): millones de pymes y grandes marcas, fragmentados (nadie >10%) [1]. Tesis: ad-tech, retail media, competencia Meta.
+- Clientes enterprise de Cloud (financiero, sanidad, sector publico) [1]. Tesis: migracion a nube, [[Microsoft]] Azure, AWS.
+- Consumidores de Search/Maps/Gmail/YouTube monetizados via ads; desarrolladores de Android/Play. Tesis: ecosistema movil.
+
+La IA es el nodo transversal: es coste upstream (TPUs/GPUs, dependencia de [[TSMC]]/[[Broadcom]]/[[NVIDIA]]) y producto downstream (Gemini en Cloud y Search). El superciclo de capex de Alphabet es, a la vez, un catalizador de margen a largo plazo (silicio propio mas barato) y un riesgo de FCF a corto plazo [8]. Carlos deberia vigilar a 3-5 anos: (1) si el silicio propio (TPU) de Alphabet reduce dependencia de [[NVIDIA]] y mejora margen de Cloud; (2) si TSMC concentra demasiado riesgo geopolitico en la cadena; (3) si la regulacion antitrust redibuja la distribucion (Apple) y la publicidad; (4) si Meta/IA erosiona la cuota de busqueda. Tesis a abrir en el wiki (enlaces a paginas aun no creadas): [[emp-nvda]], emp broadcom, emp tsmc, [[emp-meta]], [[emp-msft]], emp amzn, tema superciclo capex ia, tema antitrust tech, tema suministro semicondutores.
+
+## 9. Fuentes consultadas
+
+1. Alphabet Inc. - Form 10-K FY2025 (SEC EDGAR, presentado 05/02/2026) - https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm
+2. SEC EDGAR Submissions, Alphabet Inc. (CIK 0001652044; incluye 10-Q 2T 2026, presentado 23/07/2026) - https://data.sec.gov/submissions/CIK0001652044.json
+3. stockanalysis.com - Alphabet (GOOGL) Stock Price & Overview (metricas a 31/08/2026) - https://stockanalysis.com/stocks/googl/
+4. Wikipedia - Tensor Processing Unit (Broadcom co-desarrollador; TSMC fundicion de todas las generaciones) - https://en.wikipedia.org/wiki/Tensor_Processing_Unit
+5. Yahoo Finance - "Alphabet Q2 2026 earnings: revenue up 24%, Cloud surges 82%" (22/07/2026) - https://news.google.com/rss/articles/CBMinwFBVV95cUxNN3k5bnRtVlRMUG9STWZnZFRUUUR5U0x4TzV1ZXpoUjlLYXBQS0t4U0laQjZVV2pfNTgtTTZLNWg5c200VnVpbTZQSmVEeTBoRzFqNERiUlBkZ1lrWXNDdVRUV0l0TjVfWVdJQW9KY2huNW5QR3M0dzBackRtZ292UWstekZYMmY4V2N2RG5kcmtsM182VVNFWEthT0RWbXc?oc=5
+6. CNBC - "Google loses fight over record $4.7 billion EU antitrust fine" (02/07/2026) - https://news.google.com/rss/articles/CBMipAFBVV95cUxNMDgtdFV1YjNScWl5M2I4Y2ZwakxBMmVPUTFQd3BoclBjTk5xaXB6TUpjVU41VkxYR2JHYUtJS3p0ZlNiam5KUTJnV2o0UlNZckdFQlRldUc3b3BoWkFZNEdqdWVWZjloNk1kSzNIc0c1Q1pBaXdqNklsSUZXelZvZEpmczFaYnlsVGVUNlVqV1hWS1Q3aUtYWXBBWXZpeVhtQ19lRdIBqgFBVV95cUxOMW5LZlVidEJ6Z0tsSDg3bUZXMTFMU2JqTzFUeHdmSFJJaDFtMkxMTTFmcnlHeGFiMVdfWnJXREFEN0ptamhjdlhJX1B4UmQ3cElSWVVDcVBwSGY0VG1lZVU4ZHR3N0UtbDFMMUZ3b1Y0SU1mQ3p5MTdQQkw4UWE3eWhQRmhtTkRJcXlFWmQyOFhpLUhNQ0JEUUdlT1pId1E0Z3ducDlza2FKdw?oc=5
+7. TradingView - "Meta Could Overtake Google Search Ad Revenue In 2026, Bernstein Says" (31/08/2026) - https://news.google.com/rss/articles/CBMi5wFBVV95cUxOTUFKbGUxVjFOMFg0SDRMcXNIWDZMZjJnd0JIZ0FUOHRJclNGZDFJVkpmbEhjUjZweGlHaGpUSnBjRExPbGxvTkhMdWpVRTdEejlMMDB6YmlXUHJyLWxFNW05bkpReEsxMmZrNUdSQzRocmI1cDFkeEplQXdYNS1yaHJXYTl2TGJqUllma2VfYWFuaTVGWGMxVE9PN0NYeFoyakhkMlNMcjJrbTZKNy1xQTZZSUt3UjJlMkJwcnBXOFAxa2ZhMUZxc0pmdVR4a1M5MG43cXgwYWFTUHVVNkVLbFY4dDcweWM?oc=5
+8. webull - "Alphabet (GOOGL) Q2 2026 Earnings: Revenue Beats, Cloud Surges 82%" (28/08/2026) y entrada en el Dow (29/06/2026, MediaPost) - https://news.google.com/rss/articles/CBMimwFBVV95cUxOSXJDNzkxOFBVSmxsZThoNmt3Z0kweFhIT096V095YWdJd2wzWVU1MUtLVW81VGdJb0VIbmVncmFYcmZxRThuTFdsbzQ2OWs0OVJNYVVoRmsybWw4aHdGQW5zLXdOcWJHalNfczBfUTE2SFluYTFHT2ZubExJSWlVRzJmMUFiMGh0MlQzbUpPYmJ6Szl0QVI1Mm81cw?oc=5
+9. Alphabet Inc. - Form 10-Q Q2 2026 (SEC EDGAR, presentado 23/07/2026) - https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm
+
+Nota metodologica: Exa (agent-reach) no estuvo disponible (creditos agotados, error 402); se sustituyo por lectura directa con Jina Reader de fuentes primarias (SEC EDGAR, Wikipedia), stockanalysis.com, Google News RSS y buscadores alternativos (Bing/DDG, parcialmente bloqueados). La cifra de beneficio neto TTM de stockanalysis no cuadra con el 10-K auditado y queda pendiente de verificacion en [9].

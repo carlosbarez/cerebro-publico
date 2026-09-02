@@ -4,9 +4,6 @@ tipo: empresa
 tags: [empresa, software-empresarial]
 fecha: 2026-08-28
 agente: prime-agent
-veredicto: MANTENER
-valor_estimado: Sin datos
-gatillo_entrada: Aceleracion de Software >10% sostenida + ciclo z18 sin caida de Infrastructure
 ticker: IBM
 moneda: USD
 fuentes: "[\"https://newsroom.ibm.com/2026-01-28-IBM-RELEASES-FOURTH-QUARTER-RESULTS\", \"https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/ibm-20251231_d2.htm\", \"https://newsroom.ibm.com/2026-07-22-IBM-RELEASES-SECOND-QUARTER-RESULTS\", \"https://newsroom.ibm.com/2025-02-27-ibm-completes-acquisition-of-hashicorp\", \"https://stockanalysis.com/stocks/ibm/statistics/\", \"https://www.sec.gov/Archives/edgar/data/51143/000005114326000004/ibm-20260128xex991.htm\"]"

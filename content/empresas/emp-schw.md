@@ -1,0 +1,113 @@
+---
+title: "Charles Schwab (SCHW) - Ficha de investigacion"
+tipo: empresa
+tags: [empresa, corretaje, usa]
+fecha: 2026-08-31
+agente: carlos-barez
+squad: Analisis Fundamental - Empresas (Carlos Barez)
+status: sonde
+---
+
+# Charles Schwab (SCHW) - Ficha de investigacion
+
+> Fuentes base: SEC EDGAR 10-Q Q2 2026 (schw-20260630.htm); SEC EDGAR 10-K FY2025 (schw-20251231.htm); stockanalysis.com/stocks/SCHW; Google News RSS (SCHW 2026); Schwab Investor Relations.
+
+## 1. Resumen ejecutivo
+
+The Charles Schwab Corporation (SCHW) es un hibrido poco entendido: a la vez *broker-dealer* (corretaje) y *bank holding company* (matriz bancaria, con Charles Schwab Bank, SSB). Ese doble casco es la clave de su modelo y de su fragilidad. A 30-jun-2026 tiene **$517.266B de activos**, **$13,08 billones (trillones) de activos de clientes**, **39,8M de cuentas de corretaje activas** y genero **$9,72B de net income (ttm)** con **margen de interes neto (NIM) del 3,00%** en el 2T 2026 (10-Q, pp. 5-7; stockanalysis.com). Capitalizacion de mercado ~$190B (P/E tracto ~19,6x) (stockanalysis.com).
+
+Por que importa al inversor de largo plazo: Schwab no es solo "una app de corretaje". Su motor de beneficios es el **efectivo de los clientes**: el dinero que el cliente deja sin invertir (sweep) se deposita en su banco y se reinvierte en *agency MBS* y Treasuries. Ese spread es recurrente y escalable, pero lo ata al riesgo de tipos de interes de forma asimetrica. El angulo de esta sonda es precisamente ese: **riesgo de balance y de flujo de caja bajo estres de tipos, fragilidad oculta y covenants relevantes**.
+
+## 2. Estructura / modelo
+
+Schwab capta activos de clientes (corretaje + asesoria), cobra comisiones bajas/cero para atraer volumen, y monetiza el **efectivo ocioso** y los saldos de margen. Tres palancas de ingreso (10-Q, tablas 5-7):
+
+| Segmento de ingreso | Mecanica | Sensibilidad a tipos |
+|---|---|---|
+| Net interest revenue (NIR) | Spread sobre efectivo sweep + prestamos de margen + cartera AFS/HTM | Alta (la mayor parte del negocio) |
+| Comisiones y *trading* | Volumen de operaciones, DATs | Baja (pero cíclica) |
+| *Asset management* / *advisory* fees | % sobre AUM (fondos, ETFs, asesoria) | Media (AUM cae si mercado cae) |
+
+El balance a 30-jun-2026 (10-Q, tabla 34, $M):
+
+| Partida | 30-jun-2026 | 31-dic-2025 |
+|---|---|---|
+| Efectivo y equivalentes | 40.580 | 46.030 |
+| AFS securities (valor razonable) | 62.467 | 62.357 |
+| HTM securities (coste amortizado) | 130.568 | 133.969 |
+| Prestamos bancarios netos | 66.996 | 57.955 |
+| **Activos totales** | **517.266** | **490.995** |
+| Depositos bancarios | 249.682 | 255.747 |
+| Payables a clientes de corretaje | 123.968 | 116.341 |
+| Deuda a largo plazo | 22.669 | 22.199 |
+| Patrimonio total | 50.147 | 49.425 |
+
+La cartera de valores (AFS + HTM) suma **$183.673B = ~35,5% de los activos**, casi toda renta fija (agency MBS + Treasuries). El **funding** es, en ~80%, efectivo de clientes (depositos + payables). De los depositos bancarios, **$228.347B (91,4%) son "swept from brokerage accounts"** (10-Q, tabla 57) — es decir, efectivo de clientes de corretaje, no depositos "core" pegajosos.
+
+## 3. Numeros clave
+
+- **AFS securities**: coste amortizado $66.312B; valor razonable $62.467B → **$3.850B de perdidas no realizadas** (en AOCI) (10-Q, tablas 45-46).
+- **HTM securities**: coste amortizado $130.568B; valor razonable $121.206B → **~$9.362B de perdidas no realizadas fuera de AOCI** (no impactan resultado mientras se mantengan hasta vencimiento) (10-Q, tabla 45). *Perdida embedida total de la cartera ~$13,2B.*
+- **AOCI** (Accumulated Other Comprehensive Income/Loss): **$(10.575)B** a 30-jun-2026, vs $(10.983)B a 31-dic-2025 (10-Q, tabla 34). Mejora leve por entorno de tipos.
+- **Duration** de la cartera AFS+HTM: **3,6 anos** (3,9 a dic-25). Un repunte de +100pb en tipos restaria ~3,6% al valor de mercado del book (~$6,6B adicionales de perdida embedida) (10-Q, tabla 19).
+- **NIM**: 3,00% (2T26) y 2,94% (1S26), vs 2,66% y 2,59% en 2025 (10-Q, MD&A "Net Interest Revenue").
+- **CET1 / RWA**: CSC **24,4%** a 30-jun-2026, pero **cayo desde 30,4%** a dic-25 porque los activos ponderados por riesgo (RWA) crecieron de $118.782B a $150.030B (+26%) mientras el capital CET1 apenas subio ($36.081B → $36.538B) (10-Q, tabla 25). El banco (CSB) paso de 35,9% a 30,1%. Colchon gigante vs minimo ~7% (4,5% + buffers), pero la **tendencia de compresion es la senal a vigilar**.
+- **Liquidez**: lineas FHLB disponibles $32.836B, ventana de descuento Fed $27.967B, repo $7.810B, papel comercial $7.399B (10-Q, tabla 20).
+- **Rating deuda**: Senior Notes CSC **A2 / A- / A** (Moody's/S&P/Fitch), sin covenants financieros (10-Q, tabla 22; 10-K Nota 13).
+
+## 4. Posicion / marco conceptual
+
+El foso de Schwab es de **escala y coste de adquisicion de cliente**: 39,8M cuentas, $13,08Bn de AUM-cliente, integracion ya absorbida de TD Ameritrade. Una vez el cliente deposita, el efectivo ocioso es "pegajoso" por inercia (ver [[foso-economico]], client cash sweep). Esto lo acerca a un modelo de "tasa de interes pura" disfrazado de fintech.
+
+Pero el marco teorico correcto aqui es el de riesgo de tipos aplicado a un balance *matched-book* de duracion corta: Schwab tiene activos (MBS) de duration ~3,6 y pasivos (sweep) de duration casi cero y muy sensibles al tipo. Es, en esencia, un **carry trade de curva** implicito: toma financing a corto y compra MBS a medio. Eso es rentable en tipos estables/al alza, pero doloroso si (a) los tipos suben rapido (fuga de depositos + perdidas HTM mas profundas) o (b) los tipos bajan (el asset reprecia a la baja mas rapido que el pasivo, comprimiendo NIM). Conecta con duration, HTM vs AFS y control de danos.
+
+## 5. Catalizadores y riesgos
+
+**Riesgos (estres de tipos — el angulo obligatorio):**
+- *Fuga de depositos por subida de tipos.* Lenguaje literal del 10-Q: "During periods of rapidly rising interest rates, clients tend to reallocate cash out of sweep products into higher-yielding, off-balance sheet, fixed income investments and money market funds" — esto "reduce interes-earning assets y/o obliga a usar funding mas caro, comprimiendo net interest revenue" (10-Q, MD&A; tambien 10-K). Como 91% de los depositos son sweep, es un riesgo de funding real.
+- *Perdidas HTM embedidas.* ~$9,4B fuera de AOCI. No son problema de solvencia hoy (hold-to-maturity, colchon de capital enorme), pero limitan la capacidad de vender sin crystallizar y deprimen el valor tangible en un escenario de ventas forzadas.
+- *Compresion de NIM por bajada de tipos.* El 10-Q advierte: "A decline in short-term interest rates could negatively impact the yield on the Company's investment and loan portfolios to a greater degree than any offsetting reduction in interest expense from funding sources, compressing net interest margin." Esto es relevante en 2026 si la Fed recorta.
+- *Dependencia de la holding (CSC) de dividendos del banco.* En 2025, "Dividends from bank subsidiaries" aportaron $8.065B a la matriz (10-K, estado de flujos de la parent company). Esos dividendos estan limitados por capitalizacion regulatoria del banco — un "covenant" implicito y frágil si el banco se debilita.
+- *Crecimiento de RWA > capital.* La caida de CET1 de 30,4% a 24,4% muestra que el balance crece mas rapido que el capital; si continua, reduce el margen de maniobra.
+
+**Catalizadores positivos (novedades via Google News RSS, 2026):**
+- "Treasury rates climb" (simplywall.st, 30-ago-2026): repunte de tipos largos mejora yield del book pero aviva el riesgo de fuga de sweep (doble filo).
+- Schwab abre su "Digital Account API" a fintechs externos (Yahoo Finance, 26-ago-2026) y lanza trading de cripto (SOL/AVAX/LINK) en 39,9M cuentas (24/7 Wall St, 28-ago-2026): crecimiento de activos-cliente y fee income.
+- Resultados 2T26: "record revenue and earnings — but the stock sank" (qz.com, 22-jul-2026): el mercado descuenta el riesgo de tipos a pesar del record.
+- Supera el *Comprehensive Capital Analysis and Review* (CCAR) 2026 de la Fed (Yahoo Finance, 1-jul-2026): capital regulatorio sólido confirmado.
+
+## 6. Valoracion / implicaciones practicas
+
+A ~$190B de capitalizacion y P/E tracto ~19,6x (9,72B net income / 1,73B acciones implícitas; stockanalysis.com), Schwab cotiza con prima de calidad frente a bancos, justificada por su ROE (~23-25% anualizado, 10-Q tabla 30) y crecimiento de AUM-cliente. No es barato en terminos de margin of safety clasico.
+
+**Senal de alerta (dashboard del inversor):**
+1. NIM trimestral y retention de depositos swept (¿fuga a MMFs propios/off-balance?).
+2. Tamaño del book HTM y AOCI (hoy $(10,6)B; si supera -$15-20B en escenario de tipos +150pb, revaluar).
+3. Tendencia de CET1 / RWA (la compresion 30,4%→24,4% es la direccion a no ignorar).
+4. LCR y NSFR (Schwab es "Covered Company" sujeta a ambos; 10-K).
+5. Dividendos del banco a la matriz (liquidez de la holding).
+
+## 7. Veredicto para el inversor
+
+Schwab es un negocio de foso profundo y ROE alto, pero su beneficio es, en el fondo, una apuesta apalancada a la curva de tipos. La fragilidad es de **balance y flujo de caja**, no de solvencia hoy (colchon CET1 ~24% y acceso a Fed/FHLB). El riesgo real no es quiebra, sino **compresion de NIM y fuga de depositos sweep** si los tipos se mueven rapido en cualquier direccion. Para un inversor a largo plazo: posicion core sólida, pero no tratarla como "fintech sin riesgo de tipos". Comprar en debilidad solo si el NIM y la retention de depositos aguantan.
+
+## 8. Segundo orden (OBLIGATORIO y central en este wiki)
+
+- **Si los tipos suben rapido:** la perdida HTM embedida crece (hoy ~$9,4B), el AOCI se hunde, y — lo decisivo — los clientes mueven efectivo fuera del sweep. Eso obliga a Schwab a financiarse caro (repo/FHLB/CP) o vender MBS en perdida. El segundo orden: un shock de depositos en Schwab es contagioso al sector banca regional 2023 porque todos comparten el mismo modelo de "efectivo cliente → MBS". No es riesgo idiosincrasico; es sistenico de un arquetipo.
+- **Si los tipos bajan:** el asset reprecia antes que el pasivo y el NIM se comprime (propio aviso del 10-Q). El segundo orden es que el mercado penaliza las "acciones de cash yield" (ver simplemente noticia 30-ago-2026: "cash yield plays as Treasury rates climb" implica el trade inverso si caen). Conecta con regimen de tipos y rotation a valor.
+- **Covenants "reales" son regulatorios, no de deuda.** Las Senior Notes (A2/A-/A) no tienen covenants financieros de mantenimiento (10-K Nota 13); el vinculo que si duele es CET1/SLR/LCR/NSFR y la limitacion de dividendos del banco a la matriz. Esto choca con la intuicion de "analizar covenants de deuda" en empresas no financieras: aqui el capital regulatorio es el covenant.
+- **Donde choca con otras fuentes/tesis del Cerebro:** frente a la tesis de "calidad a cualquier precio", Schwab parece quality pero esconde duration y funding sensitivity; frente a [[inversion-a-largo-plazo]] tipo Buffett, su earnings power depende de un entorno de tipos benigno que nadie controla. Lo llevo a empresas corretaje y riesgo de tipos como caso de estudio de "fragilidad oculta en balances aparentemente sanos".
+- **Que vigilar Carlos a 3-5 anos:** (1) si el modelo de "efectivo ocioso" se erosiona por regulacion de sweep o por MMFs mas competitivos; (2) si RWA crece mas que capital hasta acercar CET1 a niveles solo "confortables"; (3) integracion cripto/API como nuevo vector de AUM o de riesgo operativo; (4) un regimen de tipos mas volatil que exponga la asimetria documentada arriba. Mantener segundo orden de esta tesis enlazada a control de danos y duration.
+
+## 9. Fuentes consultadas
+
+1. The Charles Schwab Corporation — Form 10-Q (Q2 2026, periodo 30-jun-2026) — https://www.sec.gov/Archives/edgar/data/316709/000031670926000031/schw-20260630.htm (filed 2026-08-07)
+2. The Charles Schwab Corporation — Form 10-K (FY2025, periodo 31-dic-2025) — https://www.sec.gov/Archives/edgar/data/316709/000031670926000009/schw-20251231.htm (filed 2026-02-25)
+3. stockanalysis.com — SCHW metrics (market cap, revenue ttm, net income ttm, beta, 52-week range, shares out) — https://stockanalysis.com/stocks/SCHW/
+4. Google News RSS — "Charles Schwab SCHW 2026" (titulares: qz.com 22-jul-2026; Yahoo Finance CCAR 1-jul-2026; simplywall.st 30-ago-2026; 24/7 Wall St cripto 28-ago-2026; Yahoo API fintechs 26-ago-2026) — https://news.google.com/rss/search?q=Charles+Schwab+SCHW+2026&hl=en-US
+5. Schwab Investor Relations — https://www.aboutschwab.com/investor-relations (canal primario oficial; acceso parcial por bloqueo de red)
+6. qz.com — "Charles Schwab posted record revenue and earnings — but the stock sank" (22-jul-2026) — https://news.google.com/rss/articles/CBMigAFBVV95cUxOSE16LTFaQXZJdnhxNFFvaEoycG5zaUJpdUh0a0U2Z3NwbjVTc1JYSXE1cTl2X0FwVjE5bHplRkhaaWpuZElLa2F2Vms1dFcwUHIzcEFUVjFaMlZvSHF0VTVmdE15YklWSW5kNzdDbUFMUmhVQWJaMG1McV94d3NWUQ
+7. Yahoo Finance — "Here's Where Charles Schwab Stands As Per Federal Reserve's 2026 Comprehensive Capital Analysis" (1-jul-2026) — https://news.google.com/rss/articles/CBMipAFBVV95cUxNUFJuLVJDNG5ybVRVeUdITnkyaFowQk43cEh2VndrWVJVTERfX0FGQmtGaElBR0JyT29uYUU4NEt0R3hlMU9YajNJS3hqaTQ4ZzRvZGkwVjNRbzJ5Tl8xcm8zZ0dtUHZPLUI5alNyNlJDNUdmM0JYdUR6V0hkOE5MUzhOMGl2RE9NcTRmbjdIT0h1ZF9nSVVDdnlxQ2lJSUNONTJycg
+8. simplywall.st — "Charles Schwab Stock And Other Cash Yield Plays As Treasury Rates Climb" (30-ago-2026) — https://news.google.com/rss/search?q=Charles+Schwab+SCHW+2026&hl=en-US
+
+**Limitaciones de la sonda (honestidad):** El canal de busqueda semantica Exa (mcporter) devolvio 402 "credits exceeded" y quedo fuera de servicio; se degrado a fuentes primarias SEC + stockanalysis + Google News RSS (Jina Reader bloqueo news.google.com por abuse, asi que solo se citan titulares/RSS, no cuerpo de articulos). No se localizo en los filings revisados (10-Q/10-K) un "capital support agreement" explicito sobre los money market funds propios; por tanto no se afirma esa garantia y se documenta en su lugar la fuga de sweep off-balance-sheet citada literalmente por la propia empresa. Cifras en $M salvo indicado; "billones" = trillions en notacion espanola de los filingstatos.

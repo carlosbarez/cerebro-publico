@@ -1,0 +1,123 @@
+---
+title: "Transicion energetica: donde esta el capital atrapado"
+tipo: sintesis
+tags: [energia, transicion, capital]
+fecha: 2026-08-30
+agente: elena-vega
+squad: Macro & Geopolitica (Elena)
+status: durable
+---
+
+# Transicion energetica: donde esta el capital atrapado
+
+> Fuentes base: IEA World Energy Investment 2025 (https://www.iea.org/reports/world-energy-investment-2025/executive-summary); IEA Electricity Grids and Secure Energy Transitions (https://www.iea.org/reports/electricity-grids-and-secure-energy-transitions/executive-summary); IEA Global Critical Minerals Outlook 2026 (https://www.iea.org/reports/global-critical-minerals-outlook-2026/outlook); BloombergNEF Energy Transition Investment Trends 2026 (https://about.bnef.com/insights/clean-energy/bloombergnef-finds-global-energy-transition-investment-reached-record-2-3-trillion-in-2025-up-8-from-2024/); BBVA Research "Grid, Baby, Grid" (https://www.bbvaresearch.com/wp-content/uploads/2026/02/Grid_Baby_Grid_edi_VF.pdf); CPI Clean Energy Equity Investment Gap (https://www.climatepolicyinitiative.org/publication/the-clean-energy-equity-investment-gap/).
+
+## 1. Resumen ejecutivo
+
+La "transicion energetica" no tiene un problema de escasez de capital en genera: el dinero fluye. El problema es de *asignacion*: el capital esta atrapado en dos sentidos opuestos a la vez. (1) Atrapado en activos obsoletos — centrales de carbon y redes de gas que pierden valor antes de fin de vida ("stranded assets") — y (2) atrapado fuera de los cuellos de botella reales: la red electrica (grid), las materias primas criticas y los mercados emergentes. Invertimos mas en generacion (solar ya barato) de lo que invertimos en el tejido que conecta esa generacion con el consumo.
+
+Cifras clave:
+- Inversion total en energia 2025: **USD 3,3 billones** (+2% real vs 2024); de ellos **USD 2,2 bn** a energia limpia vs **USD 1,1 bn** a petroleo/gas/carbon (IEA World Energy Investment 2025). [1]
+- Inversion en transicion (definicion BNEF, incluye VE, cadena de suministro, deuda/climate-tech): **USD 2,3 billones en 2025** (+8% interanual), maximo historico (BloombergNEF, ene-2026). [4]
+- La red electrica recibe solo **~USD 300.000M/ano** y lleva una decada estancada; la IEA dice que debe *casi duplicarse a >USD 600.000M/ano para 2030* para cumplir objetivos (IEA Grids). [2]
+- Hay **~3.000 GW de proyectos renovables paralizados en colas de interconexion** por falta de red (BBVA, citando IEA). [6]
+
+## 2. Estructura / modelo
+
+El capital de la transicion se reparte en tres capas que no crecen al mismo ritmo:
+
+| Capa | Qué es | Estado del capital | Fuente |
+|---|---|---|---|
+| Generacion (solar, eolica, nuclear) | Activo de "produccion" | Sobreinvertido/barato; renovables cayeron -9,5% i.a. en 2025 por regulacion en China (BNEF) | [4] |
+| Red (transmision + distribucion) | Tejido conectivo | Infrainvertido; +20% en la decada vs casi duplicarse las renovables (BBVA) | [6] |
+| Materias primas (cobre, litio, tierras raras) | Sustrato fisico | Demand gap; cobre con hueco de oferta ~25% (IEA) | [3] |
+| Equidad en EMDE | Capital semilla en mercados emergentes | Hueco de ~USD 215.000M/ano (CPI) | [5] |
+
+Mecanica del "capital atrapado":
+- **Stranded assets (utilities):** un activo queda "varado" cuando pierde valor economico esperado antes de fin de vida tecnica por politica, coste renovable, precio de carbono o demanda (Ohros). En utilities reguladas de EE.UU. el impacto suele ser manejable porque los reguladores permiten recuperacion (depreciacion acelerada, "regulatory asset", securitizacion) que pagan los clientes; en Europa, con generacion no regulada, la exposicion es mayor (Loomis Sayles). [7][9]
+- **Grid bottleneck:** la red tarda 5-15 anos en planificarse/permisarse/construirse vs 1-5 anos de renovables y <2 anos de cargadores VE (IEA Grids). Eso crea el atasco de 3.000 GW. [2][6]
+- **Materias primas:** la demanda casi se duplica a 2040 (STEPS); el lithio >3x; el cobre suma ~7 Mt. Pero la capacidad de refinado y downstream queda rezagada frente al mining (IEA Minerals 2026). [3]
+
+## 3. Numeros clave
+
+- Inversion total energia 2025: USD 3,3 bn (+2% real); limpia 2x la de fossil (USD 2,2 vs 1,1 bn) — IEA WEO 2025. [1]
+- BNEF 2025 por segmento: transporte electrificado USD 893.000M; renovables USD 690.000M (-9,5% i.a.); red USD 483.000M; hidrogeno USD 7.300M; nuclear USD 36.000M. Escenario base BNEF: ~USD 2,9 bn/ano de media en los proximos 5 anos. [4]
+- Asia-Pacificico = 47% de la inversion global; China USD 800.000M (primer descenso en renovables desde 2013); UE +18% a USD 455.000M; EE.UU. +3,5% a USD 378.000M (BNEF). [4]
+- Red: ~USD 300.000M/ano estancada; objetivo IEA >USD 600.000M/ano para 2030; hace falta anadir/rehabilitar >80 M km de redes para 2040 (equivalente a toda la red global actual) — IEA Grids. [2]
+- "Grid Delay Case" (IEA): +58 Gt CO2 acumuladas al 2050; importaciones de gas +80 bcm/ano tras 2030; las interrupciones ya cuestan ~USD 100.000M/ano (0,1% del PIB mundial). [2]
+- Minerales: demanda casi se duplica a 2040 (STEPS); lithio >3x; niquel/grafito/tierras raras +50-90%; cobre +7 Mt y hueco de oferta ~25%; cobalto hueco >25% (IEA Minerals 2026). [3]
+- EMDE: hueco de equidad de ~USD 215.000M/ano hacia 2035 (base USD 160.000M vs necesario USD 375.000M); USD 12-25.000M/ano de equidad catalitica podrian desbloquear hasta USD 30 por cada USD 1 (CPI). [5]
+- EE.UU. carbon: 23% de capacidad en 2019 (39% en 2000); EIA proyecta 13% al 2050. Europa: 2/3 de generacion "limpia" en 2019 (Loomis Sayles). [7]
+
+## 4. Posicion / marco conceptual
+
+La transicion es, en el fondo, un problema de *infraestructura y tiempo*, no de tecnologia. La generacion ya es un commodity barato; el foso (moat) esta en lo que escarce: redes, permisos y mineral. Quien controla el cuello de botella captura la renta.
+
+Conecta con otras tesis del Cerebro:
+- utilities regulated vs mercados — la diferencia EE.UU. (regulado, recuperacion asegurada) vs Europa (no regulado, expose a stranded) es el nucleo del riesgo de utilidades.
+- materias primas transicion — cobre y lithio como "petroleo de la transicion"; el hueco de refinado es el verdadero cuello, no la mina.
+- inflacion y energia — el coste de la red y de las interrupciones (USD 100.000M/ano) es inflacion estructural encubierta en la factura.
+- coste del capital — en EMDE el alto coste del capital es la barrera principal (IEA), no la falta de proyectos.
+
+## 5. Catalizadores y riesgos
+
+Catalizadores a favor:
+- IA y data centers disparan la demanda de electricidad y refuerzan la necesidad de red (BBVA). [6]
+- Equidad catalitica (GFANZ/CPI) para destrabar EMDE. [5]
+- Reconocimiento politico del grid como "binding constraint" (BBVA "Grid, Baby, Grid", feb-2026). [6]
+
+Riesgos / novedades recientes (Google News RSS, 2026):
+- Espana: el apagado de aerogeneradores (curtailment) costo ~1.600 M EUR en un ano (abr-2026) — sintoma vivo del cuello de red. [10]
+- EE.UU.: informe NRDC (ago-2026) alerta de que acciones politicas elevan las facturas de utilidades y destruyen inversion. [11]
+- Recorte de renovables en China tras cambios regulatorios (BNEF: renovables -9,5% i.a.). [4]
+- Geofragmentacion: el refinado de minerales criticos sigue concentrado (China domina midstream/downstream); diversificacion lenta (IEA Minerals 2026). [3]
+
+## 6. Valoracion / implicaciones practicas
+
+Para el inversor de largo plazo:
+- **Sobrepesar el cuello de botella, no la generacion.** Red (utilities de transmision, operadores de red, "grid-enhancing technologies") y materias primas (cobre, lithio) tienen mas recorrido estructural que solar/eolica ya commoditizados.
+- **Utilities:** preferir reguladas (EE.UU.) con recuperacion asegurada de stranded; cautela con generadoras no reguladas europeas expuestas a cierre prematuro. [7][9]
+- **Senal de alerta:** si la inversion en red no acelera a >USD 600.000M/ano para 2030, el crecimiento renovable se frenara y el curtailment (derroche de energia ya construida) se disparara — ya visible en Espana. [2][10]
+- **EMDE:** el hueco de equidad (USD 215.000M/ano) es oportunidad para capital catalitico con apalancamiento 30x (CPI). [5]
+
+## 7. Veredicto para el inversor
+
+El capital no falta; esta mal colocado. Esta atrapado en carbon y gas que se varan, y ausente en la red y el mineral que lo conectan todo. La asimetria de rentabilidad esta en el cuello de botella (grid + materias primas), no en la generacion ya ganada. Vigilar la aceleracion real de inversion en red como variable decisiva.
+
+## 8. Segundo orden (OBLIGATORIO)
+
+Implicaciones de las implicaciones:
+- **El "stranded asset" se traslada al consumidor.** En EE.UU. la recuperacion de activos varados la paga la factura (Loomis). El segundo orden es politico: facturas mas altas -> presion regulatoria/electoral -> riesgo de reestructuracion de utilidades. Conecta con riesgo regulatorio utilities.
+- **Curtailment = destruccion de capital ya invertido.** Toda la generacion construida que no puede verterse por falta de red es capital atrapado post-inversion. Espana (1.600 M EUR/ano) es el canario en la mina; si se repite, el coste por MWh de renovables encarece y el TIR de proyectos cae. [10]
+- **Materias primas como nuevo eje geopolitico.** El hueco de refinado (no de mina) concentrado en China implica que la transicion depende de una cadena geofragmentada; un choque aduanero dispara el precio del cobre y frena la red. Conecta con geopolitica materias primas y seguridad energetica.
+- **El grid es tambien inflacion.** Las interrupciones cuestan ~USD 100.000M/ano (0,1% PIB); redes caras y lentas son un impuesto invisible. Toca inflacion estructural.
+- **EMDE es el cuello moral y de retorno.** Sin USD 215.000M/ano de equidad, la transicion no escala donde mas crece la demanda; el capital occidental queda atrapado en mercados saturados mientras el Sur se queda sin red. Conecta con mercados emergentes capital.
+- **Choque con otras fuentes:** BNEF (USD 483.000M grid 2025) vs IEA (~USD 300.000M/ano) miden cosas distintas; no son contradictorios pero hay ruido metodologico. Carlos debe desconfiar de comparar "inversion en transicion" entre ambos sin leer la definicion.
+- **A 3-5 anos vigilar:** (i) si la red supera USD 600.000M/ano reales; (ii) el hueco de cobre (25%) y si China restringe refinado; (iii) facturas de utilidades en EE.UU./Espana como termometro de transferencia de stranded al consumidor; (iv) si el capital catalitico EMDE despega (apalancamiento 30x).
+
+## 9. Fuentes consultadas
+1. IEA, World Energy Investment 2025 (Executive summary) - https://www.iea.org/reports/world-energy-investment-2025/executive-summary (2025)
+2. IEA, Electricity Grids and Secure Energy Transitions (Executive summary) - https://www.iea.org/reports/electricity-grids-and-secure-energy-transitions/executive-summary (2023)
+3. IEA, Global Critical Minerals Outlook 2026 (Outlook) - https://www.iea.org/reports/global-critical-minerals-outlook-2026/outlook (2026)
+4. BloombergNEF, Energy Transition Investment Trends (record USD 2,3 bn en 2025) - https://about.bnef.com/insights/clean-energy/bloombergnef-finds-global-energy-transition-investment-reached-record-2-3-trillion-in-2025-up-8-from-2024/ (2026-01-26)
+5. Climate Policy Initiative, The Clean Energy Equity Investment Gap - https://www.climatepolicyinitiative.org/publication/the-clean-energy-equity-investment-gap/ (2025-11-14)
+6. BBVA Research, "Grid, Baby, Grid" (J. Julian Cubero) - https://www.bbvaresearch.com/wp-content/uploads/2026/02/Grid_Baby_Grid_edi_VF.pdf (2026-02-11)
+7. Loomis Sayles, Stranded Assets: Assessing the Impact on US and European Utilities - https://info.loomissayles.com/stranded-assets-assessing-the-impact-on-us-and-european-utilities (s.f.)
+8. Ohros Consulting Group, Can energy transition asset management reduce stranded asset risk for utilities? - https://ohrosgroup.com/can-energy-transition-asset-management-reduce-stranded-asset-risk-for-utilities/ (2026-08-06)
+9. Deloitte, Funding the energy transition in the US electric power sector - https://www.deloitte.com/us/en/insights/industry/power-and-utilities/funding-energy-transition.html (2024-09-22)
+10. Google News RSS: "A este pais le ha costado 1.600.000.000 EUR el apagado de sus aerogeneradores eolicos en un ano" - https://news.google.com/rss/search?q=curtailment%20renovables%20red (2026-04-13)
+11. Google News RSS: NRDC Report "How Trump's Actions Are Hiking Utility Bills and Destroying Investments" - https://news.google.com/rss/search?q=utilities%20stranded%20assets (2026-08-27)
+
+---
+
+## Nota de evolucion 2026-08-30 (elisa)
+
+Asenso a pagina durable del wiki tras revision de la CIO. La sonde de origen (scratchpad/sondas-2026-08-30/transicion-energetica-capital-atrapado.md) se valido: estructura completa de 9 secciones, seccion de segundo orden presente y >=6 fuentes reales. No se reescribio ninguna afirmacion previa. Trailer de commit: Agente: elisa.
+
+## Ver también
+
+- [[cartas-inversores-top-2026]] · [[chokepoints-fisicos-comercio]] · [[contrarian-senales-utiles]] · [[demografia-inversora-japon]] · [[deuda-publica-primacia]] · [[guerras-arancelarias-2-orden]] · [[historia-ciclos-capital]] · [[moats-en-decadencia]] · [[narrativas-mercado-2-orden]] · [[pensadores-originales-finanzas]] · [[post-mortem-quiebras]] · [[regimen-tipos-2026-2028]] · [[renault]] · [[stellantis]]
+
+## Nota de evolución 2026-08-31 (cerebro-enlaza)
+
+Red de conocimiento: enlace de la hornada durable 2026-08-30 en red neuronal interna (sección «Ver también»). Verificación previa: 41 páginas ascendidas con `status: durable` y validación CIO (9 secciones, 2º orden, ≥6 fuentes), frontmatter canónico, 0 errores. Hallazgo: `itau-unibanco` duplicado en `empresas/` y `analisis-acciones/` (colisión de slug; pendiente decisión de Carlos). Trailer: Agente: cerebro-enlaza.

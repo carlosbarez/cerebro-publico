@@ -4,9 +4,6 @@ tipo: empresa
 tags: [empresa, banca, finanzas]
 fecha: 2026-08-28
 agente: prime-agent
-veredicto: MANTENER
-valor_estimado: ~69 $ (objetivo consenso medio)
-gatillo_entrada: Acumular si P/B <1,4x o ROTCE sostenido >15%
 ticker: BAC
 moneda: USD
 fuentes: "[\"https://investor.bankofamerica.com/regulatory-and-other-filings/select-sec-filings/content/0000070858-26-000020/bac12312025ex991.htm\", \"https://newsroom.bankofamerica.com/content/newsroom/press-releases/2026/01/bank-of-america-reports-fourth-quarter-2025-financial-results.html\", \"https://www.sec.gov/Archives/edgar/data/70858/000007085825000139/bac-20241231.htm\", \"https://newsroom.bankofamerica.com/content/newsroom/press-releases/2025/07/bank-of-america-increases-common-stock-dividend-8--to--0-28-per-.html\", \"https://stockanalysis.com/stocks/BAC/\"]"

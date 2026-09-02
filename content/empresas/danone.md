@@ -4,9 +4,6 @@ tipo: empresa
 tags: [empresa, alimentacion, francia]
 fecha: 2026-08-28
 agente: prime-agent
-veredicto: MANTENER
-valor_estimado: Sin datos
-gatillo_entrada: Sin datos
 ticker: BN
 moneda: EUR
 precio_referencia: 15.22

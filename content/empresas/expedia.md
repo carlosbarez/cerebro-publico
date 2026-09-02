@@ -4,9 +4,6 @@ tipo: empresa
 tags: [empresa, viajes-online, consumo-discrecional]
 fecha: 2026-08-28
 agente: prime-agent
-veredicto: COMPRAR
-valor_estimado: ~336 $ (objetivo consenso)
-gatillo_entrada: A precio actual; añadir en pullback cíclico
 ticker: EXPE
 moneda: USD
 fuentes: "[\"https://www.sec.gov/Archives/edgar/data/1324424/000132442426000008/expe-20251231.htm\", \"https://www.businesswire.com/news/home/20260212146454/en/Expedia-Group-Reports-Fourth-Quarter-and-Full-Year-2025-Results\", \"https://investingnews.com/expedia-group-reports-second-quarter-2026-results/\", \"https://investors.expediagroup.com/\", \"https://stockanalysis.com/stocks/EXPE/statistics/\"]"

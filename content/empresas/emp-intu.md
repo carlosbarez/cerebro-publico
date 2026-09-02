@@ -1,0 +1,106 @@
+---
+title: "Intuit (INTU) - Ficha de investigacion"
+tipo: empresa
+tags: [empresa, software, usa]
+fecha: 2026-08-31
+agente: carlos-barez
+squad: Analisis Fundamental - Empresas (Carlos Barez)
+status: sonde
+---
+
+# Intuit (INTU) - Ficha de investigacion
+
+> Fuentes base: SEC 10-K FY2025 (data.sec.gov); Intuit IR - Resultados Q4/FY2026 (investors.intuit.com); stockanalysis.com/INTU; Google News RSS.
+
+## 1. Resumen ejecutivo
+
+Intuit (Nasdaq: INTU) es una **fintech** (empresa de tecnologia financiera) estadounidense que opera un "plataforma financiera" con cuatro marcas nucleo: **TurboTax** (declaracion de la renta/impuestos para particulares), **QuickBooks** (software de gestion para pymes, incluido Mailchimp), **Credit Karma** (marketplace de credito y productos financieros) e **Intuit Enterprise Suite**. Su modelo es de suscripcion recurrente + servicios "asistidos" (expertos humanos + IA).
+
+Por que importa al inversor de largo plazo: es un **compounder** (crecedor compuesto) de alta calidad, con ingresos recurrentes, márgenes elevados y fuerte generacion de caja libre, pero en 2026 esta profundamente castigado por el mercado por tres nervios: (1) desaceleracion del crecimiento, (2) riesgo de intrusion gubernamental en su negocio fiscal (IRS Direct File) y (3) la amenaza de que la **IA** (inteligencia artificial generativa) commoditice la preparacion de impuestos.
+
+Cifras clave (ejercicio fiscal que cierra 31 jul):
+- Ingresos FY2026: **$21.4B (+14%)** ([IR Intuit, release FY2026](https://investors.intuit.com/news-events/press-releases/detail/1320/intuit-reports-fourth-quarter-and-full-year-fiscal-2026-results-sets)).
+- BPA (EPS) GAAP FY2026: **$16.46 (+20%)**; no-GAAP **$24.27 (+20%)** (misma fuente).
+- Capitalizacion de mercado ~**$98.1B**; precio ~**$358**; rango 52 semanas **$252.84–$705.08** ([stockanalysis.com/INTU](https://stockanalysis.com/stocks/INTU/)).
+- Múltiplo: **P/E forward ~14.8x** (no-GAAP), P/E GAAP ttm ~21.8x; el valor esta **~49% por debajo** de su maximo de 52 semanas.
+
+## 2. Estructura / modelo
+
+Intuit factura por suscripcion (QuickBooks Online, TurboTax Live, Credit Karma) y monetiza la "economia de la atencion financiera": cobra a bancos y prestamistas cuando deriva usuarios de Credit Karma, cobra comisiones de procesamiento de pagos (Money) y vende servicios de expertos (TurboTax Live, QuickBooks Live). La mecanica es **lock-in** (coste de cambio) + **efectos de red** (mas usuarios => mas datos => mejor producto/IA) + venta cruzada.
+
+Segmentos (nota: Intuit reestructuro la presentacion; en FY2026 agrupa TurboTax + Credit Karma + ProTax bajo "Consumer"):
+
+| Segmento | Ingresos FY2025 (10-K) | Ingresos FY2026 (release) | Crecimiento FY2026 |
+|---|---|---|---|
+| Global Business Solutions (QuickBooks+Mailchimp) | $11,077M (59%) | $12.9B | +16% |
+| Consumer (TurboTax) | $4,870M | $5.3B (TurboTax) | +7% |
+| Credit Karma | $2,263M | $2.6B | +20% |
+| ProTax (Lacerte/ProSeries) | $621M | $647M | +4% |
+| **Total** | **$18,831M** | **$21.4B** | **+14%** |
+
+Fuentes: [10-K FY2025, Tabla de segmentos](https://www.sec.gov/Archives/edgar/data/896878/000089687825000035/intu-20250731.htm) y [release FY2026](https://investors.intuit.com/news-events/press-releases/detail/1320/intuit-reports-fourth-quarter-and-full-year-fiscal-2026-results-sets). Mailchimp pasara a ser segmento aparte en FY2027.
+
+## 3. Numeros clave
+
+Serie anual de ingresos y resultado (XBRL SEC, unidades USD; cifras en miles de millones):
+- Ingresos: FY2021 $9.63B → FY2022 $12.73B → FY2023 $14.37B → FY2024 $16.29B → FY2025 $18.83B → FY2026 $21.4B (prensa).
+- Beneficio neto: FY2024 $2.96B; FY2025 $3.87B; FY2026 (BPA GAAP $16.46 x ~273.5M acciones ≈ $4.5B, coherente con net income ttm $4.57B de [stockanalysis](https://stockanalysis.com/stocks/INTU/)).
+- BPA diluido GAAP: FY2024 $10.43 → FY2025 $13.67 → FY2026 $16.46.
+- Margen operativo GAAP FY2026: $5.9B (+20%); no-GAAP $8.9B (+18%).
+- Caja e inversiones $7.2B; deuda $7.7B a 31-jul-2026.
+- Retribucion al accionista FY2026: recompra de acciones **$5.5B (+96%)**; autorizacion restante **$7.9B**; dividendo trimestral **$1.38/accion (+15%)** => retorno anualizado ~$5.52 (yield ~1.54%).
+- **Dato de alerta (unidades TurboTax, FY2026 vs FY2025):** unidades totales EE.UU. **−2%** (39.0M vs 39.9M); Desktop −7%, Online −2%. El ingreso crece mientras el volumen de usuarios cae => crecimiento vía precio y mix hacia TurboTax Live (que ya es 53% de TurboTax, +37%). (Fuente: release FY2026, seccion "TurboTax Federal Unit Data".)
+
+## 4. Posicion / marco conceptual
+
+El **foso (moat)** de Intuit descansa en tres patas, en orden de fuerza:
+1. **Coste de cambio (switching costs)** en QuickBooks: la contabilidad, nomina y pagos de una pyme estan enterrados en el producto; migrar es caro y arriesgado. Es el segmento mas sano (Online Ecosystem +19% en FY2026).
+2. **Efectos de red y datos** en Credit Karma (match entre usuarios y prestamistas) y en la base de declarantes de TurboTax.
+3. **Marca y confianza** ("done-for-you" / "expertos") en el consumo fiscal.
+
+La narrativa de la directiva (Sasan Goodarzi) es reinventarse como **"plataforma experta impulsada por IA"** / "sistema financiero de inteligencia" que "hace el trabajo por ti". Sus **"Big Bets"** (apuestas grandes, IA generativa tipo Intuit Assist/Genie) crecieron **+34%** y ya son **30% de los ingresos FY2026**. Esto conecta con foso competitivo, coste de cambio, efectos de red, inteligencia artificial generativa y compounders de calidad del Cerebro.
+
+## 5. Catalizadores y riesgos
+
+**Catalizadores a favor:**
+- Pivot a servicios asistidos (TurboTax Live +37%; 53% de TurboTax) y a "expertos+IA" => mas recurrencia y menos estacionalidad.
+- QuickBooks Online Accounting +23% y Online Services +16% (ex-Mailchimp +24%): motor pymes intacto.
+- Buybacks agresivos ($5.5B, +96%) y dividendo creciente soportan el BPA.
+- Valoracion hundida: ~15x forward tras caer casi mitad desde maximos.
+
+**Riesgos (novedades recientes via Google News RSS, agosto 2026):**
+- **Guia FY2027 decepcionante:** en la presentacion de Q4 (25-ago-2026) Intuit guiaba Q1FY27 con ingresos +11% (desaceleracion desde +14%), y la accion **se hundio** ("Intuit Stock Plunges After Weak 2027 Forecast Shocks Investors", TradingView, 26-ago-2026; "INTU Stock Is Tumbling Despite Earnings Beat", TradingView, 25-ago-2026). Ver feed reproducible: [Google News RSS: Intuit INTU earnings 2026](https://news.google.com/rss/search?q=Intuit+INTU+earnings+2026&hl=es).
+- **Presion competitiva en TurboTax:** "cost of winning back TurboTax customers" (TIKR, 26-ago-2026) y unidades totales −2%. La accion cayo un 38% en 2026 y un 18% en una sola semana a mayo de 2026 (TIKR).
+- **Intrusion gubernamental:** el propio 10-K lista como riesgo "potential governmental encroachment in our tax business" ([10-K Item 1A](https://www.sec.gov/Archives/edgar/data/896878/000089687825000035/intu-20250731.htm)) — i.e. IRS Direct File (presentacion gratuita de la renta por el Estado) y otras opciones publicas gratuitas.
+- **Riesgo IA (doble filo):** el 10-K tambien lista "our ability to develop, deploy, and use AI" como riesgo. La IA puede commoditizar la preparacion de impuestos (bajando el poder de fijacion de precios) o, si Intuit manda, reforzar el foso con datos propietarios.
+
+## 6. Valoracion / implicaciones practicas
+
+A ~$358 y $98B de capitalizacion: **P/E forward ~14.8x** (no-GAAP $24.27 esperado FY2026 base; guia Q1FY27 implica +30-33% en BPA no-GAAP), **P/E GAAP ttm ~21.8x**, **P/S ~4.6x** sobre ingresos ttm $21.45B. Para un negocio con ROIC alto, caja libre robusta y crecimiento de doble digito, el multiple esta **comprimido historicamente** (Intuit solia cotizar 30-50x). El mercado esta descontando disruption.
+
+Senal de alerta para Carlos: vigilar (1) la **desaceleracion a ~11%** en guia FY2027 y si es structural o por inversion; (2) si las **recompras ($5.5B, +96%) estan enmascarando** una ralentizacion organica del crecimiento; (3) la **trayectoria de unidades TurboTax** (ya cae −2%) como canario en la mina del foso de consumo. Si el foso de QuickBooks/Credit Karma aguanta y la IA se convierte en ventaja, la asimetria es favorable a estos precios; si IRS Direct File + IA quiebran TurboTax, el segmento de Consumo (~40% de ingresos) esta en riesgo.
+
+## 7. Veredicto para el inversor
+
+Intuit es un negocio de calidad excepcional que, en 2026, cotiza con el descuento mas alto en anos por miedo a que su foso de consumo (TurboTax) sea erosionado por el Estado (IRS Direct File) y por la IA. El motor de pymes (QuickBooks) sigue fuerte. Mi lectura honesta: **oportunidad de comprador paciente a estos precios, pero con riesgo de cola real de disrupcion regulatoria/tecnologica en el segmento fiscal**. No es una "compra ciega"; exige seguimiento trimestral de unidades TurboTax y guias de crecimiento.
+
+## 8. Segundo orden (OBLIGATORIO)
+
+- **El foso se esta desplazando, no desapareciendo.** El riesgo de segundo orden de IRS Direct File + IA generativa es que el "software de llenar formularios" se commoditice; Intuit responde pivotando de *producto de caja* a *red de expertos+IA* (TurboTax Live ya 53% de TurboTax). Si el valor para el cliente pasa de "hago yo el formulario" a "un experto/IA me saca del paso y responde si me auditam", el foso muta de lock-in de software a **confianza + responsabilidad + datos**. Eso es mas defensible pero menos escalable que el software puro.
+- **La IA es amenaza y escudo a la vez.** Bajar el coste de preparar impuestos para todos erosiona el poder de fijacion (segundo orden negativo para margenes de consumo), pero quien posea el "sistema de inteligencia" con datos transaccionales propios (QuickBooks + Credit Karma + TurboTax) puede volverse el **punto de integracion** de la vida financiera del usuario — conecta con ia como commodity vs moat y plataformas vs productos.
+- **Desaceleracion + buybacks masivos = senal mixta.** Subir recompras 96% mientras el crecimiento baja de 14% a ~11% puede ser capital allocation disciplinada (acciones baratas) o maquillaje de BPA. Segundo orden: si el crecimiento organico sigue frenando, el multiple no se expande solo por recompras. Relacionado con [[asignacion-de-capital]] y buybacks vs dividendos.
+- **Riesgo regulatorio en cadena.** "Governmental encroachment" no es solo EE.UU.: la presion antitrust/precio sobre software fiscal puede extenderse. Si el Estado obliga a portabilidad de datos o a interoperabilidad, el coste de cambio (pata 1 del foso) se debilita. Ver riesgo regulatorio y impuestos como arma fiscal.
+- **Que vigilar Carlos a 3-5 anos:** (a) unidades TurboTax (¿siguen cayendo o se estabilizan con Live?); (b) si Credit Karma y QuickBooks mantienen +15-20%; (c) si la guia FY2027-28 confirma el suelo de ~10-11% o vuelve a acelerar; (d) movimientos de IRS Direct File y respuesta politica; (e) si la IA propia de Intuit genera retencion medible. Tesis opuesta a evaluar: la ia mata el software de impuestos.
+
+## 9. Fuentes consultadas
+
+1. Intuit Inc. - Form 10-K FY2025 (fiscal year ended 31-jul-2025, filed 03-sep-2025). SEC EDGAR. https://www.sec.gov/Archives/edgar/data/896878/000089687825000035/intu-20250731.htm
+2. SEC EDGAR - Submissions/filings list (Intuit CIK 0000896878). https://data.sec.gov/submissions/CIK0000896878.json
+3. Intuit Investor Relations - "Intuit Reports Fourth Quarter and Full Year Fiscal 2026 Results; Sets Fiscal 2027 Guidance" (25-ago-2026). https://investors.intuit.com/news-events/press-releases/detail/1320/intuit-reports-fourth-quarter-and-full-year-fiscal-2026-results-sets
+4. Intuit Investor Relations (home / calendar / fact sheet). https://investors.intuit.com/
+5. stockanalysis.com - Intuit (INTU) key statistics (market cap, P/E, price, 52-wk range, dividend). https://stockanalysis.com/stocks/INTU/
+6. Google News RSS - "Intuit INTU earnings 2026" (incl. TradingView 26-ago-2026 "plunges after weak 2027 forecast"; TIKR "down 38% in 2026", "down 67% from 52-wk high"). https://news.google.com/rss/search?q=Intuit+INTU+earnings+2026&hl=es
+7. Google News RSS - "Intuit Credit Karma 2026" (TIKR "Intuit Stock Is Down 38% in 2026: Analysts See 42% Upside to $553", 13-may-2026). https://news.google.com/rss/search?q=Intuit+Credit+Karma+2026&hl=es
+8. SEC XBRL companyfacts (Intuit CIK 0000896878) - serie anual de ingresos, beneficio neto, BPA, activos. https://data.sec.gov/api/xbrl/companyfacts/CIK0000896878.json
+
+Nota de metodo/honestidad: el canal de busqueda web Exa (mcporter) devolvio 402 "creditos agotados", por lo que se degrado elegantemente usando fuentes primarias (SEC EDGAR oficial, IR oficial de Intuit) y stockanalysis.com + Google News RSS. No se invento ninguna cifra; las no localizadas (p.ej. margen bruto exacto FY2026, guia de ingresos de todo FY2027) se marcaron como "no localizado" o se derivaron de fuentes citadas.

@@ -4,9 +4,6 @@ tipo: empresa
 tags: [empresa, software-infraestructura]
 fecha: 2026-08-28
 agente: prime-agent
-veredicto: COMPRAR
-valor_estimado: ~252 USD (objetivo medio consenso)
-gatillo_entrada: Sin datos
 ticker: TWLO
 moneda: USD
 precio_referencia: 238.37

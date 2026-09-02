@@ -8,7 +8,7 @@ fuentes: ["[[manuales-de-valoracion]]"]
 
 # Opciones reales
 
-La extensión del [[flujo-de-caja-descontado|DCF]] que captura lo que un DCF estático **se deja fuera**: el
+La extensión del [[flujo-de-caja-descontado]] que captura lo que un DCF estático **se deja fuera**: el
 valor de la **flexibilidad**. Damodaran (caps. 5, 28-30) argumenta que muchos activos llevan **opciones
 incrustadas** que el valor presente de los flujos esperados infravalora — porque una opción vale más cuando hay
 **incertidumbre**, no menos.
@@ -60,3 +60,16 @@ probabilidad de impago del [[valor-terminal]].
 
 - [[flujo-de-caja-descontado]] · [[valoracion-empresas-jovenes-y-privadas]] · [[valoracion-ciclicas-y-beneficios-negativos]]
 - [[foso-economico]] · [[derivados-armas-de-destruccion-masiva]] · [[margen-de-seguridad]] · [[manuales-de-valoracion]]
+
+
+---
+- [[asimetria-informacion]] · [[complejidad-mercados-adaptativos]] · [[concepto-foso-economico]] · [[concepto-ventaja-competitiva]] · [[inversion-segundo-orden]] · [[modelos-mentales-ecologia]] · [[sesgos-conductuales-catalogo]] · [[tasa-descuento-intrinseco]] · [[tendencia-medianil]] · [[teoria-juegos-inversion]]
+
+## Nota de evolucion 2026-08-30 (elisa)
+
+Asenso a pagina durable del wiki tras revision de la CIO. La sonde de origen (scratchpad/sondas-2026-08-30/opciones-reales.md) se valido: estructura completa de 9 secciones, seccion de segundo orden presente y >=6 fuentes reales. No se reescribio ninguna afirmacion previa. Trailer de commit: Agente: elisa.
+
+
+## Nota de evolución 2026-08-31 (cerebro-enlaza)
+
+Enlace de la hornada durable 2026-08-30 en red neuronal interna (sección «Ver también»). Trailer: Agente: cerebro-enlaza.

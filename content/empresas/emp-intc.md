@@ -1,0 +1,130 @@
+---
+title: "Intel (INTC) - Ficha de investigacion"
+tipo: empresa
+tags: [empresa, semis, usa]
+fecha: 2026-08-31
+agente: carlos-barez
+squad: Analisis Fundamental - Empresas (Carlos Barez)
+status: sonde
+---
+
+# Intel (INTC) - Ficha de investigacion
+
+> Fuentes base: SEC EDGAR (10-K FY2025 y 10-Q Q2 2026, CIK 0000050863); stockanalysis.com/stocks/INTC; Intel Investor Relations (intc.com); Google News RSS (agregador, agosto 2026).
+
+> Nota de honestidad de canal: el canal Exa (web_search) devolvió 402 "credits exceeded" y no estuvo disponible. Se degradó con elegancia a Jina Reader (lectura de IR/SEC/stockanalysis), Google News RSS y SEC EDGAR (API pública, sin clave). Ver Fuentes consultadas.
+
+## 1. Resumen ejecutivo
+
+Intel Corporation (NASDAQ: INTC) es un diseñador y fabricante integrado de semiconductores (IDM, *integrated device manufacturer*): disena y comercializa CPUs y productos de silicio (Intel Products) y los fabrica en su propia foundry (Intel Foundry) y con terceros. Tras años de pérdida de cuota frente a AMD, Nvidia y TSMC, en 2026 la acción se ha revalorizado de forma violenta: capitalización de ~$470.000M (+332% según stockanalysis al 31/08/2026) frente a ingresos TTM de ~$57.000M y un beneficio neto TTM aún NEGATIVO (-$11.290M, EPS -$2,30) (stockanalysis.com/stocks/INTC, 31/08/2026). El mercado no está pagando el pasado, sino una opción sobre el giro de Intel Foundry y la entrada en la ola de IA.
+
+Cifras clave (con fuente):
+- Ingresos FY2025: $52.853M; margen bruto 34,8%; resultado de explotación NEGATIVO -$2.214M (10-K FY2025, p. consolidado).
+- Ingresos Q2 2026: $16.128M, +25,4% interanual (vs $12.859M en Q2 2025); resultado de explotación Q2 2026 +$1.796M (vs -$3.176M) (10-Q Q2 2026).
+- Concentración de clientes: los 3 mayores = 43% de los ingresos netos en 2025 (Cliente A 19%, B 12%, C 12%) (10-K FY2025, "Concentration of Revenue").
+- Intel Foundry sigue en pérdidas operativas: -$10.318M en 2025 y -$2.089M en Q2 2026 (10-K y 10-Q).
+
+## 2. Estructura / modelo
+
+Intel reporta 3 segmentos principales + "All Other":
+- **Intel Products** (diseno y venta): agrupa **CCG** (Client Computing Group: CPUs para PC/edge) y **DCAI** (Data Center and AI: Xeon y aceleradores). Sus productos los fabrica Intel Foundry y terceros.
+- **Intel Foundry**: fabs propios; además vende servicios de diseño y fabricación a clientes externos (la apuesta de "foundry abierta").
+- **All Other**: incluyó Mobileye y Altera hasta la venta del 51% de Altera el 12/09/2025 (10-K FY2025).
+
+Mecánica del modelo de negocio: ingresos por venta de plataformas/componentes (downstream, OEMs/distribuidores/hyperscalers) + ingresos de foundry por terceros (modelo tipo TSMC). El apalancamiento operativo es enorme: los fabs consumen miles de millones en capex (herramientas EUV, materias primas) antes de generar ingresos de foundry.
+
+Cuadro de segmentos (ingresos / resultado de explotación, en $M):
+
+| Segmento | FY2025 Ingresos | FY2025 OpInc | Q2 2026 Ingresos | Q2 2026 OpInc |
+|---|---|---|---|---|
+| CCG/CCPG | 32.228 | 9.317 | 8.877 | 2.343 |
+| DCAI | 16.919 | 3.422 | 6.262 | 2.474 |
+| Intel Products (total) | 49.147 | 12.739 | 15.139 | 4.817 |
+| Intel Foundry | 17.826 | (10.318) | 5.765 | (2.089) |
+| All Other | 3.563 | 264 | 701 | 230 |
+| Corp. Unallocated | — | (5.518) | — | (1.416) |
+| **Consolidado** | **52.853** | **(2.214)** | **16.128** | **1.796** |
+
+Fuente: 10-K FY2025 y 10-Q Q2 2026, cuadros "Net revenue, cost of sales and operating expenses and operating income".
+
+## 3. Numeros clave
+
+- Capitalización: ~$469.960M (+332,1%); rango 52 semanas $23,68–$142,35; Beta 2,24; objetivo de precio medio $114,88 (+28,4%) (stockanalysis.com/stocks/INTC, 31/08/2026).
+- Empleados: 85.100; fundada 1968; dividendo suspendido (n/a) (stockanalysis.com).
+- FY2025: ingresos $52.853M; coste de ventas $34.478M (65,2%); I+D $13.774M; margen bruto 34,8% (10-K).
+- Ingresos por region (facturación del cliente), FY2025: EE.UU. $15.757M; China $12.694M; Singapur $9.535M (10-K).
+- Q2 2026: ingresos $16.128M (+25,4% i.a.); 6 meses $29.705M (+16,4% i.a.) (10-Q).
+- Oferta de acciones: Intel amplió y fijó una emisión de **$20.000M** de acciones ordinarias (desde los $15.000M propuestos) a $95/acción, según CNBC (10/08/2026) y confirmado en IR de Intel ("Upsize and Pricing of $20 Billion Common Stock Offering"). Dilución relevante a vigilar.
+
+## 4. Posicion / marco conceptual
+
+El foso teórico de Intel es la integración vertical de fabricación (poseer fabs y procesos propios) en un mundo donde casi todos los competidores externalizan a TSMC. Ese foso es hoy una herida: Intel Foundry pierde dinero operativo y va 1-2 nodos por detrás de TSMC (N3/N2). La tesis de revalorización 2026 descansa en que Intel alcance el paridad de nodo con **18A/14A** y capte clientes de foundry externos, convirtiendo el foso en ventaja.
+
+El 10-K lo dice explícito: "Our development of new process technologies and our manufacturing operations rely on a global supply chain encompassing thousands of suppliers worldwide... in some cases, we are reliant upon sole-source providers" y "ASML Holding N.V. (ASML) is currently the sole supplier of EUV lithography tools that we are deploying" (10-K FY2025). Es decir: el foso de Intel depende de un monopolio upstream (ASML) y de materias críticas concentradas en China.
+
+Conexiones del Cerebro: emp tsmc (el benchmark de foundry que Intel persigue), tesis semicondustores (ciclo y capex del sector), riesgo geo china taiwan (suministro de die de cómputo y tierras raras), emp asml (proveedor único EUV), emp nvidia (socio/cliente downstream creciente).
+
+## 5. Catalizadores y riesgos
+
+Catalizadores (novedades vía Google News RSS, agosto 2026):
+- **Nvidia eligió Xeon 6 e invirtió $5.000M** en Intel (TradingKey, 30/08/2026) — cliente/aliado estratégico downstream de peso.
+- **Mayor crecimiento de ingresos en ~15 años** por la ola de IA; ventas Q2 +25% (CNBC/WSJ, 23/07/2026).
+- **Inversión de €5.000M** para ampliar manufactura en Europa (Intel Newsroom, 13/07/2026) — apoyo público/político (CHIPS Act euroeo).
+- El CEO compró $10M de acciones propias (24/7 Wall St, 28/08/2026) — señal interna.
+- Intel Foundry: pérdidas operativas reduciéndose secuencialmente (-$3.168M → -$2.089M en Q2).
+
+Riesgos:
+- **Dilución**: emisión de $20.000M a $95/acción (agosto 2026) amplía el float de forma material.
+- **Foundry aún no da beneficios** y la mayor parte del re-rating NO viene de clientes de foundry ("What Quadrupled Intel Stock Was Not Foundry Customers", Trefis, 17/08/2026) → la tesis de foundry sigue sin demostrar clientes externos sólidos.
+- **Concentración**: 43% de ingresos en 3 clientes no nombrados (10-K) — dependencia downstream opaca.
+- **Geopolítica**: suministro de componentes críticos en Taiwán y tierras raras en China (10-K, riesgos China/Taiwán).
+- **Sobrevaloración vs fundamentales**: beneficio neto TTM sigue negativo mientras el precio se cuadruplica; simplywall.st llega a verla "82% below fair value" pero es métrica de descuento de flujos muy sensible (Google News, 28/08/2026).
+
+## 6. Valoracion / implicaciones practicas
+
+El inversor debe tratar INTC como una **opción apalancada sobre el giro de Intel Foundry + captura de IA**, no como una "value stock" de flujos estables: la acción cotiza a múltiplos imposibles sobre beneficios negativos. Señales de alerta a vigilar:
+- Que Intel Foundry pase a resultado operativo positivo y nombre clientes externos confirmados (Microsoft, Amazon, etc. han sido citados en la prensa pero no figuran desglosados en el 10-K).
+- Ritmo y retorno del capex de fabs (18A/14A) vs. quemado de caja.
+- Efecto dilución de la emisión de $20.000M y futuras.
+- Mantenimiento de la senda de ingresos de DCAI (Xeon para IA/hyperscalers) y de CCG.
+
+Práctica: no es posición de "comprar y olvidar"; exige seguimiento trimestral del puente foundry→cliente y del flujo de caja libre.
+
+## 7. Veredicto para el inversor
+
+Intel en 2026 es una historia de *turnaround* de alta convicción pero alta dispersión de resultados: los fundamentales mejoran (Q2 +25% y explotación positiva) pero el precio ya descuenta mucho y el núcleo de la tesis (foundry externa rentable) sigue sin confirmarse en las cuentas. Posición especulativa dimensionada, no base del portfolio; el riesgo de dilución y la dependencia de un proveedor único (ASML) y de geografías tensas (Taiwán/China) acotan el margen de error.
+
+## 8. Segundo orden (OBLIGATORIO y central en este wiki)
+
+Cadena de valor y tesis adyacentes (upstream/downstream) que Carlos debe mapear:
+
+**Upstream (proveedores que abren tesis propias):**
+- **ASML** es proveedor ÚNICO de herramientas EUV (afirmado en el 10-K de Intel). Si Intel (y TSMC/Samsung) capex, ASML cobra siempre → tesis "picks & shovels" del sector. Ver emp asml.
+- **Equipment de proceso**: Applied Materials (AMAT), Lam Research (LRCX), KLA — beneficiarios del capex de fabs de Intel. Ver emp amat lrcx kla.
+- **Materiales y consumibles**: portadores de obleas (Shin-Etsu/SUMCO), fotoresists (JSR/TOK), gases y purificación (Entegris) — sensibles a la producción de Intel Foundry.
+- **EDA**: Synopsys (SNPS), Cadence (CDNS) — necesarios para disear en nodos 18A/14A.
+- **Riesgo de materia prima**: tierras raras concentradas en China (10-K) → conecta con riesgo geo china taiwan y con tesis tierras raras.
+
+**Downstream (clientes que abren tesis adyacentes):**
+- **Nvidia** eligió Xeon 6 e invirtió $5.000M (ago 2026): cliente y aliado; mapea a emp nvidia.
+- **Hyperscalers** (Microsoft, Amazon AWS, Google): compran Xeon (DCAI) y son clientes objetivo de foundry.
+- **OEMs de PC** (Dell, Lenovo, HP): clientes de CCG (la base histórica de ingresos).
+- Top-3 clientes = 43% de ingresos (anónimos en 10-K) → riesgo de cola si uno de ellos internaliza chips (desarrollo propio de silicio de Apple/Amazon).
+
+**Cómo mapearlas (método):** para cada eslabón, preguntar (1) ¿quién es el proveedor/cliente monopolio o dominante? (2) ¿está en las cuentas de Intel o solo en la prensa? (3) ¿qué tickers del Cerebro lo representan? y crear fichas hijas emp ... enlazadas. El mapa upstream de Intel es casi idéntico al de emp tsmc, por lo que conviene mantener una página común cadena valor semis.
+
+Choques con otras fuentes: la prensa celebra el "regreso" y Nvidia/$5B, pero Trefis advierte que el cuadrupling NO vino de clientes de foundry — la narrativa de foundry abierta aún no tiene soporte contable. A 3-5 años Carlos debe vigilar: (a) si Intel Foundry alcanza parity de nodo y clientes externos reales; (b) la dependencia de ASML y Taiwán/China como riesgo sistémico del portfolio semis; (c) la dilución acumulada por emisiones para financiar el capex; (d) si el ciclo de IA se enfría antes de que Foundry sea rentable.
+
+## 9. Fuentes consultadas
+
+1. Intel Corporation - Form 10-K FY2025 (año cerrado 27/12/2025, presentado 23/01/2026) - SEC EDGAR: https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm
+2. Intel Corporation - Form 10-Q Q2 2026 (trimestre cerrado 27/06/2026, presentado 24/07/2026) - SEC EDGAR: https://www.sec.gov/Archives/edgar/data/50863/000005086326000157/intc-20260627.htm
+3. Intel Investor Relations (intc.com) - página de resultados y "Upsize and Pricing of $20 Billion Common Stock Offering": https://www.intc.com/
+4. stockanalysis.com - Intel (INTC) Stock Price & Overview (métricas TTM, 31/08/2026): https://stockanalysis.com/stocks/INTC/
+5. Google News RSS - agregador "Intel INTC 2026" (100 entradas, agosto 2026), incluida CNBC "Intel upsizes stock offering to $20 billion at $95 per share" (10/08/2026): https://news.google.com/rss/search?q=Intel+INTC+2026&hl=en-US
+6. TradingKey - "Nvidia Picked Xeon 6, Invested $5B, Yet Analysts Still Trail INTC" (30/08/2026): https://www.tradingkey.com/stocks/INTC/news/nvidia-picked-xeon-6-invested-5b-yet-analysts-still-trail-intc
+7. Intel Newsroom - "Intel Invests €5 Billion to Expand Manufacturing in Europe" (13/07/2026): https://newsroom.intel.com
+8. Trefis - "What Quadrupled Intel Stock Was Not Foundry Customers" (17/08/2026): https://www.trefis.com/ (artículo no cargado íntegro vía Jina; citado por titular en Google News RSS)
+9. WSJ/CNBC - "Intel Shares Rise as Sales Surge 25% in Second Quarter" / "Intel rides AI boom to fastest revenue growth in almost 15 years" (23/07/2026): https://www.cnbc.com / https://www.wsj.com (vía Google News RSS)
+
+Limitaciones honestas: canal Exa no disponible (402 créditos); identidad de los "Cliente A/B/C" no divulgada en el 10-K (anonimizados); clientes externos de Intel Foundry citados en prensa (Microsoft/Amazon) no están desglosados en las cuentas primarias consultadas (marcar como "no localizado" a nivel de cifra).

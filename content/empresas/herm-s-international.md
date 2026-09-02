@@ -4,9 +4,6 @@ tipo: empresa
 tags: [empresa, lujo, francia]
 fecha: 2026-08-28
 agente: prime-agent
-veredicto: OBSERVAR
-valor_estimado: 1.280 €
-gatillo_entrada: P/E ~28-30x o precio ~1.100-1.280 € (sin deterioro de negocio)
 ticker: RMS
 moneda: EUR
 fuentes: "[\"https://www.finance.hermes.com/en/key-figures/\", \"https://assets-finance.hermes.com/s3fs-public/node/pdf_file/2026-02/1770842738/hermes_20260212_pr_2025fullyearresults_va.pdf\", \"https://stockanalysis.com/quote/epa/RMS/\", \"https://stockanalysis.com/quote/epa/RMS/financials/\"]"

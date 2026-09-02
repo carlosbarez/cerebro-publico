@@ -1,0 +1,110 @@
+---
+title: "Cuando la diversificacion falla"
+tipo: analisis
+tags: [correlacion, crisis, riesgo]
+fecha: 2026-08-30
+agente: daniel-ferrer
+squad: Riesgo (Daniel)
+status: durable
+---
+
+# Cuando la diversificacion falla
+
+> Fuentes base: Page & Panariello (2018), "When Diversification Fails", Financial Analysts Journal (https://www.tandfonline.com/doi/full/10.2469/faj.v74.n3.3); Šikić (2025), Markov-switching stock-bond correlation (https://hrcak.srce.hr/en/341058); BCE (2020), volatility-targeting y el sell-off (https://www.ecb.europa.eu/press/financial-stability-publications/fsr/focus/2020/html/ecb.fsrbox202005_02~f6616db9be.nl.html); CNBC (2022), el peor año del 60/40 (https://www.cnbc.com/2022/10/03/why-60/40-portfolio-is-on-track-for-its-worst-year-ever-says-cio.html).
+
+## 1. Resumen ejecutivo
+
+La diversificación no es una propiedad física de los activos: es una consecuencia de que sus rendimientos no caigan juntos. Ese beneficio descansa sobre la **correlación** (la medida estadística de cuánto se mueven dos activos en tándem). El problema central es que la correlación **no es constante**: en las caídas extremas (los llamados *left-tail events* o eventos de cola izquierda) las correlaciones suben, a menudo mucho, y el escudo de diversificación se esfuma justo cuando el inversor más lo necesita. Por eso "todos los activos corren a 1 en una crisis" es una exageración, pero documenta un patrón real y recurrente.
+
+Importa al inversor de largo plazo porque su cartera "multiactivos" y el clásico [[60-40]] asumen implícitamente una correlación negativa entre acciones y bonos. Esa negatividad es un **régimen**, no una constante, y se rompe en episodios de inflación o de shock de tipos.
+
+Tres cifras que cierran el argumento:
+- En la Gran Crisis Financiera de 2008, una cartera diversificada (acciones EE.UU., bonos EE.UU., acciones internacionales, emergentes y REITs) vio su **beta de equidad subir de 0,65 a 0,95** y **quedó 9 puntos porcentuales por debajo** de un simple 60/40 (Page & Panariello, 2018, citando a Leibowitz & Bova, 2009; https://www.tandfonline.com/doi/full/10.2469/faj.v74.n3.3).
+- En marzo de 2020, una regla estricta de [[risk-parity]] hubo de **vender activos por valor de ~225% del capital** de la cartera solo para cumplir su objetivo de volatilidad; la venta forzada alcanzó a todas las clases de activo, incluidos los bonos "seguros" (BCE, 2020; https://www.ecb.europa.eu/press/financial-stability-publications/fsr/focus/2020/html/ecb.fsrbox202005_02~f6616db9be.nl.html).
+- En 2022, el 60/40 cayó **~20%** (enero–septiembre); fue el primer año desde 1969 en que acciones (−23%) y bonos (−14%) cerraron ambos en negativo, y probablemente el **peor año real (descontada inflación) de su historia** (CNBC, 2022; https://www.cnbc.com/2022/10/03/why-60/40-portfolio-is-on-track-for-its-worst-year-ever-says-cio.html).
+
+## 2. Estructura / modelo
+
+El fenómeno se descompone en cuatro piezas mecánicas:
+
+1. **Correlación de cola (tail correlation).** La correlación condicional a que un activo caiga mucho es distinta (mayor) que la correlación de muestra completa. Longin & Solnik (2001) y Chua, Kritzman & Page (2009) la estiman por "doble condicionamiento"; Page & Panariello (2018) la estiman condicionando a un solo activo y proponen una técnica de *data-augmentation* para robustecerla (https://www.tandfonline.com/doi/full/10.2469/faj.v74.n3.3).
+2. **Asimetría indeseable.** Las correlaciones suben en las caídas y **bajan en las subidas** — justo lo contrario de lo que quiere el inversor, que preferiría "unificación al alza" (antidiversificación) y diversificación solo a la baja (Page & Panariello, 2018).
+3. **Régimen de correlación.** Los fundamentales macro (inflación, crecimiento) sufren ellos mismos cambios de régimen; cuando el régimen salta, la correlación acción–bono salta con él (Page & Panariello, 2018). Šikić (2025) lo modela con un modelo de dos estados *Markov-Switching* y concluye que el poder diversificador del Treasury es **dependiente del régimen** y falla en las caídas por inflación (https://hrcak.srce.hr/en/341058).
+4. **Apalancamiento + vol-targeting amplifica.** Las estrategias que apalancan bonos ([[risk-parity]], [[all-weather]]) para igualar riesgo necesitan desapalancarse cuando la volatilidad y las correlaciones cruzadas disparan; esa venta forzada realimenta la caída (BCE, 2020).
+
+| Régimen | Driver principal | Correlación acción–bono | Qué hace el diversificador |
+|---|---|---|---|
+| Calma / "Goldilocks" | Crecimiento estable, tipos bajos | Negativa (bonos suben cuando acciones caen) | Bonos y alternativos protegen |
+| Crisis de liquidez/deflación (2008, COVID) | Huida a liquidez, bancos centrales salvan | Sube fuertemente (tail correlation) | Bonos largos aún dan refugio en 2008; en COVID cedieron |
+| Crisis de inflación/tipos (2022) | Shock de tipos, Fed sube | Pasa a **positiva** | Bonos caen *con* las acciones: el refugio se rompe |
+
+## 3. Numeros clave
+
+- **Beta 0,65 → 0,95** y **−9 pp** vs 60/40 puro durante 2008 (Leibowitz & Bova, 2009 vía Page & Panariello, 2018).
+- **+33%** de salto medio de correlación de las estrategias de hedge funds en crisis (Billio, Getmansky & Pelizzon, 2012, vía Page & Panariello, 2018).
+- **~225% del capital** vendido en el desapalancamiento de [[risk-parity]] de marzo de 2020; la venta tocó todas las clases de activo (BCE, 2020).
+- **USD 300.000 M** aproximados en ~100 fondos de risk parity (BCE, 2020); la base total se estima entre **175.000 y 400.000 M USD** (Markov Processes International, 2020; https://www.markovprocesses.com/blog/risk-parity-funds-in-the-coronavirus-market-rout/). Bridgewater All Weather, el mayor, ~60.000 M USD.
+- **60/40 −20%** ene–sep 2022; acciones −23%, bonos −14%; primeros negativo-doble desde 1969 (CNBC, 2022).
+- En 2008, renta variable no estadounidense, materias primas y REITs mostraron retornos negativos significativos cuando la equidad EE.UU. estuvo en su peor 5%, más allá de lo que predice la correlación de muestra completa (Garcia-Feijóo, Jensen & Johnson, 2012, vía Page & Panariello, 2018).
+- Estado del arte reciente: modelos **GARCH-DCC-Copula + Markov-switching** para predecir en tiempo real el "régimen de riesgo" y mejorar asignación táctica (Jussa, 2025; https://www.alphaxiv.org/abs/2506.12587); y un marco de *correlation stress testing* que vincula correlaciones a factores macro y permite *reverse stress testing* (Packham & Woebbeking, 2022; https://www.sciencedirect.com/science/article/pii/S0167268122004061).
+
+## 4. Posicion / marco conceptual
+
+El marco correcto no es "¿están correlacionados?" sino "**¿en qué régimen estamos y qué hacen las colas?**". La diversificación por *etiqueta de activo* (poner un poco de todo) es frágil porque las etiquetas colapsan a la misma factoría de riesgo en el momento malo. El foso analítico está en modelar la **dependencia de cola** con cópulas y en tratar la correlación como variable de estado (Markov-switching), no como parámetro fijo.
+
+Conecta con otras ideas del Cerebro: [[diversificacion]] (no es gratis ni permanente), tail risk y [[drawdown]] (la pérdida de cola es donde se arruina la teoría), stress test (hay que estresar correlaciones, no solo precios; Packham & Woebbeking, 2022), [[bonos]] (su papel de refugio es de régimen), [[inflacion]] (el régimen que rompe el 60/40) y [[liquidez]] (el régimen que rompe el risk parity por deleveraging forzado).
+
+Implicación de diseño: optimizar para el **riesgo a la baja (downside risk / CVaR)**, no para la varianza simétrica; considerar **protección de cola explícita** (puts, opciones) como sustituto o complemento de la diversificación por clase de activo; y buscar **diversificación de fuentes de retorno** (carry, momentum, value, primas de riesgo distintas), no solo de nombres de activos.
+
+## 5. Catalizadores y riesgos
+
+- **A favor de la diversificación (régimen que vuelve):** tras la subida de tipos, los bonos ya no cotizan a rendimientos cercanos a 0, así que la correlación acción–bono puede retornar a territorio negativo en shocks de crecimiento (CNBC, 2022, cita a AQR: "durante dos décadas la correlación fue consistentemente negativa").
+- **En contra (lo que reactiva el fallo):** inflación persistente o nueva sorpresa de tipos reactiva el régimen 2022, donde bonos y acciones caen juntos. El apalancamiento embutido en [[risk-parity]] y en los nuevos ETFs tipo All Weather (p.ej. ALLW de SSGA) realimenta ventas en cascada cuando la vol y la correlación suben a la vez (BCE, 2020).
+- **Comoditización del multiactivos:** el flujo masivo a productos "diversificados" empaqueta a millones de inversores en las mismas posiciones; en el estrés, la corona de ventas es común (BCE, 2020).
+- **Novedades recientes:** no localizado vía Google News RSS (canal bloqueado por rate-limit el 2026-08-30, ver limitación abajo). Sí hay literatura 2025 fresca: Šikić (régimen 2022–2023 como "shift fundamental") y Jussa (modelos de régimen en tiempo real).
+
+## 6. Valoracion / implicaciones practicas
+
+- **No alimentes tus modelos de riesgo con correlaciones de muestra completa.** Son engañosas; Page & Panariello (2018) lo dicen sin ambages. Usa medidas de riesgo a la baja y análisis de escenarios.
+- **Haz stress-test de correlaciones**, no solo de precios: escenarios de correlación extrema-pero-plausible ligados a factores macro (Packham & Woebbeking, 2022). Pregúntate: "¿qué pasa con mi cartera si la correlación acción–bono pasa de −0,3 a +0,5?"
+- **Señal de alerta:** cuando la correlación acción–bono cruza de negativa a positiva (régimen de inflación/tipos), el amortiguador del [[60-40]] y del [[risk-parity]] está roto. Vigilar la pendiente de tipos reales y el break-even de inflación.
+- **Diversifica fuentes de retorno**, no etiquetas. Y valora una protección de cola explícita y barata en lugar de pagar el "drag" de diversificadores que solo funcionan en calma.
+
+## 7. Veredicto para el inversor
+
+La diversificación no "falla siempre"; falla **en el régimen que importa**. Un inversor de largo plazo no debe comprar la etiqueta "multiactivos" como póliza contra crisis: debe diseñar la cartera para el **régimen de cola**, asumir que la correlación es de régimen, y mantener liquidez y protección de cola para no ser forzado a vender en el peor momento. La diversificación es útil, pero es condicional; tratarla como gratuita y permanente es el error caro.
+
+## 8. Segundo orden (OBLIGATORIO y central en este wiki)
+
+- **La correlación es una posición, no un dato.** Si Carlos construye su cartera sobre la negatividad acción–bono de las últimas dos décadas, está vendiendo esa negatividad implícitamente. Cuando el régimen gira ([[inflacion]], [[tipos-de-interes]] positivos y subiendo), el 60/40 deja de ser defensivo y se vuelve ofensivo en el peor momento. Esto choca de frente con el relato "60/40 para siempre" que venden muchos bancos.
+- **El apalancamiento es la trampa oculta.** [[risk-parity]] y [[all-weather]] parecen robustos porque apalancan bonos de baja vol; pero el apalancamiento es exactamente lo que los obliga a *de-lever* (venderlo todo, bonos incluidos) cuando la vol y la correlación suben juntas (BCE, 2020). La "todo clima" asume un régimen de tipos a la baja; 2022 fue su contraprueba empírica (Šikić, 2025).
+- **Choque con otras fuentes del Cerebro:** si existe una página de recesion o de bonos como refugio, esta sonda matiza que el refugio es de régimen. Y si existe acciones como "crecimiento a largo plazo", recordar que el drawdown de cola es cuando la teoría se rompe, no cuando las acciones suben.
+- **Dónde mirar a 3–5 años:** (1) régimen de inflación/tipos —¿vuelve la correlación positiva acción–bono de forma estructural?; (2) flujos hacia ETFs de risk parity (ALLW y similares) que concentran apalancamiento común; (3) indicadores de *tail correlation* en tiempo real (modelos GARCH-DCC-Copula, Jussa 2025) como sensor de régimen; (4) [[liquidez]] de mercado en crisis —el deleveraging forzado es el mecanismo de contagio. El inversor que vigile el régimen de correlación, y no la correlación puntual, evitará el susto de 2008/2020/2022.
+
+## 9. Fuentes consultadas
+
+1. Page, S. & Panariello, R. (2018). "When Diversification Fails". Financial Analysts Journal, 74(3) — https://www.tandfonline.com/doi/full/10.2469/faj.v74.n3.3
+2. Page, S. & Panariello, R. (2018). Misma versión en PDF (T. Rowe Price) — https://www.troweprice.com/content/dam/ide/articles/pdfs/2018/q4/when-diversification-fails.pdf
+3. Šikić, L. (2025). "The breakdown of the classic portfolio hedge: a Markov-switching analysis of the US stock-bond correlation". https://hrcak.srce.hr/en/341058 (publicado 12.12.2025)
+4. Markov Processes International (2020-04-20). "Quant Funds in COVID Market Rout" — https://www.markovprocesses.com/blog/risk-parity-funds-in-the-coronavirus-market-rout/
+5. BCE (2020-05-25). "Volatility-targeting strategies and the market sell-off" (Financial Stability Review) — https://www.ecb.europa.eu/press/financial-stability-publications/fsr/focus/2020/html/ecb.fsrbox202005_02~f6616db9be.nl.html
+6. CNBC (2022-10-03). "This classic investment strategy is on track for its 'worst year ever'" — https://www.cnbc.com/2022/10/03/why-60/40-portfolio-is-on-track-for-its-worst-year-ever-says-cio.html
+7. Business Insider (2020-03-15). "A popular trading strategy that preserves hedge funds during crashes just failed" — https://www.businessinsider.com/stock-market-crash-hedge-fund-risk-parity-strategy-performance-coronavirus-2020-3
+8. Jussa, J. (2025). "Dynamic allocation: extremes, tail dependence, and regime shifts" — https://www.alphaxiv.org/abs/2506.12587 (2025-06-14)
+9. Packham, N. & Woebbeking, F. (2022). "Correlation scenarios and correlation stress testing" — https://www.sciencedirect.com/science/article/pii/S0167268122004061
+
+> Limitación de la sonda: el canal Google News RSS (news.google.com/rss) devolvió 403 por rate-limit/DDoS el 2026-08-30 y no aportó novedades recientes; la investigación se sustentó en Exa/web_search_exa, Jina Reader y los 9 artículos académicos y de la industia anteriores. No se inventó ninguna cifra: las que faltan se marcan como "no localizado".
+
+---
+
+## Nota de evolucion 2026-08-30 (elisa)
+
+Asenso a pagina durable del wiki tras revision de la CIO. La sonde de origen (scratchpad/sondas-2026-08-30/regimen-correlacion-falla.md) se valido: estructura completa de 9 secciones, seccion de segundo orden presente y >=6 fuentes reales. No se reescribio ninguna afirmacion previa. Trailer de commit: Agente: elisa.
+
+## Ver también
+
+- [[apalancamiento-riesgo]] · [[cartera-todo-tiempo]] · [[correlaciones-dinamicas]] · [[estres-pruebas-cartera]] · [[liquidez-riesgo-oculto]] · [[playbook-drawdown-30]] · [[riesgo-cola-seguros]] · [[tamano-posicion-riesgo]]
+
+## Nota de evolución 2026-08-31 (cerebro-enlaza)
+
+Red de conocimiento: enlace de la hornada durable 2026-08-30 en red neuronal interna (sección «Ver también»). Verificación previa: 41 páginas ascendidas con `status: durable` y validación CIO (9 secciones, 2º orden, ≥6 fuentes), frontmatter canónico, 0 errores. Hallazgo: `itau-unibanco` duplicado en `empresas/` y `analisis-acciones/` (colisión de slug; pendiente decisión de Carlos). Trailer: Agente: cerebro-enlaza.

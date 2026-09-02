@@ -1,0 +1,111 @@
+---
+title: "Guerras arancelarias 2026 y su segundo orden"
+tipo: sintesis
+tags: [aranceles, comercio, cadenas]
+fecha: 2026-08-30
+agente: elena-vega
+squad: Macro & Geopolitica (Elena)
+status: durable
+---
+
+# Guerras arancelarias 2026 y su segundo orden
+
+> Fuentes base: Penn Wharton Budget Model (tipos efectivos y recaudación), CNBC (reembolsos arancelarios y márgenes), PIIE (límites de la desacoplación), Bloomberg (reenrutamiento a Vietnam), Supply Chain Dive (guerra comercial EEUU-Canadá), The Herald Business (Vietnam como superávit máximo).
+
+## 1. Resumen ejecutivo
+
+Las guerras arancelarias iniciadas por la administración Trump en 2025 ("Liberation Day", 2 abr 2025) no se han cerrado en 2026: se han transformado. Tras el fallo de la Corte Suprema del 20 feb 2026 que declaró inconstitucionales los aranceles bajo la IEEPA (International Emergency Economic Powers Act), el Ejecutivo los sustituyó por un arancel global del 10% bajo la Section 122 [1]. El tipo efectivo medio (effective tariff rate, ETR) cayó de 10,3% (ene 2026) a 7,1% (jun 2026), pero sigue siendo más de 3x el 2,3% de ene 2025 [1].
+
+Por qué importa al inversor de largo plazo: el arancel no es un impuesto a "ellos", sino a márgenes y precios en EEUU. Ha recaudado $283.900M brutos (ene 2025–jun 2026), pero los reembolsos posteriores al fallo judicial dejan ~$117.900M netos y la CBP ya certificó ~$100.000M en devoluciones (≈60% de los $166.000M cobrados vía IEEPA) [1]. El segundo orden —reenrutamiento de cadenas, compresión de márgenes y relocalización— es donde se crea o destruye valor estructural, no en el titular del arancel.
+
+## 2. Estructura / modelo
+
+El régimen 2026 se compone de tres capas que conviven:
+
+| Capa | Mecánica | Magnitud (jun 2026) |
+|---|---|---|
+| Arancel global base | 10% bajo Section 122 tras caída de IEEPA [1] | ETR agregado 7,1% |
+| Aranceles sectoriales | Acero/aluminio y autos vía proclamas previas | Acero/alum 40,9%; autos 13,2% [1] |
+| Aranceles dirigidos a China | Gap bilateral mantenido | China ETR 23,2% [1] |
+| Exención USMCA | Importaciones Canadá/México amparadas | 83,6% de importaciones C/M (jun) [1] |
+
+El motor de segundo orden es el *differential* de tipos: cuando China paga 23,2% y Vietnam 6,5%, la producción se desvía a Vietnam aunque el contenido sea chino [4]. La PIIE documenta que esto cambia la *ruta*, no la *dependencia*: la cuota china en el valor añadido importado por EEUU solo cayó 2 puntos porcentuales hasta 2024 [5].
+
+## 3. Numeros clave
+
+- ETR medio: 2,3% (ene 2025) → 10,3% (ene 2026) → 7,1% (jun 2026) [1].
+- China ETR: 23,2%; gap vs Vietnam 6,5% [1][4].
+- Recaudación bruta nuevos aranceles: $283.900M (ene 2025–jun 2026); neta tras reembolsos ~$117.900M [1].
+- Guerra EEUU-Canadá (ago 2026): aranceles del 50% sobre $20.000M en bienes canadienses; Canadá replicó hasta 50% en acero, lácteos, electrodomésticos y equipo agrícola [3].
+- Vietnam: superávit de bienes con EEUU de $114.000M en 1S 2026 (supera a China, México y Taiwán); importaciones EEUU desde Vietnam +40% [4].
+- US-China: aranceles >45% en semiconductores; la UE contraatacó con medidas sobre exportaciones agrícolas por ~$67.000M/año [9].
+
+## 4. Posicion / marco conceptual
+
+El arancel es una redistribución de renta, no una creación. El marco correcto es arbitraje de tipos y reenrutamiento: el capital busca el punto de menor diferencial arancelario, y las cadenas se alargan (triangle trade) en vez de acortarse. Choca con la narrativa política de "reshoring" ([[reshoring-y-nearshoring]]): la evidencia de PIIE y Bloomberg muestra que el empleo manufacturero estadounidense no ha vuelto en la magnitud prometida; Vietnam y México capturan el flujo [4][5].
+
+Conecta con otras tesis del Cerebro: [[amnesia-de-inflacion]] (los aranceles son inflación de oferta encubierta), [[margenes-corporativos]] (compresión en importadores, expansión en protegidos) y [[guerra-fria-tecnologica-eeuu-china]] (las export controls de tierras raras son el segundo orden geopolítico).
+
+## 5. Catalizadores y riesgos
+
+- A favor (escalada): nuevos marcos de "Reciprocal Trade" vía Federal Register (10 sep 2025) permiten subir aranceles país por país [no localizado el impacto cuantificado; ver Federal Register 2025-17507].
+- En contra (desescalada): el fallo IEEPA ya forzó el paso a Section 122 y abrió juicios de reembolso masivos [1][2].
+- Novedad reciente (ago 2026): guerra comercial EEUU-Canadá activa, con riesgo de interrupción de cadenas agrícolas y de prendas de lana/chaquetas de esquí [3]; reembolsos arancelarios llegando a retailers (Home Depot $730M, Walmart ~$2.900M, Target $752M de beneficio neto) confundiendo los earnings [2].
+- Riesgo sistémico: China respondió no con aranceles sino con *export controls* de tierras raras sobre MP Materials y USA Rare Earth (jun 2026), tras añadir EEUU a BYD, Alibaba y Baidu a listas militares [7][8].
+
+## 6. Valoracion / implicaciones practicas
+
+Para el inversor:
+- Vigilar el diferencial de tipos como señal de flujo de capital: México (auto-partes, +$14.000M en contratos EEUU; producción +18% trimestral) y Vietnam son los beneficiarios estructurales [9].
+- Ganadores identificados: siderúrgicas domésticas (Nucor, US Steel: +23% cuota en automoción, +67% en bolsa YTD), logística/container (Matson, Danaos: fletes +28–31%) [9].
+- Perdedores: importadores de consumo (costes +32–40% en textil), tecnología ensamblada en China (Apple: margen bruto −340 pb 1S 2026; smartphones +44% coste componentes) [9].
+- Señal de alerta: los reembolsos judiciales inflan earnings de un trimestre; no confundir con tendencia operativa [2].
+
+## 7. Veredicto para el inversor
+
+Los aranceles de 2026 son estructurales pero no simétricos: recaudan menos de lo que el titular sugiere (reembolsos ya devolvieron ~60% de lo cobrado vía IEEPA) y generan un segundo orden de reenrutamiento y relocalización parcial que favorece a México, Vietnam y a sectores protegidos de EEUU, mientras comprime márgenes de importadores y ensambladores en China. Posicionarse en el *diferencial*, no en el *titular*.
+
+## 8. Segundo orden (OBLIGATORIO y central en este wiki)
+
+Las implicaciones de las implicaciones:
+
+1. **Reenrutamiento, no desacoplamiento.** El arancel cambia la bandera de origen, no la propiedad ni el valor añadido. PIIE: la dependencia de valor añadido chino cayó solo 2 pp [5]; Bloomberg: Vietnam ya supera a China como principal proveedor de portátiles y consolas a EEUU [6]. Choca con la narrativa de "América primero" y sugiere que [[reshoring-y-nearshoring]] es parcial.
+
+2. **Inflación de oferta persistente.** El ETR de 7,1% es impuesto al consumidor/margen estadounidense. Conecta con [[amnesia-de-inflacion]]: el efecto no es transitorio si el régimen Section 122 persiste [1].
+
+3. **Geopolítica de insumos críticos.** China no sube aranceles; corta suministro (tierras raras a MP Materials/USA Rare Earth) [7][8]. Esto es el segundo orden de la guerra tecnológica y refuerza [[guerra-fria-tecnologica-eeuu-china]] y critical minerals.
+
+4. **Fragmentación de bloques.** UE contraataca con $67.000M en agrícolas; Canadá replica 50% [3][9]. El mundo se organiza en bloques de preferencia (USMCA 83,6% exento) [1]. Implica vigilar bloques comerciales y de dollarizacion.
+
+5. **Ruido contable.** Los reembolsos crean earnings "fantasma" que distorsionan valoraciones [2]; Carlos debe ajustar por estos en su seguimiento de [[margenes-corporativos]].
+
+6. **Qué vigilar a 3–5 años:** (a) si el diferencial China–Vietnam se cierra y fuerza aranceles a Vietnam; (b) si México satura capacidad y suben costes laborales (límite del nearshoring); (c) si las export controls de China se extienden a otros críticos (grafito, baterías); (d) si Section 122 se judicializa; (e) efecto real sobre empleo manufacturero EEUU (no localizado en esta sonda; pendiente de datos BLS).
+
+## 9. Fuentes consultadas
+
+1. Penn Wharton Budget Model — Effective Tariff Rates and Revenues (Updated August 10, 2026) - https://budgetmodel.wharton.upenn.edu/p/2026-08-10-effective-tariff-rates-and-revenues-updated-august-10-2026/ (2026-08-10)
+2. CNBC — How Walmart, Home Depot, Target are using Trump tariff refunds - https://www.cnbc.com/2026/08/30/trump-tariff-refunds-walmart-home-depot-target.html (2026-08-30)
+3. Supply Chain Dive — US, Canada trade war poses sourcing risks for agriculture, consumer goods - https://www.supplychaindive.com/news/us-canada-trade-war-poses-sourcing-risks-for-agriculture-consumer-goods/828967/ (2026-08-27)
+4. The Herald Business — Vietnam surpasses China, Mexico as top US goods trade surplus holder - https://biz.heraldcorp.com/article/10853409 (2026-08-26)
+5. PIIE — Policy Brief 26-12: Made with China: Global Supply Chains and the Limits of US Decoupling - https://www.piie.com/sites/default/files/2026-08/pb26-12.pdf (2026-08)
+6. Bloomberg — How Trump’s Tariffs Altered Global Supply Chains in Unintended Ways - https://www.bloomberg.com/graphics/2026-vietnam-trump-tariffs-supply-chain/ (2026-03-31)
+7. Reuters — Beijing blames US for raising trade tensions, defends rare earth curbs - https://www.reuters.com/world/china/china-says-its-rare-earth-export-controls-are-legitimate-2025-10-12/ (2025-10-12)
+8. Foreign Policy — China Imposes Export Controls on U.S. Rare-Earth Companies - https://foreignpolicy.com/2026/06/22/china-us-rare-earth-export-control-trade/ (2026-06-22)
+9. Nex-Wire — Trade War Tariff Impact Analysis 2026: Winners and Losers - https://nex-wire.com/article/global-trade-wire/2026-06-28-trade-war-tariff-impact-analysis-2026-winners-and-losers (2026-06-28)
+10. WTO — Global Trade Outlook (merchandise trade -0.2% 2025, +2.5% 2026; GDP 2.2%/2.4%) - https://www.wto.org/english/res_e/booksp_e/trade_outlook25_e.pdf (2025)
+
+Nota de limitación: Google News RSS (news.google.com) no devolvió datos en este entorno (0 bytes; probable bloqueo de egress). La novedad reciente se cubrió vía Exa y las fuentes 2, 3 y 4 (fechadas ago 2026). La cuantificación del impacto del Federal Register 2025-17507 y de empleo manufacturero BLS no se localizó y se marcó como "no localizado".
+
+---
+
+## Nota de evolucion 2026-08-30 (elisa)
+
+Asenso a pagina durable del wiki tras revision de la CIO. La sonde de origen (scratchpad/sondas-2026-08-30/guerras-arancelarias-2-orden.md) se valido: estructura completa de 9 secciones, seccion de segundo orden presente y >=6 fuentes reales. No se reescribio ninguna afirmacion previa. Trailer de commit: Agente: elisa.
+
+## Ver también
+
+- [[cartas-inversores-top-2026]] · [[chokepoints-fisicos-comercio]] · [[contrarian-senales-utiles]] · [[demografia-inversora-japon]] · [[deuda-publica-primacia]] · [[historia-ciclos-capital]] · [[narrativas-mercado-2-orden]] · [[pensadores-originales-finanzas]] · [[post-mortem-quiebras]] · [[regimen-tipos-2026-2028]] · [[renault]] · [[stellantis]] · [[transicion-energetica-capital-atrapado]]
+
+## Nota de evolución 2026-08-31 (cerebro-enlaza)
+
+Red de conocimiento: enlace de la hornada durable 2026-08-30 en red neuronal interna (sección «Ver también»). Verificación previa: 41 páginas ascendidas con `status: durable` y validación CIO (9 secciones, 2º orden, ≥6 fuentes), frontmatter canónico, 0 errores. Hallazgo: `itau-unibanco` duplicado en `empresas/` y `analisis-acciones/` (colisión de slug; pendiente decisión de Carlos). Trailer: Agente: cerebro-enlaza.

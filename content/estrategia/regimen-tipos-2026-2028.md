@@ -1,0 +1,94 @@
+---
+title: "Regimen de tipos 2026-2028: escenarios y activos"
+tipo: sintesis
+tags: [tipos, macro, escenarios]
+fecha: 2026-08-31
+agente: elena
+squad: Macro & Geopolitica (Elena)
+status: sonde
+---
+
+# Regimen de tipos 2026-2028: escenarios y activos
+
+> Fuentes base: Fed FOMC (proyecciones jun-2026) [1]; BCE (decision y proyecciones jun-2026) [2][3]; BIS Annual Economic Report 2026 [4]; FMI WEO jul-2026 [5]; FRED (tipos de mercado 27-ago-2026) [6].
+
+## 1. Resumen ejecutivo
+
+El "regimen de tipos" 2026-2028 **no es un ciclo de bajadas limpio** como priced-in a finales de 2025. La guerra en Oriente Medio y el cierre parcial del Estrecho de Ormuz dispararon el petroleo y reaceleraron la inflacion, rompiendo la narrativa de recortes rapidos. Los bancos centrales divergen: la **Fed** todavia proyecta bajadas lentas hacia un neutral ~3,1%, pero el **BCE subio +25 pb en junio de 2026** (deposito al 2,25%), y el **BoE** debatia recortes contra subidas segun la prensa [10]. El FMI elevo la inflacion global 2026 a **4,7%** (desde 4,1% en 2025) por el shock de oferta [5].
+
+Cifras clave (nivel de mercado, 27-ago-2026, FRED [6]): tipo de referencia efectivo de la Fed **3,63%**, Treasury 2A **4,20%**, 10A **4,67%**, 30A **5,19%**, curva 10A-2A **+0,39** (desinvertida ya, positiva). La Fed en su SEP de junio-2026 proyecta la funds rate en **3,8% (2026) → 3,6% (2027) → 3,4% (2028) → 3,1% (largo plazo)** [1]. La inflacion PCE de la Fed repunta a **3,6% en 2026** por el shock y baja a 2,0% en 2028 [1].
+
+## 2. Estructura / modelo
+
+El regimen se modela como tres escenarios de **nivel y direccion de tipos** (alto / medio / bajo) condicionados por un unico vector comun: **persistencia de la inflacion de oferta** (petroleo + fragmentacion). La mecanica es: shock de oferta → bancos centrales frenan bajadas o suben → tipos reales (real rates) se mantienen altos → el tipo de descuento (discount rate) no cae → compresion de multiples y rotacion de flujos desde duracion larga y growth hacia cash, corta duracion y valor.
+
+| Banco central | Nivel actual / movimiento | Guion implícito 2026-28 |
+|---|---|---|
+| Fed (EE.UU.) | 3,63% efectivo (ago-26) [6]; dots 3,8→3,1 [1] | Bajada lenta a neutral ~3,1% |
+| BCE (Euro) | Sube +25 pb en jun-26: dep. 2,25%, refi 2,40%, marginal 2,65% [2] | Pausa/alza si inflacion persiste |
+| BoE (R.U.) | Tipo exacto no localizado en fuente primaria accesible; gilt 10A ~4,80% (jun-26, FRED [6]) | Debato recortes vs subidas [10] |
+| BIS (meta) | "higher for longer" + vulnerabilidades [4] | Prudencia; restaurar espacio fiscal |
+
+## 3. Numeros clave
+
+- **Fed SEP jun-2026 (mediana):** fed funds 3,8/3,6/3,4/3,1; PCE 3,6/2,3/2,0; PIB real 2,2/2,3/2,2; paro 4,3 [1]. Revisada al ALZA vs marzo (2026: 3,4→3,8) por el shock.
+- **Mercado (FRED 27-ago-26):** DFF 3,63%; DGS2 4,20%; DGS10 4,67%; DGS30 5,19%; T10Y2Y +0,39 [6].
+- **BCE jun-2026:** deposito 2,25% (+25 pb) [2]; HICP base 3,0/2,3/2,0 y subyacente 2,5/2,5/2,2; PIB 0,8/1,2/1,5 [3].
+- **FMI WEO jul-2026:** crecimiento global 3,0% (2026) y 3,4% (2027), bajo el 3,5% de 2024-25; inflacion global 4,1%→4,7%→3,9% [5]. EE.UU. 2,3/2,2; Eurozona 0,9/1,2.
+- **Reino Unido:** gilt 10A ~4,80% (jun-26, FRED IRLTLT01GBM156N) [6]; Bank Rate exacto no localizado en primaria.
+- **Gestoras (tier-1 sell-side):** Amundi CMA 2026 ve retornos de equities 5A en 6,5-7,5% y bonos "ligeramente mejorados"; high yield con carry pero spreads ajustados exigen seleccion; EM mejor potencial en renta fija [9]. PIMCO (Secular 2026 "Rupture and Resilience"): la fragmentacion es "realidad cinetica" y el reset de yields da "Yield Advantage" a los bonos [8]. Goldman: la Fed no recortara hasta 2027 (Mericle); inflacion ~2% en 2027 si no hay mas shocks [7].
+
+## 4. Posicion / marco conceptual
+
+El marco es el de **tipos reales como ancla de valoracion** (tipos reales, [[valoracion]]): con tipos nominales y reales positivos, el "no hay alternativa" (TINA) esta muerto y los bonos compiten con la renta variable por los flujos (flujos). La curva de tipos ya desinvertida (+0,39 10A-2A) senala un regimen de "normalizacion lenta", no recesion inminente. Esto conecta con breakeven inflacion (el shock es de oferta, no de demanda, luego los bancos centrales no pueden "crecer" para solucionarlo) y con fragmentacion geoeconomica y oro petroleo como activos de cobertura de regimen.
+
+La tesis central: **el riesgo de cola no es tipos a cero, sino tipos mas altos y mas volatiles de lo descontado pre-guerra** (coherente con BIS [4] y con la "nueva filosofia" halcon de la Fed bajo Kevin Warsh [10]).
+
+## 5. Catalizadores y riesgos
+
+- **Guerra Oriente Medio / Ormuz (petroleo):** ya elevo la inflacion 2026 del FMI a 4,7% y obligo al BCE a subir [2][5]. Riesgo de escalada = escenario alto.
+- **Nuevo Chairman de la Fed, Kevin Warsh (halcon):** su debut en jun-2026 fue "hawkish" y provocó un rout en el mercado de bonos (Reuters, 17-jun-26) [10].
+- **"Bond vigilantes" / deuda publica:** BIS alerta de vulnerabilidades financieras, debilidad fiscal y "hedge funds apalancados en soberanos" [4] → spikes de yield por oferta de deuda.
+- **Datos de empleo e inflacion EE.UU.:** "Treasuries caen con datos de empleo fuertes" (Bloomberg, abr-26) [10]; "mercado descuenta subidas que la Fed puede no dar" (Reuters, jun-26) [10].
+- **BoE:** "UK gilt yields spike as Iran war upends rate outlook" (Morningstar, mar-26) [10]; debate abierto recortes vs subidas.
+- **IA:** BIS avisa sobre sostenibilidad de la inversion en IA [4]; tipos medios-altos presionan la burbuja ia.
+
+## 6. Valoracion / implicaciones practicas
+
+- **No seguir la narrativa de "recortes inmediatos".** La Fed baja lento (dots a 3,1% en largo plazo) y el BCE subio [1][2].
+- **Barbell de tipos:** cash / corta duracion (carry sin riesgo de duracion) + duracion media selectiva (IG) que captura algo de capital gain si el escenario medio/bajo se materializa [9].
+- **Preferir valor/quality con pricing power** y acciones con free cash flow real sobre growth a multiples altos sensibles al discount rate [8].
+- **Orar (duration larga) solo en escenario bajo** (recesion); en alto/medio, la larga duracion duele.
+- **Credito:** IG carry atractivo; high yield y EM con seleccion (spreads ajustados, "menos margen de error") [9].
+- **Oro y energia** como seguro de regimen (oro petroleo); el oro ademas si USD se debilita en escenario bajo.
+- **Senal de alerta:** curva 10A-2A positiva pero si el 30A (5,19%) sigue subiendo por oferta fiscal, toda la valoracion (equities y credit) se redescuela a la baja [6][4].
+
+## 7. Veredicto para el inversor
+
+Para un inversor de largo plazo, 2026-2028 es un **regimen de tipos mas altos, mas volatiles y mas bifurcados** que el consenso de finales de 2025. No es "tipos a cero para siempre" ni un crash de tipos inmediato: es "higher for longer con colas gruesas". Posicionar un barbell (cash + duracion media IG), cargar carry, mantener oro/energia como seguro y ser disciplinado con los multiples de crecimiento. La paciencia con la duracion larga se paga solo si el crecimiento flojea de verdad.
+
+## 8. Segundo orden (OBLIGATORIO y central en este wiki)
+
+Las implicaciones de segundo orden golpean la **valoracion y los flujos**, no solo el coupon:
+
+1. **Tipo de descuento y multiples.** Tipos reales medios-altos comprimen el equity risk premium y el "earnings yield" frente al bond yield (Fed model). Esto choca con burbuja ia y con cualquier tesis de "crecimiento infinito a multiples altos": si el discount rate no baja, esos multiples no se expanden [8][4]. Conecta con [[valoracion]] y tipos reales.
+2. **Flujos: el retorno de la competencia bonos vs acciones.** Con yields reales positivas (10A 4,67%, 30A 5,19% [6]), el dinero ya no tiene "no hay alternativa" (TINA); los money market y la corta duracion capturan flujos que antes iban a equities y a duracion larga. Si el escenario medio se confirma, los flujos rotan a IG y duracion media; si el bajo, a duracion larga y credit de calidad [9]. Vertebra flujos y duration.
+3. **Deuda publica y "bond vigilantes".** BIS seriala debilidad fiscal y hedge funds apalancados en soberanos [4]. Un spike de yields por oferta de deuda es segundo orden sobre TODA la valoracion (el discount rate sube para equities, REITs y PE a la vez) → riesgo de credit spreads y de un feedback negativo a la recession 2027.
+4. **Divisa y emergentes.** Escenario alto => USD fuerte y salida de flujos de EM; escenario bajo => USD debil y entrada a EM (mejor potencial en renta fija segun Amundi [9]). Cruza con fragmentacion geoeconomica.
+5. **Choque con otras fuentes del Cerebro.** Esta sonde contradice la lectura complaciente de "cutss seguros en 2026" que aun aparece en algunas notas; el BCE YA subio [2] y el FMI YA reviso inflacion al alza [5]. A 3-5 anos, Carlos debe vigilar: (a) la pendiente de la curva de tipos y el 30A como canaria en la mina fiscal; (b) si el shock de petroleo se traslada a salarios (segunda ronda) => escenario alto real; (c) la burbuja ia bajo tipos reales altos; (d) la fragilidad de la deuda soberana europea y UK (gilt) ante subastas fallidas. Paginas sugeridas para crear/enlazar: regimen de tipos, tipos reales, curva de tipos, breakeven inflacion, fed warsh, stagflation 70s, yield advantage, duration, credit spreads, oro petroleo, fragmentacion geoeconomica, burbuja ia, flujos, [[valoracion]], recession 2027.
+
+## 9. Fuentes consultadas
+
+1. Federal Reserve - FOMC Summary of Economic Projections (17-jun-2026) - https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm
+2. BCE - Monetary policy decisions (11-jun-2026, sube +25 pb) - https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260611~4d41bd5e83.en.html
+3. BCE - Eurosystem staff macroeconomic projections, June 2026 - https://www.ecb.europa.eu/press/projections/html/ecb.projections202606_eurosystemstaff~a495110f8d.en.html
+4. BIS - Annual Economic Report 2026 ("Progress and peril") - https://www.bis.org/publications/aer-2026
+5. FMI - World Economic Outlook Update, July 2026 (text PDF) - https://www.imf.org/-/media/files/publications/weo/2026/update/july/english/text.pdf
+6. FRED (DFF, DGS2, DGS10, DGS30, T10Y2Y, IRLTLT01GBM156N; niveles 27-ago-2026 / jun-2026) - https://fred.stlouisfed.org/
+7. Goldman Sachs - "Why the Fed Is Unlikely to Cut Rates This Year" (jun-2026) - https://www.goldmansachs.com/insights/articles/why-the-fed-is-unlikely-to-cut-rates-this-year
+8. PIMCO - "Rupture and Resilience: 2026 Global Economic Outlook" (jun-2026) - https://www.pimco.com/gbl/en/insights/rupture-and-resilience
+9. Amundi - Capital Market Assumptions 2026 - https://research-center.amundi.com/index.php/article/capital-market-assumptions-2026
+10. Google News RSS (catalizadores recientes, mar-ago 2026; ej. Reuters "Fed holds steady in Warsh's debut, hawkish shift fuels bond-market rout", 17-jun-2026) - https://news.google.com/rss/search?q=interest+rate+regime+2026+Fed+ECB
+
+---
+Limitaciones de la sonde (honestidad): (a) Exa agoto creditos a mitad de la investigacion; se degrado a Jina Reader + Google News RSS (ambos funcionales). (b) La pagina web del FMI devolvio 403; se uso el PDF de texto via Jina. (c) El Bank Rate exacto del BoE no se localizo en fuente primaria accesible; se cita el gilt 10A de FRED (4,80% jun-26) y el contexto de prensa (debate recortes vs subidas). (d) Cifras de gestoras (Amundi/Goldman/PIMCO) son proyecciones de sell-side, no datos primarios.

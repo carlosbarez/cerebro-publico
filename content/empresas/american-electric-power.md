@@ -1,68 +1,48 @@
 ---
-title: "American Electric Power (AEP) — Análisis Fundamental"
+title: "American Electric Power (AEP)"
 tipo: empresa
-tags: [empresa, analisis-fundamental, utilities]
+tags: [empresa, utilities, estados-unidos, sin-verificar]
 fecha: 2026-08-29
-agente: carlos-barez
+agente: opencode-go
 ticker: AEP
 moneda: USD
-precio_referencia: 122.31
-fecha_precio: 2026-08-28
-valor_estimado: 104.0
-gatillo_entrada: 100.0
-veredicto: MANTENER
-revisar_el: 2026-11-29
-fuentes: ["https://stockanalysis.com/stocks/aep/financials/", "https://stockanalysis.com/stocks/aep/"]
+fuentes: "[\"https://stockanalysis.com/stocks/aep/financials/\", \"https://stockanalysis.com/stocks/aep/\"]"
 ---
 
-# American Electric Power (AEP) — Análisis Fundamental
+> [!warning] Ficha sin verificar (2026-08-29). Cifras copiadas del barrido, sin contrastar contra fuente primaria. No decidas con ellas.
 
-## 1. Resumen ejecutivo
+# American Electric Power (AEP)
 
-American Electric Power (AEP) es una utility regulada de transmisión y distribución eléctrica, una de las mayores de EE.UU. (11 estados). Cotiza a 122,31 USD (cierre 28-ago-2026), P/E 21,19, dividendo 3,80 USD (yield 3,11%). Ingresos TTM 22.791 MUSD (+10,3%), beneficio neto 3.141 MUSD, EPS 5,77. Pero el FCF es fuertemente negativo (-5.890 MUSD TTM) por CapEx de 13.584 MUSD. Veredicto: **MANTENER** (utilidad de yield, no barata).
+American Electric Power (AEP) es una utility regulada de transmisión y distribución eléctrica, una de las mayores de EE.UU. (11 estados). Cotiza a ~122,31 $ (cierre 28-ago-2026), P/E 21,19, dividendo 3,80 $ (yield 3,11%).
 
-## 2. Descripción del negocio
+## Negocio
 
-AEP opera Vertically Integrated Utilities (13.226 MUSD), Transmission & Distribution (6.362 MUSD), AEP Transmission Holdco (2.286 MUSD) y Generation & Marketing (3.110 MUSD). Es infraestructura eléctrica regulada con base rate (tasa base) creciente y plan de inversiones masivo en transmisión.
+Opera Vertically Integrated Utilities (13.226 M$), Transmission & Distribution (6.362 M$), AEP Transmission Holdco (2.286 M$) y Generation & Marketing (3.110 M$). Infraestructura eléctrica regulada con *rate base* (tasa base) creciente y plan de inversiones masivo en transmisión.
 
-## 3. Industria y moat competitivo
+## Moat — [[industria-utilities-electricas]]
 
-Utilities reguladas. Moat: monopolio geográfico regulado (RETURN on equity autorizado por comisiones estatales), barreras de entrada infranqueables. Beneficiaria del ciclo de electrificación e IA (demanda de datos centers). Riesgo: regulación de retornos, costes de descarbonización y tipos de interés (deuda 53.525 MUSD).
+Utilities reguladas: monopolio geográfico regulado (ROE autorizado por comisiones estatales) y barreras de entrada infranqueables. Beneficiaria del ciclo de electrificación e IA (demanda de data centers). Riesgo: regulación de retornos, costes de descarbonización y tipos de interés (deuda 53.525 M$).
 
-## 4. Análisis financiero (3-5 años)
+## Financieros (sin verificar)
 
-Datos en millones USD (ejercicio ene-dic). Fuente: stockanalysis.com (S&P Global Market Intelligence).
+Ingresos TTM (jun-26) 22.791 M$ (+10,28%), beneficio neto 3.141 M$, EPS 5,77; FY2025 ingresos 21.876 M$ / beneficio 3.580 M$ / EPS 6,66; FY2024 19.721 M$ / 2.967 M$ / 5,58; FY2023 18.982 M$ / 2.208 M$ / 4,24; FY2022 19.640 M$ / 2.307 M$ / 4,49. FCF TTM -5.890 M$ (margen -25,84%) por CapEx de 13.584 M$ — típico de utility en fase de inversión, financiado con deuda y emisión de capital. Margen neto ~12-16%.
 
-| Año | Ingresos | Crecimiento | Margen neto | Beneficio neto | EPS |
-|---|---|---|---|---|---|
-| TTM (jun-26) | 22.791 | 10,28% | 13,78% | 3.141 | 5,77 |
-| FY 2025 | 21.876 | 10,93% | 16,36% | 3.580 | 6,66 |
-| FY 2024 | 19.721 | 3,89% | 15,04% | 2.967 | 5,58 |
-| FY 2023 | 18.982 | -3,35% | 11,63% | 2.208 | 4,24 |
-| FY 2022 | 19.640 | 16,96% | 11,75% | 2.307 | 4,49 |
+## Valoración (sin verificar)
 
-FCF TTM -5.890 MUSD (FCF margin -25,84%) por CapEx de 13.584 MUSD — típico de utility en fase de inversión, financiado con deuda (53.525 MUSD) y emisión de capital. Margen neto ~12-16%.
+Sobre P/E histórico de utilities reguladas (16-21x) y EPS TTM 5,77 $: pesimista 16x → 92,3 $; base 18x → 103,9 $; optimista 20x → 115,4 $. Valor estimado 104,0 $. El precio actual cotiza por encima del escenario optimista → sin margen de seguridad por múltiplo; la tesis es de yield (3,11%). Gatillo 100 $ (P/E ~17,3).
 
-## 5. Valoración por escenarios
+## Riesgos
 
-Metodología: múltiplo objetivo sobre EPS TTM (5,77 USD), anclado en P/E histórico de utilities reguladas (rango 16-21x, stockanalysis.com). Valoración por FCF no aplicable (FCF negativo structural).
+- Deuda masiva: 53.525 M$; sensible a tipos altos.
+- FCF negativo estructural: depende de financiación externa; riesgo de dilución por emisión de acciones.
+- Regulación: recortes de ROE autorizado en Ohio/Texas comprimirían beneficios.
+- Descarbonización: costes de transición trasladables pero con riesgo regulatorio.
 
-| Escenario | Múltiplo P/E | Precio objetivo | vs precio actual (122,31) |
-|---|---|---|---|
-| Pesimista | 16x | 92,3 | -25% |
-| Base | 18x | 103,9 | -15% |
-| Optimista | 20x | 115,4 | -6% |
+## Veredicto (propuesto por el barrido, sin verificar)
 
-Valor estimado: 104,0 USD. El precio actual cotiza por encima del escenario optimista → **sin margen de seguridad** para el comprador por múltiplo; la tesis es de yield (3,11%). Gatillo de entrada: 100 USD (P/E ~17,3).
+MANTENER: utilidad de alta calidad, monopolio regulado y yield atractivo, ideal para cartera defensiva. Pero cara (cotiza sobre el escenario optimista) y con FCF negativo financiado por deuda. No aumentar posición <100 $. Revisar en 3 meses o tras decisiones regulatorias de *rate case*.
 
-## 6. Riesgos y red flags
+## Conexiones
 
-- **Deuda masiva**: 53.525 MUSD; sensible a tipos altos (coste de financiación del CapEx).
-- **FCF negativo estructural**: depende de financiación externa; riesgo de dilución por emisión de acciones.
-- **Regulación**: recortes de ROE autorizado en Ohio/Texas comprimirían beneficios.
-- **Descarbonización**: costes de transición energética trasladables pero con riesgo regulatorio.
-- **Sin red flags contables**; earnings de utility predecibles.
-
-## 7. Veredicto
-
-**MANTENER.** Utilidad de alta calidad, monopolio regulado y yield atractivo (3,11%), ideal para cartera defensiva. Pero cara (cotiza sobre escenario optimista) y con FCF negativo financiado por deuda. Mantener y reinvertir dividendo; no aumentar posición <100 USD. Revisar en 3 meses o tras decisiones regulatorias de rate case.
+- Sector: [[industria-utilities-electricas]]. Pares: [[ameren]], [[alliant-energy]].
+- Marco: [[foso-economico]], [[margen-de-seguridad]], [[financiacion-estructurada-del-capex-de-ia]].

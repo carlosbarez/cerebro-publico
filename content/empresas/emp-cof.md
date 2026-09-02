@@ -1,0 +1,107 @@
+---
+title: "Capital One (COF) - Ficha de investigacion"
+tipo: empresa
+tags: [empresa, banca, usa]
+fecha: 2026-08-31
+agente: carlos-barez
+squad: Analisis Fundamental - Empresas (Carlos Barez)
+status: sonde
+---
+
+# Capital One (COF) - Ficha de investigacion
+
+> Fuentes base: SEC EDGAR 10-K 2025 (carpeta 0000927628-26-000024), SEC EDGAR 10-Q Q2 2026 (0000927628-26-000089), stockanalysis.com/COF, Google News RSS (feeds consultados el 2026-08-31). Nota: el canal Exa del toolkit agent-reach fallo por creditos agotados (402); se sustituyo por SEC EDGAR + stockanalysis + Google News RSS.
+
+## 1. Resumen ejecutivo
+
+Capital One Financial Corporation (NYSE: COF) es, tras cerrar la absorcion de Discover Financial Services el 18-may-2025, el mayor emisor de tarjetas de credito de EE.UU. por saldo de prestamos vigente y un competidor de redes de pago global (Discover Network, PULSE, Diners Club International) (Fuente: 10-K 2025, https://www.sec.gov/Archives/edgar/data/927628/000092762826000024/cof-20251231.htm). Cotiza a ~$213,80 (31-ago-2026), con capitalizacion ~$131B, P/E 13,8x y P/E forward 9,9x (Fuente: https://stockanalysis.com/stocks/COF/).
+
+Importa al inversor de largo plazo por tres razones: (1) es un vehiculo puro de consumo estadounidense (ciclo de credito del consumidor), no un banco diversificado; (2) la integracion Discover cambia radicalmente su modelo (pasa de pagar interchange a Visa/Mastercard a capturarlo); (3) su exposicion directa a Asia/mercados emergentes (EM) es practicamente nula, por lo que el canal por el que le afectan aranceles y guerras comerciales es indirecto y pasa por el consumidor y los tipos de interes de EE.UU. (analisis en seccion 8).
+
+## 2. Estructura / modelo
+
+COF se organiza en tres segmentos (Fuente: 10-K 2025, seccion "Operations and Business Segments"):
+
+| Segmento | Actividad | Nota clave |
+|---|---|---|
+| Credit Card | Prestamo de consumo doméstico, préstamos personales, pequeña empresa y tarjetas internacionales (Reino Unido y Canadá) | Motor de beneficios; yields flotan con la prime |
+| Consumer Banking | Depositos, auto-lending nacional y la Global Payment Network (Discover/PULSE/Diners) | Incluye ya la red de pagos tras Discover |
+| Commercial Banking | Prestamo, depositos, capital markets y treasury a empresas de $20M-$2B de facturacion | Menor peso relativo |
+
+Mecanica: COF ganaba margen prestando sobre depositos (Capital One 360, ahorro online de alto tipo) y cobrando intereses de tarjeta (yield variable atado a prime). Con Discover, adquiere la red: ahora procesa sus propias transacciones y captura el interchange que antes pagaba a Visa/Mastercard. El 10-K afirma que COF es el mayor emisor de tarjetas de EE.UU. por saldo vigente al 31-dic-2025.
+
+Geografia (clave para el angulo del encargo): la unica actividad de prestamo al consumo fuera de EE.UU. es Reino Unido (Capital One (Europe) plc, no toma depositos) y Canadá (sucursal, no toma depositos). No hay operaciones de prestamo en Asia ni en EM. La red de pagos (Diners Club es una red global de licenciatarios; Discover/PULSE tienen aceptacion internacional) es el unico canal "global", pero es de servicios de red, no de balance (Fuente: 10-K 2025, secciones de negocio e internacional).
+
+## 3. Numeros clave
+
+Cifras de FY2025 (10-K) y TTM (stockanalysis), salvo nota:
+
+| Metrica | Valor | Fuente |
+|---|---|---|
+| Ingresos TTM | $48,11B (+102,4% a/a, impulsado por Discover) | stockanalysis/COF |
+| Ingresos FY2025 | $32,78B | 10-K / stockanalysis financials |
+| Beneficio neto TTM | $10,20B; FY2025 $2,18B (deprimido por amortizacion/integracion Discover) | stockanalysis / 10-K |
+| EPS TTM | $16,19; P/E 13,82; P/E forward 9,85 | stockanalysis/COF |
+| Margen de interes neto (NIM) | 7,84% (2025) vs 6,88% (2024) | 10-K Tabla 1 |
+| Tasa de net charge-off (NCO) | 3,30% (2025); 3,23% en Q2-2026; delincuencia 30+ dias 3,13% (jun-2026) | 10-K / 10-Q Q2-2026 |
+| Efficiency ratio | 57,08% (2025); operativo 46,06% | 10-K |
+| ROA / ROE tangible | 0,35% / 3,16% (2025, deprimidos); ROE TTM 9,03% | 10-K / stockanalysis statistics |
+| CET1 | 14,3% (2025); buffer de estres 4,5% hasta sep-2027 | 10-K |
+| Dividendo | $3,20 (yield 1,50%); ex-div 17-ago-2026 | stockanalysis/COF |
+| Discover (cierre 18-may-2025) | Consideracion de compra valor razonable $51,8B; activos $168,6B; prestamos $108,2B; depositos asumidos $106,9B | 10-K |
+| Q2-2026 | Beneficio neto $3,0B / $4,73 por accion; purchase volume $253,75B (+26%) | 10-Q Q2-2026 |
+
+Estado del arte: COF vende Discover Home Loan business el 24-nov-2025 (Fuente: 10-K). La accion cayo ~20-27% en 2026 segun multiples medios consultados en Google News RSS (TIKR, 24/7 Wall St, Motley Fool).
+
+## 4. Posicion / marco conceptual
+
+El foso de COF es de **escala + datos + red propia**. Tras Discover, controla extremo a extremo emision, red y adquirencia (ismo de cuatro partes frente al modelo de dos partes de Visa/Mastercard), lo que le permite internalizar el interchange y mejorar la economia unitaria de cada transaccion. El 10-K describe la red Global Payment Network (Discover, PULSE, Diners Club) como un activo competitivo frente a "emerging alternative payment providers".
+
+Conecta con otras tesis del Cerebro: Capital One COF, Discover, Bancos estadounidenses, Red de pagos, [[Visa]], [[Mastercard]], Interchange, Margen de interes neto, Net charge offs, Ciclo crediticio, Segundo orden. El debate central de valoracion es si COF es un "banco de consumo caro" o una "plataforma de pagos escondida dentro de un banco" (tesis recurrente en Seekis Alpha/24-7 Wall St consultados).
+
+## 5. Catalizadores y riesgos
+
+Catalizadores:
+- Integracion Discover: sinergias objetivo ~$2,5B (citybiz, abr-2026, via Google News); migracion de tarjetas a la red Discover en curso (PYMNTS, jul-2026).
+- Credit mejor de lo esperado: NCO baja 39bps en Q2-2026 vs ano anterior segun cobertura de resultados; delincuencia 30+ dias cae a 3,13%.
+- Multiple barato: P/E forward ~9,9x con consenso de analistas en "Buy" y objetivo ~$258 (+20,8%) (stockanalysis/COF).
+
+Riesgos:
+- Gastos de integracion Discover mayores/largo plazo (el 10-K lo senala explicitamente como riesgo; recorte de >1.100 empleos en antigua sede Discover, mar-2026, via Google News).
+- Regulacion de interchange: el 10-K advierte que las transacciones de debito en redes de tres partes podrian caer bajo Regulation II (Durbin) y que cambios en leyes podrian limitar comisiones de red (riesgo de margen de la red).
+- Litigios: acuerdo de $425M con pagos "substantially delayed" tras apelacion (Yahoo, jul-2026, via Google News).
+- Movimiento de grandes inversores: Berkshire (Buffett) vendio COF mientras Dan Loeb (Third Point) aumento (24/7 Wall St, 17-ago-2026, via Google News) — senal mixta de "smart money".
+- Riesgo de credito cíclico: NCO de auto ya en 4,71% (Q2-2026).
+
+## 6. Valoracion / implicaciones practicas
+
+A ~$214 con P/E 13,8x y P/B implícito ~1,27x (precio / book value $167,86; Fuente: stockanalysis statistics), COF cotiza como banco de consumo ciclico barato, no como fintech de pagos. El mercado descuenta la incertidumbre de integracion Discover y el riesgo de credito. Senal de alerta: si la tasa de NCO de tarjeta rebota por encima de ~3,5-4% (auto ya en 4,7%), el beneficio neto se deteriora rapido por apalancamiento operativo inverso. Que vigilar: (1) evolucion de NCO y delincuencia 30+; (2) progreso de migracion a red Discover y sinergias reales vs gasto; (3) NIM si la Fed recorta tipos; (4) cualquier extension de Durbin al credito.
+
+## 7. Veredicto para el inversor
+
+COF es una apuesta apalancada al consumidor estadounidense y a la ejecucion de la integracion Discover. Barata si la integracion funciona y el credito aguanta; fragil si un choque (aranceles/recesion) dispara los charge-offs. No es un juego de exposicion a EM/Asia: es un juego de consumo USA + red de pagos. Posicion por debajo del consenso de precio pero con riesgo de cola ciclico real.
+
+## 8. Segundo orden (OBLIGATORIO y central en este wiki)
+
+Angulo obligatorio: exposicion a demanda emergente (Asia/EM) y a guerras comerciales/aranceles, y su segundo orden sobre margenes.
+
+Primer orden (hecho primario, del 10-K): COF NO tiene prestamo al consumo en Asia ni en EM; su unica actividad fuera de EE.UU. es Reino Unido y Canadá (ambas sin depositos). Por tanto la exposicion directa a "demanda emergente" es practicamente nula. El unico canal global es la red de pagos (Diners Club/Discover/PULSE), que genera comisiones por aceptacion y transacciones internacionales, no prestamo de balance. Conclusion honesta: el encargo asume una exposicion EM/Asia que, en COF, no existe en el balance; el unico efecto EM es el fee de red por gasto de viajeros/emisores globales (cola menor y de servicios).
+
+Segundo orden (implicaciones de las implicaciones):
+1. Aranceles/guerras comerciales NO golpean a COF por operaciones directas en Asia/EM, sino por el consumidor de EE.UU. Un arancel encarece bienes importados -> inflacion mas pegajosa -> la Fed mantiene tipos mas altos por mas tiempo. Para COF eso es, en primera instancia, neutral/positivo para el NIM (los yields de tarjeta flotan con la prime y reprecian rapido, mientras los costes de deposito del 360 reaccionan con rezago); de ahi el NIM de 7,84%. Pero el segundo orden sobre el MARGEN NETO REAL (beneficio tras coste de credito) es negativo: tipos altos sostenidos + inflacion de bienes comprimen el poder adquisitivo del consumidor y, si derivan en enfriamiento del empleo, los net charge-offs suben. Con NCO de tarjeta en 3,23% y auto en 4,71%, un ciclo adverso empuja el coste de credito y destruye el margen neto mucho mas que cualquier ganancia de NIM. Este es el segundo orden central: la guerra comercial afecta a COF por el canal crediticio del consumidor, no por el canal geografico.
+2. Segundo orden sobre la red: si los aranceles/guerras comerciales fragmentan el comercio global, la aceptacion internacional de Discover/Diners (la via EM) crece menos; pero a la vez, al ser COF dueño de la red, cualquier regulacion tipo Durbin extendida al credito recortaria justo el margen de red que Discover aportaba (riesgo simetrico citado en el 10-K).
+3. Conexion con otras tesis del Cerebro: esto refuerza Tarifas comerciales y Guerra comercial EEUU China como transmision via [[Inflacion]] y Fed hacia el Ciclo crediticio del consumo; choca con la narrativa de "COF como proxy de EM" (no lo es). Para [[Berkshire-Hathaway]] (Buffett vendio) y Consumer discretionary, COF es un termometro de la salud del consumidor USA.
+4. Que debe vigilar Carlos a 3-5 anos: (a) si la integracion Discover entrega las sinergias de ~$2,5B sin erosion de credito; (b) si el NCO de tarjeta permanece <3,5% en un escenario de tipos bajando; (c) regulacion de interchange crediticio; (d) si la red global (Diners/Discover) logra aceptacion EM real o queda confinada a EE.UU./UK/Canada. El segundo orden a vigilar es la confluencia: aranceles altos sostenidos + recesion -> charge-offs -> compresion de margen neto, el unico canal material de la guerra comercial sobre este banco.
+
+## 9. Fuentes consultadas
+
+1. Capital One 10-K FY2025 (cerrado 18-may-2025, cifras Discover, segmentos, NIM, NCO, CET1) - https://www.sec.gov/Archives/edgar/data/927628/000092762826000024/cof-20251231.htm (feb-2026)
+2. Capital One 10-Q Q2 2026 (NCO 3,23%, delincuencia 3,13%, purchase volume, beneficio $3,0B) - https://www.sec.gov/Archives/edgar/data/927628/000092762826000089/cof-20260630.htm (jul-2026)
+3. stockanalysis.com COF (precio, cap, P/E, dividend, segmentos, TTM) - https://stockanalysis.com/stocks/COF/ (31-ago-2026)
+4. stockanalysis.com COF statistics (ROE 9,03%, book value $167,86, P/B, deuda) - https://stockanalysis.com/stocks/COF/statistics/ (31-ago-2026)
+5. Google News RSS - Capital One COF 2026 (recientes: resultados, caida de accion, Berkshire/Loeb, $425M) - https://news.google.com/rss/search?q=Capital+One+COF+2026&hl=en-US
+6. Google News RSS - Capital One Discover integration 2026 (sinergias, migracion red, despidos) - https://news.google.com/rss/search?q=Capital+One+Discover+integration+2026&hl=en-US
+7. Google News RSS - Capital One charge-offs 2026 (credit pulse, NCO) - https://news.google.com/rss/search?q=Capital+One+credit+card+charge-offs+2026&hl=en-US
+8. SEC EDGAR company page (CIK 0000927628) - https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000927628
+
+Limitacion de la sonda: el canal Exa (agent-reach) devolvio 402 (creditos agotados) y no se uso; las URLs de Google News son feeds RSS (no resuelven a la URL canonica del editor). Cifras de descuento/valoracion de Discover y de adquisiciones complementarias (p.ej. reporte de Brex por medios) no verificadas en 10-K; marcadas como "según medios". No se invento ninguna cifra: donde no hay dato primario, se indica la fuente o se senala la ausencia.

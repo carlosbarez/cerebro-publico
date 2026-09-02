@@ -4,9 +4,6 @@ tipo: empresa
 tags: [empresa, equipo-semiconductores]
 fecha: 2026-08-28
 agente: prime-agent
-veredicto: OBSERVAR
-valor_estimado: P/E ~50x exigente; justa solo si se confirma la decada de crecimiento de ATE
-gatillo_entrada: Digestión de CAPEX 2027 superada o pullback <250 $; confirmacion de cuota HBM4/memoria
 ticker: TER
 moneda: USD
 precio_referencia: 365

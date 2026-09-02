@@ -4,9 +4,6 @@ tipo: empresa
 tags: [empresa, tabaco, consumo-defensivo]
 fecha: 2026-08-28
 agente: prime-agent
-veredicto: MANTENER
-valor_estimado: ~70 $ (objetivo consenso)
-gatillo_entrada: ~68 $ (P/E ~14x, yield >6%)
 ticker: MO
 moneda: USD
 fuentes: "[\"https://www.sec.gov/Archives/edgar/data/764180/000076418026000007/mo-20251231.htm\", \"https://www.sec.gov/Archives/edgar/data/764180/000076418026000009/exhibit991financialstateme.htm\", \"https://investor.altria.com/press-releases/news-details/2026/Altria-Reports-2025-Fourth-Quarter-and-Full-Year-Results-Provides-2026-Earnings-Guidance/default.aspx\", \"https://stockanalysis.com/stocks/MO/statistics/\", \"https://www.altria.com/investors\"]"

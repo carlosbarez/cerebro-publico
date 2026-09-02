@@ -1,0 +1,138 @@
+---
+title: "Analisis de tendencia y medianil"
+tipo: concepto
+tags: [tendencia, medianil, herramienta]
+fecha: 2026-08-30
+agente: jorne
+squad: Analisis Tecnico (Jorne)
+status: durable
+---
+
+# Analisis de tendencia y medianil
+
+> Fuentes base: Investopedia (Andrews' Pitchfork), StockCharts ChartSchool, CMT Association (Gomperts), Optuma (historia accion-reaccion), Greg Fisher "Using Median Lines" (estudio empirico granos 1990-2005), signal2forex.com y mql5.com (material en espanol).
+
+Nota terminologica honesta: en la jerga de trading en espanol no existe una palabra "medianil" canonica; lo estandar es "linea mediana" (median line) o "horca/tridente de Andrews" (Andrews' Pitchfork). En esta sonda uso "medianil" como etiqueta de la *herramienta practica de la linea mediana* para seguimiento de tendencias, que es el angulo obligatorio del encargo. El objeto tecnico real es el metodo de la linea mediana de Alan Andrews.
+
+## 1. Resumen ejecutivo
+
+El analisis de tendencia por medianil es una forma del *Median Line Method* del Dr. Alan H. Andrews (MIT/Harvard, difundido en los 60-70), popularmente conocido como Andrews' Pitchfork ("tridente de Andrews"). Consiste en tres lineas: una linea central, la **linea mediana** (median line), y dos paralelas equidistantes por fuera. La linea mediana se traza desde un punto de origen P0 atravesando el punto medio del segmento entre dos pivots opuestos P1 y P2; las paralelas se dibujan por P1 y P2, paralelas a la mediana (Investopedia; StockCharts ChartSchool).
+
+La idea central y por que importa a un inversor de largo plazo: la linea mediana actua como un "centro de gravedad" del precio dentro de la tendencia. Andrews sostenía que el precio vuelve a la linea mediana ~80% de las veces; el estudio empirico de Greg Fisher en granos (1990-2005) encontro un promedio del **82%** de retornos a la mediana (trigo CBOT 86,2%, trigo KCBOT 83,3%, maiz 80%, soja 78,3%) (Fisher, PDF; alphametrics.substack.com). Para un inversor como Carlos, esto no es una herramienta de timing intradia: es un *marco para vigilar la salud de una tendencia* — si el precio deja de alcanzar la mediana, suele ser la primera senal de debilidad del impulso antes de una ruptura del canal (StockCharts; fxfoundations.com).
+
+Cifras clave con fuente: (1) ~80% retorno a la mediana segun Andrews (Investopedia; Fisher PDF); (2) 82% promedio en granos 1990-2005, con comportamiento en la mediana de gap/zoom 42%, reversal 38%, consolidacion 20% (Fisher PDF); (3) advertencia de riesgo honesta: 74-89% de cuentas minoristas pierden dinero en FX/CFD (ESMA, citado en forex-basics.com) — el medianil no cambia esa estadistica.
+
+## 2. Estructura / modelo
+
+El modelo se construye sobre tres pivots alternos (maximos/minimos de reaccion):
+
+| Componente | Definicion | Rol en la tendencia |
+|---|---|---|
+| P0 (origen) | Inicio del movimiento (minimo en alcista, maximo en bajista) | Define el punto de arranque de la linea mediana y la pendiente |
+| P1 | Primer pivot opuesto tras P0 (maximo en alcista) | Paso por donde se traza la paralela superior |
+| P2 | Siguiente pivot opuesto (minimo en alcista) | Paso por donde se traza la paralela inferior |
+| Linea mediana (ML) | Recta P0 -> punto medio de P1-P2 | "Eje de equilibrio"; medidor de fuerza de tendencia |
+| Paralela superior / inferior | Paralelas a la ML por P1 / P2 | Soporte/resistencia del canal; objetivos |
+| Lineas de alerta (warning lines) | Paralelas adicionales fuera del canal a intervalos iguales | Reaccion mas alla del canal original (Andrews) |
+| Lineas disparadoras (trigger lines) | Desde P0 atravesando P2 (compra) o P3 (venta) | Senales de entrada antes que la ruptura del canal |
+
+Mecanica (en alcista: bajo-alto-bajo; en bajista: alto-bajo-alto) (thinkorswim; prof-fx.com):
+1. Marcar P0 en el inicio del movimiento bien definido.
+2. Marcar P1 y P2 como la primera reaccion y el primer pullback despues de P0.
+3. El software (TradingView, MetaTrader, Optuma, thinkorswim) localiza el punto medio de P1-P2 y traza la ML desde P0.
+4. Paralelas automaticas por P1 y P2.
+
+Variantes practicas (fxfoundations.com; GoCharting):
+- **Schiff**: mueve P0 al punto medio entre P0 y P1 -> pendiente menos agresiva cuando la horca estandar es demasiado empinada.
+- **Modified Schiff**: P0 al punto medio del nivel de precio P0-P1 sobre la coordenada temporal de P0 -> compromiso intermedio.
+- **Inside**: mismo P0 pero la mediana se ancla en el punto medio de un pivot de reaccion posterior -> canal mas estrecho dentro del canal amplio.
+
+La pendiente (slope) es el parametro que importa: una horca demasiado empinada se rompe con facilidad; una demasiado plana no captura la tendencia (StockCharts; signal2forex.com enfatiza "la pendiente, no los puntos").
+
+## 3. Numeros clave
+
+- **82%** promedio de retornos del precio a la linea mediana en granos CBOT/KCBOT 1990-2005; desagregado: trigo CBOT 86,2%, trigo KCBOT 83,3%, maiz 80%, soja 78,3% (Fisher, "Using Median Lines As A Trading Tool", PDF, 2009; resumen en alphametrics.substack.com, 2026-03-14).
+- Comportamiento al tocar la mediana: **gap/zoom 42%**, **reversal 38%**, **consolidacion 20%** (Fisher PDF).
+- La cifra "80%" original es una afirmacion de Andrews, no un hallazgo independiente; el unico backtest riguroso localizado es el de Fisher en *granos* (no acciones/indices), por lo que su extrapolacion a otros activos queda como **no localizado/pendiente de validar** (honestidad: no presentar el 80% como ley universal).
+- Riesgo de mercado de referencia: 74-89% de cuentas minoristas pierden dinero en FX/CFD (ESMA 2018, via forex-basics.com) — contexto de que ninguna herramienta grafica anula la asimetria del apalancamiento.
+- Reputacion practica: Timothy Morge (Blackthorne Capital, CTA con >10M USD bajo gestion) reporto retornos de dos digitos usando metodos de Andrews como base de su estrategia (CMT Association, Gomperts) — anecdota de un caso real, no evidencia estadistica.
+
+## 4. Posicion / marco conceptual
+
+El medianil es, en el fondo, un **canal de tendencia dinamico** (las lineas se mueven con el tiempo, a diferencia del soporte/resistencia estatico) construido sobre la teoria accion-reaccion de Roger Babson, a su vez inspirada en la Tercera Ley de Newton ("toda accion tiene una reaccion igual y opuesta") y en la "normal line" de George Swain (Optuma; mql5.com). Andrews llevo eso a precios y lo bautizo "Action-Reaction Course" (Optuma).
+
+Ventaja competitiva real del metodo:
+- **Pronostica a la vez la ruta y los limites** del precio futuro (pocas herramientas lo hacen), proyectando tanto el eje como el canal (CMT Association; prof-fx.com).
+- Como **medidor de fuerza de tendencia**: en alcista sana el precio alcanza la mediana con regularidad; "fallar en llegar a la mediana" es la primera pista de debilidad, a menudo previa a la ruptura del canal (StockCharts; fxfoundations.com). Esto lo convierte en una herramienta de *monitorizacion*, no solo de entrada.
+- Es **discrecional pero cuantificable**: cada elemento se puede programar en un sistema mecanico (CMT Association) — se presta a backtesting.
+
+Conexiones con el resto del Cerebro: [[tendencia]] (el medianil es una formalizacion de la pendiente de la tendencia), [[canales-de-precio]] y lineas de tendencia (el medianil es un canal con eje medio), [[accion-precio]] (los pivots son Swing highs/lows), [[fibonacci]] (los niveles de retroceso suelen usarse para confirmar reacciones en la mediana), [[medias-moviles]] (la mediana funciona como una "regresion" visual del precio, segun QuantifiedStrategies), y [[gestion-de-riesgo]] (la mediana/origen fija stops y objetivos).
+
+## 5. Catalizadores y riesgos
+
+Catalizadores a favor:
+- El metodo sigue vivo en plataformas retail (TradingView, MT, Optuma, thinkorswim incluyen el Pitchfork y variantes Schiff/Inside) y en la literatura tecnica (StockCharts, CMT Association, Optuma trois partes).
+- Novedades recientes (Google News RSS, abr-2026): ideas de TradingView aplican "Andrews meets Gann", "Super Pitchfork con lineas de reaccion y disparo" (BTCUSD), y "Median Lines and Finding the Right Path" (BX) — la comunidad tecnica sigue refinando el metodo (news.google.com RSS, 2026).
+- El enfoque "pendiente antes que puntos" (signal2forex.com; StockCharts) lo hace robusto en marcos superiores (semanal/mensual), util para un inversor de largo plazo.
+
+Riesgos y limitaciones (honestos):
+- **Subjetividad de los pivots**: la eleccion de P0/P1/P2 es discrecional; dos analistas trazan canales distintos y a veces opuestos (forex-basics.com; StockCharts: "no hay reglas fijas para colocar los puntos"). El resultado depende de la destreza y experiencia.
+- **Falso magnetismo / riesgo de tautologia**: el "80%" puede sobreestimarse porque cualquier linea extendida tiende a ser tocada en algun horizonte; el edge real es la *mean-reversion dentro del horizonte relevante*, no una ley fisica. Validacion independiente rigurosa fuera de granos = **no localizada**.
+- **Head fakes**: las rupturas de las paralelas dan falsas senales; requiere confirmacion con volumen (OBV) u otros indicadores (Investopedia; StockCharts).
+- No es sistema autonomo: hay que confirmar con volumen/divergencias y contexto de marco superior; usado solo, es "una forma de contar una historia sobre la estructura", no una senal objetiva (forex-basics.com).
+
+## 6. Valoracion / implicaciones practicas
+
+Para un inversor de largo plazo (perfil de Carlos: valora negocios, no vende en el corto plazo), el medianil no sustituye el analisis fundamental ni [[margen-de-seguridad]], pero aporta un **panel de control de tendencia**:
+
+1. **Trazar en semanal/mensual** la horca sobre la posicion principal (P0 en el inicio del movimiento, P1/P2 en la primera reaccion y pullback). Marco superior = canal mas fiable (fxfoundations.com).
+2. **Vigilar la mediana como medidor de salud**: si el precio deja de alcanzar la mediana en los rechazos, es alerta temprana de debilidad del tramo — revisar tesis, no necesariamente vender.
+3. **Anadir en pullbacks a la paralela inferior** dentro de la horca (en alcista) cuando coincida con soporte estatico/[[fibonacci]]/media movil; stop por debajo de la paralela rota.
+4. **Usar lineas de alerta** cuando el movimiento supera el canal original (extension fuerte).
+5. **No operar el toque en si**: esperar vela de confirmacion (engulfing, martillo) y limitar riesgo por operacion (forex-basics.com recomienda <=1% de la cuenta en FX).
+6. **Re-dibujar tras ruptura**: si el precio rompe la paralela inferior en alcista, buscar nuevo alto-bajo-alto para la correccion y no forzar la horca vieja.
+
+Senal de alerta: ruptura decisiva de la paralela inferior del canal semanal + fallo repetido en alcanzar la mediana = probable fin de tramo; amerita reducir o revisar el tesis de inversion.
+
+## 7. Veredicto para el inversor
+
+El medianil (linea mediana de Andrews) es una herramienta honesta y elegante para *dar estructura y pendiente a una tendencia* y, sobre todo, para *medir su fuerza*: su valor no esta en "predecir" un 80% magico, sino en serialar rapido cuando el impulso se agota. Para un inversor de largo plazo es util como instrumento de monitoreo y de entrada en pullbacks confirmados, nunca como sistema autonomo ni como sustituto del fundamental. La limitacion central es la subjetividad de los pivots y la falta de validacion independiente amplia del 80%; usado con disciplina y confirmacion, aporta mucho; usado solo, engana.
+
+## 8. Segundo orden (OBLIGATORIO y central en este wiki)
+
+- **Reflexividad del medianil**: si un numero suficiente de tecnicos ancla sus operaciones en la misma linea mediana, las reacciones en ella se vuelven parcialmente autocumplidas (ver [[reflexividad-soros]] / profecia autocumplida). Esto refuerza el "magnetismo" pero tambien lo vuelve fragil cuando el consenso cambia — el edge depende de cuantos lo miran, no solo de la geometria.
+- **Choque con el paradigma eficiente**: la "ley de accion-reaccion" de Andrews es una metafora fisica atractiva, no una fuerza de mercado demostrable; desde hipotesis de mercado eficiente / random walk, el retorno a la mediana es en buena medida mean-reversion estadistica y no "gravedad". Para un inversor con sesgo de valor, esto recomienda tratar el medianil como *complemento de [[tendencia]] y timing de entrada*, no como oráculo.
+- **Sinergia con el resto del Cerebro**: el medianil conecta con [[canales-de-precio]], [[accion-precio]] (pivots), [[fibonacci]] (confirmacion), [[medias-moviles]] (la mediana como regresion visual) y [[gestion-de-riesgo]] (stops en paralelas). Una pagina futura medianil vs canales podria comparar coste/beneficio frente a canales de regresion.
+- **Que vigilar Carlos a 3-5 anos**: (a) si la deteccion automatica de pivots por IA/ML estandariza la horca, el edge discrecional se diluye y las reacciones se anticipan peor; (b) integracion con perfil de volumen (VPOC) para anclar P0/P1/P2 en zonas de liquidez real en vez de extremos visuales; (c) si el metodo se masifica en ETF/robos, la "linea mediana colectiva" puede volverse un nivel redondo mas (como niveles psicologicos) y perder frescura. Mantener el escepticismo sobre el 80% y exigir confirmacion propia es la posicion mas robusta.
+
+## 9. Fuentes consultadas
+
+1. Investopedia - Andrews' Pitchfork Explained - https://www.investopedia.com/terms/a/andrewspitchfork.asp
+2. StockCharts ChartSchool - Andrews' Pitchfork - https://school.stockcharts.com/doku.php?id=chart_analysis:andrews_pitchfork (actualizado 2024-06-21)
+3. CMT Association (Barbara Gomperts) - Revisiting Andrews' Median Line Method - https://cmtassociation.org/wp-content/uploads/2025/08/MTA03May.pdf
+4. Optuma Blog - A Brief History of the Development of Median Line Analysis (Andrews' Pitchfork) - https://www.optuma.com/blog/pitchforks-part-1/ (2017-07-08)
+5. Greg Fisher - Using Median Lines As A Trading Tool: An Empirical Study (Grain Markets 1990-2005) - https://dl.najafi8.ir/dl/Library/book/using%20median%20lines%20an%20emipirical%20study.pdf (2009)
+6. FX Foundations - Andrew's Pitchfork & Median Line Tools - https://fxfoundations.com/learn/technical-analysis/median-line-pitchfork (2026-03-22)
+7. forex-basics.com - Andrews' Pitchfork trading strategy - https://forex-basics.com/strategies/andrews-pitchfork-trading-strategy/ (2026-05-10)
+8. Prof FX - Pitchfork Analysis and Median Line Trading Strategy - https://www.prof-fx.com/p/pitchfork-analysis-median-line-trading-strategy/15950/ (2026-02-03)
+9. thinkorswim Learning Center - Andrews' Pitchfork - https://toslc.thinkorswim.com/center/reference/Drawings/Advanced/Andrews-Pitchfork
+10. GoCharting - Inside Pitchfork (Schiff Variant) - https://gocharting.com/docs/charting/drawing-tool/sacred-geometry/inside-pitchform (2026-04-20)
+11. signal2forex.com (ES) - Introduccion al analisis de Pitchfork y comercio de linea mediana - https://signal2forex.com/es/2019/08/12/introducci%C3%B3n-al-an%C3%A1lisis-de-pitchfork-comercio-de-l%C3%ADnea-mediana/ (2019-08-12)
+12. MQL5 (ES) - Alan Andrews y sus metodos de analisis de series temporales - https://www.mql5.com/es/articles/12140 (2023-06-02)
+13. AlphaMetrics (Emilio Sabatino) - An empirical study of the Andrews Pitchfork - https://alphametrics.substack.com/p/an-empirical-study-of-the-andrews (2026-03-14)
+14. QuantifiedStrategies - Andrews Pitchfork Trading Strategy (Backtest) - https://www.quantifiedstrategies.com/andrews-pitchfork-trading-strategy/ (2024-04-07)
+15. Google News RSS (en-US) - "Andrews Pitchfork median line" - resultados de TradingView/Bloomberg-style ideas, abr-2026 (noticias recientes)
+
+---
+
+## Nota de evolucion 2026-08-30 (elisa)
+
+Asenso a pagina durable del wiki tras revision de la CIO. La sonde de origen (scratchpad/sondas-2026-08-30/tendencia-medianil.md) se valido: estructura completa de 9 secciones, seccion de segundo orden presente y >=6 fuentes reales. No se reescribio ninguna afirmacion previa. Trailer de commit: Agente: elisa.
+
+## Ver también
+
+- [[asimetria-informacion]] · [[complejidad-mercados-adaptativos]] · [[concepto-foso-economico]] · [[concepto-ventaja-competitiva]] · [[inversion-segundo-orden]] · [[modelos-mentales-ecologia]] · [[opciones-reales]] · [[sesgos-conductuales-catalogo]] · [[tasa-descuento-intrinseco]] · [[teoria-juegos-inversion]]
+
+## Nota de evolución 2026-08-31 (cerebro-enlaza)
+
+Red de conocimiento: enlace de la hornada durable 2026-08-30 en red neuronal interna (sección «Ver también»). Verificación previa: 41 páginas ascendidas con `status: durable` y validación CIO (9 secciones, 2º orden, ≥6 fuentes), frontmatter canónico, 0 errores. Hallazgo: `itau-unibanco` duplicado en `empresas/` y `analisis-acciones/` (colisión de slug; pendiente decisión de Carlos). Trailer: Agente: cerebro-enlaza.

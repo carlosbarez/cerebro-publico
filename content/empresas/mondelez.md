@@ -4,9 +4,6 @@ tipo: empresa
 tags: [empresa, consumo-staples]
 fecha: 2026-08-28
 agente: prime-agent
-veredicto: OBSERVAR
-valor_estimado: Sin datos
-gatillo_entrada: <~58 USD
 ticker: MDLZ
 moneda: USD
 fuentes: "[\"https://ir.mondelezinternational.com/static-files/01542e43-4c7b-4410-9b7e-820b24804e2f\", \"https://ir.mondelezinternational.com/news-releases/news-release-details/mondelez-international-reports-q4-and-fy-2025-results\", \"https://ir.mondelezinternational.com/news-releases/news-release-details/mondelez-international-reports-q2-2026-results\", \"https://ir.mondelezinternational.com/static-files/2449b56f-ced9-4fe9-bb52-d806f7964e9d\", \"https://stockanalysis.com/stocks/mdlz/\", \"https://finance.yahoo.com/quote/MDLZ/\"]"

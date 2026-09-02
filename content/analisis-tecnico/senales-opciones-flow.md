@@ -1,0 +1,147 @@
+---
+title: "Senales de opciones y flow de mercado"
+tipo: analisis
+tags: [opciones, flow, senales]
+fecha: 2026-08-30
+agente: jorne
+squad: Analisis Tecnico (Jorne)
+status: durable
+---
+
+# Senales de opciones y flow de mercado
+
+> Fuentes base: FlashAlpha (Dealer Positioning & GEX, 2026-04-01), Skylit (Options Flow Trading, 2026-04-02), StrikeWatch (Put/Call Ratio, 2026-03-20), Hu (2014, "Does option trading convey stock price information?"), Benzinga (Track Unusual Options Activity, 2026-01-16), Belanger Trading (Signal vs Noise, 2026-05-29).
+
+## 1. Resumen ejecutivo
+
+El "flow de opciones" (flujo de opciones) es la corriente en tiempo real de las transacciones de opciones y, sobre todo, las *obligaciones de cobertura* que esas transacciones crean en los creadores de mercado (dealers). No es una prediccion de direccion: es una *funcion forzosa* (forcing function). Cuando un gran comprador de puts abre posicion, del otro lado queda un dealer que ahora esta corto en gamma y, para mantenerse delta-neutral, *debe* vender accion cuando el precio cae. Ese cubrimiento es mecanico, no discrecional, y ocurre aunque el dealer no crea en la bajada (Skylit, 2026-04-02). Por eso el flow se lee mejor como un indicador de *regimen* (volatilidad y amplificacion/damping de movimientos) que como una senal de "adonde va el precio".
+
+Al inversor de largo plazo le importa por dos razones practicas: (1) le ayuda a distinguir *miedo agotado* de *miedo fundado* (lectura contrarian en extremos de put/call), y (2) le ayuda a entender por que ciertas correcciones se aceleran (regimen de gamma negativa) en vez de rebotar. No es una herramienta de seleccion de activos ni sustituye la valoracion del negocio.
+
+Cifras clave:
+- El mercado de opciones de EE.UU. promedió **mas de 47 millones de contratos por dia en 2025** (OCC Monthly Statistics, via TradeAlgo, 2026-04-01). El escaneo sistematico es obligatorio solo para aislar flow institucional del ruido retail.
+- Entre un **30% y 40% de la actividad inusual marcada como senal es no direccional** (cobertura, piernas de spreads, rolls); fuente Cboe Global Markets Research 2024, via TradeAlgo (2026-04-01).
+- En el estudio académico de Hu (2014), el quintil de mayor desequilibrio de orden inducido por opciones superó al menor en **8,74 puntos basicos al dia siguiente (~22% anualizado, t=6,03)**, lo que avala que el flow contiene informacion, pero a horizonte muy corto.
+
+## 2. Estructura / modelo
+
+El flow se descompone en capas. La mecanica central es la **exposicion gamma de los dealers (GEX)**, que cuantifica cuantas acciones debe comprar o vender el dealer para mantener delta-neutralidad cuando el subyacente se mueve $1 (FlashAlpha, 2026-04-01). La convencion estandar asume que los clientes compran calls y venden puts, dejando al dealer : largo en calls (gamma positiva) y corto en puts (gamma negativa).
+
+**Regimen de gamma positiva (dealers largos en gamma):** el dealer compra las caidas y vende los rallies -> amortigua el movimiento, comprime la volatilidad realizada, favorece el "pinning" cerca de strikes con mucho open interest.
+
+**Regimen de gamma negativa (dealers cortos en gamma):** el dealer vende las caidas y compra los rallies -> *amplifica* el movimiento, ensancha la volatilidad. Un drop del 0,5% dispara venta de dealer, que baja mas el precio, que dispara mas venta (FlashAlpha, 2026-06-07).
+
+Niveles clave que el GEX mapea (FlashAlpha, 2026-06-07):
+
+| Nivel | Definicion | Implicacion mecanica |
+| --- | --- | --- |
+| Gamma flip (Zero Gamma Level) | Precio donde la GEX neta cruza cero | El nivel mas importante: arriba amortigua, abajo amplifica |
+| Call wall | Pico de gamma positiva | Resistencia mecanica: dealers venden hacia ahi |
+| Put wall | Pico de gamma negativa | Soporte mecanico: dealers compran hacia ahi |
+| Max positive GEX | Mayor amortiguacion | Imán de precio en regimen positivo |
+
+El GEX se publica en dos superficies: **Settled GEX** (snapshot de open interest matutino, exacto a la apertura) y **Flow-GEX** (recomputado con OI efectivo a medida que fluye el tape). La trampa documentada: el OI se difunde una vez al dia antes de la apertura; a las 11:30 el flow intradia ya ha movido el libro real, y el call wall puede estar $2-5 desplazado (FlashAlpha, 2026-06-07).
+
+**Put/Call Ratio (PCR):** existe en dos formas que miden cosas distintas (StrikeWatch, 2026-03-20):
+- *Volume PCR*: actividad de hoy (ruido alto, distorsionado por 0DTE).
+- *OI PCR*: posicionamiento acumulado (estructural, cambia lento).
+Un disparo de Volume PCR sin confirmacion de OI PCR es ruido de cobertura de un dia; una subida de OI PCR a traves de 5-10 sesiones es acumulacion sistematica de proteccion y senal bajista mas fiable.
+
+**Actividad inusual de opciones (UOA):** los filtros que mejor separan senal de ruido combinan (Belanger Trading, 2026-05-29; TradeAlgo, 2026-04-01):
+1. Volumen > open interest en ~2x-3x (posiciones abriendo, no cerrando).
+2. Volumen > OI en 200%+ y >=50% (mejor 80%) del volumen al ask (agresor comprador).
+3. IV subiendo mientras se compra (pagan caro, no descargan).
+4. Repeticion del mismo strike en varias sesiones (construccion de posicion frente a apuesta aislada).
+
+## 3. Numeros clave
+
+- **Volumen de opciones EE.UU.:** >47M contratos/dia promedio 2025 (OCC, via TradeAlgo, 2026-04-01).
+- **Falsos positivos:** 30-40% de UOA marcada es no direccional (Cboe Research 2024, via TradeAlgo).
+- **Sweeps vs blocks:** las ordenes "sweep" (barrido urgente en multiples exchanges) precedieron movimientos direccionales intradia ~62% de las veces frente a 48% de los bloques (STAC Benchmark Report 2024, via TradeAlgo). Cifra de vendor; tratar como referencia, no como ley.
+- **Multi-leg:** ~35% del volumen total de opciones corresponde a estrategias de multiples piernas (Nasdaq, via TradeAlgo).
+- **Cobertura institucional:** ~65% de los fondos mutuos y ETF de EE.UU. usan opciones para cubrir (ICI 2024, via TradeAlgo). Esto explica por que tanto flow de puts es proteccion, no apuesta bajista.
+- **PCR baselines:** ratios de equity neutrales ~0.70-0.90; SPY ~1.0-1.5 por skew estructural de puts. Miedo extremo: equity >1.0-1.1, SPY >2.0. Complacencia: equity <0.55, SPY <0.70 (StrikeWatch 2026-03-20; FatTail 2026-03-20).
+- **Evidencia academica de informacion:** Hu (2014) encuentra que el desequilibrio de orden inducido por opciones predice retornos con efecto *permanente* (no simple presion de precio), mas fuerte en empresas opacas y con restricciones de venta en corto. Un trabajo previo (SSRN 1963865) descompone el impacto en riesgo de inventario vs informacion asimetrica y concluye que el riesgo de inventario de los market-makers tiene un efecto de *5x* mayor del antes pensado sobre los precios de opciones.
+
+## 4. Posicion / marco conceptual
+
+La ventaja real del flow no es "copiar al smart money", sino leer el *mapa de obligaciones mecanicas* antes del movimiento. El GEX es el "freno" (amortiguacion), la VEX/vanna es la "pendiente" (realimentacion por volatilidad) y el VIX es el "tiempo" (Skylit, 2026-04-02). Juntas describen la *fisica* del movimiento, no el relato. El relato explica el movimiento despues; la fisica lo acota antes.
+
+Marco de uso honesto: el flow es un **indicador de regimen y de posicionamiento**, no de direccion. GEX positiva modifica *cuanto* se mueve, no *hacia donde*. El PCR extremo es util como contrarian solo en los extremos, y solo combinado con el regimen GEX: miedo alto + GEX positiva = agotamiento de ventas (separacion contrarian de alta conviccion); miedo alto + GEX negativa = el miedo puede ser acertado, no se debe hacer fade (StrikeWatch, 2026-03-20).
+
+Esto conecta con otras ideas del Cerebro: regimen de mercado, gestion del riesgo (dimensionar segun volatilidad esperada), sentimiento de mercado (el PCR como termometro de miedo/codicia), volatilidad implied y [[vix]] (regimen de vol), [[0dte]] (la era 0DTE cambio los baselines diarios del PCR y la fiabilidad del GEX settled), y max pain (el pinning como consecuencia del mismo mecanismo de cobertura). Para un inversor de conviccion como Carlos, el flow es una brujula de regimen que ayuda a no vender en correcciones que son ruido mecanico y a reconocer cuando una correccion es amplificada por dealers (momento de tener liquidez, ver liquidez y oportunidad).
+
+## 5. Catalizadores y riesgos
+
+Novedades recientes (Google News RSS, agosto 2026):
+- **Citadel Securities publico "Flow Fragility" (2026-05-18)**, analisis sobre la fragilidad del flow y su papel en regime shifts — relevante porque los grandes market-makers documentan abiertamente como el flow puede volverse fragil en extremos.
+- **Glassnode Research, "Tracking Volatility Regimes: Gamma Exposure Heatmap" (2026-02-24):** herramienta on-chain/off-chain de regimes de volatilidad basada en GEX, senal de que el analisis de flow se esta institutionalizando como lectura de regimen.
+- **Casos vivos de UOA agosto 2026:** Benzinga reporto "unusual options activity" y un block trade de $223M en Citigroup tras el cierre (2026-08-24); Yahoo Finance documento UOA en Apple antes de resultados (2026-07-27) y en J&J tras su rally (put activity, 2026-07-07). Estos ilustran la trampa recurrente: la actividad inusual aparece *despues* de grandes movimientos o como cobertura post-rally, no como vision profetica.
+- **Senal de sentimiento:** TheStreet Pro reporto que los operadores de opciones "voltearon alcistas" con el put/call en minimo de 1 ano (2026-04-14) — ejemplo de lectura de complacencia extrema que suele preceder correcciones.
+
+Riesgos del propio enfoque:
+- **0DTE distorsiona baselines:** desde 2022 el PCR diario crudo no es comparable con umbrales pre-2022; usar media movil de 21 dias u OI PCR (StrikeWatch, 2026-03-20).
+- **Desfase del OI:** el GEX settled se vuelve obsoleto tras las 11:30; requiere flow-GEX (FlashAlpha, 2026-06-07).
+- **Asimetria de informacion del lector:** el publico ve solo una pierna; un put grande puede ser proteccion de una posicion accionaria de $500M (TradeAlgo, 2026-04-01).
+
+## 6. Valoracion / implicaciones practicas
+
+Que debe hacer (y no hacer) el inversor:
+1. **Usar el flow como lectura de regimen, no como senal de entrada.** Antes de actuar por un "whale", exigir: catalizador publico dentro del vencimiento, sector moviendose en la direccion del print, IV barata vs historia del ticker, y distancia plausible al strike (Belanger Trading, 2026-05-29).
+2. **Leer el PCR en extremos como contrarian con filtro GEX.** Miedo extremo (equity >1.1, SPY >2.0) + GEX positiva = posible suelo de corto plazo; complacencia (equity <0.55) + GEX negativa = alerta maxima de correccion (StrikeWatch, FatTail, 2026-03-20).
+3. **No perseguir el print.** Para cuando una alerta llega al scanner retail, el contrato ya reprecio; comprar el mismo strike despues del movimiento es pagar informacion ya distribuida (Belanger Trading, 2026-05-29).
+4. **No sobredimensionar.** Un contrato OTM de corto plazo puede ir a cero en un fin de semana; dimensionar muy por debajo de una posicion core (Belanger Trading, 2026-05-29).
+5. **Cuidado con IV cara.** Comprar opciones con IV elevada (la semana previa a resultados) significa que el movimiento esperado ya esta en el precio; una direccion correcta pierde cuando el premium de volatilidad drena (TradeAlgo, 2026-04-01).
+
+Senal de alerta para Carlos: si ve "unusual activity" masiva en un nombre que ya sigue, preguntese siempre "¿esto es conviccion direccional o es cobertura de una posicion mas grande que no veo?". La mayoria de los prints aislados no llevan a nada (Belanger Trading: "la mayoria de los prints no llevan a ningun lado").
+
+## 7. Veredicto para el inversor
+
+El flow de opciones es una herramienta real pero de segunda capa: util para leer *regimen de volatilidad* y *posicionamiento agotado* (miedo/codicia extrema), inutil como oráculo de direccion o como sustituto de la valoracion del negocio. Su valor para un inversor de largo plazo esta en no vender en correcciones que son ruido mecanico de dealers y en tener liquidez cuando el regime GEX negativo amplifica las caidas. Lo demas —copiar whales, perseguir sweeps— es, en el mejor caso, ruido caro.
+
+## 8. Segundo orden (OBLIGATORIO y central en este wiki)
+
+Implicaciones de las implicaciones:
+
+- **Choca con la narrativa "smart money siempre tiene razon".** La evidencia dice que gran parte del flow es cobertura (65% de fondos usan opciones para cubrir, ICI 2024) o ruido multi-leg (35% del volumen, Nasdaq). Seguir prints aislados systematicamente pierde por costes y falsos positivos (30-40%, Cboe). Esto refuerza la tesis del Cerebro de no vender en correcciones: el panic retail visible en el PCR alto suele ser el suelo, no el techo.
+- **Vinculo con comportamiento del inversor y arbitraje de comportamiento.** El PCR extremo es, en el fondo, una medida de comportamiento de la multitud; el edge es contrarian precisamente porque "el que compra puts ya posiciono su miedo, y al agotarse los vendedores se estabiliza". Esto conecta el flow con la ventaja de temperamento sobre la informacion.
+- **La era [[0dte]] cambia las reglas.** Post-2022, el flujo de mismo dia resetea el posicionamiento a diario y desplaza los baselines del PCR y la fiabilidad del GEX settled. Quien lea flow con umbrales pre-2022 esta usando un mapa viejo. Implicacion: el regime reading exige datos intradia (flow-GEX), no snapshots matutinos.
+- **Tension con [[analisis-fundamental]]/[[valoracion]].** El flow opera a horizonte de dias (Hu 2014: 8,74 bp al dia siguiente, ~22% anualizado pero de efecto permanente pequeño). No dice nada de cash flows, moat o calidad del negocio. Debe usarse como *overlay de riesgo/regimen*, no como motor de decision de compra. Si el Cerebro asciende esta pagina, debe enlazar con marco de inversion de carlos para evitar que alguien lo use como justificacion de trading.
+- **Riesgo de sobre-ingenieria.** Herramientas como GEX/vanna/charm/volga/zomma son poderosas pero asumen un libro de dealer que nadie observa directamente; los vendors discrepan en el nivel del gamma flip (LuxAlgo advierte: "todo es inferencia desde supuestos, no un libro observado"). Para un inversor de largo plazo, la paradoja es que la senal mas util (PCR extremo + GEX) es tambien la mas simple. No hace falta un stack de griegos para no vender en panico.
+- **Que vigilar Carlos a 3-5 anos:** (1) si la proporcion de 0DTE sigue creciendo, la utilidad del PCR diario y del GEX settled caera aun mas, y la ventaja se concentrara en quien tenga flow-GEX intradia; (2) si los market-makers (Citadel, etc.) publican mas "flow fragility" abierto, el edge retail se diluira mas rapido; (3) si la correlacion de regimes GEX se rompe en una crisis de liquidez (dealer no puede cubrir), el flow dejara de ser util como freno y se volvera amplificador puro — justo cuando mas se necesita. Mantener un watchlist de regimen simple (PCR + GEX sign + VIX) es mas robusto que un dashboard que nadie entiende.
+
+## 9. Fuentes consultadas
+
+1. FlashAlpha — Dealer Positioning & GEX: A Quantitative Approach to Options Flow (2026-04-01) - https://flashalpha.com/articles/dealer-positioning-gex-quantitative-approach-options-flow
+2. FlashAlpha — Complete Guide to Trading Gamma Exposure (GEX) (2026-06-07) - https://flashalpha.com/articles/complete-guide-trading-gamma-exposure-gex
+3. Skylit — Options Flow Trading: Reading Institutional Order Flow (2026-04-02) - https://www.skylit.ai/learn/options-flow
+4. StrikeWatch EA — Put/Call Ratio: Reading Sentiment, Positioning, and Structural Conviction (2026-03-20) - https://www.strike-watch.com/lab/put-call-ratio-market-sentiment-indicator
+5. FatTail (Ernie) — Put Call Ratio: How to Read Options Positioning (2026-03-20) - https://fattail.ai/put-call-ratio/
+6. Benzinga Pro — Track Unusual Options Activity (2026-01-16) - https://www.benzinga.com/pro/blog/track-unusual-options-activity
+7. Belanger Trading — Unusual Options Activity: How to Separate Signal From Noise (2026-05-29) - https://belangertrading.com/options/unusual-options-activity
+8. TradeAlgo — How to Read Unusual Options Activity: A Step-by-Step Guide for 2026 (2026-04-01) - https://www.tradealgo.com/trading-guides/options/how-to-read-unusual-options-activity-a-step-by-step-guide-for-2026
+9. Unusual Whales (Nicholas) — Indicators of Unusual Options Activity (2025-08-13) - https://unusualwhales.substack.com/p/indicators-of-unusual-options-activity
+10. LuxAlgo — Gamma Exposure (GEX) concept - https://www.luxalgo.com/library/concept/gamma-exposure/
+11. Hu, J. (2014) — Does option trading convey stock price information? Journal of Financial Economics 111(3):625-645 - https://ideas.repec.org/a/eee/jfinec/v111y2014i3p625-645.html (tambien https://www.sciencedirect.com/science/article/abs/pii/S0304405X13003048)
+12. SSRN — Order Flow and Expected Option Returns (riesgo de inventario 5x) - https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1963865
+13. GitHub (Mira) — Methodology: options-flow-analysis (status: trial) - https://github.com/byteseek/Mira/blob/main/memory/methodologies/options-flow-analysis.md
+14. Citadel Securities — Flow Fragility (2026-05-18, Google News RSS) - https://news.google.com/rss/search?q=Flow+Fragility+Citadel
+15. Glassnode Research — Tracking Volatility Regimes: Gamma Exposure Heatmap (2026-02-24, Google News RSS) - https://news.google.com/rss/search?q=Glassnode+Gamma+Exposure+Heatmap
+16. Benzinga — Citigroup Sees Unusual Options Activity and $223M Block Trade After Hours (2026-08-24, Google News RSS) - https://news.google.com/rss/search?q=Citigroup+unusual+options+activity+223+million
+17. TheStreet Pro — Options Traders Just Flipped Bullish as Put/Call Hits a 1-Year Low (2026-04-14, Google News RSS) - https://news.google.com/rss/search?q=put+call+1+year+low+bullish
+
+Nota de honestidad: las cifras de "62% sweeps vs 48% blocks" y "30-40% falsos positivos" provienen de informes de vendors (STAC 2024, Cboe 2024) citados por TradeAlgo, no de una verificacion independiente propia; se presentan como referencia, no como ley. El nivel exacto del "gamma flip" depende del vendor y del OI efectivo, y discrepa entre proveedores (LuxAlgo, 2026). Google News RSS en espanol no devolvio items (degradacion: se uso la fuente en ingles, que si responde con -L).
+
+---
+
+## Nota de evolucion 2026-08-30 (elisa)
+
+Asenso a pagina durable del wiki tras revision de la CIO. La sonde de origen (scratchpad/sondas-2026-08-30/senales-opciones-flow.md) se valido: estructura completa de 9 secciones, seccion de segundo orden presente y >=6 fuentes reales. No se reescribio ninguna afirmacion previa. Trailer de commit: Agente: elisa.
+
+## Ver también
+
+- [[contrarian-senales-utiles]] · [[correlaciones-dinamicas]] · [[datos-alternativos-timing]] · [[estructura-mercado-liquidez]] · [[regimen-volatilidad-asignacion]] · [[riesgo-cola-seguros]]
+
+## Nota de evolución 2026-08-31 (cerebro-enlaza)
+
+Red de conocimiento: enlace de la hornada durable 2026-08-30 en red neuronal interna (sección «Ver también»). Verificación previa: 41 páginas ascendidas con `status: durable` y validación CIO (9 secciones, 2º orden, ≥6 fuentes), frontmatter canónico, 0 errores. Hallazgo: `itau-unibanco` duplicado en `empresas/` y `analisis-acciones/` (colisión de slug; pendiente decisión de Carlos). Trailer: Agente: cerebro-enlaza.

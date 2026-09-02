@@ -1,57 +1,48 @@
 ---
-title: "Assurant (AIZ) — Análisis Fundamental"
+title: "Assurant (AIZ)"
 tipo: empresa
-tags: [empresa, analisis-fundamental, finanzas-seguros]
+tags: [empresa, seguros, estados-unidos, sin-verificar]
 fecha: 2026-08-29
-agente: carlos-barez
+agente: opencode-go
 ticker: AIZ
 moneda: USD
-precio_referencia: 285.65
-fecha_precio: 2026-08-29
-valor_estimado: 320
-gatillo_entrada: "< 260"
-veredicto: COMPRAR
-revisar_el: 2026-11-29
-fuentes: ["https://stockanalysis.com/stocks/aiz/financials/", "https://stockanalysis.com/stocks/aiz/company/"]
+fuentes: "[\"https://stockanalysis.com/stocks/aiz/financials/\", \"https://stockanalysis.com/stocks/aiz/company/\"]"
 ---
 
-# Assurant (AIZ) — Análisis Fundamental
+> [!warning] Ficha sin verificar (2026-08-29). Cifras copiadas del barrido, sin contrastar contra fuente primaria. No decidas con ellas.
 
-## 1. Resumen ejecutivo
-Assurant es aseguradora especializada en seguros de dispositivos (Connected Living), automoción (Global Automotive), hogar y renters. Cotiza a 285,65 USD con PE 13,68 (TTM) / forward 12,85, P/FCF 8,51 y PS 1,05. Crece de forma consistente con FCF sólido (1.656 M USD TTM). Barata para su calidad. Veredicto: COMPRAR.
+# Assurant (AIZ)
 
-## 2. Descripción del negocio
-Aseguradora de nicho (specialty insurer) con enfoque en protección de productos y vivienda. Segmentos: Connected Living (5.854 M TTM, creciendo), Global Automotive (4.195 M), Homeowners (2.297 M) y Renters/Other (594 M). Modelo de ingresos por primas + fees de administración.
+Aseguradora especializada en seguros de dispositivos (Connected Living), automoción (Global Automotive), hogar y *renters*. Cotiza a ~285,65 $ con P/E 13,68 (TTM) / forward 12,85, P/FCF 8,51 y P/S 1,05.
 
-## 3. Industria y moat competitivo
-Finanzas/seguros especializado. El *moat* son las alianzas con OEMs y operadores (Apple, carriers) en protección de dispositivos, y la escala en underwriting de nichos. Riesgo: dependencia de socios distribuidores y ciclo de siniestralidad (clima, robos).
+## Negocio
 
-## 4. Análisis financiero (3-5 años) — millones USD salvo EPS
+Aseguradora de nicho (*specialty insurer*) con enfoque en protección de productos y vivienda. Segmentos: Connected Living (5.854 M$ TTM, creciendo), Global Automotive (4.195 M$), Homeowners (2.297 M$) y Renters/Other (594 M$). Modelo de ingresos por primas + fees de administración.
 
-| Año | Ingresos | Crecimiento | Margen neto | Beneficio neto | EPS |
-|-----|----------|-------------|-------------|----------------|-----|
-| 2021 | 10.188 | 6,15% | 13,32% | 1.357 | 22,65 |
-| 2022 | 10.193 | 0,05% | 2,71% | 276,6 | 5,05 |
-| 2023 | 11.132 | 9,21% | 5,71% | 635,5 | 11,95 |
-| 2024 | 11.878 | 6,70% | 6,34% | 752,5 | 14,46 |
-| 2025 | 12.814 | 7,89% | 6,75% | 865 | 16,93 |
-| TTM | 13.456 | 9,36% | 7,84% | 1.055 | 20,88 |
+## Moat — [[foso-economico]]
 
-Fuente: https://stockanalysis.com/stocks/aiz/financials/ (S&P Global Market Intelligence / Fiscal.ai). El año 2022 fue atípico (baja siniestralidad inversa / pérdidas de inversión). FCF TTM 1.656 M. Deuda neta moderada (-509 M). Dividendo 3,52 USD (yield 1,23%).
+Finanzas/seguros especializado. El moat son las alianzas con OEMs y operadores (Apple, *carriers*) en protección de dispositivos, y la escala en *underwriting* de nichos. Riesgo: dependencia de socios distribuidores y ciclo de siniestralidad (clima, robos).
 
-## 5. Valoración por escenarios
-Múltiplos bajos (PE 13,7x, P/FCF 8,5x, PS 1,05x):
-- Pesimista: 250 USD (aumento de siniestralidad / compresión de múltiplo a ~10x).
-- Base: 320 USD (12-13x forward EPS, crecimiento de primas ~7-9%).
-- Optimista: 390 USD (mejora de combined ratio y re-rating).
+## Financieros (sin verificar)
 
-Precio actual 285,65 USD vs base 320 USD ⇒ margen de seguridad ~11%. Estimación propia.
+Ingresos 2021-2025: 10.188 / 10.193 / 11.132 / 11.878 / 12.814 M$ (TTM 13.456 M$, +9,36%); beneficio neto 1.357 / 276,6 / 635,5 / 752,5 / 865 M$ (TTM 1.055 M$); EPS 22,65 / 5,05 / 11,95 / 14,46 / 16,93 (TTM 20,88). El año 2022 fue atípico (pérdidas de inversión). FCF TTM 1.656 M$; deuda neta moderada (-509 M$); dividendo 3,52 $ (yield 1,23%).
 
-## 6. Riesgos y red flags
+## Valoración (sin verificar)
+
+Múltiplos bajos (P/E 13,7x, P/FCF 8,5x, P/S 1,05x): pesimista 250 $; base 320 $ (12-13x forward EPS); optimista 390 $. Precio 285,65 $ vs base 320 $ → margen de seguridad ~11%. Gatillo <260 $.
+
+## Riesgos
+
 - Siniestralidad catastrófica (clima) en Homeowners/Automotive.
 - Dependencia de socios distribuidores clave (poder de negociación).
-- Tipos de interés afectan cartera de inversión y reservas.
+- Tipos de interés afectan la cartera de inversión y reservas.
 - Margen neto bajo (~7%) típico de seguros de bienes, sensible a costes.
 
-## 7. Veredicto
-COMPRAR. Aseguradora especializada, infravalorada (PE ~13x, P/FCF ~8,5x) con crecimiento estable y caja. Gatillo de entrada < 260 USD para ampliar posición.
+## Veredicto (propuesto por el barrido, sin verificar)
+
+COMPRAR: aseguradora especializada, infravalorada (P/E ~13x, P/FCF ~8,5x) con crecimiento estable y caja. Gatillo de entrada <260 $ para ampliar posición.
+
+## Conexiones
+
+- Sector: pendiente industria seguros. Concepto: [[float-de-seguros]].
+- Marco: [[foso-economico]], [[margen-de-seguridad]], [[screening-de-calidad]].

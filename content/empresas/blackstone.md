@@ -4,9 +4,6 @@ tipo: empresa
 tags: [empresa, gestion-de-activos, alternativos]
 fecha: 2026-08-28
 agente: prime-agent
-veredicto: OBSERVAR
-valor_estimado: ~143 $ (objetivo consenso medio)
-gatillo_entrada: Recorte a P/E <25x (~<115 $) o normalizacion de retornos de credito privado/inmobiliario
 ticker: BX
 moneda: USD
 fuentes: "[\"https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm\", \"https://www.sec.gov/Archives/edgar/data/1393818/000119312526028145/d92648dex991.htm\", \"https://www.blackstone.com/blackstone2q26earningspressrelease/\", \"https://stockanalysis.com/stocks/BX/statistics/\", \"https://qz.com/blackstone-earnings-ai-investments-assets-record-inflows-072326\"]"

@@ -1,0 +1,97 @@
+---
+title: "Transicion energetica: donde esta el capital atrapado"
+tipo: analisis
+tags: [energia, transicion, capital]
+fecha: 2026-08-31
+agente: elena
+squad: Macro & Geopolitica (Elena)
+status: sonde
+---
+
+# Transicion energetica: donde esta el capital atrapado
+
+> Fuentes base: IEA World Energy Investment 2025 (iea.org/reports/world-energy-investment-2025), BloombergNEF Energy Transition Investment Trends 2026 (about.bnef.com), IEA Global Critical Minerals Outlook 2026 (iea.org/reports/global-critical-minerals-outlook-2026), U.S. EIA (eia.gov/todayinenergy), Wisconsin Watch (wisconsinwatch.org).
+
+## 1. Resumen ejecutivo
+
+La transicion energetica no tiene un problema de *falta* de capital agregado: el mundo va a invertir unos **3,3 billones de dolares (USD 3.3 trillion) en energia en 2025**, de los cuales cerca de **2 billones son ya "clean energy"** (renovables, nuclear, redes, almacenamiento, combustibles bajos en carbono, eficiencia y electrificacion), el doble que los ~1,1 billones que van a oferta de petroleo, gas y carbon (IEA, World Energy Investment 2025). El problema es de *asignacion* y de *secuencia*: hay enormes masas de capital **atrapadas** en tres sitios que no coinciden con donde la transicion las necesita.
+
+El capital atrapado se concentra en: (a) **generacion fosil que no se jubila** (activos varados o "stranded"), (b) **redes electricas infradotadas** que obligan a desechar (curtailment) la generacion ya construida, y (c) **materias primas criticas** con oferta concentrada y deficit proyectado. Para el inversor de largo plazo esto es central porque el cuello de botella se ha desplazado del panel solar a la **red y al mineral**: las rentabilidades y los riesgos de segundo orden estan ahi, no en la fabrica de modulos.
+
+Cifras clave: inversion en transicion = **2,3 billones USD en 2025, +8%** (BNEF); inversion en redes = **~483.000 M USD (BNEF) / ~400.000 M USD (IEA) al ano**; deficit de cobre proyectado en 2035 = **~25%** de la demanda (IEA); ratepayers de Wisconsin deben **~1.000 M USD** por plantas ya cerradas (Wisconsin Watch).
+
+## 2. Estructura / modelo
+
+El "capital atrapado" en la transicion se modela mejor como **tres trampas simultaneas**, no como un unico agujero negro:
+
+| Trampa | Donde queda el capital | Mecanica | Quien lo sostiene |
+|---|---|---|---|
+| 1. Generacion fosil varada | Carbón y gas que sigue en el balance mas alla de su vida economica | Retiros retrasados por orden politica o por retorno regulado garantizado | Utilities reguladas, aseguradoras, bonistas, Estado |
+| 2. Red (grid) infradotada | Renovables construidas pero no evacuables; transformadores/cables caros y lentos | Curtailment y congestion; el MWh construido no llega al consumo | Utilities de red, reguladores, consumidores |
+| 3. Mineral critico concentrado | Oferta en pocas manos (China/Indonesia/DRC); déficit de cobre/litio/cobalto | Precios y restricciones de exportacion secuestran la cadena | Productoras, ETFs de materias primas, Estado (seguridad) |
+
+Una cuarta trampa embrionaria (no cuantificada aqui) es el **capital que ahora se esta atrapando en plantas y lineas para data centers**: si la demanda de IA no materializa lo prometido, ese capital se vara a su vez (ver Wisconsin Watch sobre el riesgo de burbuja de data centers).
+
+## 3. Numeros clave
+
+- **Inversion total en energia 2025:** ~3,3 billones USD, +2% real vs 2024. La inversion en el sector electrico alcanza **1,5 billones USD**, ~50% mas que todo lo gastado en llevar petroleo/gas/carbon al mercado (IEA WEO Investment 2025, executive summary y PDF).
+- **Inversion en transicion (BNEF):** **2,3 billones USD en 2025, +8%** interanual. Desglose: transporte electrificado **893.000 M USD (+21%)**, renovables **690.000 M USD (-9,5% por incertidumbre regulatoria en China)**, redes **483.000 M USD**. El hidrogeno cae a 7.300 M y nuclear a 36.000 M (BNEF ETIT 2026).
+- **Frenado del crecimiento:** la tasa de crecimiento de la inversion en transicion ha bajado de **+27% (2021) a +8% (2025)**; BNEF proyecta **~2,9 billones USD/ano** de media en los proximos cinco anos (base case) (BNEF).
+- **Oferta limpia vs fosil:** la inversion en oferta limpia supero a la fosil por segundo ano; el gap subio de 85.000 M a **102.000 M USD**. La oferta fosil cayo por primera vez desde 2020 (-9.000 M) (BNEF).
+- **Redes:** IEA cifra el gasto mundial en redes en **~400.000 M USD/ano**, frente a **~1 billon en generacion**; los precios de materiales de red (cables, transformadores) **se han casi duplicado en cinco anos** por demanda creciente (IEA WEO Investment 2025).
+- **Minerales criticos:** base metals (Al, Cu, Sn) **+1/3 entre ene-2025 y abr-2026**; litio **>se duplico**, cobalto **+130%** (restricciones de exportacion en RD Congo). Tungsteno **x6**. Europa paga galio y tierras raras pesadas **~5x** el precio chino y germanio **~3x** (IEA Critical Minerals Outlook 2026).
+- **Deficit de cobre 2035:** se ha estrechado de ~30% a **~25%** de la demanda proyectada; el cobalto abre un nuevo gap por cuotas de exportacion en RD Congo (IEA Critical Minerals 2026).
+- **Retiros en EE.UU.:** se planean retirar **11 GW en 2026** (6,4 GW carbon = ~4% de la flota carbonera; 42% gas). En 2025 solo se retiraron **4,6 GW de 12,3 GW planeados** (minimo desde 2008) por ordenes de emergencia del DOE que extendieron carbon (EIA, 23-feb-2026).
+- **Ejemplo de capital varado real:** en Wisconsin los ratepayers deben **~1.000 M USD** por "stranded assets"; We Energies tendra **>1.000 M USD** en activos ya retirados a fin de 2026; Pleasant Prairie aun debe **~500 M USD** (dic-2024) y se paga hasta 2039, **21 anos despues de dejar de generar**, con un retorno garantizado de **~9,8-10%** sobre una planta muerta (Wisconsin Watch, dic-2025).
+
+## 4. Posicion / marco conceptual
+
+La tesis central es que **el cuello de botella de la transicion se ha movido río arriba y río abajo de la generacion**: ya no esta en "hacer paneles" sino en **evacuar la energia (red)** y en **producir el mineral (upstream)**, mientras un stock heredado de **generacion fosil sigue absorbiendo capital** por inercia regulatoria.
+
+Esto conecta con otras ideas del Cerebro: activos varados (el retorno regulado garantizado es el pegamento que atrapa el capital en plantas muertas), red electrica (el verdadero bottleneck), materias primas y cobre (donde el deficit es estructural y geografico), [[utilities]] (su valor ya no es la generacion sino la red y la "pocket" de retorno asegurado), y seguridad energetica / China (la concentracion de refinado de minerales es ya riesgo de economia de guerra, no solo de precio). El marco de "edad de la electricidad" de la IEA (demanda disparada por vehiculo electrico, cooling, data centers e IA) es el viento de cola que hace que la red, no el panel, sea el activo escaso.
+
+## 5. Catalizadores y riesgos
+
+A favor (des-atrampa el capital hacia donde se necesita):
+- Inversion en redes creciendo y reconocida como prioritaria por la IEA; BNEF ya la mide en 483.000 M USD.
+- Securitizacion de activos varados (Michigan ahorro >120 M USD a clientes; Wisconsin ahorro 40 M con pleca de control de contaminacion) puede aliviar el peaje al ratepayer y liberar balance de utility (Wisconsin Watch).
+- Diversificacion de refinado de tierras raras fuera de China (EE.UU., Malasia) muestra que la politica dirigida funciona (IEA Critical Minerals 2026).
+
+En contra (mantiene o crea trampas):
+- **Ordenes politicas que retrasan retiros** de carbon (DOE en EE.UU.; ver EIA) -> alargan la vida de activos varados y su retorno garantizado.
+- **Cuellos de red reales ya visibles**: China "ya no da abasto" (SCMP, ago-2026), India con curtailment por falta de transmision (Ember), reforma de red en Alemania que puede frenar la transicion (Clean Energy Wire) — noticias recientes via Google News RSS.
+- **Restricciones de exportacion chinas**: los codigos arancelarios minerales bajo control de exportacion se **triplicaron desde 2023**; la implementacion plena de restricciones a tierras raras podria poner en riesgo **~6,5 billones USD/ano** de produccion downstream fuera de China, y el grafito de bateria **>300.000 M USD/ano** (IEA Critical Minerals 2026).
+- **Burbuja de data centers**: si la demanda de IA no llega, las nuevas plantas y lineas se varan (Wisconsin Watch).
+- **Crecimiento de la inversion en transicion desacelerando** (27%->8%) sugiere cansancio de capital barato en un entorno de tipos altos.
+
+## 6. Valoracion / implicaciones practicas
+
+- Para el inversor, la "jugada obvia" de renovables baratas ya esta *crowded* y hasta baja (renovables -9,5% en 2025 segun BNEF). El valor esta en los **cuellos de botella**: red (utilities de transmision/distribucion, cable, transformadores), y **mineral critico** (cobre sobre todo, litio en su punto de precio).
+- **Utilities reguladas** que dominan la red y tienen mecanismos de retorno asegurado pueden trasladar el riesgo de capital varado al ratepayer (ver Wisconsin) -> foso defensivo, pero riesgo politico si hay reforma de securitizacion.
+- **Senal de alerta:** si ves a una utility pidiendo retornos sobre plantas ya retiradas, o construyendo capacidad especulativa para data centers sin compromiso de carga, estas ante capital a punto de vararse. Vela por data centers y por la evolucion de las ordenes de retiro de carbon en EE.UU.
+- No confundir "mucha inversion total" con "inversion bien dirigida": 3,3 billones USD totales esquivan el hecho de que el gap de financiacion para emergentes (roadmap Baku-Belem: >=1,3 billones USD/ano para 2035) sigue sin cerrarse (IEA WEO Investment 2025).
+
+## 7. Veredicto para el inversor
+
+El capital no ha desaparecido; esta **mal ubicado y lento**. Hay demasiado atrapado en generacion fosil que no se jubila y demasiado poco en la red que lo evacua y en el mineral que lo construye. La asimetria de rentabilidad de los proximos 3-5 anos esta en **red + cobre**, no en generacion. El riesgo principal no es la tecnologia, sino la **inercia regulatoria y la geografia del mineral**.
+
+## 8. Segundo orden (OBLIGATORIO y central en este wiki)
+
+- **De la generacion a la red:** a medida que el capital varado en carbon/gas se reconozca (o se retrase), el valor de las [[utilities]] se re-precia no por MW instalados sino por **activos de red regulados**. Eso eleva la correlacion de la cartera con tipos de interes y con la politica regulatoria local -> conecta con [[inflacion]] y [[tipos-de-interes]].
+- **Choque de tesis con "energia barata":** la narrativa de que la transicion abarata la energia choca con el hecho de que el pegamento del capital varado (retorno garantizado ~10%) y los precios de red/materiales duplicados **suben la factura**. Posible tension con paginas tipo energia barata o deflacion tecnologica del Cerebro.
+- **Mineral como nuevo petroleo:** con deficit de cobre ~25% en 2035 y refinado al 72% en el pais top (ex-tierras raras), el poder de precio se desplaza a China y productores concentrados. Esto es seguridad energetica en version mineral y deberia vigilarse junto a guerra comercial y reservas estrategicas (IEA menciona stockpiles como buffer).
+- **Riesgo de segundo orden para Carlos a 3-5 anos:** (1) una reforma de securitizacion en EE.UU./Europa que traslade perdidas de activos varados a los bonistas de utility (no al ratepayer) -> riesgo de credito en utilities; (2) un shock de demanda de IA que no llega -> nuevo cohorte de activos varados en gas/red; (3) una escalada de controles de exportacion de China que dispare precios de cobalto/litio/grafeno y frene la propia transicion, creando un "stagflation verde". Vela por data centers, cobre, red electrica, activos varados, China, seguridad energetica.
+
+## 9. Fuentes consultadas
+
+1. IEA – World Energy Investment 2025 (Executive Summary) – https://www.iea.org/reports/world-energy-investment-2025/executive-summary (jun-2025; pagina tras Cloudflare, datos extraidos del PDF oficial)
+2. IEA – World Energy Investment 2025 (PDF, 10th Edition) – https://iea.blob.core.windows.net/assets/de27cdcc-c0a8-4154-ad07-99eb4767497f/WorldEnergyInvestment2025.pdf (jun-2025)
+3. BloombergNEF – Energy Transition Investment Trends 2026 (record $2.3T in 2025) – https://about.bnef.com/insights/clean-energy/bloombergnef-finds-global-energy-transition-investment-reached-record-2-3-trillion-in-2025-up-8-from-2024/ (26-ene-2026)
+4. IEA – Global Critical Minerals Outlook 2026 (Executive Summary) – https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary (31-ago-2026)
+5. U.S. EIA – Retirement delays of U.S. electric generating capacity may continue in 2026 – https://www.eia.gov/todayinenergy/detail.php?id=67206 (23-feb-2026)
+6. Wisconsin Watch – Wisconsin ratepayers owe $1 billion on shuttered power plants (stranded assets) – https://wisconsinwatch.org/2025/12/wisconsin-stranded-assets-power-plants-energy-data-centers-ratepayers-utility-cost/ (dic-2025)
+7. Nature (npj Sustainability) – Ownership of power plants stranded by climate mitigation – https://www.nature.com/articles/s41893-025-01707-5 (2025)
+8. Ohros Consulting Group – Can energy transition asset management reduce stranded asset risk for utilities? – https://ohrosgroup.com/can-energy-transition-asset-management-reduce-stranded-asset-risk-for-utilities/ (06-ago-2026)
+9. Google News RSS (catalizadores recientes, ago-2026): China grid no da abasto (SCMP), India curtailment por transmision (Ember), reforma de red Alemania (Clean Energy Wire) – https://news.google.com/rss/search?q=power+grid+bottleneck+renewable+curtailment&hl=en-US
+
+Nota de honestidad: el capitulo "Grids" de IEA Electricity 2026 (iea.org/reports/electricity-2026/grids) fue localizado pero bloqueado por Cloudflare en el acceso directo; sus cifras no se usaron de primera mano. Las cifras de redes se apoyan en IEA WEO Investment 2025 y BNEF ETIT 2026. "Capital atrapado" total en plantas varadas a nivel global no localizado como cifra unica; se usan ejemplos concretos (Wisconsin, EIA, Nature).

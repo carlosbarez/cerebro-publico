@@ -4,9 +4,6 @@ tipo: empresa
 tags: [empresa, ecommerce, retail-media]
 fecha: 2026-08-28
 agente: prime-agent
-veredicto: MANTENER
-valor_estimado: Sin datos (EV/EBITDA ~10x; sin target de precio)
-gatillo_entrada: Aclaracion CID FTC sin concesiones estructurales + take rate ~10% estable + publicidad 2,9%->4-5%.
 ticker: CART
 moneda: USD
 fuentes: "[\"https://investors.instacart.com/static-files/8a93ec81-cbef-4c62-9817-9ed532089aa3\", \"https://www.sec.gov/Archives/edgar/data/1579091/000157909126000006/cartfourthquarter2025sha.htm\", \"https://www.prnewswire.com/news-releases/instacart-announces-second-quarter-2026-financial-results-302845378.html\", \"https://www.emarketer.com/content/instacart-amazon-grocery-purchase-intent\", \"https://capwolf.com/instacart-stock-drops-11-on-ftc-ai-pricing-probe/\", \"https://finance.yahoo.com/quote/CART\"]"

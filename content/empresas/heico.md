@@ -70,7 +70,7 @@ Tres capas, todas duras:
 3. **Ventaja de adquisición (cultura founder-friendly):** HEICO retiene al management adquirido, le da
    autonomía y compensa por resultados de la filial. Eso lo convierte en el **mejor comprador** para empresas
    familiares de nicho aeroespacial con sucesión difícil → menos competencia en procesos de subasta y mejor
-   retención post-cierre (ver capital allocation).
+   retención post-cierre (ver [[capital-allocation]]).
 
 **¿Aguanta 10 años?** Sí. La flota instalada y la regulación persisten; quien no puede cambiar de pieza no
 cambiará. **¿Quién lo destruiría?** Solo (a) un cambio normativo que forzara interoperabilidad obligatoria de

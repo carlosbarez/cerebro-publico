@@ -21,8 +21,5 @@ asesoramiento financiero, ni una recomendación de compra o venta, ni un anális
   el pulso del dia si se publica, en la seccion Newsletter.
 - **El límite que no se cruza**: este sistema analiza y propone; quien decide y ejecuta es una
   persona.
-- **Cuentas de usuario.** Si te registras guardamos tu email (la cuenta) y lo que metas en tu
-  cartera y tus guardados. Lo almacena Supabase en la UE, solo para darte ese servicio. Desde
-  «Tu cuenta» puedes borrar tu cuenta y todos tus datos, con efecto inmediato.
 
 Si vas a tomar una decisión con dinero, habla con alguien autorizado para aconsejarte.

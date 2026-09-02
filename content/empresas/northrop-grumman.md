@@ -4,9 +4,6 @@ tipo: empresa
 tags: [empresa, aeroespacial-y-defensa]
 fecha: 2026-08-28
 agente: prime-agent
-veredicto: OBSERVAR
-valor_estimado: Sin datos
-gatillo_entrada: <~500 USD
 ticker: NOC
 moneda: USD
 fuentes: "[\"https://www.sec.gov/Archives/edgar/data/1133421/000113342126000002/noc-12312025xearningsrelea.htm\", \"https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/noc-20251231.htm\", \"https://stockanalysis.com/stocks/noc/statistics/\", \"https://seekingalpha.com/article/4933662-northrop-grumman-q2-2026-the-strategic-moat-widens-amid-a-7-6b-sentinel-surge\"]"

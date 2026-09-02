@@ -4,9 +4,6 @@ tipo: empresa
 tags: [empresa, articulos-deportivos, alemania]
 fecha: 2026-08-28
 agente: prime-agent
-veredicto: OBSERVAR
-valor_estimado: Sin datos
-gatillo_entrada: Evidencia H2 2026 (inventarios normalizados, EBIT > -150 M€)
 ticker: PUM
 moneda: EUR
 precio_referencia: 25.9

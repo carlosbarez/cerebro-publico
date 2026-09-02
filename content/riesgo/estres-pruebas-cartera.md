@@ -1,0 +1,124 @@
+---
+title: "Stress-tests de cartera"
+tipo: sintesis
+tags: [stress-test, escenarios, riesgo]
+fecha: 2026-08-30
+agente: daniel-ferrer
+squad: Riesgo (Daniel)
+status: durable
+---
+
+# Stress-tests de cartera
+
+> Fuentes base: MSCI "Stress Testing in the Investment Process" (2010); Norges Bank IM "Stress testing" (2023/2024); Foxholm Financial "Portfolio Stress Testing" (2026); PGIM Quant "Regime-Conditional Reverse Stress Testing"; ScenarioEdge "2025 Portfolio Stress Test" (2025).
+
+## 1. Resumen ejecutivo
+
+Un *stress-test* (prueba de estrés) de cartera es un ejercicio que responde a una pregunta concreta: "¿cuánto puede perder esta cartera si ocurre X?". A diferencia de la volatilidad o el Value-at-Risk (VaR, "valor en riesgo"), que resumen el riesgo en un solo número, el stress-test vincula la pérdida a un evento específico y narrativo, lo que lo hace más legible para el inversor y para la toma de decisiones (MSCI, 2010: https://www.msci.com/documents/10199/1637462/Stress_Testing_in_the_Investment_Process_Aug2010.pdf).
+
+Importa especialmente al inversor de largo plazo porque el riesgo no está en la media sino en las colas: el 2008 mostró que muchas carteras perdieron mucho más de lo que sus modelos VaR predecían (Foxholm, 2026: https://foxholm.com/q/models/portfolio-stress-testing/). El test de estrés llena ese hueco modelando los escenarios extremos que de verdad importan.
+
+Tres cifras clave:
+- En la encuesta global de MSCI de 2009, el **74% de los gestores de activos** y el **27% de los promotores de planes** (plan sponsors) declararon realizar stress-tests (MSCI, 2010).
+- El clásico **60/40 perdió aproximadamente un 16% en 2022**, cuando renta variable y renta fija cayeron a la vez y la correlación stock-bond se invirtió de negativa a positiva (ScenarioEdge, 2025: https://scenarioedge.com/research/portfolio-stress-test-five-investor-profiles).
+- Según el Comité de Basilea citado por PGIM, los **dos tercios** de las instituciones encuestadas ya aplican *reverse stress testing* (prueba de estrés inversa) como complemento (PGIM: https://www.pgim.com/content/dam/pgim/us/en/pgim-quantitative-solutions/active/documents/tbd/PGIM-Quant-Regime-Conditional-Reverse-Stress-Testing.pdf).
+
+## 2. Estructura / modelo
+
+El método parte de definir el *alcance* (scope) del test y luego transmite un shock a los factores de riesgo de la cartera para revalorizar las posiciones (MSCI, 2010). Existen varias técnicas, y un marco sólido las combina:
+
+| Enfoque | Qué hace | Fortaleza | Limitación |
+|---|---|---|---|
+| **Análisis histórico** | Replica los movimientos reales de una crisis pasada (2008, 2020, 2022) sobre la cartera actual | Transparente y anclado en hechos | El futuro puede no parecerse al pasado |
+| **Análisis hipotético** | Construye eventos plausibles no ocurridos (crisis de deuda soberana, stagflation, desacoplamiento geopolítico) | Prueba riesgos sin precedente | Subjetivo; requiere juicio de magnitudes y correlaciones |
+| **Análisis de sensibilidad** (factor shocks) | Mueve un factor a la vez (tipos +100/200/300 pb, equity -10/-20/-30%, spreads crediticios +100/500 pb, divisa ±10-20%) | Rápido, aísla el riesgo dominante | Subestima el impacto real al ignorar correlaciones cruzadas |
+| **Reverse stress testing** | Parte de una pérdida objetivo y deduce qué escenario la provocaría | Revela correlaciones ocultas y "puntos ciegos" | Costoso de computar; exige supuesto de plausibilidad |
+| **Monte Carlo / simulación** | Miles de trayectorias con colas grasas y regimes de volatilidad cambiantes | Útil para derivados y no-linealidades | Requiere modelo de dependencia de los factores |
+| **Liquidez / funding** | Margen, colateral, haircuts, profundidad de mercado | Captura contagio y ventas forzadas | Datos de profundidad escasos |
+
+El Banco de Noruega (NBIM) traduce narrativas macro a *shifts* en factores de rentabilidad —crecimiento del dividendo, prima de riesgo equity, expectativas de inflación, tipos reales, prima de plazo y prima de liquidez— y combina esos shifts con las exposiciones de cada clase de activo para obtener el impacto a 3-5 años (NBIM, 2023/2024: https://www.nbim.no/contentassets/1fa1b9d3c2bd4bd6b3e4833add584be1/stress-testing-2023.pdf). Vanguard aplica la misma lógica en su herramienta de asesores, con librería de eventos históricos y shocks hipotéticos (https://advisors.vanguard.com/strategies/portfolio-strategies/portfolio-analysis/stress-testing).
+
+## 3. Numeros clave
+
+Cifras de calibración extraídas de fuentes (tratar como estimaciones educativas, no previsiones):
+
+- **FactSet (2025)** modela dos recesiones sobre carteras multi-activo: *shallow* (equities −15%, high yield −10%, corporativos y treasuries +2%) y *severe* (equities −30%, high yield −20%, treasuries +3%) (https://insight.factset.com/testing-investment-impacts-from-rising-u.s.-inflation-and-a-potential-recession-0).
+- **ScenarioEdge (2025)**, sobre 5 perfiles de inversor retail, da drawdowns máximos estimados: recesión leve −22% a −32%; stagflation −30% a −42%; shock de tipos tipo 2022 −20% a −28%; escalada geopolítica −18% a −28% (https://scenarioedge.com/research/portfolio-stress-test-five-investor-profiles).
+- **Escenarios históricos de referencia** (Foxholm, 2026): 2008 GFC equities −50%+ y correlaciones a ~1,0; COVID-19 −34% en 23 sesiones; 2022 rate shock (el peor año del 60/40 en décadas); Black Monday 1987 −22,6% en un día (https://foxholm.com/q/models/portfolio-stress-testing/).
+- **NBIM (2023)**: su mandato limita el *expected shortfall* relativo a 3,75 puntos porcentuales anuales frente al benchmark; escenarios de ese año: *Debt crisis*, *Repricing of risk* y *Divided world* (https://www.nbim.no/contentassets/1fa1b9d3c2bd4bd6b3e4833add584be1/stress-testing-2023.pdf).
+
+## 4. Posicion / marco conceptual
+
+El stress-test es el complemento cualitativo del modelo cuantitativo, no su sustituto. Su valor no está en predecir, sino en comparar: qué escenario duele más, qué posición contribuye más a la pérdida, y cómo evoluciona eso con el tiempo (Foxholm, 2026). Encaja con el marco del Cerebro como un "seguro de honestidad" sobre la [[diversificacion]]: el 2022 demostró que [[60-40]] no es todo-clima sino solo resistente a recesión, y que la correlacion stock bond se rompe en shocks de inflación/tipos.
+
+Conecta con [[inflacion]] y riesgo de tipos: la cartera "cauta" construida para el mundo 2010-2021 (tipos bajos, inflación baja) pierde poder adquisitivo real al 4-5% anual si la inflación se mantiene en 5-6% (ScenarioEdge, 2025). Y con [[drawdown]] y concentracion: el test expone dónde está el riesgo concentrado (growth equities → stagflation; larga duración → rate shock; EM → escalada geopolítica y dólar fuerte).
+
+## 5. Catalizadores y riesgos
+
+A favor de usarlos:
+- Las guías regulatorias (FCA SYSC 20, Federal Reserve, BCBS, Banco Central de UAE) obligan a bancos y aseguradoras a stress-test y *reverse stress-test*, normalizando la práctica (FCA: https://www.fca.org.uk/publication/guidance-consultation/gc11_08.pdf; Fed: https://www.federalreserve.gov/frrs/guidance/interagency-supervisory-guidance-on-stress-testing-for-banking-organizations-with-total-consolidated-assets-of-more-than-10.htm).
+- Herramientas accesibles (Vanguard, swissQuant, FactSet) permiten ya hacerlo sin ser institución (swissQuant: https://swissquant.com/geopolitical-portfolio-stress-simulator/).
+
+En contra / riesgos del propio método:
+- **Falsa comodidad**: una cartera que sobrevive todos los tests históricos puede ser vulnerable a una crisis sin precedente (Foxholm, 2026). Antes de 2022 pocos marcos incluían "stocks y bonds caen juntos".
+- **Riesgo de modelo lineal**: asumir que −30% equity = 3× el impacto de −10% ignora la aceleración no lineal (correlaciones suben, la liquidez se seca, ventas forzadas crean bucles).
+- **Cartera fija**: la mayoría asume que no reaccionas; en la práctica vendes y amplificas las pérdidas.
+
+Novedades recientes (Google News RSS, consultado 2026-08-30):
+- "La Fed relajará los test de estrés a la banca: ¿Impulso para los dividendos?" (Estrategias de Inversión, 24 dic 2024) — señala alivio regulatorio en EE. UU. (https://www.estrategiasdeinversion.com).
+- "Test de estrés para fondos: así se evalúa el riesgo de liquidez" (Estrategias de Inversión, 30 nov 2023) — extiende el enfoque al riesgo de liquidez de fondos (https://www.estrategiasdeinversion.com).
+- Escenario vigente 2025: aranceles/guerra comercial. Invictus (ago 2025) modela un "Tariff & Trade War Recession 2.0" con desempleo al 8%, CPI >4,5% y equity −30% acumulado, tariff rate efectiva 16-18% (máximo desde 1936) (https://intel.invictusgrp.com/invictus-updates-its-tariff-trade-war-stress-testing-scenario).
+
+## 6. Valoracion / implicaciones practicas
+
+Para el inversor particular, la receta mínima según las fuentes es un mix de 3-4 replays históricos (crash equity, rate shock, credit crisis, pandemia), 2-3 escenarios hipotéticos propios y sensibilidades one-factor por cada factor principal, revisado al menos anualmente (Foxholm, 2026). Pasos:
+1. **Lista tus exposiciones reales** por clase de activo, región, divisa y duración; no uses el nombre del fondo, usa las posiciones.
+2. **Corre los 4 escenarios de 2025** (recesión leve, stagflation, rate shock, escalada geopolítica) y mira el drawdown y el tiempo de recuperación (ScenarioEdge, 2025).
+3. **Identifica tu vulnerabilidad primaria**: ¿cuál escenario te daña más? Eso dicta el hedge.
+4. **Tamiza el ajuste**: +5-15% oro, rotar bonos largos a corta duración, +commodities/TIPS/REITs mejora la resilencia tail sin sacrificar el caso base (ScenarioEdge, 2025; PGIM sugiere real assets como hedge de inflación).
+5. **Haz un reverse test rápido**: "¿qué combinación de shocks me produce una caída del 25%?" y comprueba si cabe en tu tolerancia.
+
+Señal de alerta: si tu "cartera defensiva" tiene >50% en bonos largos y 0% en real assets en un régimen de inflación estructuralmente más alta, estás sobreexpuesto a rate shock y erosión real (ScenarioEdge, 2025).
+
+## 7. Veredicto para el inversor
+
+El stress-test no predice el futuro; te dice dónde te duele y cuánto aguantas. Para un inversor de largo plazo es gratis y deshonesto no hacerlo: revela que el 60/40 "todo-clima" no lo es, que la diversificación falla justo cuando más importa, y que el oro y los real assets pagan dividendos de resilencia asimétricos. Hazlo una vez al año y tras cada cambio grande de cartera.
+
+## 8. Segundo orden (OBLIGATORIO y central en este wiki)
+
+- **La diversificación es régimen-dependiente.** El 2022 mató la creencia de que stocks y bonds siempre se compensan. Implicación: el [[60-40]] y los fondos "balanceados" tipo LifeStrategy necesitan un anexo de real assets, o el inversor español que los tenga por defecto está comprando un seguro que no paga en inflación. Choca con el relato habitual de "renta fija es defensivo" — véase renta fija como refugio.
+- **El riesgo geopolítico es no-lineal y se agrupa.** Un Taiwan Strait crisis contamina Hormuz y Corea (ScenarioEdge, 2025). Para Carlos, con exposición implícita a EM vía fondos globales, esto significa que el riesgo cambiario y la exposicion emergentes no son riesgos aislados sino correlacionados en cola. El hedge más robusto y agnóstico es oro 5-15% (oro como hedge).
+- **Reverse stress testing expone el "punto ciego del punto ciego".** Al obligarte a partir de la pérdida y buscar el escenario, descubres combinaciones que ni se te ocurrirían (PGIM). Útil para tensionar otras tesis del Cerebro como apalancamiento o liquidez de la cartera: ¿tu plan de rebalanceo aguanta una venta forzada del 30%?
+- **El sesgo de supervivencia del propio método.** Como el test solo prueba lo que incluyes, una cartera "que pasa todos los tests" da falsa comodidad. Conecta con circulo dorado de carlos / disciplina de no vender: el stress-test debe alimentar la tolerancia a la perdida, no sustituirla.
+- **A 3-5 años Carlos debería vigilar**: (a) si la inflación estructuralmente alta se materializa, el rol de la renta fija en su asignación; (b) el riesgo de un "Divided world" (desacoplamiento China-EE. UU.) que reescriba las cadenas de suministro y la valoración de tecnología (riesgo tecnologico); (c) que los shocks de liquidez (no solo de precio) dominen la próxima crisis, dado el apalancamiento oculto en ETF y fondos; (d) si la correlación stock-bond sigue positiva, la eficiencia de diversificar con bonos largos cae a cero y hay que mirar [[activos-reales]] y infraestructura.
+
+## 9. Fuentes consultadas
+1. MSCI — "Stress Testing in the Investment Process" (2010) - https://www.msci.com/documents/10199/1637462/Stress_Testing_in_the_Investment_Process_Aug2010.pdf
+2. Norges Bank Investment Management — "Stress testing" (2023/2024) - https://www.nbim.no/contentassets/1fa1b9d3c2bd4bd6b3e4833add584be1/stress-testing-2023.pdf
+3. Foxholm Financial — "Portfolio Stress Testing" (2026-08-03) - https://foxholm.com/q/models/portfolio-stress-testing/
+4. PGIM Quantitative Solutions — "Regime-Conditional Reverse Stress Testing" - https://www.pgim.com/content/dam/pgim/us/en/pgim-quantitative-solutions/active/documents/tbd/PGIM-Quant-Regime-Conditional-Reverse-Stress-Testing.pdf
+5. ScenarioEdge — "2025 Portfolio Stress Test: How 5 Common Investor Profiles Hold Up" (2025-03-27) - https://scenarioedge.com/research/portfolio-stress-test-five-investor-profiles
+6. ScenarioEdge — "Geopolitical Risk Playbook for Investors: 8 Scenarios to Model in 2025" (2025-03-27) - https://scenarioedge.com/research/geopolitical-risk-playbook-2025
+7. FactSet — "Testing Investment Impacts from Rising U.S. Inflation and a Potential Recession" (2025-03-29) - https://insight.factset.com/testing-investment-impacts-from-rising-u.s.-inflation-and-a-potential-recession-0
+8. Vanguard for Advisors — "Portfolio stress testing" - https://advisors.vanguard.com/strategies/portfolio-strategies/portfolio-analysis/stress-testing
+9. tsimagine — "Portfolio Stress Testing: Tools, Methods & Best Practices" (2026-06-26) - https://tsimagine.com/insights/portfolio-stress-testing/
+10. FCA (Reino Unido) — "Guidance consultation" reverse stress testing (SYSC 20) - https://www.fca.org.uk/publication/guidance-consultation/gc11_08.pdf
+11. Federal Reserve (EE. UU.) — "Interagency Supervisory Guidance on Stress Testing" - https://www.federalreserve.gov/frrs/guidance/interagency-supervisory-guidance-on-stress-testing-for-banking-organizations-with-total-consolidated-assets-of-more-than-10.htm
+12. Invictus Group — "Tariff & Trade War Stress Testing Scenario" (2025-08-25) - https://intel.invictusgrp.com/invictus-updates-its-tariff-trade-war-stress-testing-scenario
+13. swissQuant — "Geopolitical Portfolio Stress Simulator" (2026-05-04) - https://swissquant.com/geopolitical-portfolio-stress-simulator/
+14. Nagpal, K.M. — "Designing stress scenarios for portfolios" (2017) - https://doi.org/10.1057/s41283-017-0024-x
+15. Estrategias de Inversión — "La Fed relajará los test de estrés a la banca" (2024-12-24) - https://www.estrategiasdeinversion.com
+
+---
+
+## Nota de evolucion 2026-08-30 (elisa)
+
+Asenso a pagina durable del wiki tras revision de la CIO. La sonde de origen (scratchpad/sondas-2026-08-30/estres-pruebas-cartera.md) se valido: estructura completa de 9 secciones, seccion de segundo orden presente y >=6 fuentes reales. No se reescribio ninguna afirmacion previa. Trailer de commit: Agente: elisa.
+
+## Ver también
+
+- [[apalancamiento-riesgo]] · [[cartera-todo-tiempo]] · [[itau-unibanco]] · [[liquidez-riesgo-oculto]] · [[lloyds]] · [[playbook-drawdown-30]] · [[regimen-correlacion-falla]] · [[regimen-tipos-2026-2028]] · [[riesgo-cola-seguros]] · [[tamano-posicion-riesgo]]
+
+## Nota de evolución 2026-08-31 (cerebro-enlaza)
+
+Red de conocimiento: enlace de la hornada durable 2026-08-30 en red neuronal interna (sección «Ver también»). Verificación previa: 41 páginas ascendidas con `status: durable` y validación CIO (9 secciones, 2º orden, ≥6 fuentes), frontmatter canónico, 0 errores. Hallazgo: `itau-unibanco` duplicado en `empresas/` y `analisis-acciones/` (colisión de slug; pendiente decisión de Carlos). Trailer: Agente: cerebro-enlaza.

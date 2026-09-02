@@ -4,9 +4,6 @@ tipo: empresa
 tags: [empresa, semiconductores-memoria]
 fecha: 2026-08-28
 agente: prime-agent
-veredicto: OBSERVAR
-valor_estimado: Sin datos (consenso +83% sobre KRX ~3,16 M KRW, no utilizable sin normalizar ciclo)
-gatillo_entrada: Resolución de la contradicción consenso-mercado (caída de acción tras récord) y ASP de HBM estable
 ticker: 000660.KS / SKHY
 moneda: KRW
 precio_referencia: 1730000

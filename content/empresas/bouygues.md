@@ -4,9 +4,6 @@ tipo: empresa
 tags: [empresa, construccion, telecomunicaciones, conglomerado]
 fecha: 2026-08-28
 agente: prime-agent
-veredicto: COMPRAR
-valor_estimado: 60,00 € (consenso, +36%)
-gatillo_entrada: Desenlace favorable antimonopolio de SFR (cierre 2S 2027) y deuda bajo control
 ticker: EN
 moneda: EUR
 fuentes: "[\"https://www.globenewswire.com/news-release/2026/02/26/3245218/0/en/Bouygues-Very-robust-2025-results-and-free-cash-flow-at-a-record-level.html\", \"https://www.globenewswire.com/news-release/2026/07/30/3335761/0/en/bouygues-very-strong-group-performance-in-first-half-2026-outlook-for-the-full-year-confirmed.html\", \"https://stockanalysis.com/quote/epa/EN/financials/\", \"https://stockanalysis.com/quote/epa/EN/statistics/\", \"https://www.reuters.com/business/media-telecom/bouygues-led-consortium-signs-2344-billion-deal-buy-sfr-altice-france-2026-06-06/\"]"

@@ -4,9 +4,6 @@ tipo: empresa
 tags: [empresa, software, saas]
 fecha: 2026-08-28
 agente: prime-agent
-veredicto: MANTENER
-valor_estimado: ~59 USD (objetivo medio consenso)
-gatillo_entrada: Sin datos
 ticker: DOCU
 moneda: USD
 fuentes: "[\"https://investor.docusign.com/news-and-events/press-releases/news-details/2026/Docusign-Announces-Fourth-Quarter-and-Fiscal-Year-2026-Financial-Results-Announces-2-0-Billion-Increase-to-Share-Repurchase-Program/default.aspx\", \"https://investor.docusign.com/news-and-events/press-releases/news-details/2026/Docusign-Announces-First-Quarter-Fiscal-2027-Financial-Results/default.aspx\", \"https://www.sec.gov/Archives/edgar/data/1261333/000126133326000021/docu-20260131.htm\", \"https://stockanalysis.com/stocks/docu/statistics/\", \"https://www.morningstar.com/stocks/xnas/docu/quote\"]"

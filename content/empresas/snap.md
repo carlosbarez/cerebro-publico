@@ -4,9 +4,6 @@ tipo: empresa
 tags: [empresa, redes-sociales, publicidad-digital]
 fecha: 2026-08-28
 agente: prime-agent
-veredicto: OBSERVAR
-valor_estimado: ~7,38 USD (objetivo medio consenso)
-gatillo_entrada: Sin datos
 ticker: SNAP
 moneda: USD
 precio_referencia: 5.50

@@ -4,9 +4,6 @@ tipo: empresa
 tags: [empresa, servicios-petroleros]
 fecha: 2026-08-28
 agente: prime-agent
-veredicto: COMPRAR
-valor_estimado: Objetivo medio ~62 $ (+15% sobre ~53,90 $); P/E fwd ~14-19x, descuento vs calidad
-gatillo_entrada: Retorno de barrenas saudies a niveles inicio-2025; pullback <50 $
 ticker: SLB
 moneda: USD
 precio_referencia: 53.90

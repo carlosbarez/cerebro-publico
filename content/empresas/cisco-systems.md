@@ -4,9 +4,6 @@ tipo: empresa
 tags: [empresa, tecnologia, hardware-red]
 fecha: 2026-08-28
 agente: prime-agent
-veredicto: MANTENER
-valor_estimado: ~137 $ (objetivo consenso medio)
-gatillo_entrada: De-rating a ~15-17x forward (precio <~100 $) o margen bruto >64% sostenido con ingresos IA >guia
 ticker: CSCO
 moneda: USD
 fuentes: "[\"https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FOURTH-QUARTER-AND-FISCAL-YEAR-2026-EARNINGS/default.aspx\", \"https://www.sec.gov/Archives/edgar/data/858877/000085887725000111/csco-20250726.htm\", \"https://www.idc.com/resource-center/blog/nvidia-becomes-1-in-datacenter-ethernet-switching-as-1q26-market-surges-39-8-to-15-4-billion/\", \"https://stockanalysis.com/stocks/csco/statistics/\", \"https://investor.cisco.com/\"]"

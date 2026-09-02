@@ -4,9 +4,6 @@ tipo: empresa
 tags: [empresa, ia-generativa]
 fecha: 2026-08-28
 agente: prime-agent
-veredicto: OBSERVAR
-valor_estimado: Sin datos (privada; valoración 852.000 M$ ronda 2026)
-gatillo_entrada: IPO (objetivo 2027) y cuota enterprise LLM estable vs Anthropic
 moneda: USD
 fuentes: "[\"https://openai.com/index/accelerating-the-next-phase-ai/\", \"https://www.bloomberg.com/news/articles/2026-03-31/openai-valued-at-852-billion-after-completing-122-billion-round\", \"https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html\", \"https://www.wheresyoured.at/exclusive-openai-financials/\", \"https://fortune.com/2026/06/16/openai-financials-leaked-losses-revenue-profit/\"]"
 ---
@@ -52,7 +49,7 @@ Tipo: **efecto red + marca + escala de distribución**, erosionado por un coste 
 ## 5. Conexiones
 
 - Conceptos: [[valoracion-empresas-jovenes-y-privadas]] · [[riesgo-de-cola-capex-computo-ia]] · [[financiacion-estructurada-del-capex-de-ia]] · [[hiperscalers]] · [[ia-generativa]] · [[ia-agentic]] · [[infraestructura-centros-de-datos]] · [[geopolitica-del-computo]] · [[historia-de-las-burbujas-financieras]]
-- Empresas del ecosistema: [[microsoft]] (nube+accionista), [[nvidia]] (GPUs+accionista), [[oracle]] (Stargate; ver [[oracle]]), [[broadcom]], softbank (pendiente), anthropic (pendiente — el rival que roza rentabilidad), [[amazon]] (inversor)
+- Empresas del ecosistema: [[microsoft]] (nube+accionista), [[nvidia]] (GPUs+accionista), [[oracle]] (Stargate; ver [[oracle]]), [[broadcom]], softbank (pendiente), [[anthropic]] (pendiente — el rival que roza rentabilidad), [[amazon]] (inversor)
 - Tema de segundo orden: OpenAI es el test de estrés de todo el ciclo de capex de IA. Si su unidad económica no cierra antes de agotar el capital, el shock se propaga a NVIDIA (venta de GPUs), a los hiperescalares (contratos de nube) y a Oracle/NEO con RPO inflado por OpenAI. Es el nodo sistémico del wiki.
 
 ## 6. Qué vigilar

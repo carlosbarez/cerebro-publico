@@ -1,0 +1,130 @@
+---
+title: "Cadenas de valor y adjacencias entre tesis"
+tipo: analisis
+tags: [cadena-valor, adjacencias, metodo]
+fecha: 2026-08-30
+agente: carlos-barez
+squad: Analisis Fundamental (Carlos Barez)
+status: durable
+---
+
+# Cadenas de valor y adjacencias entre tesis
+
+> Fuentes base: Finmagine (Value Chain Analysis), McKinsey (adjacencies), Phillip Capital DIFC (supply chain), Macroplane (AI supply chain map), Oaktree/Howard Marks (second-level thinking), arXiv 2202.10623 (correlación como matriz de adyacencia).
+
+## 1. Resumen ejecutivo
+
+Una **tesis de inversión no vive aislada**: toda empresa ocupa un nodo dentro de una cadena de valor (del inglés *value chain*) que va de la materia prima al consumidor final. El ángulo central de esta sonda es que **la tesis de una empresa abre, casi mecánicamente, tesis adyacentes en sus nodos vecinos** —hacia arriba (*upstream*, proveedores) y hacia abajo (*downstream*, clientes/canales)— y que existe un método reproducible para mapear esas adyacencias antes de que se vuelvan consenso.
+
+Por qué importa al inversor de largo plazo: el análisis financiero tradicional muestra los *síntomas* (márgenes, ROCE, capital de trabajo); el análisis de cadena de valor muestra la *estructura* que los produce (Finmagine, 2026-04-06). Dos empresas del mismo sector pueden tener casos de inversión opuestos por ocupar nodos distintos: quien controla el *chokepoint* (cuello de botella escaso) fija precios; quien está *upstream* de él es un proveedor de materia prima a merced del spot; quien está *downstream* posee la relación con el cliente y cobra márgenes recurrentes (Finmagine, 2026-04-06).
+
+Cifras clave:
+- Empresas que crecen hacia **adyacencias naturales** generan, de media, **+1,5 puntos porcentuales anuales de retorno sobre los pares de su industria**; las adyacencias basadas en cadena de valor aportan **3–4% de TSR excedentario** (McKinsey, 2023-12-18).
+- Una gran empresa típica obtiene **~20% de sus ingresos fuera de su negocio base** (McKinsey, 2023-12-18).
+- El *buildout* de IA recorre **~150 empresas cotizadas en 17 capas de suministro**, y la exposición más asimétrica suele estar **3–4 eslabones *upstream* de los nombres que todos ya poseen** (Macroplane, 2026-06-08).
+
+## 2. Estructura / modelo
+
+Toda cadena de valor se descompone en nodos secuenciales. El modelo de Finmagine los jerarquiza así: **Materia prima → Componente → Semiacabado → Producto terminado → Distribución → Plataforma → Capa de servicio** (Finmagine, 2026-04-06). Cada nodo tiene tres atributos que hay que calificar: **EBIT típico, barrera de entrada y poder de fijación de precios (*pricing power*)**.
+
+Mecánica de la adyacencia (el "método", ver sección 4):
+1. **Ancla** la empresa en su nodo.
+2. **Dibuja** el flujo completo *upstream→downstream*.
+3. **Califica** cada nodo (EBIT / barrera / *pricing power*).
+4. **Marca** movimientos recientes (M&A, capex) como *up→* o *down→*.
+5. **Extrae** las tesis vecinas: ¿quién suministra y quién compra? ¿quién tiene el *chokepoint*?
+6. **Construye** la matriz de adyacencia (empresa o tesis) → ¿quién se activa si esta tesis funciona?
+7. **Segundo orden**: si la tesis es cierta, ¿qué se desencadena en los nodos vecinos?
+
+Ejemplo concreto — la cadena de cables de Polycab (Finmagine, 2026-04-06):
+
+| Nodo | EBIT típico | Poder de fijación | Implicación de tesis |
+|---|---|---|---|
+| Varilla de cobre (upstream) | 2–4% | Muy débil (commodity) | El proveedor no puede trasladar costes a Polycab |
+| Polycab (fabricante) | >4% | Medio-alto en retail | Captura el margen del nodo intermedio |
+| Distribuidor (downstream) | 2–3% | Débil | No puede exprimir el margen de Polycab |
+
+La lectura: Polycab está rodeada de nodos débiles → estructura de *chokepoint* digna de prima. Un movimiento *upstream* a varilla de cobre cambiaría el relato de beneficios (Finmagine, 2026-04-06).
+
+## 3. Numeros clave
+
+- **Poder de fijación por nodo**: en la cadena de cables, la varilla de cobre (2–4% EBIT) y el distribuidor (2–3% EBIT) dejan el poder del lado del fabricante (Finmagine, 2026-04-06).
+- **Adyacencias corporativas**: +1,5 pp/año de retorno por expandirse a adyacencias naturales; 3–4% de TSR excedentario en las basadas en cadena de valor (McKinsey, 2023-12-18).
+- **Cadena de IA como grafo dirigido**: ~150 cotizadas en 17 capas; cuellos de botella de un solo proveedor en EUV (**ASML**), foundry de vanguardia (**TSM**) y HBM (**SK Hynix / MU**) concentran el riesgo y el dinero (Macroplane, 2026-06-08).
+- **Correlación = adyacencia**: el paper arXiv 2202.10623 trata la matriz de correlación cruzada de retornos como una **matriz de adyacencia de un grafo ponderado** (Aᵢⱼ = |Cᵢⱼ|) para descubrir sectores correlacionados; confirma que en crisis (GFC, COVID) la diversificación por sector pierde efecto (James, Menzies & Gottwald, 2022).
+- **Pick-and-shovel**: estrategia acuñada en la Fiebre del Oro (1840s–50s) de comprar a los que venden las palas en lugar de a los mineros; flujos más estables pero vulnerables a la caída de la industria soporte (Investopedia, 2011-07-21).
+
+## 4. Posicion / marco conceptual
+
+El marco teórico es la **posición de nodo como determinante de invertibilidad** (Finmagine, 2026-04-06) cruzado con el concepto de **chokepoint**: el valor no vive en el producto ni en el conocimiento, vive donde hay un cuello de botella escaso y difícil de ampliar (Tim Kapp, 2026-03-05). Cuando un cuello de botella se libera, el poder migra al siguiente nodo vinculante —la "ley de valor en sistemas restringidos" (Tim Kapp, 2026-03-05). Eso es, en esencia, el motor de las adyacencias: la tesis de un nodo dice dónde se está trasladando el poder de precios.
+
+Conecta con otras ideas del Cerebro:
+- fosos moats — el *chokepoint* es la forma estructural del foso.
+- fuerza de precios — el *pricing power* se mide por nodo, no por empresa.
+- second order thinking — las adyacencias son el puente de primer a segundo orden.
+- asymmetric upside — la exposición más asimétrica suele estar 3–4 eslabones *upstream* (Macroplane, 2026-06-08).
+- [[analisis-fundamental]] — la cadena de valor es la extensión estructural del análisis de sector.
+- cadenas suministro ia (página a crear) — mapa vivo de la cadena de IA.
+
+**El método de mapeo (protocolo reproducible):**
+1. **Anclaje de nodo**: coloca la empresa en Materia prima→…→Servicio.
+2. **Mapeo de flujo**: dibuja la cadena completa con nombres de empresas reales en cada nodo.
+3. **Calificación de nodos**: EBIT típico / barrera / *pricing power* (chokepoint vs trampa commodity).
+4. **Movimientos recientes**: clasifica M&A/capex como *up→* o *down→* ( Finmagine, 2026-04-06).
+5. **Extracción de tesis vecinas**: lista quién suministra (upstream) y quién compra (downstream); señala el *chokepoint*.
+6. **Matriz de adyacencia**: grafo dirigido donde cada arista = "si esta tesis funciona, esta empresa/nodo se beneficia". Usa correlación de retornos como proxy quant (arXiv 2202.10623).
+7. **Segundo orden**: pregunta "¿y entonces qué?" para cada nodo vecino y registra las consecuencias en second order thinking.
+
+## 5. Catalizadores y riesgos
+
+Novedades recientes (Google News RSS, agosto 2026):
+- **a16z lanza el fondo "Machine Age" para atacar cuellos de botella de suministro de IA** (WSJ, 2026-08-28) — valida que el capital inteligente se concentra en *chokepoints* de la cadena (Fuente: news.google.com/rss/search?q=Andreessen+Horowitz+Machine+Age+fund).
+- **"How Do You Invest In The AI Value Chain?"** (Seeking Alpha, 2026-08-12) — la pregunta del mercado ya no es "qué IA" sino "dónde en la cadena" (Fuente: news.google.com/rss/search?q=How+Do+You+Invest+In+The+AI+Value+Chain).
+- **UPS invierte >$2.000M en cadenas de suministro más resilientes** (2026-08-24) — el gasto en resiliencia de cadena es un catalizador *downstream* para logística (Fuente: news.google.com/rss/search?q=UPS+supply+chain+investment).
+
+Riesgos:
+- **Falsa adyacencia**: no todo nodo vecino es una buena tesis; un nodo commodity *upstream* puede no tener *pricing power* (Finmagine, 2026-04-06).
+- **Correlación en crisis**: en shocks, la diversificación por sector colapsa y los nodos vecinos caen juntos (arXiv 2202.10623).
+- **Migración del chokepoint**: el poder se traslada cuando se libera el cuello de botella (Tim Kapp, 2026-03-05) — la adyacencia de hoy puede quedar obsoleta.
+
+## 6. Valoracion / implicaciones practicas
+
+Qué debe hacer el inversor:
+- **No analices la empresa suelta**: dibuja siempre su nodo y sus vecinos. Si la tesis es "Polycab captura margen", la adyacencia *upstream* (varilla de cobre) y *downstream* (distribuidores) son pistas de riesgo/oportunidad (Finmagine, 2026-04-06).
+- **Usa rondas de financiación y capex como capa de señal**: un cluster de rondas en infraestructura IA implica que la capa de aplicación está por explotar —busca la oportunidad no financiada (Faster Than Normal, 2026-02-12).
+- **Prioriza el chokepoint**: paga prima por el nodo con *pricing power* escaso, no por el nodo commodity (Finmagine, 2026-04-06; Tim Kapp, 2026-03-05).
+- **Cuantifica la adyacencia**: construye la matriz de correlación cruzada; si dos tesis cotizan como el mismo nodo, estás doblemente expuesto (arXiv 2202.10623).
+
+Señal de alerta: si tu cartera entera "se beneficia de la IA" pero todos los nombres están en el mismo nodo *downstream* (hyperscalers/ensambladores), no tienes adyacencia diversificada, tienes concentración camuflada.
+
+## 7. Veredicto para el inversor
+
+El mapeo de cadenas de valor y adyacencias no es un ejercicio académico: es la forma más honesta de descubrir la siguiente tesis *antes* del consenso y de medir dónde está realmente tu riesgo. La regla es simple y comprobable: **toda tesis bien anclada abre una adyacencia upstream o downstream; si no la ves, es que no has dibujado la cadena**. El inversor de largo plazo que internalice el método de los 7 pasos(sec. 4) sustituye el "me gusta el producto" (pensamiento de primer nivel, Howard Marks, 2015) por "sé dónde se traslada el poder de precios".
+
+## 8. Segundo orden (OBLIGATORIO y central en este wiki)
+
+Implicaciones de las implicaciones:
+- **Si la tesis del chokepoint es cierta**, el dinero migra del producto final al nodo escaso. Eso choca con la narrativa popular de "comprar la marca": en la IA, los nombres de moda (ensambladores) pueden ser el nodo commodity mientras ASML/TSM/HBM son el *chokepoint* (Macroplane, 2026-06-08; Tim Kapp, 2026-03-05). Conecta con fosos moats y fuerza de precios.
+- **Adyacencia como red, no como lista**: tratar la correlación como matriz de adyacencia significa que el "segundo orden" es topológico —una perturbación en un nodo se propaga por aristas, y en crisis todas las aristas se encienden a la vez (arXiv 2202.10623). Esto refuerza second order thinking: el inversor debe mapear el grafo, no coleccionar tickers.
+- **Choque con otras fuentes**: McKinsey vende la adyacencia como *growth* corporativo (+TSR); el inversor de valor la usa como *descubrimiento de riesgo* y *asimetría*. Misma herramienta, objetivo distinto. Ver [[analisis-fundamental]].
+- **Dónde vigilar a 3–5 años (Carlos)**: (1) la migración del *chokepoint* de conocimiento→infraestructura/regulatorio/capital (Tim Kapp, 2026-03-05); (2) si los ~150 nodos de IA se consolidan o fragmentan; (3) si el "Machine Age fund" de a16z normaliza la inversión en *chokepoints* y elimina la asimetría; (4) si la correlación cruzada de la cartera se acerca a 1 (pérdida de diversificación real, arXiv 2202.10623). Páginas sugeridas a crear: cadenas suministro ia, chokepoints pricing power, matriz adyacencia cartera, pick and shovel plays.
+
+## 9. Fuentes consultadas
+
+1. Finmagine — Value Chain Analysis: Map Pricing Power & Disruption Exposure — https://finmagine.com/blogs/value_chain_analysis_ai_advisor.php (2026-04-06)
+2. McKinsey & Company — How to reignite growth through adjacencies — https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/how-to-reignite-growth-through-adjacencies (2023-12-18)
+3. Phillip Capital DIFC — Supply Chain Analysis Guide for Equity Investors — https://phillipcapitaldifc.ae/supply-chain-analysis/ (2026-07-14)
+4. Macroplane — The AI Supply Chain Map: Every Public Company in the AI Buildout (2026) — https://macroplane.com/blog/ai-supply-chain-map (2026-06-08)
+5. Oaktree Capital — Howard Marks, "It's Not Easy" (memo on second-level thinking) — https://www.oaktreecapital.com/docs/default-source/memos/2015-09-09-its-not-easy.pdf (2015-09-09)
+6. arXiv — James, Menzies & Gottwald, "On financial market correlation structures and diversification benefits" — https://arxiv.org/abs/2202.10623 (2022)
+7. Investopedia — Pick-and-Shovel Play — https://www.investopedia.com/terms/p/pick-and-shovel-play.asp (2011-07-21)
+8. Tim Kapp — AI Gets the Headlines. Chokepoints Get the Power. — https://www.timkapp.com/articles/ai-gets-the-headlines-chokepoints-get-the-power (2026-03-05)
+9. Faster Than Normal — Recent funding rounds: a real-time signal layer (adjacency framework) — https://fasterthannormal.co/business-frameworks/recent-funding-rounds (2026-02-12)
+10. WSJ vía Google News — Andreessen Horowitz launches "Machine Age" fund for AI supply bottlenecks — https://news.google.com/rss/search?q=Andreessen+Horowitz+Machine+Age+fund (2026-08-28)
+11. Seeking Alpha vía Google News — How Do You Invest In The AI Value Chain? — https://news.google.com/rss/search?q=How+Do+You+Invest+In+The+AI+Value+Chain (2026-08-12)
+
+---
+
+## Nota de evolucion 2026-08-30 (elisa)
+
+Asenso a pagina durable del wiki tras revision de la CIO. La sonde de origen (scratchpad/sondas-2026-08-30/cadenas-valor-adjacencias.md) se valido: estructura completa de 9 secciones, seccion de segundo orden presente y >=6 fuentes reales. No se reescribio ninguna afirmacion previa. Trailer de commit: Agente: elisa.

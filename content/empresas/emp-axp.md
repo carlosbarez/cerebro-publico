@@ -1,0 +1,119 @@
+---
+title: "American Express (AXP) - Ficha de investigacion"
+tipo: empresa
+tags: [empresa, fin-tech, usa]
+fecha: 2026-08-31
+agente: carlos-barez
+squad: Analisis Fundamental - Empresas (Carlos Barez)
+status: sonde
+---
+
+# American Express (AXP) - Ficha de investigacion
+
+> Fuentes base: SEC 10-K FY2025 (EDGAR, primaria); stockanalysis.com (metricas y consenso); Google News RSS (novedades 2026). Nota de metodo: el canal Exa web_search venia agotado (402 creditos), asi que se degrado con elegancia a fuentes primarias SEC + stockanalysis + Google News RSS, todas tier-1.
+
+## 1. Resumen ejecutivo
+
+American Express (AXP, NYSE) no es un "banco" ni una red abierta tipo Visa/Mastercard: es una compañia de pagos **integrada y propietaria** (closed-loop / "bucle cerrado" en inglés) que actua a la vez como **emisor**, **red** y **adquirente** de sus tarjetas. Ese modelo le permite capturar toda la economia de la transaccion (comision al comercio o *discount revenue*, comisiones anuales, *interchange* e intereses de credito) y construir una marca "premium" anclada en clientes de alto poder adquisitivo y alto gasto.
+
+Por que importa al inversor de largo plazo: AXP combina crecimiento de ingresos de doble digito, retornos sobre capital muy altos (ROE ~34%), poder de fijacion de precios (acaba de subir la cuota de la Platinum a $895) y un fosco de marca y costes de cambio dificil de replicar. Es, ademas, una de las posiciones mas antiguas de Berkshire Hathaway (Warren Buffett) ([6]).
+
+Cifras clave (ejercicio 2025, cierre 31-dic-2025; fuente SEC 10-K salvo nota):
+- Ingresos totales netos de gasto financiero: **$72.229 mm** (as-reported); en base ajustada por tipo de cambio (FX-adjusted) **~$66.100 mm** ([1]).
+- Beneficio neto: **$10.833 mm**; BPA diluido **$15,38** ([1]).
+- Capitalizacion de mercado **~$223,6 mm**; precio ~$331 (31-ago-2026); PER TTM ~20,2x, PER forward ~18,0x ([2][3]).
+- ROE **34,4%**; margen de beneficio ~16% ([2]).
+
+## 2. Estructura / modelo
+
+AXP es una de las cuatro mayores redes de tarjeta de proposito general del mundo por volumen de compra, por detras de Visa, China UnionPay y Mastercard (es la #4) ([1], seccion Competition). Su modelo "integrado" significa que controla los tres lados: capta al socio (cardmember), procesa la transaccion por su propia red y cobra al comercio. Esto le da visibilidad total de los datos de la transaccion y le permite vender tanto al consumidor (recompensas, viajes, experiencias) como al comercio (analitica, clientes de alto gasto, proteccion antifraude).
+
+Segmentos de ingreso (revenue net of interest expense, FY2025; [2]):
+
+| Segmento | Ingresos FY2025 (mm) | Qué es |
+|---|---|---|
+| U.S. Consumer Services (USCS) | 34.814 | Tarjetas de consumo premium en EE.UU. |
+| Commercial Services (CS) | 16.926 | Pagos corporativos, T&E, cuentas por pagar |
+| International Card Services (ICS) | 13.000 | Tarjetas fuera de EE.UU. |
+| Global Merchant and Network Services (GMNS) | 7.759 | Comisiones de red y servicios al comercio |
+| Corporate & Other | -270 | Holdco y eliminaciones |
+
+Fuentes de ingreso por mecanica: (a) **discount revenue** cobrado al comercio; (b) **comisiones anuales** (membership fees, p.ej. Platinum, Gold, Green); (c) **intereses** sobre saldos de los cardmembers (loan book); (d) **interchange**; (e) honorarios de servicio y divisas. El negocio se apoya en un balance bancario (American Express National Bank, AENB) que capta **depositos** para fondear la cartera de credito, lo que lo somete a regulacion bancaria federal (Fed, OCC, FDIC, CFPB) ([1]).
+
+## 3. Numeros clave
+
+Cifras con fuente (consolidado, en mm USD salvo indicado):
+
+- Ingresos totales netos de gasto financiero: 2025 = **72.229**; 2024 = 65.949; 2023 = 60.515 ([1]). (stockanalysis presenta el equivalente FX-adjusted en ~66.973 para 2025 [2]).
+- Beneficio neto: 2025 = **10.833**; 2024 = 10.129; 2023 = 8.374 ([1]).
+- BPA diluido: 2025 = **15,38**; 2024 = 14,01; 2023 = 11,21 ([1]).
+- Crecimiento de ingresos: +10,2% (2025) tras +9,3% (2024) y +9,7% (2023) ([2]).
+- Margen operativo ~20,4%; margen de beneficio ~16,0% ([2]).
+- ROE **34,4%**; ROA 3,8%; ROIC 11,9% ([2]).
+- Activos totales **$300.052 mm**; patrimonio neto **$33.474 mm** (31-dic-2025, SEC XBRL [5]).
+- Deuda total ~$63.909 mm; ratio Deuda/Patrimonio 1,72 ([2]).
+- Empleados: **~76.800** (25.900 en EE.UU., 50.900 fuera) ([1]).
+- Dividendo **$3,80/accion** (yield ~1,15%); buybacks reducen acciones en circulacion (~675 mm, -2,5% interanual) ([2]).
+- Consenso analistas: **Buy**; precio objetivo medio **$375,96** (+13,6% sobre precio actual); rango $315-$450 ([3]).
+- Siguiente presentacion de resultados estimada: 23-oct-2026 ([2]).
+
+Estado del arte: el TTM a jun-2026 muestra ingresos ~$70,9 mm y beneficio neto ~$11,3 mm (stockanalysis [2]); AXP subio la guia de ingresos 2026 mientras mantenia la de BPA (noticias, [6]).
+
+## 4. Posicion / marco conceptual
+
+El fosco (moat) de AXP es **mixto y reforzado por efectos de red bidireccionales**:
+1. **Marca premium y seleccion de clientes**: atrae a socios de alto FICO y alto gasto; el comercio quiere esos clientes, lo que refuerza la aceptacion. Efecto red "afluencia de alto gasto" (spending power attracts merchants).
+2. **Costes de cambio (switching costs)**: recompensas acumuladas, beneficios de viaje, lounges y la integracion en el gasto corporativo hacen caro cambiar de tarjeta.
+3. **Modelo integrado (closed-loop)**: al ser emisor+red+adquirente capta mas valor por transaccion y datos que una red abierta; pero a cambio debe construir su propia aceptacion de comercios (su debilidad historica frente a Visa/Mastercard).
+4. **Poder de fijacion de precios**: subio la cuota Platinum a $895 y mantiene apetito de subidas ([6]); capacidad de trasladar costes al socio premium.
+5. **Escala de depositos y fondeo**: capta depositos (parte "brokered") que fondean el libro de credito a coste mas bajo que el capital de mercado.
+
+Conecta con otras ideas del Cerebro: moat red de pago, emp visa / emp mastercard (redes abiertas, su competencia estructural), emp capital one (compra de Discover/Diners, ahora su competidor de red), [[berkshire-hathaway]] / [[warren-buffett]] (accionista de largo plazo y validador del fosco), riesgo credito, [[inflacion]], bnpl, [[stablecoins]], [[pagos-digitales]].
+
+## 5. Catalizadores y riesgos
+
+Catalizadores recientes (Google News RSS, agosto-2026, [6]):
+- Resultados Q2-2026 por encima de previsiones; AXP **subio la guia de ingresos 2026** manteniendo la de BPA ([6], Yahoo/WSJ).
+- Subida de la cuota de la **Platinum a $895** y empuje de **virtual cards** B2B y para clientes empresariales ([6], Yahoo/simplywall.st).
+- Alianzas: **St Andrews Links** (pagos oficial), **Accor Rewards**, **Paymode** B2B, integracion con **Apple Pay** para canje de recompensas y adhesion a **OpenUSD** ([6]).
+- Sigue pagando un dividendo elevado a Berkshire (se citan ~$576 mm anuales) ([6], thestreet).
+- Consenso de analistas "Buy" con objetivo medio ~$376 ([3]).
+
+Riesgos (enumerate del 10-K, [1]):
+- **Ciclo credito / macro**: las provisiones por perdidas suben si empeora el empleo o el gasto; AXP esta mas expuesto que Visa/Mastercard porque mantiene el riesgo de credito en su balance (es emisor). Delinquencies y write-offs vigilados (~1,7% write-off citado en novedades [6]).
+- **Competencia intensa**: Visa, Mastercard, UnionPay, fintechs, BNPL (Klarna, Affirm), wallets (PayPal, Apple Pay, Alipay), y ahora **Capital One/Discover** como red. El 10-K destaca explicitamente el riesgo de **agentic commerce** (IA autonoma que compra) y **stablecoins** que pueden desintermediar la relacion con el cliente ([1]).
+- **Regulacion**: CFPB, capital/liquidez (Basel III "endgame" aun incierto), posible **Durbin**/regulacion de interchange, y **open banking** (regla de datos del CFPB) que puede obligar a compartir datos gratis ([1]).
+- **Comercios / antitrust**: litigios sobre clausulas *honor-all-cards* y no discriminacion; riesgo de *steering* y *surcharging* (comercios que desincentivan la tarjeta AXP) ([1]).
+- **Fondeo y ratings**: dependencia de depositos y mercados de capital; una bajada de rating encarece el fondeo ([1]).
+- **Ciberseguridad / operacional**: la operacion ininterrumpida de sus sistemas es critica ([1]).
+
+## 6. Valoracion / implicaciones practicas
+
+A precios de ~$331 (31-ago-2026) y PER TTM ~20,2x (forward ~18,0x), AXP cotiza con una prima razonable respecto a bancos tradicionales pero en linea con su calidad de fosco y ROE ~34% ([2][3]). El consenso la ve ~13-15% barata respecto al objetivo medio ($376) y multiples articulos de 2026 la describen como "infravalorada" tras el pullback ([6]). El P/FCF ~15x y PB ~6,6x reflejan el apalancamiento del balance bancario.
+
+Que vigilar (senal de alerta): cualquier aceleracion de **write-offs / delinquencies** por encima de tendencia, o recorte de guia de BPA (no solo ingresos). La guia de ingresos subio pero la de BPA se mantuvo: si el coste de recompensas/viajes crece mas que el ingreso, el margen se comprime. Tambien vigilar la regulacion de interchange/open banking y la competencia de Capital One-Discover y stablecoins.
+
+## 7. Veredicto para el inversor
+
+AXP es una de las franquicias de pagos de mayor calidad y mas difícil de replicar: fosco de marca + efecto red de alto gasto + modelo integrado + ROE superior al 30%. No es barata (PER ~20x) pero tampoco cara para su calidad, y el consenso la ve con recorrido. El riesgo central no es competitivo a corto plazo sino **ciclo de credito** (loque mantiene en balance) y **regulatorio/tecnologico** a medio plazo (stablecoins, agentic commerce, open banking). Para un inversor de largo plazo con tolerancia al riesgo de credito, es posicion de "mantener y vigilar", no de urgencia.
+
+## 8. Segundo orden (OBLIGATORIO y central en este wiki)
+
+- **Si las stablecoins y el agentic commerce despegan de verdad**, el riesgo no es que AXP pierda cuota hoy, sino que se le desintermedie la *relacion directa* con el socio (el agente IA o la stablecoin se vuelve la "wallet" y AXP queda como tuberia). Esto choca con la tesis "fosco de marca premium": la marca importa menos si la compra la inicia una IA. Conecta con [[stablecoins]] y [[pagos-digitales]]; vigilar a 3-5 años si AXP logra ser el "issuer de infraestructura" de esas transacciones (su movimiento OpenUSD es una pista en esa direccion, [6]).
+- **Capital One + Discover** crea la primera red cerrada competidora directa en EE.UU. a escala; si Discover cierra su brecha de aceptacion, presiona el unico punto debil de AXP (aceptacion de comercio). Ver emp capital one y emp mastercard.
+- **Regulacion de datos (open banking)** puede forzar a AXP a regalar su datos de transaccion a fintechs; eso debilita su ventaja de "analitica para el comercio". Choca con la tesis de fosco de datos en moat red de pago.
+- **Ciclo: AXP es un call sobre el consumo premium estadounidense**. En recesion, el credito duele (provisiones) pero la base de clientes de alta calidad resiste mejor que la de tarjetas de masa. Es un proxy de consumo estadounidense y de [[inflacion]] (puede trasladar precios vía cuotas).
+- **Berkshire como ancla**: mientras Buffett mantenga la posicion, senal de conviccion en el fosco; si Berkshire redujera, revaluar la tesis de "calidad perpetua". Ver [[berkshire-hathaway]].
+- Lo que Carlos debe vigilar a 3-5 años: (1) trayectoria de write-offs vs guia de BPA; (2) si Discover cierra aceptacion; (3) adopcion real de stablecoins/agentic commerce en su base; (4) desenlace de regulacion de interchange y open banking en EE.UU.
+
+## 9. Fuentes consultadas
+
+1. American Express Company - Form 10-K FY2025 (SEC EDGAR, primaria) - https://www.sec.gov/Archives/edgar/data/4962/0000004962-26-000080/axp-20251231.htm (filed 2026-02-06)
+2. stockanalysis.com - AXP Financials / Statistics / Overview - https://stockanalysis.com/stocks/AXP/financials/ y https://stockanalysis.com/stocks/AXP/statistics/ (consultado 2026-08-31)
+3. stockanalysis.com - AXP Forecast & Price Targets (consenso analistas) - https://stockanalysis.com/stocks/AXP/forecast/ (consultado 2026-08-31)
+4. SEC EDGAR - Company Facts XBRL (AXP, CIK 0000004962) - https://data.sec.gov/api/xbrl/companyfacts/CIK0000004962.json (activos, patrimonio, beneficio neto)
+5. SEC EDGAR - Submissions index AXP - https://data.sec.gov/submissions/CIK0000004962.json (calendario de filings 10-K/10-Q)
+6. Google News RSS - "American Express AXP" (novedades 2026: resultados Q2, Platinum $895, St Andrews, virtual cards, Berkshire dividendo, Capital One/Discover) - https://news.google.com/rss/search?q=American+Express+AXP (hl=en-US, 2026-08-31)
+7. Yahoo Finance / WSJ / MarketBeat / Motley Fool / Zacks / simplywall.st - articulos de analisis y novedades citados en el RSS de la fuente [6] (ej. "American Express Sales, Profit Rise on Higher Card Member Spending", WSJ, 24-jul-2026; "Can AmEx Defend its Small-Business Edge Against Agile Fintechs?", Zacks, 31-ago-2026).
+
+Nota de honestidad: el canal Exa web_search (agent-reach) no estuvo disponible por agotamiento de creditos (HTTP 402); se sustituyo por fuentes primarias SEC y stockanalysis y por Google News RSS, todas verificables. Cifras del 10-K (ingresos $72.229 mm, beneficio $10.833 mm, BPA $15,38) son las reportadas "as-reported"; stockanalysis usa la base FX-adjusted (~$66,1-66,97 mm), de ahi la aparente diferencia. No se han inventado datos; donde no se localizo una cifra exacta se indica la fuente cualitativa.

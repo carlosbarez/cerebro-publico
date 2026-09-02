@@ -1,59 +1,49 @@
 ---
-title: "América Móvil (AMX) — Análisis Fundamental"
+title: "América Móvil (AMX)"
 tipo: empresa
-tags: [empresa, analisis-fundamental, telecom]
+tags: [empresa, telecomunicaciones, mexico, sin-verificar]
 fecha: 2026-08-29
-agente: carlos-barez
+agente: opencode-go
 ticker: AMX
 moneda: USD
-precio_referencia: US$ 23,18 (ADR en NYSE; en BMV cotiza en MXN como AMX)
-fecha_precio: 2026-08-28
-valor_estimado: "US$ 23,20 (escenario base: P/E 14x × EPS TTM US$ 1,66)"
-gatillo_entrada: US$ 19,00 (entrada con margen de seguridad)
-veredicto: MANTENER
-revisar_el: 2026-11-29
-fuentes: ["https://www.sec.gov/Archives/edgar/data/1129137/000119312525026057/d883466d6k.htm", "https://www.americamovil.com/English/investors/reports-and-filings/annual-reports/default.aspx", "https://stockanalysis.com/stocks/amx/statistics/", "https://www.cnbc.com/quotes/AMX"]
+fuentes: "[\"https://www.sec.gov/Archives/edgar/data/1129137/000119312525026057/d883466d6k.htm\", \"https://www.americamovil.com/English/investors/reports-and-filings/annual-reports/default.aspx\", \"https://stockanalysis.com/stocks/amx/statistics/\", \"https://www.cnbc.com/quotes/AMX\"]"
 ---
 
-# América Móvil (AMX) — Análisis Fundamental
+> [!warning] Ficha sin verificar (2026-08-29). Cifras copiadas del barrido, sin contrastar contra fuente primaria. No decidas con ellas.
 
-## 1. Resumen ejecutivo
-América Móvil (AMX), controlada por la familia Slim, es el principal operador de telecomunicaciones de Latinoamérica: 323 M suscriptores móviles y 78 M unidades fijas (cierre 2024), presente en 23 países. 2024 mostró ingresos por Ps. 869,2 B (+6,5%) y EBITDA de Ps. 344,2 B (margen ~39,6%), pero la utilidad neta cayó a Ps. 28,3 B (-62,8%) por mayores costos financieros y pérdidas cambiarias (ajustes IFRS 29 en Argentina y consolidación de Claro Chile). La acción ADR US$ 23,18 (28/08/2026) cotiza a P/E ~14x. Veredicto: **MANTENER** — negocio defensivo y generador de caja, con dividendo, pero el ruido financiero y la regulación limitan el re-rating.
+# América Móvil (AMX)
 
-## 2. Descripción del negocio
-Proveedor de servicios de telecom: voz móvil y fija, datos móviles y fijos, internet, Pay TV, OTT y equipos. Marcas Claro y Telcel. Ingresos por servicios móviles, fijos y corporativos. ADR en NYSE (AMX/AMOV); acción local en BMV (AMX, MXN).
+América Móvil (AMX), controlada por la familia Slim, es el principal operador de telecomunicaciones de Latinoamérica: 323 M suscriptores móviles y 78 M unidades fijas (cierre 2024), presente en 23 países.
 
-## 3. Industria y moat competitivo
-Telecom de Latinoamérica, sector maduro con intensa competencia (Telefónica, Millicom, AT&T México) y regulación (IFT en México). El *moat* es la escala de red, espectro y presencia regional, con fuerte generación de caja recurrente. Riesgos: regulación asimétrica, ARPU presionado y deuda denominada en múltiples monedas.
+## Negocio
 
-## 4. Análisis financiero (2022-2024)
-Cifras en millones de pesos mexicanos (Ps. B). Fuente: 6-K 4Q24 (sec.gov) y 20-F 2024.
+Servicios de telecom: voz móvil y fija, datos, internet, Pay TV, OTT y equipos. Marcas Claro y Telcel. ADR en NYSE (AMX/AMOV); acción local en BMV (AMX, en MXN). El precio de referencia del barrido es el ADR en US$ (23,18 $, 28-ago-2026).
 
-| Año | Ingresos (Ps. B) | EBITDA (Ps. B) | Margen EBITDA % | Utilidad neta (Ps. B) |
-|-----|------------------|----------------|-----------------|------------------------|
-| 2022 | 844,5 | Sin datos | Sin datos | 81,5* |
-| 2023 | 816,0 | 319,6 | 39,2% | 76,1 |
-| 2024 | 869,2 | 344,2 | 39,6% | 28,3 |
+## Moat — [[foso-economico]]
 
-*Utilidad neta 2022 de 20-F (Ps. 81,5 B). El EBITDA 2022 no disponible en fuentes consultadas. Nota: la utilidad neta 2024 cae por costo integral de financiamiento de ~Ps. 30 B (casi mitad pérdidas cambiarias) y consolidación de Claro Chile; excluyendo Argentina y ajustes, el crecimiento operativo subyacente fue ~10% en ingresos de servicio y ~8,6% en EBITDA.
+Telecom latinoamericano, sector maduro con competencia intensa (Telefónica, Millicom, AT&T México) y regulación (IFT en México). El moat es la escala de red, el espectro y la presencia regional, con fuerte generación de caja recurrente. Riesgos: regulación asimétrica, ARPU presionado y deuda denominada en múltiples monedas.
 
-## 5. Valoración por escenarios
-Método: múltiplo P/E sobre EPS TTM de US$ 1,66 (FXEmpire/CNBC ~1,66-1,70). Escenarios ilustrativos.
+## Financieros (sin verificar)
 
-| Escenario | P/E | Precio objetivo (US$) |
-|-----------|-----|------------------------|
-| Pesimista | 11x | 18,3 |
-| Base | 14x | 23,2 |
-| Optimista | 17x | 28,2 |
+Cifras en miles de millones de pesos mexicanos (Ps. B): ingresos 2022-2024 de 844,5 / 816,0 / 869,2; EBITDA 2023-2024 de 319,6 / 344,2 (margen ~39,2% / 39,6%); utilidad neta 81,5 / 76,1 / 28,3. La utilidad neta 2024 cae (-62,8%) por costo integral de financiamiento ~30 B (casi la mitad pérdidas cambiarias) y consolidación de Claro Chile; excluyendo Argentina y ajustes, el crecimiento operativo subyacente fue ~10% en ingresos de servicio y ~8,6% en EBITDA.
 
-Precio actual US$ 23,18 → alineado con escenario base. **Margen de seguridad**: ~0%. El dividendo (yield ~2,3% según CNBC) aporta retorno. Caída a US$ 19 mejoraría el margen.
+## Valoración (sin verificar)
 
-## 6. Riesgos y red flags
+Sobre P/E con EPS TTM ~1,66 $: pesimista 11x → 18,3 $; base 14x → 23,2 $; optimista 17x → 28,2 $. Precio actual ~23,18 $ → alineado con el escenario base; margen de seguridad ~0%. Dividendo yield ~2,3%. Caída a 19 $ mejoraría el margen.
+
+## Riesgos
+
 - Utilidad neta volátil por costos financieros y pérdidas cambiarias (exposición multimoneda).
 - Ruido contable por hiperinflación en Argentina (IFRS 29) y consolidación de Claro Chile.
 - Regulación (IFT México) y riesgo de prácticas monopólicas (multas recurrentes, p.ej. Telcel 2024).
 - ARPU y competencia en mercados maduros.
-- Apalancamiento elevado (deuda neta ~1,44x EBITDA LTM, call 4Q24).
+- Apalancamiento elevado (deuda neta ~1,44x EBITDA LTM).
 
-## 7. Veredicto
-**MANTENER.** Negocio esencial, generador de caja, con escala y dividendo, a múltiplo razonable (~14x). No es barato para "comprar agresivo" por el ruido financiero/regulatorio, pero sí sólido para mantener en cartera. Gatillo de entrada US$ 19. Revisar tras 4Q26.
+## Veredicto (propuesto por el barrido, sin verificar)
+
+MANTENER: negocio esencial, generador de caja, con escala y dividendo, a múltiplo razonable (~14x). No barato para comprar agresivo por el ruido financiero/regulatorio, pero sólido para mantener. Gatillo de entrada 19 $. Revisar tras 4Q26.
+
+## Conexiones
+
+- Sector: pendiente industria telecomunicaciones. Pares: telefonica (pendiente), millicom (pendiente).
+- Marco: [[foso-economico]], [[margen-de-seguridad]], [[screening-de-calidad]].

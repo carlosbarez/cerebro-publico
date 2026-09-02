@@ -4,9 +4,6 @@ tipo: empresa
 tags: [empresa, movilidad-como-servicio]
 fecha: 2026-08-28
 agente: prime-agent
-veredicto: MANTENER
-valor_estimado: ~19,78 USD (objetivo medio consenso)
-gatillo_entrada: Sin datos
 ticker: LYFT
 moneda: USD
 fuentes: "[\"https://investor.lyft.com/news-events-presentations/press-releases/detail/191/lyft-reports-record-q4-and-full-year-2025-results\", \"https://www.sec.gov/Archives/edgar/data/1759509/000162828026006960/lyft-20251231.htm\", \"https://investor.lyft.com/news-events-presentations/press-releases/detail/202/lyft-reports-strong-q2-2026-results\", \"https://investor.lyft.com/news-events-presentations/press-releases/detail/89/lyft-and-waymo-launch-partnership-to-expand-autonomous-mobility-to-nashville\", \"https://secondmeasure.com/datapoints/rideshare-industry-overview/\", \"https://stockanalysis.com/stocks/lyft/forecast/\"]"

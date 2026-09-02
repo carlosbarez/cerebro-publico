@@ -1,43 +1,43 @@
 ---
-title: "Anthropic — Análisis (privada, sin cotización)"
+title: "Anthropic (privada, sin cotización)"
 tipo: empresa
-tags: [empresa, analisis-fundamental, tecnologia-ia, privada]
+tags: [empresa, inteligencia-artificial, estados-unidos, sin-verificar]
 fecha: 2026-08-29
-agente: carlos-barez
-ticker: "Sin cotización (privada)"
+agente: opencode-go
 moneda: USD
-precio_referencia: "Sin datos (privada)"
-fecha_precio: 2026-08-29
-valor_estimado: "$965B post-money (Series H, may-2026); inversores modelan ~$2T en IPO previsto oct-2026"
-gatillo_entrada: "Sin datos (privada; vía secondary markets o IPO futura)"
-veredicto: OBSERVAR
-revisar_el: 2026-11-29
-fuentes: ["https://www.anthropic.com/news/series-h", "https://www.reuters.com/business/anthropic-raises-65-billion-now-valued-965-billion-2026-05-28/", "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/", "https://techfundingnews.com/anthropic-investors-eye-2t-ipo-valuation-after-spacexs-record-debut-report/"]
+fuentes: "[\"https://www.anthropic.com/news/series-h\", \"https://www.reuters.com/business/anthropic-raises-65-billion-now-valued-965-billion-2026-05-28/\", \"https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/\", \"https://techfundingnews.com/anthropic-investors-eye-2t-ipo-valuation-after-spacexs-record-debut-report/\"]"
 ---
 
-# Anthropic — Análisis (privada)
+> [!warning] Ficha sin verificar (2026-08-29). Cifras copiadas del barrido, sin contrastar contra fuente primaria. No decidas con ellas.
 
-## 1. Resumen ejecutivo
-Anthropic es el laboratorio de inteligencia artificial (AI lab) detrás de Claude, el modelo fundacional (foundation model) de mayor tracción empresarial junto a OpenAI. El 28 de mayo de 2026 cerró su Serie H: **$65B** recaudados a una valoración post-money de **$965B**, la más alta jamás alcanzada por un startup de IA y por encima de OpenAI ($852B en mar-2026) [Reuters, 2026-05-29; Anthropic, 2026-05-28]. Su run-rate de ingresos (ingresos anualizados) superó los **$47B** a inicios de mayo-2026, frente a $14B en febrero [Anthropic; TechFundingNews, 2026-08-14]. Importa porque es el competidor nº 1 de OpenAI en IA frontier y porque su IPO (prevista por inversores para oct-2026) será, con probabilidad, el mayor debut de la historia.
+# Anthropic (privada, sin cotización)
 
-## 2. Descripción del negocio
-Fundada en 2021 por ex-investigadores de OpenAI (Dario y Daniela Amodei), Anthropic desarrolla modelos Claude y enfatiza seguridad e interpretabilidad (interpretability). Clientes: empresas globales que despliegan Claude en operaciones core, más adopción creciente de consumo vía Claude Code. La Serie H fue liderada por Altimeter Capital, Dragoneer, Greenoaks y Sequoia; co-liderada por Capital Group, Coatue, D1 Capital, GIC, ICONIQ y XN [Anthropic, 2026-05-28]. Incluye $15B de compromisos previos de hyperscalers, $5B de ellos de Amazon. Presentó un S-1 confidencial a la SEC en junio-2026, en período de "quiet period" [TechFundingNews, 2026-08-14].
+Anthropic es el laboratorio de inteligencia artificial (*AI lab*) detrás de Claude, el modelo fundacional (*foundation model*) de mayor tracción empresarial junto a [[openai]]. Sigue privada; no invertible directamente vía bolsa hoy.
 
-## 3. Industria y moat competitivo
-Sector: IA fundacional / enterprise AI. Moat: (i) talento e IP de modelos frontier (Claude Opus 4.8, Mythos en camino [Fortune, 2026-05-29]); (ii) contratos de compute y capital de Amazon, Google y AMD ($5B de AMD atado a acceso de chips [TechFundingNews]); (iii) adopción enterprise con efecto red en Claude Code. Riesgo de moat: carrera de capex contra OpenAI, Google y xAI; dependencia de Nvidia/AMD para infraestructura.
+## Negocio
 
-## 4. Situación financiera conocida
-Sin estados financieros públicos auditados (privada). Datos conocidos con fuente:
-- Valoración post-money **$965B** (Serie H, may-2026) [Anthropic; Reuters].
-- Ingresos run-rate **> $47B** (may-2026), proyectados $100B–$120B a cierre de 2026 por inversores [TechFundingNews, 2026-08-14].
-- Inversores modelan valoración de IPO **~$2T** (FT cita a medias docena de inversores; no es objetivo de la empresa) [TechFundingNews, 2026-08-14].
-- Capital previo: $380B (feb), $965B (may) — re-rating de ~2,5x en 3 meses.
+Fundada en 2021 por ex-investigadores de OpenAI (Dario y Daniela Amodei), desarrolla los modelos Claude y enfatiza seguridad e interpretabilidad (*interpretability*). Clientes: empresas globales que despliegan Claude en operaciones core, más adopción creciente de consumo vía Claude Code. La Serie H (28-may-2026) fue liderada por Altimeter Capital, Dragoneer, Greenoaks y Sequoia; co-liderada por Capital Group, Coatue, D1 Capital, GIC, ICONIQ y XN. Incluye 15 B$ de compromisos previos de hyperscalers (5 B$ de ellos de Amazon). Presentó un S-1 confidencial a la SEC en junio-2026, en *quiet period*.
 
-## 5. Riesgos y red flags
-- Valoración implícita (~20x run-rate 2026) depende de crecimiento >10x en un año; cualquier freno en adopción enterprise impacta.
-- Quiet period por S-1 limita transparencia; cifras son declaraciones de la propia empresa.
+## Moat — [[foso-economico]]
+
+Sector: IA fundacional / enterprise AI. Moat: (i) talento e IP de modelos frontier (Claude Opus 4.8, Mythos en camino); (ii) contratos de compute y capital de Amazon, Google y AMD (5 B$ de AMD atado a acceso de chips); (iii) adopción enterprise con efecto red en Claude Code. Riesgo de moat: carrera de capex contra OpenAI, Google y xAI; dependencia de Nvidia/AMD para infraestructura.
+
+## Situación financiera (sin verificar)
+
+Sin estados financieros públicos auditados (privada). Datos conocidos con fuente (declaraciones de la propia empresa): valoración post-money 965 B$ (Serie H, may-2026), la más alta jamás alcanzada por un startup de IA y por encima de OpenAI (852 B$ en mar-2026); run-rate de ingresos >47 B$ (may-2026), proyectados 100-120 B$ a cierre de 2026 por inversores; inversores modelan valoración de IPO ~2 T$ (no es objetivo de la empresa). Capital previo: 380 B$ (feb), 965 B$ (may) — re-rating ~2,5x en 3 meses.
+
+## Riesgos
+
+- Valoración implícita (~20x run-rate 2026) depende de crecimiento >10x en un año.
+- *Quiet period* por S-1 limita transparencia; cifras son declaraciones propias.
 - Concentración en capex de compute (Amazon/AMD/Google) sin que aparezca como ingreso.
-- Riesgo de ejecución de IPO y de mercado secundario ilíquido (acciones en secondary a ~$1.2T implícito, jul-2026, según TFN — precio de minoría ilíquida, no valoración formal).
+- Riesgo de ejecución de IPO y mercado secundario ilíquido (acciones en secondary a ~1,2 T$ implícito, jul-2026 — precio de minoría ilíquida, no valoración formal).
 
-## 6. Veredicto
-**OBSERVAR.** Sigue privada; no invertible directamente vía bolsa hoy. Relevancia estratégica alta para la cartera de Carlos: es el termómetro del sector IA frontier y su IPO (probable oct-2026) será evento de referencia. Seguir vía secondary markets y preparar tesis de entrada en IPO. Revisar tras presentación pública de S-1 y cifras de ingresos.
+## Veredicto (propuesto por el barrido, sin verificar)
+
+OBSERVAR: relevancia estratégica alta para la cartera como termómetro del sector IA frontier; su IPO (probable oct-2026) será evento de referencia. Seguir vía secondary markets y preparar tesis de entrada en IPO. Revisar tras presentación pública del S-1.
+
+## Conexiones
+
+- Pares: [[openai]], google (pendiente), [[microsoft]]. Cruza con [[financiacion-estructurada-del-capex-de-ia]] y [[semiconductores-logica-y-computo-ia]].
+- Marco: [[foso-economico]], [[screening-de-calidad]].

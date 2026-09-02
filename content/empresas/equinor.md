@@ -106,7 +106,7 @@ realizados de la propia empresa y la banda de planificación CMD.]
 
 ## 8. Contraste con postura previa
 
-Sin tesis previa de Equinor en el vault ni posición en cartera. Posturas relacionadas: [[shell]]
+Sin tesis previa de Equinor en el vault ni posición en [[cartera]]. Posturas relacionadas: [[shell]]
 VIGILAR y [[totalenergies]] VIGILAR ("no ascender el beneficio de guerra como normalizado"). Mi
 valoración a ciegas llegó a VIGILAR por números (MOS −16%) antes de leerlas: coinciden. El yield del
 6,7% no compensa comprar el ciclo en máximos — se pagan 42,37 por 35,5 de valor central.

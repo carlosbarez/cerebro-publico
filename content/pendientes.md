@@ -137,3 +137,8 @@ fallback; las acciones de credenciales, TCC, backup externo y borrado siguen sie
   las cifras mal renderizadas **no**.
 - [vigilante 2026-08-27] [[kazatomprom]] — KAP.L a 29.40 USD ha entrado en el gatillo (52.00). Veredicto escrito: VIGILAR. Releer la tesis antes de decidir nada.
 - [vigilante 2026-08-28] [[kazatomprom]] — KAP.L a 29.40 USD ha entrado en el gatillo (52.00). Veredicto escrito: VIGILAR. Releer la tesis antes de decidir nada.
+- [vigilante 2026-08-31] [[kazatomprom]] — KAP.L a 29.40 USD ha entrado en el gatillo (52.00). Veredicto escrito: VIGILAR. Releer la tesis antes de decidir nada.
+- [vigilante 2026-09-01] [[edison-international]] — EIX a 53.98 USD ha entrado en el gatillo (62.00). Veredicto escrito: VIGILAR. Releer la tesis antes de decidir nada.
+- [vigilante 2026-09-01] [[kazatomprom]] — KAP.L a 29.40 USD ha entrado en el gatillo (52.00). Veredicto escrito: VIGILAR. Releer la tesis antes de decidir nada.
+- [vigilante 2026-09-02] [[edison-international]] — EIX a 58.80 USD ha entrado en el gatillo (62.00). Veredicto escrito: VIGILAR. Releer la tesis antes de decidir nada.
+- [vigilante 2026-09-02] [[kazatomprom]] — KAP.L a 29.40 USD ha entrado en el gatillo (52.00). Veredicto escrito: VIGILAR. Releer la tesis antes de decidir nada.

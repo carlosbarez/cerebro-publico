@@ -1,47 +1,47 @@
 ---
-title: "Estado del sistema — semana del 2026-08-24"
+title: "Estado del sistema — semana del 2026-08-30"
 tipo: sintesis
 tags: [meta, mantenimiento, estado]
-fecha: 2026-08-24
+fecha: 2026-08-30
 agente: mantenimiento-semanal
 ---
-# Estado del sistema — semana del 2026-08-24
+# Estado del sistema — semana del 2026-08-30
 
 ## Rutinas
-| Rutina | Último run | Edad | Estado | Nota |
-|---|---|---|---|---|
-| cerebro-ingesta-diaria-newsletters | 2026-08-24T09:12 | 0,1 h | 🟢 | fresco |
-| cerebro-ingesta-diaria-youtube | 2026-08-20T07:09 | 98,2 h | 🟡 | saltó 3+ runs |
-| cerebro-analista-fundamental | 2026-08-21T05:09 | 76,2 h | 🟢 | |
-| cerebro-analista-tecnico | 2026-08-20T07:03 | 98,3 h | 🟡 | saltó 3+ runs |
-| cerebro-analista-estrategico | 2026-08-20T07:12 | 98,1 h | 🟡 | saltó 3+ runs |
-| cerebro-cio-elisa | sin marcador | — | 🟡 | MCP: 2026-08-24T07:06 |
-| cerebro-crdso-riesgo | sin marcador | — | 🟡 | MCP: 2026-08-24T07:10 |
-| cerebro-gestor-cartera | — | — | 🔴 | próximo: 2026-09-01 (mensual) |
-| cerebro-sintetizador-durable | sin marcador | — | 🟡 | MCP: 2026-08-22T09:27 |
-| cerebro-veredicto-semanal | sin marcador | — | 🟡 | MCP: 2026-08-24T07:12 |
-| cerebro-cko-conocimiento | 2026-08-21T11:25 | 69,9 h | 🟢 | falta run lunes/martes |
-| cerebro-mantenimiento-semanal | 2026-08-24T07:18 | — | — | — |
+| Rutina | Último run | Estado | Nota |
+|---|---|---|---|
+| cerebro-ingesta-diaria-newsletters | 2026-08-27 | 🟡 | deshabilitada, 3 días |
+| cerebro-ingesta-diaria-youtube | 2026-08-27 | 🟡 | deshabilitada, 3 días |
+| cerebro-cio-elisa | 2026-08-27 | 🟢 | L (próximo: 2026-08-31) |
+| cerebro-analista-fundamental | 2026-08-26 | 🟡 | deshabilitada, 4 días |
+| cerebro-analista-tecnico | 2026-08-29 | 🟢 | V (próximo: 2026-09-01) |
+| cerebro-analista-estrategico | 2026-08-27 | 🟢 | L (próximo: 2026-08-31) |
+| cerebro-crdso-riesgo | 2026-08-27 | 🟢 | L (próximo: 2026-08-31) |
+| cerebro-veredicto-semanal | 2026-08-24 | 🟡 | DOM, 6 días (corre hoy 18:04) |
+| cerebro-gestor-cartera | 2026-08-01 | 🟢 | mensual (próximo: 2026-09-01) |
+| cerebro-sintetizador-durable | 2026-08-29 | 🟢 | S (ayer) |
+| cerebro-mantenimiento-semanal | 2026-08-30 | 🔴 | MUERTO POR LÍMITE SEMANAL 07:37 |
+| cerebro-cko-conocimiento | 2026-08-27 | 🟡 | deshabilitada, 3 días |
 
 ## Salud del wiki
-- **Mappings rotos: 23 de 23 destinos** (analisis-tecnico-y-tendencia, aversion-al-apalancamiento, checklist-macro-y-ciclo, ciclos-de-mercado, financiacion-estructurada-del-capex-de-ia, foso-economico, horizonte-largo-plazo, interes-compuesto, james-montier, margen-de-seguridad, mark-mobius, michael-pettis, mineras-de-metales-preciosos, mineria-industrial-y-energia, multiplos-de-valoracion, plataformas-de-internet-de-china, plataformas-tecnologicas-y-publicidad-digital, renta-fija-y-tipos, retorno-sobre-capital-empleado, reversion-a-la-media, riesgo-real-vs-volatilidad, semiconductores-de-memoria, sintesis-del-comportamiento)
-- Frontmatter inválido: [sin dato]
-- **Memorias sobre techo (VIGENTE >80)**: .rutina-aprendizajes.md (100) · .cio-aprendizajes.md (96)
-- **Memorias en ámbar (65-80)**: .riesgo-aprendizajes.md (65) · .cko-aprendizajes.md (75) · .rutina-video-aprendizajes.md (74)
-- **Párrafos largos en VIGENTE**: .rutina-aprendizajes.md (formato incorrecto)
-- Marcas pendientes: [Sin datos] 135 · [DUDA] 9 · **[ESCALAR] 42** · [Sin acceso] 8 · sin verificar 196
-- Choques de límite de sesión: 0
-- **Worktrees zombis: 3 (7,7 GB)**
-- **Cola de ingesta: 291 items** (🔴 >20)
+- Enlaces rotos: 1458 (mayormente años y síntesis autogeneradas)
+- Frontmatter inválido: 24 (actualidad/, URLs sin comillas)
+- Memorias sin formato: 8 (todas; migración Fase 4 pendiente)
+- **Mappings rotos: 23 de 24 destinos** (conceptos no materializados en wiki)
+- Marcas pendientes: [Sin datos] 420 · [DUDA] 31 · [ESCALAR] 55 · [Sin acceso] 8 · sin verificar 393
+- Verificación adversarial: CONFIRMADO 722 · REFUTADA/DÉBIL 639 (47%)
+- Límite de sesión (7 días): 41 runs afectados
+- **Worktrees zombis: 2 (2.6 GB c/u)** — proposición pendiente
+- **Cola ingesta: 292 items** (🔴 >20)
 
 ## Acciones tomadas este run
-- Ninguna (derivación de SKILL.md, mappings, y memorias solo reportadas)
+- Ninguna
 
 ## Para Carlos / para la CIO
-- 🔴 **Derivación SKILL.md**: `cerebro-ingesta-diaria-newsletters` (repo más reciente)
-- 🔴 **23 mappings destino inexistente** (no existen páginas destino en wiki)
-- 🔴 **6 de 12 rutinas sin marcador de frescura** (MCP dice que corrieron, pero `marca_run.py lista` no las ve)
-- 🔴 **Cola de ingesta: 291 items** (fuentes más rápidas que destilado)
-- 🟡 **8 memorias >80 líneas**: párrafos largos en VIGENTE (deberían ser ganchos + detalle en HISTÓRICO)
-- 🟡 **Worktrees zombis: 3 (7,7 GB)** — sin ejecutar
-- Timeout sin completar: ledger_de_coste.py, tests, mapa_vault.py
+- 🔴 **CRÍTICO: 2 runs mantenimiento muertos por límite semanal** (2026-08-24 07:29 · 2026-08-30 07:37). Cuota consumida por interactiva (68% de $900). Análisis incompleto.
+- 🔴 **3 rutinas superan presupuesto 2+ semanas**: fundamental (120%) · estrategia (134%) · riesgo (123%)
+- 🔴 **41 runs con límite de sesión esta semana** (≥2 threshold, reglas-nucleo § Disciplina de coste)
+- 🟡 Verificación adversarial: 47% REFUTADA/DÉBIL (revisar umbral)
+- 🟡 Kimi capa media: 9 ok vs. 41 caídas (W35)
+- 🟡 Tests timeout (2m, interrumpido)
+- [DEGRADADO: destila --tipo semaforo exit 1]

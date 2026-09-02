@@ -4,9 +4,6 @@ tipo: empresa
 tags: [empresa, espirituosos, francia]
 fecha: 2026-08-28
 agente: prime-agent
-veredicto: OBSERVAR
-valor_estimado: Sin datos
-gatillo_entrada: Estabilizacion organica EE.UU./China (H1 FY2027, guia "broadly stable")
 ticker: RI
 moneda: EUR
 precio_referencia: 64.0

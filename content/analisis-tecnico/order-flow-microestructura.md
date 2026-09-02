@@ -1,0 +1,112 @@
+---
+title: "Order flow y microestructura"
+tipo: analisis
+tags: [order-flow, microestructura, senales]
+fecha: 2026-08-31
+agente: jorne
+squad: Analisis Tecnico & Flujo (Jorne)
+status: sonde
+---
+
+# Order flow y microestructura
+
+> Fuentes base: Wikipedia "Market microstructure"; Easley–López de Prado–O'Hara (2012) "Flow Toxicity and Volatility in a High Frequency World" (Journal of Finance); Hasbrouck (1991) "Measuring the Information Content of Stock Trades"; arXiv:2209.10334 (Lu & Reinert, Conditional Order Imbalance); arXiv:2604.20949 (regímenes latentes en el libro).
+
+## 1. Resumen ejecutivo
+
+La **microestructura de mercado** (market microstructure) estudia el mecanismo concreto por el que se cruzan órdenes de compra y venta y se forman los precios; el **flujo de órdenes** (order flow) es la huella minuto a minuto de quién está comprando y vendiendo, en qué tamaño y a qué precio. Leer el flujo es, en esencia, intentar inferir *quién tiene información* y *quién es el contrapartida desinformada*.
+
+Para un inversor de largo plazo como Carlos, el order flow **no es su ventaja competitiva** (la suya es el análisis de negocios y la paciencia), pero sí es un **medidor de riesgo de régimen** y un recordatorio de que cada compra/venda paga un "impuesto de microestructura" (spread + slippage + toxicidad). Tres cifras clave:
+
+- En un estudio empírico sobre **457 acciones durante 4 años**, el desglose del flujo en "order imbalance condicional" (COI) mostró correlaciones positivas con retornos contemporáneos y Sharpe ratios conspicuos en estrategias derivadas (Lu & Reinert, arXiv:2209.10334).
+- El indicador **VPIN** (Volume-Synchronized Probability of Informed Trading) anticipa episodios de "flujo tóxico" antes de que explote la volatilidad (Easley, López de Prado & O'Hara, 2012, Journal of Finance).
+- Los libros de órdenes (limit order books, LOB) transitan por tres regímenes —estable → acumulación latente → estrés— y las señales clásicas (OFI, volatilidad corta) son *reactivas*, no preventivas (arXiv:2604.20949).
+
+## 2. Estructura / modelo
+
+El flujo de órdenes se construye sobre componentes mecánicos que todo inversor debería entender:
+
+| Componente | Qué es | Por qué importa al inversor |
+|---|---|---|
+| **Limit order book (LOB)** | Libro de órdenes limitadas: cola de bids/asks por precio | La "profundidad" es liquidez real; poca profundidad = slippage alto |
+| **Spread bid-ask** | Diferencia entre mejor compra y mejor venta | Es el coste de entrada/salida inmediato; proxy de liquidez |
+| **Orden limit vs market** | Quien pone precio (maker) vs quien lo toma (taker) | Los makers cobran rebate; los takers pagan — asimetría de costes |
+| **Señal de información (λ de Kyle)** | Cuanto mayor impacto precio por volumen, más informada está la orden | Detecta "flujo inteligente" (Kyle, 1985) |
+| **Adverse selection (Glosten–Milgrom)** | El spread refleja riesgo de cruzar con un informado | Explica por qué el desinformado siempre paga peor precio |
+| **VPIN / OFI** | Imbalance de flujo normalizado por volumen | Termómetro de toxicidad y presión compradora/vendedora |
+
+Mecánicamente, cada trade deja una marca: el modelo de **Glosten & Milgrom (1985)** muestra que el precio salta al cruzar porque el creador de mercado ajusta ante la posibilidad de que la contrapartida esté informada. **Hasbrouck (1991)** demuestra empíricamente que el *trade sign* (compra vs venta) contiene información sobre el precio fundamental. En resumen: el flujo no es ruido; es información en tránsito.
+
+## 3. Numeros clave
+
+- **Universo empírico**: 457 acciones, datos diarios, 4 años — el COI aislado de otras acciones predice retornos futuros positivamente; el COI "en manada" predice negativamente (Lu & Reinert, arXiv:2209.10334). Esto es evidencia de que *el contexto de proximidad* del trade importa.
+- **OFI en cripto y equities**: un modelo híbrido VAR + red neuronal mejora la predicción del Order Flow Imbalance usando datos reales de Binance; el lado con más "intensidad" anticipa presión direccional (arXiv:2411.08382).
+- **VPIN**: el probability of informed trading sincronizado por volumen detecta flujo tóxico *antes* de picos de volatilidad — útil como canaria en la mina de carbón (Easley et al., 2012).
+- **Regímenes del LOB**: existe una "ventana de predicción" en la fase latente de degradación *antes* de que el estrés sea observable; las señales estándar llegan tarde (arXiv:2604.20949).
+- **Regulación**: la prohibición de *Payment for Order Flow* (PFOF) bajo MiFIR entró en vigor en la UE el 28 de marzo de 2024 (Hogan Lovells, 2026) — cambia quién monetiza el flujo minorista.
+
+*Nota de honestidad*: no localicé una cifra única y consensuada de "cuánto del volumen es HFT" verificable en fuente primaria en esta sesión; la literatura cita habitualmente una fracción mayoritaria del volumen en equities desarrollados, pero lo trato como cualitativo y no como dato duro.
+
+## 4. Posicion / marco conceptual
+
+El order flow es la **huella de la asimetría de información**. Leerlo bien significa responder: ¿está entrando flujo informado (insider, cuantitativo, arbitrajista) o desinformado (minorista, pasivo, rebalanceo)? Ese marco conecta directamente con:
+
+- [[costes-de-transaccion]]: el spread y el slippage son la fricción real que erosiona retornos.
+- liquidez como clase de activo: la liquidez se compra y se vende; el flujo la crea o la destruye.
+- [[asimetria-de-informacion]]: el creador de mercado cobra por cruzar con el informado (Glosten–Milgrom).
+- regimen de volatilidad: VPIN/OFI son señales de cambio de régimen, no de dirección.
+- [[comportamiento-de-manada]]: el flujo en manada suele ser la señal *menos* predictiva (ver COI negativo en manada, arXiv:2209.10334).
+
+El foso (moat) aquí no es para el inversor minorista: está en quien tiene colocación (colocation), datos de LOB a microsegundos y ML. La lección durable para Carlos es **defensiva**, no ofensiva.
+
+## 5. Catalizadores y riesgos
+
+Novedades recientes vía Google News RSS (agosto 2026):
+
+- **Comoditización del análisis de flujo**: LSEG presenta "real-time order flow analysis" como nueva era de transparencia (22 abr 2026) — la señal se democratiza y, por tanto, su alpha decae.
+- **PFOF prohibido en UE** (MiFIR, 28 mar 2024; nota Hogan Lovells 6 jul 2026): reconfigura quién captura el excedente del flujo minorista.
+- **Trading electrónico minorista crece** y cambia la dinámica de ejecución (Phys.org, 14 jul 2026).
+- **FCA (Reino Unido)** fija agenda de investigación que moldeará regulación microestructural a 5 años (24 jun 2026).
+- **Microstructure alpha con ML/cross-asset** en cripto (Frontiers, 18 may 2026): la frontera del edge se mueve a modelos jerárquicos.
+
+Riesgos: (i) el flujo tóxico se concentra en momentos de estrés justo cuando la liquidez se retira; (ii) la carrera arms-race de HFT puede degradar la calidad de precio en eventos de cola; (iii) señales de flujo dan *false positives* fuera de régimen; (iv) la prohibición de PFOF podría empujar al minorista a peor ejecución si no se regula el routing.
+
+## 6. Valoracion / implicaciones practicas
+
+Para el inversor de largo plazo, la utilidad práctica del order flow es **tres cosas, ninguna de ellas "timing de mercado"**:
+
+1. **Conciencia de coste de ejecución**: operar en tramos y fuera de aperturas/cierres reduce el impacto sobre el LOB; entender el spread es entender tu arrastre real.
+2. **Termómetro de riesgo**: monitorizar VPIN/OFI (o proxies de amplitud de spreads) como "alertas de régimen"; un salto de toxicidad de flujo es señal de cautela, no de entrada.
+3. **Evitar ser la contrapartida desinformada**: no cruzar el spread en momentos de flujo direccional intenso si no tienes urgencia; usa límites.
+
+**Señal de alerta**: si la amplitud de spreads y el VPIN repuntan *en conjunto* (breadth de estrés de microestructura), reduce tamaño y espera — el "impuesto de microestructura" se dispara justo cuando más duele.
+
+## 7. Veredicto para el inversor
+
+La microestructura es la fontanería del mercado: invisible hasta que se rompe. Para un comprador y mantenedor (buy-and-hold), la lección duradera no es predecir el tick, sino respetar las fricciones (costes, liquidez, toxicidad) y usar el flujo como **medidor de estrés de régimen**, no como oráculo de dirección. Leer el flujo bien es, sobre todo, leer tu propia desventaja de información y no pagarla dos veces.
+
+## 8. Segundo orden (OBLIGATORIO y central en este wiki)
+
+Implicaciones de las implicaciones, a 3–5 años:
+
+- **Decaimiento del alpha de flujo → concentración**. Si herramientas como las de LSEG lo vuelven commodity (abr 2026), la ventaja migra a quien tiene colocación y ML pesado → el alpha de microestructura se concentra en pocos cuantitativos → el minorista queda sistemáticamente como contrapartida "tóxica" (presa). Conecta con prima de iliquidez y fricciones de mercado.
+- **Efecto PFOF en cascada**. La prohibición en UE (MiFIR, 28 mar 2024) puede presionar a EE.UU. a seguir; si el flujo minorista deja de ser monetizable vía rebates, el routing cambia y la calidad de ejecución del ahorrador común puede mejorar o empeorar sin que lo note. Vigilar [[indexacion]] y inversión pasiva: los flujos pasivos ya son *el* order flow dominante y explican parte de los gaps de mercado.
+- **Liquidez frágil en cola**. La evidencia de regímenes LOB (arXiv:2604.20949) implica que en crisis la liquidez se evapora *antes* de que el precio lo muestre; la diversificación entre venues y clases de activo ([[cartera-todo-tiempo]]) importa más que la selección de tick.
+- **Tensión con otras tesis del Cerebro**. Choca con la idea de que "el mercado siempre es eficiente a corto plazo": el flujo demuestra que la formación de precios es ruidosa y asimétrica ([[eficiencia-de-mercado]] vs ineficiencias temporales). También refuerza [[sesgos-conductuales-catalogo]]: el flujo en manada suele ser la peor señal (COI negativo), confirmando que seguir a la mayoría en microestructura pierde.
+- **Qué vigilar Carlos (2026–2031)**: (a) si el breadth de VPIN/spreads repunta, es alerta macro de estrés, no ruido; (b) la calidad de ejecución de sus propias órdenes (¿routing, slippage real?); (c) si la UE exporta la prohibición de PFOF, reevaluar brokers y ETFs; (d) la creciente dominancia de flujo pasivo/cuantitativo como factor de "gaps" y régimen.
+
+## 9. Fuentes consultadas
+
+1. Wikipedia — "Market microstructure" — https://en.wikipedia.org/wiki/Market_microstructure
+2. Wikipedia — "Order book (trading)" — https://en.wikipedia.org/wiki/Order_book_(trading)
+3. Kyle, A. (1985) "Continuous Auctions and Insider Trading", Econometrica — https://doi.org/10.2307/1913210
+4. Glosten, L. & Milgrom, P. (1985) "Bid, Ask and Transaction Prices in a Specialist Market", Journal of Financial Economics — https://doi.org/10.1016/0304-405X(85)90044-3
+5. Hasbrouck, J. (1991) "Measuring the Information Content of Stock Trades", Journal of Finance — https://doi.org/10.1111/j.1540-6261.1991.tb03749.x
+6. Easley, D., López de Prado, M. & O'Hara, M. (2012) "Flow Toxicity and Volatility in a High Frequency World", Journal of Finance 67(3) — https://doi.org/10.1111/j.1540-6261.2012.01728.x
+7. Lu, Y. & Reinert, G. (2024) "Trade Co-occurrence, Trade Flow Decomposition, and Conditional Order Imbalance in Equity Markets", arXiv:2209.10334 — https://arxiv.org/abs/2209.10334
+8. (2024) "Hybrid VAR and Neural Network Model for Order Flow Imbalance Prediction in HFT", arXiv:2411.08382 — https://arxiv.org/abs/2411.08382
+9. (2026) "Early Detection of Latent Microstructure Regimes in Limit Order Books", arXiv:2604.20949 — https://arxiv.org/abs/2604.20949
+10. Google News RSS — "Real-time order flow analysis: A new era of market transparency" (LSEG, 22 abr 2026); Hogan Lovells, MiFIR/PFOF (6 jul 2026); Carnegie Mellon, market microstructure regulation (18 dic 2025); Phys.org, electronic trading & retail (14 jul 2026); FCA research agenda (24 jun 2026) — https://news.google.com/rss/search?q=order+flow+market+microstructure
+11. Easley, D. & O'Hara, M. (1987) "Price, Trade Size, and Information in Securities Markets", JFE — https://doi.org/10.1016/0304-405X(87)90029-8
+
+*Limitaciones de la sonda*: el canal Exa (web_search_exa) devolvió 402 "créditos agotados" y no pudo usarse; se sustituyó por arXiv API, Jina Reader sobre fuentes primarias (DOIs Wiley/Elsevier/JSTOR, Wikipedia) y Google News RSS. El canal yt-dlp funcionó pero el resultado superior fue un webinar comercial de Bookmap, no fuente primaria, por lo que no se usó como evidencia. SSRN (VPIN) y Wiley (JF 2012) bloquearon el fetch con CAPTCHA; se citan vía sus DOIs verificados.

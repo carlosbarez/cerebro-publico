@@ -4,9 +4,6 @@ tipo: empresa
 tags: [empresa, semiconductores]
 fecha: 2026-08-28
 agente: prime-agent
-veredicto: MANTENER
-valor_estimado: Sin datos
-gatillo_entrada: Recorte por recorte de CHIPS / ruido de Mubadala o debilidad de movil; P/E FY2025 <25x (~$40-42).
 ticker: GFS
 moneda: USD
 fuentes: "[\"https://www.sec.gov/Archives/edgar/data/1709048/000170904826000022/gfs-20251231.htm\", \"https://investors.gf.com/news-releases/news-release-details/globalfoundries-reports-fourth-quarter-2025-and-fiscal-year-2025\", \"https://investors.gf.com/news-releases/news-release-details/globalfoundries-reports-first-quarter-2026-financial-results\", \"https://www.commerce.gov/news/press-releases/2024/11/biden-harris-administration-announces-chips-incentives-award\", \"https://gf.com/news-and-events/news/globalfoundries-signs-letter-of-intent-with-the-us-department-of-commerce-for-a-300-million-award-to-accelerate-us-silicon-photonics-leadership/\"]"

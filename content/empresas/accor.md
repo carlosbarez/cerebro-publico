@@ -1,64 +1,49 @@
 ---
-title: "Accor (AC) — Análisis Fundamental"
+title: "Accor (AC)"
 tipo: empresa
-tags: [empresa, analisis-fundamental, consumo-hoteles]
+tags: [empresa, hoteles, francia, sin-verificar]
 fecha: 2026-08-29
-agente: carlos-barez
+agente: opencode-go
 ticker: AC
 moneda: EUR
-precio_referencia: 45,73 EUR (11/08/2026, Euronext Paris)
-fecha_precio: 2026-08-11
-valor_estimado: 40,50 EUR (base, 22x EPS ajustado 2025)
-gatillo_entrada: < 38,00 EUR
-veredicto: MANTENER
-revisar_el: 2026-11-29
-fuentes: ["https://press.accor.com/full-year-2025-results-solid-results-above-2025-guidance/?lang=eng", "https://stockanalysis.com/quote/epa/AC/financials", "https://group.accor.com/en/finance/financial-results"]
+fuentes: "[\"https://press.accor.com/full-year-2025-results-solid-results-above-2025-guidance/?lang=eng\", \"https://stockanalysis.com/quote/epa/AC/financials\", \"https://group.accor.com/en/finance/financial-results\"]"
 ---
 
-# Accor (AC) — Análisis Fundamental
+> [!warning] Ficha sin verificar (2026-08-29). Cifras copiadas del barrido, sin contrastar contra fuente primaria. No decidas con ellas.
 
-## 1. Resumen ejecutivo
+# Accor (AC)
 
-Accor es el mayor operador hotelero mundial por número de hoteles, dueño de marcas como Ibis, Novotel, Mercure, Sofitel, Fairmont, Raffles y la joint-venture de lujo Ennismore (21%). Modelo mayoritariamente *asset-light* (Management & Franchise). FY2025: ingresos 5.639 mEUR (+4,5% cc), EBITDA recurrente 1.201 mEUR (+13,3%), beneficio neto 449 mEUR, EPS diluido 1,61 EUR (ajustado 1,84). Cotiza ~45,7 EUR (ago 2026). Veredicto: **MANTENER** — calidad y crecimiento, pero el mercado ya premia el giro asset-light; entrar en correcciones.
+Operador hotelero francés, el mayor del mundo por número de hoteles, dueño de marcas como Ibis, Novotel, Mercure, Sofitel, Fairmont, Raffles y la joint-venture de lujo Ennismore (participada al 21%). El modelo es mayoritariamente *asset-light* (gestión y franquicia): cobra cánones por gestionar y franquiciar hoteles sin ser dueño de la mayoría de los inmuebles.
 
-## 2. Descripción del negocio
+## Negocio
 
-Accor opera en dos divisiones: Premium, Midscale & Economy (PM&E) y Luxury & Lifestyle (incl. Ennismore). Ingresos por cánones de gestión/franquicia (M&F), Ventas de Marketing/Lealtad (SMDL) y Hotel Assets & Other (Paris Society, Rikas). RevPAR +4,2% en 2025; crecimiento de unidades netas +3,7%. Modelo que deriva caja sin poseer la mayoría de los inmuebles.
+Dos divisiones: **Premium, Midscale & Economy (PM&E)** y **Luxury & Lifestyle** (que incluye Ennismore). Los ingresos vienen de cánones de gestión/franquicia (M&F), Ventas de Marketing/Lealtad (SMDL) y Hotel Assets & Other (Paris Society, Rikas). En FY2025 (ejercicio cerrado en diciembre) el barrido reporta ingresos 5.639 M€ (+4,5% a tipo de cambio constante), EBITDA recurrente 1.201 M€ (+13,3%), beneficio neto 449 M€ y EPS diluido 1,61 € (ajustado 1,84 €). RevPAR +4,2% y crecimiento de unidades netas +3,7% en 2025. La red ronda los ~5.600 hoteles.
 
-## 3. Industria y moat competitivo
+## Moat — [[foso-economico]]
 
-El *moat* es la cartera de marcas globales, la escala de red (~5.600 hoteles) y el programa de lealtad. Tailwinds: RevPAR 3-4% CAGR, expansión de red 3-5%, giro a asset-light (márgenes M&F +100 pb). Riesgos: ciclo hotelero, Oriente Medio (RevPAR cayó), y dependencia de viajes globales.
+El foso es la cartera de marcas globales, la escala de red (~5.600 hoteles) y el programa de lealtad. Colas de viento (*tailwinds*): RevPAR 3-4% CAGR, expansión de red 3-5% anual y el giro a *asset-light* (márgenes M&F +100 pb). Riesgos: el ciclo hotelero, Oriente Medio (donde el RevPAR cayó) y la dependencia de los viajes globales.
 
-## 4. Análisis financiero (3-5 años)
+## Financieros (sin verificar)
 
-En millones EUR. Fuente: Accor FY2025 results (press.accor.com) y stockanalysis.
+El barrido da para 2023-2025: ingresos 5.056 / 5.606 / 5.639 M€; EBITDA recurrente 1.014 / 1.120 / 1.201 M€; margen operativo 14,5% / 14,0% / 14,3%; beneficio neto 633 / 610 / 449 M€; EPS diluido 2,22 / 2,33 / 1,61 €. El EPS 2025 cae frente a 2024 porque 2024 incluyó plusvalías por la disposición de Essendi; el EPS ajustado 2025 es 1,84 (+16%). FCF recurrente 632 M€; deuda neta 2,5 B€ (2024); dividendo 1,35 € (2025) más recompra de 450 M€ en 2026. ROCE sólido en M&F.
 
-| Año | Ingresos | EBITDA rec. | Margen op. | Beneficio neto (grupo) | EPS diluido (EUR) |
-| --- | --- | --- | --- | --- | --- |
-| 2023 | 5.056 | 1.014 | 14,5% | 633 | 2,22 |
-| 2024 | 5.606 | 1.120 | 14,0% | 610 | 2,33 |
-| 2025 | 5.639 | 1.201 | 14,3% | 449 | 1,61 |
+## Valoración (sin verificar)
 
-Notas: EPS 2025 cae vs 2024 porque 2024 incluyó plusvalías por disposición de Essendi; EPS ajustado 2025 = 1,84 (+16%). FCF recurrente 632 mEUR; deuda neta 2,5 bnEUR (2024); dividendo 1,35 EUR (2025) + buyback 450 mEUR en 2026. ROCE sólido en M&F.
+Sobre EPS ajustado 2025 (1,84 €), el barrido estima: pesimista 18x → 33,1 €; base 22x → 40,5 €; optimista 26x → 47,8 €. Precio de referencia ~45,7 € (Euronext París, ago-2026). Margen de seguridad negativo (~-13% en base): el mercado ya premia el giro *asset-light*.
 
-## 5. Valoración por escenarios
+## Riesgos
 
-Sobre EPS ajustado 2025 (1,84 EUR), múltiplo objetivo:
+- Beneficio neto reportado volátil por plusvalías no recurrentes.
+- Exposición a Oriente Medio: RevPAR cayó; Jefferies rebajó a "hold" (jun-2026).
+- Ennismore opaco en cuentas; IPO en EE.UU. potencial pero incierto.
+- Apalancamiento neto ~2,5 B€ y coste de deuda subiendo (gasto financiero neto -164 M€ en 2025).
+- Ciclo hotelero y sensibilidad a recesión/viajes.
 
-- Pesimista (18x): 33,1 EUR — si RevPAR se contrae (Oriente Medio/cycle) y el M&A no entrega.
-- Base (22x): 40,5 EUR — asset-light de calidad con EBITDA CAGR 9-12% guía.
-- Optimista (26x): 47,8 EUR — rerating por Ennismore (IPO US potencial) y aceleración de margen.
+## Veredicto (propuesto por el barrido, sin verificar)
 
-Margen de seguridad vs precio actual (45,7): **negativo** (~-13% en base). Cotiza por encima de lo que justifica el EPS ajustado a múltiplos históricos; el mercado descuenta el éxito del giro asset-light.
+MANTENER: calidad y crecimiento sobre la transformación a *asset-light*, pero el múltiplo ya descuenta la ejecución. Entrada con convicción por debajo de ~38 €. Revisar tras Q4/FY2026 y la evolución de RevPAR y Ennismore.
 
-## 6. Riesgos y red flags
+## Conexiones
 
-- Beneficio neto reportado volátil (449 mEUR en 2025 vs 610 en 2024) por plusvalías no recurrentes.
-- Exposición a Oriente Medio: RevPAR cayó, Jefferies rebajó a "hold" (jun 2026).
-- Acción Ennismore (lujo) opaca en cuentas; IPO US potencial pero incierto.
-- Apalancamiento neto ~2,5 bnEUR y coste de deuda subiendo (gasto financiero neto -164 mEUR en 2025).
-- Ciclo hotelero y sensibilidad a recessión/viajes.
-
-## 7. Veredicto
-
-**MANTENER.** Accor es un juego de calidad sobre la transformación a asset-light, con EBITDA recurrente récord (+13,3%) y retorno a accionistas (dividendo + buyback 450 mEUR). A 45,7 EUR el múltiplo ya premia la ejecución; sin margen de seguridad amplio. Acumular con convicción en <38 EUR. Revisar tras Q4/FY2026 (29/10/2026) y evolución de RevPAR/Ennismore.
+- Sector pendiente de página: industria viajes y turismo.
+- Marco: [[foso-economico]], [[margen-de-seguridad]], [[screening-de-calidad]].

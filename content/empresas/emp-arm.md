@@ -1,0 +1,110 @@
+---
+title: "Arm (ARM) - Ficha de investigacion"
+tipo: empresa
+tags: [empresa, semis, reino-unido]
+fecha: 2026-08-31
+agente: carlos-barez
+squad: Analisis Fundamental - Empresas (Carlos Barez)
+status: sonde
+---
+
+# Arm (ARM) - Ficha de investigacion
+
+> Fuentes base: SEC EDGAR 20-F de Arm Holdings plc (ejercicio cerrado 31/03/2026) [1]; stockanalysis.com (cotizacion y multiples, 31/08/2026) [2]; Arm Newsroom oficial [3]; Google News RSS [4]. Nota metodologica: el canal de busqueda web principal (Exa/web_search) estaba agotado (402 credit) en esta sesion, por lo que se degrado a fuentes primarias SEC + Jina Reader + Google News RSS; el analisis no depende de busqueda Exa.
+
+## 1. Resumen ejecutivo
+
+Arm Holdings plc (NASDAQ: ARM) disena y licencia la arquitectura de procesamiento (IP, "intellectual property") en la que se apoya la inmensa mayoria de los chips de bajo consumo del planeta: movil, IoT, automotive, edge y, crecientemente, servidores de centro de datos. No fabrica silicio (modelo "fabless"): cobra regalias (royalties) por chip vendido y licencias (upfront) por usar su diseno. Es una empresa britanica (Cambridge) que cotiza en EE.UU. como "foreign private issuer" y, por tanto, presenta 20-F ante la SEC (no 10-K).
+
+Al inversor de largo plazo le importa porque es, probablemente, la "opcion mas pura" sobre la diffusion de la computacion eficiente (y de la IA en el edge y el datacenter) sin exponerse directamente a la volatilidad de fundicion (foundry) ni a la demanda de un producto final concreto. Tres cifras clave (ejercicio cerrado 31/03/2026, fuente SEC [1]):
+- Ingresos totales: 4.920 M$ (+23% interanual sobre 4.007 M$ en FY2025) [1].
+- Margen bruto: ~97,5% (beneficio bruto 4.799 M$ sobre 4.920 M$) [1] — estructura de costes casi inexistente en COGS.
+- Beneficio neto: 904 M$; BPA diluido 0,85 $ [1]. A 31/08/2026 cotiza a ~238 $ con capitalizacion ~255.000 M$ y PER ~244 (fuente [2]) — es decir, esta "pagada para la perfeccion".
+
+## 2. Estructura / modelo
+
+Arm monetiza dos flujos y no manufactura nada (es fabless):
+
+| Segmento (20-F FY2026) | Ingreso total | % var. vs FY2025 | Mecanica |
+|---|---|---|---|
+| Royalty revenue (regalias) | 2.613 M$ | +21% | % sobre precio de venta del chip o importe fijo por chip, pagado por el licenciatario al vender silicio |
+| License and other revenue | 2.307 M$ | +25% | Licencias upfront (arquitectura, diseno, CSS) + soporte anual; volatil por tamano/timing de acuerdos |
+| Total | 4.920 M$ | +23% | |
+
+Detalle relevante de concentracion (riesgo): 1.499 M$ de los ingresos (≈30% del total) provienen de "partes relacionadas", sobre todo Arm China, frente a 823 M$ en FY2025 (+82%) [1]. El modelo de Arm China (joint venture) categoriza como regalia la parte que Arm le corresponde de las regalias de China y como licencia la parte del fee — una dependencia geografica/relacional concentrada.
+
+El negocio se apoya en: (i) la arquitectura Armv9 (mix de productos de mayor royalty por chip), (ii) las Compute Subsystems (CSS), bloques de diseno listos que aceleran el tiempo-a-mercado de los clientes, y (iii) Neoverse, la familia para servidores/centro de datos. Todo ello rodeado de un ecosistema de software que es, en la practica, el verdadero foso (ver seccion 4).
+
+## 3. Numeros clave
+
+Cifras del 20-F (ejercicio 31/03/2026) y del 10-Q equivalente (trimestre 30/06/2026), fuente SEC XBRL [1][5]:
+
+- Ingresos FY2026: 4.920 M$ (+23%); Regalias 2.613 M$ (+21%); Licencias y otros 2.307 M$ (+25%) [1].
+- Beneficio bruto: 4.799 M$ -> margen bruto ~97,5% [1].
+- Ingreso operativo FY2026: 900 M$ (margen operativo ~18%) [1]; en FY2025 fue 831 M$ (21%). El margen operativo es bajo frente al bruto por el peso del I+D.
+- I+D: 2.776 M$ en FY2026 (~56% de los ingresos) [1] — esta es la verdadera estructura de costes de Arm: casi todo es ingenieria.
+- Beneficio neto FY2026: 904 M$; BPA diluido 0,85 $ [1]. TTM (trailing twelve months) net income 1,04 M$ (+49,4%) y BPA 0,98 $ [2].
+- Q1 del ejercicio 2027 (cierre 30/06/2026, "record"): ingresos 1.289 M$, beneficio neto 270 M$, BPA 0,25 $ [1][5].
+- Balance: activos 10.703 M$, patrimonio 8.286 M$ (FY2026); modelo muy ligero de activos, sin deuda material relevante [1].
+- Acciones en circulacion ~1,07 M$ (diluidas ~1,068 M$) [2][5].
+
+Valoracion de mercado a 31/08/2026 [2]: precio 238,20 $; capitalizacion 255.420 M$; PER 244; PER forward 100,15; rango 52 semanas 100,02–452,70 $; beta 3,91; sin dividendo. Consenso analista (stockanalysis): "Buy".
+
+## 4. Posicion / marco conceptual
+
+El foso de Arm no es el silicio (no lo tiene) sino la combinacion de (a) estandar abierto pero dominante en eficiencia energetica, (b) efectos de red de software compilado para Arm, y (c) coste de cambio (switching cost) brutal para clientes que ya disenaron su SoC (system-on-chip) sobre su ISA. Es, en esencia, un tema moat licencias ip: cobra renta sobre un estandar que nadie quiere reescribir.
+
+Conecta con otras tesis del Cerebro: es el reverso "ligero de capital" de emp nvidia y de emp tsmc; compite/fagara con emp qualcomm en diseno, y su suerte en el datacenter se lee junto a tema ia infra y tema semis. Su modelo fabless lo emparenta con tema fabless y con la logica de "royalty sobre estandar" que tambien explotan otros licenciadores de IP.
+
+La narrativa oficial (Arm Newsroom [3]) es explicita: "The Arm Evolution: From IP to Platform for the AI Era" (15/05/2025) y "Arm Sets the Standard for Open, Converged AI Data Centers" (14/10/2025). Es decir, Arm quiere dejar de ser solo un vendedor de diseno por chip y convertirse en plataforma recurrente de la IA (CSS, Arm AGI CPU, Neoverse, agentic AI). Ese salto de "royalty por unidad" a "plataforma por infraestructura" es el que justifica el multiple.
+
+## 5. Catalizadores y riesgos
+
+Catalizadores recientes (Google News RSS [4] y Arm Newsroom [3]):
+- "Oracle Cloud Infrastructure joins the Arm AGI CPU ecosystem as agentic AI accelerates" (02/06/2026) [3]: Arm entra en la infraestructura cloud de OCI.
+- "Arm-based NVIDIA RTX Spark is redefining PCs for the agentic era" (02/06/2026) [3]; "Arm Performix" para desarrolladores en la era de los agentes de IA (28/04/2026) [3].
+- "Arm and Meta Deepen Strategic Partnership to Power the Next Era of AI" (15/10/2025) [3].
+- Titulares de mercado: "ARM Stock Jumps 6.3% as AI Data Center Chip Demand Tops $2 Billion" (TIKR, via RSS [4]); "Arm presenta una CPU para servidores de 136 nucleos para competir con Xeon y Epyc" (Notebookcheck, RSS [4]); "Siemens' Veloce validates Arm AGI CPU" (RSS [4]).
+- Q1 FY2027 record (1.289 M$ de ingresos) [1][5].
+
+Riesgos (mixtos primarios/secundarios):
+- Riesgo de foso por sustitucion en IA: el propio 20-F [1] advierte que "varios clientes estan creando sus propios aceleradores bespoke para cargas de IA que se situan al lado del nucleo Arm; si con el tiempo mas cargas migran a aceleradores y se alejan de la CPU, el tamano del mercado de CPU podria disminuir". Es el riesgo estructural numero uno.
+- Erosion del royalty por chip: el 20-F [1] reconoce que "los royalty rates por chip tipicamente se reducen con el volumen"; el apalancamiento positivo depende del mix Armv9 y de subir el valor por chip, no de volumen bruto.
+- Dependencia de foundry ajeno: el silicio propio (p.ej. Arm AGI CPU) se fabrica via terceros (TSMC); HSBC recorto a "Hold" citando cuellos de botella en foundry (TradingView, RSS [4]). El 20-F [1] cita riesgos de retraso/yield en "next-generation process technologies".
+- Concentracion y geopolica China: ~30% de ingresos via Arm China (parte relacionada) [1]; los nucleos Neoverse de alto rendimiento requieren licencia de exportacion U.S./U.K. para clientes PRC [1]; controles de exportacion (Final Rule 02/01/2025) ya afectan clientes chinos [1].
+- Valoracion: PER 244, beta 3,91 y rango 52 semanas 100–453 $ [2] implican que cualquier fallo en la conversion de la IA a ingresos recurrentes dispara un drawdown violento.
+
+## 6. Valoracion / implicaciones practicas
+
+A 255.000 M$ de capitalizacion sobre ~1.000 M$ de beneficio neto TTM, Arm cotiza a un PER ~244 y forward ~100 [2]. El mercado no compra los 0,85 $ de BPA de FY2026: compra la conviccion de que la IA (datacenter Neoverse + AGI CPU + CSS + agentic edge) multiplica regalias y licencias durante 3-5 anos. Es una apuesta de "crecimiento compuesto de royalty sobre estandar global", no de valoracion barata.
+
+Senal de alerta para Carlos: vigilar (i) la ratio regalias/licencias y si el crecimiento de regalias se sostiene sin depender solo de grandes acuerdos de licencia puntuales; (ii) cualquier declaracion de clientes cloud (Nvidia, Meta, Oracle, AWS) de que construyen CPU propias "al lado" del nucleo Arm que degraden el royalty por CPU; (iii) cuellos de botella en TSMC que retrasen el AGI CPU; (iv) la evolucion del tramo China (export controls + Arm China). Si el multiple forward (~100) se sostiene solo por narrativa de IA sin aceleracion de regalias, el beta 3,91 [2] lo devuelve rapido.
+
+## 7. Veredicto para el inversor
+
+Arm es un negocio excepcional (margen bruto 97%, foso de estandar + ecosistema, apalancado a la eficiencia de computo y a la IA en edge/datacenter) pero esta carisimo y muy volatil. Para un inversor de largo plazo tipo Carlos, la pregunta no es "si Arm es buena empresa" (lo es) sino "si el precio ya descuenta una conversion de IA demasiado perfecta". Posicion de vigilancia/compra por fases en pullbacks, no a precio de euforia. El riesgo de segundo orden (sustitucion por aceleradores) es real y declarado por la propia empresa.
+
+## 8. Segundo orden (OBLIGATORIO y central en este wiki)
+
+Como la IA y la automatizacion cambian su estructura de costes y su foso a 3-5 anos:
+
+1) Estructura de costes: Arm es casi puro I+D (2.776 M$, 56% de ingresos [1]) sobre un COGS de solo 121 M$ [1]. La "automatizacion" relevante aqui es la IA aplicada al diseno de chips (EDA asistido por IA): si compress la curva de coste de diseno de Arm, su escalabilidad mejora (mas Armv9/Neoverse/CSS por el mismo I+D) y sube el margen operativo desde el ~18% actual [1]. Pero a la vez, la IA sube la complejidad de los disenos y la carrera con Nvidia/Google/Apple por silicon propio puede mantener el I+D alto. Segundo orden: el coste por "nuevo nucleo" tiende a bajar por automatizacion, pero el numero de frentes abiertos (datacenter, agentic edge, automotive) lo mantiene elevado.
+
+2) El foso se ensancha SOLO si Arm deja de ser "royalty por chip" y pasa a "plataforma recurrente de IA" (CSS + AGI CPU + Neoverse + OCI/Meta). Eso es exactamente lo que dice su propia narrativa [3]. El segundo orden positivo: la IA en el datacenter es intensiva en numero de cores y en eficiencia; Arm puede cobrar mas por chip (mix Armv9) y penetrar servidores donde hoy domina x86 (Xeon/Epyc) [4]. El segundo orden NEGATIVO, tambien declarado por ella [1]: si los clientes externalizan la CPU a "aceleradores bespoke" y dejan el nucleo Arm solo como companero menor, el tamano del mercado de CPU —y por tanto la base de regalias— se contrae. Es la tension central: Arm gana si la IA necesita CPU eficiente junto al acelerador, y pierde si la IA "salta" la CPU.
+
+3) Geopolitica como segundo orden: los controles de exportacion U.S./U.K. sobre Neoverse de alto rendimiento [1] pueden empujar a China a RISC-V (ver tema risc v) y a silicio propio (ByteDance disena ya en Arm y RISC-V, RSS [4]), erosionando a la vez la parte China (~30% de ingresos via Arm China [1]) y reforzando un competidor de arquitectura abierta a 3-5 anos.
+
+4) Conexion con otras tesis del Cerebro: choca con tema ia infra (Arm es el "coste de eficiencia" de la IA, no el compute masivo); se entrelaza con emp nvidia (socio y rival: Nvidia usa Arm en RTX Spark [3] pero compite en datacenter); depende de emp tsmc para su propio silicio (riesgo de cuello de botella [4]); y es el caso de estudio de analisis second order aplicado a un licenciador de IP. Lo que Carlos debe vigilar a 3-5 anos: (a) si las regalias de datacenter crecen de verdad o son solo anuncios de ecosistema; (b) la cuota de CPU Arm vs x86 en servidores; (c) la maduracion de RISC-V en China; (d) si el PER forward ~100 [2] se justifica con crecimiento de BPA >40% sostenido. Hasta que lo vea en las regalias, tratar el multiple como de "fe en la IA", no de valor.
+
+## 9. Fuentes consultadas
+
+1. Arm Holdings plc - Form 20-F (ejercicio cerrado 31/03/2026, presentado 26/05/2026) - https://www.sec.gov/Archives/edgar/data/1973239/000197323926000097/arm-20260331.htm
+2. Arm Holdings (ARM) Stock Price & Overview, stockanalysis.com (consultado 31/08/2026) - https://stockanalysis.com/stocks/ARM/
+3. Arm Newsroom (archivo de noticias, incl. "From IP to Platform for the AI Era" 15/05/2025; "Open, Converged AI Data Centers" 14/10/2025; "Oracle Cloud Infrastructure joins the Arm AGI CPU ecosystem" 02/06/2026) - https://www.arm.com/company/news
+4. Google News RSS - "Arm Holdings 2026" / "Arm chip AI 2026" (titulares: TIKR, TradingView, Notebookcheck, SimplyWall.st, 31/08/2026) - https://news.google.com/rss/search?q=Arm+Holdings+2026&hl=es
+5. SEC EDGAR - companyfacts XBRL de Arm Holdings plc (CIK 0001973239; ingresos, beneficio, EPS, I+D, Q1 FY2027) - https://data.sec.gov/api/xbrl/companyfacts/CIK0001973239.json
+6. SEC EDGAR - submissions de Arm Holdings plc (lista de filings 20-F/6-K) - https://data.sec.gov/submissions/CIK0001973239.json
+7. Google News RSS - "Arm Holdings results 2026" (titular: "Arm Stock Fell 8% After Reporting Record Q1 Earnings Revenue of $1.29 Billion", TIKR) - https://news.google.com/rss/search?q=Arm+Holdings+results+2026&hl=es
+8. Google News RSS - "Arm chip AI 2026" (titular: "Arm presenta una CPU para servidores de 136 nucleos destinada a competir con Xeon y Epyc", Notebookcheck) - https://news.google.com/rss/search?q=Arm+chip+AI+2026&hl=es
+
+Nota de limitacion: el canal Exa/web_search (agent-reach) devolvio 402 (creditos agotados) en esta sesion; se sustituyo por SEC EDGAR (primario), stockanalysis.com, Arm Newsroom (primario) y Google News RSS. El precio de salida a bolsa (IPO, sept 2023) no se verifico cuantitativamente en esta sesion y se omite el importe exacto de la colocacion para no inventar cifra.

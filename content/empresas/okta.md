@@ -4,9 +4,6 @@ tipo: empresa
 tags: [empresa, ciberseguridad, software]
 fecha: 2026-08-28
 agente: prime-agent
-veredicto: OBSERVAR
-valor_estimado: ~177 USD (consenso; rango 110-203)
-gatillo_entrada: Pullback post-salto (+27%) a <~150 USD (P/E no-GAAP <35x) o cRPO creciendo >12% sostenido.
 ticker: OKTA
 moneda: USD
 fuentes: "[\"https://investor.okta.com/news-and-events/news-releases/news-details/2026/Okta-Announces-Second-Quarter-Fiscal-Year-2027-Financial-Results/default.aspx\", \"https://www.sec.gov/Archives/edgar/data/1660134/000166013426000068/okta-7312026_ex991.htm\", \"https://www.cnbc.com/2026/08/26/okta-okta-earnings-q2-2027.html\", \"https://www.sec.gov/Archives/edgar/data/1660134/000166013426000020/okta-20260131.htm\", \"https://www.morningstar.com/company-reports/1449410-okta-is-an-identit\"]"

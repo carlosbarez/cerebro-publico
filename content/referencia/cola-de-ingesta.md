@@ -2,7 +2,7 @@
 title: "Cola de ingesta — en `raw/` sin destino registrado"
 tipo: referencia
 tags: [sistema, corpus, ingesta, raw]
-fecha: 2026-08-24
+fecha: 2026-08-30
 generado_por: scripts/cola_ingesta.py
 ---
 
@@ -15,7 +15,7 @@ no es un fallo: es una fuente esperando triaje (inventariar, destilar o aparcar)
 
 > ⚠ El inventario lleva sin regenerarse desde 2026-07-28: parte de esta cola puede ser solo desfase de inventario, no fuentes sin triaje.
 
-**291 ficheros** sin inventario (de 841 en disco).
+**292 ficheros** sin inventario (de 841 en disco).
 
 ### `.` — 2 ficheros
 
@@ -117,10 +117,11 @@ no es un fallo: es una fuente esperando triaje (inventariar, destilar o aparcar)
 | Summer-2025-Edition.pdf | 2026-08-15 | sin rastro |
 | Why Lululemon Settled_ The Signals That Pointed to a Deal,….htm | 2026-08-15 | sin rastro |
 
-### `libros-sueltos` — 6 ficheros
+### `libros-sueltos` — 7 ficheros
 
 | Fichero | Llegó (mtime) | Rastro en fuentes |
 |---|---|---|
+| Acciones ordinarias y beneficios extraordinarios - Philip A. Fisher.epub | 2023-07-16 | mencionado en fuentes |
 | Cómo piensan los ricos - Morgan Housel.epub | 2023-07-15 | sin rastro |
 | Diversificación Eficiente para Inversores - (William Bernstein.epub | 2023-07-15 | mencionado en fuentes |
 | El Ingreso Pasivo - Moreira, Juliana Belén Nemur, Lisa.epub | 2023-07-16 | sin rastro |

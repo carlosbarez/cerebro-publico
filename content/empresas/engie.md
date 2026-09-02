@@ -4,9 +4,6 @@ tipo: empresa
 tags: [empresa, utilities, energia, renovables]
 fecha: 2026-08-28
 agente: prime-agent
-veredicto: MANTENER
-valor_estimado: 30,86 € (consenso, +27%)
-gatillo_entrada: FCF positivo sostenido y pay-out del dividendo <100%; vigilar deuda neta ~56 B€
 ticker: ENGI
 moneda: EUR
 fuentes: "[\"https://stockanalysis.com/quote/epa/engi/\", \"https://stockanalysis.com/quote/epa/engi/financials/\", \"https://stockanalysis.com/quote/epa/engi/statistics/\", \"https://stockanalysis.com/quote/epa/engi/forecast/\", \"https://www.businesswire.com/news/home/20260729286313/en/NTT-DATA-and-ENGIE-Announce-Strategic-Partnership-to-Power-Sustainable-AI-and-Data-Center-Growth/\"]"

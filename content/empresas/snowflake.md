@@ -4,9 +4,6 @@ tipo: empresa
 tags: [empresa, software-empresarial]
 fecha: 2026-08-28
 agente: prime-agent
-veredicto: OBSERVAR
-valor_estimado: ~321-327 USD (consenso analistas)
-gatillo_entrada: Q2 FY2027 confirma +34% no es pico + NRR >126% + correccion a <~250 USD.
 ticker: SNOW
 moneda: USD
 precio_referencia: 332

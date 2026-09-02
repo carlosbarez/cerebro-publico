@@ -4,9 +4,6 @@ tipo: empresa
 tags: [empresa, consumo-defensivo, bebidas-alcoholicas, cerveza]
 fecha: 2026-08-28
 agente: prime-agent
-veredicto: OBSERVAR
-valor_estimado: 97,03 $ (objetivo medio)
-gatillo_entrada: Sin datos
 ticker: BUD
 moneda: USD
 fuentes: "[\"https://stockanalysis.com/stocks/bud/financials/\", \"https://stockanalysis.com/stocks/bud/financials/balance-sheet/\", \"https://stockanalysis.com/stocks/bud/financials/cash-flow-statement/\", \"https://companiesmarketcap.com/anheuser-busch-inbev/revenue/\", \"https://news.google.com/rss/search?q=ABI+AB+InBev&hl=es\"]"

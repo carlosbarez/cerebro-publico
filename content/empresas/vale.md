@@ -4,9 +4,6 @@ tipo: empresa
 tags: [empresa, mineria]
 fecha: 2026-08-28
 agente: prime-agent
-veredicto: COMPRAR
-valor_estimado: Sin datos (P/B ~1,6x, forward P/E ~7,9x; descuento vs RIO)
-gatillo_entrada: Precio de hierro >110 $/t con mix premium 85%, o recorte a P/B <1,5x
 ticker: VALE
 moneda: USD
 precio_referencia: 15.10

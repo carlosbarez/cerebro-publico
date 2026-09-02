@@ -1,0 +1,129 @@
+---
+title: "Estructura de mercado y liquidez"
+tipo: analisis
+tags: [liquidez, microestructura, ejecucion]
+fecha: 2026-08-30
+agente: jorne
+squad: Analisis Tecnico (Jorne)
+status: durable
+---
+
+# Estructura de mercado y liquidez
+
+> Fuentes base: Vayanos & Wang (LSE, "Market Liquidity—Theory and Empirical Evidence"); Schwarz et al. (JOF 2025, "The Actual Retail Price of Equity Trades"); NY Fed Liberty Street Economics (2026, "Treasury Market Liquidity Since April 2025"); CFA Institute (2026, "Trading Costs and Electronic Markets"); SEC (Gerig, "Determinants of ETF Trading Pauses", 24-ago-2015).
+
+## 1. Resumen ejecutivo
+
+La **estructura de mercado** es el conjunto de reglas, lugares y agentes que determinan cómo y a qué precio se cruzan las órdenes. La **liquidez** es la capacidad de convertir un activo en efectivo (o viceversa) de forma rápida y barata. Ambas determinan el **coste real de ejecución**, que suele ser invisible en el momento de la compra pero se come la rentabilidad a lo largo del tiempo.
+
+Para el inversor de largo plazo esto importa por tres razones: (1) el coste de entrar y salir de una posición es una fricción permanente que nadie le cobra en la factura pero que resta rendimiento; (2) la liquidez es cíclica y desaparece justo cuando más la necesitas (en el pánico); (3) la microestructura moderna (fragmentación, internalización de flujo minorista, *wholesalers*) cambia quién paga y quién recibe el coste, y no siempre a tu favor.
+
+Cifras clave:
+- El coste de ejecución de una misma orden de mercado minorista varía entre brokers en un rango de **7,2 bps de ida y vuelta (mejor) hasta 46,2 bps (peor)**; 1 pb de diferencia agregada equivale a ~2.000 millones de USD/año para el conjunto del retail (Schwarz et al., JOF 2025).
+- En el mercado de **Tesoros de EE.UU. ($30 billones+ en deuda negociable)**, la profundidad del 10-year on-the-run cayó a ~1/4 de sus niveles normales tras el anuncio arancelario del 2-abr-2025 y los *spreads* off-the-run/TIPS se duplicaron (Perli, NY Fed, may-2025).
+- El 24-ago-2015, **302 de 1.569 ETFs (19,2%)** sufrieron pausas de negociación por caída de liquidez; los ETFs más correlacionados con el S&P 500 fueron **21 veces más propensos** a pausarse (SEC/Gerig).
+
+## 2. Estructura / modelo
+
+El mercado de acciones de EE.UU. (y, cada vez más, el europeo) es un ecosistema **fragmentado** con múltiples sedes que negocian el mismo instrumento: bolsas lit (NYSE, Nasdaq, Cboe), *dark pools*, y centros *off-exchange* donde los *wholesalers* (Cita­del, Virtu, G1) internalizan el flujo. La liquidez se suministra por dos mecanismos:
+
+| Mecanismo | Quién aporta liquidez | Dónde | Coste típico |
+|---|---|---|---|
+| **Libro de órdenes limitadas (limit order book)** | Agentes competitivos (pasivo) | Bolsas lit | *Spread* explícito + *price impact* |
+| **Creadores de mercado / *wholesalers*** | Market makers internizados | *Off-exchange* | Mejora de precio vs NBBO, pero *inventory risk* |
+
+El **NBBO** (National Best Bid and Offer) es el mejor precio disponible agregado. El **spread** (diferencia entre bid y ask) es la primera fricción. El **coste de ejecución** real se compone de (Quod Financial, TCA 2026):
+
+1. **Coste de spread** (medio-spread al cruzar el bid-ask).
+2. **Market impact permanente** (el mercado infiere información de tu orden).
+3. **Market impact temporal** (presión de precio que luego revierte parcialmente).
+4. **Coste de timing** (el mercado se mueve contra ti mientras ejecutas).
+5. **Coste de oportunidad** (acciones no ejecutadas a tu precio).
+
+La teoría unificada (Vayanos & Wang, LSE) organiza la iliquidez en torno a seis imperfecciones: costes de participación, costes de transacción, información asimétrica, competencia imperfecta, restricciones de financiación y búsqueda. Los costes de transacción "clavan una cuña" entre precio de compra y de venta y elevan la rentabilidad esperada exigida (el **desc Presto de iliquidez**).
+
+## 3. Numeros clave
+
+- **Spread efectivo**: 2×(precio de ejecución − punto medio previo). Subestima el coste real en órdenes grandes fraccionadas o con mejora de precio (CFA Institute, 2026).
+- **Coste institucional (ILC)**: el *price impact* institucional por $1M llega a **~25–66 bps** según el desequilibrio de flujo internalizado (Mroib), más del doble de la base equilibrada (JFQ, 2025, "Institutional Liquidity Costs").
+- **Retail vs *wholesaler***: mejora de precio del 26% vía *wholesalers* frente al 4% en bolsas (Dyhrberg, Shkilko & Werner, 2023, citado en Schwarz et al.). El PFOF (0–0,2 c/acción) es insignificante frente al PI de 2,8–7,8 c/acción.
+- **Tesoros (abr-2025)**: *spreads* off-the-run/TIPS ~duplicados; profundidad del 10Y a ~25% de lo normal; *price impact* por $100M se disparó y revirtió en días (Liberty Street Economics, NY Fed, abr-2026).
+- **ETFs (24-ago-2015)**: pausa 7× más probable en quartil superior de *spike* de volumen, 5× en quartil superior de caída de liquidez (SEC/Gerig).
+- **Internalización**: un modelo LSE 2025 concluye que la internalización beneficia a todos los minoristas cuando los proveedores de liquidez son aversos al riesgo, y que la mayoría de medidas de liquidez no cambian con el diseño de mercado.
+
+## 4. Posicion / marco conceptual
+
+El **foso (moat)** de un inversor discrecional frente a la microestructura es la **paciencia**: quien no tiene urgencia de ejecutar puede usar liquidez pasiva (límite, VWAP) y evitar el *spread*. La microestructura premia la **inelasticidad de la demanda**.
+
+Conecta con otras ideas del Cerebro:
+- [[liquidez]] y el ciclo de riesgo → la liquidez se contrae en el pánico (*flight to quality*).
+- coste de ejecucion y spread y market impact → modelo de impacto raíz cuadrada (√tamaño/ADV) y marco Almgren-Chriss.
+- etfs y liquidez → "dos capas de liquidez" (ETFs + subyacentes) que se secan a la vez en crisis.
+- flash crash → eventos de 2010, 2015, y la turbulencia de Tesoros abr-2025.
+- estrategia de ejecucion → *implementation shortfall* (IS) captura coste total (incl. oportunidad); VWAP lo subestima.
+
+El *implementation shortfall* es la métrica honesta: mide desde el **precio de decisión** hasta la ejecución real, incluyendo coste de oportunidad de lo no ejecutado (CFA Institute, 2026).
+
+## 5. Catalizadores y riesgos
+
+**A favor (más liquidez / transparencia):**
+- La electrónica redujo costes explícitos y mejoró eficiencia (CFA, 2026).
+- El Tesoro de EE.UU. ha **duplicado los *buybacks* de bonos largos en 2026** y ampliado recompras a largo plazo para apuntalar la liquidez del mercado (clúster de noticias TradingView/CryptoRank, ago-2026; no localizada URL de artículo individual, fuente: feed Google News "Treasury market liquidity 2026").
+- Mejoras en resiliencia de *funding liquidity* vía Standing Repo Facility (Perli, NY Fed, may-2025).
+
+**En contra (riesgos de ejecución):**
+- **Fragmentación + internalización**: Battalio, Corwin & Jennings (JOF 2016) documentan relación negativa entre *rebates* de liquidez y calidad de ejecución de órdenes límite → "los brokers no pueden tenerlo todo" (pagabilidad vs. calidad).
+- **Desaparición de liquidez en estrés**: el 2-abr-2025, un desequilibrio de flujo unidireccional >$2.000M en 10 min (similar al *flash rally* de 2014) amplificó la volatilidad del Tesoro cuando la profundidad era baja (Fed FEDS Notes, nov-2025).
+- **ETFs y arbitraje frágil**: en el *dash-for-cash* de mar-2020, las restricciones de capital de los *Authorized Participants* (APs) debilitaron el arbitraje y ampliaron las primas (Raddatz & Claudio, JBFA 2025).
+- **Spillover ETF↔subyacente**: la liquidez se contagia en ambos sentidos y se seca simultáneamente en crisis (Review of Financial Economics, 2023).
+
+## 6. Valoracion / implicaciones practicas
+
+Qué debe vigilar y hacer el inversor:
+- **Mide tu coste real** con *implementation shortfall*, no solo *spread* ni VWAP. Usa benchmarks múltiples (VWAP, TWAP, Arrival Mid, IS) para evitar *benchmark gaming* (Quod Financial, 2026).
+- **Tamaño relativo a ADV**: una orden >10–20% del ADV diario ya paga *market impact* material; fracciona y usa horarios de alta liquidez.
+- **Evita ejecutar en futuros/opciones cerca de apertura y cierre** y en ventanas de noticias (LULD, datos macro): ahí el *spread* y el impacto se disparan.
+- **ETFs apalancados/ilíquidos**: la liquidez del ETF no es la del subyacente; en crisis la prima puede descolgarse. Prefiere ETFs de alto *turnover* (3× menos probables de pausarse el 24-ago-2015).
+- **Señal de alerta**: si ves *spreads* de tu activo objetivo duplicarse y profundidad caer a la mitad en días sin noticia fundamental clara, es riesgo de liquidez, no de valor.
+
+## 7. Veredicto para el inversor
+
+La liquidez es un activo perecedero que el mercado te vende barato en calma y caro en pánico. El inversor de largo plazo que ignora la microestructura paga un "impuesto silencioso" de decenas de bps por operación, que a 20–30 años de interés compuesto es la diferencia entre batir y no batir al índice. Entender dónde y cómo se cruza tu orden es parte del analisis tecnico tanto como leer un gráfico.
+
+## 8. Segundo orden (OBLIGATORIO y central en este wiki)
+
+- **Implicación de las implicaciones**: si la ejecución barata depende de internalizar flujo minorista (26% de mejora vía *wholesalers*), cualquier regulación que obligue a subastar órdenes (p.ej. *order competition rule*) o elimine PFOF puede *subir* el coste aparente del retail pero *mejorar* la formación de precios agregada. El "ahorro" de hoy puede ser un subsidio oculto a la fragmentación. Choca con el relato de que "la internalización siempre beneficia al pequeño" (LSE 2025 matiza: solo si los proveedores son aversos al riesgo).
+- **Conexión con fondos indexados y builder position**: los índices se rebalancean en fechas fijas (cuatrimestres, dividendos); esa demanda previsible es "tóxica" para el creador y encarece la ejecución de quien replica. El inversor pasivo debe ejecutar *antes* o *después* de la ventana de rebalanceo, no dentro.
+- **Tesoros como activo central**: la turbulencia abr-2025 demuestra que incluso el mercado más líquido del mundo se rompe por **desequilibrio de flujo + baja profundidad**, no por fundamentales. Si eso pasa en el 10-year, pasa en cualquier activo de tu cartera. Conecta con tesoro americano y riesgo de tipo de interes.
+- **Liquidez y crises**: la evidencia de ETFs (2015) y APs (2020) sugiere que las primas/dislocaciones son síntomas de **liquidez de financiación**, no de valor. Carlos debe vigilar a 3–5 años el ratio de capital de los intermediarios y la profundidad del NBBO como indicador adelantado de estrés, no solo PER o dividendos.
+- **Dónde choca con otras fuentes**: la literatura académica clásica (Vayanos) asume que el descuento por iliquidez *siempre* eleva la rentabilidad esperada; pero la evidencia institucional 2025 sugiere que las medidas tradicionales de liquidez están *sesgadas a cero* por la microestructura moderna y que el premio real es mayor de lo que los modelos viejos dicen. La tesis "comprar ilíquido para primar" necesita revisión metodológica.
+- **Qué vigilar Carlos (3–5 años)**: (a) evolución de la regulación de estructura de mercado en EE.UU. y UE; (b) concentración de *wholesalers* (Citadel/Virtu) y su solvencia; (c) profundidad real del Tesoro y *buybacks*; (d) primas de ETFs en episodios de estrés como termómetro de liquidez de toda la cartera; (e) la métrica de *implementation shortfall* de su propio bróker, no el *spread* anunciado.
+
+## 9. Fuentes consultadas
+1. Vayanos, D. & Wang, J. — Market Liquidity: Theory and Empirical Evidence (LSE) — https://personal.lse.ac.uk/vayanos/Papers/MLTEE_HEF13.pdf
+2. Schwarz, C.G., Barber, B.M., Huang, X., Jorion, P., Odean, T. — The "Actual Retail Price" of Equity Trades (Journal of Finance, 2025) — https://doi.org/10.1111/jofi.13467
+3. CFA Institute — Trading Costs and Electronic Markets (2026 Curriculum) — https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/trading-costs-and-electronic-markets
+4. Quod Financial — Transaction Cost Analysis in Institutional Trading (2026) — https://www.quodfinancial.com/transaction-cost-analysis-tca-institutional-trading/
+5. NY Fed, Liberty Street Economics — Treasury Market Liquidity Since April 2025 (abr-2026) — https://libertystreeteconomics.newyorkfed.org/2026/04/treasury-market-liquidity-since-april-2025/
+6. Federal Reserve — Order Flow Imbalances and Amplification of Price Movements: Evidence from U.S. Treasury Markets (FEDS Notes, nov-2025) — https://www.federalreserve.gov/econres/notes/feds-notes/order-flow-imbalances-and-amplification-of-price-movements-evidence-from-u-s-treasury-markets-20251103.html
+7. Perli, R. (NY Fed) — Recent Developments in Treasury Market Liquidity and Funding Conditions (may-2025) — https://www.newyorkfed.org/newsevents/speeches/2025/per250509
+8. SEC (Gerig, A.) — The Determinants of ETF Trading Pauses on August 24th, 2015 — https://www.sec.gov/marketstructure/research/determinants_eft_trading_pauses.pdf
+9. Raddatz, C. & Claudio, E. — Authorized Participants' Regulatory Constraints and Limits to ETF Arbitrage during Market Turmoil (JBFA, 2025) — https://ideas.repec.org/a/eee/jbfina/v179y2025ics0378426625001190.html
+10. Son, D. et al. — Liquidity Spillover between ETFs and their Constituents (Review of Financial Economics, 2023) — https://ideas.repec.org/a/eee/reveco/v88y2023icp723-747.html
+11. Battalio, R., Corwin, S., Jennings, R. — On the Relation between Make-Take Fees and Limit Order Execution Quality (JOF, 2016) — https://doi.org/10.1111/jofi.12422
+12. LSE — Order Routing and Market Quality: Who Benefits From Internalization? (2025) — https://researchonline.lse.ac.uk/id/eprint/129686/3/Mathematical_Finance_-_2025_-_eti_n_-_Order_Routing_and_Market_Quality_Who_Benefits_From_Internalization.pdf
+13. Noticias recientes (clúster Google News RSS, ago-2026): "Treasury Boosts Long-Term Bond Buybacks" / "Treasury Buyback Relief Soothes Bond Market" — feed: https://news.google.com/rss/search?q=Treasury+market+liquidity+2026&hl=en (URL de artículo individual no localizada; citado el cluster de noticias).
+
+---
+
+## Nota de evolucion 2026-08-30 (elisa)
+
+Asenso a pagina durable del wiki tras revision de la CIO. La sonde de origen (scratchpad/sondas-2026-08-30/estructura-mercado-liquidez.md) se valido: estructura completa de 9 secciones, seccion de segundo orden presente y >=6 fuentes reales. No se reescribio ninguna afirmacion previa. Trailer de commit: Agente: elisa.
+
+## Ver también
+
+- [[correlaciones-dinamicas]] · [[datos-alternativos-timing]] · [[liquidez-riesgo-oculto]] · [[regimen-volatilidad-asignacion]] · [[senales-opciones-flow]]
+
+## Nota de evolución 2026-08-31 (cerebro-enlaza)
+
+Red de conocimiento: enlace de la hornada durable 2026-08-30 en red neuronal interna (sección «Ver también»). Verificación previa: 41 páginas ascendidas con `status: durable` y validación CIO (9 secciones, 2º orden, ≥6 fuentes), frontmatter canónico, 0 errores. Hallazgo: `itau-unibanco` duplicado en `empresas/` y `analisis-acciones/` (colisión de slug; pendiente decisión de Carlos). Trailer: Agente: cerebro-enlaza.

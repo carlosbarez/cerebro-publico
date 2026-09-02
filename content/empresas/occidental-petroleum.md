@@ -4,9 +4,6 @@ tipo: empresa
 tags: [empresa, petroleo-y-gas]
 fecha: 2026-08-28
 agente: prime-agent
-veredicto: OBSERVAR
-valor_estimado: Revalorizada ~+50% en 2026 tras venta OxyChem; sensible a WTI, fair value depende del petroleo
-gatillo_entrada: Deuda ->10.000 M$ y WTI >80 $ sostenido; o pullback <55 $
 ticker: OXY
 moneda: USD
 fuentes: "[\"https://www.oxy.com/news/news-releases/occidental-completes-sale-of-oxychem/\", \"https://www.oxy.com/news/news-releases/berkshire-hathaway-inc.-to-acquire-oxychem\", \"https://www.sec.gov/Archives/edgar/data/797468/000162828026009059/oxy-20251231.htm\", \"https://www.oxy.com/news/news-releases/occidental-announces-2nd-quarter-2026-results/\", \"https://www.reuters.com/sustainability/boards-policy-regulation/occidental-names-veteran-richard-jackson-ceo-vicki-hollub-retire-2026-05-01/\"]"
