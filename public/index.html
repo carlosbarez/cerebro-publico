@@ -11,6 +11,7 @@
   <script src="/ui/cerebro-forma.js" defer></script>
   <script src="/ui/cerebro.js" defer></script>
   <script src="/ui/cerebro-fondo.js" defer></script>
+  <script src="/ui/moneda.js" defer></script>
   <script src="/ui/cartera-parseo.js" defer></script>
   <script src="/ui/fuente.js" defer></script>
   <script src="/ui/supabase-config.js"></script>
@@ -38,7 +39,7 @@ FINISH: unreviewed and undocumented is unfinished.
 -->
   <a class="saltar" href="#contenido">Saltar al contenido</a>
   <header id="barra">
-    <p class="casa">El Cerebro</p>
+    <p class="casa"><span id="moneda-ancla-barra" aria-hidden="true"></span>El Cerebro</p>
     <nav aria-label="Secciones">
       <ul id="secciones" role="tablist">
         <li><button role="tab" data-seccion="chat" aria-controls="seccion-chat" aria-selected="true">Chat con Elisa</button></li>
@@ -55,7 +56,7 @@ FINISH: unreviewed and undocumented is unfinished.
       <div id="hero">
         <div class="hero-claim">
           <p class="hero-tag">Pregunta · circula · responde con fuentes</p>
-          <h1>Cinco mentes. Una cartera. Cero ruido.</h1>
+          <h1>Cinco mentes<br>Una cartera<br>Cero ruido</h1>
         </div>
         <figure id="cerebro-marco">
           <!-- La pieza la pone app.js: el canvas de cerebro.js (reanimado desde cerebro-forma.js y
@@ -202,6 +203,25 @@ FINISH: unreviewed and undocumented is unfinished.
       </div>
     </section>
   </main>
+  <!-- La moneda: una sola pieza que viaja entre dos anclas. La capa es fixed y decorativa (el
+       nombre lo sigue diciendo el rotulo de la barra, asi que aria-hidden y no role="img").
+       El nicho es HERMANO del rail, no hijo: el rail es display:none sin `con-instrumentos` y
+       `cuenta` no los pinta, y ademas pintarInstrumentos hace replaceChildren. -->
+  <div id="moneda" aria-hidden="true"></div>
+  <div id="moneda-nicho" aria-hidden="true"></div>
   <aside id="instrumentos" aria-label="Instrumentos de la sección"></aside>
+  <script>
+    // three son ~180 KB gz y esta pagina ya no es solo la portada: que no los pague la primera
+    // pintura. Hasta que la escena esta lista se ve moneda.svg, que moneda.js ya ha puesto.
+    window.addEventListener('load', () => {
+      const s = document.createElement('script');
+      s.type = 'module';
+      // Absoluta, como los demas <script> de esta pagina: en el sitio estatico el rewrite
+      // comodin sirve este index.html tambien en /empresas/jd-com, y una ruta relativa a
+      // document.baseURI pediria /empresas/ui/... — 404 mudo, moneda congelada en el SVG.
+      s.src = '/ui/pieza-moneda.js';
+      document.head.appendChild(s);
+    });
+  </script>
 </body>
 </html>

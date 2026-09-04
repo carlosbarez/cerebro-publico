@@ -134,7 +134,11 @@
     aside.append(grupo('Materias', materias.map((m) => m.nombre).join(' · ') || 'n/d'));
   };
   const INSTRUMENTOS = { chat: instrumentosChat, cartera: instrumentosCartera, newsletter: instrumentosNewsletter, biblioteca: instrumentosBiblioteca };
-  const pintarInstrumentos = (seccion, ...args) => { const aside = $('#instrumentos'); aside.replaceChildren(crear('h2', 'Instrumentos')); const f = INSTRUMENTOS[seccion]; if (f && args.length) { f(aside, ...args); document.body.classList.add('con-instrumentos'); } else { document.body.classList.remove('con-instrumentos'); } };
+  // La seccion que se esta viendo AHORA. Hace falta porque los pintores de instrumentos son
+  // asincronos: pintarBiblioteca pide datos, y su respuesta puede llegar cuando el visitante ya se
+  // ha ido a otra pestaña. Sin este guardia, el rail de biblioteca aparecia sobre `cuenta`.
+  let seccionActual = 'chat';
+  const pintarInstrumentos = (seccion, ...args) => { if (seccion !== seccionActual) return; const aside = $('#instrumentos'); aside.replaceChildren(crear('h2', 'Instrumentos')); const f = INSTRUMENTOS[seccion]; if (f && args.length) { f(aside, ...args); document.body.classList.add('con-instrumentos'); } else { document.body.classList.remove('con-instrumentos'); } };
 
   /* ——— utilidades de pintado ——— */
   const celdaEsqueleto = () => { const celda = crear('span', undefined, 'celda'); celda.append(crear('span', '8.888,88', 'ochos')); return celda; };
@@ -159,10 +163,16 @@
   const ALIAS = { boletin: 'newsletter', predicciones: 'chat' };
   const activarSeccion = (nombre) => {
     if (!SECCIONES.includes(nombre)) nombre = 'chat';
+    seccionActual = nombre;
     document.querySelectorAll('#secciones button').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.seccion === nombre)));
     document.querySelectorAll('main section').forEach((s) => { s.hidden = s.dataset.seccion !== nombre; });
-    if (nombre === 'chat') pintarInstrumentos('chat');
+    // Sin argumentos, pintarInstrumentos vacia el rail y quita `con-instrumentos`: es el camino de
+    // limpieza que la funcion ya tiene (`if (f && args.length) ... else`). Llamarla SIEMPRE es lo
+    // que impide que `cuenta` herede los instrumentos de la seccion anterior — no la llamaba nadie
+    // para esa seccion. Las que si los tienen vuelven a llamarla con datos desde `cargas[nombre]`.
+    pintarInstrumentos(nombre);
     if (window.CerebroFondo) window.CerebroFondo.seccion(nombre);
+    if (window.CerebroMoneda) window.CerebroMoneda.seccion(nombre);
     const cargas = { cartera: pintarCartera, newsletter: pintarNewsletter, biblioteca: pintarBiblioteca, cuenta: () => window.CerebroCuenta && window.CerebroCuenta.pintar() };
     if (cargas[nombre]) cargas[nombre]();
     window.scrollTo(0, 0);

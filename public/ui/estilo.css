@@ -30,7 +30,7 @@ body.leida #barra { background: color-mix(in srgb, var(--fondo) 86%, transparent
 #contenido .respuesta, #contenido .prosa-panel, #contenido #vacio, #biblioteca-indice { max-width: 68ch; }
 
 /* ——— hero: titular / cerebro / nota, a un viewport ——— */
-#hero { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, 40vw) minmax(0, 1fr); gap: 18px; align-items: center; min-height: calc(100vh - var(--alto-barra) - 64px); }
+#hero { position: relative; display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(280px, 34vw) minmax(0, 1fr); gap: 18px; align-items: center; min-height: calc(100vh - var(--alto-barra) - 64px); }
 .hero-tag { margin: 0 0 18px; color: var(--catodo); font: 500 .75rem/1 var(--condensada); letter-spacing: .16em; text-transform: uppercase; }
 .hero-claim { position: relative; z-index: 2; }
 /* El velo: el dibujo desborda por detras del titular, asi que el texto necesita suelo propio.
@@ -44,7 +44,7 @@ body.leida #barra { background: color-mix(in srgb, var(--fondo) 86%, transparent
               transparent 78%);
   pointer-events: none;
 }
-.hero-claim h1 { max-width: 12ch; margin: 0; color: var(--hueso); font: 500 clamp(2.6rem, 5.4vw, 5.4rem)/0.9 var(--condensada); letter-spacing: 0; text-transform: uppercase; }
+.hero-claim h1 { margin: 0; color: var(--hueso); font: 500 clamp(2.4rem, 4.2vw, 5.4rem)/0.95 var(--condensada); letter-spacing: 0; text-transform: uppercase; }
 .hero-nota { position: relative; z-index: 2; max-width: 30ch; margin: 0; color: var(--hueso); font: 400 clamp(1.15rem, 1.55vw, 1.8125rem)/1.26 var(--prosa); }
 #cerebro-marco { position: relative; margin: 0; text-align: center; }
 /* #cerebro ya NO es la pieza: es solo el HUECO que reserva en la rejilla del hero (en height, no
@@ -172,6 +172,32 @@ body.con-instrumentos #instrumentos { display: block; position: fixed; top: var(
 #instrumentos .cifra { display: block; margin: 4px 0 0; color: var(--catodo); font: 500 2.4rem/1 var(--condensada); }
 body.con-instrumentos #contenido { padding-right: calc(var(--ancho-instrumentos) + 42px); }
 
+/* ——— la moneda: una pieza, dos sitios ———
+   La capa es fixed y se coloca sobre el ancla que toque, midiendola con getBoundingClientRect. Va
+   por encima de la barra (30) porque tiene que cruzarla. No se come clics: solo el canvas. */
+#moneda { position: fixed; z-index: 31; top: 0; left: 0; pointer-events: none; will-change: transform, width, height; }
+#moneda canvas { pointer-events: auto; }
+#moneda img, #moneda canvas { display: block; width: 100%; height: 100%; }
+#moneda-ancla-barra { display: inline-block; width: 18px; height: 18px; margin-right: 9px; vertical-align: -4px; }
+#moneda-nicho { display: none; }
+/* Cuadrada, y en el HUECO —no encajonada en la esquina—.
+   La primera version la metia dentro de la columna de instrumentos, pegada al borde derecho y bajo
+   la barra. Cabia, pero desaprovechaba la banda vacia que hay entre la columna de texto (68ch) y el
+   rail: a 1440 son 458px de nada. Ahora se sienta en esa banda, y por eso ya no hace falta ni
+   reservarle sitio al rail por arriba ni empujar el contenido en `cuenta`: la moneda ocupa espacio
+   que ya estaba vacio.
+   El desplazamiento va en vw para que siga centrada en la banda cuando la ventana crece. */
+body.con-moneda #moneda-nicho { display: block; position: fixed;
+  top: calc(var(--alto-barra) + 12vh);
+  right: calc(var(--ancho-instrumentos) + 6vw);
+  width: var(--moneda-grande); height: var(--moneda-grande); }
+/* Y el contenido se aparta de la banda. Sin esto el formulario de cartera se extendia por debajo
+   de la moneda —no todo el contenido esta limitado a 68ch— y como el canvas SI recibe clics (es
+   arrastrable), la moneda se comia el boton de AÑADIR. Un solape que no se ve en una captura y que
+   deja un boton muerto. */
+body.con-moneda #contenido {
+  padding-right: calc(var(--ancho-instrumentos) + 6vw + var(--moneda-grande) + 42px); }
+
 @keyframes golpe { from { opacity: .25; filter: blur(6px); } to { opacity: 1; filter: blur(0); } }
 /* ——— la cartera del visitante ——— */
 .seccion-nota { max-width: 68ch; margin: 8px 0 0; color: var(--hueso-3); font: 400 .9rem/1.5 var(--prosa); }
@@ -210,6 +236,8 @@ body.con-instrumentos #contenido { padding-right: calc(var(--ancho-instrumentos)
 
 @media (max-width: 1199px) {
   body.con-instrumentos #contenido { padding-right: 42px; }
+  /* El rail deja de ser columna: no hay hueco al que viajar. La moneda se queda en la barra. */
+  body.con-moneda #moneda-nicho { display: none; }
   body.con-instrumentos #instrumentos { position: static; width: auto; padding: 0 42px 60px; }
   .serial { display: none; }
 }

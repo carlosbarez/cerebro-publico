@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="presentation">
+  <!-- El respaldo de la moneda: una sola cara, el dolar, sin giro. Es lo que se ve mientras three
+       carga y lo que se queda si el navegador no da WebGL. Los hex si van aqui: esto es un SVG, no
+       estilo.css, y el token no se puede leer desde dentro de un <img>. -->
+  <defs>
+    <radialGradient id="oro" cx="38%" cy="30%" r="78%">
+      <stop offset="0" stop-color="#f6d98c"/>
+      <stop offset="0.62" stop-color="#e8bb55"/>
+      <stop offset="1" stop-color="#8a6a25"/>
+    </radialGradient>
+  </defs>
+  <circle cx="50" cy="50" r="48" fill="url(#oro)"/>
+  <circle cx="50" cy="50" r="42" fill="none" stroke="#8a6a25" stroke-width="1.6" opacity=".6"/>
+  <text x="50" y="69" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, sans-serif"
+        font-weight="700" font-size="52" fill="#6b4e2a" opacity=".85">$</text>
+</svg>

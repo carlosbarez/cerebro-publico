@@ -23,6 +23,8 @@
   --catodo: #dc5000;         /* brasa — acento editorial y unico boton relleno; se gana su rareza */
   --catodo-tinta: #100904;   /* lo que se escribe ENCIMA de la brasa: tinta nogal */
   --bronce: #8a7a68;         /* madera — hairlines, bordes y micro-rotulos */
+  --oro: #e8bb55;            /* el metal de la moneda de marca: oro calido, familia del bronce */
+  --oro-sombra: #6b4e2a;     /* el cuero caliente que el oro refleja por debajo */
   --aviso: #ff7a66;          /* rojo calido de fallo: funcional, no de marca */
   --fantasma: rgba(255, 237, 215, .14);
   --rejilla: rgba(255, 237, 215, .05);
@@ -39,8 +41,10 @@
   --t-seccion: 180ms;
   --t-piel: 600ms;
   --t-fila: 260ms;
+  --t-moneda: 600ms;         /* lo que tarda la moneda en cruzar la pantalla */
   /* medida */
   --alto-barra: 64px;
   --ancho-instrumentos: 300px;
+  --moneda-grande: 200px;    /* el lado de la moneda cuando aterriza en la columna derecha */
   --alto-entrada: 96px;
 }
