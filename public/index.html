@@ -21,6 +21,12 @@
   <script type="module" src="/ui/cartera-buscador.mjs"></script>
   <script type="module" src="/ui/cartera-foto.mjs"></script>
   <script src="/ui/app.js" defer></script>
+  <!-- Analitica de Vercel Web Analytics: same-origin (/_vercel/*), sin cookies y sin grabacion
+       de sesion. No es un SDK de terceros: no sale una sola peticion fuera de este dominio, por
+       eso pasa la barrera (5) de tests/web/test_cuenta_estatica.py. En local da 404 y no pinta
+       nada: el endpoint solo existe servido desde Vercel. Plan Hobby = 50.000 eventos/mes
+       incluidos y, al pasarse, Vercel PAUSA la recogida — no puede cobrar. -->
+  <script src="/_vercel/insights/script.js" defer></script>
 </head>
 <body>
 <!--
